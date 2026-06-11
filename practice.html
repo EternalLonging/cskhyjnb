@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>开始刷题 - 综合题库</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="practice">
+  <div class="app-shell quiz-shell">
+    <header class="practice-topbar">
+      <button id="backHomeBtn" class="back-btn" type="button">← 返回首页</button>
+      <div class="practice-title">
+        <h1>开始刷题</h1>
+        <p id="practiceSub">正在加载题目...</p>
+      </div>
+      <div class="topbar-actions"><button id="manageQuestionsBtn" class="ghost small-btn" type="button">题库管理</button><button id="restartBtn" class="ghost small-btn" type="button">重开本轮</button></div>
+    </header>
+
+    <main class="panel quiz-panel single-page-quiz">
+      <div class="toolbar">
+        <div>
+          <span class="pill" id="modePill">未开始</span>
+          <span class="pill soft" id="topicPill">正在准备</span>
+          <button id="historyBtn" class="history-btn" type="button">题号列表（0）</button>
+        </div>
+        <div class="score">
+          <span>正确 <b id="rightNum">0</b></span>
+          <span>错误 <b id="wrongNum">0</b></span>
+          <span>正确率 <b id="rateNum">0%</b></span>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <div class="keyboard-help">电脑版快捷键：1=A，2=B，3=C，4=D，5=直接看答案，空格=提交答案/下一题/直接看答案；答对后会自动进入下一题。</div>
+
+      <div id="emptyState" class="empty-state">
+        <h2>正在生成题目</h2>
+        <p>如果没有题目，请返回首页换一个专题或题型。</p>
+      </div>
+
+      <article id="questionCard" class="question-card hidden">
+        <div class="question-meta" id="questionMeta"></div>
+        <h2 id="questionText"></h2>
+        <div id="optionsBox" class="options"></div>
+        <div id="textAnswerBox" class="text-answer-box hidden">
+          <input id="fillAnswerInput" type="text" placeholder="请输入填空答案" />
+          <textarea id="shortAnswerInput" rows="5" placeholder="请输入简答作答内容"></textarea>
+        </div>
+        <div id="answerBox" class="answer-box hidden"></div>
+        <div class="actions">
+          <button id="submitBtn" class="primary" type="button">提交答案</button>
+          <button id="showBtn" class="ghost" type="button">直接看答案</button>
+          <button id="retryWrongBtn" class="ghost hidden" type="button">重新作答</button>
+          <button id="nextBtn" class="primary hidden" type="button">下一题</button>
+          <button id="editCurrentQuestionBtn" class="ghost" type="button">编辑本题</button>
+        </div>
+
+        <section id="notePanel" class="note-panel hidden">
+          <div class="note-head">
+            <div>
+              <h3>本题题解 / 评论</h3>
+              <p id="noteQuestionTitle">当前题</p>
+            </div>
+            <span id="noteSaveTip" class="note-save-tip">题解会自动保存到本机</span>
+          </div>
+
+          <label class="note-label" for="explanationInput">题解（可编辑）</label>
+          <textarea id="explanationInput" class="note-textarea" rows="4" placeholder="可以写错项原因、记忆方法，支持 Markdown。例：**D（与时俱进）** 主要属于中国特色社会主义理论体系中的表述。"></textarea>
+          <div id="explanationPreview" class="explanation-preview markdown-body"></div>
+
+          <label class="note-label" for="commentInput">评论</label>
+          <div class="comment-editor">
+            <textarea id="commentInput" class="comment-input" rows="2" placeholder="写一条评论，例如：这题容易把“实事求是”和“与时俱进”混淆。"></textarea>
+            <button id="addCommentBtn" class="ghost comment-add" type="button">发表评论</button>
+          </div>
+          <div id="commentList" class="comment-list"></div>
+        </section>
+      </article>
+
+      <section id="reviewList" class="review-list hidden"></section>
+
+      <section id="historyPanel" class="history-panel hidden" aria-label="本轮已刷题目">
+        <div class="history-drawer">
+          <div class="history-head">
+            <div>
+              <h2>题号列表</h2>
+              <p>只显示题号，不显示题目全文。灰色未做，绿色正确，红色错误，点题号可跳回那一题。</p>
+            </div>
+            <button id="closeHistoryBtn" class="history-close" type="button">关闭</button>
+          </div>
+          <div id="historyList" class="history-list"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

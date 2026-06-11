@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>综合刷题网站</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="home">
+  <div class="app-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">云端同步 / 单机刷题</p>
+        <h1>综合题库刷题网站</h1>
+        <p class="sub">根据你上传的 Word 题库自动生成，支持章节练习、随机刷题、错题重做和答案速背。可选择云端同步模式，也可以使用不需要同步码的单机模式。</p>
+      </div>
+      <div class="hero-card hero-card-tools">
+        <button id="manualBtn" class="ghost manual-btn" type="button">使用手册</button>
+        <div class="total-count-box"><strong id="totalCount">0</strong><span>道题已导入</span></div>
+      </div>
+    </header>
+
+    <main class="home-layout">
+      <section class="panel controls home-controls">
+        <h2>练习设置</h2>
+        <label class="field-label" for="modeSelect">模式</label>
+        <select id="modeSelect">
+          <option value="practice">刷题模式</option>
+          <option value="wrong">错题重做</option>
+          <option value="review">答案速背</option>
+        </select>
+
+        <label class="field-label" for="typeSelect">题型</label>
+        <select id="typeSelect">
+          <option value="all">全部题型</option>
+          <option value="single">只做单选</option>
+          <option value="multiple">只做多选</option>
+          <option value="fill">只做填空</option>
+          <option value="short">只做简答</option>
+        </select>
+
+        <label class="field-label" for="orderSelect">出题顺序</label>
+        <select id="orderSelect">
+          <option value="random">随机</option>
+          <option value="sequential">按文件顺序</option>
+        </select>
+
+        <label class="field-label" for="countInput">本轮题数</label>
+        <input id="countInput" type="number" min="1" value="30" />
+
+        <details class="pref-box pref-collapsible" id="preferenceBox">
+          <summary class="pref-summary">
+            <span><b>用户偏好设置</b><small>自动提交、选项乱序、单选在前、多选在后等</small></span>
+            <em class="pref-expand-hint">展开</em>
+          </summary>
+          <div class="pref-content">
+            <label class="switch-row" for="prefAutoSubmit"><input id="prefAutoSubmit" type="checkbox" /> <span>选完选项后自动提交<small>单选题选择后直接提交；多选题仍需手动提交。</small></span></label>
+            <label class="switch-row" for="prefShuffleOptions"><input id="prefShuffleOptions" type="checkbox" /> <span>选项位置乱序<small>关闭后按原 A/B/C/D 顺序显示。</small></span></label>
+            <label class="switch-row" for="prefAutoNextCorrect"><input id="prefAutoNextCorrect" type="checkbox" /> <span>答对后自动下一题</span></label>
+            <label class="switch-row single-first-row" for="singleFirstCheck"><input id="singleFirstCheck" type="checkbox" /> <span>单选题在前，多选题在后<small>单选刷完后会提醒进入多选题。</small></span></label>
+            <div class="count-grid">
+              <label>随机单选数<input id="singleCountInput" type="number" min="0" value="0" /></label>
+              <label>随机多选数<input id="multipleCountInput" type="number" min="0" value="0" /></label>
+              <label>随机填空数<input id="fillCountInput" type="number" min="0" value="0" /></label>
+              <label>随机简答数<input id="shortCountInput" type="number" min="0" value="0" /></label>
+            </div>
+            <p class="pref-tip">上面数量为 0 时，按“本轮题数”抽题；填写后可控制本轮随机抽取各题型数量。</p>
+          </div>
+        </details>
+
+        <div class="start-actions">
+          <button id="continueBtn" class="primary big-start" type="button">继续刷题</button>
+          <button id="restartHomeBtn" class="ghost big-start" type="button">重新开始</button>
+        </div>
+        <button id="clearWrongBtn" class="ghost" type="button">清空错题本</button>
+        <button id="manageQuestionsBtn" class="ghost" type="button">题库管理（需管理密码）</button>
+      </section>
+
+      <section class="panel intro-panel topic-select-panel">
+        <div class="topic-header topic-main-header">
+          <div>
+            <h2>选择专题</h2>
+            <p>课程名称为大专题，点开后可选择小专题和更小专题。只有大专题可以添加标签。</p>
+          </div>
+          <button class="link-btn" id="toggleTopics" type="button">全选/反选</button>
+        </div>
+        <div class="topic-search-row">
+          <input id="topicSearchInput" type="search" placeholder="搜索课程 / 专题 / 标签" />
+          <button id="clearTopicSearchBtn" class="ghost small-btn" type="button">清空</button>
+        </div>
+        <div id="topicList" class="topic-list topic-tree-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
