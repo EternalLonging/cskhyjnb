@@ -23,8 +23,8 @@ const AUTO_NEXT_DELAY = 420;
 
 
 // Supabase 同步配置：Project URL 必须是 https://xxxx.supabase.co，不带 /rest/v1/。
-const SUPABASE_URL = 'https://chxmilepodqtzljhlneu.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_PtF-_FkRRukCwuVH5KOknw_zzf-H0Um';
+const SUPABASE_URL = 'https://mcesiailoesdmrugfijo.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_Ln4ICHH6m4OsGuK9p6SqIA_GNg4_ARI';
 const SYNC_KEY_STORAGE = 'quiz_sync_key_v1';
 const ACCESS_MODE_STORAGE = 'quiz_access_mode_v1';
 const ACCESS_MODE_SYNC = 'sync';
@@ -57,3 +57,7 @@ const CLOUD_CHECK_INTERVAL = 2 * 60 * 1000;
 const QUESTION_EDIT_CLOUD_CHECK_KEY = 'quiz_question_edits_cloud_checked_at_v1';
 const COURSE_TAGS_CLOUD_CHECK_KEY = 'quiz_course_tags_cloud_checked_at_v1';
 const ADMIN_PASSWORD_CLOUD_CHECK_KEY = 'quiz_admin_password_cloud_checked_at_v1';
+
+// 全站题目统计（所有用户答题总次数和正确次数）
+const QUESTION_STATS_SYNC_KEY = '__shared_question_stats_v2__';
+const QUESTION_STATS_PREFIX = 'qstats:';

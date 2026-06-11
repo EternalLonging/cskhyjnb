@@ -4,6 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>综合刷题网站</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="刷题" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body data-page="home">
@@ -64,7 +73,7 @@
               <label>随机填空数<input id="fillCountInput" type="number" min="0" value="0" /></label>
               <label>随机简答数<input id="shortCountInput" type="number" min="0" value="0" /></label>
             </div>
-            <p class="pref-tip">上面数量为 0 时，按“本轮题数”抽题；填写后可控制本轮随机抽取各题型数量。</p>
+            <p class="pref-tip">上面数量为 0 时，按"本轮题数"抽题；填写后可控制本轮随机抽取各题型数量。</p>
           </div>
         </details>
 
@@ -103,5 +112,12 @@
   <script src="state.js"></script>
   <script src="ui.js"></script>
   <script src="app.js"></script>
+
+  <!-- PWA: register service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
 </body>
 </html>

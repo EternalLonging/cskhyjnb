@@ -4,6 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>开始刷题 - 综合题库</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="刷题" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body data-page="practice">
@@ -74,7 +83,7 @@
 
           <label class="note-label" for="commentInput">评论</label>
           <div class="comment-editor">
-            <textarea id="commentInput" class="comment-input" rows="2" placeholder="写一条评论，例如：这题容易把“实事求是”和“与时俱进”混淆。"></textarea>
+            <textarea id="commentInput" class="comment-input" rows="2" placeholder="写一条评论，例如：这题容易把实事求是和与时俱进混淆。"></textarea>
             <button id="addCommentBtn" class="ghost comment-add" type="button">发表评论</button>
           </div>
           <div id="commentList" class="comment-list"></div>
@@ -108,5 +117,12 @@
   <script src="state.js"></script>
   <script src="ui.js"></script>
   <script src="app.js"></script>
+
+  <!-- PWA: register service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
 </body>
 </html>

@@ -998,3 +998,84 @@ function saveSettings(settings) {
   setLocalMetaUpdatedAt(Date.now());
   scheduleMetaToCloud();
 }
+
+// ——— 全站题目统计（所有用户答题总次数和正确率）———
+
+const questionStatsCache = {};
+
+async function fetchQuestionStatsFromCloud(questionId) {
+  if (!questionId) return null;
+  // 单机模式不拉取统计。
+  if (isStandaloneMode()) return null;
+  const client = initSupabaseClient();
+  if (!client) return null;
+  // 本地缓存优先（本会话内已经拉取过）。
+  const cached = questionStatsCache[questionId];
+  if (cached && (nowTs() - (cached._fetchedAt || 0) < 30000)) return cached;
+  try {
+    const { data, error } = await client
+      .from('study_progress')
+      .select('state,updated_at')
+      .eq('sync_key', QUESTION_STATS_SYNC_KEY)
+      .eq('deck_key', QUESTION_STATS_PREFIX + questionId)
+      .maybeSingle();
+    if (error) throw error;
+    const state = data?.state || { total: 0, correct: 0 };
+    const stats = {
+      total: Number(state.total || 0),
+      correct: Number(state.correct || 0),
+      _fetchedAt: nowTs(),
+    };
+    questionStatsCache[questionId] = stats;
+    return stats;
+  } catch (err) {
+    console.warn('拉取题目统计失败：', err);
+    return null;
+  }
+}
+
+async function recordQuestionAttemptToCloud(questionId, isCorrect) {
+  if (!questionId || isStandaloneMode()) return null;
+  const client = initSupabaseClient();
+  if (!client) return null;
+  try {
+    // 读取当前云端统计
+    const { data, error: readErr } = await client
+      .from('study_progress')
+      .select('state,updated_at')
+      .eq('sync_key', QUESTION_STATS_SYNC_KEY)
+      .eq('deck_key', QUESTION_STATS_PREFIX + questionId)
+      .maybeSingle();
+    if (readErr) throw readErr;
+    const current = data?.state || { total: 0, correct: 0 };
+    const stats = {
+      total: Number(current.total || 0) + 1,
+      correct: Number(current.correct || 0) + (isCorrect ? 1 : 0),
+      updatedAt: nowTs(),
+    };
+    // 写回云端
+    const { error: writeErr } = await client.from('study_progress').upsert({
+      sync_key: QUESTION_STATS_SYNC_KEY,
+      deck_key: QUESTION_STATS_PREFIX + questionId,
+      state: stats,
+      updated_at: new Date(stats.updatedAt).toISOString(),
+    });
+    if (writeErr) throw writeErr;
+    // 更新本地缓存
+    questionStatsCache[questionId] = {
+      total: stats.total,
+      correct: stats.correct,
+      _fetchedAt: stats.updatedAt,
+    };
+    return questionStatsCache[questionId];
+  } catch (err) {
+    console.warn('记录题目统计失败：', err);
+    return null;
+  }
+}
+
+function formatQuestionStats(stats) {
+  if (!stats || !stats.total) return '';
+  const rate = Math.round(stats.correct / stats.total * 100);
+  return `<span class="question-stats">全站统计：共 <b>${stats.total}</b> 次提交，正确率 <b>${rate}%</b></span>`;
+}

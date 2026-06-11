@@ -60,6 +60,8 @@ Both pages use the same codebase; the `data-page` attribute on `<body>` is the s
 | `questions` / `summary` | config.js (populated by data.js) | The active question bank and per-topic stats |
 | `$` | config.js | Shorthand for `document.getElementById()` |
 
+| `questionStatsCache` | sync.js | Caches per-question global stats (total attempts, correct rate) fetched from cloud |
+
 ### Auth Model (Frontend-Only)
 
 - **Cloud sync mode**: Requires a sync code + invite code. Progress synced per sync code.
@@ -70,9 +72,13 @@ Both pages use the same codebase; the `data-page` attribute on `<body>` is the s
 
 ### Supabase Table Usage
 
-The app uses three Supabase tables via the `study_progress` key-value pattern:
-- `study_progress` (sync_key, deck_key, state JSON, updated_at) — for progress, settings, question edits, admin password, course tags, invite codes
+The app uses two Supabase tables:
+- `study_progress` (sync_key, deck_key, state JSON, updated_at) — key-value store for progress, settings, question edits, admin password, course tags, invite codes, and per-question global stats (`__shared_question_stats_v2__`)
 - `question_notes` (sync_key, question_id, note JSON, updated_at) — for shared notes/comments
+
+### Per-Question Global Stats
+
+In sync mode, `submitAnswer()` calls `recordQuestionAttemptToCloud(questionId, isCorrect)` which atomically increments the global attempt count and correct count for that question. The results are displayed below the answer as "全站统计：共 N 次提交，正确率 X%". Stats are cached locally in `questionStatsCache` (30s TTL) and stored in `study_progress` with `sync_key = '__shared_question_stats_v2__'` and `deck_key = 'qstats:{questionId}'`. Single-machine mode neither records nor displays stats.
 
 ### Key Architectural Patterns
 
