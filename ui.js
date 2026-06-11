@@ -1095,38 +1095,143 @@ async function ensureAdminUnlocked(action) {
 
 
 
-function openInviteManageDialog() {
+
+
+async function openInviteManageDialog() {
   document.getElementById('inviteManageOverlay')?.remove();
+  await saveAdminPasswordToCloud(getAdminPassword());
+  const adminPassword = getAdminPassword();
+
   const overlay = document.createElement('div');
   overlay.id = 'inviteManageOverlay';
   overlay.className = 'auth-overlay admin-password-overlay';
-  overlay.innerHTML = `<div class="auth-card">
-    <h1>修改邀请码</h1>
-    <p>这里修改的是全站统一邀请码。修改后，新设备进入同步模式或单机模式时都需要输入新的邀请码；已经验证过的设备不需要重复输入。</p>
-    <input id="inviteNewCodeInput" type="text" placeholder="新邀请码" />
-    <button id="inviteSaveBtn" class="primary" type="button">保存邀请码</button>
-    <button id="inviteCancelBtn" class="ghost" type="button">取消</button>
-    <div id="inviteManageStatus" class="auth-error"></div>
-  </div>`;
+  overlay.innerHTML = '<div class="auth-card" style="max-width:800px;width:95%;">'
+    + '<h1>邀请码管理（一人一码）</h1>'
+    + '<p>生成和管理邀请码。每个邀请码可单独设置使用次数、有效期和指定使用者。</p>'
+    + '<div class="invite-manage-toolbar" style="display:flex;gap:8px;justify-content:center;margin-bottom:8px;">'
+    + '<button id="inviteCreateBtn" class="primary" type="button">+ 生成新邀请码</button>'
+    + '<button id="inviteRefreshBtn" class="ghost" type="button">刷新列表</button>'
+    + '</div>'
+    + '<div id="inviteCodeList" class="invite-code-list" style="max-height:420px;overflow:auto;"></div>'
+    + '<div id="inviteManageStatus" class="auth-error" style="min-height:22px;margin-top:8px;"></div>'
+    + '<button id="inviteCloseBtn" class="ghost" type="button" style="margin-top:8px;">关闭</button>'
+    + '</div>';
   document.body.appendChild(overlay);
-  const status = overlay.querySelector('#inviteManageStatus');
-  overlay.querySelector('#inviteSaveBtn')?.addEventListener('click', async () => {
-    const code = overlay.querySelector('#inviteNewCodeInput')?.value || '';
-    if (!String(code).trim()) { status.textContent = '邀请码不能为空。'; return; }
-    status.textContent = '正在保存...';
+
+  const statusEl = overlay.querySelector('#inviteManageStatus');
+  const listEl = overlay.querySelector('#inviteCodeList');
+
+  const loadCodes = async () => {
+    listEl.innerHTML = '<p style="text-align:center;color:#64748b;">正在加载...</p>';
+    statusEl.textContent = '';
     try {
-      await saveInviteForSyncKey('', code);
-      status.style.color = '#16a34a';
-      status.textContent = `邀请码已修改为“${code}”。`;
-    } catch (err) {
-      status.style.color = '#dc2626';
-      status.textContent = err.message || '保存失败。';
-    }
-  });
-  overlay.querySelector('#inviteCancelBtn')?.addEventListener('click', () => overlay.remove());
-  overlay.addEventListener('click', event => { if (event.target === overlay) overlay.remove(); });
-  setTimeout(() => overlay.querySelector('#inviteNewCodeInput')?.focus(), 50);
+      const result = await adminListInviteCodes(adminPassword);
+      const codes = result.codes || [];
+      if (!codes.length) { listEl.innerHTML = '<p style="text-align:center;color:#64748b;padding:24px;">还没有邀请码，点击上方"生成新邀请码"创建。</p>'; return; }
+      var html = '<table style="width:100%;border-collapse:collapse;font-size:13px;">'
+        + '<thead><tr style="background:#f1f5f9;">'
+        + '<th style="padding:8px;text-align:left;">邀请码</th>'
+        + '<th style="padding:8px;text-align:center;width:60px;">次数</th>'
+        + '<th style="padding:8px;text-align:left;min-width:60px;">指定给</th>'
+        + '<th style="padding:8px;text-align:left;min-width:80px;">过期</th>'
+        + '<th style="padding:8px;text-align:center;width:50px;">状态</th>'
+        + '<th style="padding:8px;text-align:center;width:50px;">操作</th>'
+        + '</tr></thead><tbody>';
+      codes.forEach(function(c) {
+        var sc = c.status === 'active' ? '#16a34a' : c.status === 'expired' ? '#a0a0a0' : '#dc2626';
+        var st = c.status === 'active' ? '有效' : c.status === 'expired' ? '过期' : '禁用';
+        var op = c.status !== 'active' ? 'opacity:0.55;' : '';
+        var ui = c.max_uses > 0 ? (c.used_count + '/' + c.max_uses) : (c.used_count + '/不限');
+        var ei = c.expires_at ? formatTime(new Date(c.expires_at).getTime()) : '-';
+        var ai = c.assigned_to ? escapeHtml(c.assigned_to) : '<span style="color:#a0a0a0;">-</span>';
+        var ni = c.notes ? '<br><small style="color:#64748b;">' + escapeHtml(c.notes) + '</small>' : '';
+        var ab = c.status === 'active'
+          ? '<button class="invite-action-btn ghost small-btn" data-code="' + escapeHtml(c.code) + '" data-action="disable">禁用</button>'
+          : '<button class="invite-action-btn ghost small-btn" data-code="' + escapeHtml(c.code) + '" data-action="enable">启用</button>';
+        html += '<tr style="border-bottom:1px solid #e5e7eb;' + op + '">'
+          + '<td style="padding:8px;"><code style="font-weight:600;">' + escapeHtml(c.code) + '</code>' + ni + '</td>'
+          + '<td style="padding:8px;text-align:center;">' + ui + '</td>'
+          + '<td style="padding:8px;">' + ai + '</td>'
+          + '<td style="padding:8px;font-size:12px;">' + ei + '</td>'
+          + '<td style="padding:8px;text-align:center;color:' + sc + ';font-weight:600;">' + st + '</td>'
+          + '<td style="padding:8px;text-align:center;">' + ab + '</td>'
+          + '</tr>';
+      });
+      html += '</tbody></table>';
+      html += '<details style="margin-top:12px;"><summary style="cursor:pointer;color:#2563eb;font-size:13px;">查看使用记录</summary><div style="margin-top:8px;font-size:12px;max-height:200px;overflow:auto;">';
+      var hasUsage = false;
+      codes.forEach(function(c) {
+        if (c.used_by && Array.isArray(c.used_by) && c.used_by.length > 0) {
+          hasUsage = true;
+          html += '<p style="margin:4px 0;"><code style="font-weight:600;">' + escapeHtml(c.code) + '</code>: '
+            + c.used_by.map(function(u) { return escapeHtml(u.identifier || '?') + ' (' + (u.used_at ? formatTime(new Date(u.used_at).getTime()) : '?') + ')'; }).join(', ')
+            + '</p>';
+        }
+      });
+      if (!hasUsage) html += '<p style="color:#a0a0a0;">暂无使用记录</p>';
+      html += '</div></details>';
+      listEl.innerHTML = html;
+
+      listEl.querySelectorAll('.invite-action-btn').forEach(function(btn) {
+        btn.addEventListener('click', async function() {
+          var cd = btn.dataset.code;
+          var ac = btn.dataset.action;
+          var ns = ac === 'disable' ? 'disabled' : 'active';
+          var msg = ac === 'disable' ? '确定禁用邀请码 "' + cd + '" 吗？已使用的授权不受影响。' : '确定重新启用邀请码 "' + cd + '" 吗？';
+          if (!confirm(msg)) return;
+          try { await adminUpdateInviteCode(adminPassword, cd, ns); await loadCodes(); } catch (err) { statusEl.textContent = err.message || '操作失败'; }
+        });
+      });
+    } catch (err) { listEl.innerHTML = ''; statusEl.textContent = err.message || '加载邀请码列表失败'; }
+  };
+
+  const showCreateForm = () => {
+    const existing = overlay.querySelector('.invite-create-form');
+    if (existing) { existing.remove(); return; }
+    const form = document.createElement('div');
+    form.className = 'invite-create-form';
+    form.style.cssText = 'background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:16px;margin-bottom:8px;';
+    form.innerHTML = '<h3 style="margin:0 0 12px;font-size:16px;">生成新邀请码</h3>'
+      + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">'
+      + '<label style="display:flex;flex-direction:column;gap:4px;font-size:13px;">邀请码 <input id="inviteNewCode" type="text" placeholder="例如：zhangsan2024" /></label>'
+      + '<label style="display:flex;flex-direction:column;gap:4px;font-size:13px;">最大使用次数 <input id="inviteNewMaxUses" type="number" value="1" min="1" /></label>'
+      + '<label style="display:flex;flex-direction:column;gap:4px;font-size:13px;">指定给（可选） <input id="inviteNewAssignedTo" type="text" placeholder="姓名或学号" /></label>'
+      + '<label style="display:flex;flex-direction:column;gap:4px;font-size:13px;">过期时间（可选） <input id="inviteNewExpiresAt" type="datetime-local" /></label>'
+      + '<label style="display:flex;flex-direction:column;gap:4px;font-size:13px;grid-column:span 2;">备注（可选） <input id="inviteNewNotes" type="text" placeholder="内部备注" /></label>'
+      + '</div>'
+      + '<div style="display:flex;gap:8px;margin-top:12px;">'
+      + '<button id="inviteCreateSubmit" class="primary" type="button">创建</button>'
+      + '<button id="inviteCreateCancel" class="ghost" type="button">取消</button>'
+      + '</div>'
+      + '<div id="inviteCreateStatus" class="auth-error"></div>';
+    overlay.querySelector('.invite-manage-toolbar').after(form);
+
+    const createStatus = form.querySelector('#inviteCreateStatus');
+    form.querySelector('#inviteCreateSubmit').addEventListener('click', async () => {
+      const code = form.querySelector('#inviteNewCode').value || '';
+      if (!code.trim()) { createStatus.textContent = '邀请码不能为空'; return; }
+      createStatus.textContent = '正在创建...'; createStatus.style.color = '';
+      try {
+        await adminCreateInviteCode(adminPassword, code, {
+          maxUses: parseInt(form.querySelector('#inviteNewMaxUses').value || '1'),
+          expiresAt: form.querySelector('#inviteNewExpiresAt').value ? new Date(form.querySelector('#inviteNewExpiresAt').value).toISOString() : null,
+          assignedTo: form.querySelector('#inviteNewAssignedTo').value || null,
+          notes: form.querySelector('#inviteNewNotes').value || null
+        });
+        form.remove(); await loadCodes();
+      } catch (err) { createStatus.textContent = err.message || '创建失败'; createStatus.style.color = '#dc2626'; }
+    });
+    form.querySelector('#inviteCreateCancel').addEventListener('click', () => form.remove());
+    setTimeout(() => form.querySelector('#inviteNewCode')?.focus(), 50);
+  };
+
+  overlay.querySelector('#inviteCreateBtn').addEventListener('click', showCreateForm);
+  overlay.querySelector('#inviteRefreshBtn').addEventListener('click', loadCodes);
+  overlay.querySelector('#inviteCloseBtn').addEventListener('click', () => overlay.remove());
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+  await loadCodes();
 }
+
 
 function openAdminPasswordChangeDialog() {
   document.getElementById('adminChangePasswordOverlay')?.remove();
@@ -1399,7 +1504,7 @@ function renderQuestionManager(targetId = '') {
         <input id="adminImportFileInput" type="file" accept=".json,.docx,.txt,.text" hidden />
         <button id="adminReloadEditsBtn" class="ghost" type="button">从云端刷新</button>
         <button id="adminChangePasswordBtn" class="ghost" type="button">修改管理密码</button>
-        <button id="adminInviteManageBtn" class="ghost" type="button">修改邀请码</button>
+        <button id="adminInviteManageBtn" class="ghost" type="button">邀请码管理</button>
         <button id="adminResetAllBtn" class="danger-btn" type="button">清空题库修改</button>
       </div>
       <div class="admin-manager-body">
