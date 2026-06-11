@@ -1,0 +1,22 @@
+{
+  "name": "综合题库刷题网站",
+  "short_name": "刷题",
+  "description": "编译原理刷题工具，支持章节练习、随机刷题、错题重做和答案速背",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "orientation": "any",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "lang": "zh-CN",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

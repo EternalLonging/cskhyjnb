@@ -952,7 +952,7 @@ function submitAnswer(forceShow=false) {
     const label = referenceOnlyShort ? '已查看参考答案' : (forceShow ? (record?.result === 'wrong' ? '仍标记为错误，请重新作答直到正确' : '答案') : (correct ? '回答正确 ✅' : '回答错误 ❌'));
     const answerLabel = isChoiceType(q.type) ? `正确答案：${escapeHtml(q.answer)}` : '参考答案：';
     const mine = !forceShow && !isChoiceType(q.type) ? `<br><b>你的作答：</b><br>${renderMarkdown(selectedAns)}` : '';
-    $('answerBox').innerHTML = `${label}<br><b>${answerLabel}</b><br>${renderMarkdown(answerText(q))}${mine}`;
+    $('answerBox').innerHTML = `${label}<br><b>${answerLabel}</b><br>${renderMarkdown(answerText(q))}${mine}<div id="questionStatsArea" class="question-stats-area">${isStandaloneMode() ? '' : '正在加载全站统计...'}</div>`;
   }
   renderQuestionNotes(q);
   $('submitBtn')?.classList.add('hidden');
@@ -963,6 +963,25 @@ function submitAnswer(forceShow=false) {
   updateStats();
   saveProgress();
   if (!forceShow && correct && state.settings?.autoNextCorrect !== false) scheduleAutoNext();
+
+  // 全站统计：同步模式下记录本题作答结果，拉取并显示全站正确率。
+  if (!forceShow && !isStandaloneMode() && q) {
+    recordQuestionAttemptToCloud(q.id, correct).then(stats => {
+      const area = document.getElementById('questionStatsArea');
+      if (area && stats && stats.total) {
+        const rate = Math.round(stats.correct / stats.total * 100);
+        area.innerHTML = `<span class="question-stats">全站统计：共 <b>${stats.total}</b> 次提交，正确率 <b>${rate}%</b></span>`;
+      } else if (area && isStandaloneMode()) {
+        area.innerHTML = '';
+      }
+    }).catch(() => {
+      const area = document.getElementById('questionStatsArea');
+      if (area) area.innerHTML = '';
+    });
+  } else if (isStandaloneMode()) {
+    const area = document.getElementById('questionStatsArea');
+    if (area) area.innerHTML = '';
+  }
 }
 
 
