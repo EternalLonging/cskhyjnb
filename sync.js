@@ -263,40 +263,61 @@ function markSingleInviteAuthorized() {
 function isSingleInviteAuthorized() {
   return Boolean(readInviteAuthMap()[SINGLE_MODE_AUTH_ID]);
 }
-function inviteDeckKey(syncKey) {
-  // 保留函数名兼容旧代码，新版邀请码是全站统一的，不再按同步码区分。
-  return GLOBAL_INVITE_SYNC_KEY;
-}
-async function loadInviteForSyncKey(syncKey) {
+// ---- 一人一码邀请系统（新版 RPC） ----
+
+async function consumeInviteCode(code, identifier) {
   const client = initSupabaseClient();
-  if (!client) return DEFAULT_INVITE_CODE;
-  try {
-    const { data, error } = await client.from('study_progress')
-      .select('state,updated_at')
-      .eq('sync_key', GLOBAL_INVITE_SYNC_KEY)
-      .eq('deck_key', GLOBAL_INVITE_DECK_KEY)
-      .maybeSingle();
-    if (error) throw error;
-    return String(data?.state?.invite || DEFAULT_INVITE_CODE).trim() || DEFAULT_INVITE_CODE;
-  } catch (err) {
-    console.warn('读取邀请码失败：', err);
-    return DEFAULT_INVITE_CODE;
-  }
-}
-async function saveInviteForSyncKey(syncKey, invite) {
-  const code = String(invite || '').trim();
-  const client = initSupabaseClient();
-  if (!client || !code) throw new Error('邀请码不能为空。');
-  const state = { invite: code, updatedAt: Date.now() };
-  const { error } = await client.from('study_progress').upsert({
-    sync_key: GLOBAL_INVITE_SYNC_KEY,
-    deck_key: GLOBAL_INVITE_DECK_KEY,
-    state,
-    updated_at: new Date(state.updatedAt).toISOString(),
+  if (!client) throw new Error('无法连接数据库');
+  const { data, error } = await client.rpc('consume_invite_code', {
+    p_code: (code || '').trim(),
+    p_identifier: (identifier || '').trim(),
   });
   if (error) throw error;
-  return state;
+  if (!data || !data.success) throw new Error((data && data.error) || '邀请码验证失败');
+  return data;
 }
+
+async function adminCreateInviteCode(adminPassword, code, options) {
+  options = options || {};
+  const client = initSupabaseClient();
+  if (!client) throw new Error('无法连接数据库');
+  const { data, error } = await client.rpc('admin_create_invite_code', {
+    p_admin_password: adminPassword,
+    p_code: (code || '').trim(),
+    p_max_uses: Math.max(1, Number(options.maxUses) || 1),
+    p_expires_at: options.expiresAt || null,
+    p_assigned_to: (options.assignedTo || '').trim() || null,
+    p_notes: (options.notes || '').trim() || null,
+  });
+  if (error) throw error;
+  if (!data || !data.success) throw new Error((data && data.error) || '创建失败');
+  return data;
+}
+
+async function adminListInviteCodes(adminPassword) {
+  const client = initSupabaseClient();
+  if (!client) throw new Error('无法连接数据库');
+  const { data, error } = await client.rpc('admin_list_invite_codes', {
+    p_admin_password: adminPassword,
+  });
+  if (error) throw error;
+  if (!data || !data.success) throw new Error((data && data.error) || '获取列表失败');
+  return data;
+}
+
+async function adminUpdateInviteCode(adminPassword, code, newStatus) {
+  const client = initSupabaseClient();
+  if (!client) throw new Error('无法连接数据库');
+  const { data, error } = await client.rpc('admin_update_invite_code', {
+    p_admin_password: adminPassword,
+    p_code: (code || '').trim(),
+    p_new_status: newStatus,
+  });
+  if (error) throw error;
+  if (!data || !data.success) throw new Error((data && data.error) || '操作失败');
+  return data;
+}
+
 
 // ——— 课程标签 ———
 
@@ -480,8 +501,9 @@ function showSingleInviteOverlay(onReady) {
   overlay.className = 'auth-overlay';
   overlay.innerHTML = `
     <div class="auth-card sync-card">
-      <h1>输入邀请码</h1>
-      <p>单机模式也需要邀请码。验证通过后，本设备下次进入单机模式不需要重复输入。</p>
+      <h1>输入邀请码（一人一码）</h1>
+      <p>请输入管理员发给你的邀请码。验证通过后，本设备下次进入单机模式不需要重复输入。</p>
+      <input id="singleInviteNameInput" type="text" autocomplete="off" placeholder="姓名/学号（可选）" />
       <input id="singleInviteInput" type="password" autocomplete="off" placeholder="邀请码" />
       <button id="singleInviteSubmit" class="primary" type="button">进入单机模式</button>
       <button id="singleBackModeSelect" class="ghost" type="button">返回选择模式</button>
@@ -494,17 +516,12 @@ function showSingleInviteOverlay(onReady) {
   const error = overlay.querySelector('#singleInviteError');
   const accept = async () => {
     const invite = (input.value || '').trim();
+    const nameInput = overlay.querySelector('#singleInviteNameInput');
+    const identifier = (nameInput ? (nameInput.value || '').trim() : '') || 'single_mode';
     submit.disabled = true;
     error.textContent = '正在验证邀请码...';
     try {
-      const expected = await loadInviteForSyncKey('');
-      if (invite !== expected) {
-        error.textContent = '邀请码错误，请重新输入。';
-        input.value = '';
-        input.focus();
-        submit.disabled = false;
-        return;
-      }
+      await consumeInviteCode(invite, identifier);
       markSingleInviteAuthorized();
       overlay.remove();
       await enterSingleMode(onReady, { foreground: true });
@@ -531,7 +548,7 @@ function showSyncOverlay(onReady) {
   overlay.innerHTML = `
     <div class="auth-card sync-card">
       <h1>输入同步码和邀请码</h1>
-      <p>同一个同步码第一次使用需要输入邀请码，验证通过后本设备下次会自动进入。</p>
+      <p>请输入管理员发给你的邀请码。同一同步码首次使用需验证通过。</p>
       <input id="syncKeyInput" type="text" autocomplete="off" placeholder="同步码，例如：class01 / 自己名字拼音" />
       <input id="syncInviteInput" type="password" autocomplete="off" placeholder="邀请码" />
       <button id="syncSubmit" class="primary" type="button">开启同步</button>
@@ -553,14 +570,7 @@ function showSyncOverlay(onReady) {
     error.textContent = '正在验证邀请码...';
     try {
       if (!isSyncInviteAuthorized(value)) {
-        const expected = await loadInviteForSyncKey(value);
-        if (invite !== expected) {
-          error.textContent = '邀请码错误，请重新输入。';
-          inviteInput.value = '';
-          inviteInput.focus();
-          submit.disabled = false;
-          return;
-        }
+        await consumeInviteCode(invite, value);
         markSyncInviteAuthorized(value);
       }
       localStorage.setItem(ACCESS_MODE_STORAGE, ACCESS_MODE_SYNC);
