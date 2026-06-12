@@ -1476,6 +1476,177 @@ function openTopicManagerDialog(parentOverlay) {
   renderInner();
 }
 
+// ========== 高级专题管理：层次移动、删除 ==========
+
+function openAdvancedTopicManagerDialog() {
+  document.getElementById('advancedTopicMgrOverlay')?.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'advancedTopicMgrOverlay';
+  overlay.className = 'auth-overlay admin-password-overlay';
+
+  const setStatus = (msg, isErr) => {
+    const st = overlay.querySelector('#topicMgrStatus');
+    if (st) { st.textContent = msg; st.className = 'topic-mgr-status ' + (isErr ? 'error' : 'success'); }
+  };
+
+  const renderTree = () => {
+    const hierarchy = buildTopicHierarchy();
+    const edits = loadQuestionEdits();
+    const customSubs = edits.customSubTopics || [];
+    let html = '';
+    if (!hierarchy.length) {
+      html = '<div class="topic-mgr-empty">暂无专题数据</div>';
+    }
+    hierarchy.forEach(([course, courseInfo]) => {
+      html += `<details class="topic-mgr-course" open>
+        <summary><b>${escapeHtml(course)}</b> <small>${countSummaryText(courseInfo)}</small></summary>
+        <div class="topic-mgr-course-body">`;
+      const topicEntries = [...courseInfo.topics.entries()];
+      topicEntries.forEach(([topic, topicInfo]) => {
+        html += `<div class="topic-mgr-topic">
+          <span class="topic-mgr-topic-name">📁 ${escapeHtml(topic)} <small>${countSummaryText(topicInfo)}</small></span>
+          <span class="topic-mgr-actions">
+            <button class="topic-mgr-btn-move" data-action="move" data-topic="${escapeHtml(topic)}">移入▾</button>
+            <button class="topic-mgr-btn-delete" data-action="delete-topic" data-topic="${escapeHtml(topic)}" data-count="${topicInfo.total}">删除</button>
+          </span>
+        </div>`;
+        // 移入选择器
+        html += `<div class="topic-mgr-move-select">
+          <select>${adminTopicOptions().filter(t => t !== topic).map(t => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join('')}</select>
+          <button class="topic-mgr-btn-move" data-action="confirm-move" data-topic="${escapeHtml(topic)}">确认移入</button>
+        </div>`;
+        // 渲染子专题
+        const subEntries = [...topicInfo.subs.entries()];
+        subEntries.forEach(([sub, subInfo]) => {
+          html += `<div class="topic-mgr-subtopic">
+            <span class="topic-mgr-subtopic-name">📄 ${escapeHtml(sub)} <small>${countSummaryText(subInfo)}</small></span>
+            <span class="topic-mgr-actions">
+              <button class="topic-mgr-btn-promote" data-action="promote" data-topic="${escapeHtml(topic)}" data-sub="${escapeHtml(sub)}">移出</button>
+              <button class="topic-mgr-btn-delete" data-action="delete-sub" data-topic="${escapeHtml(topic)}" data-sub="${escapeHtml(sub)}" data-count="${subInfo.total}">删除</button>
+            </span>
+          </div>`;
+        });
+      });
+      html += `</div></details>`;
+    });
+
+    const content = overlay.querySelector('#topicMgrContent');
+    if (content) content.innerHTML = html;
+
+    // 绑定事件
+    content?.querySelectorAll('[data-action="move"]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        // 找到本行紧邻的 .topic-mgr-move-select
+        const row = btn.closest('.topic-mgr-topic');
+        const sel = row?.nextElementSibling;
+        if (sel && sel.classList.contains('topic-mgr-move-select')) {
+          sel.classList.toggle('open');
+        }
+      });
+    });
+    content?.querySelectorAll('[data-action="confirm-move"]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const topic = btn.dataset.topic;
+        const moveSel = btn.closest('.topic-mgr-move-select');
+        const select = moveSel?.querySelector('select');
+        const target = select?.value;
+        if (!target) return;
+        if (!confirm(`确定将专题"${topic}"及其所有题目移入"${target}"吗？`)) return;
+        try {
+          const result = moveTopicUnder(topic, target);
+          setStatus(`已将"${topic}"移入"${target}"，移动 ${result.movedCount} 道题。`);
+          initTopics();
+          renderTree();
+        } catch (err) { setStatus(err.message, true); }
+      });
+    });
+    content?.querySelectorAll('[data-action="promote"]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const topic = btn.dataset.topic;
+        const sub = btn.dataset.sub;
+        if (!confirm(`确定将子专题"${sub}"从"${topic}"中移出，提升为独立专题吗？`)) return;
+        try {
+          const result = promoteSubtopicToTopic(topic, sub);
+          setStatus(`已将"${sub}"提升为独立专题，影响 ${result.changedCount} 道题。`);
+          initTopics();
+          renderTree();
+        } catch (err) { setStatus(err.message, true); }
+      });
+    });
+    content?.querySelectorAll('[data-action="delete-topic"]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const topic = btn.dataset.topic;
+        const count = Number(btn.dataset.count) || 0;
+        if (!confirm(`⚠️ 确定删除专题"${topic}"及其所有 ${count} 道题目吗？\n\n此操作不可撤销！`)) return;
+        try {
+          const result = deleteTopicWithQuestions(topic);
+          setStatus(`已删除专题"${topic}"及其 ${result.deletedCount} 道题目。`);
+          initTopics();
+          renderTree();
+        } catch (err) { setStatus(err.message, true); }
+      });
+    });
+    content?.querySelectorAll('[data-action="delete-sub"]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const topic = btn.dataset.topic;
+        const sub = btn.dataset.sub;
+        const count = Number(btn.dataset.count) || 0;
+        if (!confirm(`⚠️ 确定删除子专题"${sub}"及其所有 ${count} 道题目吗？\n\n此操作不可撤销！`)) return;
+        try {
+          const result = deleteTopicWithQuestions(topic, sub);
+          setStatus(`已删除子专题"${sub}"及其 ${result.deletedCount} 道题目。`);
+          initTopics();
+          renderTree();
+        } catch (err) { setStatus(err.message, true); }
+      });
+    });
+  };
+
+  overlay.innerHTML = `
+    <div class="auth-card advanced-topic-mgr-card">
+      <h1>专题管理</h1>
+      <p class="topic-mgr-desc">管理专题层次结构：新建、移动、提升、删除专题及其子专题。</p>
+      <div class="topic-mgr-toolbar">
+        <button id="advAddTopicBtn" class="primary" type="button" style="width:auto">+ 新建专题</button>
+        <button id="advAddSubBtn" class="ghost" type="button" style="width:auto">+ 新建子专题</button>
+      </div>
+      <div class="topic-mgr-tree" id="topicMgrContent"></div>
+      <div id="topicMgrStatus" class="topic-mgr-status"></div>
+      <button id="advTopicMgrCloseBtn" class="ghost" type="button">关闭</button>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  // 新建专题
+  overlay.querySelector('#advAddTopicBtn')?.addEventListener('click', () => {
+    const name = prompt('请输入新专题名称：');
+    if (!name || !name.trim()) return;
+    try {
+      addCustomTopic(name.trim());
+      setStatus(`已创建专题：${name.trim()}`);
+      initTopics();
+      renderTree();
+    } catch (err) { setStatus(err.message, true); }
+  });
+
+  // 新建子专题
+  overlay.querySelector('#advAddSubBtn')?.addEventListener('click', () => {
+    const parent = prompt('请输入父专题名称：');
+    if (!parent || !parent.trim()) return;
+    const name = prompt('请输入子专题名称：');
+    if (!name || !name.trim()) return;
+    try {
+      createEmptySubtopic(parent.trim(), name.trim());
+      setStatus(`已在"${parent.trim()}"下创建子专题：${name.trim()}`);
+      initTopics();
+      renderTree();
+    } catch (err) { setStatus(err.message, true); }
+  });
+
+  overlay.querySelector('#advTopicMgrCloseBtn')?.addEventListener('click', () => overlay.remove());
+  overlay.addEventListener('click', (event) => { if (event.target === overlay) overlay.remove(); });
+  renderTree();
+}
+
 function openQuestionManager(targetId = '') {
   ensureAdminUnlocked(() => renderQuestionManager(targetId));
 }
