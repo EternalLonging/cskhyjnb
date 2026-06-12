@@ -31,6 +31,9 @@ function bindHome() {
     if (confirm('确定清空错题本吗？')) { setWrongIds([]); updateStats(); }
   });
   $('manageQuestionsBtn')?.addEventListener('click', () => openQuestionManager());
+  $('manageTopicsBtn')?.addEventListener('click', () => {
+    ensureAdminUnlocked(openAdvancedTopicManagerDialog);
+  });
   $('manualBtn')?.addEventListener('click', renderManualDialog);
   let topicSearchTimer = null;
   $('topicSearchInput')?.addEventListener('input', () => {

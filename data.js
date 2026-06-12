@@ -4,7 +4,7 @@
 // =============================================================================
 
 function emptyQuestionEdits() {
-  return { version: 1, updatedAt: 0, deletedIds: [], overrides: {}, custom: [], customTopics: [] };
+  return { version: 1, updatedAt: 0, deletedIds: [], overrides: {}, custom: [], customTopics: [], customSubTopics: [] };
 }
 
 function normalizeQuestionEdits(raw) {
@@ -17,6 +17,9 @@ function normalizeQuestionEdits(raw) {
   out.custom = Array.isArray(raw.custom) ? raw.custom : [];
   out.customTopics = Array.isArray(raw.customTopics)
     ? [...new Set(raw.customTopics.map(t => String(t || '').trim()).filter(Boolean))]
+    : [];
+  out.customSubTopics = Array.isArray(raw.customSubTopics)
+    ? raw.customSubTopics.filter(item => item && typeof item.topic === 'string' && typeof item.subtopic === 'string')
     : [];
   return out;
 }
@@ -178,8 +181,46 @@ function buildTopicHierarchy() {
     const sub = t.subs.get(subtopic);
     sub.total += 1; sub[q.type] = (sub[q.type] || 0) + 1;
   });
+  // 注入自定义空专题（无题目但需在树中显示）
+  const edits = loadQuestionEdits();
+  (edits.customTopics || []).forEach(topicName => {
+    topicName = String(topicName || '').trim();
+    if (!topicName) return;
+    // 检查该专题是否已在树中（有题目）
+    let found = false;
+    for (const [course, info] of tree) {
+      if (info.topics.has(topicName)) { found = true; break; }
+    }
+    if (found) return;
+    // 尝试推断课程名
+    const course = getCustomCourseName({ topic: topicName });
+    if (!tree.has(course)) tree.set(course, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, topics: new Map() });
+    const c = tree.get(course);
+    if (!c.topics.has(topicName)) c.topics.set(topicName, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, subs: new Map() });
+  });
+  // 注入自定义空子专题（无题目但需要在树中显示）
+  (edits.customSubTopics || []).forEach(item => {
+    if (!item.topic || !item.subtopic) return;
+    const course = item.course || deriveCourseName({ topic: item.topic }) || getCustomCourseName(item);
+    if (!tree.has(course)) tree.set(course, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, topics: new Map() });
+    const c = tree.get(course);
+    if (!c.topics.has(item.topic)) c.topics.set(item.topic, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, subs: new Map() });
+    const t = c.topics.get(item.topic);
+    if (!t.subs.has(item.subtopic)) t.subs.set(item.subtopic, { key: [course, item.topic, item.subtopic].join('|||'), total: 0, single: 0, multiple: 0, fill: 0, short: 0 });
+  });
   topicHierarchyCache = [...tree.entries()].sort((a,b)=>a[0].localeCompare(b[0],'zh-CN'));
   return topicHierarchyCache;
+
+  function getCustomCourseName(item) {
+    // 尝试从已有题目推断课程名
+    const existing = questions.filter(q => q.topic === item.topic);
+    if (existing.length > 0) return questionCourse(existing[0]);
+    // 从已有树中找匹配的课程
+    for (const [course, info] of tree) {
+      if (info.topics.has(item.topic)) return course;
+    }
+    return '自定义课程';
+  }
 }
 
 function countSummaryText(info) {
@@ -221,6 +262,136 @@ function readSettings() {
 
 function adminTopicOptions() {
   return Object.keys(summary).sort((a, b) => a.localeCompare(b, 'zh-CN'));
+}
+
+// ========== 专题管理（高级）==========
+
+function createEmptySubtopic(topicName, subtopicName) {
+  const edits = loadQuestionEdits();
+  topicName = String(topicName || '').trim();
+  subtopicName = String(subtopicName || '').trim();
+  if (!topicName || !subtopicName) throw new Error('专题名和子专题名不能为空');
+  if (topicName === subtopicName) throw new Error('子专题名不能与专题名相同');
+  const exists = (edits.customSubTopics || []).some(
+    item => item.topic === topicName && item.subtopic === subtopicName
+  );
+  if (exists) throw new Error('该子专题已存在');
+  // 检查是否已有题目属于该子专题（实际数据中已存在）
+  const hasRealQuestions = questions.some(
+    q => questionTopic(q) === topicName && questionSubtopic(q) === subtopicName
+  );
+  if (hasRealQuestions) throw new Error('该子专题已存在（有题目归属）');
+  edits.customSubTopics.push({ topic: topicName, subtopic: subtopicName });
+  // 确保父专题在 customTopics 中
+  if (!edits.customTopics.includes(topicName)) edits.customTopics.push(topicName);
+  saveQuestionEdits(edits);
+  return { topic: topicName, subtopic: subtopicName };
+}
+
+function moveTopicUnder(sourceTopic, targetTopic) {
+  const edits = loadQuestionEdits();
+  sourceTopic = String(sourceTopic || '').trim();
+  targetTopic = String(targetTopic || '').trim();
+  if (!sourceTopic || !targetTopic) throw new Error('专题名不能为空');
+  if (sourceTopic === targetTopic) throw new Error('不能将专题移到自己下面');
+  let movedCount = 0;
+  // 收集所有属于 sourceTopic 的题目
+  const matchingQuestions = questions.filter(q => questionTopic(q) === sourceTopic);
+  matchingQuestions.forEach(q => {
+    const id = String(q.id);
+    const oldSubtopic = questionSubtopic(q);
+    // 新的 subtopic：如果题目已有子专题，保留原样；否则使用 sourceTopic
+    const newSubtopic = oldSubtopic && oldSubtopic !== sourceTopic ? oldSubtopic : sourceTopic;
+    if (isBaseQuestionId(id)) {
+      const existing = edits.overrides[id] || {};
+      edits.overrides[id] = { ...existing, topic: targetTopic, subtopic: newSubtopic };
+    } else {
+      const customQ = edits.custom.find(c => String(c.id) === id);
+      if (customQ) { customQ.topic = targetTopic; customQ.subtopic = newSubtopic; }
+    }
+    movedCount++;
+  });
+  // 还要处理 customSubTopics 中属于 sourceTopic 的条目
+  (edits.customSubTopics || []).forEach(item => {
+    if (item.topic === sourceTopic) {
+      item.topic = targetTopic;
+    }
+  });
+  // 清理 customTopics
+  const stillHasQuestions = questions.some(q => questionTopic(q) === sourceTopic && !matchingQuestions.includes(q)) ||
+    (edits.customSubTopics || []).some(item => item.topic === sourceTopic);
+  if (!stillHasQuestions) {
+    edits.customTopics = edits.customTopics.filter(t => t !== sourceTopic);
+  }
+  if (!edits.customTopics.includes(targetTopic)) edits.customTopics.push(targetTopic);
+  saveQuestionEdits(edits);
+  return { movedCount };
+}
+
+function promoteSubtopicToTopic(parentTopic, subtopicName) {
+  const edits = loadQuestionEdits();
+  parentTopic = String(parentTopic || '').trim();
+  subtopicName = String(subtopicName || '').trim();
+  if (!parentTopic || !subtopicName) throw new Error('参数不能为空');
+  if (parentTopic === subtopicName) throw new Error('子专题名不能与父专题名相同');
+  let changedCount = 0;
+  questions.forEach(q => {
+    if (questionTopic(q) === parentTopic && questionSubtopic(q) === subtopicName) {
+      const id = String(q.id);
+      if (isBaseQuestionId(id)) {
+        const existing = edits.overrides[id] || {};
+        edits.overrides[id] = { ...existing, topic: subtopicName, subtopic: subtopicName };
+      } else {
+        const customQ = edits.custom.find(c => String(c.id) === id);
+        if (customQ) { customQ.topic = subtopicName; customQ.subtopic = subtopicName; }
+      }
+      changedCount++;
+    }
+  });
+  // 更新 customSubTopics
+  (edits.customSubTopics || []).forEach(item => {
+    if (item.topic === parentTopic && item.subtopic === subtopicName) {
+      item.topic = subtopicName;
+    }
+  });
+  if (!edits.customTopics.includes(subtopicName)) edits.customTopics.push(subtopicName);
+  saveQuestionEdits(edits);
+  return { changedCount };
+}
+
+function deleteTopicWithQuestions(topicName, subtopicName) {
+  const edits = loadQuestionEdits();
+  topicName = String(topicName || '').trim();
+  subtopicName = subtopicName ? String(subtopicName).trim() : '';
+  let deletedCount = 0;
+  questions.filter(q => {
+    if (subtopicName) {
+      return questionTopic(q) === topicName && questionSubtopic(q) === subtopicName;
+    }
+    return questionTopic(q) === topicName;
+  }).forEach(q => {
+    const id = String(q.id);
+    if (isBaseQuestionId(id)) {
+      if (!edits.deletedIds.includes(id)) edits.deletedIds.push(id);
+      delete edits.overrides[id];
+    } else {
+      edits.custom = edits.custom.filter(c => String(c.id) !== id);
+    }
+    deletedCount++;
+  });
+  // 清理 customSubTopics
+  edits.customSubTopics = (edits.customSubTopics || []).filter(item => {
+    if (subtopicName) {
+      return !(item.topic === topicName && item.subtopic === subtopicName);
+    }
+    return item.topic !== topicName;
+  });
+  // 清理 customTopics
+  if (!subtopicName) {
+    edits.customTopics = edits.customTopics.filter(t => t !== topicName);
+  }
+  saveQuestionEdits(edits);
+  return { deletedCount };
 }
 
 // ——— 加载时立即执行：从 baseQuestions 和本地编辑构建题库 ———
