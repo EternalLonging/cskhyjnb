@@ -1,7 +1,28 @@
 // app.js — 入口：事件绑定和页面初始化调度
 // 依赖：所有前置文件（config.js, utils.js, data.js, sync.js, state.js, ui.js）
 
+let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  const btn = $('installBtn');
+  if (btn) btn.classList.remove('hidden');
+});
+
 function bindHome() {
+  initTopics();
+  updateStats();
+  // PWA 安装按钮
+  $('installBtn')?.addEventListener('click', async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === 'accepted') {
+      $('installBtn').classList.add('hidden');
+    }
+    deferredPrompt = null;
+  });
   initTopics();
   updateStats();
   $('continueBtn')?.addEventListener('click', () => goPractice({ restart: false }));

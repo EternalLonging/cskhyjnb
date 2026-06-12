@@ -1,7 +1,7 @@
 {
-  "name": "综合题库刷题网站",
-  "short_name": "刷题",
-  "description": "编译原理刷题工具，支持章节练习、随机刷题、错题重做和答案速背",
+  "name": "超时空辉夜姬",
+  "short_name": "辉夜姬",
+  "description": "超时空辉夜姬刷题工具，支持章节练习、随机刷题、错题重做和答案速背",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
@@ -13,9 +13,9 @@
   "categories": ["education"],
   "icons": [
     {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "3.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

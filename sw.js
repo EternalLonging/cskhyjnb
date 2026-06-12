@@ -1,6 +1,6 @@
 const CACHE_NAME = 'quiz-v2';
 const SHELL_ASSETS = [
-  '.','index.html','practice.html','style.css','manifest.json','icon.svg',
+  '.','index.html','practice.html','style.css','manifest.json','3.png',
   'questions.js','config.js','utils.js','data.js','sync.js','state.js','ui.js','app.js',
 ];
 self.addEventListener('install', (e) => {
