@@ -515,19 +515,13 @@ function typeName(type) {
 function restoreProgressIfMatched(settings) {
   const saved = loadProgress();
   if (!saved || !Array.isArray(saved.pool) || !saved.pool.length) return false;
-  // 云端恢复的进度：放宽签名和题库大小检查
-  const isCloudRestore = saved._fromCloud === true;
-  if (!isCloudRestore && saved.signature !== settingsSignature(settings)) return false;
-  // 题库大小变了（比如新增题目）不再拒绝，只过滤掉已不存在的题目
-  if (isCloudRestore || saved.bankSize !== questions.length) {
-    const validIds = new Set(questions.map(q => q.id));
-    saved.pool = saved.pool.filter(q => validIds.has(q.id));
-    if (!saved.pool.length) return false;
-    // 修正 currentIndex
-    saved.currentIndex = Math.max(0, Math.min(saved.currentIndex || 0, saved.pool.length - 1));
-    saved.bankSize = questions.length;
-    saved.signature = settingsSignature(settings);
-  }
+  // 继续刷题：不管设置怎么变，始终恢复上次进度
+  // 过滤掉已不存在的题目（比如被删除了的）
+  const validIds = new Set(questions.map(q => q.id));
+  saved.pool = saved.pool.filter(q => validIds.has(q.id));
+  if (!saved.pool.length) return false;
+  saved.currentIndex = Math.max(0, Math.min(saved.currentIndex || 0, saved.pool.length - 1));
+  saved.bankSize = questions.length;
 
   state.settings = settings;
   state.pool = saved.pool;
