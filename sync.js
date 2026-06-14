@@ -706,7 +706,8 @@ async function initSync(key) {
     loadGlobalCloudAssetsInBackground();
     if (isPracticePage()) {
       await loadMetaFromCloud();
-      if (!localStorage.getItem(FORCE_RESTART_KEY)) {
+      // 只有本地没进度时才从云端恢复（避免云端旧进度覆盖本地新进度）
+      if (!localStorage.getItem(FORCE_RESTART_KEY) && !loadProgress()) {
         await loadCurrentProgressFromCloud();
       }
     } else {
