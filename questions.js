@@ -20015,7 +20015,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 53,
   "type": "single",
-  "text": "若有状态转换矩阵如下，其中星号标记的是终态， <table> <tbody><tr> <td width=\"61\" valign=\"middle\" style=\"border: 1px solid windowtext; padding: 0px 7px; word-break: break-all;\" align=\"center\"><span style=\"font-size: 18px;\">S</span></td> <td width=\"61\" valign=\"top\" style=\"border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentcolor; border-image: initial; padding: 0px 7px; word-break: break-all;\">a </td> <td width=\"61\" valign=\"top\" style=\"border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentcolor; border-image: initial; padding: 0px 7px; word-break: break-all;\">b </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">B </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">B </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">- </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">C </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">D </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">D* </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">D </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">E* </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">- </td> </tr> </tbody></table> 最小化后状态为（ ）。",
+  "text": "若有状态转换矩阵如下，其中星号标记的是终态， <table> <tbody><tr> <td width=\"61\" valign=\"middle\" style=\"border: 1px solid windowtext; padding: 0px 7px; word-break: break-all;\" align=\"center\">S</td> <td width=\"61\" valign=\"top\" style=\"border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentcolor; border-image: initial; padding: 0px 7px; word-break: break-all;\">a </td> <td width=\"61\" valign=\"top\" style=\"border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentcolor; border-image: initial; padding: 0px 7px; word-break: break-all;\">b </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">B </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">B </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">- </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">C </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">D </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">D* </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">D </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">E* </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">- </td> </tr> </tbody></table> 最小化后状态为（ ）。",
   "options": [
     {
       "label": "A",
@@ -20628,7 +20628,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 74,
   "type": "single",
-  "text": "下述FOLLOW集构造方法中<span style=\"text-emphasis: dot currentcolor; font-style: inherit;\">错误</span>的是（ ）。",
+  "text": "下述FOLLOW集构造方法中错误的是（ ）。",
   "options": [
     {
       "label": "A",
@@ -20718,7 +20718,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 77,
   "type": "single",
-  "text": "<span style=\"font-size:14px;font-family:宋体\">下列文法中，（ ）是LL(1)文法。</span>",
+  "text": "下列文法中，（ ）是LL(1)文法。",
   "options": [
     {
       "label": "A",
@@ -21906,7 +21906,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 117,
   "type": "single",
-  "text": "<span style=\"font-size:14px;font-family:'Calibri',sans-serif\">E</span><span style=\"font-size:14px;font-family:'Calibri',sans-serif\">→<strong><span style=\"font-size:14px;font-family:Symbol\">×</span></strong>E+T为（）项目</span>",
+  "text": "E→<strong>×</strong>E+T为（）项目",
   "options": [
     {
       "label": "A",
@@ -21936,7 +21936,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 118,
   "type": "single",
-  "text": "<span style=\"font-size: 14px; font-family: Calibri, sans-serif;\">E</span><span style=\"font-size: 14px; font-family: Calibri, sans-serif;\">→E<strong style=\"font-family: Calibri, sans-serif; font-size: 14px; white-space: normal;\"><span style=\"font-family: Symbol;\">×</span></strong>+T为（）项目</span>",
+  "text": "E→E<strong style=\"font-family: Calibri, sans-serif; font-size: 14px; white-space: normal;\">×</strong>+T为（）项目",
   "options": [
     {
       "label": "A",
@@ -21966,7 +21966,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 119,
   "type": "single",
-  "text": "文法G[L]: L→MLb | a<br style=\"margin: 0px; padding: 0px;\"> M→ε 识别活前缀的DFA状态<span style=\"text-emphasis: dot currentcolor; font-style: inherit;\">有误</span>的是（ ）。",
+  "text": "文法G[L]: L→MLb | a<br style=\"margin: 0px; padding: 0px;\"> M→ε 识别活前缀的DFA状态有误的是（ ）。",
   "options": [
     {
       "label": "A",
@@ -23385,7 +23385,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 168,
   "type": "single",
-  "text": "<span style=\";font-family:宋体;font-size:14px\"><span style=\"font-family:Calibri\">ab*|ba*对应的NFA为</span></span>",
+  "text": "ab*|ba*对应的NFA为",
   "options": [
     {
       "label": "A",
@@ -23445,7 +23445,7 @@ window.QUESTION_BANK = [
   "subtopic": "超星题库",
   "number": 170,
   "type": "single",
-  "text": "<img src=\"assets/4a19c2c17e32259b592bf41e87d5f79c.webp\" class=\"ans-ued-img\" width=\"600\" height=\"491\" title=\"\" alt=\"\" style=\"width: 600px; height: 491px;\"> 由该状态转换图可以看出，下列哪个符号<span style=\"text-emphasis: dot currentcolor; font-style: inherit;\">不是</span>合法的单词符号？（ ）",
+  "text": "<img src=\"assets/4a19c2c17e32259b592bf41e87d5f79c.webp\" class=\"ans-ued-img\" width=\"600\" height=\"491\" title=\"\" alt=\"\" style=\"width: 600px; height: 491px;\"> 由该状态转换图可以看出，下列哪个符号不是合法的单词符号？（ ）",
   "options": [
     {
       "label": "A",
