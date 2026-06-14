@@ -18450,5 +18450,6182 @@ window.QUESTION_BANK = [
     "id": "compiler-158-orig-92",
     "lockOptions": true,
     "custom": false
-  }
+  },
+  {
+  "id": "compiler_ck_compiler_214006524",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 1,
+  "type": "single",
+  "text": "下面不是翻译程序的是( ) 。",
+  "options": [
+    {
+      "label": "A",
+      "text": "编译程序"
+    },
+    {
+      "label": "B",
+      "text": "源程序"
+    },
+    {
+      "label": "C",
+      "text": "解释程序"
+    },
+    {
+      "label": "D",
+      "text": "汇编程序"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006525",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 2,
+  "type": "single",
+  "text": "编译程序绝大多数时间花在（ ）上。",
+  "options": [
+    {
+      "label": "A",
+      "text": "出错处理"
+    },
+    {
+      "label": "B",
+      "text": "词法分析"
+    },
+    {
+      "label": "C",
+      "text": "目标代码生成"
+    },
+    {
+      "label": "D",
+      "text": "符号表管理"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006526",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 3,
+  "type": "single",
+  "text": "以下关于编译程序和解释程序的说法正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "编译程序逐条读源程序中的语句并执行"
+    },
+    {
+      "label": "B",
+      "text": "解释程序将源程序翻译成目标程序后再执行"
+    },
+    {
+      "label": "C",
+      "text": "解释程序不产生目标代码"
+    },
+    {
+      "label": "D",
+      "text": "编译程序不产生目标代码"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006527",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 4,
+  "type": "single",
+  "text": "通常一个编译程序中，不仅包含词法分析、语法分析、语义及中间代码生成、代码优化、目标代码生成等五个部分，还应包括（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "模拟执行器"
+    },
+    {
+      "label": "B",
+      "text": "符号表管理和出错处理"
+    },
+    {
+      "label": "C",
+      "text": "解释器"
+    },
+    {
+      "label": "D",
+      "text": "符号执行器"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006528",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 5,
+  "type": "single",
+  "text": "下面叙述中正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "编译程序是将高级语言程序翻译成等价的机器语言程序的程序"
+    },
+    {
+      "label": "B",
+      "text": "机器语言因其使用过于困难，所以现在计算机根本不使用机器语言"
+    },
+    {
+      "label": "C",
+      "text": "汇编语言是计算机唯一能够直接识别并接受的语言"
+    },
+    {
+      "label": "D",
+      "text": "高级语言接近人们的自然语言，但其依赖具体机器的特性是无法改变的"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006529",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 6,
+  "type": "single",
+  "text": "将编译过程分成若干“遍”是为了（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "提高编译程序的执行效率"
+    },
+    {
+      "label": "B",
+      "text": "使编译程序的结构更加清晰"
+    },
+    {
+      "label": "C",
+      "text": "利用有限的机器内存并提高机器的执行效率"
+    },
+    {
+      "label": "D",
+      "text": "利用有限的机器内存但降低了机器的执行效率"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006530",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 7,
+  "type": "single",
+  "text": "构造编译程序应掌握（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "源程序"
+    },
+    {
+      "label": "B",
+      "text": "目标语言"
+    },
+    {
+      "label": "C",
+      "text": "编译方法"
+    },
+    {
+      "label": "D",
+      "text": "其它三项都是"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006531",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 8,
+  "type": "single",
+  "text": "编译程序是对（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "汇编程序的翻译"
+    },
+    {
+      "label": "B",
+      "text": "高级语言的翻译"
+    },
+    {
+      "label": "C",
+      "text": "机器语言的执行"
+    },
+    {
+      "label": "D",
+      "text": "高级语言程序的解释执行"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006532",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 9,
+  "type": "single",
+  "text": "与编译过程类似的翻译有（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "粤语翻译成普通话"
+    },
+    {
+      "label": "B",
+      "text": "莎士比亚的十四行诗翻译成中文"
+    },
+    {
+      "label": "C",
+      "text": "《岳阳楼记》翻译成现代汉语"
+    },
+    {
+      "label": "D",
+      "text": "摩斯码翻译成明文"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006533",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 10,
+  "type": "single",
+  "text": "编译过程中，语法分析器的任务不包括（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "分析单词是怎样构成的"
+    },
+    {
+      "label": "B",
+      "text": "分析单词串是如何构成语句和说明的"
+    },
+    {
+      "label": "C",
+      "text": "分析语句和说明是如何构成程序的"
+    },
+    {
+      "label": "D",
+      "text": "分析程序的结构"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006534",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 11,
+  "type": "single",
+  "text": "在Java和Python两种编程语言中，从编写源程序到正式上机运行前，步骤有所不同。以下关于这两种语言运行前步骤的描述，正确的是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "Java需要编辑、编译、连接，Python只需要编辑、解释执行，无需编译和连接。"
+    },
+    {
+      "label": "B",
+      "text": "Java和Python都只需要编辑和运行，编译和连接是多余的步骤。"
+    },
+    {
+      "label": "C",
+      "text": "Java要编辑、编译、连接，Python要编辑、编译后再解释执行，也需要连接。"
+    },
+    {
+      "label": "D",
+      "text": "Java和Python都需要编辑、编译、连接后才能运行。"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006535",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 12,
+  "type": "single",
+  "text": "解释方式和编译方式的主要区别在于",
+  "options": [
+    {
+      "label": "A",
+      "text": "能否对源程序查错"
+    },
+    {
+      "label": "B",
+      "text": "能否生成目标代码"
+    },
+    {
+      "label": "C",
+      "text": "能否多用户运行"
+    },
+    {
+      "label": "D",
+      "text": "机器资源利用率高低"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006536",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 13,
+  "type": "single",
+  "text": "若在C语言程序中出现“aa 11 bb=123;”，且不出现在引号和注释里，在编译时会（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析时报错"
+    },
+    {
+      "label": "B",
+      "text": "语义分析时报错"
+    },
+    {
+      "label": "C",
+      "text": "生成中间代码时报错"
+    },
+    {
+      "label": "D",
+      "text": "语法分析时报错"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006537",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 14,
+  "type": "single",
+  "text": "请根据所学的计算机语言知识，选择面向机器的语言的正确定义，面向机器的语言指的是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "专门用于开发机器智能算法的语言。"
+    },
+    {
+      "label": "B",
+      "text": "特定计算机系统所固有的语言。"
+    },
+    {
+      "label": "C",
+      "text": "可在不同操作系统间自由移植的语言。"
+    },
+    {
+      "label": "D",
+      "text": "只能在特定类型计算机上使用的语言。"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006538",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 15,
+  "type": "single",
+  "text": "面向机器语言的特点是()",
+  "options": [
+    {
+      "label": "A",
+      "text": "程序的执行效率低，编制效率低，可读性差"
+    },
+    {
+      "label": "B",
+      "text": "程序的执行效率高，编制效率高，可读性强"
+    },
+    {
+      "label": "C",
+      "text": "程序的执行效率低，编制效率高，可读性强"
+    },
+    {
+      "label": "D",
+      "text": "程序的执行效率高，编制效率低，可读性差"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006539",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 16,
+  "type": "single",
+  "text": "编译程序是对（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "汇编程序的翻译"
+    },
+    {
+      "label": "B",
+      "text": "高级语言的解释执行"
+    },
+    {
+      "label": "C",
+      "text": "机器语言的执行"
+    },
+    {
+      "label": "D",
+      "text": "高级语言的翻译"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006540",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 17,
+  "type": "single",
+  "text": "编译程序是一种（）软件",
+  "options": [
+    {
+      "label": "A",
+      "text": "系统"
+    },
+    {
+      "label": "B",
+      "text": "应用"
+    },
+    {
+      "label": "C",
+      "text": "MIS"
+    },
+    {
+      "label": "D",
+      "text": "ERP"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006541",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 18,
+  "type": "single",
+  "text": "（）不是编译程序的组成部分",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析器程序"
+    },
+    {
+      "label": "B",
+      "text": "代码生成程序"
+    },
+    {
+      "label": "C",
+      "text": "设备管理程序"
+    },
+    {
+      "label": "D",
+      "text": "语法分析程序"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006542",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 19,
+  "type": "single",
+  "text": "设有表达式a*b-c，将其中a*b识别为表达式的编译阶段是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "代码生成"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006543",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 20,
+  "type": "single",
+  "text": "int a+b； 这样的错误将在哪个阶段被发现？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "代码优化"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006544",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 21,
+  "type": "single",
+  "text": "double a$b; 这样的错误将在哪个阶段被发现",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "代码优化"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006545",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 22,
+  "type": "single",
+  "text": "编写程序时，不小心使用了中文字符，类似这样的错误将会在那个分析阶段被发现？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "中间代码生成"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006546",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 23,
+  "type": "single",
+  "text": "在编译程序中，哪个阶段负责将源代码转换成中间代码？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "中间代码生成"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006547",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 24,
+  "type": "single",
+  "text": "下列哪一项不属于编译器的工作流程？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "运行时环境管理"
+    },
+    {
+      "label": "D",
+      "text": "代码优化"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006548",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 25,
+  "type": "single",
+  "text": "编译器的前端主要负责什么？",
+  "options": [
+    {
+      "label": "A",
+      "text": "生成目标代码"
+    },
+    {
+      "label": "B",
+      "text": "进行词法和语法分析"
+    },
+    {
+      "label": "C",
+      "text": "优化代码"
+    },
+    {
+      "label": "D",
+      "text": "执行程序"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006549",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 26,
+  "type": "single",
+  "text": "26. (单选题, 1分) 解释器与编译器的主要区别在于？",
+  "options": [
+    {
+      "label": "A",
+      "text": "解释器直接执行源代码"
+    },
+    {
+      "label": "B",
+      "text": "编译器生成中间代码"
+    },
+    {
+      "label": "C",
+      "text": "解释器生成目标代码"
+    },
+    {
+      "label": "D",
+      "text": "编译器直接执行源代码"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006550",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 27,
+  "type": "single",
+  "text": "27. (单选题, 1分) 编译器的后端主要负责什么？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "代码优化和目标代码生成"
+    },
+    {
+      "label": "D",
+      "text": "运行时环境管理"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006551",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 28,
+  "type": "single",
+  "text": "28. (单选题, 1分) 在编译过程中，哪个阶段负责识别源代码中的单词和符号？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "中间代码生成"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006552",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 29,
+  "type": "single",
+  "text": "29. (单选题, 1分) 编译器的哪个部分负责处理源代码的结构和语法？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "中间代码生成"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006553",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 30,
+  "type": "single",
+  "text": "30. (单选题, 1分) 编译器的哪个阶段负责检查源代码的含义和逻辑？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "中间代码生成"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006554",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 31,
+  "type": "single",
+  "text": "31. (单选题, 1分) 编译器的哪个阶段负责优化生成的目标代码？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "代码优化"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006555",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 32,
+  "type": "single",
+  "text": "32. (单选题, 1分) 编译器的哪个阶段负责生成最终的可执行代码？",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法分析"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "语义分析"
+    },
+    {
+      "label": "D",
+      "text": "目标代码生成"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006556",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 33,
+  "type": "single",
+  "text": "编译过程中，语法分析器的任务不包括（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "分析单词是怎样构成的"
+    },
+    {
+      "label": "B",
+      "text": "分析单词串是如何构成语句和说明的"
+    },
+    {
+      "label": "C",
+      "text": "分析语句和说明是如何构成程序的"
+    },
+    {
+      "label": "D",
+      "text": "分析程序的结构"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006557",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 34,
+  "type": "single",
+  "text": "词法分析所依据的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "语义规则"
+    },
+    {
+      "label": "B",
+      "text": "构词规则"
+    },
+    {
+      "label": "C",
+      "text": "语法规则"
+    },
+    {
+      "label": "D",
+      "text": "等价变换规则"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006558",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 35,
+  "type": "single",
+  "text": "词法分析器的输入是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "单词符号串"
+    },
+    {
+      "label": "B",
+      "text": "目标程序"
+    },
+    {
+      "label": "C",
+      "text": "语法单位"
+    },
+    {
+      "label": "D",
+      "text": "源程序"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006559",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 36,
+  "type": "single",
+  "text": "词法分析器输出的单词符号通常表示为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "单词的种别编码"
+    },
+    {
+      "label": "B",
+      "text": "单词的种别编码和自身的值"
+    },
+    {
+      "label": "C",
+      "text": "单词在符号表中的位置"
+    },
+    {
+      "label": "D",
+      "text": "单词自身值"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006560",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 37,
+  "type": "single",
+  "text": "对于任一给定的NFA M，（ ）一个DFA M′，使L(M)= L(M′)。",
+  "options": [
+    {
+      "label": "A",
+      "text": "一定存在"
+    },
+    {
+      "label": "B",
+      "text": "一定不存在"
+    },
+    {
+      "label": "C",
+      "text": "可能存在"
+    },
+    {
+      "label": "D",
+      "text": "可能不存在"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006561",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 38,
+  "type": "single",
+  "text": "DFA适用于（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "定理证明"
+    },
+    {
+      "label": "B",
+      "text": "语法分析"
+    },
+    {
+      "label": "C",
+      "text": "词法分析"
+    },
+    {
+      "label": "D",
+      "text": "语义加工"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006562",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 39,
+  "type": "single",
+  "text": "在状态转换图的实现中，（ ）一般对应一个循环语句。",
+  "options": [
+    {
+      "label": "A",
+      "text": "不含回路的分叉结点"
+    },
+    {
+      "label": "B",
+      "text": "含回路的状态结点"
+    },
+    {
+      "label": "C",
+      "text": "终态结点"
+    },
+    {
+      "label": "D",
+      "text": "其它三项都不是"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006563",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 40,
+  "type": "single",
+  "text": "词法分析器的输出是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "源代码"
+    },
+    {
+      "label": "B",
+      "text": "单词符号序列"
+    },
+    {
+      "label": "C",
+      "text": "语法树"
+    },
+    {
+      "label": "D",
+      "text": "目标代码"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006564",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 41,
+  "type": "single",
+  "text": "设M为一确定有限自动机，并设s 和t是M的两个不同状态。如果s和t（ ），则称s和t等价。",
+  "options": [
+    {
+      "label": "A",
+      "text": "不可区分"
+    },
+    {
+      "label": "B",
+      "text": "可划分"
+    },
+    {
+      "label": "C",
+      "text": "可区分"
+    },
+    {
+      "label": "D",
+      "text": "待区分"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006565",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 42,
+  "type": "single",
+  "text": "下述正规式中哪个与(a^*|b)^ * (c|d)等价？( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "a* (c|d)|b(c|d)"
+    },
+    {
+      "label": "B",
+      "text": "a* (c|d) *|b(c|d) *"
+    },
+    {
+      "label": "C",
+      "text": "a* (c|d)|b* (c|d)"
+    },
+    {
+      "label": "D",
+      "text": "(a*|b) *c|(a*|b) *d"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006566",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 43,
+  "type": "single",
+  "text": "字母表{a,b}上以aa打头任何符号串的集合，可用正规式表示为( )。",
+  "options": [
+    {
+      "label": "A",
+      "text": "(a|b)* aa"
+    },
+    {
+      "label": "B",
+      "text": "aa(a|b)*"
+    },
+    {
+      "label": "C",
+      "text": "aa(a* |b*)"
+    },
+    {
+      "label": "D",
+      "text": "其它三项均不正确"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006567",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 44,
+  "type": "single",
+  "text": "DFA M(见图)接受的字集为（ ）。 <img src=\"assets/cb2ed4622ac8a7663497a5de9ad3c56b.webp\">",
+  "options": [
+    {
+      "label": "A",
+      "text": "以0开头的二进制数组成的集合"
+    },
+    {
+      "label": "B",
+      "text": "以0结尾的二进制数组成的集合"
+    },
+    {
+      "label": "C",
+      "text": "含奇数个0的二进制数组成的集合"
+    },
+    {
+      "label": "D",
+      "text": "含偶数个0的二进制数组成的集合"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006568",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 45,
+  "type": "single",
+  "text": "以下对DFA的说法错误的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "有向边，并且边上必须有标记"
+    },
+    {
+      "label": "B",
+      "text": "状态必须命名，并且不能重名"
+    },
+    {
+      "label": "C",
+      "text": "初态唯一"
+    },
+    {
+      "label": "D",
+      "text": "终态唯一"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006569",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 46,
+  "type": "single",
+  "text": "以下哪类表的构造是动态产生行的，它是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "子集法构造DFA时的状态转换表"
+    },
+    {
+      "label": "B",
+      "text": "预测分析表"
+    },
+    {
+      "label": "C",
+      "text": "状态转换矩阵"
+    },
+    {
+      "label": "D",
+      "text": "LR分析表"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006570",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 47,
+  "type": "single",
+  "text": "下面用正规表达式描述词法的论述中，不正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "词法规则简单，采用正规表达式已足以描述"
+    },
+    {
+      "label": "B",
+      "text": "正规表达式的表示比上下文无关文法更加简洁、直观和易于理解"
+    },
+    {
+      "label": "C",
+      "text": "正规表达式描述能力强于上下文无关文法"
+    },
+    {
+      "label": "D",
+      "text": "有限自动机的构造比下推自动机简单且分析效率高"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006571",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 48,
+  "type": "single",
+  "text": "<img src=\"assets/fe6e20c99077c490b5f379806770e532.webp\">",
+  "options": [
+    {
+      "label": "A",
+      "text": "{A,C},{B},{D},{E}"
+    },
+    {
+      "label": "B",
+      "text": "{A,B},{C},{D},{E}"
+    },
+    {
+      "label": "C",
+      "text": "{C,E},{A},{B},{D}"
+    },
+    {
+      "label": "D",
+      "text": "{B,C},{A},{D},{E}"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006572",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 49,
+  "type": "single",
+  "text": "某个语言，它能用正规表达式表示，但是不能使用任何正规文法表示，这个语言必然是",
+  "options": [
+    {
+      "label": "A",
+      "text": "含二义性语言"
+    },
+    {
+      "label": "B",
+      "text": "1型文法所对应的语言"
+    },
+    {
+      "label": "C",
+      "text": "既含左递归又含右递归的语言"
+    },
+    {
+      "label": "D",
+      "text": "不存在的语言"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006573",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 50,
+  "type": "single",
+  "text": "词法分析器的另一个名称是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "分析器"
+    },
+    {
+      "label": "B",
+      "text": "扫描器"
+    },
+    {
+      "label": "C",
+      "text": "划分处理器"
+    },
+    {
+      "label": "D",
+      "text": "词法探索器"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006574",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 51,
+  "type": "single",
+  "text": "面对众多的源语言的词法分析处理，总体上，超前读入和某种假读处理是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "可以避免的"
+    },
+    {
+      "label": "B",
+      "text": "不可避免的"
+    },
+    {
+      "label": "C",
+      "text": "徒劳无益的"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006575",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 52,
+  "type": "single",
+  "text": "下述正则表达式中（）与(0*|1)*(+|-)等价",
+  "options": [
+    {
+      "label": "A",
+      "text": "0*(+|-)|1(+|-)"
+    },
+    {
+      "label": "B",
+      "text": "0*(+|-)*|1(+|-)*"
+    },
+    {
+      "label": "C",
+      "text": "0*(+|-)|1*(+|-)"
+    },
+    {
+      "label": "D",
+      "text": "(0|1)*+|(0|1)*-"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006576",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 53,
+  "type": "single",
+  "text": "若有状态转换矩阵如下，其中星号标记的是终态， <table> <tbody><tr> <td width=\"61\" valign=\"middle\" style=\"border: 1px solid windowtext; padding: 0px 7px; word-break: break-all;\" align=\"center\"><span style=\"font-size: 18px;\">S</span></td> <td width=\"61\" valign=\"top\" style=\"border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentcolor; border-image: initial; padding: 0px 7px; word-break: break-all;\">a </td> <td width=\"61\" valign=\"top\" style=\"border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext currentcolor; border-image: initial; padding: 0px 7px; word-break: break-all;\">b </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">B </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">B </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">- </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">C </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">D </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">D* </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">D </td> </tr> <tr> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor windowtext windowtext; border-image: initial; padding: 0px 7px; word-break: break-all;\">E* </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">A </td> <td width=\"61\" valign=\"top\" style=\"border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor windowtext windowtext currentcolor; padding: 0px 7px; word-break: break-all;\">- </td> </tr> </tbody></table> 最小化后状态为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "{A，B}{C}{D}{E}"
+    },
+    {
+      "label": "B",
+      "text": "{A}{B}{C}{D}{E}"
+    },
+    {
+      "label": "C",
+      "text": "{A，C}{V}{D}{E}"
+    },
+    {
+      "label": "D",
+      "text": "{A,B}{C,D,E}"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006577",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 54,
+  "type": "single",
+  "text": "<img src=\"assets/ac7a29a5922ce2461d1163115dc22cc2.webp\" class=\"ans-ued-img\"> 则描述该语言的正规式为",
+  "options": [{"label":"A","text":"<img src=\"assets/807dabbd56f9304a895bbfcfd84adb49.webp\" alt=\"NFA状态图 A\">"},{"label":"B","text":"<img src=\"assets/e73565a2daff029c998dc4b44ecbb840.webp\" alt=\"NFA状态图 B\">"},{"label":"C","text":"<img src=\"assets/e37df2fc05e8eaa0e07ff3efcac5de23.webp\" alt=\"NFA状态图 C\">"},{"label":"D","text":"<img src=\"assets/992e26a567fbed7bf6f0b20024b27944.webp\" alt=\"NFA状态图 D\">"}],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006578",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 55,
+  "type": "single",
+  "text": "正规式(a|b)*(aa|bb)(a|b)*对应的NFA为",
+  "options": [
+    {
+      "label": "A",
+      "text": "<img src=\"assets/807dabbd56f9304a895bbfcfd84adb49.webp\" alt=\"选项A\">"
+    },
+    {
+      "label": "B",
+      "text": "<img src=\"assets/e73565a2daff029c998dc4b44ecbb840.webp\" alt=\"选项B\">"
+    },
+    {
+      "label": "C",
+      "text": "<img src=\"assets/e37df2fc05e8eaa0e07ff3efcac5de23.webp\" alt=\"选项C\">"
+    },
+    {
+      "label": "D",
+      "text": "<img src=\"assets/992e26a567fbed7bf6f0b20024b27944.webp\" alt=\"选项D\">"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006579",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 56,
+  "type": "single",
+  "text": "若文法非终结符用大写字母表示，终结符用小写字母表示，则以下（ ）是句子。",
+  "options": [
+    {
+      "label": "A",
+      "text": "OPERATE"
+    },
+    {
+      "label": "B",
+      "text": "A=A+B"
+    },
+    {
+      "label": "C",
+      "text": "select"
+    },
+    {
+      "label": "D",
+      "text": "DataBase"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006580",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 57,
+  "type": "single",
+  "text": "语法分析器则可以发现源程序中的（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "语义错误"
+    },
+    {
+      "label": "B",
+      "text": "语法和语义错误"
+    },
+    {
+      "label": "C",
+      "text": "错误并校正"
+    },
+    {
+      "label": "D",
+      "text": "语法错误"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006581",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 58,
+  "type": "single",
+  "text": "只含有单层分枝的子树称为“简单子树”，则句柄的直观解释是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "子树的末端结点(即树叶)组成的符号串"
+    },
+    {
+      "label": "B",
+      "text": "简单子树的末端结点组成的符号串"
+    },
+    {
+      "label": "C",
+      "text": "最左简单子树的末端结点组成的符号串"
+    },
+    {
+      "label": "D",
+      "text": "最左简单子树的末端结点组成的符号串且该符号串必须含有终结符"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006582",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 59,
+  "type": "single",
+  "text": "下面对语法树错误的描述是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "根结点用文法G[S]的开始符S标记"
+    },
+    {
+      "label": "B",
+      "text": "每个结点用G[S]的一个终结符或非终结符标记"
+    },
+    {
+      "label": "C",
+      "text": "如果某结点标记为ε，则它必为叶结点"
+    },
+    {
+      "label": "D",
+      "text": "内部结点可以是终结符"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006583",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 60,
+  "type": "single",
+  "text": "由文法开始符S经过零步或多步推导产生的符号序列是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "短语"
+    },
+    {
+      "label": "B",
+      "text": "句柄"
+    },
+    {
+      "label": "C",
+      "text": "句型"
+    },
+    {
+      "label": "D",
+      "text": "句子"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006584",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 61,
+  "type": "single",
+  "text": "在编译原理的自顶向下语法分析中，要实现确定的自顶向下分析，所使用的文法需要满足（）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "不存在左递归。"
+    },
+    {
+      "label": "B",
+      "text": "没有二义性。"
+    },
+    {
+      "label": "C",
+      "text": "不会产生回溯。"
+    },
+    {
+      "label": "D",
+      "text": "上述三项条件都要满足。"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006585",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 62,
+  "type": "single",
+  "text": "递归下降分析器由一组递归函数组成，且每一个函数对应文法的（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "一个终结符"
+    },
+    {
+      "label": "B",
+      "text": "一个非终结符"
+    },
+    {
+      "label": "C",
+      "text": "多个终结符"
+    },
+    {
+      "label": "D",
+      "text": "多个非终结符"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006586",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 63,
+  "type": "single",
+  "text": "LL(1)分析表需要预先定义和构造两种与文法有关的集合（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "FIRST和FOLLOW"
+    },
+    {
+      "label": "B",
+      "text": "FIRSTVT和FOLLOW"
+    },
+    {
+      "label": "C",
+      "text": "FIRST和LASTVT"
+    },
+    {
+      "label": "D",
+      "text": "FIRSTVT和LASTVT"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006587",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 64,
+  "type": "single",
+  "text": "下列说法中正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "任何LL(1)文法都是无二义性的。"
+    },
+    {
+      "label": "B",
+      "text": "左递归文法必然不是LL(1)文法。"
+    },
+    {
+      "label": "C",
+      "text": "对于任意一个前后文无关文法G，都能为其构造一个无多重定义的预测分析表。"
+    },
+    {
+      "label": "D",
+      "text": "如果文法是右递归的，则自顶向下的分析过程将不能正常地进行。"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006588",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 65,
+  "type": "single",
+  "text": "如下的语法分析方法中，（ ）不属于自底向上的语法分析方法。",
+  "options": [
+    {
+      "label": "A",
+      "text": "SLR（1）分析法"
+    },
+    {
+      "label": "B",
+      "text": "算符优先分析法"
+    },
+    {
+      "label": "C",
+      "text": "LR（0）分析法"
+    },
+    {
+      "label": "D",
+      "text": "LL（1）分析法"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006589",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 66,
+  "type": "single",
+  "text": "文法 G 产生的（ ）的全体是该文法描述的语言。",
+  "options": [
+    {
+      "label": "A",
+      "text": "句型"
+    },
+    {
+      "label": "B",
+      "text": "终结符集"
+    },
+    {
+      "label": "C",
+      "text": "非终结符集"
+    },
+    {
+      "label": "D",
+      "text": "句子"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006590",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 67,
+  "type": "single",
+  "text": "若文法 G 定义的语言是无限集，则文法G必然是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "前后文无关的"
+    },
+    {
+      "label": "B",
+      "text": "递归的"
+    },
+    {
+      "label": "C",
+      "text": "二义性的"
+    },
+    {
+      "label": "D",
+      "text": "无二义性的"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006591",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 68,
+  "type": "single",
+  "text": "Chomsky 定义的四种形式语言文法中，1型文法又称为哪种文法？( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "短语结构文法"
+    },
+    {
+      "label": "B",
+      "text": "正规文法"
+    },
+    {
+      "label": "C",
+      "text": "上下文有关文法"
+    },
+    {
+      "label": "D",
+      "text": "上下文无关文法"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006592",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 69,
+  "type": "single",
+  "text": "由“A<img class=\"ans-formula-moudle\" src=\"./1_files/149\"><img src=\"./1_files/2e330738c0d05ebca2ede51b5c27e2d9.png\">”这种产生式形式构成的文法是( )。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正则文法"
+    },
+    {
+      "label": "B",
+      "text": "1 型方法"
+    },
+    {
+      "label": "C",
+      "text": "2型文法"
+    },
+    {
+      "label": "D",
+      "text": "3型文法"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006593",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 70,
+  "type": "single",
+  "text": "给定文法 A<img class=\"ans-formula-moudle\" src=\"./1_files/149\">Aa|b ,下面的符号串可由其推导出的是( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "aab"
+    },
+    {
+      "label": "B",
+      "text": "aaab"
+    },
+    {
+      "label": "C",
+      "text": "baa"
+    },
+    {
+      "label": "D",
+      "text": "ε"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006594",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 71,
+  "type": "single",
+  "text": "高级语言编译程序常用的语法分析方法中，递归下降分析法属于哪种分析方法？( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "自左至右"
+    },
+    {
+      "label": "B",
+      "text": "自顶向下"
+    },
+    {
+      "label": "C",
+      "text": "自底向上"
+    },
+    {
+      "label": "D",
+      "text": "自右至左"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006595",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 72,
+  "type": "single",
+  "text": "设有文法G[S]: S<img class=\"ans-formula-moudle\" src=\"./1_files/149\"> S*S | S+S | (S) | a, 该文法是否为二义性文法？( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "是"
+    },
+    {
+      "label": "B",
+      "text": "不是"
+    },
+    {
+      "label": "C",
+      "text": "不一定"
+    },
+    {
+      "label": "D",
+      "text": "其它三项均不对"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006596",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 73,
+  "type": "single",
+  "text": "文法G[S]: S→aABe A→b | Abc B→d中First(S)=( )。",
+  "options": [
+    {
+      "label": "A",
+      "text": "{a , b , ε}"
+    },
+    {
+      "label": "B",
+      "text": "{a , b}"
+    },
+    {
+      "label": "C",
+      "text": "{ a, ε}"
+    },
+    {
+      "label": "D",
+      "text": "{a}"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006597",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 74,
+  "type": "single",
+  "text": "下述FOLLOW集构造方法中<span style=\"text-emphasis: dot currentcolor; font-style: inherit;\">错误</span>的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "对文法开始符S有#∈FOLLOW(S)"
+    },
+    {
+      "label": "B",
+      "text": "若有A→αBβ，则有FIRST(β)\\{ε}FOLLOW(B)"
+    },
+    {
+      "label": "C",
+      "text": "若有A→αB，则有FOLLOW(B)FOLLOW(A)"
+    },
+    {
+      "label": "D",
+      "text": "若有A→αB，则有FOLLOW(A)FOLLOW(B)"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006598",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 75,
+  "type": "single",
+  "text": "若文法G[S]的产生式有…AB…出现，则对A求FOLLOW集正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "FOLLOW(B)FOLLOW(A)"
+    },
+    {
+      "label": "B",
+      "text": "FIRSTVT(B)FOLLOW(A)"
+    },
+    {
+      "label": "C",
+      "text": "FIRST(B)\\{ε}FOLLOW(A)"
+    },
+    {
+      "label": "D",
+      "text": "LASTVT(B)FOLLOW(A)"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006599",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 76,
+  "type": "single",
+  "text": "文法S->AA ，A->Aa|a 不是LL(1)文法，理由是( )。",
+  "options": [
+    {
+      "label": "A",
+      "text": "FIRST(S)∩FIRST(A)≠Φ"
+    },
+    {
+      "label": "B",
+      "text": "FIRST(S)∩FOLLOW(A)≠Φ"
+    },
+    {
+      "label": "C",
+      "text": "FIRST(Aa)∩FIRST(a)≠Φ"
+    },
+    {
+      "label": "D",
+      "text": "其它三项均不正确"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006600",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 77,
+  "type": "single",
+  "text": "<span style=\"font-size:14px;font-family:宋体\">下列文法中，（ ）是LL(1)文法。</span>",
+  "options": [
+    {
+      "label": "A",
+      "text": "S→bBS'a S'→aBS'∣ε A→S∣a B→Ac"
+    },
+    {
+      "label": "B",
+      "text": "S→bS∣bA∣b A→aA∣a"
+    },
+    {
+      "label": "C",
+      "text": "E→E+T∣T T→T*F∣F F→(E)∣i"
+    },
+    {
+      "label": "D",
+      "text": "S→bBS' S'→aBS'∣ε A→S∣a B→Ac"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006601",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 78,
+  "type": "single",
+  "text": "给定文法G[M]: M →a|b|(N) N →MdN|M 要得到符号串（bda），下列推导过程正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "M=>(N)=>(M)=>(MdN)=>(bdN)=>(bdM)=>(bda)"
+    },
+    {
+      "label": "B",
+      "text": "M=>(N)=>(MdN)=>(bdN)=>(bdM)=>(bda)"
+    },
+    {
+      "label": "C",
+      "text": "M=>(N)=>(MdN)=>(Mda)=>(bda)"
+    },
+    {
+      "label": "D",
+      "text": "M=>(N)=>(MdN)=>(bda)"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006602",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 79,
+  "type": "single",
+  "text": "设有文法G[A]: A→A*A∣A+A∣(A)∣a ，则造成该文法是二义性文法的原因是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "文法中有括号"
+    },
+    {
+      "label": "B",
+      "text": "文法缺少对优先级和结合性的规定"
+    },
+    {
+      "label": "C",
+      "text": "文法对应的语言就是二义性的"
+    },
+    {
+      "label": "D",
+      "text": "其它三项均不对"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006603",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 80,
+  "type": "single",
+  "text": "设文法G[S]： S→SA | A A→a | b 则对句子aba的规范推导是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "S SA SAA AAA aAA abA aba"
+    },
+    {
+      "label": "B",
+      "text": "S SA SAA AAA AAa Aba aba"
+    },
+    {
+      "label": "C",
+      "text": "S SA SAA SAa Sba Aba aba"
+    },
+    {
+      "label": "D",
+      "text": "S SA Sa SAa Sba Aba aba"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006604",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 81,
+  "type": "single",
+  "text": "对文法G[E]：E→E*T | T T→T+i | i 句子1+2*8+6归约的值为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "23"
+    },
+    {
+      "label": "B",
+      "text": "42"
+    },
+    {
+      "label": "C",
+      "text": "30"
+    },
+    {
+      "label": "D",
+      "text": "17"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006605",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 82,
+  "type": "single",
+  "text": "对于文法G[Z]，已知u是句型，则判断（）是正确的",
+  "options": [
+    {
+      "label": "A",
+      "text": "只要使用规范推导，无论如何一定可以从Z推导出u"
+    },
+    {
+      "label": "B",
+      "text": "只要依据产生式进行归约，则u一定可以归约成Z"
+    },
+    {
+      "label": "C",
+      "text": "上面的A和B都是对的"
+    },
+    {
+      "label": "D",
+      "text": "上面的A和B都是错的"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006606",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 83,
+  "type": "single",
+  "text": "由“非终结符-->符号串”这种产生式构成的文法是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "0型语法"
+    },
+    {
+      "label": "B",
+      "text": "1型文法"
+    },
+    {
+      "label": "C",
+      "text": "2型文法"
+    },
+    {
+      "label": "D",
+      "text": "3型文法"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006607",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 84,
+  "type": "single",
+  "text": "二义文法是指（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "对应于两棵不同语法书的文法"
+    },
+    {
+      "label": "B",
+      "text": "对应于两种不同推导的文法"
+    },
+    {
+      "label": "C",
+      "text": "文法中任何一个非终结符，都存在以它为左部的两个不同产生式"
+    },
+    {
+      "label": "D",
+      "text": "A、B、C都是错的"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006608",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 85,
+  "type": "single",
+  "text": "文法G[Z]和语言L（G[Z]）存在如下关系：",
+  "options": [
+    {
+      "label": "A",
+      "text": "一一对应，一个文法对应唯一的语言，并且，一个语言对应唯一的文法"
+    },
+    {
+      "label": "B",
+      "text": "一个语言对应唯一的文法，反之则不然"
+    },
+    {
+      "label": "C",
+      "text": "一个文法对应唯一的语言，反之则不然"
+    },
+    {
+      "label": "D",
+      "text": "若为非二义文法，则C正确；若为二义文法，则一个文法不对应唯一的语言"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006609",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 86,
+  "type": "single",
+  "text": "关于短语和句柄，正确的论述是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "短语就是句柄"
+    },
+    {
+      "label": "B",
+      "text": "直接短语才可能是句柄"
+    },
+    {
+      "label": "C",
+      "text": "最左短语一定是句柄"
+    },
+    {
+      "label": "D",
+      "text": "最右短语一定是句柄"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006610",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 87,
+  "type": "single",
+  "text": "若一个文法是递归的，则它产生的句子个数是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "无穷个"
+    },
+    {
+      "label": "B",
+      "text": "可能有限个，可能无穷个"
+    },
+    {
+      "label": "C",
+      "text": "有限个"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006611",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 88,
+  "type": "single",
+  "text": "正则文法（）二义性的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "可以是"
+    },
+    {
+      "label": "B",
+      "text": "一定不是"
+    },
+    {
+      "label": "C",
+      "text": "一定是"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006612",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 89,
+  "type": "single",
+  "text": "一个语法的文法是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "唯一的"
+    },
+    {
+      "label": "B",
+      "text": "不唯一的"
+    },
+    {
+      "label": "C",
+      "text": "个数有限的"
+    },
+    {
+      "label": "D",
+      "text": "无数个"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006613",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 90,
+  "type": "single",
+  "text": "文法识别符号经过任意步推导得到的结果是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "句型"
+    },
+    {
+      "label": "B",
+      "text": "句柄"
+    },
+    {
+      "label": "C",
+      "text": "句子"
+    },
+    {
+      "label": "D",
+      "text": "短语"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006614",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 91,
+  "type": "single",
+  "text": "文法分为四种类型：0型文法、1型文法、2型文法、3型文法，其中3型文法是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "短语文法"
+    },
+    {
+      "label": "B",
+      "text": "正规文法"
+    },
+    {
+      "label": "C",
+      "text": "上下文有关文法"
+    },
+    {
+      "label": "D",
+      "text": "上下文无关文法"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006615",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 92,
+  "type": "single",
+  "text": "在编译中产生语法树是为了（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "语法分析"
+    },
+    {
+      "label": "B",
+      "text": "语义分析"
+    },
+    {
+      "label": "C",
+      "text": "词法分析"
+    },
+    {
+      "label": "D",
+      "text": "目标代码生成"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006616",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 93,
+  "type": "single",
+  "text": "一个上下文无关文法包含四个部分，一组非终结符，一组终结符，一个开始符号以及一组（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "句子"
+    },
+    {
+      "label": "B",
+      "text": "句型"
+    },
+    {
+      "label": "C",
+      "text": "产生式"
+    },
+    {
+      "label": "D",
+      "text": "单词"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006617",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 94,
+  "type": "single",
+  "text": "自下而上的语法分析中，应从（）开始分析",
+  "options": [
+    {
+      "label": "A",
+      "text": "开始符号"
+    },
+    {
+      "label": "B",
+      "text": "句柄"
+    },
+    {
+      "label": "C",
+      "text": "句子"
+    },
+    {
+      "label": "D",
+      "text": "句型"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006618",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 95,
+  "type": "single",
+  "text": "一个句型中的最左（）称为该句型的句柄",
+  "options": [
+    {
+      "label": "A",
+      "text": "短语"
+    },
+    {
+      "label": "B",
+      "text": "简单短语"
+    },
+    {
+      "label": "C",
+      "text": "素短语"
+    },
+    {
+      "label": "D",
+      "text": "终结符号"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006619",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 96,
+  "type": "single",
+  "text": "设有文法G[S]: S::=S*S|S+S|(S)|a 该文法（）二义性文法",
+  "options": [
+    {
+      "label": "A",
+      "text": "是"
+    },
+    {
+      "label": "B",
+      "text": "不是"
+    },
+    {
+      "label": "C",
+      "text": "无法判断"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006620",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 97,
+  "type": "single",
+  "text": "递归子程序法属于（）语法分析方法",
+  "options": [
+    {
+      "label": "A",
+      "text": "自顶向下"
+    },
+    {
+      "label": "B",
+      "text": "自底向上"
+    },
+    {
+      "label": "C",
+      "text": "自左向右"
+    },
+    {
+      "label": "D",
+      "text": "自右向左"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006621",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 98,
+  "type": "single",
+  "text": "采用确定的自顶向下分析时，必须（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "消除左递归"
+    },
+    {
+      "label": "B",
+      "text": "消除右递归"
+    },
+    {
+      "label": "C",
+      "text": "避免回溯"
+    },
+    {
+      "label": "D",
+      "text": "提取左公因子"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006622",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 99,
+  "type": "single",
+  "text": "自上而下语法分析的主要分析动作是",
+  "options": [
+    {
+      "label": "A",
+      "text": "推导"
+    },
+    {
+      "label": "B",
+      "text": "移进"
+    },
+    {
+      "label": "C",
+      "text": "归约"
+    },
+    {
+      "label": "D",
+      "text": "匹配"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006623",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 100,
+  "type": "single",
+  "text": "一个字符属于FOLLOW（S），这个字符的含义是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "一定会有一个句型中后随S的终结符"
+    },
+    {
+      "label": "B",
+      "text": "S可能推导出第一个字符"
+    },
+    {
+      "label": "C",
+      "text": "S可能推导出最后一个字符"
+    },
+    {
+      "label": "D",
+      "text": "在某句型中直接跟在S后的字符"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006624",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 101,
+  "type": "single",
+  "text": "编译程序中的语法分析器接受以（）为单位的输入，并产生有关信息供以后各阶段使用",
+  "options": [
+    {
+      "label": "A",
+      "text": "表达式"
+    },
+    {
+      "label": "B",
+      "text": "产生式"
+    },
+    {
+      "label": "C",
+      "text": "单词"
+    },
+    {
+      "label": "D",
+      "text": "语句"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006625",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 102,
+  "type": "single",
+  "text": "构造一个不带回溯的自顶向下语法分析器，要求文法满足",
+  "options": [
+    {
+      "label": "A",
+      "text": "对每个形如A→x1|x2|…|xn的产生式，要求FIRST(xi)与FIRST(xj)的交集为空集(i≠j)"
+    },
+    {
+      "label": "B",
+      "text": "对每个形如A→x1|x2|…|xn的产生式，若xi*ε，则要求FIRST(xj)与FOLLOW(A)的交集为空集(i≠j)"
+    },
+    {
+      "label": "C",
+      "text": "不含左递归"
+    },
+    {
+      "label": "D",
+      "text": "A和B同时满足"
+    },
+    {
+      "label": "E",
+      "text": "A、B和C同时满足"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006626",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 103,
+  "type": "single",
+  "text": "LL(1)文法（）二义性的",
+  "options": [
+    {
+      "label": "A",
+      "text": "都是有"
+    },
+    {
+      "label": "B",
+      "text": "都没有"
+    },
+    {
+      "label": "C",
+      "text": "不一定有"
+    },
+    {
+      "label": "D",
+      "text": "极少具有"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006627",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 104,
+  "type": "single",
+  "text": "<img src=\"assets/bf3089ab5aa8dfc0efb27eeb24f99a1c.webp\" class=\"ans-ued-img\" width=\"150\" height=\"222\" title=\"\" alt=\"\" style=\"width: 150px; height: 222px;\"> 则下列说法错误的是（ ）。",
+  "options": [
+    {
+      "label": "B",
+      "text": "文法的终结符有+、*、id、（，）"
+    },
+    {
+      "label": "C",
+      "text": "id*id是文法合法的句子"
+    },
+    {
+      "label": "D",
+      "text": "从任意非终结符开始推导得到的终结符序列都是文法的句子"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006628",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 105,
+  "type": "single",
+  "text": "<img src=\"assets/f41349c4742b33bad6df8cf6274b8c5b.webp\" class=\"ans-ued-img\" width=\"150\" height=\"127\" title=\"\" alt=\"\" style=\"width: 150px; height: 127px;\"> 则 E'TT'F 和 E'T' 的 First 集分别是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "{+，id，（}和{+，*，ε}"
+    },
+    {
+      "label": "B",
+      "text": "{+，id，（，*}和{+，*，ε}"
+    },
+    {
+      "label": "C",
+      "text": "{+，id，（，ε}和{+，*，ε}"
+    },
+    {
+      "label": "D",
+      "text": "{+，id，（}和{+，*}"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006629",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 106,
+  "type": "single",
+  "text": "<img src=\"assets/f41349c4742b33bad6df8cf6274b8c5b.webp\" class=\"ans-ued-img\" width=\"150\" height=\"127\" border=\"\" vspace=\"\" title=\"\" alt=\"\" style=\"width: 150px; height: 127px;\"> 则T'和F的Follow集分别为",
+  "options": [
+    {
+      "label": "A",
+      "text": "{+，），#}和{+，），#}"
+    },
+    {
+      "label": "B",
+      "text": "{+，），#}和{*，+，），#}"
+    },
+    {
+      "label": "C",
+      "text": "{+，），#，*}和{*，+，），#}"
+    },
+    {
+      "label": "D",
+      "text": "{*，+，），#}和{+，），#}"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006630",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 107,
+  "type": "single",
+  "text": "<img src=\"assets/f41349c4742b33bad6df8cf6274b8c5b.webp\" class=\"ans-ued-img\" width=\"150\" height=\"127\" border=\"\" vspace=\"\" title=\"\" alt=\"\" style=\"white-space: normal; width: 150px; height: 127px;\">、 则 <img src=\"assets/5c32da73f814bb7fedd0313637cab8db.webp\" class=\"ans-ued-img\" width=\"80\" height=\"59\" border=\"\" vspace=\"\" title=\"\" alt=\"\" style=\"width: 80px; height: 59px;\"> 的Select集分别为（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "{*，ε} 和{+，），#}"
+    },
+    {
+      "label": "B",
+      "text": "{*} 和{*，+，），#}"
+    },
+    {
+      "label": "C",
+      "text": "{*} 和{+，），#}"
+    },
+    {
+      "label": "D",
+      "text": "{*} 和{+，）}"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006631",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 108,
+  "type": "single",
+  "text": "108. (单选题, 1分) 规范归约中的“可归约串”由（ ）定义。",
+  "options": [
+    {
+      "label": "A",
+      "text": "直接短语"
+    },
+    {
+      "label": "B",
+      "text": "最右直接短语"
+    },
+    {
+      "label": "C",
+      "text": "最左直接短语"
+    },
+    {
+      "label": "D",
+      "text": "最左素短语"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006632",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 109,
+  "type": "single",
+  "text": "109. (单选题, 1分) 规范归约是指（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "最左推导的逆过程"
+    },
+    {
+      "label": "B",
+      "text": "最右推导的逆过程"
+    },
+    {
+      "label": "C",
+      "text": "规范推导"
+    },
+    {
+      "label": "D",
+      "text": "最左归约的逆过程"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006633",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 110,
+  "type": "single",
+  "text": "文法G[S]：S→aAcB | Bd A→AaB | c B→bScA | b 则句型aAcbBdcc的短语是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "Bd"
+    },
+    {
+      "label": "B",
+      "text": "cc"
+    },
+    {
+      "label": "C",
+      "text": "a"
+    },
+    {
+      "label": "D",
+      "text": "b"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006634",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 111,
+  "type": "single",
+  "text": "111. (单选题, 1分) 在LR(0)的ACTION子表中，如果某一行中存在标记为“Rj”的栏，则（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "该行必定填满Rj"
+    },
+    {
+      "label": "B",
+      "text": "该行未填满Rj"
+    },
+    {
+      "label": "C",
+      "text": "其他行也有Rj"
+    },
+    {
+      "label": "D",
+      "text": "GOTO子表中也有Rj"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006635",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 112,
+  "type": "single",
+  "text": "112. (单选题, 1分) 若项目集Ik含有A→• ，则在状态k时，仅当面临的输入符号a∈FOLLOW(A)才采取“将归约为A”动作的一定是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "LALR(1) 文法"
+    },
+    {
+      "label": "B",
+      "text": "LR(0) 文法"
+    },
+    {
+      "label": "C",
+      "text": "LR(1) 文法"
+    },
+    {
+      "label": "D",
+      "text": "SLR(1) 文法"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006636",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 113,
+  "type": "single",
+  "text": "113. (单选题, 1分) 所谓相容，是指在一个项目集中，不出现这样的情况，（ ）和归约项目并存，或多个归约项目并存。",
+  "options": [
+    {
+      "label": "A",
+      "text": "移进项目"
+    },
+    {
+      "label": "B",
+      "text": "基本项目"
+    },
+    {
+      "label": "C",
+      "text": "待约项目"
+    },
+    {
+      "label": "D",
+      "text": "后继项目"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006637",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 114,
+  "type": "single",
+  "text": "114. (单选题, 1分) LR(K)分析是一种自底向上的分析法，它是以下面哪个作为每一步归约的对象？( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "最右直接短语"
+    },
+    {
+      "label": "B",
+      "text": "最左直接短语"
+    },
+    {
+      "label": "C",
+      "text": "句柄"
+    },
+    {
+      "label": "D",
+      "text": "最左素短语"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006638",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 115,
+  "type": "single",
+  "text": "115. (单选题, 1分) 关于短语和句柄，正确的叙述是( )。",
+  "options": [
+    {
+      "label": "A",
+      "text": "短语就是句柄"
+    },
+    {
+      "label": "B",
+      "text": "直接短语才可能是句柄"
+    },
+    {
+      "label": "C",
+      "text": "最左短语一定是句柄"
+    },
+    {
+      "label": "D",
+      "text": "最右短语一定是句柄"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006639",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 116,
+  "type": "single",
+  "text": "116. (单选题, 1分) 项目A→• 为（ ）项目。",
+  "options": [
+    {
+      "label": "A",
+      "text": "归约"
+    },
+    {
+      "label": "B",
+      "text": "移进"
+    },
+    {
+      "label": "C",
+      "text": "接受"
+    },
+    {
+      "label": "D",
+      "text": "待约"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006640",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 117,
+  "type": "single",
+  "text": "<span style=\"font-size:14px;font-family:'Calibri',sans-serif\">E</span><span style=\"font-size:14px;font-family:'Calibri',sans-serif\">→<strong><span style=\"font-size:14px;font-family:Symbol\">×</span></strong>E+T为（）项目</span>",
+  "options": [
+    {
+      "label": "A",
+      "text": "移入"
+    },
+    {
+      "label": "B",
+      "text": "待规约"
+    },
+    {
+      "label": "C",
+      "text": "归约"
+    },
+    {
+      "label": "D",
+      "text": "不能确定"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006641",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 118,
+  "type": "single",
+  "text": "<span style=\"font-size: 14px; font-family: Calibri, sans-serif;\">E</span><span style=\"font-size: 14px; font-family: Calibri, sans-serif;\">→E<strong style=\"font-family: Calibri, sans-serif; font-size: 14px; white-space: normal;\"><span style=\"font-family: Symbol;\">×</span></strong>+T为（）项目</span>",
+  "options": [
+    {
+      "label": "A",
+      "text": "移入"
+    },
+    {
+      "label": "B",
+      "text": "归约"
+    },
+    {
+      "label": "C",
+      "text": "待归约"
+    },
+    {
+      "label": "D",
+      "text": "无法确定"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006642",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 119,
+  "type": "single",
+  "text": "文法G[L]: L→MLb | a<br style=\"margin: 0px; padding: 0px;\"> M→ε 识别活前缀的DFA状态<span style=\"text-emphasis: dot currentcolor; font-style: inherit;\">有误</span>的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "L’ →•LL→•MLbL→•a"
+    },
+    {
+      "label": "B",
+      "text": "L→M•LbL→•MLbL→•aM→•"
+    },
+    {
+      "label": "C",
+      "text": "L→ML•b"
+    },
+    {
+      "label": "D",
+      "text": "L→MLb•"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006643",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 120,
+  "type": "single",
+  "text": "最左简单子树的末端结点构成的符号串称为（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "简单短语"
+    },
+    {
+      "label": "B",
+      "text": "句柄"
+    },
+    {
+      "label": "C",
+      "text": "最左素短语"
+    },
+    {
+      "label": "D",
+      "text": "素短语"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006644",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 121,
+  "type": "single",
+  "text": "若a为终结符，则A→α·aβ为（ ）项目",
+  "options": [
+    {
+      "label": "A",
+      "text": "待约"
+    },
+    {
+      "label": "B",
+      "text": "接受"
+    },
+    {
+      "label": "C",
+      "text": "移进"
+    },
+    {
+      "label": "D",
+      "text": "归约"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006645",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 122,
+  "type": "single",
+  "text": "下面哪种不是自底向上的语法分析文法（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "LR（1）"
+    },
+    {
+      "label": "B",
+      "text": "SLR（1）"
+    },
+    {
+      "label": "C",
+      "text": "LL（K）"
+    },
+    {
+      "label": "D",
+      "text": "算符优先法"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006646",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 123,
+  "type": "single",
+  "text": "LR（k）方法是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "从左到右分析，每次向前预测k步的一种编译方法"
+    },
+    {
+      "label": "B",
+      "text": "从左到右分析，是否归约句柄要向后看k个输入符号的一种编译方法"
+    },
+    {
+      "label": "C",
+      "text": "从左到右分析，共经过k步的一种编译方法"
+    },
+    {
+      "label": "D",
+      "text": "从左到右分析，每次走k步的一种编译方法"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006647",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 124,
+  "type": "single",
+  "text": "算符优先分析是一种自底向上的分析方法，它是以（ ）作为每一步归约的对象",
+  "options": [
+    {
+      "label": "A",
+      "text": "句柄"
+    },
+    {
+      "label": "B",
+      "text": "最右直接短语"
+    },
+    {
+      "label": "C",
+      "text": "最左素短语"
+    },
+    {
+      "label": "D",
+      "text": "最右素短语"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006648",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 125,
+  "type": "single",
+  "text": "在通常的语法分析方法中，（ ）特别适用于表达式的分析",
+  "options": [
+    {
+      "label": "A",
+      "text": "简单优先法"
+    },
+    {
+      "label": "B",
+      "text": "LR分析法"
+    },
+    {
+      "label": "C",
+      "text": "算符优先法"
+    },
+    {
+      "label": "D",
+      "text": "LL（1）分析法"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006649",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 126,
+  "type": "single",
+  "text": "若项目集Ik含有A->α·，则在状态k时，仅当面临的输入符号a∈FOLLOW(A)时，才采取“A->α·”动作的一定是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "LALR文法"
+    },
+    {
+      "label": "B",
+      "text": "LR(0)文法"
+    },
+    {
+      "label": "C",
+      "text": "LR(1)文法"
+    },
+    {
+      "label": "D",
+      "text": "SLR(1)文法"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006650",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 127,
+  "type": "single",
+  "text": "在规范归约中，任何可归约串的出现都在（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "栈的内部"
+    },
+    {
+      "label": "B",
+      "text": "剩余的输入串中"
+    },
+    {
+      "label": "C",
+      "text": "栈顶"
+    },
+    {
+      "label": "D",
+      "text": "在栈顶和输入串中"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006651",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 128,
+  "type": "single",
+  "text": "一个LR分析器实质上是一个带有先进后出存储栈的( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "DFA"
+    },
+    {
+      "label": "B",
+      "text": "NFA"
+    },
+    {
+      "label": "C",
+      "text": "ACTION表"
+    },
+    {
+      "label": "D",
+      "text": "LR分析表"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006652",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 129,
+  "type": "single",
+  "text": "自下而上语法分析的主要分析动作是( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "移进"
+    },
+    {
+      "label": "B",
+      "text": "推导"
+    },
+    {
+      "label": "C",
+      "text": "归约"
+    },
+    {
+      "label": "D",
+      "text": "匹配"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006653",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 130,
+  "type": "single",
+  "text": "LR分析法属于( )",
+  "options": [
+    {
+      "label": "A",
+      "text": "自顶向下分析法"
+    },
+    {
+      "label": "B",
+      "text": "LALR分析法"
+    },
+    {
+      "label": "C",
+      "text": "SLR分析法"
+    },
+    {
+      "label": "D",
+      "text": "自底向上分析法"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006654",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 131,
+  "type": "single",
+  "text": "131. (单选题, 1分) 中间代码的优点是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "节省存储空间"
+    },
+    {
+      "label": "B",
+      "text": "编译时间短"
+    },
+    {
+      "label": "C",
+      "text": "编译结构在逻辑上更为简单明确"
+    },
+    {
+      "label": "D",
+      "text": "节省内存且编译时间短"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006655",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 132,
+  "type": "single",
+  "text": "132. (单选题, 1分) 四元式之间的联系是通过（ ）实现的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "指示器"
+    },
+    {
+      "label": "B",
+      "text": "临时变量"
+    },
+    {
+      "label": "C",
+      "text": "符号表"
+    },
+    {
+      "label": "D",
+      "text": "程序变量"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006656",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 133,
+  "type": "single",
+  "text": "133. (单选题, 1分) 表达式(┐A∨B)∧(C∨D)的逆波兰表示为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "┐AB∨∧CD∨"
+    },
+    {
+      "label": "B",
+      "text": "A┐B∨CD∨∧"
+    },
+    {
+      "label": "C",
+      "text": "AB∨┐CD∨∧"
+    },
+    {
+      "label": "D",
+      "text": "A┐B∨∧CD∨"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006657",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 134,
+  "type": "single",
+  "text": "134. (单选题, 1分) 后缀式ab+cd+/ 可用中缀表达式（ ）来表示。",
+  "options": [
+    {
+      "label": "A",
+      "text": "a+b/c+d"
+    },
+    {
+      "label": "B",
+      "text": "(a+b)/(c+d)"
+    },
+    {
+      "label": "C",
+      "text": "a+b/(c+d)"
+    },
+    {
+      "label": "D",
+      "text": "a+b+c/d"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006658",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 135,
+  "type": "single",
+  "text": "135. (单选题, 1分) 中间代码生成时所依据的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "语法规则"
+    },
+    {
+      "label": "B",
+      "text": "词法规则"
+    },
+    {
+      "label": "C",
+      "text": "语义规则"
+    },
+    {
+      "label": "D",
+      "text": "等价变换规则"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006659",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 136,
+  "type": "single",
+  "text": "136. (单选题, 1分) 四元式表示法的优点为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "不便于优化处理但便于表的更动"
+    },
+    {
+      "label": "B",
+      "text": "不便于优化处理但节省存储空间"
+    },
+    {
+      "label": "C",
+      "text": "便于优化处理也便于表的更动"
+    },
+    {
+      "label": "D",
+      "text": "便于表的更动也节省存储空间"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006660",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 137,
+  "type": "single",
+  "text": "137. (单选题, 1分) 下列表示中，（ ）是与f×(e+(a×d+c)/d)相应的逆波兰式。",
+  "options": [
+    {
+      "label": "A",
+      "text": "fead×c+d/+×"
+    },
+    {
+      "label": "B",
+      "text": "f×e+a×d+c/d"
+    },
+    {
+      "label": "C",
+      "text": "fad×+c/d+e×"
+    },
+    {
+      "label": "D",
+      "text": "ad×c+d/e+f×"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006661",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 138,
+  "type": "single",
+  "text": "138. (单选题, 1分) 下列表示中，（ ）不是目前经常使用的中间语言的形式。",
+  "options": [
+    {
+      "label": "A",
+      "text": "逆波兰式"
+    },
+    {
+      "label": "B",
+      "text": "四元式"
+    },
+    {
+      "label": "C",
+      "text": "五元式"
+    },
+    {
+      "label": "D",
+      "text": "树形表示"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006663",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 139,
+  "type": "single",
+  "text": "有一语法制导翻译如下所示： S→bAb {print''1''} A→(B {print''2''} A→a {print''3''} B→Aa) {print''4''} 若输入序列为b(((aa)a)a)b，且采用自底向上的分析方法，则输出序列为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "32224441"
+    },
+    {
+      "label": "B",
+      "text": "34242421"
+    },
+    {
+      "label": "C",
+      "text": "12424243"
+    },
+    {
+      "label": "D",
+      "text": "34442212"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006664",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 140,
+  "type": "single",
+  "text": "表达式a*b-c-d$e$f-g-h*i中，运算符的优先级由高到低依次为-、*、$，且均为右结合，则相应的后缀式为（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "ad*c-d-e$fg-h-i*$"
+    },
+    {
+      "label": "B",
+      "text": "$*a-b-cd$e*-f-ghi"
+    },
+    {
+      "label": "C",
+      "text": "0bc--a*efgh--*$"
+    },
+    {
+      "label": "D",
+      "text": "abcd--*efgh--i*$"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006665",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 141,
+  "type": "single",
+  "text": "赋值语句X=-(a+b)/(c-d)-(a+b*c)的逆波兰表示为（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "Xab+cd-/-bc*a+-="
+    },
+    {
+      "label": "B",
+      "text": "Xab+/cd-bc*a+--="
+    },
+    {
+      "label": "C",
+      "text": "Xab+-cd-/abc*+-="
+    },
+    {
+      "label": "D",
+      "text": "Xab+cd-/abc*+--="
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006667",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 142,
+  "type": "single",
+  "text": "假设/的优先级高于-，则采用右结合规则时，a-b/c-d可解释为（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "(a-(b/c))-d"
+    },
+    {
+      "label": "B",
+      "text": "a-((b/c)-d)"
+    },
+    {
+      "label": "C",
+      "text": "a-d-(b/c)"
+    },
+    {
+      "label": "D",
+      "text": "(b-c)-a-d"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006668",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 143,
+  "type": "single",
+  "text": "逆波兰式ab+cd+*所代表的中缀形式的表达式是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "a+b+c*d"
+    },
+    {
+      "label": "B",
+      "text": "(a+b)*(c+d)"
+    },
+    {
+      "label": "C",
+      "text": "(a+b)*c+d"
+    },
+    {
+      "label": "D",
+      "text": "a+b*c+d"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006669",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 144,
+  "type": "single",
+  "text": "中间代码是介于源语言程序和什么之间的一种代码?",
+  "options": [
+    {
+      "label": "A",
+      "text": "源代码"
+    },
+    {
+      "label": "B",
+      "text": "机器语言"
+    },
+    {
+      "label": "C",
+      "text": "汇编语言"
+    },
+    {
+      "label": "D",
+      "text": "目标代码"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006670",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 145,
+  "type": "single",
+  "text": "在编译程序中与生成中间代码的目的无关的是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "便于目标代码优化"
+    },
+    {
+      "label": "B",
+      "text": "便于存储空间的组织"
+    },
+    {
+      "label": "C",
+      "text": "便于目标代码的移植"
+    },
+    {
+      "label": "D",
+      "text": "便于编译程序的移植"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006671",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 146,
+  "type": "single",
+  "text": "四元式之间的联系是通过（ ）实现的",
+  "options": [
+    {
+      "label": "A",
+      "text": "指示器"
+    },
+    {
+      "label": "B",
+      "text": "临时变量"
+    },
+    {
+      "label": "C",
+      "text": "符号表"
+    },
+    {
+      "label": "D",
+      "text": "程序变量"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006672",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 147,
+  "type": "single",
+  "text": "后缀式 ab+cd+/可用表达式（ ）来表示",
+  "options": [
+    {
+      "label": "A",
+      "text": "a+b/c+d"
+    },
+    {
+      "label": "B",
+      "text": "(a+b)/(c+d)"
+    },
+    {
+      "label": "C",
+      "text": "a+b/(c+d)"
+    },
+    {
+      "label": "D",
+      "text": "a+b+c/d"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006673",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 148,
+  "type": "single",
+  "text": "表达式( ┐ A ∨B)∧(C∨D)的逆波兰表示为（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "┐AB∨∧CD∨"
+    },
+    {
+      "label": "B",
+      "text": "A┐B∨CD∨∧"
+    },
+    {
+      "label": "C",
+      "text": "AB∨┐CD∨∧"
+    },
+    {
+      "label": "D",
+      "text": "A┐B∨∧CD∨"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006674",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 149,
+  "type": "single",
+  "text": "以下( )不是中间代码的表示形式",
+  "options": [
+    {
+      "label": "A",
+      "text": "DAG图"
+    },
+    {
+      "label": "B",
+      "text": "后缀式"
+    },
+    {
+      "label": "C",
+      "text": "三元式"
+    },
+    {
+      "label": "D",
+      "text": "间接四元式"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006675",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 150,
+  "type": "single",
+  "text": "表达式a+b*c-d/e↑f的后缀式是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "ab+c*d-e↑f"
+    },
+    {
+      "label": "B",
+      "text": "abc+*def/↑-"
+    },
+    {
+      "label": "C",
+      "text": "abc*+def↑/-"
+    },
+    {
+      "label": "D",
+      "text": "abc*+-def↑/"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006676",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 151,
+  "type": "single",
+  "text": "编译过程中将源代码翻译成中间代码，具有很多优点，其中（ ）不是中间代码的优点。",
+  "options": [
+    {
+      "label": "A",
+      "text": "中间代码不能用于解释"
+    },
+    {
+      "label": "B",
+      "text": "利于在不同目标机上实现同一种语言"
+    },
+    {
+      "label": "C",
+      "text": "利于进行与机器无关的优化"
+    },
+    {
+      "label": "D",
+      "text": "编译程序的逻辑结构更为简单明确"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006677",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 152,
+  "type": "single",
+  "text": "中间代码生成时依据的是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "语法规则"
+    },
+    {
+      "label": "B",
+      "text": "词法规则"
+    },
+    {
+      "label": "C",
+      "text": "语义规则"
+    },
+    {
+      "label": "D",
+      "text": "等价变换规则"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006680",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 153,
+  "type": "single",
+  "text": "155. (单选题, 1分) 优化可生成（ ）的目标代码。",
+  "options": [
+    {
+      "label": "A",
+      "text": "运行时间较短"
+    },
+    {
+      "label": "B",
+      "text": "占用存储空间较小"
+    },
+    {
+      "label": "C",
+      "text": "运行时间短但占用内存空间大"
+    },
+    {
+      "label": "D",
+      "text": "运行时间短且占用存储空间小"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006681",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 154,
+  "type": "single",
+  "text": "156. (单选题, 1分) 下列（ ）优化方法不是针对循环优化进行的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "强度削弱"
+    },
+    {
+      "label": "B",
+      "text": "删除归纳变量"
+    },
+    {
+      "label": "C",
+      "text": "删除多余运算"
+    },
+    {
+      "label": "D",
+      "text": "代码外提"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006682",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 155,
+  "type": "single",
+  "text": "157. (单选题, 1分) 对一个基本块来说，（ ）是正确的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "有一个入口语句和一个出口语句"
+    },
+    {
+      "label": "B",
+      "text": "有一个入口语句和多个出口语句"
+    },
+    {
+      "label": "C",
+      "text": "有多个入口语句和一个出口语句"
+    },
+    {
+      "label": "D",
+      "text": "有多个入口语句和多个出口语句"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006683",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 156,
+  "type": "single",
+  "text": "158. (单选题, 1分) 下面（ ）不能作为一个基本块的入口。",
+  "options": [
+    {
+      "label": "A",
+      "text": "程序的第一个语句"
+    },
+    {
+      "label": "B",
+      "text": "条件转移语句转移到的语句"
+    },
+    {
+      "label": "C",
+      "text": "无条件转移语句后的下一条语句"
+    },
+    {
+      "label": "D",
+      "text": "无条件转移语句转移到的语句"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006684",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 157,
+  "type": "single",
+  "text": "在循环内可以实行的优化有（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "代码外提"
+    },
+    {
+      "label": "B",
+      "text": "删除归纳变量"
+    },
+    {
+      "label": "C",
+      "text": "强度削弱"
+    },
+    {
+      "label": "D",
+      "text": "以上都有"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006685",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 158,
+  "type": "single",
+  "text": "在目标代码生成阶段，符号表的作用是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "目标代码生成"
+    },
+    {
+      "label": "B",
+      "text": "语义检查"
+    },
+    {
+      "label": "C",
+      "text": "语法检查"
+    },
+    {
+      "label": "D",
+      "text": "地址分配"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006686",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 159,
+  "type": "single",
+  "text": "符号表常用的操作不包括（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "查询给定的名字是否已在表中"
+    },
+    {
+      "label": "B",
+      "text": "检查名字是否符合标识符命名的文法"
+    },
+    {
+      "label": "C",
+      "text": "对给定名字，往表中填写或更新它的某些信息"
+    },
+    {
+      "label": "D",
+      "text": "删除一个或一组无用的项"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006687",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 160,
+  "type": "single",
+  "text": "目标代码生成阶段，对符号名进行地址分配的依据是（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "符号表"
+    },
+    {
+      "label": "B",
+      "text": "DFA"
+    },
+    {
+      "label": "C",
+      "text": "符号栈"
+    },
+    {
+      "label": "D",
+      "text": "预测分析表"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006688",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 161,
+  "type": "single",
+  "text": "编译程序在其工作过程中使用最多的数据结构是（ ）。它记录着源程序中的各种信息，以便查询或修改。",
+  "options": [
+    {
+      "label": "A",
+      "text": "线性表"
+    },
+    {
+      "label": "B",
+      "text": "链表"
+    },
+    {
+      "label": "C",
+      "text": "符号表"
+    },
+    {
+      "label": "D",
+      "text": "表"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006689",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 162,
+  "type": "single",
+  "text": "符号表的查找一般可以使用( )：①顺序查找 ②折半查找 ③杂凑查找 ④排序查找。",
+  "options": [
+    {
+      "label": "A",
+      "text": "①②③④"
+    },
+    {
+      "label": "B",
+      "text": "①②"
+    },
+    {
+      "label": "C",
+      "text": "③④"
+    },
+    {
+      "label": "D",
+      "text": "①②③"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006692",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 163,
+  "type": "single",
+  "text": "给定字母表{a，b}，至少包含ab的字符串的正规式为:",
+  "options": [
+    {
+      "label": "A",
+      "text": "ab(a|b)*ab"
+    },
+    {
+      "label": "B",
+      "text": "(ab|b)*"
+    },
+    {
+      "label": "C",
+      "text": "ab(a|b)*"
+    },
+    {
+      "label": "D",
+      "text": "(a|b)*ab(a|b)*"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006693",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 164,
+  "type": "single",
+  "text": "给定字母表{a，b}，任意a都不相邻的字符串的正规式为:",
+  "options": [
+    {
+      "label": "A",
+      "text": "(b|ε)(ab|b)*|(ba|b)*(b|ε)"
+    },
+    {
+      "label": "B",
+      "text": "(a|b)*a"
+    },
+    {
+      "label": "C",
+      "text": "(aba|b)*"
+    },
+    {
+      "label": "D",
+      "text": "(ab|ba)*"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006698",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 165,
+  "type": "single",
+  "text": "给定字母表{0，1}，1成对出现的字符串的正规式为:",
+  "options": [{"label":"A","text":"<img src=\"assets/3d75ccad1132f1bfe251ec47d58a47b1.webp\" alt=\"选项A - NFA状态图\">"},{"label":"B","text":"<img src=\"assets/ebc914063b2d493e051248dd06eefd04.webp\" alt=\"选项B - NFA状态图\">"},{"label":"C","text":"<img src=\"assets/0ab37c9c4d355ef78f8312685a2ed518.webp\" alt=\"选项C - NFA状态图\">"},{"label":"D","text":"<img src=\"assets/5d0058254728298683a962279ede0ee7.webp\" alt=\"选项D - NFA状态图\">"}],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006702",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 166,
+  "type": "single",
+  "text": "正规式(a|b)*对应的NFA是",
+  "options": [{"label":"A","text":"<img src=\"assets/256328b3ac078c7552ab34542bb6f890.webp\" alt=\"选项A - NFA状态图\">"},{"label":"B","text":"<img src=\"assets/df8c8de6094a3adfab5fc4ddcee4d437.webp\" alt=\"选项B - NFA状态图\">"},{"label":"C","text":"<img src=\"assets/386823af7bb214ec2e81d937282a74a4.webp\" alt=\"选项C - NFA状态图\">"},{"label":"D","text":"<img src=\"assets/ad8fda1143c9c5b8c9394579addd20ef.webp\" alt=\"选项D - NFA状态图\">"}],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006704",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 167,
+  "type": "single",
+  "text": "正规式b(aa|b*)b对应的NFA为",
+  "options": [{"label":"A","text":"<img src=\"assets/f912690a7d7d58f7bd7b44f2b53aacc9.webp\" alt=\"NFA状态图 A\">"},{"label":"B","text":"<img src=\"assets/75cd7e56f6ee433c571397da061b9162.webp\" alt=\"NFA状态图 B\">"},{"label":"C","text":"<img src=\"assets/3976e109600957b547b048cddda459a3.webp\" alt=\"NFA状态图 C\">"},{"label":"D","text":"<img src=\"assets/c7f9236b14c64d3b31fdfc151a60a40b.webp\" alt=\"NFA状态图 D\">"}],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006709",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 168,
+  "type": "single",
+  "text": "<span style=\";font-family:宋体;font-size:14px\"><span style=\"font-family:Calibri\">ab*|ba*对应的NFA为</span></span>",
+  "options": [
+    {
+      "label": "A",
+      "text": "<img src=\"assets/f912690a7d7d58f7bd7b44f2b53aacc9.webp\" alt=\"选项A\">"
+    },
+    {
+      "label": "B",
+      "text": "<img src=\"assets/75cd7e56f6ee433c571397da061b9162.webp\" alt=\"选项B\">"
+    },
+    {
+      "label": "C",
+      "text": "<img src=\"assets/3976e109600957b547b048cddda459a3.webp\" alt=\"选项C\">"
+    },
+    {
+      "label": "D",
+      "text": "<img src=\"assets/c7f9236b14c64d3b31fdfc151a60a40b.webp\" alt=\"选项D\">"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006710",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 169,
+  "type": "single",
+  "text": "<strong style=\"color: rgb(43, 22, 110);\"></strong> 语言L 和D表示的集合分别为： <img src=\"assets/e7cc89a8576a1606da48d35f9761926f.webp\" class=\"ans-ued-img\" style=\"margin: 0px; padding: 0px; border: 0px; max-width: 100%; width: 400px; height: 35px;\" width=\"400\" height=\"35\" title=\"\" alt=\"\"> 则<strong style=\"font-family: sans-serif; font-size: 16px; color: rgb(43, 22, 110);\">(L∪D)*表示的是</strong>（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "任意前半部分是字母，后半部分是数字的串"
+    },
+    {
+      "label": "B",
+      "text": "字母数字组成长度为0的串"
+    },
+    {
+      "label": "C",
+      "text": "任意长度的字母数字组成的串"
+    },
+    {
+      "label": "D",
+      "text": "任意由字母组成的串或任意由数字组成的串"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006713",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 170,
+  "type": "single",
+  "text": "<img src=\"assets/4a19c2c17e32259b592bf41e87d5f79c.webp\" class=\"ans-ued-img\" width=\"600\" height=\"491\" title=\"\" alt=\"\" style=\"width: 600px; height: 491px;\"> 由该状态转换图可以看出，下列哪个符号<span style=\"text-emphasis: dot currentcolor; font-style: inherit;\">不是</span>合法的单词符号？（ ）",
+  "options": [
+    {
+      "label": "A",
+      "text": "num1"
+    },
+    {
+      "label": "B",
+      "text": "12.5"
+    },
+    {
+      "label": "C",
+      "text": "<="
+    },
+    {
+      "label": "D",
+      "text": "1234"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006715",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 171,
+  "type": "single",
+  "text": "正规式a(a|b)表示的集合是",
+  "options": [
+    {
+      "label": "A",
+      "text": "{a,b}"
+    },
+    {
+      "label": "B",
+      "text": "{aa,bb}"
+    },
+    {
+      "label": "C",
+      "text": "{aa,ab}"
+    },
+    {
+      "label": "D",
+      "text": "{a,aa,b}"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006716",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 172,
+  "type": "single",
+  "text": "正规式(a|b)*表示的集合是",
+  "options": [
+    {
+      "label": "A",
+      "text": "任意a，b组成的串"
+    },
+    {
+      "label": "B",
+      "text": "任意a组成的串或任意b组成的串"
+    },
+    {
+      "label": "C",
+      "text": "任意a的串后面跟任意b的串"
+    },
+    {
+      "label": "D",
+      "text": "ab交替出现的串"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006717",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 173,
+  "type": "single",
+  "text": "正规式a*|b*表示的集合是",
+  "options": [
+    {
+      "label": "A",
+      "text": "任意a，b组成的串"
+    },
+    {
+      "label": "B",
+      "text": "任意a组成的串或任意b组成的串"
+    },
+    {
+      "label": "C",
+      "text": "任意a组成的串后面跟任意b组成的串"
+    },
+    {
+      "label": "D",
+      "text": "任意ab交替出现的串"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006720",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 174,
+  "type": "multiple",
+  "text": "程序语言一般分为（）和（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "高级语言"
+    },
+    {
+      "label": "B",
+      "text": "专用程序语言"
+    },
+    {
+      "label": "C",
+      "text": "低级语言"
+    },
+    {
+      "label": "D",
+      "text": "通用程序语言"
+    }
+  ],
+  "answer": "AB",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006721",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 175,
+  "type": "multiple",
+  "text": "高级语言的翻译方式有（）和（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "汇编方式"
+    },
+    {
+      "label": "B",
+      "text": "模拟方式"
+    },
+    {
+      "label": "C",
+      "text": "解释方式"
+    },
+    {
+      "label": "D",
+      "text": "编译方式"
+    }
+  ],
+  "answer": "BD",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006723",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 176,
+  "type": "multiple",
+  "text": "如果一个文法是二义文法，必然有（）的现象存在",
+  "options": [
+    {
+      "label": "A",
+      "text": "文法的某一个句子存在两棵或两棵以上的语法树"
+    },
+    {
+      "label": "B",
+      "text": "对于文法的某一个句子，存在两种或两种以上的最左（最右）推导"
+    },
+    {
+      "label": "C",
+      "text": "对于文法的某一个句子，存在两种或两种以上的最左（最右）归约"
+    },
+    {
+      "label": "D",
+      "text": "在进行归约时，文法的某些规范句柄不唯一"
+    }
+  ],
+  "answer": "BC",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006724",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 177,
+  "type": "multiple",
+  "text": "给定语法A-->bAcc|ε，下面的符号串中为该文法的句子是（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "bcc"
+    },
+    {
+      "label": "B",
+      "text": "bcbc"
+    },
+    {
+      "label": "C",
+      "text": "bcbcc"
+    },
+    {
+      "label": "D",
+      "text": "bccbcc"
+    },
+    {
+      "label": "E",
+      "text": "bbcccc"
+    }
+  ],
+  "answer": "BC",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006726",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 178,
+  "type": "multiple",
+  "text": "给定文法G[L]: L→MLb | a M→ε 对于句子abb短语有（）",
+  "options": [
+    {
+      "label": "A",
+      "text": "ε"
+    },
+    {
+      "label": "B",
+      "text": "a"
+    },
+    {
+      "label": "C",
+      "text": "abb"
+    },
+    {
+      "label": "D",
+      "text": "b"
+    },
+    {
+      "label": "E",
+      "text": "ab"
+    }
+  ],
+  "answer": "ABC",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006727",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 179,
+  "type": "multiple",
+  "text": "下列那个串不属于正规式a(ab)*表示的正规集",
+  "options": [
+    {
+      "label": "A",
+      "text": "ab"
+    },
+    {
+      "label": "B",
+      "text": "a"
+    },
+    {
+      "label": "C",
+      "text": "aba"
+    },
+    {
+      "label": "D",
+      "text": "aabab"
+    }
+  ],
+  "answer": "BD",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006729",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 180,
+  "type": "multiple",
+  "text": "字符串bbb属于下列哪个正规式表示的正规集",
+  "options": [
+    {
+      "label": "A",
+      "text": "(a|b)*"
+    },
+    {
+      "label": "B",
+      "text": "a*|b*"
+    },
+    {
+      "label": "C",
+      "text": "a*b*"
+    },
+    {
+      "label": "D",
+      "text": "(ab)*"
+    }
+  ],
+  "answer": "ABD",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006732",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 181,
+  "type": "multiple",
+  "text": "下列哪些字符串不能被下列状态转换图识别 <img src=\"assets/a21ab0be2e0d33be39e1e96c61eccc86.webp\" class=\"ans-ued-img\">",
+  "options": [
+    {
+      "label": "A",
+      "text": "aba"
+    },
+    {
+      "label": "B",
+      "text": "a"
+    },
+    {
+      "label": "C",
+      "text": "abb"
+    },
+    {
+      "label": "D",
+      "text": "abab"
+    }
+  ],
+  "answer": "ACD",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006734",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 182,
+  "type": "fill",
+  "text": "图1图2最小化后，状态个数分别为： <img src=\"assets/f53fd575deffe3a08dc07d35cb153e6f.webp\" class=\"ans-ued-img\" width=\"250\" height=\"182\" title=\"\" alt=\"\" style=\"width: 250px; height: 182px;\"> <img src=\"assets/eebbdc12760cfbaf6a0010e93a341d3f.webp\" class=\"ans-ued-img\" width=\"360\" height=\"158\" title=\"\" alt=\"\" style=\"width: 360px; height: 158px;\"> 图1（ ） 图2（ ）",
+  "answer": "2,1",
+  "reference": "2,1",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061001",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 183,
+  "type": "single",
+  "text": "有一语法制导翻译如下所示： S→bAb {print''1''} A→(B {print''2''} A→a {print''3''} B→Aa) {print''4''} 若输入序列为b(((aa)a)a)b，且采用自底向上的分析方法，则输出序列为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "32224441"
+    },
+    {
+      "label": "B",
+      "text": "34242421"
+    },
+    {
+      "label": "C",
+      "text": "12424243"
+    },
+    {
+      "label": "D",
+      "text": "34442212"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061004",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 184,
+  "type": "single",
+  "text": "优化可生成（ ）的目标代码。",
+  "options": [
+    {
+      "label": "A",
+      "text": "运行时间较短"
+    },
+    {
+      "label": "B",
+      "text": "占用存储空间较小"
+    },
+    {
+      "label": "C",
+      "text": "运行时间短但占用内存空间大"
+    },
+    {
+      "label": "D",
+      "text": "运行时间短且占用存储空间小"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061005",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 185,
+  "type": "single",
+  "text": "下列（ ）优化方法不是针对循环优化进行的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "强度削弱"
+    },
+    {
+      "label": "B",
+      "text": "删除归纳变量"
+    },
+    {
+      "label": "C",
+      "text": "删除多余运算"
+    },
+    {
+      "label": "D",
+      "text": "代码外提"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061006",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 186,
+  "type": "single",
+  "text": "对一个基本块来说，（ ）是正确的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "有一个入口语句和一个出口语句"
+    },
+    {
+      "label": "B",
+      "text": "有一个入口语句和多个出口语句"
+    },
+    {
+      "label": "C",
+      "text": "有多个入口语句和一个出口语句"
+    },
+    {
+      "label": "D",
+      "text": "有多个入口语句和多个出口语句"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061007",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 187,
+  "type": "single",
+  "text": "下面（ ）不能作为一个基本块的入口。",
+  "options": [
+    {
+      "label": "A",
+      "text": "程序的第一个语句"
+    },
+    {
+      "label": "B",
+      "text": "条件转移语句转移到的语句"
+    },
+    {
+      "label": "C",
+      "text": "无条件转移语句后的下一条语句"
+    },
+    {
+      "label": "D",
+      "text": "无条件转移语句转移到的语句"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061008",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 188,
+  "type": "single",
+  "text": "局部优化是在（ ）范围内进行的优化？",
+  "options": [
+    {
+      "label": "A",
+      "text": "过程体"
+    },
+    {
+      "label": "B",
+      "text": "基本块"
+    },
+    {
+      "label": "C",
+      "text": "函数体"
+    },
+    {
+      "label": "D",
+      "text": "循环体"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061009",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 189,
+  "type": "single",
+  "text": "有关基本归纳变量的作用，错误的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "自身定值"
+    },
+    {
+      "label": "B",
+      "text": "计算其它同族归纳变量"
+    },
+    {
+      "label": "C",
+      "text": "控制循环"
+    },
+    {
+      "label": "D",
+      "text": "记录循环的结果"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061010",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 190,
+  "type": "single",
+  "text": "在循环内可以实行的优化有（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "代码外提"
+    },
+    {
+      "label": "B",
+      "text": "删除归纳变量"
+    },
+    {
+      "label": "C",
+      "text": "强度削弱"
+    },
+    {
+      "label": "D",
+      "text": "以上都有"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061011",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 191,
+  "type": "single",
+  "text": "利用DAG进行局部优化，不能实现（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "删除公共子表达式"
+    },
+    {
+      "label": "B",
+      "text": "删除无用赋值"
+    },
+    {
+      "label": "C",
+      "text": "代码外提"
+    },
+    {
+      "label": "D",
+      "text": "合并已知量"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061012",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 192,
+  "type": "single",
+  "text": "FORTRAN这样的语言，不允许过程递归，不含可变体积的数据对象或待定性质的名称，能在编译时完全确定其程序的每个数据对象在运行时存储空间的位置，可采用（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "静态分配策略"
+    },
+    {
+      "label": "B",
+      "text": "栈式分配策略"
+    },
+    {
+      "label": "C",
+      "text": "堆式分配策略"
+    },
+    {
+      "label": "D",
+      "text": "以上以上都有"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061013",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 193,
+  "type": "single",
+  "text": "C语言，允许递归过程，还允许用户动态地申请和释放存储空间，应采用以下哪种存储分配策略（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "静态分配策略"
+    },
+    {
+      "label": "B",
+      "text": "栈式分配策略"
+    },
+    {
+      "label": "C",
+      "text": "堆式分配策略"
+    },
+    {
+      "label": "D",
+      "text": "以上以上都有"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061014",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 194,
+  "type": "single",
+  "text": "嵌套过程语言的程序，内层过程引用非局部量可通过（ ）跟踪外层过程最新活动记录的位置。",
+  "options": [
+    {
+      "label": "A",
+      "text": "老SP"
+    },
+    {
+      "label": "B",
+      "text": "静态链"
+    },
+    {
+      "label": "C",
+      "text": "Previous链"
+    },
+    {
+      "label": "D",
+      "text": "全局display"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061015",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 195,
+  "type": "single",
+  "text": "关于全局display正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "记录全局变量在存储器中的位置"
+    },
+    {
+      "label": "B",
+      "text": "记录直接外层过程活动记录的基地址"
+    },
+    {
+      "label": "C",
+      "text": "记录主调过程display表的基地址"
+    },
+    {
+      "label": "D",
+      "text": "记录外层过程display表的基地址"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061016",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 196,
+  "type": "single",
+  "text": "关于嵌套层次表display表描述正确的是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "过程的层数为i，则display表有i个单元"
+    },
+    {
+      "label": "B",
+      "text": "display表只有一个单元"
+    },
+    {
+      "label": "C",
+      "text": "display表存放主调过程display表的位置"
+    },
+    {
+      "label": "D",
+      "text": "display表存放各个外层过程最新活动记录的基地址"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061017",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 197,
+  "type": "single",
+  "text": "在目标代码生成阶段，符号表的作用是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "目标代码生成"
+    },
+    {
+      "label": "B",
+      "text": "语义检查"
+    },
+    {
+      "label": "C",
+      "text": "语法检查"
+    },
+    {
+      "label": "D",
+      "text": "地址分配"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061018",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 198,
+  "type": "single",
+  "text": "符号表常用的操作不包括（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "查询给定的名字是否已在表中"
+    },
+    {
+      "label": "B",
+      "text": "检查名字是否符合标识符命名的文法"
+    },
+    {
+      "label": "C",
+      "text": "对给定名字，往表中填写或更新它的某些信息"
+    },
+    {
+      "label": "D",
+      "text": "删除一个或一组无用的项"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061019",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 199,
+  "type": "single",
+  "text": "目标代码生成阶段，对符号名进行地址分配的依据是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "符号表"
+    },
+    {
+      "label": "B",
+      "text": "DFA"
+    },
+    {
+      "label": "C",
+      "text": "符号栈"
+    },
+    {
+      "label": "D",
+      "text": "预测分析表"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061020",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 200,
+  "type": "single",
+  "text": "使用二叉树组织符号表，查找时以下说法（ ）是错误的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "如果树根节点的名字和待查找的名字相同，则查找到了该名字"
+    },
+    {
+      "label": "B",
+      "text": "如果待查找的名字小于树根节点的名字值，则在左子树上继续查找"
+    },
+    {
+      "label": "C",
+      "text": "如果待查找的名字大于树根节点的名字值，则在右子树上继续查找"
+    },
+    {
+      "label": "D",
+      "text": "如果当前的树根节点为空，编译程序应提醒出错"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061021",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 201,
+  "type": "single",
+  "text": "在目标代码生成阶段，符号表的作用是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "目标代码生成"
+    },
+    {
+      "label": "B",
+      "text": "语义检查"
+    },
+    {
+      "label": "C",
+      "text": "语法检查"
+    },
+    {
+      "label": "D",
+      "text": "地址分配"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061022",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 202,
+  "type": "single",
+  "text": "符号表常用的操作不包括（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "查询给定的名字是否已在表中"
+    },
+    {
+      "label": "B",
+      "text": "检查名字是否符合标识符命名的文法"
+    },
+    {
+      "label": "C",
+      "text": "对给定名字，往表中填写或更新它的某些信息"
+    },
+    {
+      "label": "D",
+      "text": "删除一个或一组无用的项"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061023",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 203,
+  "type": "single",
+  "text": "目标代码生成阶段，对符号名进行地址分配的依据是（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "符号表"
+    },
+    {
+      "label": "B",
+      "text": "DFA"
+    },
+    {
+      "label": "C",
+      "text": "符号栈"
+    },
+    {
+      "label": "D",
+      "text": "预测分析表"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061024",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 204,
+  "type": "single",
+  "text": "使用二叉树组织符号表，查找时以下说法（ ）是错误的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "如果树根节点的名字和待查找的名字相同，则查找到了该名字"
+    },
+    {
+      "label": "B",
+      "text": "如果待查找的名字小于树根节点的名字值，则在左子树上继续查找"
+    },
+    {
+      "label": "C",
+      "text": "如果待查找的名字大于树根节点的名字值，则在右子树上继续查找"
+    },
+    {
+      "label": "D",
+      "text": "如果当前的树根节点为空，编译程序应提醒出错"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061025",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 205,
+  "type": "single",
+  "text": "编译程序使用（ ）区别名字的作用域。",
+  "options": [
+    {
+      "label": "A",
+      "text": "说明名字的过程或函数名"
+    },
+    {
+      "label": "B",
+      "text": "说明名字的过程或函数的静态层次号"
+    },
+    {
+      "label": "C",
+      "text": "说明名字的过程或函数的动态层次号"
+    },
+    {
+      "label": "D",
+      "text": "名字的行号"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061026",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 206,
+  "type": "single",
+  "text": "编译程序在其工作过程中使用最多的数据结构是（ ）。它记录着源程序中的各种信息，以便查询或修改。",
+  "options": [
+    {
+      "label": "A",
+      "text": "线性表"
+    },
+    {
+      "label": "B",
+      "text": "链表"
+    },
+    {
+      "label": "C",
+      "text": "符号表"
+    },
+    {
+      "label": "D",
+      "text": "表"
+    }
+  ],
+  "answer": "C",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_215061027",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 207,
+  "type": "single",
+  "text": "符号表的查找一般可以使用（ ）：①顺序查找 ②折半查找 ③杂凑查找 ④排序查找。",
+  "options": [
+    {
+      "label": "A",
+      "text": "①②③④"
+    },
+    {
+      "label": "B",
+      "text": "①②"
+    },
+    {
+      "label": "C",
+      "text": "③④"
+    },
+    {
+      "label": "D",
+      "text": "①②③"
+    }
+  ],
+  "answer": "D",
+  "course": "编译原理"
+},,
+  {
+  "id": "compiler_ck_compiler_214006678",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 153,
+  "type": "single",
+  "text": "有一语法制导翻译如下所示： S→aSb {print\"1\"} S→e {print\"2\"} 若输入序列为aaebb，且采用自底向上的分析方法，则输出序列为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "211"
+    },
+    {
+      "label": "B",
+      "text": "112"
+    },
+    {
+      "label": "C",
+      "text": "121"
+    },
+    {
+      "label": "D",
+      "text": "212"
+    }
+  ],
+  "answer": "A",
+  "course": "编译原理"
+},
+  {
+  "id": "compiler_ck_compiler_214006679",
+  "source": "超星-编译原理题库",
+  "source_stem": "编译原理题库",
+  "topic": "编译原理",
+  "subtopic": "超星题库",
+  "number": 154,
+  "type": "single",
+  "text": "有一语法制导翻译如下所示： S→aABe {print\"1\"} A→b {print\"2\"} A→Abc {print\"3\"} B→d {print\"4\"} 若输入序列为abbcde，且采用自底向上的分析方法，则输出序列为（ ）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "1234"
+    },
+    {
+      "label": "B",
+      "text": "2341"
+    },
+    {
+      "label": "C",
+      "text": "2314"
+    },
+    {
+      "label": "D",
+      "text": "2413"
+    }
+  ],
+  "answer": "B",
+  "course": "编译原理"
+},
 ];
