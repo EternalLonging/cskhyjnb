@@ -10,6 +10,9 @@ desktop.ini
 *.swo
 *~
 
+# Claude Code local config (personal, do not commit)
+.claude/
+
 # Node (if any)
 node_modules/
 
