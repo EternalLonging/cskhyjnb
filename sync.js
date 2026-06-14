@@ -785,21 +785,27 @@ async function saveMetaToCloud() {
 
 async function loadCurrentProgressFromCloud() {
   if (!syncState.enabled || !syncState.client || !syncState.key) return;
-  const settings = readSettings();
-  const deckKey = syncDeckKey(settingsSignature(settings));
+  // 查找该 sync_key 下所有进度，取最新一条（跨设备无需签名完全匹配）
   const { data, error } = await syncState.client
     .from('study_progress')
     .select('state,updated_at')
     .eq('sync_key', syncState.key)
-    .eq('deck_key', deckKey)
+    .like('deck_key', 'progress:%')
+    .order('updated_at', { ascending: false })
+    .limit(1)
     .maybeSingle();
   if (error) throw error;
   if (!data || !data.state) return;
   const local = getLocalProgressState();
   const remote = data.state;
-  const remoteSavedAt = Number(remote.savedAt || new Date(data.updated_at || 0).getTime() || 0);
-  const localSavedAt = Number(local?.savedAt || 0);
-  if (!local || remoteSavedAt >= localSavedAt) {
+  // 优先用服务器时间（updated_at），避免设备时钟偏差
+  const remoteServerTs = new Date(data.updated_at || 0).getTime() || 0;
+  const remoteClientTs = Number(remote.savedAt || 0);
+  const remoteTs = remoteServerTs || remoteClientTs;
+  const localTs = Number(local?.savedAt || 0);
+  if (!local || remoteTs >= localTs) {
+    // 标记为云端恢复的进度，放宽匹配条件
+    remote._fromCloud = true;
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(remote));
   }
 }
