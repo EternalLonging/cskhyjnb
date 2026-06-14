@@ -705,10 +705,15 @@ async function initSync(key) {
     // 全站题库修改、管理密码、专题标签采用本地优先 + 后台检查，减少首页等待时间。
     loadGlobalCloudAssetsInBackground();
     if (isPracticePage()) {
-      await loadMetaFromCloud();
-      // 只有本地没进度时才从云端恢复（避免云端旧进度覆盖本地新进度）
-      if (!localStorage.getItem(FORCE_RESTART_KEY) && !loadProgress()) {
+      // 题目渲染不应被云端请求阻塞：meta（错题ID）后台同步即可。
+      // 仅当本地没有进度、且不是强制重开时，才需要等云端进度恢复（换设备首次进入的场景）。
+      const needCloudProgress = !localStorage.getItem(FORCE_RESTART_KEY) && !loadProgress();
+      if (needCloudProgress) {
         await loadCurrentProgressFromCloud();
+        loadMetaFromCloud().catch(() => {});
+      } else {
+        // 本地已有进度或强制重开：全部放后台，立即渲染题目。
+        loadUserMetaInBackground();
       }
     } else {
       loadUserMetaInBackground();
@@ -1094,4 +1099,169 @@ function formatQuestionStats(stats) {
   if (!stats || !stats.total) return '';
   const rate = Math.round(stats.correct / stats.total * 100);
   return `<span class="question-stats">全站统计：共 <b>${stats.total}</b> 次提交，正确率 <b>${rate}%</b></span>`;
+}
+
+// =============================================================================
+// 历史刷题记录 —— 云端模式存 study_progress 表（history: 前缀），单机模式存本地。
+// UI 只调 archiveRound / listHistoryRecords / removeHistoryRecord，内部按模式分流。
+// =============================================================================
+
+// 从一份进度 payload 组装一条历史记录（含展示用元信息）。
+function buildHistoryRecord(progress, finished) {
+  if (!progress || !Array.isArray(progress.pool) || !progress.pool.length) return null;
+  const settings = progress.settings || {};
+  const history = Array.isArray(progress.history) ? progress.history : [];
+  const right = history.filter(h => h.result === 'right').length;
+  const wrong = history.filter(h => h.result === 'wrong').length;
+  const done = right + wrong;
+  const rate = done ? Math.round(right / done * 100) : 0;
+  const savedAt = Number(progress.savedAt || nowTs());
+  // 专题描述：与 applyPracticeHeader 一致。
+  let topicText = '专题';
+  try {
+    const total = (typeof allTopicKeys === 'function') ? allTopicKeys().length : 0;
+    const sel = (settings.topics || []).length;
+    topicText = (total && sel === total) ? '全部专题' : `${sel} 个小专题`;
+  } catch (err) {}
+  return {
+    ...progress,
+    id: `${HISTORY_DECK_PREFIX}${savedAt}`,
+    savedAt,
+    _historyMeta: {
+      finished: Boolean(finished),
+      total: progress.pool.length,
+      doneCount: done,
+      currentIndex: Number(progress.currentIndex || 0),
+      right, wrong, rate,
+      topicText,
+      modeName: (typeof modeName === 'function') ? modeName(settings.mode) : (settings.mode || ''),
+      typeName: (typeof typeName === 'function') ? typeName(settings.type) : (settings.type || ''),
+      createdAt: savedAt,
+    },
+  };
+}
+
+// ——— 本地历史（单机模式） ———
+function readLocalHistory() {
+  try {
+    const arr = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+    return Array.isArray(arr) ? arr : [];
+  } catch (err) { return []; }
+}
+function writeLocalHistory(list) {
+  const trimmed = (list || [])
+    .slice()
+    .sort((a, b) => Number(b.savedAt || 0) - Number(a.savedAt || 0))
+    .slice(0, HISTORY_MAX);
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(trimmed));
+  return trimmed;
+}
+function archiveRoundLocal(record) {
+  const list = readLocalHistory().filter(r => Number(r.savedAt) !== Number(record.savedAt));
+  list.push(record);
+  writeLocalHistory(list);
+}
+
+// ——— 云端历史（同步模式） ———
+// 用原生 fetch + keepalive 写入：即使紧接着 location.href 跳转，请求也不会被中断，
+// 因此调用方无需 await，点「开始刷题」可立即跳转、不卡顿。
+function archiveRoundCloudBeacon(record) {
+  if (!syncState.enabled || !syncState.key) return;
+  const ts = Number(record.savedAt || nowTs());
+  const body = JSON.stringify({
+    sync_key: syncState.key,
+    deck_key: record.id,
+    state: record,
+    updated_at: new Date(ts).toISOString(),
+  });
+  try {
+    fetch(`${SUPABASE_URL}/rest/v1/study_progress`, {
+      method: 'POST',
+      keepalive: true,
+      headers: {
+        'apikey': SUPABASE_KEY,
+        'Authorization': `Bearer ${SUPABASE_KEY}`,
+        'Content-Type': 'application/json',
+        'Prefer': 'resolution=merge-duplicates',
+      },
+      body,
+    }).then(() => {
+      // 修剪旧记录放在写入成功后后台进行，不阻塞跳转。
+      trimHistoryCloud().catch(() => {});
+    }).catch(err => console.warn('后台存档历史失败：', err));
+  } catch (err) {
+    console.warn('后台存档历史异常：', err);
+  }
+}
+async function trimHistoryCloud() {
+  if (!syncState.enabled || !syncState.client || !syncState.key) return;
+  const { data, error } = await syncState.client
+    .from('study_progress')
+    .select('deck_key,updated_at')
+    .eq('sync_key', syncState.key)
+    .like('deck_key', `${HISTORY_DECK_PREFIX}%`)
+    .order('updated_at', { ascending: false });
+  if (error || !Array.isArray(data)) return;
+  const stale = data.slice(HISTORY_MAX);
+  for (const row of stale) {
+    await syncState.client.from('study_progress')
+      .delete().eq('sync_key', syncState.key).eq('deck_key', row.deck_key)
+      .then(({ error: e }) => { if (e) console.warn('修剪历史失败：', e); });
+  }
+}
+async function listHistoryCloud() {
+  if (!syncState.enabled || !syncState.client || !syncState.key) return [];
+  const { data, error } = await syncState.client
+    .from('study_progress')
+    .select('deck_key,state,updated_at')
+    .eq('sync_key', syncState.key)
+    .like('deck_key', `${HISTORY_DECK_PREFIX}%`)
+    .order('updated_at', { ascending: false })
+    .limit(HISTORY_MAX);
+  if (error || !Array.isArray(data)) return [];
+  return data.map(row => {
+    const rec = row.state || {};
+    rec.id = rec.id || row.deck_key;
+    return rec;
+  });
+}
+async function removeHistoryCloud(id) {
+  if (!syncState.enabled || !syncState.client || !syncState.key || !id) return false;
+  const { error } = await syncState.client.from('study_progress')
+    .delete().eq('sync_key', syncState.key).eq('deck_key', id);
+  if (error) { console.warn('删除历史记录失败：', error); return false; }
+  return true;
+}
+
+// ——— 对外统一接口（UI 调用，按模式分流） ———
+
+// 把一份进度存档成历史记录。progress 默认取本地当前进度。
+// 同步返回（不阻塞）：本地立即写入；云端用 keepalive 后台发送，调用方无需 await。
+function archiveRound(finished, progress) {
+  const src = progress || getLocalProgressState();
+  const record = buildHistoryRecord(src, finished);
+  if (!record) return false;
+  if (isStandaloneMode()) {
+    archiveRoundLocal(record);
+    return true;
+  }
+  archiveRoundCloudBeacon(record);
+  return true;
+}
+
+async function listHistoryRecords() {
+  if (isStandaloneMode()) {
+    return readLocalHistory().sort((a, b) => Number(b.savedAt || 0) - Number(a.savedAt || 0)).slice(0, HISTORY_MAX);
+  }
+  try { return await listHistoryCloud(); }
+  catch (err) { console.warn('读取历史记录失败：', err); return []; }
+}
+
+async function removeHistoryRecord(id) {
+  if (!id) return false;
+  if (isStandaloneMode()) {
+    writeLocalHistory(readLocalHistory().filter(r => String(r.id) !== String(id)));
+    return true;
+  }
+  return removeHistoryCloud(id);
 }

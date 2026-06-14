@@ -23814,8 +23814,8 @@ window.QUESTION_BANK = [
   "number": 182,
   "type": "fill",
   "text": "图1图2最小化后，状态个数分别为： <img src=\"assets/f53fd575deffe3a08dc07d35cb153e6f.webp\" class=\"ans-ued-img\" width=\"250\" height=\"182\" title=\"\" alt=\"\" style=\"width: 250px; height: 182px;\"> <img src=\"assets/eebbdc12760cfbaf6a0010e93a341d3f.webp\" class=\"ans-ued-img\" width=\"360\" height=\"158\" title=\"\" alt=\"\" style=\"width: 360px; height: 158px;\"> 图1（ ） 图2（ ）",
-  "answer": "2,1",
-  "reference": "2,1",
+  "answer": "2\n1",
+  "reference": "2\n1",
   "course": "编译原理"
 },
   {

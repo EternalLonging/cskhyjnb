@@ -13,6 +13,9 @@ desktop.ini
 # Node (if any)
 node_modules/
 
+# Electron build output (do NOT commit — ~374MB portable exe)
+dist/
+
 # Env
 .env
 .env.local

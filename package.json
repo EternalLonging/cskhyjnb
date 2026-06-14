@@ -1,0 +1,16 @@
+{
+  "name": "cskhyjnb",
+  "version": "1.0.0",
+  "description": "超时空辉夜姬 - 刷题工具",
+  "author": "超时空辉夜姬",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^36.0.0",
+    "electron-builder": "^25.0.0",
+    "playwright": "^1.60.0"
+  }
+}

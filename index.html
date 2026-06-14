@@ -79,8 +79,8 @@
         </details>
 
         <div class="start-actions">
-          <button id="continueBtn" class="primary big-start" type="button">继续刷题</button>
-          <button id="restartHomeBtn" class="ghost big-start" type="button">重新开始</button>
+          <button id="restartHomeBtn" class="primary big-start" type="button">开始刷题</button>
+          <button id="historyRecordsBtn" class="ghost big-start" type="button">历史记录</button>
         </div>
         <button id="clearWrongBtn" class="ghost" type="button">清空错题本</button>
         <button id="manageQuestionsBtn" class="ghost" type="button">题库管理（需管理密码）</button>
@@ -118,7 +118,7 @@
   <!-- PWA: register service worker -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=4');
+      navigator.serviceWorker.register('sw.js?v=5');
     }
   </script>
 </body>

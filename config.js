@@ -61,3 +61,8 @@ const ADMIN_PASSWORD_CLOUD_CHECK_KEY = 'quiz_admin_password_cloud_checked_at_v1'
 // 全站题目统计（所有用户答题总次数和正确次数）
 const QUESTION_STATS_SYNC_KEY = '__shared_question_stats_v2__';
 const QUESTION_STATS_PREFIX = 'qstats:';
+
+// 历史刷题记录：每个同步码（云端）/每台设备（单机）保留最近 N 条。
+const HISTORY_KEY = 'quiz_history_v1';        // 单机模式本地历史记录数组
+const HISTORY_MAX = 5;                        // 最多保留条数
+const HISTORY_DECK_PREFIX = 'history:';       // 云端 deck_key 前缀

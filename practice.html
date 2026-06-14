@@ -56,6 +56,7 @@
         <h2 id="questionText"></h2>
         <div id="optionsBox" class="options"></div>
         <div id="textAnswerBox" class="text-answer-box hidden">
+          <div id="fillBlanksArea" class="fill-blanks-area hidden"></div>
           <input id="fillAnswerInput" type="text" placeholder="请输入填空答案" />
           <textarea id="shortAnswerInput" rows="5" placeholder="请输入简答作答内容"></textarea>
         </div>
@@ -121,7 +122,7 @@
   <!-- PWA: register service worker -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=4');
+      navigator.serviceWorker.register('sw.js?v=5');
     }
   </script>
 </body>

@@ -1,0 +1,13 @@
+appId: com.cskhyjnb.quiz
+productName: 超时空辉夜姬
+directories:
+  output: dist
+files:
+  - "**/*"
+  - "!node_modules"
+  - "!package-lock.json"
+  - "!CLAUDE.md"
+  - "!*.tmp"
+win:
+  target: portable
+  icon: "3.png"

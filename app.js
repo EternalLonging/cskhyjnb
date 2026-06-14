@@ -25,8 +25,8 @@ function bindHome() {
   });
   initTopics();
   updateStats();
-  $('continueBtn')?.addEventListener('click', () => goPractice({ restart: false }));
   $('restartHomeBtn')?.addEventListener('click', () => goPractice({ restart: true }));
+  $('historyRecordsBtn')?.addEventListener('click', () => openHistoryRecordsDialog());
   $('clearWrongBtn')?.addEventListener('click', () => {
     if (confirm('确定清空错题本吗？')) { setWrongIds([]); updateStats(); }
   });
@@ -95,7 +95,15 @@ function bindPractice() {
   $('retryWrongBtn')?.addEventListener('click', beginRetryCurrentWrongQuestion);
   $('nextBtn')?.addEventListener('click', nextQuestion);
   $('backHomeBtn')?.addEventListener('click', () => { window.location.href = 'index.html'; });
-  $('restartBtn')?.addEventListener('click', () => { clearSavedProgress(); startQuiz(readSettings(), {resume:false}); });
+  $('restartBtn')?.addEventListener('click', () => {
+    // 重开本轮：若当前轮没刷完，先存档历史（finished=false，后台写入不阻塞），再清空重建。
+    const existing = getLocalProgressState();
+    if (existing && Array.isArray(existing.pool) && existing.pool.length) {
+      try { archiveRound(false, existing); } catch (err) { console.warn('存档历史失败：', err); }
+    }
+    clearSavedProgress();
+    startQuiz(readSettings(), { resume: false });
+  });
   $('manageQuestionsBtn')?.addEventListener('click', () => openQuestionManager(state.current?.id || ''));
   $('editCurrentQuestionBtn')?.addEventListener('click', () => openQuestionManager(state.current?.id || ''));
   $('historyBtn')?.addEventListener('click', toggleHistory);

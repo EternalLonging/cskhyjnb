@@ -145,7 +145,18 @@ function questionById(id) {
 // ——— 题目展示辅助 ———
 
 function answerText(q) {
-  if (!isChoiceType(q.type)) return q.reference || q.answer || '暂无参考答案';
+  if (!isChoiceType(q.type)) {
+    // 多空填空（答案多行）：展示成「第1空：A / B　第2空：C」。
+    if (q.type === 'fill') {
+      const blanks = parseFillAnswer(q.answer || q.reference || '');
+      if (blanks.length >= 2) {
+        return blanks.map((opts, i) => `第${i + 1}空：${opts.join(' / ')}`).join('　');
+      }
+      // 单空若用 | 写了多种写法，用「/」展示更清楚。
+      if (blanks.length === 1 && blanks[0].length > 1) return blanks[0].join(' / ');
+    }
+    return q.reference || q.answer || '暂无参考答案';
+  }
   return q.answer.split('').map(letter => {
     const opt = q.options.find(o => o.label === letter);
     return opt ? `${letter}. ${opt.text}` : letter;

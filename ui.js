@@ -495,7 +495,12 @@ function goPractice(options = {}) {
   }
   saveSettings(settings);
   if (options.restart) {
-    // 重新开始：强制重建题池
+    // 重新开始：若本地有未刷完的进度，先存档历史（finished=false），再强制重建题池。
+    // archiveRound 不阻塞（云端走后台 keepalive），跳转无需等待。
+    const existing = getLocalProgressState();
+    if (existing && Array.isArray(existing.pool) && existing.pool.length) {
+      try { archiveRound(false, existing); } catch (err) { console.warn('存档历史失败：', err); }
+    }
     sessionStorage.setItem('quiz_pending_topics', JSON.stringify(settings.topics));
     localStorage.setItem(FORCE_RESTART_KEY, '1');
     clearSavedProgress();
@@ -634,7 +639,12 @@ function restoreSolvedQuestion(record) {
       if (input) { input.checked = isSelected; input.disabled = true; }
     });
   } else {
-    if ($('fillAnswerInput')) { $('fillAnswerInput').value = record.selected || ''; $('fillAnswerInput').disabled = true; }
+    if (state.current.type === 'fill' && fillBlankCount(state.current) >= 2) {
+      fillBlanksFromValue(record.selected || '');
+      setFillBlanksDisabled(true);
+    } else if ($('fillAnswerInput')) {
+      $('fillAnswerInput').value = record.selected || ''; $('fillAnswerInput').disabled = true;
+    }
     if ($('shortAnswerInput')) { $('shortAnswerInput').value = record.selected || ''; $('shortAnswerInput').disabled = true; }
   }
   $('answerBox')?.classList.remove('hidden');
@@ -662,6 +672,7 @@ function resetWrongQuestionForRetry(record) {
     if (input) { input.checked = false; input.disabled = false; }
   });
   if ($('fillAnswerInput')) { $('fillAnswerInput').value = ''; $('fillAnswerInput').disabled = false; }
+  if ($('fillBlanksArea')) { fillBlanksFromValue(''); setFillBlanksDisabled(false); }
   if ($('shortAnswerInput')) { $('shortAnswerInput').value = ''; $('shortAnswerInput').disabled = false; }
   $('answerBox')?.classList.remove('hidden');
   if ($('answerBox')) $('answerBox').innerHTML = '这道题之前答错了，已清空原来的错误作答。重新作答，答对后题号会变成绿色。';
@@ -687,7 +698,10 @@ function renderDraftSelection() {
   if (!q) return;
   if (!isChoiceType(q.type)) {
     const val = typeof draft === 'object' ? (draft.text || '') : String(draft || '');
-    if (q.type === 'fill' && $('fillAnswerInput')) $('fillAnswerInput').value = val;
+    if (q.type === 'fill') {
+      if (fillBlankCount(q) >= 2) fillBlanksFromValue(val);
+      else if ($('fillAnswerInput')) $('fillAnswerInput').value = val;
+    }
     if (q.type === 'short' && $('shortAnswerInput')) $('shortAnswerInput').value = val;
     return;
   }
@@ -737,10 +751,23 @@ function renderQuestion() {
   }
   if ($('textAnswerBox')) {
     $('textAnswerBox').classList.toggle('hidden', isChoiceType(q.type));
-    if ($('fillAnswerInput')) $('fillAnswerInput').classList.toggle('hidden', q.type !== 'fill');
-    if ($('shortAnswerInput')) $('shortAnswerInput').classList.toggle('hidden', q.type !== 'short');
-    if ($('fillAnswerInput')) { $('fillAnswerInput').value = ''; $('fillAnswerInput').disabled = false; }
-    if ($('shortAnswerInput')) { $('shortAnswerInput').value = ''; $('shortAnswerInput').disabled = false; }
+    const blankCount = q.type === 'fill' ? fillBlankCount(q) : 0;
+    const multiBlank = blankCount >= 2;
+    // 单空沿用原单行输入框；多空时改用动态多框，隐藏单行框。
+    if ($('fillAnswerInput')) {
+      $('fillAnswerInput').classList.toggle('hidden', q.type !== 'fill' || multiBlank);
+      $('fillAnswerInput').value = '';
+      $('fillAnswerInput').disabled = false;
+    }
+    if ($('fillBlanksArea')) {
+      if (q.type === 'fill' && multiBlank) renderFillBlanks(blankCount);
+      else { $('fillBlanksArea').innerHTML = ''; $('fillBlanksArea').classList.add('hidden'); }
+    }
+    if ($('shortAnswerInput')) {
+      $('shortAnswerInput').classList.toggle('hidden', q.type !== 'short');
+      $('shortAnswerInput').value = '';
+      $('shortAnswerInput').disabled = false;
+    }
   }
   document.querySelectorAll('.option').forEach(el => {
     el.addEventListener('click', (event) => { event.preventDefault(); selectOption(el.dataset.label); });
@@ -797,19 +824,79 @@ function selectedAnswerText(q, selectedAns) {
   }).join('；');
 }
 
-function normalizeFreeText(text) {
-  return String(text || '').trim().replace(/\s+/g, '').toLowerCase();
+// 填空题答案的空数：答案有几行就是几个空。
+function fillBlankCount(q) {
+  if (!q || q.type !== 'fill') return 1;
+  const blanks = parseFillAnswer(q.answer || q.reference || '');
+  return Math.max(1, blanks.length);
 }
 function isTextAnswerCorrect(q, text) {
+  if (q && q.type === 'fill') {
+    const blanks = parseFillAnswer(q.answer || q.reference || '');
+    if (!blanks.length) return false;
+    // 用户作答也按行拆分，逐空比对：每个空都答对才算对。
+    const userBlanks = String(text || '').replace(/\r\n/g, '\n').split('\n');
+    return blanks.every((accepted, i) => {
+      const user = normalizeFreeText(userBlanks[i] || '');
+      if (!user) return false;
+      return accepted.some(ans => user === normalizeFreeText(ans));
+    });
+  }
+  // 简答题（或无类型）：整段匹配任意一种可接受写法。
   const user = normalizeFreeText(text);
   if (!user) return false;
-  const accepted = String(q.answer || q.reference || '').split(/[|;；、，,\/]/).map(normalizeFreeText).filter(Boolean);
+  const accepted = String(q.answer || q.reference || '').split(/[|;；、，,\/\n]/).map(normalizeFreeText).filter(Boolean);
   return accepted.some(ans => user === ans);
 }
+// 收集填空各空的输入，用换行拼成与答案对应的字符串；简答题取文本域。
 function currentTextAnswer() {
   const q = state.current;
   if (!q || isChoiceType(q.type)) return '';
-  return q.type === 'fill' ? ($('fillAnswerInput')?.value || '').trim() : ($('shortAnswerInput')?.value || '').trim();
+  if (q.type === 'short') return ($('shortAnswerInput')?.value || '').trim();
+  const inputs = [...document.querySelectorAll('#fillBlanksArea .fill-blank-input')];
+  if (inputs.length) {
+    const vals = inputs.map(el => (el.value || '').trim());
+    // 全空则返回空串（视为未作答）；否则用换行拼接，保留空行占位。
+    return vals.some(Boolean) ? vals.join('\n') : '';
+  }
+  return ($('fillAnswerInput')?.value || '').trim();
+}
+
+// 渲染多空填空的多个输入框（第 1 空、第 2 空...）。
+function renderFillBlanks(count) {
+  const area = $('fillBlanksArea');
+  if (!area) return;
+  area.classList.remove('hidden');
+  area.innerHTML = Array.from({ length: count }, (_, i) => `
+    <div class="fill-blank-row">
+      <span class="fill-blank-label">第 ${i + 1} 空</span>
+      <input type="text" class="fill-blank-input" data-blank-index="${i}" placeholder="请输入第 ${i + 1} 空答案" />
+    </div>
+  `).join('');
+  area.querySelectorAll('.fill-blank-input').forEach(input => {
+    input.addEventListener('input', saveTextAnswerDraft);
+    input.addEventListener('keydown', (event) => {
+      if (event.key !== 'Enter') return;
+      event.preventDefault();
+      const inputs = [...area.querySelectorAll('.fill-blank-input')];
+      const idx = inputs.indexOf(input);
+      // 最后一个空回车提交；否则跳到下一个空。
+      if (idx >= 0 && idx < inputs.length - 1) inputs[idx + 1].focus();
+      else submitAnswer(false);
+    });
+  });
+}
+// 把换行拼接的填空作答回填到多个输入框（用于草稿/已答恢复）。
+function fillBlanksFromValue(value) {
+  const area = $('fillBlanksArea');
+  if (!area) return;
+  const parts = String(value || '').replace(/\r\n/g, '\n').split('\n');
+  area.querySelectorAll('.fill-blank-input').forEach((input, i) => { input.value = parts[i] || ''; });
+}
+function setFillBlanksDisabled(disabled) {
+  const area = $('fillBlanksArea');
+  if (!area) return;
+  area.querySelectorAll('.fill-blank-input').forEach(input => { input.disabled = Boolean(disabled); });
 }
 
 
@@ -950,6 +1037,7 @@ function submitAnswer(forceShow=false) {
     });
   } else {
     if ($('fillAnswerInput')) $('fillAnswerInput').disabled = true;
+    setFillBlanksDisabled(true);
     if ($('shortAnswerInput')) $('shortAnswerInput').disabled = true;
   }
   const referenceOnlyShort = q.type === 'short' && !q.answer && q.reference && !forceShow;
@@ -968,7 +1056,12 @@ function submitAnswer(forceShow=false) {
   if ($('answerBox')) {
     const label = referenceOnlyShort ? '已查看参考答案' : (forceShow ? (record?.result === 'wrong' ? '仍标记为错误，请重新作答直到正确' : '答案') : (correct ? '回答正确 ✅' : '回答错误 ❌'));
     const answerLabel = isChoiceType(q.type) ? `正确答案：${escapeHtml(q.answer)}` : '参考答案：';
-    const mine = !forceShow && !isChoiceType(q.type) ? `<br><b>你的作答：</b><br>${renderMarkdown(selectedAns)}` : '';
+    let mineText = selectedAns;
+    if (!isChoiceType(q.type) && q.type === 'fill' && fillBlankCount(q) >= 2) {
+      const parts = String(selectedAns || '').split('\n');
+      mineText = parts.map((v, i) => `第${i + 1}空：${v || '（空）'}`).join('　');
+    }
+    const mine = !forceShow && !isChoiceType(q.type) ? `<br><b>你的作答：</b><br>${renderMarkdown(mineText)}` : '';
     $('answerBox').innerHTML = `${label}<br><b>${answerLabel}</b><br>${renderMarkdown(answerText(q))}${mine}<div id="questionStatsArea" class="question-stats-area">${isStandaloneMode() ? '' : '正在加载全站统计...'}</div>`;
   }
   renderQuestionNotes(q);
@@ -1061,6 +1154,8 @@ function finishQuiz() {
   $('emptyState')?.classList.remove('hidden');
   const done = state.right + state.wrong;
   const rate = done ? Math.round(state.right / done * 100) : 0;
+  // 刷完一轮：先存档历史记录（finished=true），再清当前进度。
+  try { archiveRound(true, getLocalProgressState()); } catch (err) { console.warn('存档历史失败：', err); }
   clearSavedProgress();
   if ($('emptyState')) $('emptyState').innerHTML = `<h2>本轮完成</h2><p>做题 ${done} 道，正确 ${state.right} 道，错误 ${state.wrong} 道，正确率 ${rate}%。</p><p>错题已经全部重刷到正确，错题本也会随答对自动减少。</p><div class="actions finish-actions"><button class="primary" type="button" onclick="clearSavedProgress(); startQuiz(readSettings(), {resume:false})">再来一轮</button><button class="ghost" type="button" onclick="window.location.href='index.html'">返回首页</button></div>`;
   if ($('progressBar')) $('progressBar').style.width = '100%';
@@ -1744,8 +1839,8 @@ function renderQuestionManager(targetId = '') {
               <b>正确答案 / 参考答案</b>
               <div id="adminAnswerArea" class="admin-answer-area"></div>
               <div id="adminTextAnswerArea" class="admin-text-answer-area hidden">
-                <label>正确答案（填空可填多个，用 | 或 ；分隔）
-                  <textarea id="adminTextAnswerInput" rows="2" placeholder="例如：实事求是|实事求是的思想路线"></textarea>
+                <label>正确答案（填空题：<b>一行一个空</b>，同一空的多种写法用 | 分隔）
+                  <textarea id="adminTextAnswerInput" rows="3" placeholder="单空示例：实事求是|实事求是的思想路线&#10;多空示例（每行一个空）：&#10;2&#10;1"></textarea>
                 </label>
                 <label>参考答案（简答题建议填写 Markdown，可插入图片）
                   <textarea id="adminReferenceInput" rows="4" placeholder="可填写参考要点，支持 Markdown，也支持 ![说明](图片链接)"></textarea>
@@ -2434,4 +2529,142 @@ async function handleQuestionBankImportFile(overlay, file) {
     if (status) status.textContent = '导入失败。';
     alert(err.message || '导入失败，请检查文件格式。');
   }
+}
+
+// =============================================================================
+// 历史刷题记录弹窗 —— 列表 / 查看详情 / 删除 / 继续刷。数据源由 sync.js 按模式分流。
+// =============================================================================
+
+function historyRecordSummaryLine(meta) {
+  const parts = [meta.modeName, meta.typeName, meta.topicText].filter(Boolean);
+  return parts.join(' · ');
+}
+
+function openHistoryRecordsDialog() {
+  document.getElementById('historyRecordsOverlay')?.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'historyRecordsOverlay';
+  overlay.className = 'auth-overlay admin-password-overlay';
+  overlay.innerHTML = `
+    <div class="auth-card history-records-card">
+      <h1>历史刷题记录</h1>
+      <p class="history-records-hint">${isStandaloneMode() ? '单机模式：记录只保存在本机。' : '云端模式：记录跟随同步码。'}最多保留最近 ${HISTORY_MAX} 条。</p>
+      <div id="historyRecordsList" class="history-records-list"><div class="history-empty">正在加载...</div></div>
+      <button id="historyRecordsClose" class="ghost" type="button">关闭</button>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.remove(); });
+  overlay.querySelector('#historyRecordsClose')?.addEventListener('click', () => overlay.remove());
+  refreshHistoryRecordsList(overlay);
+}
+
+async function refreshHistoryRecordsList(overlay) {
+  const list = overlay.querySelector('#historyRecordsList');
+  if (!list) return;
+  let records = [];
+  try { records = await listHistoryRecords(); }
+  catch (err) { list.innerHTML = '<div class="history-empty">加载失败，请稍后重试。</div>'; return; }
+  if (!records.length) {
+    list.innerHTML = '<div class="history-empty">还没有刷题记录。刷完一轮或重新开始时会自动记录这里。</div>';
+    return;
+  }
+  list.innerHTML = records.map(rec => {
+    const meta = rec._historyMeta || {};
+    const finished = meta.finished;
+    const cur = Number(meta.currentIndex || 0) + 1;
+    const total = Number(meta.total || (rec.pool || []).length || 0);
+    const badge = finished
+      ? '<span class="history-badge done">已完成</span>'
+      : '<span class="history-badge ongoing">未完成</span>';
+    const progressText = finished ? `共 ${total} 题` : `进度 ${Math.min(cur, total)}/${total} 题`;
+    return `
+      <div class="history-record-item" data-id="${escapeHtml(rec.id)}">
+        <div class="history-record-head">
+          <span class="history-record-time">${escapeHtml(formatTime(meta.createdAt || rec.savedAt))}</span>
+          ${badge}
+        </div>
+        <div class="history-record-meta">${escapeHtml(historyRecordSummaryLine(meta))}</div>
+        <div class="history-record-stat">${progressText}　正确 ${Number(meta.right || 0)}　错误 ${Number(meta.wrong || 0)}　正确率 ${Number(meta.rate || 0)}%</div>
+        <div class="history-record-actions">
+          <button class="ghost small-btn history-view" type="button" data-id="${escapeHtml(rec.id)}">查看详情</button>
+          ${finished ? '' : `<button class="primary small-btn history-resume" type="button" data-id="${escapeHtml(rec.id)}">继续刷</button>`}
+          <button class="danger-btn small-btn history-delete" type="button" data-id="${escapeHtml(rec.id)}">删除</button>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  const byId = (id) => records.find(r => String(r.id) === String(id));
+  list.querySelectorAll('.history-view').forEach(btn => btn.addEventListener('click', () => {
+    const rec = byId(btn.dataset.id);
+    if (rec) renderHistoryRecordDetail(rec);
+  }));
+  list.querySelectorAll('.history-resume').forEach(btn => btn.addEventListener('click', () => {
+    const rec = byId(btn.dataset.id);
+    if (rec) resumeFromHistory(rec);
+  }));
+  list.querySelectorAll('.history-delete').forEach(btn => btn.addEventListener('click', async () => {
+    if (!confirm('确定删除这条刷题记录吗？')) return;
+    btn.disabled = true;
+    const ok = await removeHistoryRecord(btn.dataset.id);
+    if (ok) refreshHistoryRecordsList(overlay);
+    else { btn.disabled = false; alert('删除失败，请稍后重试。'); }
+  }));
+}
+
+function renderHistoryRecordDetail(record) {
+  document.getElementById('historyDetailOverlay')?.remove();
+  const meta = record._historyMeta || {};
+  const pool = Array.isArray(record.pool) ? record.pool : [];
+  const history = Array.isArray(record.history) ? record.history : [];
+  const recordMap = new Map(history.map(item => [item.roundIndex, item]));
+  const grid = pool.map((q, index) => {
+    const item = recordMap.get(index);
+    const result = item ? item.result : 'todo';
+    const statusText = result === 'right' ? '正确' : result === 'wrong' ? '错误' : result === 'show' ? '看答案' : '未做';
+    return `<div class="history-number-btn ${result}" title="第 ${index + 1} 题：${statusText}"><span>第 ${index + 1} 题</span><small>${statusText}</small></div>`;
+  }).join('');
+  const overlay = document.createElement('div');
+  overlay.id = 'historyDetailOverlay';
+  overlay.className = 'auth-overlay admin-password-overlay';
+  overlay.innerHTML = `
+    <div class="auth-card history-detail-card">
+      <h1>记录详情</h1>
+      <p class="history-records-hint">${escapeHtml(historyRecordSummaryLine(meta))}　${escapeHtml(formatTime(meta.createdAt || record.savedAt))}</p>
+      <p class="history-records-hint">正确 ${Number(meta.right || 0)}　错误 ${Number(meta.wrong || 0)}　正确率 ${Number(meta.rate || 0)}%</p>
+      <div class="history-number-grid">${grid || '<div class="history-empty">本轮没有题目。</div>'}</div>
+      <p class="history-tip">灰色=未做，绿色=正确，红色=错误，黄色=看过答案。</p>
+      <button id="historyDetailClose" class="ghost" type="button">返回</button>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.remove(); });
+  overlay.querySelector('#historyDetailClose')?.addEventListener('click', () => overlay.remove());
+}
+
+function resumeFromHistory(record) {
+  if (!record || !Array.isArray(record.pool) || !record.pool.length) {
+    alert('这条记录没有可继续的题目。');
+    return;
+  }
+  // 覆盖当前进度前，若本地另有一份不同的未完成进度，先存档（后台写入不阻塞），避免顶掉正在进行的那轮。
+  const existing = getLocalProgressState();
+  if (existing && Array.isArray(existing.pool) && existing.pool.length
+      && Number(existing.savedAt || 0) !== Number(record.savedAt || 0)) {
+    try { archiveRound(false, existing); } catch (err) { console.warn('存档当前进度失败：', err); }
+  }
+  // 组装回写的进度 payload：剥掉历史专用字段，标记 _fromCloud 放宽恢复匹配。
+  const payload = { ...record };
+  delete payload._historyMeta;
+  delete payload.id;
+  payload._fromCloud = true;
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(payload));
+  localStorage.removeItem(FORCE_RESTART_KEY);
+  // 把记录的设置写回，让 practice 页 readSettings 与记录一致；
+  // 注意：不要写 quiz_pending_topics —— 那会让 startQuiz 强制重建题池，反而丢掉记录的 pool。
+  if (payload.settings) {
+    try { saveSettings(payload.settings); } catch (err) {}
+  }
+  window.location.href = 'practice.html';
 }
