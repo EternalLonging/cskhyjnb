@@ -244,6 +244,10 @@ function readSettings() {
     const merged = { ...defaultSettings(), ...(saved || {}) };
     const allKeys = allTopicKeys();
     if (!Array.isArray(merged.topics) || !merged.topics.length) merged.topics = allKeys;
+    // 过滤掉已不存在的 topic key，如果全都不存在则用全部
+    const validKeys = new Set(allKeys);
+    merged.topics = merged.topics.filter(t => validKeys.has(t));
+    if (!merged.topics.length) merged.topics = allKeys;
     // 兼容旧版本：旧设置保存的是 q.topic，而新版保存的是 course|||topic|||subtopic。
     if (merged.topics.some(t => !String(t).includes('|||'))) {
       const oldTopics = new Set(merged.topics);

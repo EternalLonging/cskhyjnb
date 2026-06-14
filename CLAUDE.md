@@ -4,97 +4,149 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-综合刷题网站 (Comprehensive Quiz Website) — a vanilla JavaScript single-page application for quiz practice. Supports single-choice, multiple-choice, fill-in-the-blank, and short-answer questions. Features cloud sync via Supabase and offline single-machine mode. Includes a built-in question bank manager with Word/JSON import/export.
+超时空辉夜姬 — a vanilla JavaScript SPA for quiz practice. Supports single-choice, multiple-choice, fill-in-the-blank, and short-answer questions. Features cloud sync via Supabase and offline single-machine mode. Includes a built-in question bank manager with Word/JSON import/export and a topic hierarchy manager (create, move, promote, delete topics). Deployed via GitHub Pages with PWA support (offline caching + installable). Can also be packaged as a Windows EXE via Electron.
+
+GitHub Pages: `https://eternallonging.github.io/cskhyjnb/`
 
 ## How to Run
 
-**Local development**: Open `index.html` or `practice.html` directly in a browser (double-click). No build step, no dev server. ES modules are intentionally avoided to maintain `file://` protocol compatibility.
+**Local development** (recommended): Start an HTTP server serving from the project directory.
+```bash
+node -e "const h=require('http'),fs=require('fs'),p=require('path'),m={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.json':'application/json'};h.createServer((q,r)=>{let u=q.url.split('?')[0];if(u=='/')u='/index.html';const fp=p.join('D:/shuatiwangzhan/1',u);try{const c=fs.readFileSync(fp);r.writeHead(200,{'Content-Type':m[p.extname(u)]||'text/plain','Cache-Control':'no-cache, no-store, must-revalidate'});r.end(c)}catch(e){r.writeHead(404);r.end('Not found: '+u)}}).listen(3000,()=>console.log('http://localhost:3000/'))"
+```
+Always use an absolute path for the server root (`D:/shuatiwangzhan/1`) — `process.cwd()` varies between bash/PowerShell/cmd. The `Cache-Control: no-cache` header prevents browser caching during development (SW still caches independently — bump `CACHE_NAME` in sw.js if stale).
 
-**Syntax check**: `node --check <file>.js` — each JS file should pass without errors.
+**Syntax check**: `node --check <file>.js`
 
-**Deployment**: Upload the entire folder to Netlify (or any static host). The app loads Supabase and Mammoth.js from CDN; everything else is self-contained.
+**Build Windows EXE**:
+```bash
+npm run build    # → dist/超时空辉夜姬 1.0.0.exe (portable, ~80MB)
+```
+Requires `electron` and `electron-builder` (already in `devDependencies`). The EXE bundles a Chromium browser + built-in HTTP server — no external dependencies needed.
+
+**Deployment**: Push to `master` branch → GitHub Pages auto-deploys from `master` branch root.
 
 ## Architecture
 
 ### Script Load Order (Critical)
 
-Both HTML pages load scripts in this exact order — dependencies flow downward:
-
 ```
-questions.js (data: window.QUESTION_BANK / QUESTION_SUMMARY)
-  → config.js (constants, shared globals)
+questions.js (window.QUESTION_BANK — 844 base questions)
+  → config.js (constants, Supabase keys, localStorage keys, global $() helper)
     → utils.js (pure utilities, Markdown renderer, file I/O)
-      → data.js (question bank CRUD, topic hierarchy, settings)
-        → sync.js (Supabase client, auth gates, cloud sync, notes)
+      → data.js (question bank CRUD, topic hierarchy, edit layer, topic management ops)
+        → sync.js (Supabase client, auth gates, cloud sync, notes, invite RPC)
           → state.js (quiz session state, progress persistence)
-            → ui.js (all DOM rendering — home, practice, admin, import/export)
-              → app.js (event binding, keyboard handler, initialization dispatch)
+            → ui.js (all DOM rendering, dialogs, overlays)
+              → app.js (event binding, keyboard handler, page dispatch)
 ```
 
-Each file defines global `function` declarations — no module system, no bundler. All functions are available globally after loading.
+No module system — all functions are global.
+
+### Key Files
+
+| File | Purpose |
+|------|---------|
+| `manifest.json` | PWA config (name: 超时空辉夜姬, icon: 3.png) |
+| `sw.js` | Service Worker — pre-caches app shell |
+| `package.json` / `electron-main.js` / `electron-builder.yml` | Electron desktop packaging |
 
 ### Page Dispatch
 
-`app.js` (the last few lines) reads `document.body.dataset.page` to decide which page to initialize:
-- `"home"` → `setupPasswordGate(bindHome)` → shows mode selection overlay, then renders topic tree
-- `"practice"` → `setupPasswordGate(bindPractice)` → shows mode selection overlay, then starts quiz
+`app.js` reads `document.body.dataset.page`:
+- `"home"` → `setupPasswordGate(bindHome)` → mode/invite overlay → topic tree
+- `"practice"` → `setupPasswordGate(bindPractice)` → mode/invite overlay → quiz starts
 
-Both pages use the same codebase; the `data-page` attribute on `<body>` is the sole differentiator.
+## Auth Model
 
-### Core Data Flow
+1. **Invite code** (sync/single mode gate) — Supabase RPC one-code-per-person system
+2. **Admin password** (question bank & topic management) — localStorage + cloud, session-level bypass (`sessionStorage.quiz_admin_unlocked_v1`)
 
-1. `baseQuestions` = `window.QUESTION_BANK` (from `questions.js`, ~158+ questions)
-2. `refreshQuestionBank()` merges base questions with local edits (overrides, deletions, custom additions) → populates `questions[]` and `summary{}`
-3. Settings are read from localStorage (`readSettings()`), combined with selected topics → `buildPool()` filters + shuffles → prepares each question via `prepareQuestion()` (handles option shuffling)
-4. Quiz state lives in the global `state` object (current index, history, selected answers, scores)
-5. Cloud sync uses Supabase `study_progress` table as a key-value store (`sync_key` + `deck_key` → `state` JSON blob)
+Use `ensureAdminUnlocked(callback)` to gate admin features.
 
-### Key Global Objects
+## Question Edit Layer
 
-| Object | Defined In | Purpose |
-|--------|-----------|---------|
-| `state` | state.js | Current quiz session (pool, index, history, scores, selected) |
-| `syncState` | sync.js | Supabase client, sync key, mode, status |
-| `adminPasswordState` | sync.js | Cached admin password with loading state |
-| `noteFetchState` | sync.js | Tracks which question notes have been fetched from cloud |
-| `questions` / `summary` | config.js (populated by data.js) | The active question bank and per-topic stats |
-| `$` | config.js | Shorthand for `document.getElementById()` |
+Questions are **never modified in-place**. All changes go through the edit diff layer:
 
-| `questionStatsCache` | sync.js | Caches per-question global stats (total attempts, correct rate) fetched from cloud |
+- `loadQuestionEdits()` → `{ version, updatedAt, deletedIds, overrides, custom, customTopics, customSubTopics }`
+- Base questions filtered out if in `deletedIds`, overridden if in `overrides`
+- `saveQuestionEdits(edits)` → writes to localStorage + cloud, calls `refreshQuestionBank()`
+- `refreshQuestionBank()` rebuilds `questions[]` + `summary{}` from base + edits
 
-### Auth Model (Frontend-Only)
+## Topic Hierarchy
 
-- **Cloud sync mode**: Requires a sync code + invite code. Progress synced per sync code.
-- **Single-machine mode**: No sync code needed but still requires invite code. Reads cloud question edits but doesn't sync progress or allow note posting.
-- **Admin access**: Password-gated (`fengxingadmin` default). Stored in localStorage + cloud. `sessionStorage` flag (`quiz_admin_unlocked_v1`) bypasses re-entry during a session.
-- Default invite code: `fengxing`
-- This is **not** real server-side auth — suitable for classroom/personal use only.
+Three-level tree: **course** → **topic** → **subtopic**, built by `buildTopicHierarchy()` from question fields (`course`, `topic`, `subtopic`). The key format is `course|||topic|||subtopic`.
 
-### Supabase Table Usage
+### Topic Management Functions (data.js)
 
-The app uses two Supabase tables:
-- `study_progress` (sync_key, deck_key, state JSON, updated_at) — key-value store for progress, settings, question edits, admin password, course tags, invite codes, and per-question global stats (`__shared_question_stats_v2__`)
-- `question_notes` (sync_key, question_id, note JSON, updated_at) — for shared notes/comments
+| Function | Purpose |
+|----------|---------|
+| `addCustomTopic(name)` | Add empty topic to `edits.customTopics` (ui.js) |
+| `createEmptySubtopic(topic, subtopic)` | Add empty subtopic to `edits.customSubTopics` |
+| `moveTopicUnder(source, target)` | Move all questions of one topic under another (source becomes subtopic) |
+| `promoteSubtopicToTopic(parent, sub)` | Promote subtopic to independent top-level topic |
+| `deleteTopicWithQuestions(topic, subtopic?)` | Delete topic and all its questions (optional subtopic filter) |
+| `renameTopicEverywhere(old, new)` | Rename topic in all questions + settings (ui.js) |
 
-### Per-Question Global Stats
+### Empty Topic Visibility
 
-In sync mode, `submitAnswer()` calls `recordQuestionAttemptToCloud(questionId, isCorrect)` which atomically increments the global attempt count and correct count for that question. The results are displayed below the answer as "全站统计：共 N 次提交，正确率 X%". Stats are cached locally in `questionStatsCache` (30s TTL) and stored in `study_progress` with `sync_key = '__shared_question_stats_v2__'` and `deck_key = 'qstats:{questionId}'`. Single-machine mode neither records nor displays stats.
+`buildTopicHierarchy()` injects entries from both `edits.customTopics` and `edits.customSubTopics` so that empty topics/subtopics appear in the tree with 0 question counts.
 
-### Key Architectural Patterns
+### Topic Management Dialog
 
-- **Local-first, cloud-enhanced**: Single mode loads instantly from localStorage, then checks cloud for updates in the background
-- **Debounced cloud writes**: Progress saves are throttled (3s desktop, 5s mobile) via `setTimeout` before Supabase upsert
-- **Timestamp-based conflict resolution**: Newest `updatedAt` wins when merging local vs cloud data
-- **Question edits as a diff layer**: Original questions are never modified — edits are stored as overrides/deletions/additions in localStorage + cloud
-- **Inline HTML rendering**: All modals, overlays, and admin panels are built via large template literals in ui.js — no templating library
+`openAdvancedTopicManagerDialog()` in ui.js — tree view with move/promote/delete buttons per node, plus create topic/subtopic. Requires admin password. Triggered by `$('manageTopicsBtn')` on home page.
 
-### File Purposes
+## Dialog/Overlay Pattern
 
-- `questions.js` — static question bank data (assigns to `window.QUESTION_BANK`)
-- `config.js` — all constants, localStorage keys, `$()` helper, shared globals (`questions`, `summary`, caches)
-- `utils.js` — zero-side-effect functions: `escapeHtml()`, `renderMarkdown()`, `shuffle()`, `formatTime()`, file I/O helpers, import text parsers
-- `data.js` — question normalization (`normalizeQuestion()`), bank refresh, topic hierarchy, settings read, `answerText()`. Executes `refreshQuestionBank()` at load time.
-- `sync.js` — Supabase client init, all cloud CRUD, auth overlays (mode selection, invite, sync code), admin password management, course tags sync, notes/comments cloud layer
-- `state.js` — the `state` object, wrong ID tracking, progress save/load/clear, `prepareQuestion()` (option shuffling logic)
-- `ui.js` — everything that touches the DOM: question rendering, history panel, admin question manager, import/export dialogs, topic tree, stats display, note/comment UI
-- `app.js` — `bindHome()`, `bindPractice()`, keyboard handler, `beforeunload` flush, page dispatch
+All modals follow this pattern:
+```js
+function openMyDialog() {
+  document.getElementById('myOverlay')?.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'myOverlay';
+  overlay.className = 'auth-overlay admin-password-overlay';
+  overlay.innerHTML = `<div class="auth-card">...</div>`;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+  // bind buttons, auto-focus inputs, etc.
+}
+```
+
+## Testing with Playwright
+
+```bash
+npx playwright install chromium   # one-time
+npx playwright screenshot --viewport-size="1280,900" http://localhost:3000/ screenshot.png
+```
+
+For automated testing, bypass auth gates by setting localStorage before page load:
+```js
+localStorage.setItem('quiz_access_mode_v1', 'single');
+localStorage.setItem('quiz_sync_invite_authorized_v1', '{"__single_mode__":true}');
+sessionStorage.setItem('quiz_admin_unlocked_v1', 'ok');
+```
+
+## Question Format & Normalization
+
+`normalizeQuestion()` in data.js transforms raw questions before they enter the runtime bank:
+
+1. Options are **re-labeled** A, B, C, D... based on position (after filtering empty text). The original `label` field is ignored.
+2. Answers are validated against the new labels — an answer of "D" on a question with only 2 non-empty options becomes invalid (only A and B exist after re-labeling).
+3. Questions are dropped if `options.length < 2` or `answer` is empty — this silently removes broken questions.
+
+When adding questions, ensure every option has non-empty text and the answer maps to a valid position (1st option = A, 2nd = B, etc.).
+
+## Image Handling
+
+Images in question text or options use `<img>` tags pointing to `assets/<hash>.webp` (28 images, ~3.2MB total). Original PNGs came from 超星 CDN (`p.ananas.chaoxing.com`), converted via sharp. Keep WebP format — the app's server, SW, and Electron build all handle it.
+
+## Question Bank
+
+844 base questions in `questions.js`:
+- Original 637 (毛概 + 数据库 + 编译原理 from Word imports)
+- 209 compiler theory from 超星 homework pages (parsed via `parse-jiati.js` script, no longer in repo)
+- Answers for the 超星 import were determined programmatically — expect some errors, users can fix via admin panel
+
+## Settings Auto-Include
+
+`readSettings()` auto-appends any topic keys from `allTopicKeys()` that aren't in saved settings. New questions appear in the user's selection without needing to manually reselect topics.

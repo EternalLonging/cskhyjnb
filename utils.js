@@ -69,11 +69,19 @@ function sanitizeMarkdownImageUrl(url) {
 function renderMarkdown(text) {
   const source = String(text ?? '').replace(/\r\n/g, '\n');
   const imageTokens = [];
-  let prepared = source.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => {
-    const token = `@@MDIMG${imageTokens.length}@@`;
-    imageTokens.push({ alt: String(alt || ''), src: String(src || '') });
-    return token;
-  });
+  let prepared = source
+    // Markdown 图片: ![alt](url)
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => {
+      const token = `@@MDIMG${imageTokens.length}@@`;
+      imageTokens.push({ alt: String(alt || ''), src: String(src || '') });
+      return token;
+    })
+    // HTML img 标签: <img src="url" ...>
+    .replace(/<img\s[^>]*?src\s*=\s*["']([^"']+)["'][^>]*\/?\s*>/gi, (_, src) => {
+      const token = `@@MDIMG${imageTokens.length}@@`;
+      imageTokens.push({ alt: '', src: String(src || '') });
+      return token;
+    });
   let html = escapeHtml(prepared);
   html = html.replace(/```([\s\S]*?)```/g, (_, code) => `<pre><code>${code}</code></pre>`);
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');

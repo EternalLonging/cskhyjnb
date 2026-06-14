@@ -494,9 +494,12 @@ function goPractice(options = {}) {
     return;
   }
   saveSettings(settings);
+  // 把选题存入 sessionStorage，确保跨页面传递正确
+  sessionStorage.setItem('quiz_pending_topics', JSON.stringify(settings.topics));
   if (options.restart) {
     localStorage.setItem(FORCE_RESTART_KEY, '1');
     clearSavedProgress();
+    sessionStorage.setItem('quiz_force_restart', '1');
   }
   window.location.href = 'practice.html';
 }
@@ -511,9 +514,20 @@ function typeName(type) {
 
 function restoreProgressIfMatched(settings) {
   const saved = loadProgress();
-  if (!saved || saved.bankSize !== questions.length) return false;
-  if (saved.signature !== settingsSignature(settings)) return false;
-  if (!Array.isArray(saved.pool) || !saved.pool.length) return false;
+  if (!saved || !Array.isArray(saved.pool) || !saved.pool.length) return false;
+  // 云端恢复的进度：放宽签名和题库大小检查
+  const isCloudRestore = saved._fromCloud === true;
+  if (!isCloudRestore && saved.signature !== settingsSignature(settings)) return false;
+  // 题库大小变了（比如新增题目）不再拒绝，只过滤掉已不存在的题目
+  if (isCloudRestore || saved.bankSize !== questions.length) {
+    const validIds = new Set(questions.map(q => q.id));
+    saved.pool = saved.pool.filter(q => validIds.has(q.id));
+    if (!saved.pool.length) return false;
+    // 修正 currentIndex
+    saved.currentIndex = Math.max(0, Math.min(saved.currentIndex || 0, saved.pool.length - 1));
+    saved.bankSize = questions.length;
+    saved.signature = settingsSignature(settings);
+  }
 
   state.settings = settings;
   state.pool = saved.pool;
@@ -544,6 +558,19 @@ function applyPracticeHeader(settings, pool) {
 
 function startQuiz(settings, options = {}) {
   clearAutoTimer();
+  // 如果从首页带了新选题，用 sessionStorage 中的选题覆盖
+  const pending = sessionStorage.getItem('quiz_pending_topics');
+  if (pending) {
+    try {
+      settings.topics = JSON.parse(pending);
+      sessionStorage.removeItem('quiz_pending_topics');
+    } catch(e) {}
+  }
+  const forceRestart = sessionStorage.getItem('quiz_force_restart') === '1';
+  if (forceRestart) {
+    sessionStorage.removeItem('quiz_force_restart');
+    options.resume = false;
+  }
   const shouldResume = options.resume !== false;
   let restored = false;
   if (shouldResume) restored = restoreProgressIfMatched(settings);
