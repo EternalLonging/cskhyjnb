@@ -24,7 +24,11 @@ npm run build    # → dist/超时空辉夜姬 1.0.0.exe (portable, ~80MB)
 ```
 Requires `electron` and `electron-builder` (already in `devDependencies`). The EXE bundles a Chromium browser + built-in HTTP server — no external dependencies needed.
 
-**Deployment**: Push to `master` branch → GitHub Pages auto-deploys from `master` branch root.
+**Deployment**: Push to `main` branch → GitHub Pages auto-deploys. Note: the remote default is `main`, not `master`.
+```bash
+git push origin master:main
+```
+GitHub Pages CDN caches for ~10 minutes. Add `?v=N` to URLs to bust cache during testing.
 
 ## Architecture
 
@@ -48,7 +52,7 @@ No module system — all functions are global.
 | File | Purpose |
 |------|---------|
 | `manifest.json` | PWA config (name: 超时空辉夜姬, icon: 3.png) |
-| `sw.js` | Service Worker — pre-caches app shell |
+| `sw.js` | Service Worker — pre-caches app shell. Cache name `quiz-v4`. Registration uses `sw.js?v=4` to bust HTTP cache. Bump both when updating SW. |
 | `package.json` / `electron-main.js` / `electron-builder.yml` | Electron desktop packaging |
 
 ### Page Dispatch
@@ -138,7 +142,7 @@ When adding questions, ensure every option has non-empty text and the answer map
 
 ## Image Handling
 
-Images in question text or options use `<img>` tags pointing to `assets/<hash>.webp` (28 images, ~3.2MB total). Original PNGs came from 超星 CDN (`p.ananas.chaoxing.com`), converted via sharp. Keep WebP format — the app's server, SW, and Electron build all handle it.
+Images in question text or options use `<img>` tags pointing to `assets/<hash>.webp` (28 images, ~3.2MB total). Original PNGs from 超星 CDN converted via sharp. Both Markdown `![alt](url)` and HTML `<img>` tags are supported in `renderMarkdown()` — HTML tags are extracted before `escapeHtml()` and re-inserted as safe image blocks. Clean up leftover HTML artifacts (`<span style=...>`, `data-original`) from parsed questions.
 
 ## Question Bank
 
@@ -147,6 +151,15 @@ Images in question text or options use `<img>` tags pointing to `assets/<hash>.w
 - 209 compiler theory from 超星 homework pages (parsed via `parse-jiati.js` script, no longer in repo)
 - Answers for the 超星 import were determined programmatically — expect some errors, users can fix via admin panel
 
-## Settings Auto-Include
+## Quiz Flow: "继续刷题" vs "重新开始"
 
-`readSettings()` auto-appends any topic keys from `allTopicKeys()` that aren't in saved settings. New questions appear in the user's selection without needing to manually reselect topics.
+- **「继续刷题」**: Always restores last saved progress from localStorage (`quiz_progress_v4`). Ignores setting changes (topic, count, type). Does NOT load from cloud — local progress always wins.
+- **「重新开始」**: Clears saved progress, builds fresh pool from current settings. Transfers topic selection via `sessionStorage.quiz_pending_topics` to avoid localStorage corruption.
+
+`restoreProgressIfMatched()` no longer checks settings signature or bank size — only filters out deleted questions from the saved pool.
+
+## Progress & Settings Sync (Supabase)
+
+- **Progress** (`quiz_progress_v4`): Saved locally, synced to cloud on a 3-5s debounce. Cloud loaded only when local is empty (new device). Timestamp-based: server `updated_at` wins.
+- **Settings** (`quiz_settings_v2`): **Not synced to cloud**. Each device keeps its own topic selection. Previously caused cross-device overwrites.
+- **Wrong IDs** (`quiz_wrong_ids_v1`): Synced across devices via meta sync.
