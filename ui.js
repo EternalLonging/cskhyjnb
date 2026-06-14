@@ -494,12 +494,11 @@ function goPractice(options = {}) {
     return;
   }
   saveSettings(settings);
-  // 把选题存入 sessionStorage，确保跨页面传递正确
-  sessionStorage.setItem('quiz_pending_topics', JSON.stringify(settings.topics));
   if (options.restart) {
+    // 重新开始：强制重建题池
+    sessionStorage.setItem('quiz_pending_topics', JSON.stringify(settings.topics));
     localStorage.setItem(FORCE_RESTART_KEY, '1');
     clearSavedProgress();
-    sessionStorage.setItem('quiz_force_restart', '1');
   }
   window.location.href = 'practice.html';
 }
@@ -553,17 +552,14 @@ function applyPracticeHeader(settings, pool) {
 function startQuiz(settings, options = {}) {
   clearAutoTimer();
   // 如果从首页带了新选题，用 sessionStorage 中的选题覆盖
+  // 重新开始：从 sessionStorage 获取选题并重建题池
   const pending = sessionStorage.getItem('quiz_pending_topics');
   if (pending) {
     try {
       settings.topics = JSON.parse(pending);
       sessionStorage.removeItem('quiz_pending_topics');
+      options.resume = false;
     } catch(e) {}
-  }
-  const forceRestart = sessionStorage.getItem('quiz_force_restart') === '1';
-  if (forceRestart) {
-    sessionStorage.removeItem('quiz_force_restart');
-    options.resume = false;
   }
   const shouldResume = options.resume !== false;
   let restored = false;
