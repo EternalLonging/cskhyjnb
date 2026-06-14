@@ -757,7 +757,7 @@ async function loadMetaFromCloud() {
   const remoteState = data.state || {};
   const remoteTs = Number(remoteState.updatedAt || new Date(data.updated_at || 0).getTime() || 0);
   if (remoteTs && remoteTs > localMetaUpdatedAt()) {
-    if (remoteState.settings) localStorage.setItem(SETTINGS_KEY, JSON.stringify(remoteState.settings));
+    // 不再从云端覆盖设置——不同设备选题偏好不同，覆盖会造成困惑
     if (Array.isArray(remoteState.wrongIds)) localStorage.setItem(WRONG_KEY, JSON.stringify(remoteState.wrongIds));
     setLocalMetaUpdatedAt(remoteTs);
   }
@@ -768,7 +768,6 @@ async function saveMetaToCloud() {
   const now = Date.now();
   setLocalMetaUpdatedAt(now);
   const state = {
-    settings: readSettings(),
     wrongIds: getWrongIds(),
     updatedAt: now,
   };
