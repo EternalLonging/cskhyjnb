@@ -515,18 +515,29 @@ function showSingleInviteOverlay(onReady) {
   const submit = overlay.querySelector('#singleInviteSubmit');
   const error = overlay.querySelector('#singleInviteError');
   const accept = async () => {
+    if (submit.disabled) return; // 防止回车/连点导致重复消费邀请码
     const invite = (input.value || '').trim();
     const nameInput = overlay.querySelector('#singleInviteNameInput');
     const identifier = (nameInput ? (nameInput.value || '').trim() : '') || 'single_mode';
+    if (!invite) { error.textContent = '请先输入邀请码。'; input.focus(); return; }
     submit.disabled = true;
     error.textContent = '正在验证邀请码...';
     try {
       await consumeInviteCode(invite, identifier);
+      // 邀请码已在云端被消费，立刻标记本设备已授权，避免后续步骤失败时再次烧码。
       markSingleInviteAuthorized();
-      overlay.remove();
+      // 进入单机模式（含前台加载题库更新）。即使云端加载失败也不应把用户挡在门外。
       await enterSingleMode(onReady, { foreground: true });
+      overlay.remove();
     } catch (err) {
       console.warn(err);
+      // 若已通过验证（已标记授权），说明仅是进入阶段出错：放行而非卡死在门口。
+      if (isSingleInviteAuthorized()) {
+        error.textContent = '验证已通过，正在进入...';
+        try { await enterSingleMode(onReady, { foreground: false }); } catch (e2) { console.warn(e2); }
+        overlay.remove();
+        return;
+      }
       error.textContent = err.message || '验证失败，请稍后重试。';
       submit.disabled = false;
     }
@@ -563,26 +574,44 @@ function showSyncOverlay(onReady) {
   const back = document.getElementById('backModeSelect');
   const error = document.getElementById('syncError');
   const accept = async () => {
+    if (submit.disabled) return; // 防止回车/连点导致重复消费邀请码
     const value = (input.value || '').trim();
     const invite = (inviteInput.value || '').trim();
     if (!value) { error.textContent = '请先输入同步码。'; input.focus(); return; }
+    if (!isSyncInviteAuthorized(value) && !invite) {
+      error.textContent = '请先输入邀请码。'; inviteInput.focus(); return;
+    }
     submit.disabled = true;
     error.textContent = '正在验证邀请码...';
     try {
       if (!isSyncInviteAuthorized(value)) {
         await consumeInviteCode(invite, value);
+        // 验证一通过就立刻本地标记授权，避免后续云端加载失败时邀请码已被烧、人却进不去。
         markSyncInviteAuthorized(value);
       }
       localStorage.setItem(ACCESS_MODE_STORAGE, ACCESS_MODE_SYNC);
       localStorage.setItem(SYNC_KEY_STORAGE, value);
+      // 验证已通过：即便下面的云端加载出错，也必须放行进入。
+      try {
+        await initSync(value);
+        await loadQuestionEditsFromCloud();
+        await loadAdminPasswordFromCloud();
+        await loadCourseTagsFromCloud();
+      } catch (loadErr) {
+        console.warn('进入同步模式时云端加载失败（不影响进入）：', loadErr);
+      }
       overlay.remove();
-      await initSync(value);
-      await loadQuestionEditsFromCloud();
-      await loadAdminPasswordFromCloud();
-      await loadCourseTagsFromCloud();
       onReady();
     } catch (err) {
       console.warn(err);
+      // 已授权说明仅验证后的某步出错：直接放行，不要把用户挡在门外（邀请码可能已被消费）。
+      if (isSyncInviteAuthorized(value)) {
+        localStorage.setItem(ACCESS_MODE_STORAGE, ACCESS_MODE_SYNC);
+        localStorage.setItem(SYNC_KEY_STORAGE, value);
+        overlay.remove();
+        onReady();
+        return;
+      }
       error.textContent = err.message || '验证失败，请稍后重试。';
       submit.disabled = false;
     }
