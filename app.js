@@ -94,7 +94,12 @@ function bindPractice() {
   $('showBtn')?.addEventListener('click', () => submitAnswer(true));
   $('retryWrongBtn')?.addEventListener('click', beginRetryCurrentWrongQuestion);
   $('nextBtn')?.addEventListener('click', nextQuestion);
-  $('backHomeBtn')?.addEventListener('click', () => { window.location.href = 'index.html'; });
+  $('backHomeBtn')?.addEventListener('click', async () => {
+    // 退出回首页前：做过题才把这一轮存档到历史。等写入完成再跳转，
+    // 避免 keepalive beacon 在同步导航时被浏览器取消导致丢记录。
+    try { await archiveRoundIfAttempted(getLocalProgressState()); } catch (err) {}
+    window.location.href = 'index.html';
+  });
   $('restartBtn')?.addEventListener('click', () => {
     // 重开本轮：若当前轮没刷完，先存档历史（finished=false，后台写入不阻塞），再清空重建。
     const existing = getLocalProgressState();
@@ -136,7 +141,15 @@ function bindPractice() {
   startQuiz(readSettings(), { resume: !forceRestart });
 }
 
-window.addEventListener('beforeunload', () => { flushProgressToCloud(); flushMetaToCloud(); });
+// 页面卸载/切走时：练习页若做过题则存档历史（移动端 pagehide 比 beforeunload 更可靠），
+// 并 flush 未写出的进度/元信息。archiveRoundCloudBeacon 用 fetch keepalive，适配卸载场景。
+function handlePageHide() {
+  if (document.body?.dataset.page === 'practice') archiveRoundIfAttempted(getLocalProgressState());
+  flushProgressToCloud();
+  flushMetaToCloud();
+}
+window.addEventListener('pagehide', handlePageHide);
+window.addEventListener('beforeunload', handlePageHide);
 
 const page = document.body.dataset.page;
 if (page === 'home') setupPasswordGate(bindHome);

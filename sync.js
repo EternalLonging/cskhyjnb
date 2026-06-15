@@ -1145,6 +1145,8 @@ function buildHistoryRecord(progress, finished) {
   const done = right + wrong;
   const rate = done ? Math.round(right / done * 100) : 0;
   const savedAt = Number(progress.savedAt || nowTs());
+  // 历史 id 用稳定的 roundId（同一轮无论归档多少次都映射到同一条），回退到 savedAt 兼容旧进度。
+  const roundId = Number(progress.roundId || progress.savedAt || nowTs());
   // 专题描述：与 applyPracticeHeader 一致。
   let topicText = '专题';
   try {
@@ -1154,7 +1156,8 @@ function buildHistoryRecord(progress, finished) {
   } catch (err) {}
   return {
     ...progress,
-    id: `${HISTORY_DECK_PREFIX}${savedAt}`,
+    id: `${HISTORY_DECK_PREFIX}${roundId}`,
+    roundId,
     savedAt,
     _historyMeta: {
       finished: Boolean(finished),
@@ -1186,7 +1189,8 @@ function writeLocalHistory(list) {
   return trimmed;
 }
 function archiveRoundLocal(record) {
-  const list = readLocalHistory().filter(r => Number(r.savedAt) !== Number(record.savedAt));
+  // 按 id（即 roundId）去重：同一轮重复归档时替换旧记录而非新增。
+  const list = readLocalHistory().filter(r => String(r.id) !== String(record.id));
   list.push(record);
   writeLocalHistory(list);
 }
@@ -1203,24 +1207,20 @@ function archiveRoundCloudBeacon(record) {
     state: record,
     updated_at: new Date(ts).toISOString(),
   });
-  try {
-    fetch(`${SUPABASE_URL}/rest/v1/study_progress`, {
-      method: 'POST',
-      keepalive: true,
-      headers: {
-        'apikey': SUPABASE_KEY,
-        'Authorization': `Bearer ${SUPABASE_KEY}`,
-        'Content-Type': 'application/json',
-        'Prefer': 'resolution=merge-duplicates',
-      },
-      body,
-    }).then(() => {
-      // 修剪旧记录放在写入成功后后台进行，不阻塞跳转。
-      trimHistoryCloud().catch(() => {});
-    }).catch(err => console.warn('后台存档历史失败：', err));
-  } catch (err) {
-    console.warn('后台存档历史异常：', err);
-  }
+  return fetch(`${SUPABASE_URL}/rest/v1/study_progress`, {
+    method: 'POST',
+    keepalive: true,
+    headers: {
+      'apikey': SUPABASE_KEY,
+      'Authorization': `Bearer ${SUPABASE_KEY}`,
+      'Content-Type': 'application/json',
+      'Prefer': 'resolution=merge-duplicates',
+    },
+    body,
+  }).then(() => {
+    // 修剪旧记录放在写入成功后后台进行，不阻塞跳转。
+    trimHistoryCloud().catch(() => {});
+  }).catch(err => console.warn('后台存档历史失败：', err));
 }
 async function trimHistoryCloud() {
   if (!syncState.enabled || !syncState.client || !syncState.key) return;
@@ -1240,19 +1240,32 @@ async function trimHistoryCloud() {
 }
 async function listHistoryCloud() {
   if (!syncState.enabled || !syncState.client || !syncState.key) return [];
+  // 只取展示用的 _historyMeta 子键，不拉整份 state（内含整轮题池，体积大、手机弱网慢）。
   const { data, error } = await syncState.client
     .from('study_progress')
-    .select('deck_key,state,updated_at')
+    .select('deck_key,updated_at,meta:state->_historyMeta')
     .eq('sync_key', syncState.key)
     .like('deck_key', `${HISTORY_DECK_PREFIX}%`)
     .order('updated_at', { ascending: false })
     .limit(HISTORY_MAX);
   if (error || !Array.isArray(data)) return [];
   return data.map(row => {
-    const rec = row.state || {};
-    rec.id = rec.id || row.deck_key;
-    return rec;
+    const meta = row.meta || {};
+    const savedAt = Number(String(row.deck_key).slice(HISTORY_DECK_PREFIX.length)) || Number(meta.createdAt) || 0;
+    // _lite：列表用的精简记录，没有 pool/history，查看详情/继续刷时再按需拉完整记录。
+    return { id: row.deck_key, savedAt, _historyMeta: meta, _lite: true };
   });
+}
+// 按需拉取一条完整历史记录（含题池），供查看详情/继续刷使用。
+async function loadHistoryRecordCloud(id) {
+  if (!syncState.enabled || !syncState.client || !syncState.key || !id) return null;
+  const { data, error } = await syncState.client
+    .from('study_progress').select('deck_key,state')
+    .eq('sync_key', syncState.key).eq('deck_key', id).maybeSingle();
+  if (error || !data) return null;
+  const rec = data.state || {};
+  rec.id = rec.id || data.deck_key;
+  return rec;
 }
 async function removeHistoryCloud(id) {
   if (!syncState.enabled || !syncState.client || !syncState.key || !id) return false;
@@ -1274,8 +1287,23 @@ function archiveRound(finished, progress) {
     archiveRoundLocal(record);
     return true;
   }
-  archiveRoundCloudBeacon(record);
-  return true;
+  // 返回 beacon 的 Promise，退出路径可 await 以确保写入完成再跳转。
+  return archiveRoundCloudBeacon(record) || true;
+}
+
+// 本轮是否至少答过一题（有 right/wrong 记录）。看答案/未做不算。
+function progressHasAttempts(progress) {
+  const h = progress && Array.isArray(progress.history) ? progress.history : [];
+  return h.some(item => item && (item.result === 'right' || item.result === 'wrong'));
+}
+
+// 退出路径专用：仅当本轮有题池且做过题才归档。返回 Promise（云端）以便调用方 await 再跳转。
+function archiveRoundIfAttempted(progress) {
+  if (progress && Array.isArray(progress.pool) && progress.pool.length && progressHasAttempts(progress)) {
+    try { return Promise.resolve(archiveRound(false, progress)); }
+    catch (err) { console.warn('存档历史失败：', err); }
+  }
+  return Promise.resolve(false);
 }
 
 async function listHistoryRecords() {
@@ -1284,6 +1312,16 @@ async function listHistoryRecords() {
   }
   try { return await listHistoryCloud(); }
   catch (err) { console.warn('读取历史记录失败：', err); return []; }
+}
+
+// 按需取一条完整历史记录（含题池）。单机模式本地数组已是完整记录，云端按需拉取。
+async function loadHistoryRecord(id) {
+  if (!id) return null;
+  if (isStandaloneMode()) {
+    return readLocalHistory().find(r => String(r.id) === String(id)) || null;
+  }
+  try { return await loadHistoryRecordCloud(id); }
+  catch (err) { console.warn('读取历史记录失败：', err); return null; }
 }
 
 async function removeHistoryRecord(id) {

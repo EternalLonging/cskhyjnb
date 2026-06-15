@@ -539,6 +539,7 @@ function restoreProgressIfMatched(settings) {
   state.historyOpen = false;
   state.drafts = saved.drafts || {};
   state.wrongReplayCount = Number(saved.wrongReplayCount || 0);
+  state.roundId = Number(saved.roundId || saved.savedAt) || Date.now();
   state.progressRestored = true;
   return true;
 }
@@ -585,6 +586,7 @@ function startQuiz(settings, options = {}) {
     state.drafts = {};
     state.wrongReplayCount = 0;
     state.progressRestored = false;
+    state.roundId = Date.now();
   }
 
   updateStats();
@@ -2595,14 +2597,19 @@ async function refreshHistoryRecordsList(overlay) {
     `;
   }).join('');
 
-  const byId = (id) => records.find(r => String(r.id) === String(id));
-  list.querySelectorAll('.history-view').forEach(btn => btn.addEventListener('click', () => {
-    const rec = byId(btn.dataset.id);
-    if (rec) renderHistoryRecordDetail(rec);
+  list.querySelectorAll('.history-view').forEach(btn => btn.addEventListener('click', async () => {
+    // 列表里的记录是精简的（无 pool），查看详情时按需拉完整记录。
+    btn.disabled = true;
+    const full = await loadHistoryRecord(btn.dataset.id);
+    btn.disabled = false;
+    if (full) renderHistoryRecordDetail(full);
+    else alert('记录加载失败，请稍后重试。');
   }));
-  list.querySelectorAll('.history-resume').forEach(btn => btn.addEventListener('click', () => {
-    const rec = byId(btn.dataset.id);
-    if (rec) resumeFromHistory(rec);
+  list.querySelectorAll('.history-resume').forEach(btn => btn.addEventListener('click', async () => {
+    btn.disabled = true;
+    const full = await loadHistoryRecord(btn.dataset.id);
+    if (full) resumeFromHistory(full);
+    else { btn.disabled = false; alert('记录加载失败，请稍后重试。'); }
   }));
   list.querySelectorAll('.history-delete').forEach(btn => btn.addEventListener('click', async () => {
     if (!confirm('确定删除这条刷题记录吗？')) return;
