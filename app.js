@@ -101,11 +101,8 @@ function bindPractice() {
     window.location.href = 'index.html';
   });
   $('restartBtn')?.addEventListener('click', () => {
-    // 重开本轮：若当前轮没刷完，先存档历史（finished=false，后台写入不阻塞），再清空重建。
-    const existing = getLocalProgressState();
-    if (existing && Array.isArray(existing.pool) && existing.pool.length) {
-      try { archiveRound(false, existing); } catch (err) { console.warn('存档历史失败：', err); }
-    }
+    // 重开本轮：若当前轮做过题，先存档历史，再清空重建。一题没做的空轮不归档。
+    archiveRoundIfAttempted(getLocalProgressState());
     clearSavedProgress();
     startQuiz(readSettings(), { resume: false });
   });

@@ -495,12 +495,9 @@ function goPractice(options = {}) {
   }
   saveSettings(settings);
   if (options.restart) {
-    // 重新开始：若本地有未刷完的进度，先存档历史（finished=false），再强制重建题池。
-    // archiveRound 不阻塞（云端走后台 keepalive），跳转无需等待。
-    const existing = getLocalProgressState();
-    if (existing && Array.isArray(existing.pool) && existing.pool.length) {
-      try { archiveRound(false, existing); } catch (err) { console.warn('存档历史失败：', err); }
-    }
+    // 重新开始：若本地有未刷完且做过题的进度，先存档历史，再强制重建题池。
+    // 一题没做的空轮不归档（archiveRoundIfAttempted 内部判断）。
+    archiveRoundIfAttempted(getLocalProgressState());
     sessionStorage.setItem('quiz_pending_topics', JSON.stringify(settings.topics));
     localStorage.setItem(FORCE_RESTART_KEY, '1');
     clearSavedProgress();
@@ -2655,11 +2652,10 @@ function resumeFromHistory(record) {
     alert('这条记录没有可继续的题目。');
     return;
   }
-  // 覆盖当前进度前，若本地另有一份不同的未完成进度，先存档（后台写入不阻塞），避免顶掉正在进行的那轮。
+  // 覆盖当前进度前，若本地另有一份不同的、做过题的未完成进度，先存档，避免顶掉正在进行的那轮。
   const existing = getLocalProgressState();
-  if (existing && Array.isArray(existing.pool) && existing.pool.length
-      && Number(existing.savedAt || 0) !== Number(record.savedAt || 0)) {
-    try { archiveRound(false, existing); } catch (err) { console.warn('存档当前进度失败：', err); }
+  if (existing && Number(existing.roundId || existing.savedAt || 0) !== Number(record.roundId || record.savedAt || 0)) {
+    archiveRoundIfAttempted(existing);
   }
   // 组装回写的进度 payload：剥掉历史专用字段，标记 _fromCloud 放宽恢复匹配。
   const payload = { ...record };
