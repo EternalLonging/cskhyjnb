@@ -24628,4 +24628,4642 @@ window.QUESTION_BANK = [
   "answer": "B",
   "course": "编译原理"
 },
+// Auto-generated from analysis_utf8.txt - 200 true/false questions
+// Total: 200 questions, formatted for questions.js array
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 1,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义诞生于19世纪40年代，其标志性著作是《共产党宣言》的发表。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-1"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 2,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】李大钊是中国第一个系统传播马克思主义的先驱者，他的《我的马克思主义观》一文系统介绍了唯物史观、经济学说和社会主义理论。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-2"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 3,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义中国化时代化中的「时代化」是指将马克思主义与不同历史时期的时代特征相结合，回答时代提出的新课题。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-3"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 4,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】1930年毛泽东在《反对本本主义》中明确提出「马克思主义的「本本」是要学习的，但是必须同我国的实际情况相结合」。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-4"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 5,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义中国化时代化中的「中国化」侧重空间维度（立足中国大地），「时代化」侧重时间维度（紧跟时代步伐），二者是辩证统一的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-5"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 6,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义诞生以来，经历了从空想到科学、从理论到实践、从一国到多国的发展历程。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-6"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 7,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义在五四运动后开始在中国广泛传播，为中国共产党的成立奠定了思想基础。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-7"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 8,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义中国化时代化的理论成果只有毛泽东思想和中国特色社会主义理论体系两个。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-8",
+  "reference": "还包括习近平新时代中国特色社会主义思想等，是一个不断发展的开放的理论体系。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 9,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】中华优秀传统文化中的大同思想、民本思想、辩证思维等为马克思主义在中国生根发芽提供了深厚的文化土壤。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-9"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 导论",
+  "number": 10,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】做马克思主义的坚定信仰者和忠实实践者，是学习本课程的根本目的之一。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-导论-10"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 11,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东思想在抗日战争时期达到成熟，其标志是新民主主义革命理论体系的完整形成。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-11"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 12,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东思想的形成和发展过程大致可以分为萌芽、形成、成熟和继续发展四个历史阶段。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-12"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 13,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】《星星之火，可以燎原》是毛泽东在井冈山斗争时期撰写的，科学论证了红色政权能够长期存在和发展的可能性。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-13"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 14,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东思想中关于政策和策略的内容包括「战略上藐视敌人，战术上重视敌人」等重要思想。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-14"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 15,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东思想是中国共产党必须长期坚持的指导思想，对其中的具体论断也应历史地、科学地对待和运用。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-15"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 16,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】党的六届七中全会通过的《关于若干历史问题的决议》对毛泽东思想作了全面系统的总结和高度评价。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-16"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 17,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东关于「思想政治工作是经济工作和其他一切工作的生命线」的论断，至今仍具有重要的现实指导意义。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-17"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 18,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】「惩前毖后，治病救人」是延安整风运动的基本方针，体现了正确进行党内斗争的科学态度。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-18"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 19,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东在《论十大关系》中提出的「向外国学习」的口号，意思是要全盘照搬外国的做法和经验。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-19",
+  "reference": "毛泽东强调向外国学习要有分析有批判地学，不能盲目照搬，要学习那些和我国情况相适合的内容。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第一章",
+  "number": 20,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东思想中关于文化工作的基本方针包括「古为今用，洋为中用」和「推陈出新」。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第一章-20"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 21,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】近代中国沦为半殖民地半封建社会的起点是1840年的鸦片战争。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-21"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 22,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】新民主主义革命与旧民主主义革命的根本区别在于革命的指导思想不同。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-22",
+  "reference": "根本区别在于领导阶级不同——旧民主主义革命由资产阶级领导，新民主主义革命由无产阶级（通过中国共产党）领导。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 23,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】在新民主主义革命中，城市小资产阶级包括知识分子、小商人、手工业者和自由职业者，属于革命的可靠同盟军。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-23"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 24,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】保护民族工商业是新民主主义经济纲领的重要内容，因为民族资本主义经济在当时中国社会中具有进步性。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-24"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 25,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】新民主主义革命与社会主义革命是两个性质相同的革命阶段，可以「毕其功于一役」。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-25",
+  "reference": "两者性质不同：新民主主义革命是资产阶级民主主义性质的革命，社会主义革命是无产阶级性质的革命，二者既相区别又相联系，不能混淆。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 26,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】毛泽东在《中国革命战争的战略问题》中系统阐述了人民战争的一系列战略战术原则。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-26"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 27,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】近代中国社会中，地主阶级和买办资产阶级是帝国主义统治中国的主要社会基础。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-27"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 28,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】在新民主主义革命统一战线中，对资产阶级必须始终坚持「又联合又斗争」的方针。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-28"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 29,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】新民主主义革命时期党的建设，最重要的历史经验是把思想建设放在党的建设的首位。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-29"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第二章",
+  "number": 30,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】中国无产阶级因身受帝国主义、封建主义和官僚资本主义三重压迫，具有最坚决、最彻底的革命性。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第二章-30"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 31,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】新中国成立头三年（1949-1952年），我国社会的主要矛盾是人民大众同帝国主义、封建主义和国民党残余势力之间的矛盾。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-31"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 32,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】党的七届三中全会确定了「不要四面出击」的战略策略方针，强调集中力量完成民主革命的遗留任务。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-32"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 33,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】在农业社会主义改造中，互助组具有社会主义萌芽性质，初级社具有半社会主义性质，高级社是完全社会主义性质的集体经济组织。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-33"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 34,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】我国对个体手工业的社会主义改造采取了与农业社会主义改造完全不同的道路。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-34",
+  "reference": "对个体手工业的社会主义改造采取了与农业改造类似的逐步过渡方法，从供销合作入手发展到生产合作。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 35,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】在对资本主义工商业的社会主义改造中，将「企业的改造」和「人的改造」结合起来进行，逐步把原资本家改造为自食其力的劳动者。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-35"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 36,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】1953年正式提出的过渡时期总路线，其实质是使生产资料的社会主义公有制成为国家和社会的经济基础。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-36"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 37,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】过渡时期总路线中的「一化」与「三改」是两个相互独立、分别推进的任务。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-37",
+  "reference": "「一化」（社会主义工业化）是主体，「三改」（三大改造）是两翼，二者相辅相成、相互促进，是有机统一的整体。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 38,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】新中国成立初期实施的统购统销政策，切断了资本主义经济与个体经济之间的联系，客观上推动了对资本主义工商业的社会主义改造。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-38"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 39,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】我国的社会主义改造在取得巨大成就的同时，也存在要求过急、工作过粗、改变过快、形式过于简单划一等缺点和偏差。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-39"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第三章",
+  "number": 40,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】1949年中华人民共和国的成立标志着社会主义制度在中国的正式确立。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第三章-40",
+  "reference": "1949年新中国成立标志着新民主主义革命的基本胜利和人民民主专政政权的建立。社会主义制度在中国正式确立以1956年社会主义改造基本完成为标志。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 41,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】毛泽东在《关于正确处理人民内部矛盾的问题》中提出，「百花齐放、百家争鸣」是促进我国艺术发展和科学进步的基本方针。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-41"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 42,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】1956年苏共二十大后，毛泽东明确提出要以苏为鉴，独立自主地探索适合中国国情的社会主义建设道路。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-42"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 43,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】《论十大关系》中提出的「中国工业化的道路」问题，主要是解决沿海工业和内地工业的合理布局问题。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-43",
+  "reference": "主要是指处理好重工业、轻工业和农业的发展关系问题，即产业结构问题，而非工业布局问题。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 44,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】毛泽东指出，解决人民内部矛盾只能用「团结—批评—团结」的民主方法，而不能用强制的、压服的方法。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-44"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 45,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】1956年周恩来在知识分子问题会议上代表党中央宣布，我国知识分子的绝大部分「已经是工人阶级的一部分」。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-45"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 46,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】「两参一改三结合」是「鞍钢宪法」的核心内容：干部参加劳动、工人参加管理、改革不合理的规章制度、领导干部与技术人员和工人三结合。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-46"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 47,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】党的八大正确分析了国内形势和主要矛盾的变化，指出国内主要矛盾已经是人民对于经济文化迅速发展的需要同当前经济文化不能满足人民需要的状况之间的矛盾。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-47"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 48,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】三线建设是20世纪60年代以战备为中心的大规模工业迁移和基础建设，体现了当时党对国际形势趋于严峻的判断。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-48"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 49,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】社会主义建设道路初步探索的一条重要经验教训是：必须始终坚持以经济建设为中心，任何时候都不能偏离这个中心。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-49"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第四章",
+  "number": 50,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】1961年党的八届九中全会提出的「调整、巩固、充实、提高」的八字方针，是针对当时国民经济严重困难局面而制定的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第四章-50"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 51,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】1978年关于真理标准问题的大讨论，为党的十一届三中全会重新确立实事求是的思想路线做了重要的理论和舆论准备。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-51"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 52,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】邓小平在1982年党的十二大开幕词中第一次明确提出了「建设有中国特色的社会主义」这一重大命题。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-52"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 53,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】社会主义初级阶段理论是在1987年党的十三大上第一次比较系统完整地阐述的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-53"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 54,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】1992年邓小平南方谈话提出「基本路线要管一百年，动摇不得」，是对当时党内外各种错误思潮的有力回应。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-54"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 55,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】党的十六大正式将「三个代表」重要思想写入党章，实现了党的指导思想的又一次与时俱进。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-55"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 56,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】党的十七大将科学发展观写入党章，并首次在党的全国代表大会报告中提出「中国特色社会主义理论体系」这一科学概念。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-56"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 57,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】2003年党的十六届三中全会通过的《关于完善社会主义市场经济体制若干问题的决定》中，第一次正式提出了「科学发展观」的概念。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-57"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 58,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】1981年党的十一届六中全会通过的《关于建国以来党的若干历史问题的决议》，标志着党在指导思想上拨乱反正的胜利完成。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-58"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 59,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】「三个代表」重要思想的首次系统阐述是在1997年党的十五大报告中。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-59",
+  "reference": "「三个代表」重要思想是江泽民2000年在广东考察工作时首次提出的，2001年「七一」讲话中系统阐述，2002年党的十六大正式写入党章。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第五章",
+  "number": 60,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】世界多极化趋势和经济全球化进程是中国特色社会主义理论体系形成发展的重要国际时代背景。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第五章-60"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 61,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】邓小平在1985年指出：「贫穷不是社会主义，社会主义要消灭贫穷。不发展生产力，不提高人民的生活水平，不能说是符合社会主义要求的。」",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-61"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 62,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】「发展才是硬道理」是邓小平在1992年南方谈话中提出的著名论断。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-62"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 63,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】我国处于社会主义初级阶段这一科学论断包含两层含义：我国已经是社会主义社会；我国的社会主义社会还处在不发达阶段。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-63"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 64,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】1984年党的十二届三中全会通过的《关于经济体制改革的决定》，作出了社会主义经济是「公有制基础上的有计划的商品经济」的重要论断。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-64"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 65,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】在推进祖国统一大业中，邓小平创造性地提出了「一国两制」构想，并首先成功运用于解决澳门回归问题。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-65",
+  "reference": "「一国两制」构想首先成功运用于解决香港回归问题（1997年香港回归）。澳门于1999年回归。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 66,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】邓小平认为，中国的问题压倒一切的是稳定，没有稳定的环境，什么都搞不成，已经取得的成果也会失掉。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-66"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 67,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】社会主义精神文明建设包括思想道德建设和教育科学文化建设两个基本方面。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-67"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 68,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】邓小平指出，领导制度、组织制度问题更带有根本性、全局性、稳定性和长期性，关系到党和国家是否改变颜色。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-68"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 69,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】四项基本原则是立国之本，改革开放是强国之路，二者相互贯通、相互依存，统一于中国特色社会主义伟大实践。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-69"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第六章",
+  "number": 70,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】邓小平提出的教育「三个面向」——面向现代化、面向世界、面向未来，是我国教育改革和发展的战略指导方针。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第六章-70"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 71,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】江泽民在2001年庆祝中国共产党成立80周年大会上的讲话中，系统阐述了「三个代表」重要思想的科学内涵和基本内容。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-71"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 72,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】党的十六大确立了全面建设小康社会的奋斗目标，提出到2020年国内生产总值力争比2000年翻两番。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-72"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 73,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】「三个代表」重要思想强调要不断增强党的阶级基础、扩大党的群众基础，把符合党员条件的社会其他阶层中的先进分子吸收到党内来。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-73"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 74,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】「三个代表」重要思想强调必须坚持「两个毫不动摇」：毫不动摇地巩固和发展公有制经济，毫不动摇地鼓励、支持和引导非公有制经济发展。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-74"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 75,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】「三个代表」重要思想提出发展社会主义先进文化的根本任务是培育有理想、有道德、有文化、有纪律的社会主义公民（即「四有」公民）。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-75"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 76,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】2001年12月中国正式加入世界贸易组织（WTO），标志着我国对外开放进入了一个全新阶段。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-76"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 77,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】「三个代表」重要思想明确提出了在新的历史条件下加强和改进党的建设的总体要求「四个一定要」。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-77"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 78,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】「三个代表」重要思想强调，社会主义社会是全面发展、全面进步的社会，要促进物质文明、政治文明和精神文明协调发展。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-78"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 79,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】推进党的建设新的伟大工程的重点是加强党的执政能力建设，核心是保持党同人民群众的血肉联系。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-79"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第七章",
+  "number": 80,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】社会主义政治文明建设的核心是坚持中国共产党领导。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第七章-80",
+  "reference": "社会主义政治文明的核心是人民当家作主。党的领导是人民当家作主和依法治国的根本保证，依法治国是党领导人民治理国家的基本方略。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 81,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】科学发展观是在2003年10月党的十六届三中全会上正式提出的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-81"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 82,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】科学发展观中「五个统筹」之一的「统筹国内发展和对外开放」，实质是要求利用好国际国内两个市场、两种资源。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-82"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 83,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】「两型社会」是指资源节约型社会和环境友好型社会。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-83"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 84,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】2006年10月党的十六届六中全会通过了《关于构建社会主义和谐社会若干重大问题的决定》。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-84"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 85,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】科学发展观强调要把保障和改善民生作为加快转变经济发展方式的根本出发点和落脚点。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-85"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 86,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】提高自主创新能力、建设创新型国家，是科学发展观中关于科技发展战略的核心内容。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-86"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 87,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】科学发展观提出的「以人为本」与中国古代传统文化中的「民为邦本」思想在本质上是完全相同的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-87",
+  "reference": "二者有本质区别。古代民本思想的根本目的是维护封建统治秩序；科学发展观的人本思想以最广大人民的根本利益为出发点，以实现人的全面发展为目标。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 88,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】科学发展观要求在经济发展的同时更加注重社会建设，努力使全体人民学有所教、劳有所得、病有所医、老有所养、住有所居。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-88"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 89,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】科学发展观提出要把城乡社区建设成为管理有序、服务完善、文明祥和的社会生活共同体。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-89"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 第八章",
+  "number": 90,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】「坚持科学发展」是「发展是硬道理」这一命题在新世纪新阶段的本质要求。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-第八章-90"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 91,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】毛泽东思想关于社会主义建设的正确思想为中国特色社会主义理论体系的创立提供了直接的理论来源。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-91",
+  "reference": "毛泽东思想为中国特色社会主义理论体系提供了理论准备和实践基础，但中国特色社会主义理论体系是在改革开放新时期实践基础上的崭新理论创造，二者不是简单的来源与被来源关系，而是一脉相承又与时俱进。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 92,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】从毛泽东提出「马克思主义中国化」到新时代提出「马克思主义中国化时代化」，体现了党对这一命题的认识在不断深化和发展。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-92"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 93,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】在整个社会主义初级阶段，必须始终坚持公有制的主体地位，充分发挥国有经济的主导作用。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-93"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 94,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】中国特色社会主义道路、理论体系、制度和文化是中国特色社会主义的四个基本构成要素，统一于中国特色社会主义伟大实践。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-94"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 95,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】毛泽东在《论联合政府》中指出，中国一切政党的政策及其实践在中国人民中所表现的作用的好坏、大小，归根到底看它对于中国人民的生产力的发展是否有帮助及其帮助之大小。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-95"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 96,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】政治体制改革是社会主义政治制度的自我完善和发展，绝不是要改旗易帜、全盘照搬西方政治制度模式。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-96"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 97,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】在当代中国，坚持中国特色社会主义理论体系，就是真正坚持马克思主义。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-97"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 98,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】正确处理改革发展稳定的关系，把改革的力度、发展的速度和社会可承受的程度统一起来，是中国改革开放实践中积累的一条重要经验。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-98"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 99,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】马克思主义中国化时代化各理论成果关于发展问题的回答是完全一致的，没有任何侧重点的区别。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-99",
+  "reference": "不同历史阶段对发展问题的回答各有侧重点：毛泽东强调「四个现代化」；邓小平强调「发展才是硬道理」；江泽民强调「发展是党执政兴国的第一要务」；胡锦涛提出科学发展观；习近平提出新发展理念。一脉相承但在内涵上不断丰富和发展。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第一部分 基础知识 — 综合",
+  "number": 100,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】中国共产党的百年奋斗史，就是一部不断推进马克思主义中国化时代化的历史。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-1-综合-100"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 导论",
+  "number": 101,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义中国化时代化就是把马克思主义基本原理同中国具体实际相结合、同中华优秀传统文化相结合。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-导论-1"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 导论",
+  "number": 102,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】毛泽东思想、中国特色社会主义理论体系、习近平新时代中国特色社会主义思想是三个互不关联的独立理论。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-2-导论-2",
+  "reference": "它们是一脉相承又与时俱进的关系。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 导论",
+  "number": 103,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】坚持和发展马克思主义必须反对教条主义和经验主义两种错误倾向。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-导论-3"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第一章",
+  "number": 104,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东思想活的灵魂是实事求是、群众路线、独立自主。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第一章-4"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第一章",
+  "number": 105,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】实事求是是毛泽东思想的世界观和方法论基础，也是毛泽东思想活的灵魂三个基本方面中最核心的内容。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第一章-5"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第一章",
+  "number": 106,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】群众路线是党的生命线和根本工作路线。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第一章-6"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第一章",
+  "number": 107,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东思想仅包括新民主主义革命理论和社会主义改造理论两个方面。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-2-第一章-7",
+  "reference": "毛泽东思想包括六个方面的主要内容：新民主主义革命理论、社会主义革命和建设理论、革命军队建设和军事战略、政策和策略、思想政治工作和文化工作、党的建设理论。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第二章",
+  "number": 108,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】新民主主义革命总路线明确指出革命的对象是帝国主义、封建主义和官僚资本主义。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第二章-8"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第二章",
+  "number": 109,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】新民主主义革命的前途是社会主义而非资本主义。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第二章-9"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第二章",
+  "number": 110,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】武装斗争是中国共产党在中国革命中战胜敌人的唯一武器。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-2-第二章-10",
+  "reference": "三大法宝是统一战线、武装斗争和党的建设，三者缺一不可。统一战线和武装斗争是战胜敌人的两个基本武器，党的组织是掌握这两个武器的英勇战士。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第二章",
+  "number": 111,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】工农联盟是统一战线的基础。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第二章-11"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第三章",
+  "number": 112,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】党在过渡时期的总路线的实质是解决所有制问题，使社会主义公有制成为国家的经济基础。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第三章-12"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第三章",
+  "number": 113,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】对资本主义工商业的和平赎买政策是中国共产党对马克思主义的伟大创造。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第三章-13"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第三章",
+  "number": 114,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】1956年社会主义改造基本完成，标志着我国进入了社会主义初级阶段。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第三章-14"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第四章",
+  "number": 115,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】《关于正确处理人民内部矛盾的问题》提出了「团结—批评—团结」的公式，是解决人民内部矛盾的正确方法。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第四章-15"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第四章",
+  "number": 116,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】我国社会主义社会的基本矛盾是非对抗性的，可以通过社会主义制度本身不断得到解决。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第四章-16"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第四章",
+  "number": 117,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】社会主义建设道路初步探索的成就和失误，都是我们今天建设中国特色社会主义的宝贵财富。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第四章-17"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第五章",
+  "number": 118,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】中国特色社会主义理论体系的形成和发展，以1978年党的十一届三中全会为起点。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第五章-18"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第五章",
+  "number": 119,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】中国特色社会主义理论体系的主题是坚持和发展中国特色社会主义、实现中华民族伟大复兴。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第五章-19"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第六章",
+  "number": 120,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】解放思想、实事求是是邓小平理论的精髓。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第六章-20"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第六章",
+  "number": 121,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】社会主义初级阶段理论是邓小平理论的重要基石。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第六章-21"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第六章",
+  "number": 122,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】计划和市场都是资源配置方式，不具有社会制度属性。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第六章-22"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第六章",
+  "number": 123,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】改革是社会主义社会发展的直接动力。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第六章-23"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第六章",
+  "number": 124,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】四项基本原则是立国之本，其核心是坚持中国共产党的领导。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第六章-24"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第七章",
+  "number": 125,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】「三个代表」重要思想的核心是坚持党的先进性。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第七章-25"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第七章",
+  "number": 126,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】中国共产党必须始终代表中国最广大人民的根本利益。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第七章-26"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第七章",
+  "number": 127,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】发展社会主义民主政治，最根本的是要把坚持党的领导、人民当家作主和依法治国有机统一起来。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第七章-27"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第八章",
+  "number": 128,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】以人为本是科学发展观的核心立场。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第八章-28"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第八章",
+  "number": 129,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】全面协调可持续是科学发展观的基本要求。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第八章-29"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第八章",
+  "number": 130,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】统筹兼顾是科学发展观的根本方法。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第八章-30"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 第八章",
+  "number": 131,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】构建社会主义和谐社会是科学发展观的重要内容。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-第八章-31"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 132,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】马克思主义中国化时代化的理论成果都是中国共产党集体智慧的结晶。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-32"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 133,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】实现中华民族伟大复兴是近代以来中华民族最伟大的梦想。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-33"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 134,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】中国特色社会主义最本质的特征是中国共产党的领导。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-34"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 135,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】改革开放是决定当代中国命运的关键一招。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-35"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 136,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】实事求是是马克思主义的根本观点，是中国共产党人认识世界、改造世界的根本要求。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-36"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 137,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】邓小平理论、「三个代表」重要思想和科学发展观构成中国特色社会主义理论体系的主体内容。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-37"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 138,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】走中国特色社会主义道路是中国历史发展的必然选择。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-38"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 139,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】「一国两制」方针成功解决了香港问题和澳门问题。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-39"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第二部分 重点会考 — 综合",
+  "number": 140,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】坚持独立自主的和平外交政策是中国对外关系的基本准则。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-2-综合-40"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 导论",
+  "number": 141,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义不仅深刻改变了世界，也深刻改变了中国。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-导论-1"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 导论",
+  "number": 142,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】只有社会主义才能救中国，只有中国特色社会主义才能发展中国。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-导论-2"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 导论",
+  "number": 143,
+  "type": "single",
+  "course": "毛概",
+  "text": "【导论】马克思主义中国化时代化是一个永无止境的过程。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-导论-3"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第一章",
+  "number": 144,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东在井冈山时期提出了「工农武装割据」的思想。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第一章-4"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第一章",
+  "number": 145,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】遵义会议确立了以毛泽东为代表的马克思主义正确路线在党中央的领导地位。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第一章-5"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第一章",
+  "number": 146,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】毛泽东不是伟大的马克思主义者。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-3-第一章-6",
+  "reference": "毛泽东是伟大的马克思主义者，是伟大的无产阶级革命家、战略家和理论家。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第一章",
+  "number": 147,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】「两个务必」是毛泽东在党的七届二中全会上提出的著名论断。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第一章-7"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第一章",
+  "number": 148,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第一章】思想政治工作是经济工作和其他一切工作的生命线。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第一章-8"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第二章",
+  "number": 149,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】五四运动是中国新民主主义革命的开端。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第二章-9"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第二章",
+  "number": 150,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】中国的红色政权能够在农村存在和发展的根本原因是中国政治经济发展不平衡。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第二章-10"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第二章",
+  "number": 151,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】旧民主主义革命和新民主主义革命的根本区别在于领导阶级不同。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第二章-11"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第二章",
+  "number": 152,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第二章】没收官僚资本具有双重革命性质：既具有新民主主义革命性质，又具有社会主义革命性质。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第二章-12"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第三章",
+  "number": 153,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】新民主主义社会是独立的社会形态。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-3-第三章-13",
+  "reference": "新民主主义社会是过渡性的社会形态，不是一个独立的社会形态。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第三章",
+  "number": 154,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】社会主义改造的完成使中国从新民主主义社会进入社会主义社会。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第三章-14"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第三章",
+  "number": 155,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第三章】和平赎买是无产阶级及其政党对资产阶级实行的一种特殊形式的剥夺。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第三章-15"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第四章",
+  "number": 156,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】「长期共存、互相监督」是中国共产党处理与民主党派关系的基本方针。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第四章-16"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第四章",
+  "number": 157,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】1957年反右派斗争被严重扩大化是一个沉痛的历史教训。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第四章-17"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第四章",
+  "number": 158,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第四章】社会主义社会仍然存在着矛盾，这是毛泽东对马克思主义矛盾学说的重大发展。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第四章-18"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第五章",
+  "number": 159,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】经济全球化是中国特色社会主义理论体系形成发展的时代背景之一。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第五章-19"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第五章",
+  "number": 160,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第五章】中国特色社会主义理论体系不包括习近平新时代中国特色社会主义思想。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第五章-20",
+  "reference": "习近平新时代中国特色社会主义思想是在中国特色社会主义进入新时代后创立的，实现了马克思主义中国化时代化新的飞跃。中国特色社会主义理论体系主要指邓小平理论、「三个代表」重要思想和科学发展观。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第六章",
+  "number": 161,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】「贫穷不是社会主义」，社会主义要消灭贫穷。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第六章-21"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第六章",
+  "number": 162,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】坚持党的基本路线一百年不动摇。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第六章-22"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第六章",
+  "number": 163,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】允许一部分人、一部分地区先富起来，先富带后富，最终实现共同富裕。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第六章-23"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第六章",
+  "number": 164,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】社会主义市场经济与资本主义市场经济的根本区别在于所有制基础不同。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第六章-24"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第六章",
+  "number": 165,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第六章】中国解决所有问题的关键在于依靠自己的发展。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第六章-25"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第七章",
+  "number": 166,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】创新是一个民族进步的灵魂，是一个国家兴旺发达的不竭动力。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第七章-26"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第七章",
+  "number": 167,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】人才资源是第一资源。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第七章-27"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第七章",
+  "number": 168,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】我国的基本经济制度是以公有制为主体、多种所有制经济共同发展。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第七章-28"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第七章",
+  "number": 169,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第七章】必须把弘扬和培育民族精神作为文化建设极为重要的任务。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第七章-29"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第八章",
+  "number": 170,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】转变经济发展方式是实现科学发展的关键。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第八章-30"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第八章",
+  "number": 171,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】建设生态文明的实质是建设以资源环境承载力为基础、以自然规律为准则、以可持续发展为目标的资源节约型、环境友好型社会。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第八章-31"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第八章",
+  "number": 172,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】社会主义核心价值体系是兴国之魂。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第八章-32"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第八章",
+  "number": 173,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】保障和改善民生是构建社会主义和谐社会的重点。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第八章-33"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 第八章",
+  "number": 174,
+  "type": "single",
+  "course": "毛概",
+  "text": "【第八章】统筹兼顾是科学发展观的根本方法。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-第八章-34"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 综合",
+  "number": 175,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】中国特色社会主义是当代中国发展进步的根本方向。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-综合-35"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 综合",
+  "number": 176,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】社会主义核心价值观是社会主义核心价值体系的内核。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-综合-36"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 综合",
+  "number": 177,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】中国共产党领导是中国特色社会主义制度的最大优势。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-综合-37"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 综合",
+  "number": 178,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】和平与发展已不再是当今时代的主题。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-3-综合-38",
+  "reference": "和平与发展仍然是当今时代的主题，虽然面临各种挑战和不确定性因素，但这一时代主题的判断没有根本改变。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 综合",
+  "number": 179,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】全面深化改革的总目标是完善和发展中国特色社会主义制度、推进国家治理体系和治理能力现代化。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-综合-39"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第三部分 综合判断 — 综合",
+  "number": 180,
+  "type": "single",
+  "course": "毛概",
+  "text": "【综合】实现中华民族伟大复兴的中国梦，必须走中国道路、弘扬中国精神、凝聚中国力量。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-3-综合-40"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 181,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】马克思主义中国化就是指运用马克思主义解决中国的实际问题，除此之外没有其他含义。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-1",
+  "reference": "马克思主义中国化还包括把中国实践经验总结上升为理论、使马克思主义植根于中华优秀传统文化等丰富内涵。这是考研中常见的片面理解型辨析题。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 182,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】毛泽东思想、邓小平理论、「三个代表」重要思想和科学发展观统称为中国特色社会主义理论体系。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-2",
+  "reference": "中国特色社会主义理论体系不包括毛泽东思想。毛泽东思想是马克思主义中国化时代化的第一次历史性飞跃，中国特色社会主义理论体系实现了新的飞跃。二者是不同历史阶段的理论成果。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 183,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】科学发展观创造性地回答了「建设什么样的党、怎样建设党」的问题。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-3",
+  "reference": "科学发展观创造性地回答了「实现什么样的发展、怎样发展」的问题。「建设什么样的党、怎样建设党」是「三个代表」重要思想回答的根本问题。各理论成果回答的时代课题不同，是考研常见考点。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 184,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】实事求是是解放思想的目标和归宿，解放思想是实事求是的前提和条件。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-4"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 185,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】毛泽东在《论人民民主专政》一文中指出，人民民主专政就是完全等同于苏联的无产阶级专政。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-5",
+  "reference": "人民民主专政实质上即无产阶级专政，但人民民主专政是具有中国特色的无产阶级专政，在阶级构成上更加广泛，包含了工农联盟基础上的更广泛的统一战线，体现了马克思主义中国化的创造性发展。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 186,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】坚持科学发展观就必须降低经济增长速度。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-6",
+  "reference": "科学发展观要求的是科学发展、又好又快发展，不是简单地降低速度，而是转变经济发展方式，实现发展速度与质量、效益的有机统一。这一辨析题是考研政治常见类型。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 187,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】马克思主义是开放的而不是封闭的理论体系。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-7"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 188,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】对待马克思主义理论的正确态度，应该是坚持和发展的辩证统一。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-8"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 189,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】邓小平理论就是邓小平同志个人的理论创造。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-9",
+  "reference": "邓小平理论是中国共产党集体智慧的结晶，是党和人民实践经验的总结和理论提炼。党中央其他领导同志也做出了重要贡献。以个人名字命名是为了纪念其主要创立者的贡献。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 190,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】新民主主义社会的主要矛盾始终是无产阶级和资产阶级之间的矛盾。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-10",
+  "reference": "新民主主义社会的主要矛盾有一个变化过程：建国初期主要是人民大众同帝国主义、封建主义和国民党残余势力之间的矛盾；土地改革基本完成后，工人阶级和资产阶级的矛盾才上升为主要矛盾。不能以不变的观点看待。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 191,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】中国特色社会主义理论体系和毛泽东思想之间不存在任何继承关系。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-11",
+  "reference": "中国特色社会主义理论体系继承和发展了毛泽东思想中关于社会主义建设的正确理论和经验，二者是一脉相承又与时俱进的关系。否认继承关系就割裂了马克思主义中国化时代化的历史连续性。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 192,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】1956年社会主义改造基本完成后，毛泽东曾提出可以消灭了资本主义又搞资本主义。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-12",
+  "reference": "这是毛泽东在1956年底与工商界人士谈话时提出的重要思想，体现了利用资本主义有益成分为社会主义建设服务的可贵探索，反映了第一代领导集体在所有制问题上的灵活思考。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 193,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】和平赎买政策本质上是用暴力手段剥夺资产阶级的财产。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-13",
+  "reference": "和平赎买是有偿地、逐步地改变资本主义所有制的政策，不是暴力剥夺。通过国家资本主义的形式，使资本家在一定时期内获得一定的经济利益（定息），最终实现生产资料所有制的和平转变。这是中国共产党对马克思主义的重大贡献。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 194,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】「一个中心、两个基本点」是党在社会主义初级阶段基本路线的核心内容。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-14"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 195,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】邓小平关于社会主义本质的论述中没有强调生产力。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-15",
+  "reference": "邓小平明确指出社会主义本质是「解放生产力，发展生产力，消灭剥削，消除两极分化，最终达到共同富裕」。将解放和发展生产力放在社会主义本质的首位，是对马克思主义的重大发展。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 196,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】坚持独立自主原则，就是完全不与外国进行交往和合作。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-16",
+  "reference": "独立自主不是闭关锁国、拒绝外援，而是在坚持主权独立、自主决定本国事务的前提下，积极开展对外经济文化交流与合作，吸收和借鉴人类社会创造的一切文明成果。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 197,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】在中国革命中，武装斗争、统一战线和党的建设三者是彼此独立、没有内在联系的。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-17",
+  "reference": "三者是紧密联系、不可分割的有机整体。毛泽东形象地指出：统一战线和武装斗争是战胜敌人的两个基本武器，党的组织则是掌握这两个武器以实行对敌冲锋陷阵的英勇战士。"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 198,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】社会主义的本质要求是实现共同富裕。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-18"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 199,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】改革是社会主义制度的自我完善和发展，而不是要改变社会主义的根本制度。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "A",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-19"
+},
+{
+  "source": "判断题集.docx",
+  "source_stem": "判断题集",
+  "topic": "《毛概》判断题集",
+  "subtopic": "第四部分 考研真题 — 考研真题型",
+  "number": 200,
+  "type": "single",
+  "course": "毛概",
+  "text": "【考研真题型】习近平新时代中国特色社会主义思想不属于马克思主义中国化时代化的理论成果范畴。",
+  "options": [
+    {
+      "label": "A",
+      "text": "正确"
+    },
+    {
+      "label": "B",
+      "text": "错误"
+    }
+  ],
+  "answer": "B",
+  "lockOptions": true,
+  "id": "判断题集-4-考研真题型-20",
+  "reference": "习近平新时代中国特色社会主义思想是马克思主义中国化时代化最新的重大理论成果，实现了马克思主义中国化时代化新的飞跃，是当代中国马克思主义、21世纪马克思主义。"
+}
+
 ];
