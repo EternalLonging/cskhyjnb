@@ -35,9 +35,11 @@ GitHub Pages CDN caches for ~10 minutes. Add `?v=N` to URLs to bust cache during
 ### Script Load Order (Critical)
 
 ```
-questions.js (window.QUESTION_BANK — 844 base questions)
+questions_computer_org_choice.js  (window-var: computerOrgQuestions — 50 题)
+questions_computer_org_fill.js   (window-var: computerOrgFillToChoice — 23 题)
+questions.js (window.QUESTION_BANK — 1047 base questions + concat above)
   → config.js (constants, Supabase keys, localStorage keys, global $() helper)
-    → utils.js (pure utilities, Markdown renderer, file I/O)
+    → utils.js (pure utilities, Markdown + LaTeX renderer, file I/O)
       → data.js (question bank CRUD, topic hierarchy, edit layer, topic management ops)
         → sync.js (Supabase client, auth gates, cloud sync, notes, invite RPC)
           → state.js (quiz session state, progress persistence)
@@ -45,14 +47,14 @@ questions.js (window.QUESTION_BANK — 844 base questions)
               → app.js (event binding, keyboard handler, page dispatch)
 ```
 
-No module system — all functions are global.
+No module system — all functions are global. The two computer-org files define `const` variables that `questions.js` appends to `window.QUESTION_BANK` at the end of its file via `if (typeof ... !== 'undefined') concat(...)`.
 
 ### Key Files
 
 | File | Purpose |
 |------|---------|
 | `manifest.json` | PWA config (name: 超时空辉夜姬, icon: 3.png) |
-| `sw.js` | Service Worker — pre-caches app shell. Cache name `quiz-v5`. Registration uses `sw.js?v=5` to bust HTTP cache. Bump cache name in sw.js AND the `?v=N` in both index.html/practice.html when updating SW. |
+| `sw.js` | Service Worker — pre-caches app shell. Cache name `quiz-v11`. Registration uses `sw.js?v=11` to bust HTTP cache. Bump cache name in sw.js AND the `?v=N` in both index.html/practice.html when updating SW. |
 | `package.json` / `electron-main.js` / `electron-builder.yml` | Electron desktop packaging |
 
 ### Page Dispatch
@@ -150,7 +152,25 @@ Fill/short grading is tolerant: it normalizes away case, whitespace, full/half-w
 
 ## Question Bank
 
-847 base questions in `questions.js` (毛概 + 数据库 + 编译原理). Compiler-theory imports from 超星 had answers determined programmatically — expect some errors; users fix via admin panel.
+1120 total questions (1047 base + 73 计算机组成原理). Covers 毛概 + 数据库 + 编译原理 + 计算机组成原理. Two additional files loaded before `questions.js`:
+
+| File | Content |
+|------|---------|
+| `questions_computer_org_choice.js` | 50 道计算机组成原理选择题（来自 `jiati/计算机组成原理.pdf`） |
+| `questions_computer_org_fill.js` | 23 道填空题转选择题（来自 `jiati/二填空题.pdf`） |
+
+These files define `const computerOrgQuestions` / `const computerOrgFillToChoice` variables. `questions.js` appends them to `window.QUESTION_BANK` at the end of its file. The `deriveCourseName()` in `data.js` recognizes keywords like `计算机组成|计组|CPU|指令|总线|Cache|DMA|浮点|二进制|校验|存储器|微程序` to auto-classify as course `计算机组成原理`.
+
+Compiler-theory imports from 超星 had answers determined programmatically — expect some errors; users fix via admin panel.
+
+## LaTeX / KaTeX Rendering
+
+The project uses **KaTeX** (loaded from CDN in both HTML files) for math formula rendering. `renderMarkdown()` in `utils.js` supports:
+
+- `$...$` — inline LaTeX math
+- `$$...$$` — block/display LaTeX math
+
+Formulas are extracted as tokens before `escapeHtml()`, then rendered with `katex.renderToString()` at the end. If KaTeX fails or isn't loaded, formulas fall back to plain-text display. The CDN uses `networkFirst` caching in `sw.js`.
 
 ## Image Handling
 
@@ -160,10 +180,13 @@ Images in question text or options use `<img>` tags pointing to `assets/<hash>.w
 
 The home page has two start-area buttons: **「开始刷题」** (`#restartHomeBtn` → `goPractice({restart:true})`) and **「历史记录」** (`#historyRecordsBtn` → `openHistoryRecordsDialog()`). The old 「继续刷题」 button was removed — resuming is now done through history records.
 
-- **「开始刷题」**: If a local unfinished round exists, archive it first (`archiveRound(false)`), then clear progress, set `FORCE_RESTART_KEY`, transfer topics via `sessionStorage.quiz_pending_topics`, and rebuild a fresh pool.
-- **History records** (sync.js): each sync code (cloud) / device (single mode) keeps the most recent `HISTORY_MAX` (5) rounds. A round is archived when finished (`finishQuiz`) or when restarting with an unfinished round in progress. UI: view detail (题号 grid), delete, and "继续刷" for unfinished rounds.
-  - Storage abstraction: UI only calls `archiveRound(finished, progress)` / `listHistoryRecords()` / `removeHistoryRecord(id)`; these dispatch to cloud (`study_progress` rows keyed `history:<ts>`) or local (`localStorage[HISTORY_KEY]` array) by mode.
-  - `archiveRound` is **synchronous & non-blocking**: local writes immediately; cloud uses a raw `fetch(..., {keepalive:true})` POST to PostgREST so navigation isn't blocked. Never `await` it on the navigation path.
+- **「开始刷题」**: If a local round with attempts exists, archive it first (`archiveRoundIfAttempted`), then clear progress, set `FORCE_RESTART_KEY`, transfer topics via `sessionStorage.quiz_pending_topics`, and rebuild a fresh pool.
+- **History records** (sync.js): each sync code (cloud) / device (single mode) keeps the most recent `HISTORY_MAX` (5) rounds. UI: view detail (题号 grid), delete, and "继续刷" for unfinished rounds.
+  - **Stable `roundId`**: each round gets a `roundId` (set in `startQuiz` for new rounds, recovered in `restoreProgressIfMatched` for resumed ones, stored in the progress payload by `saveProgress`). History records key off it (`history:<roundId>`), so the SAME round re-archived (exit → resume → exit) updates ONE record instead of spawning duplicates. `archiveRoundLocal` dedupes by `record.id`; cloud relies on `merge-duplicates` upsert.
+  - **Archive only when attempted**: every NON-finish archive path (`backHomeBtn`, `pagehide`, `restartBtn`, `goPractice(restart)`, `resumeFromHistory`) goes through `archiveRoundIfAttempted(progress)`, which writes only if the round has ≥1 right/wrong answer (`progressHasAttempts`). This stops "entered practice, built pool, never answered, then restarted" from polluting history with `done:0` records. Only `finishQuiz` calls raw `archiveRound(true, ...)` directly. **When adding a new archive trigger, use `archiveRoundIfAttempted`, not `archiveRound`.**
+  - Storage abstraction: UI/exit paths call `archiveRoundIfAttempted` / `archiveRound(finished, progress)` / `listHistoryRecords()` / `loadHistoryRecord(id)` / `removeHistoryRecord(id)`; these dispatch to cloud (`study_progress` rows keyed `history:<roundId>`) or local (`localStorage[HISTORY_KEY]` array) by mode.
+  - **Navigation timing**: cloud archive uses a raw `fetch(..., {keepalive:true})` POST to PostgREST and returns the Promise. On a button-click exit (`backHomeBtn`) the handler is `async` and **awaits** the archive before `location.href` — Chrome cancels a keepalive fetch fired in the same synchronous task as a navigation, so awaiting is required or the write is lost. On true unload (`pagehide`) you cannot await; keepalive is best-effort there.
+  - **List vs full record (cloud perf)**: `listHistoryCloud` selects only `state->_historyMeta` (alias `meta`), NOT the whole `state` (which embeds the full question pool). It returns lite records (`_lite:true`, no `pool`). "查看详情"/"继续刷" then call `loadHistoryRecord(id)` to fetch the full record on demand. This kept the list payload KB-sized on mobile/weak networks instead of downloading every round's pool.
   - "继续刷" (`resumeFromHistory`) writes the record's payload back to `PROGRESS_KEY` (with `_fromCloud`), saves its settings, and navigates to practice.html so the existing `restoreProgressIfMatched()` recovers it. Do NOT set `quiz_pending_topics` here — that would force a pool rebuild and discard the saved pool.
 
 `restoreProgressIfMatched()` only filters out deleted questions from the saved pool — it ignores settings signature and bank size.

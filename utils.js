@@ -69,6 +69,8 @@ function sanitizeMarkdownImageUrl(url) {
 function renderMarkdown(text) {
   const source = String(text ?? '').replace(/\r\n/g, '\n');
   const imageTokens = [];
+  const latexTokens = [];
+
   let prepared = source
     // Markdown 图片: ![alt](url)
     .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => {
@@ -82,6 +84,21 @@ function renderMarkdown(text) {
       imageTokens.push({ alt: '', src: String(src || '') });
       return token;
     });
+
+  // LaTeX 公式提取（在 escapeHtml 之前，避免特殊字符被转义）
+  // 块级公式 $$...$$
+  prepared = prepared.replace(/\$\$([\s\S]*?)\$\$/g, (_, formula) => {
+    const token = `@@KATEX${latexTokens.length}@@`;
+    latexTokens.push({ formula: formula.trim(), display: true });
+    return token;
+  });
+  // 行内公式 $...$（不匹配 $$ 的）
+  prepared = prepared.replace(/(?<!\$)\$(?!\$)([^$\n]+?)\$(?!\$)/g, (_, formula) => {
+    const token = `@@KATEX${latexTokens.length}@@`;
+    latexTokens.push({ formula: formula.trim(), display: false });
+    return token;
+  });
+
   let html = escapeHtml(prepared);
   html = html.replace(/```([\s\S]*?)```/g, (_, code) => `<pre><code>${code}</code></pre>`);
   html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
@@ -98,6 +115,28 @@ function renderMarkdown(text) {
     const altText = escapeHtml(item.alt || '参考图片');
     const caption = item.alt ? `<div class="md-image-caption">${altText}</div>` : '';
     return `<div class="md-image-block"><img src="${safeSrc}" alt="${altText}" loading="lazy" decoding="async" />${caption}</div>`;
+  });
+  // 还原 LaTeX 公式
+  html = html.replace(/@@KATEX(\d+)@@/g, (_, idx) => {
+    const item = latexTokens[Number(idx)] || {};
+    const formula = String(item.formula || '');
+    if (!formula) return '';
+    try {
+      if (typeof katex !== 'undefined' && katex.renderToString) {
+        return katex.renderToString(formula, {
+          displayMode: Boolean(item.display),
+          throwOnError: false,
+          strict: false
+        });
+      }
+    } catch (e) {
+      // 容错：KaTeX 渲染失败则显示原始公式
+    }
+    // 回退：KaTeX 未加载时显示原始公式
+    const escaped = escapeHtml(formula);
+    return item.display
+      ? `<div class="katex-fallback">$$${escaped}$$</div>`
+      : `<span class="katex-fallback">$${escaped}$</span>`;
   });
   html = html.replace(/\n/g, '<br>');
   return html;

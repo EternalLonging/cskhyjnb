@@ -29267,3 +29267,11 @@ window.QUESTION_BANK = [
 }
 
 ];
+
+// 追加计算机组成原理题目
+if (typeof computerOrgQuestions !== 'undefined') {
+  window.QUESTION_BANK = window.QUESTION_BANK.concat(computerOrgQuestions);
+}
+if (typeof computerOrgFillToChoice !== 'undefined') {
+  window.QUESTION_BANK = window.QUESTION_BANK.concat(computerOrgFillToChoice);
+}

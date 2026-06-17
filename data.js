@@ -42,6 +42,7 @@ function saveQuestionEditsLocal(edits) {
 
 function deriveCourseName(q = {}) {
   const hay = `${q.course || ''} ${q.topic || ''} ${q.source || ''} ${q.source_stem || ''}`;
+  if (/计算机组成|计组|CPU|指令|总线|Cache|DMA|浮点|二进制|校验|存储器|微程序|控制器|运算器|I\/O|中断|寻址|DMA/i.test(hay)) return '计算机组成原理';
   if (/数据库|DBMS|SQL|关系|E-R/i.test(hay)) return '数据库';
   if (/专题|毛泽东|邓小平|三个代表|科学发展观|社会主义|新民主主义|马克思/i.test(hay)) return '毛概';
   return String(q.course || '自定义课程').trim() || '自定义课程';
