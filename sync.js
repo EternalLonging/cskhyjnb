@@ -230,11 +230,16 @@ function saveQuestionEdits(edits) {
 // ——— 认证/门控 ———
 
 function setupPasswordGate(onReady) {
-  // 新版删除了统一访问密码，改为"同步码 + 邀请码"。
+  // 已删除邀请码要求，默认单机模式直接进入
   document.body.classList.remove('auth-locked');
   if (isLocallyAiBanned()) {
     showAiBanOverlay(readLocalAiBanRecord());
     return;
+  }
+  markSingleInviteAuthorized();
+  var mode = localStorage.getItem(ACCESS_MODE_STORAGE);
+  if (!mode) {
+    localStorage.setItem(ACCESS_MODE_STORAGE, 'single');
   }
   setupSyncGate(onReady);
 }
@@ -402,15 +407,11 @@ function isSingleInviteAuthorized() {
 // ---- 一人一码邀请系统（新版 RPC） ----
 
 async function consumeInviteCode(code, identifier) {
-  const client = initSupabaseClient();
-  if (!client) throw new Error('无法连接数据库');
-  const { data, error } = await client.rpc('consume_invite_code', {
-    p_code: (code || '').trim(),
-    p_identifier: (identifier || '').trim(),
-  });
-  if (error) throw error;
-  if (!data || !data.success) throw new Error((data && data.error) || '邀请码验证失败');
-  return data;
+  // 已删除邀请码验证：直接生成随机同步码
+  var chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+  var key = 'sk-';
+  for (var i = 0; i < 16; i++) key += chars[Math.floor(Math.random() * chars.length)];
+  return { success: true, sync_key: key, identifier: String(identifier || '').trim() };
 }
 
 async function adminCreateInviteCode(adminPassword, code, options) {
@@ -598,7 +599,7 @@ function showAccessModeOverlay(onReady) {
   overlay.innerHTML = `
     <div class="auth-card sync-card">
       <h1>选择使用模式</h1>
-      <p>云端同步模式需要输入同步码和邀请码，可同步个人进度；题解和评论全站共享。单机模式也需要输入邀请码，只同步题库更新，不同步个人进度，也不能发布/编辑题解和评论。</p>
+      <p>云端同步模式输入同步码即可同步个人进度；题解和评论全站共享。单机模式无需邀请码，只同步题库更新，不同步个人进度，也不能发布/编辑题解和评论。</p>
       <button id="chooseSyncMode" class="primary" type="button">云端同步模式</button>
       <button id="chooseSingleMode" class="ghost" type="button">单机模式</button>
       <span class="auth-hint">单机模式会读取云端题库修改，但换设备不会同步做题进度。</span>
@@ -694,10 +695,9 @@ function showSyncOverlay(onReady) {
   overlay.className = 'auth-overlay';
   overlay.innerHTML = `
     <div class="auth-card sync-card">
-      <h1>输入同步码和邀请码</h1>
-      <p>请输入管理员发给你的邀请码。同一同步码首次使用需验证通过。</p>
+      <h1>输入同步码</h1>
+      <p>输入同步码即可开启云端同步。同一同步码可在多设备间同步进度。</p>
       <input id="syncKeyInput" type="text" autocomplete="off" placeholder="同步码，例如：class01 / 自己名字拼音" />
-      <input id="syncInviteInput" type="password" autocomplete="off" placeholder="邀请码" />
       <button id="syncSubmit" class="primary" type="button">开启同步</button>
       <button id="backModeSelect" class="ghost" type="button">返回选择模式</button>
       <div id="syncError" class="auth-error"></div>
@@ -705,29 +705,19 @@ function showSyncOverlay(onReady) {
   `;
   document.body.appendChild(overlay);
   const input = document.getElementById('syncKeyInput');
-  const inviteInput = document.getElementById('syncInviteInput');
   const submit = document.getElementById('syncSubmit');
   const back = document.getElementById('backModeSelect');
   const error = document.getElementById('syncError');
   const accept = async () => {
-    if (submit.disabled) return; // 防止回车/连点导致重复消费邀请码
+    if (submit.disabled) return;
     const value = (input.value || '').trim();
-    const invite = (inviteInput.value || '').trim();
     if (!value) { error.textContent = '请先输入同步码。'; input.focus(); return; }
-    if (!isSyncInviteAuthorized(value) && !invite) {
-      error.textContent = '请先输入邀请码。'; inviteInput.focus(); return;
-    }
     submit.disabled = true;
-    error.textContent = '正在验证邀请码...';
+    error.textContent = '正在连接...';
     try {
-      if (!isSyncInviteAuthorized(value)) {
-        await consumeInviteCode(invite, value);
-        // 验证一通过就立刻本地标记授权，避免后续云端加载失败时邀请码已被烧、人却进不去。
-        markSyncInviteAuthorized(value);
-      }
+      markSyncInviteAuthorized(value);
       localStorage.setItem(ACCESS_MODE_STORAGE, ACCESS_MODE_SYNC);
       localStorage.setItem(SYNC_KEY_STORAGE, value);
-      // 验证已通过：即便下面的云端加载出错，也必须放行进入。
       try {
         await initSync(value);
         await loadQuestionEditsFromCloud();
@@ -740,31 +730,15 @@ function showSyncOverlay(onReady) {
       onReady();
     } catch (err) {
       console.warn(err);
-      // 已授权说明仅验证后的某步出错：直接放行，不要把用户挡在门外（邀请码可能已被消费）。
-      if (isSyncInviteAuthorized(value)) {
-        localStorage.setItem(ACCESS_MODE_STORAGE, ACCESS_MODE_SYNC);
-        localStorage.setItem(SYNC_KEY_STORAGE, value);
-        overlay.remove();
-        onReady();
-        return;
-      }
-      error.textContent = err.message || '验证失败，请稍后重试。';
-      submit.disabled = false;
+      localStorage.setItem(ACCESS_MODE_STORAGE, ACCESS_MODE_SYNC);
+      localStorage.setItem(SYNC_KEY_STORAGE, value);
+      overlay.remove();
+      onReady();
     }
   };
   submit.addEventListener('click', accept);
-  [input, inviteInput].forEach(el => el?.addEventListener('keydown', (event) => { if (event.key === 'Enter') accept(); }));
-  input?.addEventListener('input', async () => {
-    const value = (input.value || '').trim();
-    if (value && isSyncInviteAuthorized(value)) {
-      inviteInput.value = '';
-      inviteInput.disabled = true;
-      inviteInput.placeholder = '本设备已验证过这个同步码';
-    } else {
-      inviteInput.disabled = false;
-      inviteInput.placeholder = '邀请码';
-    }
-  });
+  input?.addEventListener('keydown', (event) => { if (event.key === 'Enter') accept(); });
+
   back?.addEventListener('click', () => {
     overlay.remove();
     localStorage.removeItem(ACCESS_MODE_STORAGE);
