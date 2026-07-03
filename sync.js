@@ -237,10 +237,6 @@ function setupPasswordGate(onReady) {
     return;
   }
   markSingleInviteAuthorized();
-  var mode = localStorage.getItem(ACCESS_MODE_STORAGE);
-  if (!mode) {
-    localStorage.setItem(ACCESS_MODE_STORAGE, 'single');
-  }
   setupSyncGate(onReady);
 }
 
