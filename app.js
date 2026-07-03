@@ -1,4 +1,4 @@
-// app.js — 入口：事件绑定和页面初始化调度
+﻿// app.js — 入口：事件绑定和页面初始化调度
 // 依赖：所有前置文件（config.js, utils.js, data.js, sync.js, state.js, ui.js）
 
 let deferredPrompt = null;
@@ -35,6 +35,46 @@ function bindHome() {
     ensureAdminUnlocked(openAdvancedTopicManagerDialog);
   });
   $('manualBtn')?.addEventListener('click', renderManualDialog);
+  initHomeLocalAiChat?.();
+  restoreHomeAiChatFromSession?.();
+  initHomeAiResizeHandle?.();
+  // ponytail: AI按钮可拖动，拖动不触发弹窗
+  (() => {
+    const btn = $('homeAiLauncher');
+    if (!btn) return;
+    let dragging = false, sx = 0, sy = 0, bx = 0, by = 0;
+    btn.addEventListener('pointerdown', (e) => {
+      e.preventDefault();
+      dragging = false;
+      sx = e.clientX; sy = e.clientY;
+      const r = btn.getBoundingClientRect();
+      bx = r.left; by = r.top;
+      btn.setPointerCapture(e.pointerId);
+      btn.style.transition = 'none';
+    });
+    btn.addEventListener('pointermove', (e) => {
+      if (!btn.hasPointerCapture(e.pointerId)) return;
+      const dx = e.clientX - sx, dy = e.clientY - sy;
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragging = true;
+      btn.style.left = (bx + dx) + 'px';
+      btn.style.top = (by + dy) + 'px';
+      btn.style.right = 'auto';
+      btn.style.bottom = 'auto';
+    });
+    btn.addEventListener('pointerup', (e) => {
+      btn.releasePointerCapture(e.pointerId);
+      btn.style.transition = '';
+      if (!dragging) openHomeLocalAiDialog();
+    });
+  })();
+  $('homeAiSettingsBtn')?.addEventListener('click', openAiSettingsDialog);
+  $('homeAiCloseBtn')?.addEventListener('click', closeHomeLocalAiDialog);
+  $('homeAiThinkBtn')?.addEventListener('click', toggleLocalAiThinking);
+  $('homeAiClearBtn')?.addEventListener('click', clearHomeLocalAiContext);
+  $('homeAiAskBtn')?.addEventListener('click', askHomeLocalAi);
+  $('homeAiInput')?.addEventListener('keydown', (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key === 'Enter') askHomeLocalAi();
+  });
   let topicSearchTimer = null;
   $('topicSearchInput')?.addEventListener('input', () => {
     clearTimeout(topicSearchTimer);
@@ -94,6 +134,15 @@ function bindPractice() {
   $('showBtn')?.addEventListener('click', () => submitAnswer(true));
   $('retryWrongBtn')?.addEventListener('click', beginRetryCurrentWrongQuestion);
   $('nextBtn')?.addEventListener('click', nextQuestion);
+  $('localAiBtn')?.addEventListener('click', openLocalAiChatForCurrentQuestion);
+  $('localAiSettingsBtn')?.addEventListener('click', openAiSettingsDialog);
+  $('localAiJudgeBtn')?.addEventListener('click', judgeCurrentTextAnswerWithAi);
+  $('localAiThinkBtn')?.addEventListener('click', toggleLocalAiThinking);
+  $('localAiClearBtn')?.addEventListener('click', clearQuestionLocalAiContext);
+  $('localAiAskBtn')?.addEventListener('click', askLocalAiFollowup);
+  $('localAiQuestionInput')?.addEventListener('keydown', (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key === 'Enter') askLocalAiFollowup();
+  });
   $('backHomeBtn')?.addEventListener('click', async () => {
     // 退出回首页前：做过题才把这一轮存档到历史。等写入完成再跳转，
     // 避免 keepalive beacon 在同步导航时被浏览器取消导致丢记录。

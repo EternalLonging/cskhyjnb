@@ -1,0 +1,6 @@
+{
+  "port": 8787,
+  "token": "my-ultra-secret-key-2024",
+  "upstream": "http://127.0.0.1:11434/api/chat",
+  "rateMax": 30
+}

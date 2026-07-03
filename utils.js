@@ -126,7 +126,7 @@ function renderMarkdown(text) {
         return katex.renderToString(formula, {
           displayMode: Boolean(item.display),
           throwOnError: false,
-          strict: false
+          strict: "warn"
         });
       }
     } catch (e) {

@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>å¼€å§‹åˆ·é¢˜ - è¶…æ—¶ç©ºè¾‰å¤œå§¬</title>
+  <title>¿ªÊ¼Ë¢Ìâ - ³¬Ê±¿Õ»ÔÒ¹¼§</title>
 
   <!-- PWA -->
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#2563eb" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="è¾‰å¤œå§¬" />
+  <meta name="apple-mobile-web-app-title" content="»ÔÒ¹¼§" />
   <link rel="apple-touch-icon" href="3.png" />
 
   <link rel="stylesheet" href="style.css" />
@@ -19,25 +19,25 @@
 <body data-page="practice">
   <div class="app-shell quiz-shell">
     <header class="practice-topbar">
-      <button id="backHomeBtn" class="back-btn" type="button">â† è¿”å›žé¦–é¡µ</button>
+      <button id="backHomeBtn" class="back-btn" type="button">¡û ·µ»ØÊ×Ò³</button>
       <div class="practice-title">
-        <h1>å¼€å§‹åˆ·é¢˜</h1>
-        <p id="practiceSub">æ­£åœ¨åŠ è½½é¢˜ç›®...</p>
+        <h1>¿ªÊ¼Ë¢Ìâ</h1>
+        <p id="practiceSub">ÕýÔÚ¼ÓÔØÌâÄ¿...</p>
       </div>
-      <div class="topbar-actions"><button id="manageQuestionsBtn" class="ghost small-btn" type="button">é¢˜åº“ç®¡ç†</button><button id="restartBtn" class="ghost small-btn" type="button">é‡å¼€æœ¬è½®</button></div>
+      <div class="topbar-actions"><button id="manageQuestionsBtn" class="ghost small-btn" type="button">Ìâ¿â¹ÜÀí</button><button id="localAiBtn" class="ghost small-btn" type="button">ÎÊ AI</button><button id="restartBtn" class="ghost small-btn" type="button">ÖØ¿ª±¾ÂÖ</button></div>
     </header>
 
     <main class="panel quiz-panel single-page-quiz">
       <div class="toolbar">
         <div>
-          <span class="pill" id="modePill">æœªå¼€å§‹</span>
-          <span class="pill soft" id="topicPill">æ­£åœ¨å‡†å¤‡</span>
-          <button id="historyBtn" class="history-btn" type="button">é¢˜å·åˆ—è¡¨ï¼ˆ0ï¼‰</button>
+          <span class="pill" id="modePill">Î´¿ªÊ¼</span>
+          <span class="pill soft" id="topicPill">ÕýÔÚ×¼±¸</span>
+          <button id="historyBtn" class="history-btn" type="button">ÌâºÅÁÐ±í£¨0£©</button>
         </div>
         <div class="score">
-          <span>æ­£ç¡® <b id="rightNum">0</b></span>
-          <span>é”™è¯¯ <b id="wrongNum">0</b></span>
-          <span>æ­£ç¡®çŽ‡ <b id="rateNum">0%</b></span>
+          <span>ÕýÈ· <b id="rightNum">0</b></span>
+          <span>´íÎó <b id="wrongNum">0</b></span>
+          <span>ÕýÈ·ÂÊ <b id="rateNum">0%</b></span>
         </div>
       </div>
 
@@ -45,11 +45,11 @@
         <div id="progressBar" class="progress-bar"></div>
       </div>
 
-      <div class="keyboard-help">ç”µè„‘ç‰ˆå¿«æ·é”®ï¼š1=Aï¼Œ2=Bï¼Œ3=Cï¼Œ4=Dï¼Œ5=ç›´æŽ¥çœ‹ç­”æ¡ˆï¼Œç©ºæ ¼=æäº¤ç­”æ¡ˆ/ä¸‹ä¸€é¢˜/ç›´æŽ¥çœ‹ç­”æ¡ˆï¼›ç­”å¯¹åŽä¼šè‡ªåŠ¨è¿›å…¥ä¸‹ä¸€é¢˜ã€‚</div>
+      <div class="keyboard-help">µçÄÔ°æ¿ì½Ý¼ü£º1=A£¬2=B£¬3=C£¬4=D£¬5=Ö±½Ó¿´´ð°¸£¬¿Õ¸ñ=Ìá½»´ð°¸/ÏÂÒ»Ìâ/Ö±½Ó¿´´ð°¸£»´ð¶Ôºó»á×Ô¶¯½øÈëÏÂÒ»Ìâ¡£</div>
 
       <div id="emptyState" class="empty-state">
-        <h2>æ­£åœ¨ç”Ÿæˆé¢˜ç›®</h2>
-        <p>å¦‚æžœæ²¡æœ‰é¢˜ç›®ï¼Œè¯·è¿”å›žé¦–é¡µæ¢ä¸€ä¸ªä¸“é¢˜æˆ–é¢˜åž‹ã€‚</p>
+        <h2>ÕýÔÚÉú³ÉÌâÄ¿</h2>
+        <p>Èç¹ûÃ»ÓÐÌâÄ¿£¬Çë·µ»ØÊ×Ò³»»Ò»¸ö×¨Ìâ»òÌâÐÍ¡£</p>
       </div>
 
       <article id="questionCard" class="question-card hidden">
@@ -58,35 +58,36 @@
         <div id="optionsBox" class="options"></div>
         <div id="textAnswerBox" class="text-answer-box hidden">
           <div id="fillBlanksArea" class="fill-blanks-area hidden"></div>
-          <input id="fillAnswerInput" type="text" placeholder="è¯·è¾“å…¥å¡«ç©ºç­”æ¡ˆ" />
-          <textarea id="shortAnswerInput" rows="5" placeholder="è¯·è¾“å…¥ç®€ç­”ä½œç­”å†…å®¹"></textarea>
+          <input id="fillAnswerInput" type="text" placeholder="ÇëÊäÈëÌî¿Õ´ð°¸" />
+          <textarea id="shortAnswerInput" rows="5" placeholder="ÇëÊäÈë¼ò´ð×÷´ðÄÚÈÝ"></textarea>
         </div>
         <div id="answerBox" class="answer-box hidden"></div>
         <div class="actions">
-          <button id="submitBtn" class="primary" type="button">æäº¤ç­”æ¡ˆ</button>
-          <button id="showBtn" class="ghost" type="button">ç›´æŽ¥çœ‹ç­”æ¡ˆ</button>
-          <button id="retryWrongBtn" class="ghost hidden" type="button">é‡æ–°ä½œç­”</button>
-          <button id="nextBtn" class="primary hidden" type="button">ä¸‹ä¸€é¢˜</button>
-          <button id="editCurrentQuestionBtn" class="ghost" type="button">ç¼–è¾‘æœ¬é¢˜</button>
+          <button id="submitBtn" class="primary" type="button">Ìá½»´ð°¸</button>
+          <button id="localAiJudgeBtn" class="ghost" type="button" title="AI ÅÐ¶Ï±¾Ìâ´ð°¸" style="display:none;">AI ÅÐ¶Ï´ð°¸</button>
+          <button id="showBtn" class="ghost" type="button">Ö±½Ó¿´´ð°¸</button>
+          <button id="retryWrongBtn" class="ghost hidden" type="button">ÖØÐÂ×÷´ð</button>
+          <button id="nextBtn" class="primary hidden" type="button">ÏÂÒ»Ìâ</button>
+          <button id="editCurrentQuestionBtn" class="ghost" type="button">±à¼­±¾Ìâ</button>
         </div>
 
         <section id="notePanel" class="note-panel hidden">
           <div class="note-head">
             <div>
-              <h3>æœ¬é¢˜é¢˜è§£ / è¯„è®º</h3>
-              <p id="noteQuestionTitle">å½“å‰é¢˜</p>
+              <h3>±¾ÌâÌâ½â / ÆÀÂÛ</h3>
+              <p id="noteQuestionTitle">µ±Ç°Ìâ</p>
             </div>
-            <span id="noteSaveTip" class="note-save-tip">é¢˜è§£ä¼šè‡ªåŠ¨ä¿å­˜åˆ°æœ¬æœº</span>
+            <span id="noteSaveTip" class="note-save-tip">Ìâ½â»á×Ô¶¯±£´æµ½±¾»ú</span>
           </div>
 
-          <label class="note-label" for="explanationInput">é¢˜è§£ï¼ˆå¯ç¼–è¾‘ï¼‰</label>
-          <textarea id="explanationInput" class="note-textarea" rows="4" placeholder="å¯ä»¥å†™é”™é¡¹åŽŸå› ã€è®°å¿†æ–¹æ³•ï¼Œæ”¯æŒ Markdownã€‚ä¾‹ï¼š**Dï¼ˆä¸Žæ—¶ä¿±è¿›ï¼‰** ä¸»è¦å±žäºŽä¸­å›½ç‰¹è‰²ç¤¾ä¼šä¸»ä¹‰ç†è®ºä½“ç³»ä¸­çš„è¡¨è¿°ã€‚"></textarea>
+          <label class="note-label" for="explanationInput">Ìâ½â£¨¿É±à¼­£©</label>
+          <textarea id="explanationInput" class="note-textarea" rows="4" placeholder="¿ÉÒÔÐ´´íÏîÔ­Òò¡¢¼ÇÒä·½·¨£¬Ö§³Ö Markdown¡£Àý£º**D£¨ÓëÊ±¾ã½ø£©** Ö÷ÒªÊôÓÚÖÐ¹úÌØÉ«Éç»áÖ÷ÒåÀíÂÛÌåÏµÖÐµÄ±íÊö¡£"></textarea>
           <div id="explanationPreview" class="explanation-preview markdown-body"></div>
 
-          <label class="note-label" for="commentInput">è¯„è®º</label>
+          <label class="note-label" for="commentInput">ÆÀÂÛ</label>
           <div class="comment-editor">
-            <textarea id="commentInput" class="comment-input" rows="2" placeholder="å†™ä¸€æ¡è¯„è®ºï¼Œä¾‹å¦‚ï¼šè¿™é¢˜å®¹æ˜“æŠŠå®žäº‹æ±‚æ˜¯å’Œä¸Žæ—¶ä¿±è¿›æ··æ·†ã€‚"></textarea>
-            <button id="addCommentBtn" class="ghost comment-add" type="button">å‘è¡¨è¯„è®º</button>
+            <textarea id="commentInput" class="comment-input" rows="2" placeholder="Ð´Ò»ÌõÆÀÂÛ£¬ÀýÈç£ºÕâÌâÈÝÒ×°ÑÊµÊÂÇóÊÇºÍÓëÊ±¾ã½ø»ìÏý¡£"></textarea>
+            <button id="addCommentBtn" class="ghost comment-add" type="button">·¢±íÆÀÂÛ</button>
           </div>
           <div id="commentList" class="comment-list"></div>
         </section>
@@ -94,18 +95,37 @@
 
       <section id="reviewList" class="review-list hidden"></section>
 
-      <section id="historyPanel" class="history-panel hidden" aria-label="æœ¬è½®å·²åˆ·é¢˜ç›®">
+      <section id="historyPanel" class="history-panel hidden" aria-label="±¾ÂÖÒÑË¢ÌâÄ¿">
         <div class="history-drawer">
           <div class="history-head">
             <div>
-              <h2>é¢˜å·åˆ—è¡¨</h2>
-              <p>åªæ˜¾ç¤ºé¢˜å·ï¼Œä¸æ˜¾ç¤ºé¢˜ç›®å…¨æ–‡ã€‚ç°è‰²æœªåšï¼Œç»¿è‰²æ­£ç¡®ï¼Œçº¢è‰²é”™è¯¯ï¼Œç‚¹é¢˜å·å¯è·³å›žé‚£ä¸€é¢˜ã€‚</p>
+              <h2>ÌâºÅÁÐ±í</h2>
+              <p>Ö»ÏÔÊ¾ÌâºÅ£¬²»ÏÔÊ¾ÌâÄ¿È«ÎÄ¡£»ÒÉ«Î´×ö£¬ÂÌÉ«ÕýÈ·£¬ºìÉ«´íÎó£¬µãÌâºÅ¿ÉÌø»ØÄÇÒ»Ìâ¡£</p>
             </div>
-            <button id="closeHistoryBtn" class="history-close" type="button">å…³é—­</button>
+            <button id="closeHistoryBtn" class="history-close" type="button">¹Ø±Õ</button>
           </div>
           <div id="historyList" class="history-list"></div>
         </div>
       </section>
+
+        <section id="localAiPanel" class="local-ai-panel hidden" aria-label="±¾»ú AI ÎÊ´ð">
+          <div class="local-ai-panel-head">
+            <div>
+              <h2>±¾»ú AI ÎÊ´ð</h2>
+              <p>Õë¶Ôµ±Ç°ÌâÄ¿ÌáÎÊ£¬»òÈÃ AI °ïÃ¦·ÖÎö</p>
+            </div>
+            <div class="local-ai-panel-actions">
+              <button id="localAiSettingsBtn" class="ghost small-btn" type="button" title="AI ÉèÖÃ">?</button>
+              <button id="localAiThinkBtn" class="ghost small-btn" type="button">Éî¶ÈË¼¿¼£º¹Ø</button>
+              <button id="localAiClearBtn" class="ghost small-btn" type="button">Çå¿ÕÉÏÏÂÎÄ</button>
+            </div>
+          </div>
+          <div id="localAiOutput" class="local-ai-output markdown-body"></div>
+          <div class="local-ai-chat">
+            <textarea id="localAiQuestionInput" rows="2" placeholder="Õë¶Ôµ±Ç°ÌâÄ¿ÌáÎÊ£¬ÀýÈç£ºÎªÊ²Ã´ B ²»¶Ô£¿"></textarea>
+            <button id="localAiAskBtn" class="ghost" type="button">·¢ËÍ</button>
+          </div>
+        </section>
     </main>
   </div>
 
@@ -114,19 +134,21 @@
   <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
   <script src="questions_computer_org_choice.js"></script>
   <script src="questions_computer_org_fill.js"></script>
-  <script src="questions.js"></script>
-  <script src="config.js"></script>
-  <script src="utils.js"></script>
-  <script src="data.js"></script>
-  <script src="sync.js"></script>
-  <script src="state.js"></script>
-  <script src="ui.js"></script>
-  <script src="app.js"></script>
+  <script src="questions.js?v=56"></script>
+  <script src="config.js?v=56"></script>
+  <script src="utils.js?v=56"></script>
+  <script src="manual.js"></script>
+  <script src="data.js?v=56"></script>
+  <script src="sync.js?v=56"></script>
+  <script src="state.js?v=56"></script>
+  <script src="ui.js?v=56"></script>
+  <script src="local-ai.js?v=56"></script>
+  <script src="app.js?v=56"></script>
 
   <!-- PWA: register service worker -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=11');
+      navigator.serviceWorker.register('sw.js?v=14');
     }
   </script>
 </body>

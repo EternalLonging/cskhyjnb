@@ -3,108 +3,135 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>è¶…æ—¶ç©ºè¾‰å¤œå§¬</title>
+  <title>³¬Ê±¿Õ»ÔÒ¹¼§</title>
 
   <!-- PWA -->
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#2563eb" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="è¾‰å¤œå§¬" />
+  <meta name="apple-mobile-web-app-title" content="»ÔÒ¹¼§" />
   <link rel="apple-touch-icon" href="3.png" />
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=14" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
 </head>
 <body data-page="home">
   <div class="app-shell">
     <header class="hero">
       <div>
-        <p class="eyebrow">äº‘ç«¯åŒæ­¥ / å•æœºåˆ·é¢˜</p>
-        <h1>è¶…æ—¶ç©ºè¾‰å¤œå§¬</h1>
-        <p class="sub">æ ¹æ®ä½ ä¸Šä¼ çš„ Word é¢˜åº“è‡ªåŠ¨ç”Ÿæˆï¼Œæ”¯æŒç« èŠ‚ç»ƒä¹ ã€éšæœºåˆ·é¢˜ã€é”™é¢˜é‡åšå’Œç­”æ¡ˆé€ŸèƒŒã€‚å¯é€‰æ‹©äº‘ç«¯åŒæ­¥æ¨¡å¼ï¼Œä¹Ÿå¯ä»¥ä½¿ç”¨ä¸éœ€è¦åŒæ­¥ç çš„å•æœºæ¨¡å¼ã€‚</p>
+        <p class="eyebrow">ÔÆ¶ËÍ¬²½ / µ¥»úË¢Ìâ</p>
+        <h1>³¬Ê±¿Õ»ÔÒ¹¼§</h1>
+        <p class="sub">¸ù¾ÝÄãÉÏ´«µÄ Word Ìâ¿â×Ô¶¯Éú³É£¬Ö§³ÖÕÂ½ÚÁ·Ï°¡¢Ëæ»úË¢Ìâ¡¢´íÌâÖØ×öºÍ´ð°¸ËÙ±³¡£¿ÉÑ¡ÔñÔÆ¶ËÍ¬²½Ä£Ê½£¬Ò²¿ÉÒÔÊ¹ÓÃ²»ÐèÒªÍ¬²½ÂëµÄµ¥»úÄ£Ê½¡£</p>
       </div>
       <div class="hero-card hero-card-tools">
-        <button id="installBtn" class="ghost manual-btn install-btn hidden" type="button">ðŸ“² å®‰è£…åº”ç”¨</button>
-        <button id="manualBtn" class="ghost manual-btn" type="button">ä½¿ç”¨æ‰‹å†Œ</button>
-        <div class="total-count-box"><strong id="totalCount">0</strong><span>é“é¢˜å·²å¯¼å…¥</span></div>
+        <button id="installBtn" class="ghost manual-btn install-btn hidden" type="button">?? °²×°Ó¦ÓÃ</button>
+        <button id="manualBtn" class="ghost manual-btn" type="button">Ê¹ÓÃÊÖ²á</button>
+        <div class="total-count-box"><strong id="totalCount">0</strong><span>µÀÌâÒÑµ¼Èë</span></div>
       </div>
     </header>
 
     <main class="home-layout">
       <section class="panel controls home-controls">
-        <h2>ç»ƒä¹ è®¾ç½®</h2>
-        <label class="field-label" for="modeSelect">æ¨¡å¼</label>
+        <h2>Á·Ï°ÉèÖÃ</h2>
+        <label class="field-label" for="modeSelect">Ä£Ê½</label>
         <select id="modeSelect">
-          <option value="practice">åˆ·é¢˜æ¨¡å¼</option>
-          <option value="wrong">é”™é¢˜é‡åš</option>
-          <option value="review">ç­”æ¡ˆé€ŸèƒŒ</option>
+          <option value="practice">Ë¢ÌâÄ£Ê½</option>
+          <option value="wrong">´íÌâÖØ×ö</option>
+          <option value="review">´ð°¸ËÙ±³</option>
         </select>
 
-        <label class="field-label" for="typeSelect">é¢˜åž‹</label>
+        <label class="field-label" for="typeSelect">ÌâÐÍ</label>
         <select id="typeSelect">
-          <option value="all">å…¨éƒ¨é¢˜åž‹</option>
-          <option value="single">åªåšå•é€‰</option>
-          <option value="multiple">åªåšå¤šé€‰</option>
-          <option value="fill">åªåšå¡«ç©º</option>
-          <option value="short">åªåšç®€ç­”</option>
+          <option value="all">È«²¿ÌâÐÍ</option>
+          <option value="single">Ö»×öµ¥Ñ¡</option>
+          <option value="multiple">Ö»×ö¶àÑ¡</option>
+          <option value="fill">Ö»×öÌî¿Õ</option>
+          <option value="short">Ö»×ö¼ò´ð</option>
         </select>
 
-        <label class="field-label" for="orderSelect">å‡ºé¢˜é¡ºåº</label>
+        <label class="field-label" for="orderSelect">³öÌâË³Ðò</label>
         <select id="orderSelect">
-          <option value="random">éšæœº</option>
-          <option value="sequential">æŒ‰æ–‡ä»¶é¡ºåº</option>
+          <option value="random">Ëæ»ú</option>
+          <option value="sequential">°´ÎÄ¼þË³Ðò</option>
         </select>
 
-        <label class="field-label" for="countInput">æœ¬è½®é¢˜æ•°</label>
+        <label class="field-label" for="countInput">±¾ÂÖÌâÊý</label>
         <input id="countInput" type="number" min="1" value="30" />
 
         <details class="pref-box pref-collapsible" id="preferenceBox">
           <summary class="pref-summary">
-            <span><b>ç”¨æˆ·åå¥½è®¾ç½®</b><small>è‡ªåŠ¨æäº¤ã€é€‰é¡¹ä¹±åºã€å•é€‰åœ¨å‰ã€å¤šé€‰åœ¨åŽç­‰</small></span>
-            <em class="pref-expand-hint">å±•å¼€</em>
+            <span><b>ÓÃ»§Æ«ºÃÉèÖÃ</b><small>×Ô¶¯Ìá½»¡¢Ñ¡ÏîÂÒÐò¡¢µ¥Ñ¡ÔÚÇ°¡¢¶àÑ¡ÔÚºóµÈ</small></span>
+            <em class="pref-expand-hint">Õ¹¿ª</em>
           </summary>
           <div class="pref-content">
-            <label class="switch-row" for="prefAutoSubmit"><input id="prefAutoSubmit" type="checkbox" /> <span>é€‰å®Œé€‰é¡¹åŽè‡ªåŠ¨æäº¤<small>å•é€‰é¢˜é€‰æ‹©åŽç›´æŽ¥æäº¤ï¼›å¤šé€‰é¢˜ä»éœ€æ‰‹åŠ¨æäº¤ã€‚</small></span></label>
-            <label class="switch-row" for="prefShuffleOptions"><input id="prefShuffleOptions" type="checkbox" /> <span>é€‰é¡¹ä½ç½®ä¹±åº<small>å…³é—­åŽæŒ‰åŽŸ A/B/C/D é¡ºåºæ˜¾ç¤ºã€‚</small></span></label>
-            <label class="switch-row" for="prefAutoNextCorrect"><input id="prefAutoNextCorrect" type="checkbox" /> <span>ç­”å¯¹åŽè‡ªåŠ¨ä¸‹ä¸€é¢˜</span></label>
-            <label class="switch-row single-first-row" for="singleFirstCheck"><input id="singleFirstCheck" type="checkbox" /> <span>å•é€‰é¢˜åœ¨å‰ï¼Œå¤šé€‰é¢˜åœ¨åŽ<small>å•é€‰åˆ·å®ŒåŽä¼šæé†’è¿›å…¥å¤šé€‰é¢˜ã€‚</small></span></label>
+            <label class="switch-row" for="prefAutoSubmit"><input id="prefAutoSubmit" type="checkbox" /> <span>Ñ¡ÍêÑ¡Ïîºó×Ô¶¯Ìá½»<small>µ¥Ñ¡ÌâÑ¡ÔñºóÖ±½ÓÌá½»£»¶àÑ¡ÌâÈÔÐèÊÖ¶¯Ìá½»¡£</small></span></label>
+            <label class="switch-row" for="prefShuffleOptions"><input id="prefShuffleOptions" type="checkbox" /> <span>Ñ¡ÏîÎ»ÖÃÂÒÐò<small>¹Ø±Õºó°´Ô­ A/B/C/D Ë³ÐòÏÔÊ¾¡£</small></span></label>
+            <label class="switch-row" for="prefAutoNextCorrect"><input id="prefAutoNextCorrect" type="checkbox" /> <span>´ð¶Ôºó×Ô¶¯ÏÂÒ»Ìâ</span></label>
+            <label class="switch-row single-first-row" for="singleFirstCheck"><input id="singleFirstCheck" type="checkbox" /> <span>µ¥Ñ¡ÌâÔÚÇ°£¬¶àÑ¡ÌâÔÚºó<small>µ¥Ñ¡Ë¢Íêºó»áÌáÐÑ½øÈë¶àÑ¡Ìâ¡£</small></span></label>
             <div class="count-grid">
-              <label>éšæœºå•é€‰æ•°<input id="singleCountInput" type="number" min="0" value="0" /></label>
-              <label>éšæœºå¤šé€‰æ•°<input id="multipleCountInput" type="number" min="0" value="0" /></label>
-              <label>éšæœºå¡«ç©ºæ•°<input id="fillCountInput" type="number" min="0" value="0" /></label>
-              <label>éšæœºç®€ç­”æ•°<input id="shortCountInput" type="number" min="0" value="0" /></label>
+              <label>Ëæ»úµ¥Ñ¡Êý<input id="singleCountInput" type="number" min="0" value="0" /></label>
+              <label>Ëæ»ú¶àÑ¡Êý<input id="multipleCountInput" type="number" min="0" value="0" /></label>
+              <label>Ëæ»úÌî¿ÕÊý<input id="fillCountInput" type="number" min="0" value="0" /></label>
+              <label>Ëæ»ú¼ò´ðÊý<input id="shortCountInput" type="number" min="0" value="0" /></label>
             </div>
-            <p class="pref-tip">ä¸Šé¢æ•°é‡ä¸º 0 æ—¶ï¼ŒæŒ‰"æœ¬è½®é¢˜æ•°"æŠ½é¢˜ï¼›å¡«å†™åŽå¯æŽ§åˆ¶æœ¬è½®éšæœºæŠ½å–å„é¢˜åž‹æ•°é‡ã€‚</p>
+            <p class="pref-tip">ÉÏÃæÊýÁ¿Îª 0 Ê±£¬°´"±¾ÂÖÌâÊý"³éÌâ£»ÌîÐ´ºó¿É¿ØÖÆ±¾ÂÖËæ»ú³éÈ¡¸÷ÌâÐÍÊýÁ¿¡£</p>
           </div>
         </details>
 
         <div class="start-actions">
-          <button id="restartHomeBtn" class="primary big-start" type="button">å¼€å§‹åˆ·é¢˜</button>
-          <button id="historyRecordsBtn" class="ghost big-start" type="button">åŽ†å²è®°å½•</button>
+          <button id="restartHomeBtn" class="primary big-start" type="button">¿ªÊ¼Ë¢Ìâ</button>
+          <button id="historyRecordsBtn" class="ghost big-start" type="button">ÀúÊ·¼ÇÂ¼</button>
         </div>
-        <button id="clearWrongBtn" class="ghost" type="button">æ¸…ç©ºé”™é¢˜æœ¬</button>
-        <button id="manageQuestionsBtn" class="ghost" type="button">é¢˜åº“ç®¡ç†ï¼ˆéœ€ç®¡ç†å¯†ç ï¼‰</button>
-        <button id="manageTopicsBtn" class="ghost" type="button">ä¸“é¢˜ç®¡ç†ï¼ˆéœ€ç®¡ç†å¯†ç ï¼‰</button>
+        <button id="clearWrongBtn" class="ghost" type="button">Çå¿Õ´íÌâ±¾</button>
+        <button id="manageQuestionsBtn" class="ghost" type="button">Ìâ¿â¹ÜÀí£¨Ðè¹ÜÀíÃÜÂë£©</button>
+        <button id="manageTopicsBtn" class="ghost" type="button">×¨Ìâ¹ÜÀí£¨Ðè¹ÜÀíÃÜÂë£©</button>
       </section>
 
       <section class="panel intro-panel topic-select-panel">
         <div class="topic-header topic-main-header">
           <div>
-            <h2>é€‰æ‹©ä¸“é¢˜</h2>
-            <p>è¯¾ç¨‹åç§°ä¸ºå¤§ä¸“é¢˜ï¼Œç‚¹å¼€åŽå¯é€‰æ‹©å°ä¸“é¢˜å’Œæ›´å°ä¸“é¢˜ã€‚åªæœ‰å¤§ä¸“é¢˜å¯ä»¥æ·»åŠ æ ‡ç­¾ã€‚</p>
+            <h2>Ñ¡Ôñ×¨Ìâ</h2>
+            <p>¿Î³ÌÃû³ÆÎª´ó×¨Ìâ£¬µã¿ªºó¿ÉÑ¡ÔñÐ¡×¨ÌâºÍ¸üÐ¡×¨Ìâ¡£Ö»ÓÐ´ó×¨Ìâ¿ÉÒÔÌí¼Ó±êÇ©¡£</p>
           </div>
-          <button class="link-btn" id="toggleTopics" type="button">å…¨é€‰/åé€‰</button>
+          <button class="link-btn" id="toggleTopics" type="button">È«Ñ¡/·´Ñ¡</button>
         </div>
         <div class="topic-search-row">
-          <input id="topicSearchInput" type="search" placeholder="æœç´¢è¯¾ç¨‹ / ä¸“é¢˜ / æ ‡ç­¾" />
-          <button id="clearTopicSearchBtn" class="ghost small-btn" type="button">æ¸…ç©º</button>
+          <input id="topicSearchInput" type="search" placeholder="ËÑË÷¿Î³Ì / ×¨Ìâ / ±êÇ©" />
+          <button id="clearTopicSearchBtn" class="ghost small-btn" type="button">Çå¿Õ</button>
         </div>
+        <button id="addCourseBtn" class="btn-add-sm" type="button" style="margin-bottom:8px;">+ Ìí¼Ó¿Î³Ì£¨Ð¡·½¿é£©</button>
         <div id="topicList" class="topic-list topic-tree-list"></div>
+        
       </section>
     </main>
-  </div>
 
+    
+    <!-- AI ¶Ô»°µ¯´°£¨Ê×Ò³£© -->
+    <div id="homeAiDialog" class="auth-overlay hidden">
+      <div class="auth-card local-ai-home-dialog">
+        <div class="local-ai-home-head">
+          <div>
+            <h2><img src="assets/local-ai-character.jpg" draggable="false" style="width:28px;height:28px;border-radius:50%;vertical-align:middle;object-fit:cover;" alt="" /> AI Ñ§Ï°ÖúÊÖ</h2>
+            <p>¿ÉÒÔÎÊÎÒÌâ¿â¡¢¸´Ï°½¨Òé¡¢´íÌâ·ÖÎö£¬»òÈÎºÎÑ§Ï°ÎÊÌâ¡£</p>
+          </div>
+          <div style="display:flex;gap:6px;align-items:center;">
+            <button id="homeAiSettingsBtn" class="ghost small-btn" type="button" title="AI ÉèÖÃ">?</button>
+            <button id="homeAiThinkBtn" class="ghost small-btn" type="button">Éî¶ÈË¼¿¼£º¹Ø</button>
+            <button id="homeAiClearBtn" class="ghost small-btn" type="button" title="Çå¿Õ¶Ô»°">Çå¿Õ</button>
+            <button id="homeAiCloseBtn" class="ghost small-btn" type="button" style="font-size:18px;line-height:1;">¡Á</button>
+          </div>
+        </div>
+        <div id="homeAiOutput" class="local-ai-output markdown-body" style="max-height:50vh;overflow-y:auto;padding:12px;"></div>
+        <div class="local-ai-chat" style="display:flex;gap:8px;padding:12px;border-top:1px solid #e0e0e0;">
+          <textarea id="homeAiInput" rows="2" placeholder="ÎÊ AI ÈÎºÎÎÊÌâ..." style="flex:1;resize:none;"></textarea>
+          <button id="homeAiAskBtn" class="primary small-btn" type="button">·¢ËÍ</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ê×Ò³ AI Æô¶¯°´Å¥ -->
+    <button id="homeAiLauncher" class="local-ai-home-launcher" type="button" draggable="false" style="position:fixed;bottom:24px;right:24px;width:56px;height:56px;border-radius:50%;border:2px solid #2563eb;cursor:pointer;box-shadow:0 4px 16px rgba(37,99,235,.3);z-index:9997;overflow:hidden;padding:0;background:none;"><img src="assets/local-ai-character.jpg" draggable="false" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" alt="AIÖúÊÖ" /></button>
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
@@ -112,18 +139,23 @@
   <script src="questions_computer_org_fill.js"></script>
   <script src="questions.js"></script>
   <script src="config.js"></script>
+  <script src="assets/docs/builtin_docs.js"></script>
   <script src="utils.js"></script>
   <script src="data.js"></script>
   <script src="sync.js"></script>
   <script src="state.js"></script>
-  <script src="ui.js"></script>
-  <script src="app.js"></script>
+  <script src="ui.js?v=14"></script>
+  <script src="topic-manager.js?v=14"></script>
+  <script src="manual.js?v=14"></script>
+  <script src="local-ai.js?v=14"></script>
+  <script src="app.js?v=14"></script>
 
   <!-- PWA: register service worker -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=11');
+      navigator.serviceWorker.register('sw.js?v=14');
     }
   </script>
 </body>
 </html>
+

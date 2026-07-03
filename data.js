@@ -4,7 +4,7 @@
 // =============================================================================
 
 function emptyQuestionEdits() {
-  return { version: 1, updatedAt: 0, deletedIds: [], overrides: {}, custom: [], customTopics: [], customSubTopics: [] };
+  return { version: 1, updatedAt: 0, deletedIds: [], overrides: {}, custom: [], customTopics: [], customSubTopics: [], customCourses: [] };
 }
 
 function normalizeQuestionEdits(raw) {
@@ -20,6 +20,12 @@ function normalizeQuestionEdits(raw) {
     : [];
   out.customSubTopics = Array.isArray(raw.customSubTopics)
     ? raw.customSubTopics.filter(item => item && typeof item.topic === 'string' && typeof item.subtopic === 'string')
+    : [];
+  out.customCourses = Array.isArray(raw.customCourses)
+    ? raw.customCourses.filter(function(cc) { return cc && typeof cc.course === 'string'; }).map(function(cc) { return {
+        course: String(cc.course || '').trim(),
+        topics: Array.isArray(cc.topics) ? cc.topics.map(function(t){ return String(t||'').trim(); }).filter(Boolean) : []
+      }; })
     : [];
   return out;
 }
@@ -42,7 +48,7 @@ function saveQuestionEditsLocal(edits) {
 
 function deriveCourseName(q = {}) {
   const hay = `${q.course || ''} ${q.topic || ''} ${q.source || ''} ${q.source_stem || ''}`;
-  if (/计算机组成|计组|CPU|指令|总线|Cache|DMA|浮点|二进制|校验|存储器|微程序|控制器|运算器|I\/O|中断|寻址|DMA/i.test(hay)) return '计算机组成原理';
+  if (/计算机组成|计组|CPU|指令|总线|Cache|DMA|浮点|二进制|校验|存储器|微程序|控制器|运算器|I\/O|中断|寻址/i.test(hay)) return '计算机组成原理';
   if (/数据库|DBMS|SQL|关系|E-R/i.test(hay)) return '数据库';
   if (/专题|毛泽东|邓小平|三个代表|科学发展观|社会主义|新民主主义|马克思/i.test(hay)) return '毛概';
   return String(q.course || '自定义课程').trim() || '自定义课程';
@@ -193,41 +199,75 @@ function buildTopicHierarchy() {
     const sub = t.subs.get(subtopic);
     sub.total += 1; sub[q.type] = (sub[q.type] || 0) + 1;
   });
-  // 注入自定义空专题（无题目但需在树中显示）
+    // 注入自定义专题（兼容旧 customTopics + 新 customCourses）
   const edits = loadQuestionEdits();
-  (edits.customTopics || []).forEach(topicName => {
-    topicName = String(topicName || '').trim();
+  // 旧 customTopics 数组（兼容）
+  (edits.customTopics || []).forEach(function(topicName) {
+    topicName = String(topicName || "").trim();
     if (!topicName) return;
-    // 检查该专题是否已在树中（有题目）
-    let found = false;
+    var found = false;
     for (const [course, info] of tree) {
       if (info.topics.has(topicName)) { found = true; break; }
     }
     if (found) return;
-    // 尝试推断课程名
     const course = getCustomCourseName({ topic: topicName });
-    if (!tree.has(course)) tree.set(course, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, topics: new Map() });
-    const c = tree.get(course);
-    if (!c.topics.has(topicName)) c.topics.set(topicName, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, subs: new Map() });
+    addEmptyCourseNode(tree, course);
+    if (!tree.get(course).topics.has(topicName)) tree.get(course).topics.set(topicName, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, subs: new Map() });
+  });
+  // customCourses：新数据模型，直接注入课程和专题
+  (edits.customCourses || []).forEach(function(cc) {
+    const course = String(cc.course || "").trim();
+    if (!course) return;
+    addEmptyCourseNode(tree, course);
+    (cc.topics || []).forEach(function(topicName) {
+      topicName = String(topicName || "").trim();
+      if (!topicName) return;
+      var found = false;
+      for (const [c, info] of tree) {
+        if (info.topics.has(topicName)) { found = true; break; }
+      }
+      if (found) return;
+      if (!tree.get(course).topics.has(topicName)) tree.get(course).topics.set(topicName, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, subs: new Map() });
+    });
   });
   // 注入自定义空子专题（无题目但需要在树中显示）
-  (edits.customSubTopics || []).forEach(item => {
+  (edits.customSubTopics || []).forEach(function(item) {
     if (!item.topic || !item.subtopic) return;
-    const course = item.course || deriveCourseName({ topic: item.topic }) || getCustomCourseName(item);
-    if (!tree.has(course)) tree.set(course, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, topics: new Map() });
+    const course = item.course || getCustomCourseName(item);
+    addEmptyCourseNode(tree, course);
     const c = tree.get(course);
     if (!c.topics.has(item.topic)) c.topics.set(item.topic, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, subs: new Map() });
     const t = c.topics.get(item.topic);
-    if (!t.subs.has(item.subtopic)) t.subs.set(item.subtopic, { key: [course, item.topic, item.subtopic].join('|||'), total: 0, single: 0, multiple: 0, fill: 0, short: 0 });
+    if (!t.subs.has(item.subtopic)) t.subs.set(item.subtopic, { key: [course, item.topic, item.subtopic].join("|||"), total: 0, single: 0, multiple: 0, fill: 0, short: 0 });
   });
+  // ????????????
+  if (typeof BUILTIN_DOCS !== 'undefined') {
+    Object.keys(BUILTIN_DOCS).forEach(function(course) {
+      if (!tree.has(course)) {
+        addEmptyCourseNode(tree, course);
+      }
+    });
+  }
   topicHierarchyCache = [...tree.entries()].sort((a,b)=>a[0].localeCompare(b[0],'zh-CN'));
   return topicHierarchyCache;
 
+  function addEmptyCourseNode(tree, course) {
+    if (!tree.has(course)) tree.set(course, { total: 0, single: 0, multiple: 0, fill: 0, short: 0, topics: new Map() });
+  }
+
   function getCustomCourseName(item) {
-    // 尝试从已有题目推断课程名
-    const existing = questions.filter(q => q.topic === item.topic);
+    // 1. 从 customCourses 中查找该 topic 所属的课程
+    const edits = loadQuestionEdits();
+    if (Array.isArray(edits.customCourses)) {
+      for (var i = 0; i < edits.customCourses.length; i++) {
+        var cc = edits.customCourses[i];
+        if (cc.topics && cc.topics.indexOf(String(item.topic || '')) !== -1) return cc.course;
+      }
+    }
+    // 2. 从已有题目推断课程名
+    const existing = questions.filter(function(q) { return q.topic === item.topic; });
     if (existing.length > 0) return questionCourse(existing[0]);
-    // 从已有树中找匹配的课程
+    // 3. 从已有树中找匹配的课程
     for (const [course, info] of tree) {
       if (info.topics.has(item.topic)) return course;
     }

@@ -56,6 +56,7 @@ No module system — all functions are global. The two computer-org files define
 | `manifest.json` | PWA config (name: 超时空辉夜姬, icon: 3.png) |
 | `sw.js` | Service Worker — pre-caches app shell. Cache name `quiz-v11`. Registration uses `sw.js?v=11` to bust HTTP cache. Bump cache name in sw.js AND the `?v=N` in both index.html/practice.html when updating SW. |
 | `package.json` / `electron-main.js` / `electron-builder.yml` | Electron desktop packaging |
+| `style.css` | All styles. Key sections: `:root` vars (line 1), auth overlays (~345), admin manager (~600), topic manager (~1130), topic tree cards (~1440), practice UI scattered throughout. Admin panel uses its own `--admin-*` CSS custom properties (defined in `:root`) for a cohesive light-luxury theme. |
 
 ### Page Dispatch
 
@@ -117,6 +118,27 @@ function openMyDialog() {
   // bind buttons, auto-focus inputs, etc.
 }
 ```
+
+### ⚠️ Template String Quoting Pitfall
+
+When writing `innerHTML = \`...\`` template strings for overlay content, **always use straight double quotes `"` for HTML attributes**, never smart/curly quotes (`"` U+201C, `"` U+201D). Smart quotes look identical in most editors but break HTML parsing — the browser won't recognize them as attribute delimiters, causing the entire overlay to render broken or freeze. If an overlay appears blank or stuck after editing its template, check for smart quotes first.
+
+### Admin Overlays (all in ui.js)
+
+| Overlay | Function | CSS Classes | Key Element IDs |
+|---------|----------|-------------|-----------------|
+| Password gate | `ensureAdminUnlocked()` (line 1168) | `auth-overlay admin-password-overlay` / `auth-card` | `adminPasswordInput`, `adminPasswordSubmit`, `adminPasswordError` |
+| Question manager | `renderQuestionManager()` (line 1765) | `admin-manager-overlay` / `admin-manager-card` | `adminSearchInput`, `adminTopicFilter`, `adminAddBtn`, `adminImportBankBtn`, `adminQuestionForm`, `adminOptionsArea`, etc. — **all IDs must be preserved** when editing templates |
+| Invite code manager | `openInviteManageDialog()` (line 1211) | `auth-overlay` / `auth-card` | `inviteCreateBtn`, `inviteCodeList`, `inviteManageStatus` |
+| Password change | `openAdminPasswordChangeDialog()` (line 1347) | `auth-overlay` / `auth-card` | `adminOldPasswordInput`, `adminNewPasswordInput`, `adminConfirmPasswordInput` |
+| Simple topic manager | `openTopicManagerDialog()` (line 1499) | `topic-manager-overlay` / `topic-manager-card` | `topicAddInput`, `topicRenameInput`, `topicOldSelect` |
+| Advanced topic manager | `openAdvancedTopicManagerDialog()` (line 1592) | `advanced-topic-mgr-card` | `advAddTopicBtn`, `advAddSubBtn`, `topicMgrContent` |
+
+CSS for these overlays lives in distinct `style.css` sections:
+- Auth overlays: `/* ── 管理后台：通用认证覆层 ── */` — applies to password gate, password change, invite manager, topic managers
+- Question manager: `/* ═════ 题库管理 — 主覆层 ═════ */` — largest CSS block (~200 lines), includes toolbar, list sidebar, form, responsive
+- Topic managers: `/* ═════ 专题管理（简单 & 高级）═════ */`
+- Invite codes: `/* ═════ 邀请码管理专属样式 ═════ */`
 
 ## Testing with Playwright
 
@@ -204,3 +226,33 @@ The home page has two start-area buttons: **「开始刷题」** (`#restartHomeB
 ## Supabase RLS (security)
 
 The public anon key is shipped in `config.js` (client-only app), so RLS is the only real data protection. Current policy on `study_progress` and `question_notes`: **SELECT / INSERT / UPDATE allowed; DELETE denied by default**, EXCEPT a dedicated policy allowing DELETE of rows where `deck_key like 'history:%'` (so history records can be deleted but progress/bank/password rows cannot). When adding features that delete cloud rows, account for this — either use a `history:`-prefixed key, soft-delete via UPDATE, or add a narrowly-scoped DELETE policy.
+
+
+## 开发经验：Pointer Events 自定义拖拽 + 图片元素
+
+如果被拖元素内有 `<img>` 标签，浏览器默认会触发图片拖拽（drag image ghost）。必须三管齐下：
+1. 元素加 `draggable="false"`
+2. `<img>` 加 `draggable="false"`
+3. `pointerdown` 事件里调 `e.preventDefault()`
+
+缺任何一个都可能在某些浏览器上出问题。不要只做其中一个就以为搞定了。
+
+
+## 开发经验：中文文件编码与 server.js
+
+1. **Python 写入 JS 文件时确保输出 UTF-8**：
+   - Python `open(path, "w", encoding="utf-8")` 正确。
+   - PowerShell `Set-Content -Encoding UTF8` 在某些情况下会写 BOM，不要用它写代码文件。
+
+2. **server.js 必须加 `charset=utf-8`**：
+   - 所有 `text/html`、`application/javascript`、`text/css` 等文本类 MIME 要加 `; charset=utf-8`，否则浏览器默认按系统编码(GBK)解码中文，全是乱码。
+
+3. **server.js 必须 `decodeURIComponent(url)`**：
+   - 含中文的 URL 会被浏览器自动编码为 `%E7%BA%BF%E4%BB%A3...`，server 用 `path.join` 之前要先解码，否则找不到文件 404。
+
+4. **测试中文 URL 时不要用 Python urllib**：
+   - Python urllib 不支持直接发中文 URL，要用 `urllib.parse.quote()` 编码。
+   - 更简单：直接用浏览器打开，看 Network 面板确认 200。
+
+5. **查看文件真实编码**：
+   - 用 Python `open(path, "rb").read()` 看原始字节，不要信 PowerShell `Get-Content` 的输出（它默认用系统编码解码）。

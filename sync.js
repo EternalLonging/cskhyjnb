@@ -232,7 +232,143 @@ function saveQuestionEdits(edits) {
 function setupPasswordGate(onReady) {
   // 新版删除了统一访问密码，改为"同步码 + 邀请码"。
   document.body.classList.remove('auth-locked');
+  if (isLocallyAiBanned()) {
+    showAiBanOverlay(readLocalAiBanRecord());
+    return;
+  }
   setupSyncGate(onReady);
+}
+
+function readLocalAiBanRecord() {
+  try { return JSON.parse(localStorage.getItem(AI_BAN_LOCAL_STORAGE) || 'null') || null; } catch (err) { return null; }
+}
+
+function isLocallyAiBanned() {
+  const record = readLocalAiBanRecord();
+  if (!record?.banned) return false;
+  if (record.expiresAt && Number(record.expiresAt) <= Date.now()) {
+    localStorage.removeItem(AI_BAN_LOCAL_STORAGE);
+    return false;
+  }
+  return true;
+}
+
+function writeLocalAiBanRecord(record) {
+  const days = record?.days === undefined || record?.days === null ? null : Math.max(1, Math.min(3650, Number(record.days) || 0));
+  const minutes = record?.minutes === undefined || record?.minutes === null ? null : Math.max(1, Math.min(1440, Number(record.minutes) || 0));
+  const bannedAt = Number(record?.bannedAt || Date.now());
+  const expiresAt = Number(record?.expiresAt || (minutes ? bannedAt + minutes * 60 * 1000 : (days ? bannedAt + days * 24 * 60 * 60 * 1000 : 0)));
+  const saved = {
+    banned: true,
+    reason: String(record?.reason || '辱骂或恶意攻击 AI').trim(),
+    syncKey: String(record?.syncKey || '').trim(),
+    source: String(record?.source || 'ai'),
+    days: days || null,
+    minutes: minutes || null,
+    bannedAt,
+    expiresAt: expiresAt || null,
+  };
+  localStorage.setItem(AI_BAN_LOCAL_STORAGE, JSON.stringify(saved));
+  return saved;
+}
+
+function showAiBanOverlay(record) {
+  document.body.classList.add('auth-locked');
+  document.querySelectorAll('.auth-overlay').forEach(el => el.remove());
+  document.getElementById('aiBanOverlay')?.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'aiBanOverlay';
+  overlay.className = 'auth-overlay ai-ban-overlay';
+  const reason = escapeHtml(record?.reason || '辱骂或恶意攻击 AI');
+  const time = record?.bannedAt ? new Date(record.bannedAt).toLocaleString() : '';
+  const expires = record?.expiresAt ? new Date(record.expiresAt).toLocaleString() : '';
+  overlay.innerHTML = `
+    <div class="auth-card sync-card ai-ban-card">
+      <h1>账号已被 AI 封禁</h1>
+      <p>你的访问已被暂停。原因：${reason}</p>
+      ${time ? `<span class="auth-hint">封禁时间：${escapeHtml(time)}</span>` : ''}
+      ${expires ? `<span class="auth-hint">解封时间：${escapeHtml(expires)}</span>` : '<span class="auth-hint">封禁时长：永久</span>'}
+      <span class="auth-hint">如需恢复，请联系管理员处理。</span>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+}
+
+async function loadAiBanFromCloud(syncKey) {
+  const key = String(syncKey || '').trim();
+  if (!key) return null;
+  const client = initSupabaseClient();
+  if (!client) return null;
+  try {
+    const { data, error } = await client.from('study_progress')
+      .select('state,updated_at')
+      .eq('sync_key', key)
+      .eq('deck_key', AI_BAN_DECK_KEY)
+      .maybeSingle();
+    if (error) throw error;
+    if (data?.state?.banned) {
+      const expiresAt = Number(data.state.expiresAt || 0);
+      if (expiresAt && expiresAt <= Date.now()) {
+        localStorage.removeItem(AI_BAN_LOCAL_STORAGE);
+        return null;
+      }
+      return writeLocalAiBanRecord({
+        ...data.state,
+        syncKey: key,
+        bannedAt: Number(data.state.bannedAt || new Date(data.updated_at || 0).getTime() || Date.now()),
+      });
+    }
+  } catch (err) {
+    console.warn('读取 AI 封禁状态失败：', err);
+  }
+  return null;
+}
+
+function saveAiBanToCloud(record) {
+  const key = String(record?.syncKey || syncState.key || localStorage.getItem(SYNC_KEY_STORAGE) || '').trim();
+  if (!key) return;
+  const client = syncState.client || initSupabaseClient();
+  if (!client) return;
+  const state = {
+    banned: true,
+    reason: String(record?.reason || '辱骂或恶意攻击 AI').trim(),
+    source: String(record?.source || 'ai'),
+    days: record?.days || null,
+    minutes: record?.minutes || null,
+    bannedAt: Number(record?.bannedAt || Date.now()),
+    expiresAt: record?.expiresAt || null,
+  };
+  client.from('study_progress').upsert({
+    sync_key: key,
+    deck_key: AI_BAN_DECK_KEY,
+    state,
+    updated_at: new Date(state.bannedAt).toISOString(),
+  }).then(({ error }) => {
+    if (error) console.warn('保存 AI 封禁状态失败：', error);
+  });
+}
+
+function clearAccessAfterAiBan() {
+  localStorage.removeItem(ACCESS_MODE_STORAGE);
+  localStorage.removeItem(SYNC_KEY_STORAGE);
+  localStorage.removeItem(INVITE_AUTH_STORAGE);
+  localStorage.removeItem(PROGRESS_KEY);
+}
+
+function banCurrentUserByAi(banInfo) {
+  const info = typeof banInfo === 'object' && banInfo ? banInfo : { reason: banInfo };
+  const record = writeLocalAiBanRecord({
+    reason: info.reason,
+    days: info.days,
+    minutes: info.minutes,
+    syncKey: syncState.key || localStorage.getItem(SYNC_KEY_STORAGE) || '',
+    source: 'ai',
+    bannedAt: Date.now(),
+  });
+  saveAiBanToCloud(record);
+  clearAccessAfterAiBan();
+  showAiBanOverlay(record);
+  return record;
 }
 
 function readInviteAuthMap() {
@@ -659,6 +795,11 @@ async function setupSyncGate(onReady) {
   if (mode === ACCESS_MODE_SYNC) {
     if (!savedKey) {
       showSyncOverlay(onReady);
+      return;
+    }
+    const banRecord = await loadAiBanFromCloud(savedKey);
+    if (banRecord || isLocallyAiBanned()) {
+      showAiBanOverlay(banRecord || readLocalAiBanRecord());
       return;
     }
     // initSync 内部已经加载题库修改、管理密码、专题标签和进度，这里不要重复请求。
@@ -1300,6 +1441,12 @@ function progressHasAttempts(progress) {
 // 退出路径专用：仅当本轮有题池且做过题才归档。返回 Promise（云端）以便调用方 await 再跳转。
 function archiveRoundIfAttempted(progress) {
   if (progress && Array.isArray(progress.pool) && progress.pool.length && progressHasAttempts(progress)) {
+    // 从历史记录恢复后没有新增答题 → 跳过归档，避免用 finished=false 覆盖原已完成记录
+    const restoredLen = Number(progress.restoredHistoryLen || 0);
+    const curLen = Array.isArray(progress.history) ? progress.history.length : 0;
+    if (restoredLen > 0 && curLen <= restoredLen) {
+      return Promise.resolve(false);
+    }
     try { return Promise.resolve(archiveRound(false, progress)); }
     catch (err) { console.warn('存档历史失败：', err); }
   }

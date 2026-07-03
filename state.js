@@ -8,6 +8,7 @@ const state = {
   right: 0, wrong: 0, current: null, settings: null,
   history: [], historyOpen: false, drafts: {}, autoTimer: null,
   wrongReplayCount: 0, progressRestored: false, roundId: null,
+  restoredHistoryLen: 0,
 };
 
 function getWrongIds() {
@@ -78,6 +79,7 @@ function saveProgress() {
     checked: state.checked,
     wrongReplayCount: state.wrongReplayCount,
     roundId: state.roundId,
+    restoredHistoryLen: state.restoredHistoryLen,
     savedAt: Date.now(),
   };
   localStorage.setItem(PROGRESS_KEY, JSON.stringify(payload));

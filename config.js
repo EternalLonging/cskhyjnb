@@ -21,6 +21,43 @@ const FORCE_RESTART_KEY = 'quiz_force_restart_v1';
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
 const AUTO_NEXT_DELAY = 420;
 
+// AI 解析配置：默认走本机 Ollama；配置 PUBLIC_AI_ENDPOINT 后走公网 API。
+const LOCAL_AI_ENDPOINT = 'http://127.0.0.1:11434/api/chat';
+const LOCAL_AI_DEFAULT_MODEL = 'violet:latest';
+const PUBLIC_AI_ENDPOINT_STORAGE = 'quiz_public_ai_endpoint_v1';
+const PUBLIC_AI_TOKEN_STORAGE = 'quiz_public_ai_token_v1';
+const PUBLIC_AI_MODEL_STORAGE = 'quiz_public_ai_model_v1';
+let PUBLIC_AI_ENDPOINT = '';
+let PUBLIC_AI_TOKEN = '';
+let LOCAL_AI_MODEL = LOCAL_AI_DEFAULT_MODEL;
+let AI_CHAT_ENDPOINT = LOCAL_AI_ENDPOINT;
+
+function refreshAiConfig() {
+  PUBLIC_AI_ENDPOINT = normalizeAiEndpoint(localStorage.getItem(PUBLIC_AI_ENDPOINT_STORAGE) || '');
+  PUBLIC_AI_TOKEN = localStorage.getItem(PUBLIC_AI_TOKEN_STORAGE) || '';
+  LOCAL_AI_MODEL = localStorage.getItem(PUBLIC_AI_MODEL_STORAGE) || LOCAL_AI_DEFAULT_MODEL;
+  AI_CHAT_ENDPOINT = PUBLIC_AI_ENDPOINT || LOCAL_AI_ENDPOINT;
+}
+refreshAiConfig();
+
+// 自动补全 API 地址：用户填根域名时自动加上 /chat/completions
+function normalizeAiEndpoint(url) {
+  const trimmed = String(url || '').trim();
+  if (!trimmed) return '';
+  // 已经包含 chat 路径，直接用
+  if (/\/chat\/completions/i.test(trimmed) || /\/api\/chat$/i.test(trimmed)) return trimmed;
+  // 移除末尾斜杠
+  let base = trimmed.replace(/\/+$/, '');
+  // 如果是 127.0.0.1 / localhost 且没有路径，当作 Ollama
+  if (/127\.0\.0\.1|localhost/i.test(base) && !/\/api\//i.test(base)) {
+    return base + '/api/chat';
+  }
+  // 其他情况当作 OpenAI 兼容 API
+  return base + '/chat/completions';
+}
+const AI_BAN_LOCAL_STORAGE = 'quiz_ai_ban_v1';
+const AI_BAN_DECK_KEY = '__ai_ban_v1__';
+
 
 // Supabase 同步配置：Project URL 必须是 https://xxxx.supabase.co，不带 /rest/v1/。
 const SUPABASE_URL = 'https://mcesiailoesdmrugfijo.supabase.co';

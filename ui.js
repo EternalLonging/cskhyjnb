@@ -1,4 +1,4 @@
-// ui.js — 所有 DOM 渲染：首页、答题页、管理面板、导入/导出
+﻿// ui.js — 所有 DOM 渲染：首页、答题页、管理面板、导入/导出
 // 依赖：config.js, utils.js, data.js, sync.js, state.js
 
 function loadAllNotes() {
@@ -332,7 +332,7 @@ function initTopics() {
       <summary class="topic-course-summary">
         <div class="topic-summary-main">
           <input type="checkbox" class="groupCheck" aria-label="选择 ${escapeHtml(course)} 全部小专题" />
-          <span><b>${escapeHtml(course)}</b><small>${countSummaryText(cInfo)}</small></span>
+          <span><b class="course-name-click">${escapeHtml(course)}</b><small>${countSummaryText(cInfo)}</small></span>
         </div>
         <span class="topic-expand-hint topic-expand-only">展开</span>
       </summary>
@@ -344,6 +344,23 @@ function initTopics() {
       </div>
     </details>`;
   }).join('') || '<div class="admin-empty">没有找到匹配的专题。</div>';
+  // 追加资料课程到同一个列表
+  if (typeof BUILTIN_DOCS !== 'undefined') {
+    var existingCourses = new Set(tree.map(function(p) { return p[0]; }));
+    Object.keys(BUILTIN_DOCS).forEach(function(course) {
+      if (existingCourses.has(course)) return;
+      var totalPages = 0;
+      BUILTIN_DOCS[course].forEach(function(d) { totalPages += d.pages.length; });
+      topicList.innerHTML += '<div class="topic-group topic-course topic-course-card" data-course="' + escapeHtml(course) + '" data-docs-only="1">' +
+        '<div class="topic-course-summary">' +
+          '<div class="topic-summary-main">' +
+            '<span><b class="course-name-click">' + escapeHtml(course) + '</b><small>' + totalPages + ' 页 · ' + BUILTIN_DOCS[course].length + ' 份资料</small></span>' +
+          '</div>' +
+          '<span class="topic-expand-hint topic-expand-only">展开</span>' +
+        '</div>' +
+      '</div>';
+    });
+  }
   document.querySelectorAll('.topic-course-summary').forEach(summary => {
     summary.addEventListener('click', event => {
       const groupEl = summary.closest('.topic-group');
@@ -426,6 +443,30 @@ function initTopics() {
     });
   }));
   updateAllGroupStates();
+
+  // 添加课程按钮
+  var addCourseBtn = document.getElementById('addCourseBtn');
+  if (addCourseBtn) {
+    addCourseBtn.addEventListener('click', function() {
+      ensureAdminUnlocked(function() {
+        var name = prompt('新课程（小方块）名称：');
+        if (!name || !name.trim()) return;
+        try { addCustomCourse(name.trim()); } catch(err) { alert(err.message); return; }
+        initTopics();
+      });
+    });
+  }
+  // 点击课程名 → 打开详情弹窗
+  topicList.querySelectorAll('.course-name-click').forEach(function(nameEl) {
+    nameEl.style.cursor = 'pointer';
+    nameEl.addEventListener('click', function(ev) {
+      ev.stopPropagation();
+      ev.preventDefault();
+      var card = nameEl.closest('.topic-course-card');
+      if (!card) return;
+      openTopicDetail(card.dataset.course, buildTopicHierarchy());
+    });
+  });
 }
 
 function selectedTopics() {
@@ -679,6 +720,7 @@ function resetWrongQuestionForRetry(record) {
   $('showBtn')?.classList.remove('hidden');
   $('retryWrongBtn')?.classList.add('hidden');
   $('nextBtn')?.classList.add('hidden');
+  { const jb = $('localAiJudgeBtn'); if (jb) jb.style.display = isChoiceType(q.type) ? 'none' : ''; }
   renderQuestionNotes(state.current);
 }
 
@@ -731,6 +773,7 @@ function renderQuestion() {
   $('showBtn')?.classList.remove('hidden');
   $('retryWrongBtn')?.classList.add('hidden');
   $('nextBtn')?.classList.add('hidden');
+  { const jb = $('localAiJudgeBtn'); if (jb) jb.style.display = isChoiceType(q.type) ? 'none' : ''; }
   if ($('nextBtn')) $('nextBtn').textContent = '下一题';
   if ($('questionMeta')) $('questionMeta').innerHTML = `<span>第 ${state.currentIndex + 1} / ${state.pool.length} 题</span><span>${escapeHtml(q.topic)}</span><span>${renderTypeName(q.type)}</span><span>原题号 ${q.number}</span>${isChoiceType(q.type) ? `<span>${q.optionShuffled ? '选项已乱序' : '选项未乱序'}</span>` : ''}`;
   if ($('questionText')) $('questionText').innerHTML = renderMarkdown(q.text);
@@ -2670,4 +2713,625 @@ function resumeFromHistory(record) {
     try { saveSettings(payload.settings); } catch (err) {}
   }
   window.location.href = 'practice.html';
+}
+
+
+// === 课程详情弹窗 ===
+
+function openTopicDetail(course, tree) {
+  var cInfo = tree.find(function(p) { return p[0] === course; });
+  if (!cInfo) return;
+  var info = cInfo[1];
+
+  var topicRows = [];
+  info.topics.forEach(function(tInfo, topic) {
+    var subRows = [];
+    tInfo.subs.forEach(function(sInfo, sub) {
+      subRows.push('<div class="topic-detail-sub">' +
+        '<label class="topic-detail-sub-check"><input type="checkbox" class="detail-sub-check" data-course="' + escapeHtml(course) + '" data-topic="' + escapeHtml(topic) + '" data-sub="' + escapeHtml(sub) + '" /></label>' +
+        '<div class="topic-detail-sub-info">' +
+          '<span class="topic-detail-sub-name">' + escapeHtml(sub) + '</span>' +
+          '<small>' + countSummaryText(sInfo) + '</small>' +
+        '</div>' +
+        '<div class="topic-detail-sub-btns">' +
+          '<button class="detail-rename-subtopic-btn btn-edit-xs" type="button" data-course="' + escapeHtml(course) + '" data-topic="' + escapeHtml(topic) + '" data-sub="' + escapeHtml(sub) + '">改名</button>' +
+          '<button class="detail-delete-subtopic-btn btn-danger-xs" type="button" data-course="' + escapeHtml(course) + '" data-topic="' + escapeHtml(topic) + '" data-sub="' + escapeHtml(sub) + '">删</button>' +
+        '</div>' +
+        '</div>');
+    });
+    topicRows.push('<details class="topic-detail-topic">' +
+      '<summary class="topic-detail-topic-summary">' +
+        '<label class="topic-detail-topic-check"><input type="checkbox" class="detail-topic-check" data-course="' + escapeHtml(course) + '" data-topic="' + escapeHtml(topic) + '" /></label>' +
+        '<div class="topic-detail-topic-info">' +
+          '<span><b>' + escapeHtml(topic) + '</b><small>' + countSummaryText(tInfo) + '</small></span>' +
+        '</div>' +
+        '<div class="topic-detail-topic-btns">' +
+          '<button class="detail-rename-topic-btn btn-edit-xs" type="button" data-course="' + escapeHtml(course) + '" data-topic="' + escapeHtml(topic) + '">改名</button>' +
+          '<button class="detail-delete-topic-btn btn-danger-xs" type="button" data-course="' + escapeHtml(course) + '" data-topic="' + escapeHtml(topic) + '">删</button>' +
+        '</div>' +
+      '</summary>' +
+      '<div class="topic-detail-subs">' + (subRows.length ? subRows.join('') : '<div class="topic-empty">无小专题</div>') + '</div>' +
+      '<button class="detail-add-subtopic-btn btn-add-xs" type="button" data-course="' + escapeHtml(course) + '" data-topic="' + escapeHtml(topic) + '">+ 添加小专题</button>' +
+      '</details>');
+  });
+
+  var overlay = document.createElement('div');
+  overlay.className = 'topic-detail-overlay';
+  overlay.innerHTML =
+    '<div class="topic-detail-card">' +
+    '<div class="topic-detail-header">' +
+      '<h2>' + escapeHtml(course) + '</h2>' +
+      '<div class="topic-detail-hdr-btns">' +
+        '<button class="detail-toggle-all-btn link-btn" type="button">全选/反选</button>' +
+        '<button class="detail-start-btn btn-go-sm" type="button">开始刷题（已选 0 项）</button>' +
+        '<button class="detail-docs-btn btn-edit-sm" type="button">资料</button>' +
+        '<button class="detail-rename-course-btn btn-edit-sm" type="button">重命名</button>' +
+        '<button class="detail-delete-course-btn btn-danger-sm" type="button">删除课程</button>' +
+        '<button class="topic-detail-close" type="button">&times;</button>' +
+      '</div>' +
+    '</div>' +
+    '<div class="topic-detail-stats">' + countSummaryText(info) + '</div>' +
+    '<div class="topic-detail-desc"><div class="topic-detail-desc-label">简介</div><div class="topic-detail-desc-text" id="topicDescText">' + (getCourseDescription(course) ? escapeHtml(getCourseDescription(course)) : '<span style="color:#999;font-style:italic;">暂无简介，点击编辑按钮添加</span>') + '</div><button class="detail-edit-desc-btn btn-edit-xs" type="button" id="editDescBtn">编辑</button></div>' +
+    '<div class="topic-detail-topics">' + (topicRows.length ? topicRows.join('') : '<div class="topic-empty">无专题</div>') + '</div>' +
+    '<button class="detail-add-topic-btn btn-add-sm" type="button">+ 添加专题</button>' +
+    '</div>';
+  document.body.appendChild(overlay);
+
+  function updateStartBtn() {
+    var cnt = overlay.querySelectorAll('.detail-topic-check:checked, .detail-sub-check:checked').length;
+    var btn = overlay.querySelector('.detail-start-btn');
+    if (btn) btn.textContent = '开始刷题（已选 ' + cnt + ' 项）';
+  }
+
+  // 预选
+  document.querySelectorAll('.topicCheck:checked').forEach(function(ext) {
+    if (ext.dataset.course !== course) return;
+    var parts = ext.value.split('|||');
+    var extTopic = parts[1];
+    var extSub = parts[2];
+    if (extSub) {
+      var subCb = overlay.querySelector('.detail-sub-check[data-topic="' + CSS.escape(extTopic) + '"][data-sub="' + CSS.escape(extSub) + '"]');
+      if (subCb) subCb.checked = true;
+    }
+    if (extTopic) {
+      var topicCb = overlay.querySelector('.detail-topic-check[data-topic="' + CSS.escape(extTopic) + '"]');
+      if (topicCb) {
+        var allSubs = overlay.querySelectorAll('.detail-sub-check[data-topic="' + CSS.escape(extTopic) + '"]');
+        var checkedSubs = overlay.querySelectorAll('.detail-sub-check[data-topic="' + CSS.escape(extTopic) + '"]:checked');
+        if (checkedSubs.length === allSubs.length) topicCb.checked = true;
+        else if (checkedSubs.length > 0) topicCb.indeterminate = true;
+      }
+    }
+  });
+  updateStartBtn();
+
+  // 中专题 checkbox → 联动子专题
+  overlay.querySelectorAll('.detail-topic-check').forEach(function(cb) {
+    cb.addEventListener('change', function() {
+      var t = this.dataset.topic;
+      overlay.querySelectorAll('.detail-sub-check[data-topic="' + CSS.escape(t) + '"]').forEach(function(sc) { sc.checked = cb.checked; });
+      updateStartBtn();
+    });
+  });
+
+  // 子专题 checkbox → 更新父专题
+  overlay.querySelectorAll('.detail-sub-check').forEach(function(cb) {
+    cb.addEventListener('change', function() {
+      var t = this.dataset.topic;
+      var all = overlay.querySelectorAll('.detail-sub-check[data-topic="' + CSS.escape(t) + '"]');
+      var checked = overlay.querySelectorAll('.detail-sub-check[data-topic="' + CSS.escape(t) + '"]:checked');
+      var topicCb = overlay.querySelector('.detail-topic-check[data-topic="' + CSS.escape(t) + '"]');
+      if (topicCb) {
+        topicCb.checked = checked.length === all.length;
+        topicCb.indeterminate = checked.length > 0 && checked.length < all.length;
+      }
+      updateStartBtn();
+    });
+  });
+
+  // 关闭
+  overlay.querySelector('.topic-detail-close').addEventListener('click', function() { overlay.remove(); });
+  // 编辑简介
+  var descTextEl = overlay.querySelector('#topicDescText');
+  overlay.querySelector('#editDescBtn').addEventListener('click', function() {
+    var btn = this;
+    if (btn.textContent === '保存') return;
+    var ta = document.createElement('textarea');
+    ta.className = 'topic-detail-desc-editor';
+    ta.value = getCourseDescription(course);
+    ta.placeholder = '输入课程简介...';
+    descTextEl.replaceWith(ta);
+    btn.textContent = '保存';
+    btn.addEventListener('click', function saveDesc() {
+      var text = ta.value.trim();
+      setCourseDescription(course, text);
+      var div = document.createElement('div');
+      div.className = 'topic-detail-desc-text';
+      div.id = 'topicDescText';
+      div.innerHTML = text ? escapeHtml(text) : '<span style="color:#999;font-style:italic;">暂无简介，点击编辑按钮添加</span>';
+      ta.replaceWith(div);
+      descTextEl = div;
+      btn.textContent = '编辑';
+      btn.removeEventListener('click', saveDesc);
+    }, { once: true });
+  });
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+
+  
+  // 全选/反选
+  overlay.querySelector('.detail-toggle-all-btn').addEventListener('click', function() {
+    var allTopicCbs = overlay.querySelectorAll('.detail-topic-check');
+    var allSubCbs = overlay.querySelectorAll('.detail-sub-check');
+    var allChecked = overlay.querySelectorAll('.detail-topic-check:checked, .detail-sub-check:checked');
+    var toggle = allChecked.length < allTopicCbs.length + allSubCbs.length;
+    allTopicCbs.forEach(function(cb) { cb.checked = toggle; cb.indeterminate = false; });
+    allSubCbs.forEach(function(cb) { cb.checked = toggle; });
+    updateStartBtn();
+  });
+// 开始刷题
+  overlay.querySelector('.detail-start-btn').addEventListener('click', function() {
+    var keys = new Set();
+    overlay.querySelectorAll('.detail-topic-check:checked').forEach(function(cb) {
+      var t = cb.dataset.topic;
+      var subChecked = overlay.querySelectorAll('.detail-sub-check[data-topic="' + CSS.escape(t) + '"]:checked');
+      if (subChecked.length === 0) {
+        questions.forEach(function(q) {
+          if (questionCourse(q) !== course) return;
+          if (questionTopic(q) === t) keys.add(questionPathKey(q));
+        });
+      } else {
+        subChecked.forEach(function(sc) {
+          questions.forEach(function(q) {
+            if (questionCourse(q) !== course) return;
+            if (questionTopic(q) !== t) return;
+            if (questionSubtopic(q) === sc.dataset.sub) keys.add(questionPathKey(q));
+          });
+        });
+      }
+    });
+    overlay.querySelectorAll('.detail-sub-check:checked').forEach(function(sc) {
+      var t = sc.dataset.topic;
+      if (!overlay.querySelector('.detail-topic-check[data-topic="' + CSS.escape(t) + '"]:checked')) {
+        questions.forEach(function(q) {
+          if (questionCourse(q) !== course) return;
+          if (questionTopic(q) !== t) return;
+          if (questionSubtopic(q) === sc.dataset.sub) keys.add(questionPathKey(q));
+        });
+      }
+    });
+    if (!keys.size) { alert('请至少选择一个专题或小专题。'); return; }
+    document.querySelectorAll('.topicCheck').forEach(function(c) { c.checked = false; });
+    keys.forEach(function(k) {
+      var cb = document.querySelector('.topicCheck[value="' + CSS.escape(k) + '"]');
+      if (cb) cb.checked = true;
+    });
+    updateAllGroupStates();
+    saveSettings(collectHomeSettings());
+    overlay.remove();
+    goPractice();
+  });
+
+  // --- 管理操作 ---
+
+
+  // 资料库
+  overlay.querySelector('.detail-docs-btn').addEventListener('click', function() {
+    openCourseDocumentsDialog(course);
+  });
+  // 重命名课程
+  overlay.querySelector('.detail-rename-course-btn').addEventListener('click', function() {
+    var newName = prompt('重命名课程 "' + course + '" 为：', course);
+    if (!newName || !newName.trim() || newName.trim() === course) return;
+    ensureAdminUnlocked(function() {
+      try { renameCourse(course, newName.trim()); } catch(err) { alert(err.message); return; }
+      overlay.remove();
+      initTopics();
+    });
+  });
+
+  // 删除课程
+  overlay.querySelector('.detail-delete-course-btn').addEventListener('click', function() {
+    if (!confirm('确定删除课程 "' + course + '" 及其所有题目？此操作不可恢复。')) return;
+    ensureAdminUnlocked(function() {
+      deleteCourse(course);
+      overlay.remove();
+      initTopics();
+    });
+  });
+
+  // 添加专题
+  overlay.querySelector('.detail-add-topic-btn').addEventListener('click', function() {
+    var topicName = prompt('在 "' + course + '" 下添加专题名：');
+    if (!topicName || !topicName.trim()) return;
+    ensureAdminUnlocked(function() {
+      try { addTopicToCourse(course, topicName.trim()); } catch(err) { alert(err.message); return; }
+      overlay.remove();
+      initTopics();
+    });
+  });
+
+  // 重命名专题
+  overlay.querySelectorAll('.detail-rename-topic-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(ev) {
+      ev.stopPropagation();
+      var oldName = btn.dataset.topic;
+      var newName = prompt('重命名专题 "' + oldName + '" 为：', oldName);
+      if (!newName || !newName.trim() || newName.trim() === oldName) return;
+      ensureAdminUnlocked(function() {
+        try { renameTopic(course, oldName, newName.trim()); } catch(err) { alert(err.message); return; }
+        overlay.remove();
+        initTopics();
+      });
+    });
+  });
+
+  // 删除专题
+  overlay.querySelectorAll('.detail-delete-topic-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(ev) {
+      ev.stopPropagation();
+      var t = btn.dataset.topic;
+      if (!confirm('确定删除专题 "' + t + '" 及其所有题目？')) return;
+      ensureAdminUnlocked(function() {
+        deleteTopic(course, t);
+        overlay.remove();
+        initTopics();
+      });
+    });
+  });
+
+  // 添加小专题
+  overlay.querySelectorAll('.detail-add-subtopic-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(ev) {
+      ev.stopPropagation();
+      var t = btn.dataset.topic;
+      var subName = prompt('在 "' + t + '" 下添加小专题名：');
+      if (!subName || !subName.trim()) return;
+      ensureAdminUnlocked(function() {
+        try { addSubTopic(course, t, subName.trim()); } catch(err) { alert(err.message); return; }
+        overlay.remove();
+        initTopics();
+      });
+    });
+  });
+
+  // 重命名小专题
+  overlay.querySelectorAll('.detail-rename-subtopic-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(ev) {
+      ev.stopPropagation();
+      var t = btn.dataset.topic;
+      var oldSub = btn.dataset.sub;
+      var newSub = prompt('重命名小专题 "' + oldSub + '" 为：', oldSub);
+      if (!newSub || !newSub.trim() || newSub.trim() === oldSub) return;
+      ensureAdminUnlocked(function() {
+        try { renameSubTopic(course, t, oldSub, newSub.trim()); } catch(err) { alert(err.message); return; }
+        overlay.remove();
+        initTopics();
+      });
+    });
+  });
+
+  // 删除小专题
+  overlay.querySelectorAll('.detail-delete-subtopic-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(ev) {
+      ev.stopPropagation();
+      var t = btn.dataset.topic;
+      var sub = btn.dataset.sub;
+      if (!confirm('确定删除小专题 "' + sub + '" 及其所有题目？')) return;
+      ensureAdminUnlocked(function() {
+        deleteSubTopic(course, t, sub);
+        overlay.remove();
+        initTopics();
+      });
+    });
+  });
+}
+
+
+
+// === 资料库（IndexedDB，按课程隔离） ===
+
+var DOCS_DB_NAME = 'shuati_docs_db';
+var DOCS_DB_VERSION = 1;
+
+function openDocsDB() {
+  return new Promise(function(resolve, reject) {
+    var req = indexedDB.open(DOCS_DB_NAME, DOCS_DB_VERSION);
+    req.onupgradeneeded = function(e) {
+      var db = e.target.result;
+      if (!db.objectStoreNames.contains('documents')) {
+        var store = db.createObjectStore('documents', { keyPath: 'id' });
+        store.createIndex('course', 'course', { unique: false });
+      }
+    };
+    req.onsuccess = function(e) { resolve(e.target.result); };
+    req.onerror = function(e) { reject(e.target.error); };
+  });
+}
+
+function loadDocuments(course, callback) {
+  openDocsDB().then(function(db) {
+    var tx = db.transaction('documents', 'readonly');
+    var store = tx.objectStore('documents');
+    var index = store.index('course');
+    var docs = [];
+    index.openCursor(IDBKeyRange.only(course)).onsuccess = function(e) {
+      var cursor = e.target.result;
+      if (cursor) { docs.push(cursor.value); cursor.continue(); }
+      else { db.close(); callback(docs); }
+    };
+  });
+}
+
+function addDocument(course, file, callback) {
+  var reader = new FileReader();
+  reader.onload = function() {
+    openDocsDB().then(function(db) {
+      var tx = db.transaction('documents', 'readwrite');
+      var store = tx.objectStore('documents');
+      store.add({
+        id: 'doc_' + Date.now() + '_' + Math.random().toString(36).slice(2,6),
+        course: course,
+        name: file.name,
+        type: file.type,
+        size: file.size,
+        data: reader.result,
+        createdAt: Date.now()
+      });
+      tx.oncomplete = function() { db.close(); if (callback) callback(); };
+    });
+  };
+  reader.readAsDataURL(file);
+}
+
+function deleteDocument(course, id, callback) {
+  if (!confirm('确定删除这份资料吗？')) return;
+  openDocsDB().then(function(db) {
+    var tx = db.transaction('documents', 'readwrite');
+    tx.objectStore('documents').delete(id);
+    tx.oncomplete = function() { db.close(); if (callback) callback(); };
+  });
+}
+
+function viewDocument(doc) {
+  var overlay = document.createElement('div');
+  overlay.className = 'topic-detail-overlay';
+  var name = escapeHtml(doc.name);
+  var sizeText = doc.size > 1024 * 1024 ? (doc.size / 1024 / 1024).toFixed(1) + ' MB' : (doc.size / 1024).toFixed(1) + ' KB';
+  var bodyHtml = '';
+  if (doc.type.startsWith('image/')) {
+    var src = doc._builtin ? doc.data : doc.data;
+    bodyHtml = '<img src="' + src + '" style="max-width:100%;max-height:70vh;display:block;margin:0 auto;" alt="' + name + '" />';
+  } else if (doc.type === 'application/pdf') {
+    bodyHtml = '<iframe src="' + doc.data + '" style="width:100%;height:70vh;border:none;"></iframe>';
+  } else if (doc.type.startsWith('text/') || doc.name.match(/\.(txt|md|json|js|css|html|py|cpp|java)$/i)) {
+    var text = '';
+    try { var base64 = doc.data.split(',')[1]; text = atob(base64); } catch(e) { text = '无法解码文件内容。'; }
+    bodyHtml = '<pre style="max-height:70vh;overflow:auto;background:#f5f5f5;padding:16px;border-radius:6px;font-size:13px;white-space:pre-wrap;">' + escapeHtml(text) + '</pre>';
+  } else {
+    bodyHtml = '<p style="text-align:center;padding:40px;color:#999;">此文件类型不支持在线预览。<br><a href="' + doc.data + '" download="' + name + '" style="color:#2563eb;">点击下载</a></p>';
+  }
+  overlay.innerHTML =
+    '<div class="topic-detail-card" style="max-width:800px;">' +
+    '<div class="topic-detail-header">' +
+      '<h2>' + name + '</h2>' +
+      '<div class="topic-detail-hdr-btns"><button class="topic-detail-close" type="button">&times;</button></div>' +
+    '</div>' +
+    '<p style="font-size:12px;color:#999;margin-bottom:12px;">' + sizeText + ' · ' + formatTime(doc.createdAt) + '</p>' +
+    bodyHtml +
+    '</div>';
+  document.body.appendChild(overlay);
+  overlay.querySelector('.topic-detail-close').addEventListener('click', function() { overlay.remove(); });
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+}
+
+
+// ——— 课程简介（localStorage） ———
+
+function getCourseDescription(course) {
+  try { var all = JSON.parse(localStorage.getItem('shuati_course_descriptions') || '{}'); return all[course] || ''; } catch(e) { return ''; }
+}
+
+function setCourseDescription(course, text) {
+  try { var all = JSON.parse(localStorage.getItem('shuati_course_descriptions') || '{}'); all[course] = text || ''; localStorage.setItem('shuati_course_descriptions', JSON.stringify(all)); } catch(e) {}
+}
+
+
+
+function openCourseDocumentsDialog(course) {
+  document.querySelectorAll('.topic-detail-overlay').forEach(function(el) { el.remove(); });
+  // ?????????? ID
+  var hiddenBuiltin = {};
+  try { hiddenBuiltin = JSON.parse(localStorage.getItem('shuati_hidden_builtin_docs') || '{}'); } catch(e) {}
+  var hiddenSet = hiddenBuiltin[course] || [];
+  var builtinDocs = [];
+  if (typeof BUILTIN_DOCS !== 'undefined' && BUILTIN_DOCS[course]) {
+    BUILTIN_DOCS[course].forEach(function(entry) {
+      var id = 'builtin_' + course + '_' + entry.title.replace(/[^a-zA-Z0-9]/g, '_');
+      if (hiddenSet.indexOf(id) >= 0) return;
+      builtinDocs.push({
+        id: id,
+        name: entry.title,
+        type: 'builtin/docs',
+        size: entry.pages.length,
+        data: entry.pages.map(function(p) { return 'assets/docs/' + p; }),
+        createdAt: 0,
+        _builtin: true,
+        _pages: entry.pages
+      });
+    });
+  }
+  loadDocuments(course, function(docs) {
+    docs = builtinDocs.concat(docs);
+    var rows = docs.map(function(doc) {
+      var typeIcon = doc.type.startsWith('image/') ? '🖼' : doc.type === 'application/pdf' ? '📄' : '📁';
+      var sizeText = doc.size > 1024 * 1024 ? (doc.size / 1024 / 1024).toFixed(1) + ' MB' : (doc.size / 1024).toFixed(1) + ' KB';
+      return '<div class="doc-item">' +
+        '<span class="doc-icon">' + typeIcon + '</span>' +
+        '<div class="doc-info">' +
+          '<span class="doc-name">' + escapeHtml(doc.name) + '</span>' +
+          '<small>' + sizeText + ' · ' + formatTime(doc.createdAt) + '</small>' +
+        '</div>' +
+        '<div class="doc-actions">' +
+          '<button class="btn-view-doc btn-edit-xs" type="button" data-id="' + doc.id + '">查看</button>' +
+          '<button class="btn-del-doc btn-danger-xs" type="button" data-id="' + doc.id + '">删</button>' +
+        '</div>' +
+        '</div>';
+    }).join('');
+    var overlay = document.createElement('div');
+    overlay.className = 'topic-detail-overlay';
+    overlay.innerHTML =
+      '<div class="topic-detail-card">' +
+      '<div class="topic-detail-header">' +
+        '<h2>' + escapeHtml(course) + ' · 资料库</h2>' +
+        '<div class="topic-detail-hdr-btns"><button class="topic-detail-close" type="button">&times;</button></div>' +
+      '</div>' +
+      '<div class="doc-upload-area">' +
+        '<input type="file" id="docFileInput" multiple style="display:none;" accept=".pdf,.doc,.docx,.txt,.md,.png,.jpg,.jpeg,.gif,.svg,.webp,.json,.js,.css,.html,.py,.cpp,.java" />' +
+        '<button class="btn-add-sm" type="button" id="docUploadBtn">+ 上传资料</button>' +
+        '<span style="font-size:12px;color:#999;margin-left:8px;">支持 PDF、Word、图片、文本等</span>' +
+      '</div>' +
+      '<div class="doc-list">' + (rows || '<div class="topic-empty">暂无资料</div>') + '</div>' +
+      '</div>';
+    document.body.appendChild(overlay);
+    overlay.querySelector('.topic-detail-close').addEventListener('click', function() { overlay.remove(); });
+    overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+    overlay.querySelector('#docUploadBtn').addEventListener('click', function() {
+      overlay.querySelector('#docFileInput').click();
+    });
+    overlay.querySelector('#docFileInput').addEventListener('change', function() {
+      var files = this.files;
+      var self = this;
+      (function processNext(i) {
+        if (i >= files.length) { self.value = ''; openCourseDocumentsDialog(course); return; }
+        addDocument(course, files[i], function() { processNext(i + 1); });
+      })(0);
+    });
+    overlay.querySelectorAll('.btn-view-doc').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var doc = docs.find(function(d) { return d.id === btn.dataset.id; });
+        if (!doc) return;
+        if (doc._builtin && doc._pages) {
+          openBuiltinDocViewer(doc.name, doc.data, doc._pages);
+        } else {
+          viewDocument(doc);
+        }
+      });
+    });
+    overlay.querySelectorAll('.btn-del-doc').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var id = btn.dataset.id;
+        if (id.indexOf('builtin_') === 0) {
+          // ??????? localStorage ????
+          if (!confirm('??????????')) return;
+          var hb = {};
+          try { hb = JSON.parse(localStorage.getItem('shuati_hidden_builtin_docs') || '{}'); } catch(e) {}
+          hb[course] = hb[course] || [];
+          if (hb[course].indexOf(id) === -1) hb[course].push(id);
+          localStorage.setItem('shuati_hidden_builtin_docs', JSON.stringify(hb));
+          openCourseDocumentsDialog(course);
+        } else {
+          deleteDocument(course, id, function() { openCourseDocumentsDialog(course); });
+        }
+      });
+    });
+  });
+}
+
+function openDocumentsDialog() {
+  var tree = buildTopicHierarchy();
+  var courses = tree.map(function(p) { return p[0]; });
+  document.querySelectorAll('.topic-detail-overlay').forEach(function(el) { el.remove(); });
+  var overlay = document.createElement('div');
+  overlay.className = 'topic-detail-overlay';
+  overlay.innerHTML =
+    '<div class="topic-detail-card">' +
+    '<div class="topic-detail-header">' +
+      '<h2>资料库</h2>' +
+      '<div class="topic-detail-hdr-btns"><button class="topic-detail-close" type="button">&times;</button></div>' +
+    '</div>' +
+    '<p style="font-size:12px;color:#999;margin-bottom:12px;">选择课程查看其资料。也可以在课程弹窗中点击"资料"按钮。<br>资料存储在浏览器 IndexedDB 中，无大小限制，不会拖慢网站。</p>' +
+    '<div class="doc-list" id="allDocsList"><div class="topic-empty">加载中...</div></div>' +
+    '</div>';
+  document.body.appendChild(overlay);
+  overlay.querySelector('.topic-detail-close').addEventListener('click', function() { overlay.remove(); });
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+  // 异步加载所有课程资料数
+  var listEl = overlay.querySelector('#allDocsList');
+  var remaining = courses.length;
+  if (!remaining) { listEl.innerHTML = '<div class="topic-empty">暂无课程</div>'; return; }
+  var rowsHtml = '';
+  courses.forEach(function(course) {
+    loadDocuments(course, function(docs) {
+      rowsHtml += '<div class="doc-item doc-course-item" style="cursor:pointer;" data-course="' + escapeHtml(course) + '">' +
+        '<span class="doc-icon">📚</span>' +
+        '<div class="doc-info">' +
+          '<span class="doc-name">' + escapeHtml(course) + '</span>' +
+          '<small>' + docs.length + ' 份资料</small>' +
+        '</div>' +
+        '<span style="color:#999;">→</span>' +
+        '</div>';
+      remaining--;
+      if (remaining === 0) {
+        listEl.innerHTML = rowsHtml || '<div class="topic-empty">暂无课程</div>';
+        listEl.querySelectorAll('.doc-course-item').forEach(function(item) {
+          item.addEventListener('click', function() {
+            overlay.remove();
+            openCourseDocumentsDialog(item.dataset.course);
+          });
+        });
+      }
+    });
+  });
+}
+
+
+
+
+// ponytail: 预置资料翻页查看器
+
+
+function openBuiltinDocViewer(title, pages, pageNames) {
+  document.querySelectorAll('.topic-detail-overlay').forEach(function(el) { el.remove(); });
+  var currentPage = 0;
+
+  function render() {
+    return '<div class="topic-detail-card" style="max-width:900px;">' +
+      '<div class="topic-detail-header">' +
+        '<h2>' + escapeHtml(title) + '</h2>' +
+        '<div class="topic-detail-hdr-btns">' +
+          '<span style="font-size:12px;color:#666;margin-right:8px;">' + (currentPage + 1) + ' / ' + pages.length + '</span>' +
+          '<button class="detail-prev-btn link-btn" type="button"' + (currentPage === 0 ? ' disabled' : '') + '>◀ 上一页</button>' +
+          '<button class="detail-next-btn link-btn" type="button"' + (currentPage >= pages.length - 1 ? ' disabled' : '') + '>下一页 ▶</button>' +
+          '<button class="topic-detail-close" type="button">&times;</button>' +
+        '</div>' +
+      '</div>' +
+      '<div style="overflow:auto;max-height:75vh;text-align:center;background:#f0f0f0;">' +
+        '<img src="' + pages[currentPage] + '" style="max-width:100%;display:block;margin:0 auto;" alt="' + escapeHtml(title) + ' 第' + (currentPage+1) + '页" />' +
+      '</div>' +
+      '</div>';
+  }
+
+  var overlay = document.createElement('div');
+  overlay.className = 'topic-detail-overlay';
+  overlay.innerHTML = render();
+  document.body.appendChild(overlay);
+
+  function bindEvents() {
+    overlay.querySelector('.topic-detail-close').addEventListener('click', function() { overlay.remove(); });
+    overlay.querySelector('.detail-prev-btn').addEventListener('click', function() {
+      if (currentPage > 0) { currentPage--; overlay.innerHTML = render(); bindEvents(); }
+    });
+    overlay.querySelector('.detail-next-btn').addEventListener('click', function() {
+      if (currentPage < pages.length - 1) { currentPage++; overlay.innerHTML = render(); bindEvents(); }
+    });
+  }
+  bindEvents();
+
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) overlay.remove(); });
+  overlay.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowLeft' && currentPage > 0) { currentPage--; overlay.innerHTML = render(); bindEvents(); }
+    if (e.key === 'ArrowRight' && currentPage < pages.length - 1) { currentPage++; overlay.innerHTML = render(); bindEvents(); }
+  });
+  overlay.tabIndex = 0;
+  overlay.focus();
 }

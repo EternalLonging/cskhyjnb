@@ -29274,4 +29274,45704 @@ if (typeof computerOrgQuestions !== 'undefined') {
 }
 if (typeof computerOrgFillToChoice !== 'undefined') {
   window.QUESTION_BANK = window.QUESTION_BANK.concat(computerOrgFillToChoice);
+
+window.QUESTION_BANK = window.QUESTION_BANK.concat([
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 1,
+    "type": "single",
+    "text": "1860年沙俄借口“调停有功”，迫使清政府签订（），将乌苏里江以东40万平方公里的中国领土划归俄国。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《北京条约》"
+      },
+      {
+        "label": "B",
+        "text": "《瑷珲条约》"
+      },
+      {
+        "label": "C",
+        "text": "《中俄勘分西北界约记》"
+      },
+      {
+        "label": "D",
+        "text": "《尼布楚条约》"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 2,
+    "type": "single",
+    "text": "我国与列强签订的第一个不平等条约是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中日《马关条约》"
+      },
+      {
+        "label": "B",
+        "text": "中英《北京条约》"
+      },
+      {
+        "label": "C",
+        "text": "中英《南京条约》"
+      },
+      {
+        "label": "D",
+        "text": "《中法新约》"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 3,
+    "type": "single",
+    "text": "从中国攫取了一百多万平方公里土地，第二次鸦片战争中获利最大的国家是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "英国"
+      },
+      {
+        "label": "B",
+        "text": "法国"
+      },
+      {
+        "label": "C",
+        "text": "俄国"
+      },
+      {
+        "label": "D",
+        "text": "日本"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 4,
+    "type": "single",
+    "text": "中外反动势力联合镇压中国人民的反抗开始于（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "太平天国运动"
+      },
+      {
+        "label": "B",
+        "text": "义和团运动"
+      },
+      {
+        "label": "C",
+        "text": "辛亥革命"
+      },
+      {
+        "label": "D",
+        "text": "国民革命"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 5,
+    "type": "single",
+    "text": "规定割让台湾全岛及其附属岛屿和澎湖列岛给日本的条约是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《南京条约》"
+      },
+      {
+        "label": "B",
+        "text": "《天津条约》"
+      },
+      {
+        "label": "C",
+        "text": "《马关条约》"
+      },
+      {
+        "label": "D",
+        "text": "《辛丑条约》"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 6,
+    "type": "single",
+    "text": "英法联军攻占北京并放火烧毁凝聚着中华民族聪明才智的圆明园是在（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "第一次鸦片战争期间"
+      },
+      {
+        "label": "B",
+        "text": "第二次鸦片战争期间"
+      },
+      {
+        "label": "C",
+        "text": "甲午战争期间"
+      },
+      {
+        "label": "D",
+        "text": "八国联军侵华战争期间"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 7,
+    "type": "single",
+    "text": "甲午战争后干涉还辽的国家有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国德国俄国"
+      },
+      {
+        "label": "B",
+        "text": "英国俄国德国"
+      },
+      {
+        "label": "C",
+        "text": "俄国德国法国"
+      },
+      {
+        "label": "D",
+        "text": "德国英国美国"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 8,
+    "type": "single",
+    "text": "近代中国社会人数最多的被剥削阶级是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工人阶级"
+      },
+      {
+        "label": "B",
+        "text": "农民阶级"
+      },
+      {
+        "label": "C",
+        "text": "城市小资产阶级"
+      },
+      {
+        "label": "D",
+        "text": "民族资产阶级"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 9,
+    "type": "single",
+    "text": "近代中国一切灾难的总根源是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "腐朽没落的清朝统治"
+      },
+      {
+        "label": "B",
+        "text": "资本帝国主义的侵略"
+      },
+      {
+        "label": "C",
+        "text": "科学技术落后"
+      },
+      {
+        "label": "D",
+        "text": "闭关锁国"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 10,
+    "type": "single",
+    "text": "资本帝国主义列强不能灭亡和瓜分近代中国的最根本原因是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本帝国主义列强之间的矛盾"
+      },
+      {
+        "label": "B",
+        "text": "晚清政府的军事抵抗"
+      },
+      {
+        "label": "C",
+        "text": "中国人民不屈不挠的反侵略斗争"
+      },
+      {
+        "label": "D",
+        "text": "中国资产阶级开始登上历史舞台"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 11,
+    "type": "single",
+    "text": "中国近代史上中国人民第一次大规模的反侵略武装斗争是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "虎门销烟"
+      },
+      {
+        "label": "B",
+        "text": "三元里人民抗英斗争"
+      },
+      {
+        "label": "C",
+        "text": "大沽口阻击战"
+      },
+      {
+        "label": "D",
+        "text": "太平天国农民战争"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 12,
+    "type": "single",
+    "text": "1839年组织编写成《四洲志》，向中国人介绍西方情况的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "林则徐"
+      },
+      {
+        "label": "B",
+        "text": "魏源"
+      },
+      {
+        "label": "C",
+        "text": "马建忠"
+      },
+      {
+        "label": "D",
+        "text": "郑观应"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 13,
+    "type": "single",
+    "text": "1843年，魏源在《海国图志》中提出的思想主张是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中学为体，西学为用"
+      },
+      {
+        "label": "B",
+        "text": "师夷长技以制夷"
+      },
+      {
+        "label": "C",
+        "text": "物竞天择，适者生存"
+      },
+      {
+        "label": "D",
+        "text": "维新变法以救亡图存"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 14,
+    "type": "single",
+    "text": "雨果曾愤怒地谴责道：“两个强盗走向圆明园，一个抢了东西，一个放了火……”这两个强盗是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A.英国和法国"
+      },
+      {
+        "label": "B",
+        "text": "B.英国和美国"
+      },
+      {
+        "label": "C",
+        "text": "C.美国和俄国"
+      },
+      {
+        "label": "D",
+        "text": "D法国和俄国"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 15,
+    "type": "single",
+    "text": "帝国主义列强对中国进行文化渗透的目的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "传播西方文化和科学"
+      },
+      {
+        "label": "B",
+        "text": "进行传教活动"
+      },
+      {
+        "label": "C",
+        "text": "宣扬殖民主义奴化思想，麻醉中国人民的精神，摧毁中国人民的民族自尊心和自信心"
+      },
+      {
+        "label": "D",
+        "text": "干涉中国内政"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 16,
+    "type": "single",
+    "text": "1840年以来，清政府举借外债，主要是以（）等为担保的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "田赋徭役"
+      },
+      {
+        "label": "B",
+        "text": "关税厘金"
+      },
+      {
+        "label": "C",
+        "text": "关税盐税"
+      },
+      {
+        "label": "D",
+        "text": "车船税"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 17,
+    "type": "single",
+    "text": "1919年—1949年在中国社会经济中占优势地位的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "封建经济"
+      },
+      {
+        "label": "B",
+        "text": "资本主义经济"
+      },
+      {
+        "label": "C",
+        "text": "官僚资本的垄断经济"
+      },
+      {
+        "label": "D",
+        "text": "社会主义经济"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 18,
+    "type": "single",
+    "text": "甲午战争后，严复翻译了（），宣扬“物竞天择”“适者生存”的社会进化论思想。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《海国图志》"
+      },
+      {
+        "label": "B",
+        "text": "《天演论》"
+      },
+      {
+        "label": "C",
+        "text": "《四洲志》"
+      },
+      {
+        "label": "D",
+        "text": "《盛世危言》"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 19,
+    "type": "single",
+    "text": "1900年，义和团奋起抗击八国联军从天津乘火车进犯北京，取得（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "镇海大捷"
+      },
+      {
+        "label": "B",
+        "text": "定海大捷"
+      },
+      {
+        "label": "C",
+        "text": "天津大捷"
+      },
+      {
+        "label": "D",
+        "text": "廊坊大捷"
+      }
+    ],
+    "answer": "D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 20,
+    "type": "single",
+    "text": "日俄战争后，由于三国干涉，日本放弃了割占辽东半岛的要求，但向中国勒索了（）万两“赎辽费”。",
+    "options": [
+      {
+        "label": "A",
+        "text": "5000"
+      },
+      {
+        "label": "B",
+        "text": "3000"
+      },
+      {
+        "label": "C",
+        "text": "8000"
+      },
+      {
+        "label": "D",
+        "text": "6000"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 21,
+    "type": "single",
+    "text": "中国封建社会的基本生产结构是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "小农经济"
+      },
+      {
+        "label": "B",
+        "text": "商品经济"
+      },
+      {
+        "label": "C",
+        "text": "市场经济"
+      },
+      {
+        "label": "D",
+        "text": "个体经济"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 22,
+    "type": "single",
+    "text": "近代中国，下列矛盾中占支配地位的矛盾是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无产阶级和资产阶级的矛盾"
+      },
+      {
+        "label": "B",
+        "text": "资产阶级和地主阶级的矛盾"
+      },
+      {
+        "label": "C",
+        "text": "帝国主义和中华民族的矛盾"
+      },
+      {
+        "label": "D",
+        "text": "帝国主义争夺中国的矛盾"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 23,
+    "type": "single",
+    "text": "中日甲午战争中，日军野蛮屠杀中国平民的地点是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "旅顺"
+      },
+      {
+        "label": "B",
+        "text": "大连"
+      },
+      {
+        "label": "C",
+        "text": "营口"
+      },
+      {
+        "label": "D",
+        "text": "抚顺"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 24,
+    "type": "single",
+    "text": "历史文化从未间断、一直延续至今的国家有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "印度"
+      },
+      {
+        "label": "B",
+        "text": "埃及"
+      },
+      {
+        "label": "C",
+        "text": "希腊"
+      },
+      {
+        "label": "D",
+        "text": "中国"
+      }
+    ],
+    "answer": "D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 25,
+    "type": "single",
+    "text": "力排众议、奋力收复新疆的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "左宗棠"
+      },
+      {
+        "label": "B",
+        "text": "刘永福"
+      },
+      {
+        "label": "C",
+        "text": "冯子材"
+      },
+      {
+        "label": "D",
+        "text": "关天培"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 26,
+    "type": "single",
+    "text": "中国封建社会由盛转衰、走到尽头是在（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "明朝中期以后"
+      },
+      {
+        "label": "B",
+        "text": "明朝晚期以后"
+      },
+      {
+        "label": "C",
+        "text": "清朝中期以后"
+      },
+      {
+        "label": "D",
+        "text": "清朝晚期以后"
+      }
+    ],
+    "answer": "C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 27,
+    "type": "single",
+    "text": "近代对中国人刺激最大的战败是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "第一次鸦片战争"
+      },
+      {
+        "label": "B",
+        "text": "甲午战争"
+      },
+      {
+        "label": "C",
+        "text": "第二次鸦片战争"
+      },
+      {
+        "label": "D",
+        "text": "八国联军侵华战争"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 28,
+    "type": "single",
+    "text": "允许外国公使常驻北京的条约是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "《南京条约》"
+      },
+      {
+        "label": "B",
+        "text": "《北京条约》"
+      },
+      {
+        "label": "C",
+        "text": "《辛丑条约》"
+      },
+      {
+        "label": "D",
+        "text": "《天津条约》"
+      }
+    ],
+    "answer": "D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 29,
+    "type": "single",
+    "text": "掌握中国海关大权40余年的英国人是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "李提摩太"
+      },
+      {
+        "label": "B",
+        "text": "伟克非"
+      },
+      {
+        "label": "C",
+        "text": "李泰国"
+      },
+      {
+        "label": "D",
+        "text": "赫德"
+      }
+    ],
+    "answer": "D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 30,
+    "type": "multiple",
+    "text": "中国封建社会曾出现过的所谓“盛世”有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“文景之治”"
+      },
+      {
+        "label": "B",
+        "text": "“贞观之治”"
+      },
+      {
+        "label": "C",
+        "text": "“开元盛世”"
+      },
+      {
+        "label": "D",
+        "text": "“康乾盛世”"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 31,
+    "type": "multiple",
+    "text": "1900年7月，俄国人入侵中国东北时，先后制造的惨案是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "海兰泡惨案"
+      },
+      {
+        "label": "B",
+        "text": "旅顺惨案"
+      },
+      {
+        "label": "C",
+        "text": "江东六十四屯惨案"
+      },
+      {
+        "label": "D",
+        "text": "中东路惨案"
+      }
+    ],
+    "answer": "A,C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 32,
+    "type": "multiple",
+    "text": "在中日甲午战争的黄海海战中，为国捐躯的清军爱国将领有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "刘步蟾"
+      },
+      {
+        "label": "B",
+        "text": "邓世昌"
+      },
+      {
+        "label": "C",
+        "text": "林永升"
+      },
+      {
+        "label": "D",
+        "text": "丁汝昌"
+      }
+    ],
+    "answer": "B,C",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 33,
+    "type": "multiple",
+    "text": "西方列强对中国进行军事侵略的主要手段有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "发动侵略战争，屠杀中国人民"
+      },
+      {
+        "label": "B",
+        "text": "把持中国的海关"
+      },
+      {
+        "label": "C",
+        "text": "侵占中国领土，划分势力范围"
+      },
+      {
+        "label": "D",
+        "text": "勒索赔款，抢掠财富"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 34,
+    "type": "multiple",
+    "text": "为了统治中国，西方列强在政治上采取的主要方式是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "镇压中国人民的反抗"
+      },
+      {
+        "label": "B",
+        "text": "控制中国的内政、外交"
+      },
+      {
+        "label": "C",
+        "text": "勒索赔款，抢掠财富"
+      },
+      {
+        "label": "D",
+        "text": "扶植、收买代理人"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 35,
+    "type": "multiple",
+    "text": "西方列强对中国进行经济侵略的方式有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "操纵中国的经济命脉"
+      },
+      {
+        "label": "B",
+        "text": "实行商品倾销和资本输出"
+      },
+      {
+        "label": "C",
+        "text": "剥夺中国的关税自主权"
+      },
+      {
+        "label": "D",
+        "text": "控制中国的通商口岸"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 36,
+    "type": "multiple",
+    "text": "西方列强对中国进行文化渗透的表现有（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "协助创办新式学堂"
+      },
+      {
+        "label": "B",
+        "text": "为侵略中国制造舆论"
+      },
+      {
+        "label": "C",
+        "text": "翻译《天演论》"
+      },
+      {
+        "label": "D",
+        "text": "披着宗教外衣，进行侵略活动"
+      }
+    ],
+    "answer": "B,D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 37,
+    "type": "multiple",
+    "text": "新时代十年的伟大变革，在（     ）、新中国史、（      ）、（      ）、中华民族发展史上具有里程碑意义。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义发展史"
+      },
+      {
+        "label": "B",
+        "text": "近代史"
+      },
+      {
+        "label": "C",
+        "text": "改革开放史"
+      },
+      {
+        "label": "D",
+        "text": "党史"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 38,
+    "type": "multiple",
+    "text": "确定帝国主义列强在中国享有领事裁判权的依据有（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "《天津条约》"
+      },
+      {
+        "label": "B",
+        "text": "《烟台条约》"
+      },
+      {
+        "label": "C",
+        "text": "《望厦条约》"
+      },
+      {
+        "label": "D",
+        "text": "《五口通商章程》"
+      }
+    ],
+    "answer": "C,D",
+    "source": "1.第一章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 39,
+    "type": "single",
+    "text": "规定割让香港岛的是《北京条约》。（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "1.第一章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 40,
+    "type": "single",
+    "text": "1860年《北京条约》规定增加开放天津为通商口岸。（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 41,
+    "type": "single",
+    "text": "中国共产党一经诞生，就把为中国人民谋幸福、为中华民族谋复兴确立为自己的初心使命。（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 42,
+    "type": "single",
+    "text": "中国民族资产阶级与外国资本主义和本国封建主义既有矛盾、斗争的一面，又有依赖、妥协的一面，没有革命的彻底性。（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第一章",
+    "number": 43,
+    "type": "single",
+    "text": "规定中国应支付赔款额最高条约是《辛丑条约》，达4.5亿两白银。（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "1.第一章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 1,
+    "type": "single",
+    "text": "党的十八大指出建设中国特色社会主义的总依据是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新民主主义社会"
+      },
+      {
+        "label": "B",
+        "text": "社会主义初级阶段"
+      },
+      {
+        "label": "C",
+        "text": "中华民族伟大复兴"
+      },
+      {
+        "label": "D",
+        "text": "实现小康社会"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 2,
+    "type": "single",
+    "text": "党的十八大贯穿始终的一条主线，是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持和发展中国特色社会主义"
+      },
+      {
+        "label": "B",
+        "text": "改革开放"
+      },
+      {
+        "label": "C",
+        "text": "依法治国"
+      },
+      {
+        "label": "D",
+        "text": "党的领导"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 3,
+    "type": "single",
+    "text": "中国特色社会主义新时代是我国发展新的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史方位"
+      },
+      {
+        "label": "B",
+        "text": "路线图"
+      },
+      {
+        "label": "C",
+        "text": "任务书"
+      },
+      {
+        "label": "D",
+        "text": "定位"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 4,
+    "type": "single",
+    "text": "习近平在参观（      ）展览时首次提出并阐释实现中华民族伟大复兴的中国梦。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《复兴之路》"
+      },
+      {
+        "label": "B",
+        "text": "“伟大的变革——庆祝改革开放40周年大型展览”"
+      },
+      {
+        "label": "C",
+        "text": "红军长征湘江战役纪念馆"
+      },
+      {
+        "label": "D",
+        "text": "渡江战役纪念馆"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 5,
+    "type": "single",
+    "text": "实现中华民族伟大复兴的中国梦，就是要实现国家富强、民族振兴、（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族独立"
+      },
+      {
+        "label": "B",
+        "text": "人民解放"
+      },
+      {
+        "label": "C",
+        "text": "人民幸福"
+      },
+      {
+        "label": "D",
+        "text": "公平正义"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 6,
+    "type": "single",
+    "text": "2015年党的十八届五中全会审议通过《中共中央关于制定国民经济和社会发展第十三个五年规划的建议》，明确提出了以人民为中心的发展思想，提出了创新、（      ）、绿色、开放、共享的新发展理念。",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产"
+      },
+      {
+        "label": "B",
+        "text": "法治"
+      },
+      {
+        "label": "C",
+        "text": "幸福"
+      },
+      {
+        "label": "D",
+        "text": "协调"
+      }
+    ],
+    "answer": "D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 7,
+    "type": "single",
+    "text": "2015年中央经济工作会议对供给侧结构性改革从理论到实践作了全面阐述，从顶层设计、政策措施到重点任务作出全链条部署，强调要抓好去产能、去库存、（      ）、降成本、补短板五大任务。",
+    "options": [
+      {
+        "label": "A",
+        "text": "增产量"
+      },
+      {
+        "label": "B",
+        "text": "去杠杆"
+      },
+      {
+        "label": "C",
+        "text": "提效率"
+      },
+      {
+        "label": "D",
+        "text": "扩内需"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 8,
+    "type": "single",
+    "text": "坚持依法治国首先要（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持依宪治国"
+      },
+      {
+        "label": "B",
+        "text": "坚持依法行政"
+      },
+      {
+        "label": "C",
+        "text": "坚持依法执政"
+      },
+      {
+        "label": "D",
+        "text": "坚持公正司法"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 9,
+    "type": "single",
+    "text": "2014年11月，十二届全国人大常委会以立法形式将（      ）设立为国家宪法日。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4月15日"
+      },
+      {
+        "label": "B",
+        "text": "9月3日"
+      },
+      {
+        "label": "C",
+        "text": "10月25日"
+      },
+      {
+        "label": "D",
+        "text": "12月4日"
+      }
+    ],
+    "answer": "D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 10,
+    "type": "single",
+    "text": "2016年10月，党的十八届六中全会号召全党同志牢固树立（      ）、大局意识、核心意识、看齐意识。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法治意识"
+      },
+      {
+        "label": "B",
+        "text": "安全意识"
+      },
+      {
+        "label": "C",
+        "text": "政治意识"
+      },
+      {
+        "label": "D",
+        "text": "责任意识"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 11,
+    "type": "single",
+    "text": "2013年3月，在十二届全国人大一次会议解放军代表团全体会议时，习近平明确指出党在新形势下的强军目标。强军目标中，（      ）是灵魂。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国防建设"
+      },
+      {
+        "label": "B",
+        "text": "听党指挥"
+      },
+      {
+        "label": "C",
+        "text": "能打胜仗"
+      },
+      {
+        "label": "D",
+        "text": "作风优良"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 12,
+    "type": "single",
+    "text": "2014年，习近平在十八届中央国家安全委员会第一次会议上首次提出“总体国家安全观”，指出，必须坚持总体国家安全观，以（      ）为宗旨,以（      ）为根本，以（      ）为基础，以军事、文化、社会安全为保障，以促进国际安全为依托，走出一条中国特色国家安全道路。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家安全，社会安全，人民安全"
+      },
+      {
+        "label": "B",
+        "text": "政治安全，社会安全，经济安全"
+      },
+      {
+        "label": "C",
+        "text": "人民安全，政治安全，经济安全"
+      },
+      {
+        "label": "D",
+        "text": "国家安全，政治安全，经济安全"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 13,
+    "type": "single",
+    "text": "（      ）把习近平新时代中国特色社会主义思想确立为党必须长期坚持的指导思想并庄严地写入党章。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的十七大"
+      },
+      {
+        "label": "B",
+        "text": "党的十八大"
+      },
+      {
+        "label": "C",
+        "text": "党的十九大"
+      },
+      {
+        "label": "D",
+        "text": "党的二十大"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 14,
+    "type": "single",
+    "text": "经过不懈努力，党找到了（      ）这一跳出治乱兴衰历史周期率的第二个答案。",
+    "options": [
+      {
+        "label": "A",
+        "text": "自我发展"
+      },
+      {
+        "label": "B",
+        "text": "自我革命"
+      },
+      {
+        "label": "C",
+        "text": "自我提高"
+      },
+      {
+        "label": "D",
+        "text": "自我净化"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 15,
+    "type": "single",
+    "text": "2018年3月，十三届全国人大一次会议通过宪法修正案，确立监察委员会作为国家机构的宪法地位。随后，中华人民共和国国家监察委员会在（      ）揭牌。",
+    "options": [
+      {
+        "label": "A",
+        "text": "上海"
+      },
+      {
+        "label": "B",
+        "text": "北京"
+      },
+      {
+        "label": "C",
+        "text": "深圳"
+      },
+      {
+        "label": "D",
+        "text": "厦门"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 16,
+    "type": "single",
+    "text": "（      ）年十三届全国人大三次会议通过《中华人民共和国民法典》，这是新中国成立以来第一部以“法典”命名的法律，是新时代中国特色社会主义制度建设、法治建设的一个重大标志性成果。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2018"
+      },
+      {
+        "label": "B",
+        "text": "2019"
+      },
+      {
+        "label": "C",
+        "text": "2020"
+      },
+      {
+        "label": "D",
+        "text": "2021"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 17,
+    "type": "single",
+    "text": "2018年首届中国国际进口博览会在（      ）举行，这是世界上第一个以进口为主题的国家级展会，是我国着眼于推动新一轮高水平对外开放作出的重大决策。",
+    "options": [
+      {
+        "label": "A",
+        "text": "上海"
+      },
+      {
+        "label": "B",
+        "text": "天津"
+      },
+      {
+        "label": "C",
+        "text": "北京"
+      },
+      {
+        "label": "D",
+        "text": "深圳"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 18,
+    "type": "single",
+    "text": "2018年12月，中央经济工作会议进一步提出“巩固、增强、提升、（      ）”八字方针，为进一步坚持以供给侧结构性改革为主线不动摇、推动高质量发展指明了方向。",
+    "options": [
+      {
+        "label": "A",
+        "text": "畅通"
+      },
+      {
+        "label": "B",
+        "text": "发展"
+      },
+      {
+        "label": "C",
+        "text": "循环"
+      },
+      {
+        "label": "D",
+        "text": "联动"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 19,
+    "type": "single",
+    "text": "2013年3月，习近平在莫斯科国际关系学院发表题为（      ）的演讲，提出当今世界“越来越成为你中有我、我中有你的命运共同体”。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《顺应时代前进潮流，促进世界和平发展》"
+      },
+      {
+        "label": "B",
+        "text": "《共担时代责任共促全球发展》"
+      },
+      {
+        "label": "C",
+        "text": "《共同构建人类命运共同体》"
+      },
+      {
+        "label": "D",
+        "text": "《坚守初心 共促发展 开启亚太合作新篇章》"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 20,
+    "type": "single",
+    "text": "（      ）党中央、国务院隆重举行全国脱贫攻坚总结表彰大会。习近平在会上庄严宣告：我国脱贫攻坚战取得了全面胜利。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2012年"
+      },
+      {
+        "label": "B",
+        "text": "2017年"
+      },
+      {
+        "label": "C",
+        "text": "2021年"
+      },
+      {
+        "label": "D",
+        "text": "2022年"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 21,
+    "type": "single",
+    "text": "习近平总书记鲜明提出伟大建党精神是在（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的十九大"
+      },
+      {
+        "label": "B",
+        "text": "十三届人大一次会议"
+      },
+      {
+        "label": "C",
+        "text": "庆祝中国共产党成立100周年大会"
+      },
+      {
+        "label": "D",
+        "text": "十九届五中全会"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 22,
+    "type": "single",
+    "text": "脱贫攻坚伟大斗争，锻造形成了“上下同心、尽锐出战、（      ）、开拓创新、攻坚克难、不负人民”的脱贫攻坚精神。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不负韶华"
+      },
+      {
+        "label": "B",
+        "text": "信守承诺"
+      },
+      {
+        "label": "C",
+        "text": "精准务实"
+      },
+      {
+        "label": "D",
+        "text": "艰苦奋斗"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 23,
+    "type": "single",
+    "text": "中国共产党第二十次全国代表大会于（      ）开幕，习近平代表第十九届中央委员会向大会作题为《高举中国特色社会主义伟大旗帜，为全面建设社会主义现代化国家而团结奋斗》的报告。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2012年"
+      },
+      {
+        "label": "B",
+        "text": "2018年"
+      },
+      {
+        "label": "C",
+        "text": "2020年"
+      },
+      {
+        "label": "D",
+        "text": "2022年"
+      }
+    ],
+    "answer": "D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 24,
+    "type": "single",
+    "text": "党的二十大强调，马克思主义是我们立党立国、兴党兴国的根本指导思想。中国共产党为什么能，中国特色社会主义为什么好，归根到底是马克思主义行，是（      ）的马克思主义行。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国特色"
+      },
+      {
+        "label": "B",
+        "text": "中国化时代化"
+      },
+      {
+        "label": "C",
+        "text": "中国化"
+      },
+      {
+        "label": "D",
+        "text": "时代化"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 25,
+    "type": "single",
+    "text": "党的二十大指出，坚持和发展马克思主义，必须同中国具体实际相结合，必须同（      ）相结合。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国精神"
+      },
+      {
+        "label": "B",
+        "text": "深化改革"
+      },
+      {
+        "label": "C",
+        "text": "中国特色社会主义"
+      },
+      {
+        "label": "D",
+        "text": "中华优秀传统文化"
+      }
+    ],
+    "answer": "D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 26,
+    "type": "single",
+    "text": "党的二十大重申了党的十九大提出的全面建成社会主义现代化强国分两步走的战略安排，即从2020年到（       ）基本实现社会主义现代化；从（      ）到本世纪中叶把我国建成富强民主文明和谐美丽的社会主义现代化强国。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2025年．2025年"
+      },
+      {
+        "label": "B",
+        "text": "2030年，2030年"
+      },
+      {
+        "label": "C",
+        "text": "2035年，2035年"
+      },
+      {
+        "label": "D",
+        "text": "2040年，2040年"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 27,
+    "type": "single",
+    "text": "党的二十大对未来一个时期党和国家事业发展作出战略部署，发展全过程人民民主，保障（      ）当家作主。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中央政府"
+      },
+      {
+        "label": "B",
+        "text": "地方政府"
+      },
+      {
+        "label": "C",
+        "text": "敌人"
+      },
+      {
+        "label": "D",
+        "text": "人民"
+      }
+    ],
+    "answer": "D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 28,
+    "type": "single",
+    "text": "2017年10月，中国共产党第十九次全国代表大会在北京举行。大会的主题是：（      ），高举中国特色社会主义伟大旗帜，决胜全面建成小康社会，夺取新时代中国特色社会主义伟大胜利，为实现中华民族伟大复兴的中国梦不懈奋斗。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“两个一百年”奋斗目标"
+      },
+      {
+        "label": "B",
+        "text": "中国特色社会主义进入新时代"
+      },
+      {
+        "label": "C",
+        "text": "历史性成就，历史性变革"
+      },
+      {
+        "label": "D",
+        "text": "不忘初心，牢记使命"
+      }
+    ],
+    "answer": "D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 29,
+    "type": "single",
+    "text": "党的二十大强调，全面建设社会主义现代化国家、全面推进中华民族伟大复兴，关键在（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "科技"
+      },
+      {
+        "label": "B",
+        "text": "依法治国"
+      },
+      {
+        "label": "C",
+        "text": "党"
+      },
+      {
+        "label": "D",
+        "text": "社会稳定"
+      }
+    ],
+    "answer": "C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 30,
+    "type": "single",
+    "text": "党的二十大批准了习近平代表十九届中央委员会所作的报告和十九届中央纪律检查委员会的工作报告，审议通过了（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《中华人民共和国民法典》"
+      },
+      {
+        "label": "B",
+        "text": "《中国共产党章程（修正案）》"
+      },
+      {
+        "label": "C",
+        "text": "《中华人民共和国宪法》"
+      },
+      {
+        "label": "D",
+        "text": "《中华人民共和国刑法》"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 31,
+    "type": "multiple",
+    "text": "实现中国梦（      ），（      ），（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "必须走中国道路"
+      },
+      {
+        "label": "B",
+        "text": "必须弘扬中国精神"
+      },
+      {
+        "label": "C",
+        "text": "必须凝聚中国力量"
+      },
+      {
+        "label": "D",
+        "text": "必须实现经济社会稳步发展"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 32,
+    "type": "multiple",
+    "text": "党的十八届三中全会是继党的十一届三中全会之后，又一次具有划时代意义的重要会议，是因为这次全会（      ），（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现了改革由局部探索、破冰突围到系统集成、全面深化的转变"
+      },
+      {
+        "label": "B",
+        "text": "开启了改革开放和建设社会主义现代化的新时期"
+      },
+      {
+        "label": "C",
+        "text": "开创了我国改革开放新局面"
+      },
+      {
+        "label": "D",
+        "text": "确定建立社会主义市场经济体制"
+      }
+    ],
+    "answer": "A,C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 33,
+    "type": "multiple",
+    "text": "2014年党的十八届四中全会通过《中共中央关于全面推进依法治国若干重大问题的决定》，明确全面推进依法治国的总目标是（      ），（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "建设中国特色社会主义法治体系"
+      },
+      {
+        "label": "B",
+        "text": "建设社会主义法治国家"
+      },
+      {
+        "label": "C",
+        "text": "健全社会主义法制"
+      },
+      {
+        "label": "D",
+        "text": "促进人的全面发展"
+      }
+    ],
+    "answer": "A,B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 34,
+    "type": "multiple",
+    "text": "2021年党的十九届六中全会通过的《中共中央关于党的百年奋斗重大成就和历史经验的决议》鲜明提出“两个确立”，即党（      ），（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "确立习近平同志党中央的核心、全党的核心地位"
+      },
+      {
+        "label": "B",
+        "text": "确立中国共产党人的初心和使命"
+      },
+      {
+        "label": "C",
+        "text": "确立理论指导和实践探索相统一"
+      },
+      {
+        "label": "D",
+        "text": "确立习近平新时代中国特色社会主义思想的指导地位"
+      }
+    ],
+    "answer": "A,D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 35,
+    "type": "multiple",
+    "text": "2021年2月20日，党史学习教育动员大会召开。习近平指出，全党同志要做到学史明理、（      ）、（      ）、（      ），学党史、悟思想、办实事、开新局。",
+    "options": [
+      {
+        "label": "A",
+        "text": "学史教育"
+      },
+      {
+        "label": "B",
+        "text": "学史增信"
+      },
+      {
+        "label": "C",
+        "text": "学史崇德"
+      },
+      {
+        "label": "D",
+        "text": "学史力行"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 36,
+    "type": "multiple",
+    "text": "党的十九届五中全会为“十四五”时期发展谋篇布局，“四个全面”战略布局表述有调整，即（      ）、（      ）、（      ）、全面从严治党。",
+    "options": [
+      {
+        "label": "A",
+        "text": "全面建成小康社会"
+      },
+      {
+        "label": "B",
+        "text": "全面建设社会主义现代化国家"
+      },
+      {
+        "label": "C",
+        "text": "全面深化改革"
+      },
+      {
+        "label": "D",
+        "text": "全面依法治国"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 37,
+    "type": "multiple",
+    "text": "中国共产党第二十次全国代表大会的主题是：高举中国特色社会主义伟大旗帜，全面贯彻习近平新时代中国特色社会主义思想，弘扬伟大建党精神，（      ）、（      ），踔厉奋发、勇毅前行，为全面建设社会主义现代化国家、全面推进中华民族伟大复兴而团结奋斗。",
+    "options": [
+      {
+        "label": "A",
+        "text": "敢闯敢试"
+      },
+      {
+        "label": "B",
+        "text": "敢为人先"
+      },
+      {
+        "label": "C",
+        "text": "自信自强"
+      },
+      {
+        "label": "D",
+        "text": "守正创新"
+      }
+    ],
+    "answer": "C,D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 38,
+    "type": "multiple",
+    "text": "《中共中央关于党的百年奋斗重大成就和历史经验的决议》系统全面地概括了党的百年奋斗所积累的具有根本性和长远指导意义的十条历史经验，这就是（      ）、（      ）、（      ）、坚持独立自主、坚持中国道路、坚持胸怀天下、坚持开拓创新、坚持敢于斗争、坚持统一战线、坚持自我革命。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持党的领导"
+      },
+      {
+        "label": "B",
+        "text": "坚持人民至上"
+      },
+      {
+        "label": "C",
+        "text": "坚持改革开放"
+      },
+      {
+        "label": "D",
+        "text": "坚持理论创新"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 39,
+    "type": "multiple",
+    "text": "党的二十大强调，全面建设社会主义现代化国家，是一项伟大而艰巨的事业，前途光明，任重道远。前进道路上，必须牢牢把握以下重大原则：（      ），（      ），（       ），坚持深化改革开放，坚持发扬斗争精神。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持和加强党的全面领导"
+      },
+      {
+        "label": "B",
+        "text": "坚持中国特色社会主义道路"
+      },
+      {
+        "label": "C",
+        "text": "坚持以人民为中心的发展思想"
+      },
+      {
+        "label": "D",
+        "text": "坚持实事求是"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "10.第十章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 40,
+    "type": "single",
+    "text": "党的十九大后，党中央对坚决维护习近平同志党中央的核心、全党的核心地位，坚决维护党中央权威和集中统一领导，提出一系列具体要求。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "10.第十章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 41,
+    "type": "single",
+    "text": "2020年全国抗击新冠肺炎疫情表彰大会上，习近平深刻阐述生命至上、举国同心、舍生忘死、同舟共济、不负人民的伟大抗疫精神。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 42,
+    "type": "single",
+    "text": "在全球贫困状况依然严峻、一些国家贫富分化加剧的背景下，我国提前5年实现《联合国2030年可持续发展议程》的减贫目标，赢得国际社会广泛赞誉。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第十章",
+    "number": 43,
+    "type": "single",
+    "text": "进入新发展阶段、贯彻新发展理念、构建新发展格局，仅仅是由我国经济社会发展的理论逻辑决定的。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "10.第十章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 1,
+    "type": "single",
+    "text": "1851年1月11日，洪秀全在广西领导农民起义的地点是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "安庆"
+      },
+      {
+        "label": "B",
+        "text": "永安"
+      },
+      {
+        "label": "C",
+        "text": "金田村"
+      },
+      {
+        "label": "D",
+        "text": "武昌"
+      }
+    ],
+    "answer": "C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 2,
+    "type": "single",
+    "text": "太平天国天京被攻陷是在（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1851年1月"
+      },
+      {
+        "label": "B",
+        "text": "1853年5月"
+      },
+      {
+        "label": "C",
+        "text": "1856年7月"
+      },
+      {
+        "label": "D",
+        "text": "1864年7月"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 3,
+    "type": "single",
+    "text": "太平天国运动制定的第一个纲领性文件是(   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《天朝田亩制度》"
+      },
+      {
+        "label": "B",
+        "text": "《原道救世歌》"
+      },
+      {
+        "label": "C",
+        "text": "《原道醒世训》"
+      },
+      {
+        "label": "D",
+        "text": "《资政新篇》"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 4,
+    "type": "single",
+    "text": "太平天国运动之所以是中国农民战争的最高峰，主要因为(   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "制定了比较完整的革命纲领"
+      },
+      {
+        "label": "B",
+        "text": "建立了与清政府对峙的政权"
+      },
+      {
+        "label": "C",
+        "text": "对封建王朝的打击空前严重"
+      },
+      {
+        "label": "D",
+        "text": "其规模和延续时间均属空前"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 5,
+    "type": "single",
+    "text": "下列不属于太平天国农民起义失败的原因的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "农民阶级不是新的生产力和生产关系的代表，无法克服小生产者所固有的阶级局限性"
+      },
+      {
+        "label": "B",
+        "text": "缺乏科学思想理论的指导"
+      },
+      {
+        "label": "C",
+        "text": "没有先进阶级的领导"
+      },
+      {
+        "label": "D",
+        "text": "不承认不平等条约"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 6,
+    "type": "single",
+    "text": "外国侵略者和本国封建统治者的主要压迫对象是（) 。",
+    "options": [
+      {
+        "label": "A",
+        "text": "地主阶级洋务派"
+      },
+      {
+        "label": "B",
+        "text": "农民阶级"
+      },
+      {
+        "label": "C",
+        "text": "资产阶级维新派"
+      },
+      {
+        "label": "D",
+        "text": "资产阶级革命派"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 7,
+    "type": "single",
+    "text": "中国近代史上提出“以中国之伦常名教为原本，辅以诸国富强之术”之说的思想家是（)。",
+    "options": [
+      {
+        "label": "A",
+        "text": "李鸿章"
+      },
+      {
+        "label": "B",
+        "text": "左宗棠"
+      },
+      {
+        "label": "C",
+        "text": "冯桂芬"
+      },
+      {
+        "label": "D",
+        "text": "张之洞"
+      }
+    ],
+    "answer": "C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 8,
+    "type": "single",
+    "text": "洋务运动主要引进西方的（)。",
+    "options": [
+      {
+        "label": "A",
+        "text": "器物技术"
+      },
+      {
+        "label": "B",
+        "text": "政治制度"
+      },
+      {
+        "label": "C",
+        "text": "政治思想"
+      },
+      {
+        "label": "D",
+        "text": "文艺理论"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 9,
+    "type": "single",
+    "text": "左宗棠开办的近代军事工业是（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "湖北织布局"
+      },
+      {
+        "label": "B",
+        "text": "继昌隆缫丝厂"
+      },
+      {
+        "label": "C",
+        "text": "福州船政局"
+      },
+      {
+        "label": "D",
+        "text": "发昌机器厂"
+      }
+    ],
+    "answer": "C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 10,
+    "type": "single",
+    "text": "维新变法时期，维新派提出的政治主张是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "君主立宪"
+      },
+      {
+        "label": "B",
+        "text": "民主共和"
+      },
+      {
+        "label": "C",
+        "text": "人民民主"
+      },
+      {
+        "label": "D",
+        "text": "宪政民主"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 11,
+    "type": "single",
+    "text": "中国近代史上第一次资产阶级启蒙运动是（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "洋务运动"
+      },
+      {
+        "label": "B",
+        "text": "维新运动"
+      },
+      {
+        "label": "C",
+        "text": "辛亥革命"
+      },
+      {
+        "label": "D",
+        "text": "五四运动"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 12,
+    "type": "single",
+    "text": "《天朝田亩制度》解决的中心问题是（   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治问题"
+      },
+      {
+        "label": "B",
+        "text": "文化问题"
+      },
+      {
+        "label": "C",
+        "text": "军事问题"
+      },
+      {
+        "label": "D",
+        "text": "土地问题"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 13,
+    "type": "single",
+    "text": "太平天国运动不同于以前农民战争的特点是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "有了反封建内容"
+      },
+      {
+        "label": "B",
+        "text": "有了反侵略爱国内容"
+      },
+      {
+        "label": "C",
+        "text": "有了资产阶级领导"
+      },
+      {
+        "label": "D",
+        "text": "有了无产阶级领导"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 14,
+    "type": "single",
+    "text": "太平天国运动最主要的历史功绩是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "加速了清王朝和整个封建制度的衰落与崩溃"
+      },
+      {
+        "label": "B",
+        "text": "担负起反侵略反封建的双重任务"
+      },
+      {
+        "label": "C",
+        "text": "提出了第一个在中国发展资本主义的方案"
+      },
+      {
+        "label": "D",
+        "text": "配合了亚洲第一次民族解放运动高潮"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 15,
+    "type": "single",
+    "text": "《资政新篇》没有实行的根本原因是(   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "太平天国是农民革命政权"
+      },
+      {
+        "label": "B",
+        "text": "处于紧张的战争环境"
+      },
+      {
+        "label": "C",
+        "text": "太平天国未能推翻清政权"
+      },
+      {
+        "label": "D",
+        "text": "缺乏必要的社会条件"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 16,
+    "type": "single",
+    "text": "“中学为体，西学为用”思想在哪篇历史文献中系统阐述？（     ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "《资政新篇》"
+      },
+      {
+        "label": "B",
+        "text": "《四洲志》"
+      },
+      {
+        "label": "C",
+        "text": "《海国图志》"
+      },
+      {
+        "label": "D",
+        "text": "《劝学篇》"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 17,
+    "type": "single",
+    "text": "戊戌维新运动的性质是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "农民阶级反封建斗争"
+      },
+      {
+        "label": "B",
+        "text": "地主阶级改良运动"
+      },
+      {
+        "label": "C",
+        "text": "资产阶级改良运动"
+      },
+      {
+        "label": "D",
+        "text": "资产阶级革命运动"
+      }
+    ],
+    "answer": "C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 18,
+    "type": "single",
+    "text": "第二次鸦片战争后洋务派主张学习西方先进生产技术，其根本目的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使中国走上资本主义道路"
+      },
+      {
+        "label": "B",
+        "text": "镇压太平天国运动"
+      },
+      {
+        "label": "C",
+        "text": "抵抗外国侵略"
+      },
+      {
+        "label": "D",
+        "text": "维护清朝统治"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 19,
+    "type": "single",
+    "text": "洋务运动举办的规模最大的军火工厂是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "天津机器局"
+      },
+      {
+        "label": "B",
+        "text": "江南制造总局"
+      },
+      {
+        "label": "C",
+        "text": "金陵机器局"
+      },
+      {
+        "label": "D",
+        "text": "福州船政局"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 20,
+    "type": "single",
+    "text": "太平天国运动失败的根本原因是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "农民阶级的局限性"
+      },
+      {
+        "label": "B",
+        "text": "战略失误导致北伐失利"
+      },
+      {
+        "label": "C",
+        "text": "遭到中外反动势力的联合绞杀"
+      },
+      {
+        "label": "D",
+        "text": "领导集团的内部斗争"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 21,
+    "type": "single",
+    "text": "洋务派的指导思想是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "师夷长技以制夷"
+      },
+      {
+        "label": "B",
+        "text": "振兴中华"
+      },
+      {
+        "label": "C",
+        "text": "实行君主立宪制"
+      },
+      {
+        "label": "D",
+        "text": "中学为体，西学为用"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 22,
+    "type": "single",
+    "text": "洋务运动后期，洋务派打出的旗号是(   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“师夷长技以制夷”"
+      },
+      {
+        "label": "B",
+        "text": "“自强”"
+      },
+      {
+        "label": "C",
+        "text": "“扶清灭洋”"
+      },
+      {
+        "label": "D",
+        "text": "“求富”"
+      }
+    ],
+    "answer": "D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 23,
+    "type": "single",
+    "text": "甲午战败后，李鸿章伤感地说：“我办了一辈子事，练兵也，海军也，都是纸糊的老虎……不过勉强涂饰，虚有其表。”从他的话中，我们更能看出洋务运动是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一次使中国走上了富强道路的运动"
+      },
+      {
+        "label": "B",
+        "text": "一次失败了的封建统治者的自救运动"
+      },
+      {
+        "label": "C",
+        "text": "一次失败了的资产阶级改良运动"
+      },
+      {
+        "label": "D",
+        "text": "一次资产阶级的民主革命运动"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 24,
+    "type": "single",
+    "text": "维新派登上历史舞台的标志（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《马关条约》的签订"
+      },
+      {
+        "label": "B",
+        "text": "“公车上书”"
+      },
+      {
+        "label": "C",
+        "text": "实业救国高潮的出现"
+      },
+      {
+        "label": "D",
+        "text": "“西学”在中国的宣传"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 25,
+    "type": "single",
+    "text": "不属于“戊戌六君子”的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "谭嗣同"
+      },
+      {
+        "label": "B",
+        "text": "康广仁"
+      },
+      {
+        "label": "C",
+        "text": "梁启超"
+      },
+      {
+        "label": "D",
+        "text": "杨锐"
+      }
+    ],
+    "answer": "C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 26,
+    "type": "single",
+    "text": "以下关于维新变法运动说法错误的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "维新变法运动是一次爱国救亡运动"
+      },
+      {
+        "label": "B",
+        "text": "维新变法运动目的是要建立民主共和制度"
+      },
+      {
+        "label": "C",
+        "text": "维新变法运动是一次思想启蒙运动"
+      },
+      {
+        "label": "D",
+        "text": "维新变法运动促进了中国近代教育的发展"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 27,
+    "type": "single",
+    "text": "下列关于洋务运动的作用说法不正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "刺激了中国资本主义的发展"
+      },
+      {
+        "label": "B",
+        "text": "使中国走上了富强的道路"
+      },
+      {
+        "label": "C",
+        "text": "一定程度上抵制了外国经济势力的扩张"
+      },
+      {
+        "label": "D",
+        "text": "引进了一些先进生产技术"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 28,
+    "type": "single",
+    "text": "太平天国农民战争爆发的标志是。（     ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "金田起义"
+      },
+      {
+        "label": "B",
+        "text": "永安建制"
+      },
+      {
+        "label": "C",
+        "text": "长沙战役"
+      },
+      {
+        "label": "D",
+        "text": "定都南京"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 29,
+    "type": "single",
+    "text": "标志太平天国由盛到衰转折的事件是。（    ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "北伐失利"
+      },
+      {
+        "label": "B",
+        "text": "天京事变"
+      },
+      {
+        "label": "C",
+        "text": "安庆失守"
+      },
+      {
+        "label": "D",
+        "text": "天京被围"
+      }
+    ],
+    "answer": "B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 30,
+    "type": "single",
+    "text": "最早对兴办洋务的指导思想作出完整表述的人是。（    ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "冯桂芬"
+      },
+      {
+        "label": "B",
+        "text": "马建忠"
+      },
+      {
+        "label": "C",
+        "text": "王韬"
+      },
+      {
+        "label": "D",
+        "text": "郑观应"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 31,
+    "type": "multiple",
+    "text": "太平天国农民战争爆发的原因有（     ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "鸦片战争失败以后，为支付对列强的巨额赔款，同时也为了弥补财政亏空，清政府加重了赋税的征收"
+      },
+      {
+        "label": "B",
+        "text": "各级官吏在征收钱粮时往往浮收勒扣，横征暴敛，农民的负担更为加重"
+      },
+      {
+        "label": "C",
+        "text": "由于西方资本主义的入侵，中国的农业和家庭手工业相结合的自然经济逐渐解体"
+      },
+      {
+        "label": "D",
+        "text": "满汉民族矛盾"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 32,
+    "type": "multiple",
+    "text": "下列关于《天朝田亩制度》叙述正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "确定了平均分配土地的方案"
+      },
+      {
+        "label": "B",
+        "text": "是以解决土地问题为中心的比较完整的社会改革方案"
+      },
+      {
+        "label": "C",
+        "text": "具有空想性质，不可能实现"
+      },
+      {
+        "label": "D",
+        "text": "它的主张从根本上否定了封建社会的基础——地主的土地所有制"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 33,
+    "type": "multiple",
+    "text": "太平天国运动失败的主要原因是(   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中外反动势力的联合镇压"
+      },
+      {
+        "label": "B",
+        "text": "没有科学的理论指导"
+      },
+      {
+        "label": "C",
+        "text": "对于西方资本主义侵略者缺乏理性认识"
+      },
+      {
+        "label": "D",
+        "text": "太平天国政权的日益封建化"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 34,
+    "type": "multiple",
+    "text": "洋务运动是在19世纪60年代兴起的，洋务派兴办洋务企业，其意图是（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "为了购买和制造洋枪洋炮以镇压农民起义"
+      },
+      {
+        "label": "B",
+        "text": "为了发展民族资本主义，刺激中国资本主义的发展"
+      },
+      {
+        "label": "C",
+        "text": "加强海防、边防"
+      },
+      {
+        "label": "D",
+        "text": "发展本集团的政治、经济、军事实力"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 35,
+    "type": "multiple",
+    "text": "太平天国起义及其失败表明（   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "农民具有伟大的革命潜力"
+      },
+      {
+        "label": "B",
+        "text": "农民不能担负起领导反帝反封建斗争取得胜利的重任"
+      },
+      {
+        "label": "C",
+        "text": "单纯的农民战争不可能完成争取民族独立和人民解放的历史任务"
+      },
+      {
+        "label": "D",
+        "text": "农民是中国革命的领导者"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 36,
+    "type": "multiple",
+    "text": "下列关于洋务运动叙述正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "洋务运动是封建统治阶级为了维护自己的统治而进行的一场自救运动"
+      },
+      {
+        "label": "B",
+        "text": "是由资产阶级发动的"
+      },
+      {
+        "label": "C",
+        "text": "口号是“自强”和“求富”"
+      },
+      {
+        "label": "D",
+        "text": "触及到了封建统治的根基"
+      }
+    ],
+    "answer": "A,C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 37,
+    "type": "multiple",
+    "text": "戊戌变法主要内容有（)。",
+    "options": [
+      {
+        "label": "A",
+        "text": "在政治上，改革行政机构，裁撤冗官，任用维新人士"
+      },
+      {
+        "label": "B",
+        "text": "在经济上，保护、奖励农工商业和交通采矿业"
+      },
+      {
+        "label": "C",
+        "text": "在文化教育上，创设京师大学堂，在各地设立中、小学堂；提倡西学，翻译西方书籍，传播新思想"
+      },
+      {
+        "label": "D",
+        "text": "在军事上，训练新式军队"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 38,
+    "type": "multiple",
+    "text": "洋务运动失败的原因是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "洋务运动具有封建性"
+      },
+      {
+        "label": "B",
+        "text": "洋务运动对西方列强具有依赖性"
+      },
+      {
+        "label": "C",
+        "text": "洋务企业的管理具有腐朽性"
+      },
+      {
+        "label": "D",
+        "text": "顽固派的支持"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 39,
+    "type": "multiple",
+    "text": "康有为宣传变法维新的著作有（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《新学伪经考》"
+      },
+      {
+        "label": "B",
+        "text": "《孔子改制考》"
+      },
+      {
+        "label": "C",
+        "text": "《仁学》"
+      },
+      {
+        "label": "D",
+        "text": "《变法通义》"
+      }
+    ],
+    "answer": "A,B",
+    "source": "2.第二章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 40,
+    "type": "single",
+    "text": "戊戌维新运动中维新派与守旧派论战的实质是资产阶级思想与封建主义思想在中国的第一次正面交锋。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 41,
+    "type": "single",
+    "text": "洋务派首先兴办的是军用工业，这些企业都是官办的。（   ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第二章",
+    "number": 42,
+    "type": "single",
+    "text": "19世纪90年代以后，中国民族资本主义有了初步发展。（   ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "2.第二章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 1,
+    "type": "single",
+    "text": "1903至1904年，（ ）派兵侵入中国西藏地区。",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本"
+      },
+      {
+        "label": "B",
+        "text": "俄国"
+      },
+      {
+        "label": "C",
+        "text": "英国"
+      },
+      {
+        "label": "D",
+        "text": "法国"
+      }
+    ],
+    "answer": "C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 2,
+    "type": "single",
+    "text": "中国近代史上正式废除科举制度的改革是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "戊戌变法"
+      },
+      {
+        "label": "B",
+        "text": "清末新政"
+      },
+      {
+        "label": "C",
+        "text": "民国新政"
+      },
+      {
+        "label": "D",
+        "text": "新文化运动"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 3,
+    "type": "single",
+    "text": "清末“新政”未能挽救清朝灭亡命运的根本原因是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“新政”只是骗局，从来没有真正实行"
+      },
+      {
+        "label": "B",
+        "text": "清政府借“新政”之名增加税收，引起人民反抗"
+      },
+      {
+        "label": "C",
+        "text": "列强反对中国实行“新政”，制造障碍"
+      },
+      {
+        "label": "D",
+        "text": "“新政”不能解决当时的各种社会矛盾"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 4,
+    "type": "single",
+    "text": "清末“预备立宪”的根本目的在于（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "仿效欧美政体"
+      },
+      {
+        "label": "B",
+        "text": "发展资本主义"
+      },
+      {
+        "label": "C",
+        "text": "延续反动统治"
+      },
+      {
+        "label": "D",
+        "text": "缓和阶级矛盾"
+      }
+    ],
+    "answer": "C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 5,
+    "type": "single",
+    "text": "1904年，孙中山发表的指出只有推翻清政府，建立“中华民国”，才能真正解决中国问题的文章是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《大同书》"
+      },
+      {
+        "label": "B",
+        "text": "《警世钟》"
+      },
+      {
+        "label": "C",
+        "text": "《驳康有为论革命书》"
+      },
+      {
+        "label": "D",
+        "text": "《中国问题的真解决》"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 6,
+    "type": "single",
+    "text": "自称“革命军中马前卒”、热情讴歌革命的资产阶级革命宣传家是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "章炳麟"
+      },
+      {
+        "label": "B",
+        "text": "邹容"
+      },
+      {
+        "label": "C",
+        "text": "陈天华"
+      },
+      {
+        "label": "D",
+        "text": "汪精卫"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 7,
+    "type": "single",
+    "text": "1903年，（）发表了《驳康有为论革命书》，反对康有为的保皇观点，强调中国人民完全有能力建立民主共和制度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邹容"
+      },
+      {
+        "label": "B",
+        "text": "陈天华"
+      },
+      {
+        "label": "C",
+        "text": "宋教仁"
+      },
+      {
+        "label": "D",
+        "text": "章炳麟"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 8,
+    "type": "single",
+    "text": "1905年8月，中国同盟会在（）成立，孙中山被公举为总理。",
+    "options": [
+      {
+        "label": "A",
+        "text": "檀香山"
+      },
+      {
+        "label": "B",
+        "text": "东京"
+      },
+      {
+        "label": "C",
+        "text": "上海"
+      },
+      {
+        "label": "D",
+        "text": "香港"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 9,
+    "type": "single",
+    "text": "提出“驱除鞑虏，恢复中华，创立民国，平均地权”的政治纲领的是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "兴中会"
+      },
+      {
+        "label": "B",
+        "text": "华兴会"
+      },
+      {
+        "label": "C",
+        "text": "光复会"
+      },
+      {
+        "label": "D",
+        "text": "同盟会"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 10,
+    "type": "single",
+    "text": "中国同盟会的机关报是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《新华日报》"
+      },
+      {
+        "label": "B",
+        "text": "《民报》"
+      },
+      {
+        "label": "C",
+        "text": "《新民丛报》"
+      },
+      {
+        "label": "D",
+        "text": "《国闻报》"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 11,
+    "type": "single",
+    "text": "标志着中国资产阶级民主革命进入了一个新阶段的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "兴中会的成立"
+      },
+      {
+        "label": "B",
+        "text": "广州起义"
+      },
+      {
+        "label": "C",
+        "text": "中国同盟会的成立"
+      },
+      {
+        "label": "D",
+        "text": "三民主义的提出"
+      }
+    ],
+    "answer": "C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 12,
+    "type": "single",
+    "text": "资产阶级革命派的阶级基础是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "官僚买办资产阶级"
+      },
+      {
+        "label": "B",
+        "text": "民族资产阶级"
+      },
+      {
+        "label": "C",
+        "text": "城市小资产阶级"
+      },
+      {
+        "label": "D",
+        "text": "工人阶级"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 13,
+    "type": "single",
+    "text": "辛亥革命前同盟会领导的影响最大的起义是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "萍浏醴起义"
+      },
+      {
+        "label": "B",
+        "text": "皖浙起义"
+      },
+      {
+        "label": "C",
+        "text": "镇南关起义"
+      },
+      {
+        "label": "D",
+        "text": "黄花岗起义"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 14,
+    "type": "single",
+    "text": "孙中山领导辛亥革命的指导思想是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族主义、民权主义、民生主义"
+      },
+      {
+        "label": "B",
+        "text": "驱除鞑虏、恢复中华"
+      },
+      {
+        "label": "C",
+        "text": "建立民国、平均地权"
+      },
+      {
+        "label": "D",
+        "text": "联俄、联共、扶助农工"
+      }
+    ],
+    "answer": "A",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 15,
+    "type": "single",
+    "text": "下列各项属于孙中山“三民主义”中“民生主义”的是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "反对满洲贵族，反对民族压迫"
+      },
+      {
+        "label": "B",
+        "text": "推翻君主专制政体，建立国民政府"
+      },
+      {
+        "label": "C",
+        "text": "核定地价，按价征税，涨价归公，按价收买"
+      },
+      {
+        "label": "D",
+        "text": "国民有言论、集会、著作自由"
+      }
+    ],
+    "answer": "C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 16,
+    "type": "single",
+    "text": "对“民权主义”理解正确的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "进行政治革命，推翻封建君主专制，建立资产阶级共和国"
+      },
+      {
+        "label": "B",
+        "text": "推翻清政府，建立中华民族“独立的国家”"
+      },
+      {
+        "label": "C",
+        "text": "平均地权，核定地价"
+      },
+      {
+        "label": "D",
+        "text": "打击帝国主义在华势力"
+      }
+    ],
+    "answer": "A",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 17,
+    "type": "single",
+    "text": "1911年的发生保路风潮中，运动最激烈的省份是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "湖南"
+      },
+      {
+        "label": "B",
+        "text": "湖北"
+      },
+      {
+        "label": "C",
+        "text": "广东"
+      },
+      {
+        "label": "D",
+        "text": "四川"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 18,
+    "type": "single",
+    "text": "武昌起义爆发后，控制大部分地方政权的是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "革命党人"
+      },
+      {
+        "label": "B",
+        "text": "北洋军阀和旧官僚"
+      },
+      {
+        "label": "C",
+        "text": "袁世凯的亲信"
+      },
+      {
+        "label": "D",
+        "text": "立宪派和旧官僚"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 19,
+    "type": "single",
+    "text": "武昌起义的主力是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "同盟会会员"
+      },
+      {
+        "label": "B",
+        "text": "立宪派"
+      },
+      {
+        "label": "C",
+        "text": "人民大众"
+      },
+      {
+        "label": "D",
+        "text": "新军"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 20,
+    "type": "single",
+    "text": "（    ）是中国历史上第一部具有资产阶级共和国宪法性质的法典。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《钦定宪法大纲》"
+      },
+      {
+        "label": "B",
+        "text": "《大总统选举法》"
+      },
+      {
+        "label": "C",
+        "text": "《中华民国临时约法》"
+      },
+      {
+        "label": "D",
+        "text": "《中华民国约法》"
+      }
+    ],
+    "answer": "C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 21,
+    "type": "single",
+    "text": "“二次革命”的导火线是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "宋教仁被刺"
+      },
+      {
+        "label": "B",
+        "text": "段祺瑞拒绝恢复《临时约法》"
+      },
+      {
+        "label": "C",
+        "text": "袁世凯称帝"
+      },
+      {
+        "label": "D",
+        "text": "张勋复辟"
+      }
+    ],
+    "answer": "A",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 22,
+    "type": "single",
+    "text": "与列强签订了善后大借款合同的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "段祺瑞"
+      },
+      {
+        "label": "B",
+        "text": "黎元洪"
+      },
+      {
+        "label": "C",
+        "text": "冯国璋"
+      },
+      {
+        "label": "D",
+        "text": "袁世凯"
+      }
+    ],
+    "answer": "D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 23,
+    "type": "single",
+    "text": "1914年，孙中山在日本组织成立（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国民党"
+      },
+      {
+        "label": "B",
+        "text": "中华革命党"
+      },
+      {
+        "label": "C",
+        "text": "同盟会"
+      },
+      {
+        "label": "D",
+        "text": "中国国民党"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 24,
+    "type": "single",
+    "text": "北洋军阀政府代表的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族资产阶级利益"
+      },
+      {
+        "label": "B",
+        "text": "小资产阶级知识分子利益"
+      },
+      {
+        "label": "C",
+        "text": "大地主和买办资产阶级利益"
+      },
+      {
+        "label": "D",
+        "text": "工农利益"
+      }
+    ],
+    "answer": "C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 25,
+    "type": "single",
+    "text": "袁世凯为得到日本对他复辟帝制的支持，接受日本提出的严重损害中国权益的（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“善后大借款”"
+      },
+      {
+        "label": "B",
+        "text": "“二十一条”"
+      },
+      {
+        "label": "C",
+        "text": "“西原借款”"
+      },
+      {
+        "label": "D",
+        "text": "《辛丑条约》"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 26,
+    "type": "single",
+    "text": "下列历史事件按时间的先后次序排列应是：①护国运动②二次革命③袁世凯复辟④护法运动（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "③ ① ② ④"
+      },
+      {
+        "label": "B",
+        "text": "② ③ ① ④"
+      },
+      {
+        "label": "C",
+        "text": "③ ④ ② ①"
+      },
+      {
+        "label": "D",
+        "text": "② ① ③ ④"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 27,
+    "type": "single",
+    "text": "1917年6月，前清官僚（）率“辫子军”北上，拥废帝溥仪复辟。",
+    "options": [
+      {
+        "label": "A",
+        "text": "段祺瑞"
+      },
+      {
+        "label": "B",
+        "text": "冯国璋"
+      },
+      {
+        "label": "C",
+        "text": "张勋"
+      },
+      {
+        "label": "D",
+        "text": "黎元洪"
+      }
+    ],
+    "answer": "C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 28,
+    "type": "single",
+    "text": "1911年10月10日，驻武昌的新军（）的革命党人打响了起义的第一枪。",
+    "options": [
+      {
+        "label": "A",
+        "text": "南湖炮队"
+      },
+      {
+        "label": "B",
+        "text": "工程第八营"
+      },
+      {
+        "label": "C",
+        "text": "炮兵第八营"
+      },
+      {
+        "label": "D",
+        "text": "工程第十八营"
+      }
+    ],
+    "answer": "B",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 29,
+    "type": "multiple",
+    "text": "《辛丑条约》签订后，外国在华投资规模急速扩张，其投资项目包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "扩大设厂规模"
+      },
+      {
+        "label": "B",
+        "text": "给清政府大量高息贷款"
+      },
+      {
+        "label": "C",
+        "text": "争夺铁路利权"
+      },
+      {
+        "label": "D",
+        "text": "争夺矿山利权"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 30,
+    "type": "multiple",
+    "text": "1901年，清政府宣布实行“新政”。改革内容包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "设立商部、学部、巡警部等中央行政机构"
+      },
+      {
+        "label": "B",
+        "text": "裁撤绿营，建立新军"
+      },
+      {
+        "label": "C",
+        "text": "颁布商法商律，奖励工商"
+      },
+      {
+        "label": "D",
+        "text": "鼓励留学，颁布新学制"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 31,
+    "type": "multiple",
+    "text": "下列属于资产阶级革命团体的是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "兴中会"
+      },
+      {
+        "label": "B",
+        "text": "科学补习所"
+      },
+      {
+        "label": "C",
+        "text": "华兴会"
+      },
+      {
+        "label": "D",
+        "text": "光复会"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 32,
+    "type": "multiple",
+    "text": "下列属于宣传民主革命思想的著作有（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《驳康有为论革命书》"
+      },
+      {
+        "label": "B",
+        "text": "《革命军》"
+      },
+      {
+        "label": "C",
+        "text": "《猛回头》"
+      },
+      {
+        "label": "D",
+        "text": "《警世钟》"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 33,
+    "type": "multiple",
+    "text": "关于辛亥革命历史功绩叙述属正确的是（    ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "推翻了清王朝的统治"
+      },
+      {
+        "label": "B",
+        "text": "建立了第一个资产阶级共和政府"
+      },
+      {
+        "label": "C",
+        "text": "一定程度上打击了帝国主义侵略势力"
+      },
+      {
+        "label": "D",
+        "text": "推动了中国人民的思想解放和社会变革"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 34,
+    "type": "multiple",
+    "text": "清帝退位的第二天，孙中山向参议院提出请辞咨文，附带的条件是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "以南京为首都"
+      },
+      {
+        "label": "B",
+        "text": "总统在南京就职"
+      },
+      {
+        "label": "C",
+        "text": "总统在北京就职"
+      },
+      {
+        "label": "D",
+        "text": "遵守约法"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 35,
+    "type": "multiple",
+    "text": "1911年5月，清政府宣布“铁路干线收归国有”，并与四国银行团订立（）铁路借款合同，借“国有”名义把铁路利权出卖给帝国主义。",
+    "options": [
+      {
+        "label": "A",
+        "text": "京汉"
+      },
+      {
+        "label": "B",
+        "text": "粤汉"
+      },
+      {
+        "label": "C",
+        "text": "川汉"
+      },
+      {
+        "label": "D",
+        "text": "京广"
+      }
+    ],
+    "answer": "B,C",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 36,
+    "type": "multiple",
+    "text": "南京临时政府的局限性包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "试图承认清政府与列强签订的一切不平等条约"
+      },
+      {
+        "label": "B",
+        "text": "试图承认清政府所欠列强的一切外债"
+      },
+      {
+        "label": "C",
+        "text": "没有提出可以满足农民土地要求的政策和措施"
+      },
+      {
+        "label": "D",
+        "text": "仍然想要维护封建土地制度"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 37,
+    "type": "multiple",
+    "text": "毛泽东说：“民国元年的《中华民国临时约法》，在那个时期是一个比较好的东西；当然，是不完全的、有缺点的，是资产阶级性的，但它带有（      ）、（      ）。”",
+    "options": [
+      {
+        "label": "A",
+        "text": "封建性"
+      },
+      {
+        "label": "B",
+        "text": "革命性"
+      },
+      {
+        "label": "C",
+        "text": "法治性"
+      },
+      {
+        "label": "D",
+        "text": "民主性"
+      }
+    ],
+    "answer": "B,D",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 38,
+    "type": "single",
+    "text": "1901年，清政府宣布实施新政，其主管机构是督办政务处。（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "3.第三章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 39,
+    "type": "single",
+    "text": "二十世纪中国发生的第一次历史性巨变是辛亥革命。（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "3.第三章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 40,
+    "type": "single",
+    "text": "在革命派与改良派的论战中，革命派认为革命虽不免流血，但可“救世救人”，是疗治社会的捷径。",
+    "options": [],
+    "answer": "对",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第三章",
+    "number": 41,
+    "type": "single",
+    "text": "武昌起义后一个月内，有18个省以及上海和许多州县宣布起义，脱离清政府的统治。",
+    "options": [],
+    "answer": "错",
+    "source": "3.第三章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 1,
+    "type": "single",
+    "text": "（      ）决定加入共产国际，作为共产国际的一个支部。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中共一大"
+      },
+      {
+        "label": "B",
+        "text": "中共二大"
+      },
+      {
+        "label": "C",
+        "text": "中共三大"
+      },
+      {
+        "label": "D",
+        "text": "中共四大"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 2,
+    "type": "single",
+    "text": "到五四运动前夕，中国工人阶级队伍达到（      ）人左右。",
+    "options": [
+      {
+        "label": "A",
+        "text": "10万"
+      },
+      {
+        "label": "B",
+        "text": "50万"
+      },
+      {
+        "label": "C",
+        "text": "100万"
+      },
+      {
+        "label": "D",
+        "text": "200万"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 3,
+    "type": "single",
+    "text": "最能完整地体现五四运动性质的口号是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "废除二十一条"
+      },
+      {
+        "label": "B",
+        "text": "拒绝在和约上签字"
+      },
+      {
+        "label": "C",
+        "text": "还我青岛"
+      },
+      {
+        "label": "D",
+        "text": "外争主权，内除国贼"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 4,
+    "type": "single",
+    "text": "1918年，李大钊发表的宣传俄国十月革命的文章是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《法俄革命之比较观》、《庶民的胜利》、《布尔什维主义的胜利》"
+      },
+      {
+        "label": "B",
+        "text": "《庶民的胜利》、《我的马克思主义观》、《再论问题与主义》"
+      },
+      {
+        "label": "C",
+        "text": "《布尔什维主义的胜利》、《庶民的胜利》、《我的马克思主义观》"
+      },
+      {
+        "label": "D",
+        "text": "《法俄革命之比较观》、《再论问题与主义》、《我的马克思主义观》"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 5,
+    "type": "single",
+    "text": "标志着第一次国共合作正式形成的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "共产党一大的成功召开"
+      },
+      {
+        "label": "B",
+        "text": "共产党二大的成功召开"
+      },
+      {
+        "label": "C",
+        "text": "共产党三大的成功召开"
+      },
+      {
+        "label": "D",
+        "text": "国民党一大的成功召开"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 6,
+    "type": "single",
+    "text": "中共一大在讨论实际工作计划时，决定首先（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现共产主义"
+      },
+      {
+        "label": "B",
+        "text": "加强无产阶级国际团结"
+      },
+      {
+        "label": "C",
+        "text": "集中精力组织工人"
+      },
+      {
+        "label": "D",
+        "text": "推翻资产阶级专政"
+      }
+    ],
+    "answer": "C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 7,
+    "type": "single",
+    "text": "在北伐战争中为第四军赢得“铁军”称号的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中央独立师"
+      },
+      {
+        "label": "B",
+        "text": "叶挺独立团"
+      },
+      {
+        "label": "C",
+        "text": "八路军115师"
+      },
+      {
+        "label": "D",
+        "text": "新编第一军"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 8,
+    "type": "single",
+    "text": "1920年8月，（      ）翻译的《共产党宣言》中文全译本公开出版，这是马克思主义在中国传播史上的一件大事。",
+    "options": [
+      {
+        "label": "A",
+        "text": "李达"
+      },
+      {
+        "label": "B",
+        "text": "陈望道"
+      },
+      {
+        "label": "C",
+        "text": "毛泽东"
+      },
+      {
+        "label": "D",
+        "text": "董必武"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 9,
+    "type": "single",
+    "text": "中国无产阶级逐渐代替资产阶级成为近代中国民族民主革命的领导者是在（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "辛亥革命以后"
+      },
+      {
+        "label": "B",
+        "text": "五四运动以后"
+      },
+      {
+        "label": "C",
+        "text": "北伐战争以后"
+      },
+      {
+        "label": "D",
+        "text": "南昌起义以后"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 10,
+    "type": "single",
+    "text": "以下说法错误的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党的成立深刻改变了中国革命的性质"
+      },
+      {
+        "label": "B",
+        "text": "中国共产党的成立深刻改变了中华民族发展的方向和进程"
+      },
+      {
+        "label": "C",
+        "text": "中国共产党的成立深刻改变了中国人民和中华民族的前途和命运"
+      },
+      {
+        "label": "D",
+        "text": "中国共产党的成立深刻改变了世界发展的趋势和格局"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 11,
+    "type": "single",
+    "text": "中国共产党从大革命中得到的经验教训不包括（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党不但要建立革命的统一战线，而且要始终保持自身的独立性"
+      },
+      {
+        "label": "B",
+        "text": "要争取无产阶级在革命中的领导权"
+      },
+      {
+        "label": "C",
+        "text": "必须坚持武装斗争，组建由中国共产党直接统帅和指挥的军队"
+      },
+      {
+        "label": "D",
+        "text": "为了维护统一战线，可以不必解决农民的土地问题"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 12,
+    "type": "single",
+    "text": "十月革命推动中国先进分子把目光从西方转向东方，从资产阶级民主主义转向社会主义的原因不包括（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "俄国的国情有与中国相同或近似的地方"
+      },
+      {
+        "label": "B",
+        "text": "十月革命后的社会主义俄国以新的平等的态度对待中国"
+      },
+      {
+        "label": "C",
+        "text": "十月革命给予中国先进分子新的革命方法的启示"
+      },
+      {
+        "label": "D",
+        "text": "苏维埃俄国第一次对华声明继承沙俄在中国攫取的一切特权"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 13,
+    "type": "single",
+    "text": "五四运动前新文化运动的性质是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "资产阶级民主主义的思想文化运动"
+      },
+      {
+        "label": "B",
+        "text": "新民主主义的思想文化运动"
+      },
+      {
+        "label": "C",
+        "text": "无产阶级的思想文化运动"
+      },
+      {
+        "label": "D",
+        "text": "马克思主义的思想文化运动"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 14,
+    "type": "single",
+    "text": "中国第一个马克思主义者是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "李大钊"
+      },
+      {
+        "label": "B",
+        "text": "陈独秀"
+      },
+      {
+        "label": "C",
+        "text": "蔡和森"
+      },
+      {
+        "label": "D",
+        "text": "毛泽东"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 15,
+    "type": "single",
+    "text": "第一次国共合作的政治基础是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "三民主义"
+      },
+      {
+        "label": "B",
+        "text": "联俄、联共、扶助农工"
+      },
+      {
+        "label": "C",
+        "text": "新三民主义"
+      },
+      {
+        "label": "D",
+        "text": "资产阶级民主主义"
+      }
+    ],
+    "answer": "C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 16,
+    "type": "single",
+    "text": "在五四运动中，中国（      ）开始以独立的政治力量登上历史舞台，成为革命的领导阶级。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工人阶级"
+      },
+      {
+        "label": "B",
+        "text": "资产阶级"
+      },
+      {
+        "label": "C",
+        "text": "农民阶级"
+      },
+      {
+        "label": "D",
+        "text": "民族资产阶级"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 17,
+    "type": "single",
+    "text": "中国最早酝酿建立无产阶级政党的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "李大钊 毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "李大钊 陈独秀"
+      },
+      {
+        "label": "C",
+        "text": "陈独秀 毛泽东"
+      },
+      {
+        "label": "D",
+        "text": "蔡和森 陈独秀"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 18,
+    "type": "single",
+    "text": "五四运动的直接导火索是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "袁世凯接受日本提出的“二十一条”"
+      },
+      {
+        "label": "B",
+        "text": "俄国十月革命的胜利"
+      },
+      {
+        "label": "C",
+        "text": "巴黎和会上中国的外交失败"
+      },
+      {
+        "label": "D",
+        "text": "李大钊《庶民的胜利》的发表"
+      }
+    ],
+    "answer": "C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 19,
+    "type": "single",
+    "text": "1926年北伐的三大敌人是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "冯国璋 段祺瑞 吴佩孚"
+      },
+      {
+        "label": "B",
+        "text": "冯国璋 段祺瑞 张作霖"
+      },
+      {
+        "label": "C",
+        "text": "吴佩孚 段祺瑞 孙传芳"
+      },
+      {
+        "label": "D",
+        "text": "吴佩孚 孙传芳 张作霖"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 20,
+    "type": "single",
+    "text": "下列说法正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "京汉铁路工人罢工遭到镇压后，中国工人运动暂时转入低潮"
+      },
+      {
+        "label": "B",
+        "text": "香港海员罢工遭到镇压后，中国工人运动暂时转入低潮"
+      },
+      {
+        "label": "C",
+        "text": "安源路矿工人罢工遭到镇压后，中国工人运动暂时转入低潮"
+      },
+      {
+        "label": "D",
+        "text": "开滦五矿工人罢工遭到镇压后，中国工人运动暂时转入低潮"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 21,
+    "type": "single",
+    "text": "出席中共一大的武汉共产党早期组织的代表是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "王尽美  邓恩铭"
+      },
+      {
+        "label": "B",
+        "text": "张国焘  刘仁静"
+      },
+      {
+        "label": "C",
+        "text": "董必武   陈潭秋"
+      },
+      {
+        "label": "D",
+        "text": "李达    李汉俊"
+      }
+    ],
+    "answer": "C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 22,
+    "type": "single",
+    "text": "下列关于五四前新文化运动表述正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新文化运动的倡导者批判孔学，提倡资产阶级民主主义，为人们提供了有效的思想武器去认识中国和改造中国社会"
+      },
+      {
+        "label": "B",
+        "text": "那时的许多领导人物已经具有了马克思主义的批判精神"
+      },
+      {
+        "label": "C",
+        "text": "新文化运动的倡导者把改造国民性置于优先地位，但是，离开改造产生封建思想的社会环境的革命实践，要根本改造由这种社会环境所产生的思想、所造成的国民性，是不可能的"
+      },
+      {
+        "label": "D",
+        "text": "当时的先进分子，普遍对西方资产阶级民主主义没有怀疑和保留"
+      }
+    ],
+    "answer": "C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 23,
+    "type": "single",
+    "text": "中国早期的马克思主义者队伍不包括（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新文化运动的精神领袖，主要代表人物是李大钊 、陈独秀"
+      },
+      {
+        "label": "B",
+        "text": "五四爱国运动的左翼骨干，主要代表为毛泽东等"
+      },
+      {
+        "label": "C",
+        "text": "一部分原中国同盟会会员、辛亥革命时期的活动家，其代表为董必武等"
+      },
+      {
+        "label": "D",
+        "text": "新文化运动中的骨干分子，主要代表为胡适"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 24,
+    "type": "single",
+    "text": "关于五四运动说法不正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "五四精神的主要内容是爱国、进步、民主、科学"
+      },
+      {
+        "label": "B",
+        "text": "五四运动是一场传播新思想新文化新知识的伟大思想启蒙运动和新文化运动"
+      },
+      {
+        "label": "C",
+        "text": "五四运动的先锋是工人阶级"
+      },
+      {
+        "label": "D",
+        "text": "五四运动是彻底反帝反封建的伟大爱国革命运动"
+      }
+    ],
+    "answer": "C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 25,
+    "type": "single",
+    "text": "关于“新三民主义”表述不正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "在民族主义中没有明确提出反帝的内容"
+      },
+      {
+        "label": "B",
+        "text": "在民权主义中强调民主权利应“为一般平民所共有”"
+      },
+      {
+        "label": "C",
+        "text": "把民生主义概括为“平均地权”和“节制资本”"
+      },
+      {
+        "label": "D",
+        "text": "新三民主义的政纲同中国共产党在民主革命阶段的纲领基本一致"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 26,
+    "type": "single",
+    "text": "中国共产党（      ）全国代表大会，决定共产党员以个人身份加入国民党，以实现国共合作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "第二次"
+      },
+      {
+        "label": "B",
+        "text": "第三次"
+      },
+      {
+        "label": "C",
+        "text": "第四次"
+      },
+      {
+        "label": "D",
+        "text": "第五次"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 27,
+    "type": "single",
+    "text": "下列不属于中国共产党早期组织的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "北京共产党早期组织"
+      },
+      {
+        "label": "B",
+        "text": "武汉共产党早期组织"
+      },
+      {
+        "label": "C",
+        "text": "南京共产党早期组织"
+      },
+      {
+        "label": "D",
+        "text": "旅法中共早期组织"
+      }
+    ],
+    "answer": "C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 28,
+    "type": "single",
+    "text": "在中国早期马克思主义者的队伍中，李大钊是代表人物。1919年8月，李大钊在《再论问题与主义》一文中指出：“一个社会主义者，为使他的主义在世界上发生一些影响，必须要研究怎么可以把他的理想尽量应用于环绕着他的实境。”在《我的马克思主义观》一文中，他一方面肯定马克思主义是“为世界改造原动的学说”具有普遍意义；另一方面又指出，“马氏的学说，实在是一个时代的产物”，我们不可以不考虑我们的环境，“就那样整个拿来，应用于我们生存的社会”。这说明，中国早期马克思主义者（       ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "开始认识到必须把改造国民性置于优先地位"
+      },
+      {
+        "label": "B",
+        "text": "已在实际上初步形成了马克思主义应当与中国具体实际相结合的思想"
+      },
+      {
+        "label": "C",
+        "text": "仍然在马克思主义与社会民主主义等流派中进行反复比较"
+      },
+      {
+        "label": "D",
+        "text": "明确提出马克思主义中国化的任务"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 29,
+    "type": "single",
+    "text": "下列不属于中国共产党第一个纲领的内容的是（       ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "革命军队必须与无产阶级一起推翻资本家阶级的政权"
+      },
+      {
+        "label": "B",
+        "text": "承认无产阶级专政，直到阶级斗争结束"
+      },
+      {
+        "label": "C",
+        "text": "消灭资本家私有制"
+      },
+      {
+        "label": "D",
+        "text": "打倒军阀，推翻国际帝国主义的压迫"
+      }
+    ],
+    "answer": "D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 30,
+    "type": "multiple",
+    "text": "五四运动的历史意义有（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "五四运动是中国旧民主主义革命走向新民主主义革命的转折点"
+      },
+      {
+        "label": "B",
+        "text": "五四运动以全民族的力量高举起爱国主义的伟大旗帜，孕育了五四精神"
+      },
+      {
+        "label": "C",
+        "text": "五四运动以全民族的行动激发了追求真理、追求进步的伟大觉醒"
+      },
+      {
+        "label": "D",
+        "text": "五四运动以全民族的搏击培育了永久奋斗的伟大传统"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 31,
+    "type": "multiple",
+    "text": "关于大革命中的中国共产党的表述正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "提出了反对帝国主义、反对军阀的政治口号"
+      },
+      {
+        "label": "B",
+        "text": "是国共合作的倡导者和统一战线的组织者"
+      },
+      {
+        "label": "C",
+        "text": "是人民群众的主要发动者和组织者"
+      },
+      {
+        "label": "D",
+        "text": "独立领导革命战争"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 32,
+    "type": "multiple",
+    "text": "下列关于伟大建党精神描述正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持真理、坚守理想"
+      },
+      {
+        "label": "B",
+        "text": "践行初心、担当使命"
+      },
+      {
+        "label": "C",
+        "text": "不怕牺牲、英勇斗争"
+      },
+      {
+        "label": "D",
+        "text": "对党忠诚、不负人民"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 33,
+    "type": "multiple",
+    "text": "大革命失败的原因主要是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "列强对蒋介石集团的支持"
+      },
+      {
+        "label": "B",
+        "text": "蒋介石、汪精卫等反革命力量的强大"
+      },
+      {
+        "label": "C",
+        "text": "陈独秀为代表的右倾机会主义错误"
+      },
+      {
+        "label": "D",
+        "text": "共产党没有发动工农群众"
+      }
+    ],
+    "answer": "B,C",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 34,
+    "type": "multiple",
+    "text": "下列判断正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党的诞生，是近现代中国历史发展的必然产物"
+      },
+      {
+        "label": "B",
+        "text": "中国共产党的诞生，是中国人民在救亡图存斗争中顽强求索的必然产物"
+      },
+      {
+        "label": "C",
+        "text": "中国共产党的成立，是中华民族发展史上一个开天辟地的大事变"
+      },
+      {
+        "label": "D",
+        "text": "中国共产党从成立之日起，就肩负着实现中华民族伟大复兴的历史使命"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 35,
+    "type": "multiple",
+    "text": "1924年1月，中国国民党第一次全国代表大会确立的三大政策是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "平均地权"
+      },
+      {
+        "label": "B",
+        "text": "联俄"
+      },
+      {
+        "label": "C",
+        "text": "联共"
+      },
+      {
+        "label": "D",
+        "text": "扶助农工"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 36,
+    "type": "multiple",
+    "text": "1924年至1927年由国共两党合作发动的大革命，在中国大地上掀起了反帝反封建的伟大斗争，在中国革命史上写下了光荣的一页。与辛亥革命相比，大革命(      )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "斗争的规模更加宏伟"
+      },
+      {
+        "label": "B",
+        "text": "革命的社会内涵更为深刻"
+      },
+      {
+        "label": "C",
+        "text": "斗争的形式更加隐蔽"
+      },
+      {
+        "label": "D",
+        "text": "群众的动员程度更为广泛"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 37,
+    "type": "multiple",
+    "text": "孙中山先生病逝后，原先就坚持反共立场的国民党右派重新活跃起来，国民党内部左右两派进一步分化，国共合作建立的统一战线面临复杂局面，表现是（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1926年3月，蒋介石制造中山舰事件，打击共产党和工农革命力量"
+      },
+      {
+        "label": "B",
+        "text": "1926年5月，国民党二届二中全会上提出所谓《整理党务决议案》"
+      },
+      {
+        "label": "C",
+        "text": "国民政府进行了收回汉口、九江英租界的斗争"
+      },
+      {
+        "label": "D",
+        "text": "上海工人举行了三次武装起义"
+      }
+    ],
+    "answer": "A,B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 38,
+    "type": "multiple",
+    "text": "十月革命发生在其国情与中国相同或近似的俄国，因而对中国先进分子具有特殊吸引力。青年毛泽东说，“我看俄国式的革命，是无可如何的山穷水尽诸路皆走不通了的一个变计”，“只此方法较之别的改造方法所含可能的性质为多”。十月革命发生时俄国国情与中国“相同或近似”是指（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "半殖民地半封建的社会性质"
+      },
+      {
+        "label": "B",
+        "text": "“三座大山”阻碍了社会进步和发展"
+      },
+      {
+        "label": "C",
+        "text": "封建压迫严重"
+      },
+      {
+        "label": "D",
+        "text": "经济文化落后"
+      }
+    ],
+    "answer": "C,D",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 39,
+    "type": "single",
+    "text": "1927年4月12日，蒋介石在上海发动反共政变，以“清党”为名，大规模捕杀共产党员和革命群众，标志着国共合作全面破裂，大革命最终失败。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 40,
+    "type": "single",
+    "text": "中国先进分子在接受马克思主义之后，并没有抛弃而是继承了五四运动的民主和科学的精神，并赋予它们新的含义，使它们在更高层次上得到了发扬。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 41,
+    "type": "single",
+    "text": "中国早期马克思主义者的队伍中，李大钊、陈独秀属于先驱者和擎旗人，毛泽东等五四运动的左翼骨干则是其主体部分。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "4.第四章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 42,
+    "type": "single",
+    "text": "1927年召开的中国共产党第五次全国代表大会对无产阶级如何争取革命领导权、如何领导农民实行土地革命，特别是如何建立党领导的革命武装等问题，均提出了有效的具体措施，承担起了挽救革命的任务。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "4.第四章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第四章",
+    "number": 43,
+    "type": "single",
+    "text": "在大革命中，北洋军阀势力的迅速崩溃，使帝国主义列强感到震惊。它们在中国集结兵力、制造事端，企图以武力相威胁，阻挡中国革命前进的步伐；同时开始对当时任国民革命军总司令的蒋介石进行拉拢。",
+    "options": [],
+    "answer": "对",
+    "source": "4.第四章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 1,
+    "type": "single",
+    "text": "在抗日战争的战略防御阶段，国民党正面战场取得的最大的一次胜利是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "徐州会战"
+      },
+      {
+        "label": "B",
+        "text": "忻口战役"
+      },
+      {
+        "label": "C",
+        "text": "平型关大捷"
+      },
+      {
+        "label": "D",
+        "text": "台儿庄大捷"
+      }
+    ],
+    "answer": "D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 2,
+    "type": "single",
+    "text": "（）是中国共产党在抗日战争期间打的规模最大的战役。",
+    "options": [
+      {
+        "label": "A",
+        "text": "台儿庄战役"
+      },
+      {
+        "label": "B",
+        "text": "忻口会战"
+      },
+      {
+        "label": "C",
+        "text": "平型关战役"
+      },
+      {
+        "label": "D",
+        "text": "百团大战"
+      }
+    ],
+    "answer": "D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 3,
+    "type": "single",
+    "text": "1941年，国民党发动第二次反共高潮的重要事件是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "福建事变"
+      },
+      {
+        "label": "B",
+        "text": "皖南事变"
+      },
+      {
+        "label": "C",
+        "text": "侵犯陕甘宁边区"
+      },
+      {
+        "label": "D",
+        "text": "取消新四军番号"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 4,
+    "type": "single",
+    "text": "为了实现抗日民族统一战线，中国工农红军接受南京国民政府的改编，红军三大主力分别改编为三个师，在下列选项中不属于改编后番号的是（     ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "88师"
+      },
+      {
+        "label": "B",
+        "text": "120师"
+      },
+      {
+        "label": "C",
+        "text": "129师"
+      },
+      {
+        "label": "D",
+        "text": "115师"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 5,
+    "type": "single",
+    "text": "抗日战争时期，根据地民主政权建设主要体现在（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "建立中华苏维埃共和国"
+      },
+      {
+        "label": "B",
+        "text": "实行“三三制”原则"
+      },
+      {
+        "label": "C",
+        "text": "开展整风运动"
+      },
+      {
+        "label": "D",
+        "text": "推行精兵简政政策"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 6,
+    "type": "single",
+    "text": "明确提出实现“马克思主义中国化”命题的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "王明"
+      },
+      {
+        "label": "C",
+        "text": "张闻天"
+      },
+      {
+        "label": "D",
+        "text": "刘少奇"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 7,
+    "type": "single",
+    "text": "全国抗日战争开始的事件是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "九一八事变"
+      },
+      {
+        "label": "B",
+        "text": "一二八事变"
+      },
+      {
+        "label": "C",
+        "text": "七七事变"
+      },
+      {
+        "label": "D",
+        "text": "八一三事变"
+      }
+    ],
+    "answer": "C",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 8,
+    "type": "single",
+    "text": "中共确定建立抗日民族统一战线方针是在（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "八七会议"
+      },
+      {
+        "label": "B",
+        "text": "遵义会议"
+      },
+      {
+        "label": "C",
+        "text": "瓦窑堡会议"
+      },
+      {
+        "label": "D",
+        "text": "洛川会议"
+      }
+    ],
+    "answer": "C",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 9,
+    "type": "single",
+    "text": "抗战时期，日军在中国的最后一次大规模进攻是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "淞沪会战"
+      },
+      {
+        "label": "B",
+        "text": "豫湘桂战役"
+      },
+      {
+        "label": "C",
+        "text": "南昌战役"
+      },
+      {
+        "label": "D",
+        "text": "武汉会战"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 10,
+    "type": "single",
+    "text": "1935年8月1日，中共驻共产国际代表团以中华苏维埃共和国临时中央政府和中共中央的名义发表了（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《停战议和一致抗日》"
+      },
+      {
+        "label": "B",
+        "text": "《为抗日救国告全体同胞书》"
+      },
+      {
+        "label": "C",
+        "text": "《中国共产党为公布国共合作宣言》"
+      },
+      {
+        "label": "D",
+        "text": "《反日反蒋的初步协定》"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 11,
+    "type": "single",
+    "text": "中国共产党在抗日根据地普遍实行的土地政策是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "没收地主土地"
+      },
+      {
+        "label": "B",
+        "text": "保存富农经济"
+      },
+      {
+        "label": "C",
+        "text": "减租减息"
+      },
+      {
+        "label": "D",
+        "text": "没收一切土地"
+      }
+    ],
+    "answer": "C",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 12,
+    "type": "single",
+    "text": "1927年日本召开“东方会议”，制定了（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《对华政策纲要》"
+      },
+      {
+        "label": "B",
+        "text": "《反共产国际协定》"
+      },
+      {
+        "label": "C",
+        "text": "《昭和十二年度对华作战计划》"
+      },
+      {
+        "label": "D",
+        "text": "《大陆政策》"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 13,
+    "type": "single",
+    "text": "在抗日战争的战略相持阶段 ，主要的抗日作战方式是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "敌后游击战争"
+      },
+      {
+        "label": "B",
+        "text": "国民党正面战场"
+      },
+      {
+        "label": "C",
+        "text": "共产党正面战场"
+      },
+      {
+        "label": "D",
+        "text": "敌后游击战争和国民党正面战场相结合"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 14,
+    "type": "single",
+    "text": "体现中国人民的根本利益和要求以及人民战争路线的彻底的抗日纲领的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《抗战建国纲领》"
+      },
+      {
+        "label": "B",
+        "text": "《抗日救国十大纲领》"
+      },
+      {
+        "label": "C",
+        "text": "《为抗日救国告全国同胞书》"
+      },
+      {
+        "label": "D",
+        "text": "《论持久战》"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 15,
+    "type": "single",
+    "text": "延安精神所体现的党的根本宗旨是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "B",
+        "text": "坚定正确的政治方向"
+      },
+      {
+        "label": "C",
+        "text": "解放思想实事求是"
+      },
+      {
+        "label": "D",
+        "text": "自力更生艰苦奋斗"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 16,
+    "type": "single",
+    "text": "抗日战争是一场全民族反抗外敌入侵的正义战争。抗战初期，在华北战场上规模最大、最激烈的一次战役，也是国共两党军队合作抗日、配合最好的一次战役是（     ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "台儿庄战役"
+      },
+      {
+        "label": "B",
+        "text": "长城抗战"
+      },
+      {
+        "label": "C",
+        "text": "平津会战"
+      },
+      {
+        "label": "D",
+        "text": "忻口会战"
+      }
+    ],
+    "answer": "D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 17,
+    "type": "single",
+    "text": "20世纪40年代前期，为了提高广大党员的思想建设水平，增强党的凝聚力和战斗力，中国共产党在全党范围内开展了一场整风运动。这场整风运动最主要的任务是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "反对享乐主义以整顿作风"
+      },
+      {
+        "label": "B",
+        "text": "反对宗派主义以整顿党风"
+      },
+      {
+        "label": "C",
+        "text": "反对党八股以整顿文风"
+      },
+      {
+        "label": "D",
+        "text": "反对主观主义以整顿学风"
+      }
+    ],
+    "answer": "D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 18,
+    "type": "single",
+    "text": "毛泽东思想是马克思主义中国化的第一大理论成果，是在中国革命和建设的实践中逐步形成和发展起来的。在土地革命战争后期和抗日战争时期，毛泽东思想得到多方面展开而达到成熟，其标志是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新民主主义理论的系统阐明"
+      },
+      {
+        "label": "B",
+        "text": "农村包围城市，武装夺取政权理论的科学概括"
+      },
+      {
+        "label": "C",
+        "text": "人民民主专政理论的完整论述"
+      },
+      {
+        "label": "D",
+        "text": "思想政治工作和文化工作理论的系统提出"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 19,
+    "type": "single",
+    "text": "1931年日本帝国主义制造了侵略中国的（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "九一八事变"
+      },
+      {
+        "label": "B",
+        "text": "一二八事变"
+      },
+      {
+        "label": "C",
+        "text": "七七事变"
+      },
+      {
+        "label": "D",
+        "text": "八一三事变"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 20,
+    "type": "single",
+    "text": "1935年，日本帝国主义制造了侵略中国的（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "九一八事变"
+      },
+      {
+        "label": "B",
+        "text": "一二八事变"
+      },
+      {
+        "label": "C",
+        "text": "华北事变"
+      },
+      {
+        "label": "D",
+        "text": "卢沟桥事变"
+      }
+    ],
+    "answer": "C",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 21,
+    "type": "single",
+    "text": "标志着中国人民抗日救亡运动新高潮到来的运动是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A.五四运动"
+      },
+      {
+        "label": "B",
+        "text": "B.五卅运动"
+      },
+      {
+        "label": "C",
+        "text": "C.一二九运动"
+      },
+      {
+        "label": "D",
+        "text": "D.一二一运动"
+      },
+      {
+        "label": "E",
+        "text": "正确答案： C"
+      }
+    ],
+    "answer": "",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 22,
+    "type": "single",
+    "text": "抗日战争进入相持阶段后，日本对国民党政府采取的方针是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "以华制华，以战养战"
+      },
+      {
+        "label": "B",
+        "text": "速战速决"
+      },
+      {
+        "label": "C",
+        "text": "“三光”政策"
+      },
+      {
+        "label": "D",
+        "text": "以政治诱降为主、军事打击为辅"
+      }
+    ],
+    "answer": "D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 23,
+    "type": "single",
+    "text": "1945年4月，联合国制宪会议在美国旧金山举行，包括解放区代表在内的中国代表团出席了会议，其中解放区的代表是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "董必武"
+      },
+      {
+        "label": "B",
+        "text": "林伯渠"
+      },
+      {
+        "label": "C",
+        "text": "周恩来"
+      },
+      {
+        "label": "D",
+        "text": "朱德"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 24,
+    "type": "single",
+    "text": "通过《关于若干历史问题的决议》的会议是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "瓦窑堡会议"
+      },
+      {
+        "label": "B",
+        "text": "中共六届六中全会"
+      },
+      {
+        "label": "C",
+        "text": "中共六届七中全会"
+      },
+      {
+        "label": "D",
+        "text": "中共七大"
+      }
+    ],
+    "answer": "C",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 25,
+    "type": "single",
+    "text": "毛泽东思想正式命名并被确定为党的指导思想是在（     ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A.中共二大"
+      },
+      {
+        "label": "B",
+        "text": "B.中共七大"
+      },
+      {
+        "label": "C",
+        "text": "C.中共六届六中全会"
+      },
+      {
+        "label": "D",
+        "text": "D.中共八大"
+      },
+      {
+        "label": "E",
+        "text": "正确答案：B"
+      }
+    ],
+    "answer": "",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 26,
+    "type": "single",
+    "text": "中国人民抗日战争取得完全胜利的标志是（ ）。A.1945年8月14日，日本政府表示接受波茨坦公告 B.1945年8月15日，日本天皇发表终战诏书C.1945年9月2日，日本向同盟国投降签字D.1945年10月25日，中国收回被日本占领的台湾及澎湖列岛​",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确答案：D"
+      }
+    ],
+    "answer": "",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 27,
+    "type": "single",
+    "text": "中国人民抗日战争胜利的决定性因素是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党在全民族抗战中起到中流砥柱的作用"
+      },
+      {
+        "label": "B",
+        "text": "以爱国主义为核心的民族精神"
+      },
+      {
+        "label": "C",
+        "text": "苏联出兵中国东北"
+      },
+      {
+        "label": "D",
+        "text": "美国向日本投掷两颗原子弹"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 28,
+    "type": "single",
+    "text": "1941年2月，中国远征军进入缅甸作战，陆军二OO师长是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "赵登禹"
+      },
+      {
+        "label": "B",
+        "text": "佟麟阁"
+      },
+      {
+        "label": "C",
+        "text": "谢晋元"
+      },
+      {
+        "label": "D",
+        "text": "戴安澜"
+      }
+    ],
+    "answer": "D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 29,
+    "type": "single",
+    "text": "毛泽东著述《论持久战》的年份（     ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1937年"
+      },
+      {
+        "label": "B",
+        "text": "1938年"
+      },
+      {
+        "label": "C",
+        "text": "1939年"
+      },
+      {
+        "label": "D",
+        "text": "1940年"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 30,
+    "type": "multiple",
+    "text": "在战略防御阶段，以国民党军队为主体的正面战场，担负了抗击日军战略进攻的主要任务。国民党军队组织的比较大的战役是（   ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "淞沪会战"
+      },
+      {
+        "label": "B",
+        "text": "忻口会战"
+      },
+      {
+        "label": "C",
+        "text": "徐州会战"
+      },
+      {
+        "label": "D",
+        "text": "武汉会战"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 31,
+    "type": "multiple",
+    "text": "1941年1月，震惊中外的皖南事变爆发后，《新华日报》刊出周恩来的题词手迹：“为江南死国难者志哀！”“千古奇冤，江南一叶；同室操戈，相煎何急？！”。大敌当前，中国共产党以民族利益为重，坚持正确的方针和原则，避免了抗日民族统一战线的破裂。这些方针和原则包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "又联合又斗争"
+      },
+      {
+        "label": "B",
+        "text": "有理、有利、有节"
+      },
+      {
+        "label": "C",
+        "text": "针锋相对，寸土必争"
+      },
+      {
+        "label": "D",
+        "text": "发展进步势力，争取中间势力，孤立顽固势力"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 32,
+    "type": "multiple",
+    "text": "延安整风运动的意义：（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是一场全党范围的集中的普遍的马克思主义思想教育运动"
+      },
+      {
+        "label": "B",
+        "text": "是一场伟大的思想解放运动"
+      },
+      {
+        "label": "C",
+        "text": "实事求是的马克思主义思想路线，在全党范围确立起来了"
+      },
+      {
+        "label": "D",
+        "text": "增强了运用马克思主义基本原理解决中国革命实际问题的自觉性和能力"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 33,
+    "type": "multiple",
+    "text": "新民主主义革命的基本纲领主要包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治上的"
+      },
+      {
+        "label": "B",
+        "text": "经济上的"
+      },
+      {
+        "label": "C",
+        "text": "文化上的"
+      },
+      {
+        "label": "D",
+        "text": "对外关系上的"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 34,
+    "type": "multiple",
+    "text": "延安整风运动是一场伟大的思想解放运动。这一运动最主要的任务是反对主观主义。主观主义的主要表现形式为（     ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "教条主义"
+      },
+      {
+        "label": "B",
+        "text": "形式主义"
+      },
+      {
+        "label": "C",
+        "text": "经验主义"
+      },
+      {
+        "label": "D",
+        "text": "宗派主义"
+      }
+    ],
+    "answer": "A,C",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 35,
+    "type": "multiple",
+    "text": "中国人民抗日战争胜利的原因（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "以爱国主义为核心的伟大民族精神是中国人民抗日战争胜利的决定因素"
+      },
+      {
+        "label": "B",
+        "text": "中国共产党的中流砥柱作用是中国人民抗日战争胜利的关键"
+      },
+      {
+        "label": "C",
+        "text": "全民族抗战是中国人民抗日战争胜利的重要法宝"
+      },
+      {
+        "label": "D",
+        "text": "世界所有爱好和平和正义的国家和人民、国际组织以及各种反法西斯力量的同情和支持，是中国人民抗日战争取得胜利的国际条件"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 36,
+    "type": "multiple",
+    "text": "中国人民抗日战争，是近代以来中华民族反抗外敌入侵第一次取得完全胜利的民族解放战争，其历史意义有（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "捍卫了中国的国家主权和领土完整"
+      },
+      {
+        "label": "B",
+        "text": "促进了中华民族的觉醒，使中国人民在精神上、组织上的进步达到了前所未有的高度"
+      },
+      {
+        "label": "C",
+        "text": "促进了中华民族的大团结，弘扬了中华民族的伟大精神"
+      },
+      {
+        "label": "D",
+        "text": "对世界各国夺取反法西斯战争的胜利、维护世界和平的伟大事业产生了巨大影响"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 37,
+    "type": "multiple",
+    "text": "1939年1月，国民党五届五中全会把对付共产党作为重要议题，确定（   ）的方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "防共"
+      },
+      {
+        "label": "B",
+        "text": "限共"
+      },
+      {
+        "label": "C",
+        "text": "剿共"
+      },
+      {
+        "label": "D",
+        "text": "溶共"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 38,
+    "type": "multiple",
+    "text": "下列烈士属于东北抗联的是（     ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "杨靖宇"
+      },
+      {
+        "label": "B",
+        "text": "赵尚志"
+      },
+      {
+        "label": "C",
+        "text": "左权"
+      },
+      {
+        "label": "D",
+        "text": "彭雪枫"
+      }
+    ],
+    "answer": "A,B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 39,
+    "type": "multiple",
+    "text": "抗日战争期间，一些国际友人纷纷来到我国与中国人一道抵抗日本法西斯强盗，他们是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "苏联人库里申科"
+      },
+      {
+        "label": "B",
+        "text": "美国人陈纳德"
+      },
+      {
+        "label": "C",
+        "text": "加拿大人白求恩"
+      },
+      {
+        "label": "D",
+        "text": "印度人柯棣华"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "6.第六章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 40,
+    "type": "single",
+    "text": "毛泽东《论持久战》一文的精髓，可以凝练地阐释为“积小胜为大胜，以空间换时间”。（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 41,
+    "type": "single",
+    "text": "东北抗日联军是共产党领导下的一支英勇顽强的孤军，涌现了很多抗日英雄，主要包括：杨靖宇、赵尚志、周保中、吕正操。（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 42,
+    "type": "single",
+    "text": "“惟欲征服支那，必先征服满蒙；如欲征服世界，必先征服支那”，出自日本广田弘毅内阁的《大陆政策》。（     ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "6.第六章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第六章",
+    "number": 43,
+    "type": "single",
+    "text": "国共两党合作之后，共产党领导的南方八省红军游击队（除琼崖红军游击队外）改编为国民革命军陆军新编第四军。（     ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "6.第六章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 1,
+    "type": "single",
+    "text": "1946年1月10日，在（      ）召开的政治协商会议上，中共代表团与民主同盟等民主党派和无党派人士代表密切合作，同国民党当局认真协商，推动会议达成五项协议。",
+    "options": [
+      {
+        "label": "A",
+        "text": "重庆"
+      },
+      {
+        "label": "B",
+        "text": "北京"
+      },
+      {
+        "label": "C",
+        "text": "西安"
+      },
+      {
+        "label": "D",
+        "text": "南京"
+      }
+    ],
+    "answer": "A",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 2,
+    "type": "single",
+    "text": "中共中央发出 “五四指示”以后，通过开展清算斗争等，到1947年下半年，解放区有（      ）的地区基本上解决了农民的土地问题。",
+    "options": [
+      {
+        "label": "A",
+        "text": "三分之一"
+      },
+      {
+        "label": "B",
+        "text": "二分之一"
+      },
+      {
+        "label": "C",
+        "text": "三分之二"
+      },
+      {
+        "label": "D",
+        "text": "四分之三"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 3,
+    "type": "single",
+    "text": "在国民党六届二中全会上，蒋介石令其追随者对政协协议“就其荦荦大端，妥筹补救”；由此可见，国民党统治集团对1946年1月政协会议达成的协议所持的态度是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "积极履行"
+      },
+      {
+        "label": "B",
+        "text": "在协议完善后履行"
+      },
+      {
+        "label": "C",
+        "text": "从未准备履行"
+      },
+      {
+        "label": "D",
+        "text": "准备履行"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 4,
+    "type": "single",
+    "text": "重庆谈判破裂后，中共代表团成员李维汉在日记中写道：“国共谈判破裂了，但我党满载人心归去。”这说明中国共产党通过重庆谈判（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "赢得了国统区人民的信任"
+      },
+      {
+        "label": "B",
+        "text": "在政治上取得了重大胜利"
+      },
+      {
+        "label": "C",
+        "text": "获得了和平民主建国的机会"
+      },
+      {
+        "label": "D",
+        "text": "成功签订了停战协议"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 5,
+    "type": "single",
+    "text": "毛泽东指出：蒋介石发动的战争的反人民性质，人心的向背，是经常起作用的因素，在这方面，我们占着优势。说明人民解放军的战争是爱国的正义的，必然获得全国人民的拥护，这是战胜蒋介石的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "群众基础"
+      },
+      {
+        "label": "B",
+        "text": "政策基础"
+      },
+      {
+        "label": "C",
+        "text": "阶级基础"
+      },
+      {
+        "label": "D",
+        "text": "政治基础"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 6,
+    "type": "single",
+    "text": "抗日战争胜利后，中国共产党对各民主党派采取的政策是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "争取和团结"
+      },
+      {
+        "label": "B",
+        "text": "任其发展"
+      },
+      {
+        "label": "C",
+        "text": "平等对话"
+      },
+      {
+        "label": "D",
+        "text": "批评帮助"
+      }
+    ],
+    "answer": "A",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 7,
+    "type": "single",
+    "text": "从抗日战争胜利到1948年期间，中国的民主党派内部的政治倾向主要表现为（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "主张君主立宪"
+      },
+      {
+        "label": "B",
+        "text": "支持新民主主义革命"
+      },
+      {
+        "label": "C",
+        "text": "支持国民党统治"
+      },
+      {
+        "label": "D",
+        "text": "从君主立宪到新民主主义革命各种倾向都有"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 8,
+    "type": "single",
+    "text": "抗日战争胜利后，中国的民主党派内部存在着的不同的政治倾向表现出来。产生这些不同政治倾向的根源是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国的民主党派具有软弱性和妥协性"
+      },
+      {
+        "label": "B",
+        "text": "中国的民主党派鼓吹中间路线"
+      },
+      {
+        "label": "C",
+        "text": "中国的民主党派不是单一阶级的政党"
+      },
+      {
+        "label": "D",
+        "text": "中国的民主党派面临中国战后两个前途的选择"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 9,
+    "type": "single",
+    "text": "1949年元旦，蒋介石发表“求和”声明，其动机是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "以“体面”的形式承认国民党军队的实质失败"
+      },
+      {
+        "label": "B",
+        "text": "借和平谈判之机争取时间以便卷土重来"
+      },
+      {
+        "label": "C",
+        "text": "避免战争导致生灵涂炭"
+      },
+      {
+        "label": "D",
+        "text": "等待美国给予进一步支持"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 10,
+    "type": "single",
+    "text": "抗日战争胜利后，美蒋发动的全面内战开始于国民党军队进攻（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "陕甘宁解放区"
+      },
+      {
+        "label": "B",
+        "text": "山东解放区"
+      },
+      {
+        "label": "C",
+        "text": "上党地区"
+      },
+      {
+        "label": "D",
+        "text": "中原解放区"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 11,
+    "type": "single",
+    "text": "在国民党统治区，以（      ）为先导的人民民主运动迅速发展，逐步形成配合人民解放战争的第二条战线。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工人运动"
+      },
+      {
+        "label": "B",
+        "text": "学生运动"
+      },
+      {
+        "label": "C",
+        "text": "农民运动"
+      },
+      {
+        "label": "D",
+        "text": "市民运动"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 12,
+    "type": "single",
+    "text": "“百万雄师过大江”是指哪次战役？（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "淮海战役"
+      },
+      {
+        "label": "B",
+        "text": "挺进大别山"
+      },
+      {
+        "label": "C",
+        "text": "渡江战役"
+      },
+      {
+        "label": "D",
+        "text": "辽沈战役"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 13,
+    "type": "single",
+    "text": "中国共产党决定将减租减息政策改变为实现“耕者有其田”政策的文件是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《关于土地问题的指示》"
+      },
+      {
+        "label": "B",
+        "text": "《中国土地法大纲》"
+      },
+      {
+        "label": "C",
+        "text": "《在不同地区实行土地法的不同策略》"
+      },
+      {
+        "label": "D",
+        "text": "《新解放区土地改革要点》"
+      }
+    ],
+    "answer": "A",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 14,
+    "type": "single",
+    "text": "1948年三大战役中首先展开的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "辽沈战役"
+      },
+      {
+        "label": "B",
+        "text": "淮海战役"
+      },
+      {
+        "label": "C",
+        "text": "平津战役"
+      },
+      {
+        "label": "D",
+        "text": "渡江战役"
+      }
+    ],
+    "answer": "A",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 15,
+    "type": "single",
+    "text": "1947年10月10日，中国人民解放军总部发表宣言，提出的口号是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "向北发展、向南防御"
+      },
+      {
+        "label": "B",
+        "text": "打倒蒋介石，解放全中国"
+      },
+      {
+        "label": "C",
+        "text": "将革命进行到底"
+      },
+      {
+        "label": "D",
+        "text": "打过长江去，解放全中国"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 16,
+    "type": "single",
+    "text": "1945年8月至10月，国共双方举行了确认和平建国基本方针的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "西安谈判"
+      },
+      {
+        "label": "B",
+        "text": "重庆谈判"
+      },
+      {
+        "label": "C",
+        "text": "南京谈判"
+      },
+      {
+        "label": "D",
+        "text": "北平谈判"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 17,
+    "type": "single",
+    "text": "抗战胜利初期，中国共产党的主要政治任务是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "参加重庆谈判，商讨建国大计"
+      },
+      {
+        "label": "B",
+        "text": "揭露美蒋阴谋，避免全面内战"
+      },
+      {
+        "label": "C",
+        "text": "召开政协会议，改组国民政府"
+      },
+      {
+        "label": "D",
+        "text": "争取和平民主，反对内战独裁"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 18,
+    "type": "single",
+    "text": "解放战争时期，国民党统治区人民民主运动高涨的根本原因是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党组织了反蒋统治的第二条战线"
+      },
+      {
+        "label": "B",
+        "text": "上海学生举行了声势浩大的“三反”斗争"
+      },
+      {
+        "label": "C",
+        "text": "国民党蒋介石集团的经济崩溃和政治危机"
+      },
+      {
+        "label": "D",
+        "text": "民生党派的联合斗争和人民起义遍及各地"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 19,
+    "type": "single",
+    "text": "日本投降后蒋介石三次电邀毛泽东去重庆谈判的主要原因是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党力量强大"
+      },
+      {
+        "label": "B",
+        "text": "广大人民反对内战"
+      },
+      {
+        "label": "C",
+        "text": "发动内战准备不足"
+      },
+      {
+        "label": "D",
+        "text": "美国主张和平解决"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 20,
+    "type": "single",
+    "text": "1945年，在昆明发生了吹响国统区爱国学生运动第一声号角的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一二九运动"
+      },
+      {
+        "label": "B",
+        "text": "一二·一运动"
+      },
+      {
+        "label": "C",
+        "text": "一二三〇运动"
+      },
+      {
+        "label": "D",
+        "text": "五二〇运动"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 21,
+    "type": "single",
+    "text": "1946年，北平学生发动的抗议驻华美军暴行的斗争运动是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一二九运动"
+      },
+      {
+        "label": "B",
+        "text": "一二·一运动"
+      },
+      {
+        "label": "C",
+        "text": "一二三〇运动"
+      },
+      {
+        "label": "D",
+        "text": "五二〇运动"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 22,
+    "type": "single",
+    "text": "1948年1月1日在香港正式成立的民主党派是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国民主同盟"
+      },
+      {
+        "label": "B",
+        "text": "中国民主建国会"
+      },
+      {
+        "label": "C",
+        "text": "中国民主促进会"
+      },
+      {
+        "label": "D",
+        "text": "中国国民党革命委员会"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 23,
+    "type": "single",
+    "text": "1947年11月成立的台湾民主自治同盟的主要领导人是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "黄炎培"
+      },
+      {
+        "label": "B",
+        "text": "马叙伦"
+      },
+      {
+        "label": "C",
+        "text": "许德珩"
+      },
+      {
+        "label": "D",
+        "text": "谢雪红"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 24,
+    "type": "single",
+    "text": "1949年1月，李济深等联合发表了拥护中共召开政治协商会议，成立联合政府主张的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《对目前时局的宣言》"
+      },
+      {
+        "label": "B",
+        "text": "《和平建国纲领》"
+      },
+      {
+        "label": "C",
+        "text": "《对时局的意见》"
+      },
+      {
+        "label": "D",
+        "text": "《国内和平协定》"
+      }
+    ],
+    "answer": "C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 25,
+    "type": "single",
+    "text": "1949年4月21日，毛泽东和朱德向人民解放军发布了（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《对目前时局的宣言》"
+      },
+      {
+        "label": "B",
+        "text": "《中国人民解放军总部宣言》"
+      },
+      {
+        "label": "C",
+        "text": "《将革命进行到底》"
+      },
+      {
+        "label": "D",
+        "text": "《向全国进军的命令》"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 26,
+    "type": "single",
+    "text": "中国人民解放军占领南京，宣告国民党反动统治覆灭是在（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1949年4月20日"
+      },
+      {
+        "label": "B",
+        "text": "1949年4月21日"
+      },
+      {
+        "label": "C",
+        "text": "1949年4月22日"
+      },
+      {
+        "label": "D",
+        "text": "1949年4月23日"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 27,
+    "type": "single",
+    "text": "1949年6月30日，毛泽东发表了系统阐明中国共产党关于建立新中国问题上的主张的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《对目前时局的宣言》"
+      },
+      {
+        "label": "B",
+        "text": "《目前形势和我们的任务》"
+      },
+      {
+        "label": "C",
+        "text": "《将革命进行到底》"
+      },
+      {
+        "label": "D",
+        "text": "《论人民民主专政》"
+      }
+    ],
+    "answer": "D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 28,
+    "type": "multiple",
+    "text": "抗战胜利后，中共中央为争取和平建国明确提出了（      ）口号。",
+    "options": [
+      {
+        "label": "A",
+        "text": "和平"
+      },
+      {
+        "label": "B",
+        "text": "进步"
+      },
+      {
+        "label": "C",
+        "text": "民主"
+      },
+      {
+        "label": "D",
+        "text": "团结"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 29,
+    "type": "multiple",
+    "text": "在国民党统治区，人民民主运动成为配合人民解放战争的第二条战线。以下属于人民解放战争时期人民民主运动的有（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "以马叙伦为团长的上海人民团体联合会请愿团赴南京向国民党当局呼吁和平"
+      },
+      {
+        "label": "B",
+        "text": "1947年5-6月间江浙等省大小城镇的饥饿市民“抢米”风潮"
+      },
+      {
+        "label": "C",
+        "text": "台湾人民二二八起义"
+      },
+      {
+        "label": "D",
+        "text": "1948年上海学生举行的反美扶日大游行"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 30,
+    "type": "multiple",
+    "text": "1949年3月，中共七届二中全会的主要内容是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "规定了全国胜利后应当采取的基本政策"
+      },
+      {
+        "label": "B",
+        "text": "分析了中国由农业国转变为工业国的任务"
+      },
+      {
+        "label": "C",
+        "text": "指明了向社会主义社会转变的发展方向"
+      },
+      {
+        "label": "D",
+        "text": "提出了“两个务必”的要求"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 31,
+    "type": "multiple",
+    "text": "抗日战争胜利后，内战并未立即爆发，主要原因是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国民党尚未完成军事部署"
+      },
+      {
+        "label": "B",
+        "text": "阶级矛盾尚未成为主要矛盾"
+      },
+      {
+        "label": "C",
+        "text": "争取和平反对内战的舆论压力"
+      },
+      {
+        "label": "D",
+        "text": "中共提出“和平、民主、团结”三大口号"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 32,
+    "type": "multiple",
+    "text": "抗日战争胜利后的政治形势，总的来说，对中国人民实现建设新中国的目标是有利的，表现在（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "帝国主义遭到削弱"
+      },
+      {
+        "label": "B",
+        "text": "社会主义国家、民族解放运动的力量有了新的发展"
+      },
+      {
+        "label": "C",
+        "text": "中国人民的觉悟程度、组织程度空前提高"
+      },
+      {
+        "label": "D",
+        "text": "经过整风学习，中国共产党达到了高度团结统一"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 33,
+    "type": "multiple",
+    "text": "在1947年6月底揭开人民解放战争战略进攻序幕的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "林、罗大军挺进东北"
+      },
+      {
+        "label": "B",
+        "text": "刘、邓大军主力挺进大别山"
+      },
+      {
+        "label": "C",
+        "text": "陈、粟大军主力挺进苏鲁豫皖地区"
+      },
+      {
+        "label": "D",
+        "text": "陈、谢兵团挺进豫西"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 34,
+    "type": "multiple",
+    "text": "中国新民主主义革命胜利的基本经验是坚持（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "建立广泛的统一战线"
+      },
+      {
+        "label": "B",
+        "text": "群众路线"
+      },
+      {
+        "label": "C",
+        "text": "加强共产党自身的建设"
+      },
+      {
+        "label": "D",
+        "text": "坚持革命的武装斗争"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 35,
+    "type": "multiple",
+    "text": "抗日战争胜利后，某些民主党派的领导人物曾经鼓吹“中间路线”。中间路线的鼓吹者主张（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．政治上“必须实现英美式的民主政治”，但不准地主官僚资本家操纵"
+      },
+      {
+        "label": "B",
+        "text": "B．经济上“应当实行改良的资本主义”，但不容官僚买办资本横行"
+      },
+      {
+        "label": "C",
+        "text": "C．方法上走和平的改良的道路"
+      },
+      {
+        "label": "D",
+        "text": "D．建立的社会既非社会主义又非资本主义"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "7.第七章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 36,
+    "type": "single",
+    "text": "中国各民主党派是中国共产党领导的爱国统一战线的重要组成部分。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "7.第七章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 37,
+    "type": "single",
+    "text": "在解放战争胜利发展的同时，解放区开展了轰轰烈烈的思想教育运动。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 38,
+    "type": "single",
+    "text": "以武力消灭共产党及其领导的人民军队和解放区政权，是蒋介石集团的既定方针。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "7.第七章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 39,
+    "type": "single",
+    "text": "中国共产党争取和平民主的努力，尽管最终未能阻止全面内战的爆发，但是，它使得各界群众增强了对中国共产党的了解，懂得了什么人应当对这场战争承担责任。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "7.第七章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第七章",
+    "number": 40,
+    "type": "single",
+    "text": "国民党统治集团作为大地主、大资产阶级的政治代表，其根本目标是使战后中国恢复到战前的状态，即坚持蒋介石的独裁统治，继续走资本主义社会的老路。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "7.第七章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 1,
+    "type": "single",
+    "text": "新中国成立初期，为恢复国民经济，振兴民族工业，中国共产党和人民政府采取的措施不包括（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "没收接管官僚资本，建立社会主义性质的国营经济"
+      },
+      {
+        "label": "B",
+        "text": "接管资本主义工商业"
+      },
+      {
+        "label": "C",
+        "text": "初步建立起集中统一的国家财政管理体制"
+      },
+      {
+        "label": "D",
+        "text": "将资本主义工商业中的大部分引上初级形式的国家资本主义道路"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 2,
+    "type": "single",
+    "text": "以下关于抗美援朝战争的观点中错误的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "抗美援朝战争是中美两交战方力量极其悬殊条件下进行的一场现代化战争"
+      },
+      {
+        "label": "B",
+        "text": "经过艰苦卓绝的战斗，中朝军队打破了美军不可战胜的神话，迫使不可一世的侵略者在停战协定上签字"
+      },
+      {
+        "label": "C",
+        "text": "开始掌握历史主动的中国人民，是中国人民志愿军的坚强后盾"
+      },
+      {
+        "label": "D",
+        "text": "抗美援朝战争结束后，新中国面临的国际环境更加错综复杂，不稳定因素增加"
+      }
+    ],
+    "answer": "D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 3,
+    "type": "single",
+    "text": "1950年2月，新中国同苏联订立了（      ）和有关协定。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《中苏友好同盟互助条约》"
+      },
+      {
+        "label": "B",
+        "text": "《中苏友好同盟条约》"
+      },
+      {
+        "label": "C",
+        "text": "《中苏友好条约》"
+      },
+      {
+        "label": "D",
+        "text": "《中苏友好合作条约》"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 4,
+    "type": "single",
+    "text": "1952年，全国已有（      ）的农户参加了互助组，少数农户还参加了半社会主义或社会主义性质的农业生产合作社。",
+    "options": [
+      {
+        "label": "A",
+        "text": "60%"
+      },
+      {
+        "label": "B",
+        "text": "50%"
+      },
+      {
+        "label": "C",
+        "text": "40%"
+      },
+      {
+        "label": "D",
+        "text": "30%"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 5,
+    "type": "single",
+    "text": "中国共产党过渡时期总路线的主体是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对个体农业的社会主义改造"
+      },
+      {
+        "label": "B",
+        "text": "对资本主义工商业的社会主义改造"
+      },
+      {
+        "label": "C",
+        "text": "对个体手工业的社会主义改造"
+      },
+      {
+        "label": "D",
+        "text": "实现国家的社会主义工业化"
+      }
+    ],
+    "answer": "D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 6,
+    "type": "single",
+    "text": "中共中央在1953年正式提出党在过渡时期的总路线中明确规定：从（      ）到（      ），这是一个过渡时期。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．中华人民共和国成立、社会主义改造基本完成"
+      },
+      {
+        "label": "B",
+        "text": "B．中华人民共和国成立、国民经济基本恢复"
+      },
+      {
+        "label": "C",
+        "text": "C．民主革命遗留任务彻底完成、社会主义改造基本完成"
+      },
+      {
+        "label": "D",
+        "text": "D．民主革命遗留任务彻底完成、国民经济基本恢复"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 7,
+    "type": "single",
+    "text": "关于“一五”计划，下列说法正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．我国“一五”计划是在1955年开始编制的"
+      },
+      {
+        "label": "B",
+        "text": "B．我国“一五”计划是从1953年开始有计划地在全国展开的"
+      },
+      {
+        "label": "C",
+        "text": "C．“一五”计划突出了集中力量培养建设人才队伍的核心要点"
+      },
+      {
+        "label": "D",
+        "text": "D．“一五”计划是我国发展国民经济的一个长期规划"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 8,
+    "type": "single",
+    "text": "“一五”计划时期，以苏联援助的（      ）项工程为中心的工业建设，使我国的工业生产能力和技术水平前进了一大步。",
+    "options": [
+      {
+        "label": "A",
+        "text": "154"
+      },
+      {
+        "label": "B",
+        "text": "155"
+      },
+      {
+        "label": "C",
+        "text": "156"
+      },
+      {
+        "label": "D",
+        "text": "157"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 9,
+    "type": "single",
+    "text": "对农业进行社会主义改造的途径是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "公私合营"
+      },
+      {
+        "label": "B",
+        "text": "合作化"
+      },
+      {
+        "label": "C",
+        "text": "国家资本主义"
+      },
+      {
+        "label": "D",
+        "text": "和平赎买"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 10,
+    "type": "single",
+    "text": "我国在向社会主义过渡时期，对资本主义工商业进行社会主义改造，就是要把民族资本主义工商业改造成为（      ）性质的企业，并对民族资产阶级实行（      ）政策。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．社会主义、社会主义"
+      },
+      {
+        "label": "B",
+        "text": "B．非营利、社会主义"
+      },
+      {
+        "label": "C",
+        "text": "C．非营利、赎买"
+      },
+      {
+        "label": "D",
+        "text": "D．社会主义、赎买"
+      }
+    ],
+    "answer": "D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 11,
+    "type": "single",
+    "text": "我国的社会主义改造是一场前所未有的深刻的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．政治变革"
+      },
+      {
+        "label": "B",
+        "text": "B．社会变革"
+      },
+      {
+        "label": "C",
+        "text": "C．经济变革"
+      },
+      {
+        "label": "D",
+        "text": "D．文化变革"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 12,
+    "type": "single",
+    "text": "1954年，毛泽东有一段令人印象深刻的描述：“现在我们能造什么？能造桌子椅子，能造茶碗茶壶，能种粮食，还能磨成面粉，还能造纸，但是，一辆汽车、一架飞机、一辆坦克、一辆拖拉机都不能造。”这段话说明了（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．要改变落后面貌，巩固国家政权，就必须通过社会主义道路实现国家工业化"
+      },
+      {
+        "label": "B",
+        "text": "B．要正确认识我国的落后面貌，大力发挥农业生产优势"
+      },
+      {
+        "label": "C",
+        "text": "C．我国轻工业、农业都比较发达，为重工业的发展奠定了较好的基础"
+      },
+      {
+        "label": "D",
+        "text": "D．发展工业化必须要做到重工业、轻工业、农业的统筹兼顾"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 13,
+    "type": "single",
+    "text": "社会主义革命和建设时期，党面临的主要任务是，实现从新民主主义到社会主义的转变，进行社会主义革命，推进社会主义建设，为实现中华民族伟大复兴奠定根本政治前提和制度基础。中国进入社会主义社会的最主要的标志是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．社会主义政治制度的确立"
+      },
+      {
+        "label": "B",
+        "text": "B．社会主义经济制度的确立"
+      },
+      {
+        "label": "C",
+        "text": "C．民主革命遗留任务的完成"
+      },
+      {
+        "label": "D",
+        "text": "D．人民民主专政政权的建立"
+      },
+      {
+        "label": "E",
+        "text": "答：B"
+      }
+    ],
+    "answer": "",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 14,
+    "type": "single",
+    "text": "1956年，我国各种经济成分占国民收入的比重分别是：国营经济32.2%，合作社经济53.4%，公私合营经济7.3%，个体经济7.1%，资本主义经济接近于零。这些数据意味着（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．社会主义性质的经济力量弱于合作社经济的力量"
+      },
+      {
+        "label": "B",
+        "text": "B．公私合营经济、个体经济将逐渐消失"
+      },
+      {
+        "label": "C",
+        "text": "C．生产资料公有制已经占绝对优势"
+      },
+      {
+        "label": "D",
+        "text": "D．公私合营经济、个体经济和资本主义经济都是非社会主义性质的"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 15,
+    "type": "single",
+    "text": "（      ）是中国人民爱国统一战线的组织，是中国共产党领导的多党合作和政治协商的重要机构。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．各级人民代表大会"
+      },
+      {
+        "label": "B",
+        "text": "B．各民主党派和人民团体"
+      },
+      {
+        "label": "C",
+        "text": "C．中国人民政治协商会议"
+      },
+      {
+        "label": "D",
+        "text": "D．民族自治地方"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 16,
+    "type": "single",
+    "text": "《中华人民共和国宪法》规定，人民行使权力的机关是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．全国人民代表大会"
+      },
+      {
+        "label": "B",
+        "text": "B．全国人民代表大会和地方各级人民代表大会"
+      },
+      {
+        "label": "C",
+        "text": "C．中央人民政府"
+      },
+      {
+        "label": "D",
+        "text": "D．国务院"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 17,
+    "type": "single",
+    "text": "继内蒙古自治区成立（1947年5月）之后，以下民族自治区按成立的时间先后顺序排列正确的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．新疆维吾尔自治区、宁夏回族自治区、广西壮族自治区、西藏自治区"
+      },
+      {
+        "label": "B",
+        "text": "B．西藏自治区、宁夏回族自治区、新疆维吾尔自治区、广西壮族自治区、"
+      },
+      {
+        "label": "C",
+        "text": "C．广西壮族自治区、西藏自治区、新疆维吾尔自治区、宁夏回族自治区"
+      },
+      {
+        "label": "D",
+        "text": "D．新疆维吾尔自治区、广西壮族自治区、宁夏回族自治区、西藏自治区"
+      }
+    ],
+    "answer": "D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 18,
+    "type": "single",
+    "text": "1956年4月初，毛泽东提出把马列主义基本原理同中国革命和建设的具体实际进行“第二次结合”，其目的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．加强中国共产党自身的建设"
+      },
+      {
+        "label": "B",
+        "text": "B．为社会主义改造创造条件"
+      },
+      {
+        "label": "C",
+        "text": "C．找出在中国怎样建设社会主义的道路"
+      },
+      {
+        "label": "D",
+        "text": "D．全面建设社会主义现代化"
+      },
+      {
+        "label": "E",
+        "text": "答：C"
+      }
+    ],
+    "answer": "",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 19,
+    "type": "single",
+    "text": "1956年5月2日，毛泽东向最高国务会议作报告，在报告中围绕（      ）的方针，总结我国社会主义建设的初步经验，借鉴苏联建设的经验教训，论述了十大关系。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．努力调动一切积极因素，把我国建设成为一个强大的社会主义国家"
+      },
+      {
+        "label": "B",
+        "text": "B．总结苏联在社会主义建设中存在的缺点和错误"
+      },
+      {
+        "label": "C",
+        "text": "C．把马列主义的基本原理同中国革命和建设具体实际相结合"
+      },
+      {
+        "label": "D",
+        "text": "D．准备召开八大和迎接大规模经济建设"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 20,
+    "type": "single",
+    "text": "1956年1月，中共中央召开关于知识分子问题会议，动员全党和全国人民特别是广大知识分子（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．“向现代科学进军”"
+      },
+      {
+        "label": "B",
+        "text": "B．“向四个现代化进军”"
+      },
+      {
+        "label": "C",
+        "text": "C．“建设社会主义现代化”"
+      },
+      {
+        "label": "D",
+        "text": "D．“建设强大的社会主义国家”"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 21,
+    "type": "single",
+    "text": "党中央确定“百花齐放、百家争鸣”的“双百”方针作为（      ）的指导方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．推进文艺工作"
+      },
+      {
+        "label": "B",
+        "text": "B．推进思想工作"
+      },
+      {
+        "label": "C",
+        "text": "C．发展科学事业"
+      },
+      {
+        "label": "D",
+        "text": "D．发展科学文化事业"
+      }
+    ],
+    "answer": "D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 22,
+    "type": "single",
+    "text": "1956年9月召开的中共八大正确分析了国内形势和主要矛盾的变化，指出国内主要矛盾是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．阶级矛盾"
+      },
+      {
+        "label": "B",
+        "text": "B．生产力和生产关系之间的矛盾"
+      },
+      {
+        "label": "C",
+        "text": "C．人民对于经济文化迅速发展的需要同当前经济文化不能满足人民需要的状况之间的矛盾"
+      },
+      {
+        "label": "D",
+        "text": "D．人民内部矛盾"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 23,
+    "type": "single",
+    "text": "1957年2月，毛泽东在最高国务会议上发表《如何处理人民内部的矛盾》（后改为《关于正确处理人民内部矛盾的问题》）的讲话。毛泽东指出：社会主义社会存在着敌我矛盾和人民内部矛盾两类性质根本不同的矛盾。后者只能用民主的、说服教育的、（      ）的方法去解决。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．“团结——批评——团结”"
+      },
+      {
+        "label": "B",
+        "text": "B．“强制”"
+      },
+      {
+        "label": "C",
+        "text": "C．“专政”"
+      },
+      {
+        "label": "D",
+        "text": "D．“镇压”"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 24,
+    "type": "single",
+    "text": "1958年，党的八大二次会议通过了（      ）的社会主义建设总路线，反映了广大人民群众迫切要求改变国家经济文化落后状况的普遍愿望，但忽视了客观的经济规律。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．“以粮为纲”和“以钢为纲”"
+      },
+      {
+        "label": "B",
+        "text": "B．调整、巩固、充实、提高"
+      },
+      {
+        "label": "C",
+        "text": "C．在综合平衡中稳步前进"
+      },
+      {
+        "label": "D",
+        "text": "D．鼓足干劲、力争上游、多快好省地建设社会主义"
+      }
+    ],
+    "answer": "D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 25,
+    "type": "single",
+    "text": "党的八大二次会议以后，“大跃进”运动迅猛发展，农村掀起人民公社化运动高潮。“大跃进”初期建立的人民公社实行“政社合一”的体制，其基本特点是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．“一大二公”"
+      },
+      {
+        "label": "B",
+        "text": "B．“以粮为纲”"
+      },
+      {
+        "label": "C",
+        "text": "C．“一平二调”"
+      },
+      {
+        "label": "D",
+        "text": "D．“平均主义”"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 26,
+    "type": "single",
+    "text": "邓小平说1957年后我们开始犯“左”的错误，其标志性事件是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．中共八大二次会议召开"
+      },
+      {
+        "label": "B",
+        "text": "B．整风运动的开展"
+      },
+      {
+        "label": "C",
+        "text": "C．反右派斗争的严重扩大化"
+      },
+      {
+        "label": "D",
+        "text": "D．“大跃进”和人民公社化运动的发动"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 27,
+    "type": "single",
+    "text": "1975年，全面主持中共中央和国务院日常工作，着手对各方面工作进行整顿的领导人是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．周恩来"
+      },
+      {
+        "label": "B",
+        "text": "B．叶剑英"
+      },
+      {
+        "label": "C",
+        "text": "C．邓小平"
+      },
+      {
+        "label": "D",
+        "text": "D．华国锋"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 28,
+    "type": "single",
+    "text": "为准备进行有计划的经济建设，我国从（      ）年着手编制第一个五年计划。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1951"
+      },
+      {
+        "label": "B",
+        "text": "1953"
+      },
+      {
+        "label": "C",
+        "text": "1955"
+      },
+      {
+        "label": "D",
+        "text": "1956"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 29,
+    "type": "single",
+    "text": "在1953年底以前，着重发展以加工订货、经销代销为主的（      ）形式国家资本主义，这是国家与私人工商业的外部联系与合作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "初级"
+      },
+      {
+        "label": "B",
+        "text": "中级"
+      },
+      {
+        "label": "C",
+        "text": "高级"
+      },
+      {
+        "label": "D",
+        "text": "终极"
+      }
+    ],
+    "answer": "A",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 30,
+    "type": "single",
+    "text": "（      ）通过的新党章是中国共产党在全国执政以后制定的第一部党章。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中共二大"
+      },
+      {
+        "label": "B",
+        "text": "中共七大"
+      },
+      {
+        "label": "C",
+        "text": "中共八大"
+      },
+      {
+        "label": "D",
+        "text": "中共九大"
+      }
+    ],
+    "answer": "C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 31,
+    "type": "multiple",
+    "text": "1949年10月1日，首都军民30万人齐集北京天安门广场，欢庆中华人民共和国的诞生，中华人民共和国的成立标志着（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．新民主主义革命取得了基本的胜利"
+      },
+      {
+        "label": "B",
+        "text": "B．半殖民地半封建社会的结束"
+      },
+      {
+        "label": "C",
+        "text": "C．中国共产党的地位发生了根本性的变化"
+      },
+      {
+        "label": "D",
+        "text": "D．社会主义基本制度的确立"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 32,
+    "type": "multiple",
+    "text": "1950年6月，朝鲜战争爆发，美国宣布武装勘探南朝鲜，同时命令其海军第七舰队开入台湾海峡“阻止对台湾的任何进攻”，公然干涉中国内政。中国政府在美国把战火烧到鸭绿江边的时候，毅然做出抗美援朝的决定。抗美援朝战争的胜利（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．极大促进了中国的国防和军队现代化，有利推动了世界和平与人类进步事业"
+      },
+      {
+        "label": "B",
+        "text": "B．使中国成为联合国安理会常任理事国之一"
+      },
+      {
+        "label": "C",
+        "text": "C．捍卫了中国的国家安全，为维护亚洲和世界和平，做出了贡献"
+      },
+      {
+        "label": "D",
+        "text": "D．打破了美国军队不可战胜的神话，增强了中国人民的信心和自豪感"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 33,
+    "type": "multiple",
+    "text": "从1953年开始，在过渡时期总路线的指引下，中国共产党领导人民开始有计划的社会主义建设和有系统的社会主义改造，当时中国之所以要着力进行和可能进行社会主义改造，主要是因为（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．本国的资本主义经济力量弱小，发展困难"
+      },
+      {
+        "label": "B",
+        "text": "B．对个体农业进行社会主义改造，是实现国家工业化的一个必要条件"
+      },
+      {
+        "label": "C",
+        "text": "C．资本主义国家的封锁和遏制，社会主义国家的同情和援助"
+      },
+      {
+        "label": "D",
+        "text": "D．社会主义性质的国家经济力量相对来说比较大"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 34,
+    "type": "multiple",
+    "text": "“一五”计划在编制和实施过程中，较好地处理了我国经济建设中的哪些重大关系？（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．集中主要力量发展重工业，同时不放松农业、轻工业，对国民经济各部门统筹兼顾；根据我国国力，积极稳妥确定工业、农业生产年均增长速度"
+      },
+      {
+        "label": "B",
+        "text": "B．知识分子与工人阶级、农民阶级之间的关系"
+      },
+      {
+        "label": "C",
+        "text": "C．科学进行工业布局，改变我国工业大多集中在沿海地区的不合理状况"
+      },
+      {
+        "label": "D",
+        "text": "D．把发展生产同改善人民生活恰当地结合起来；既要争取外援，又强调自力更生"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 35,
+    "type": "multiple",
+    "text": "1953年提出的过渡时期总路线体现了（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．社会主义工业化和社会主义改造的紧密结合"
+      },
+      {
+        "label": "B",
+        "text": "B．解放生产力与发展生产力、变革生产关系与发展生产力的有机统一"
+      },
+      {
+        "label": "C",
+        "text": "C．工业与农业、手工业的协调发展"
+      },
+      {
+        "label": "D",
+        "text": "D．实现社会主义改造的主体性与长期性"
+      }
+    ],
+    "answer": "A,B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 36,
+    "type": "multiple",
+    "text": "（      ）等政治制度的建立，构成了我国社会主义的政治制度体系，为我国社会主义经济基础和相应的经济制度的确立提供了政治保障。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．基层社会管理体系"
+      },
+      {
+        "label": "B",
+        "text": "B．人民代表大会的根本政治制度"
+      },
+      {
+        "label": "C",
+        "text": "C．中国共产党领导的多党合作和政治协商制度"
+      },
+      {
+        "label": "D",
+        "text": "D．民族区域自治制度"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 37,
+    "type": "multiple",
+    "text": "社会主义革命和建设时期形成的历久弥新的时代精神主要有：（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "A．大庆精神"
+      },
+      {
+        "label": "B",
+        "text": "B．焦裕禄精神"
+      },
+      {
+        "label": "C",
+        "text": "C．雷锋精神"
+      },
+      {
+        "label": "D",
+        "text": "D．“两弹一星”精神"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 38,
+    "type": "multiple",
+    "text": "新中国成立伊始，面临哪些严重困难和紧迫问题？（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "能不能保卫住革命胜利成果，巩固新生人民政权"
+      },
+      {
+        "label": "B",
+        "text": "能不能战胜严重经济困难，迅速恢复和发展国民经济"
+      },
+      {
+        "label": "C",
+        "text": "能不能巩固民族独立，维护国家主权和安全"
+      },
+      {
+        "label": "D",
+        "text": "能不能经受住全国执政的新考验，继续保持优良传统和作风"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 39,
+    "type": "multiple",
+    "text": "1954年宪法将民族自治地方规范为（      ）、（      ）、（      ）三级，县以下的少数民族聚居区设民族乡。",
+    "options": [
+      {
+        "label": "A",
+        "text": "自治区"
+      },
+      {
+        "label": "B",
+        "text": "自治市"
+      },
+      {
+        "label": "C",
+        "text": "自治州"
+      },
+      {
+        "label": "D",
+        "text": "自治县"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "8.第八章客观题.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 40,
+    "type": "single",
+    "text": "1954年12月，一届全国人大常委会第四次会议之后，我国在城市建立居民委员会、在农村建立农民协会，形成了新的基层社会管理体系。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 41,
+    "type": "single",
+    "text": "《论十大关系》是以毛泽东为主要代表的中国共产党人开始探索适合中国国情的社会主义建设道路的标志，它在新的历史条件下从政治方面提出新的指导方针，在经济方面还是继续借鉴苏联经验。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 42,
+    "type": "single",
+    "text": "《论十大关系》前五条主要讨论政治问题，后五条主要讨论经济关系。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第八章",
+    "number": 43,
+    "type": "single",
+    "text": "1961年1月，党的八届九中全会决定对国民经济实行“调整、巩固、充实、畅通”的八字方针。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "8.第八章客观题.docx",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 1,
+    "type": "single",
+    "text": "宣告“文化大革命”结束的会议是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的十届三中全会"
+      },
+      {
+        "label": "B",
+        "text": "中国共产党第十一次全国代表大会"
+      },
+      {
+        "label": "C",
+        "text": "党的十一届三中全会"
+      },
+      {
+        "label": "D",
+        "text": "党的十一届六中全会"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 2,
+    "type": "single",
+    "text": "决定恢复邓小平在1976年被撤销的一切职务的是1977年7月召开的（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的十届三中全会"
+      },
+      {
+        "label": "B",
+        "text": "党的十一届三中全会"
+      },
+      {
+        "label": "C",
+        "text": "党的十届四中全会"
+      },
+      {
+        "label": "D",
+        "text": "党的十一届四中全会"
+      }
+    ],
+    "answer": "A",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 3,
+    "type": "single",
+    "text": "在借鉴农村改革经验的基础上，以扩大企业自主权为主要内容的（）逐步在全国展开。",
+    "options": [
+      {
+        "label": "A",
+        "text": "商业流通体制改革"
+      },
+      {
+        "label": "B",
+        "text": "城市经济体制改革"
+      },
+      {
+        "label": "C",
+        "text": "国营老工业企业改革"
+      },
+      {
+        "label": "D",
+        "text": "集体经济体制改革"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 4,
+    "type": "single",
+    "text": "1979年召开的中共中央工作会议，为坚决纠正前两年经济工作中的失误，认真清理过去在这方面长期存在的“左”倾错误影响，提出对国民经济实行的方针是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "调整、巩固、整顿、提高"
+      },
+      {
+        "label": "B",
+        "text": "调整、改革、整顿、提高"
+      },
+      {
+        "label": "C",
+        "text": "调整、改革、充实、提高"
+      },
+      {
+        "label": "D",
+        "text": "调整、巩固、充实、提高"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 5,
+    "type": "single",
+    "text": "改革开放初期，为了启动改革开放，中央设立了四个经济特区，这四个经济特区除了（）之外，还有汕头、珠海、厦门。",
+    "options": [
+      {
+        "label": "A",
+        "text": "深圳"
+      },
+      {
+        "label": "B",
+        "text": "北京"
+      },
+      {
+        "label": "C",
+        "text": "天津"
+      },
+      {
+        "label": "D",
+        "text": "上海"
+      }
+    ],
+    "answer": "A",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 6,
+    "type": "single",
+    "text": "党的十一届三中全会的主题报告是1978年12月13日邓小平在中央工作会议闭幕会上所作的讲话（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《实践是检验真理的唯一标准》"
+      },
+      {
+        "label": "B",
+        "text": "《沿着有中国特色的社会主义道路前进》"
+      },
+      {
+        "label": "C",
+        "text": "《坚持四项基本原则》"
+      },
+      {
+        "label": "D",
+        "text": "《解放思想，实事求是，团结一致向前看》"
+      }
+    ],
+    "answer": "D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 7,
+    "type": "single",
+    "text": "邓小平多次强调,（）这个旗帜丢不得，丢掉了这个旗帜实际上就否定了我们党的光辉历史。",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义"
+      },
+      {
+        "label": "B",
+        "text": "列宁主义"
+      },
+      {
+        "label": "C",
+        "text": "毛泽东思想"
+      },
+      {
+        "label": "D",
+        "text": "邓小平理论"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 8,
+    "type": "single",
+    "text": "（）通过了《关于建国以来党的若干历史问题的决议》，标志着党和国家在指导思想上拨乱反正胜利完成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的十一届三中全会"
+      },
+      {
+        "label": "B",
+        "text": "党的十一届四中全会"
+      },
+      {
+        "label": "C",
+        "text": "党的十一届五中全会"
+      },
+      {
+        "label": "D",
+        "text": "党的十一届六中全会"
+      }
+    ],
+    "answer": "D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 9,
+    "type": "single",
+    "text": "邓小平在党的十二大上首次明确提出了（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "把全党工作的重心转移到社会主义现代化建设上来"
+      },
+      {
+        "label": "B",
+        "text": "建设富强民主文明的社会主义现代化国家"
+      },
+      {
+        "label": "C",
+        "text": "建设有中国特色的社会主义"
+      },
+      {
+        "label": "D",
+        "text": "党在社会主义初级阶段的基本路线"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 10,
+    "type": "single",
+    "text": "1982年宪法作出改变农村人民公社政社合一体制，建立（）作为基层政权的规定。",
+    "options": [
+      {
+        "label": "A",
+        "text": "行政村"
+      },
+      {
+        "label": "B",
+        "text": "县政府"
+      },
+      {
+        "label": "C",
+        "text": "乡政府"
+      },
+      {
+        "label": "D",
+        "text": "居委会"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 11,
+    "type": "single",
+    "text": "邓小平提出“一个国家、两种制度”的构想是在（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "20世纪70年代末80年代初"
+      },
+      {
+        "label": "B",
+        "text": "20世纪80年代中期"
+      },
+      {
+        "label": "C",
+        "text": "20世纪70年代中期"
+      },
+      {
+        "label": "D",
+        "text": "20世纪80年代末期"
+      }
+    ],
+    "answer": "A",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 12,
+    "type": "single",
+    "text": "1983年6月，六届全国人大一次会议选举（）为国家主席。",
+    "options": [
+      {
+        "label": "A",
+        "text": "刘少奇"
+      },
+      {
+        "label": "B",
+        "text": "邓小平"
+      },
+      {
+        "label": "C",
+        "text": "李先念"
+      },
+      {
+        "label": "D",
+        "text": "杨尚昆"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 13,
+    "type": "single",
+    "text": "1985年中央军委扩大会议作出决策，1985—1987年裁军（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "20万"
+      },
+      {
+        "label": "B",
+        "text": "30万"
+      },
+      {
+        "label": "C",
+        "text": "50万"
+      },
+      {
+        "label": "D",
+        "text": "100万"
+      }
+    ],
+    "answer": "D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 14,
+    "type": "single",
+    "text": "经过党的十三届四中、五中全会，形成了以（）同志为核心的党的第三代中央领导集体。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "胡锦涛"
+      },
+      {
+        "label": "D",
+        "text": "习近平"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 15,
+    "type": "single",
+    "text": "以（）为标志，改革开放和现代化建设事业进入从计划经济体制向社会主义市场经济体制转变的新阶段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平南方谈话和党的十三大"
+      },
+      {
+        "label": "B",
+        "text": "邓小平南方谈话和党的十四大"
+      },
+      {
+        "label": "C",
+        "text": "邓小平在党的十二大上的报告"
+      },
+      {
+        "label": "D",
+        "text": "邓小平在党的十一届三中全会上的报告"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 16,
+    "type": "single",
+    "text": "从（）起，中央决定在领导班子和领导干部中开展以讲学习、讲政治、讲正气为主要内容的党性党风教育。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1995年11月"
+      },
+      {
+        "label": "B",
+        "text": "1998年11月"
+      },
+      {
+        "label": "C",
+        "text": "1999年11月"
+      },
+      {
+        "label": "D",
+        "text": "2000年11月"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 17,
+    "type": "single",
+    "text": "1997年9月12日至18日，中国共产党第十五次全国代表大会在北京召开，大会的主题是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高举邓小平理论伟大旗帜，把建设有中国特色社会主义事业全面推向21世纪"
+      },
+      {
+        "label": "B",
+        "text": "高举邓小平理论伟大旗帜，全面建设小康社会"
+      },
+      {
+        "label": "C",
+        "text": "高举中国特色社会主义伟大旗帜，为夺取全面建设小康社会新胜利而奋斗"
+      },
+      {
+        "label": "D",
+        "text": "落实科学发展观，把建设有中国特色社会主义事业全面推向21世纪"
+      }
+    ],
+    "answer": "A",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 18,
+    "type": "single",
+    "text": "党的十五届三中全会通过的《中共中央关于农业和农村工作若干重大问题的决定》提出要进一步推动解决（）问题。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国企改革"
+      },
+      {
+        "label": "B",
+        "text": "“三农”"
+      },
+      {
+        "label": "C",
+        "text": "科教兴国"
+      },
+      {
+        "label": "D",
+        "text": "可持续发展"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 19,
+    "type": "single",
+    "text": "“三个代表”重要思想作为完整的概念，是2000年2月江泽民在（）考察工作时提出来的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "浙江"
+      },
+      {
+        "label": "B",
+        "text": "上海"
+      },
+      {
+        "label": "C",
+        "text": "广东"
+      },
+      {
+        "label": "D",
+        "text": "江苏"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 20,
+    "type": "single",
+    "text": "中国加入世界贸易组织是在（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2000年11月"
+      },
+      {
+        "label": "B",
+        "text": "2000年12月"
+      },
+      {
+        "label": "C",
+        "text": "2001年11月"
+      },
+      {
+        "label": "D",
+        "text": "2001年12月"
+      }
+    ],
+    "answer": "D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 21,
+    "type": "single",
+    "text": "2002年11月8日至14日，中国共产党第十六次全国代表大会在北京召开。大会高度评价（）的历史地位和重要作用，并将其写入党章。",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学发展观"
+      },
+      {
+        "label": "B",
+        "text": "“八荣八耻”观"
+      },
+      {
+        "label": "C",
+        "text": "“德治法治”思想"
+      },
+      {
+        "label": "D",
+        "text": "“三个代表”重要思想"
+      }
+    ],
+    "answer": "D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 22,
+    "type": "single",
+    "text": "在中国共产党（）上提出了全面建设小康社会宏伟目标。",
+    "options": [
+      {
+        "label": "A",
+        "text": "第十三次全国代表大会"
+      },
+      {
+        "label": "B",
+        "text": "第十四次全国代表大会"
+      },
+      {
+        "label": "C",
+        "text": "第十五次全国代表大会"
+      },
+      {
+        "label": "D",
+        "text": "第十六次全国代表大会"
+      }
+    ],
+    "answer": "D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 23,
+    "type": "single",
+    "text": "2003年春，我国遭遇了一场过去从未出现过的（）重大疫情。",
+    "options": [
+      {
+        "label": "A",
+        "text": "典型性肺炎"
+      },
+      {
+        "label": "B",
+        "text": "非典型肺炎"
+      },
+      {
+        "label": "C",
+        "text": "新型冠状病毒肺炎"
+      },
+      {
+        "label": "D",
+        "text": "新型冠状病毒感染"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 24,
+    "type": "single",
+    "text": "2003年10月，党的十六届三中全会提出建立健全与（）相适应的教育、制度、监督并重的惩治和预防腐败体系。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义计划经济体制"
+      },
+      {
+        "label": "B",
+        "text": "社会主义市场经济体制"
+      },
+      {
+        "label": "C",
+        "text": "社会主义政治体制"
+      },
+      {
+        "label": "D",
+        "text": "社会主义教育体制"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 25,
+    "type": "single",
+    "text": "2010年中国经济总量超过（），成为世界第二大经济体。",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "德国"
+      },
+      {
+        "label": "C",
+        "text": "日本"
+      },
+      {
+        "label": "D",
+        "text": "法国"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 26,
+    "type": "single",
+    "text": "决定把科学发展观这一中国特色社会主义理论体系重大成果写入党章的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的十五大"
+      },
+      {
+        "label": "B",
+        "text": "党的十六大"
+      },
+      {
+        "label": "C",
+        "text": "党的十七大"
+      },
+      {
+        "label": "D",
+        "text": "党的十八大"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 27,
+    "type": "single",
+    "text": "2012年9月，我国第一艘航空母舰（）正式交付海军。",
+    "options": [
+      {
+        "label": "A",
+        "text": "辽宁舰"
+      },
+      {
+        "label": "B",
+        "text": "山东舰"
+      },
+      {
+        "label": "C",
+        "text": "福建舰"
+      },
+      {
+        "label": "D",
+        "text": "海南舰"
+      }
+    ],
+    "answer": "A",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 28,
+    "type": "single",
+    "text": "1978年11月10日至12月15日，在北京召开的中共中央工作会议上，（）在讨论中率先提出解决历史遗留问题的意见。",
+    "options": [
+      {
+        "label": "A",
+        "text": "华北组"
+      },
+      {
+        "label": "B",
+        "text": "西北组"
+      },
+      {
+        "label": "C",
+        "text": "东北组"
+      },
+      {
+        "label": "D",
+        "text": "华东组"
+      }
+    ],
+    "answer": "C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 29,
+    "type": "single",
+    "text": "1980年2月，党的十一届五中全会决定为（）彻底平反，恢复名誉。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "刘少奇"
+      },
+      {
+        "label": "C",
+        "text": "张闻天"
+      },
+      {
+        "label": "D",
+        "text": "周恩来"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 30,
+    "type": "multiple",
+    "text": "1977年邓小平复出后，领导了批判林彪、“四人帮”鼓吹的（）和“两个估计”，指出为社会主义服务的脑力劳动者是劳动人民的一部分。",
+    "options": [
+      {
+        "label": "A",
+        "text": "科技黑线专政论"
+      },
+      {
+        "label": "B",
+        "text": "文艺黑线专政论"
+      },
+      {
+        "label": "C",
+        "text": "教育黑线专政论"
+      },
+      {
+        "label": "D",
+        "text": "学术黑线专政论"
+      }
+    ],
+    "answer": "B,C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 31,
+    "type": "multiple",
+    "text": "党的十一届三中全会是党的历史上具有深远意义的伟大转折，全会（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "形成了以邓小平为核心的党的中央领导集体"
+      },
+      {
+        "label": "B",
+        "text": "结束了粉碎“四人帮”后党和国家工作在徘徊中前进的局面"
+      },
+      {
+        "label": "C",
+        "text": "标志着中国共产党重新确立了马克思主义的思想路线、政治路线、组织路线"
+      },
+      {
+        "label": "D",
+        "text": "开启了我国改革开放和社会主义现代化建设新时期"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 32,
+    "type": "multiple",
+    "text": "中共中央《关于建国以来党的若干历史问题的决议》概括的毛泽东思想的活的灵魂包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实事求是"
+      },
+      {
+        "label": "B",
+        "text": "调查研究"
+      },
+      {
+        "label": "C",
+        "text": "群众路线"
+      },
+      {
+        "label": "D",
+        "text": "独立自主"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 33,
+    "type": "multiple",
+    "text": "1992年邓小平南方谈话提出判断姓“社”姓“资”的标准是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是否有利于发展社会主义社会的生产力"
+      },
+      {
+        "label": "B",
+        "text": "是否有利于增强社会主义国家的综合国力"
+      },
+      {
+        "label": "C",
+        "text": "是否有利于提高人民的生活水平"
+      },
+      {
+        "label": "D",
+        "text": "是否注重社会公平和正义"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 34,
+    "type": "multiple",
+    "text": "党的十四届六中全会作出《关于加强社会主义精神文明建设若干重要问题的决议》，对新形势下的精神文明建设作出具体部署和规划，强调培养“四有”公民要做到（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "以科学的理论武装人"
+      },
+      {
+        "label": "B",
+        "text": "以正确的舆论引导人"
+      },
+      {
+        "label": "C",
+        "text": "以高尚的精神塑造人"
+      },
+      {
+        "label": "D",
+        "text": "以优秀的作品鼓舞人"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 35,
+    "type": "multiple",
+    "text": "党的十五大指出：（）是我国社会主义初级阶段的一项基本经济制度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持按劳分配"
+      },
+      {
+        "label": "B",
+        "text": "公有制为主体"
+      },
+      {
+        "label": "C",
+        "text": "多种所有制经济共同发展"
+      },
+      {
+        "label": "D",
+        "text": "开展大规模扶贫工程"
+      }
+    ],
+    "answer": "B,C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 36,
+    "type": "multiple",
+    "text": "2003年10月，党的十六届三中全会在党的正式文件中完整地提出了科学发展观，内容包括（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产力和生产关系统筹发展"
+      },
+      {
+        "label": "B",
+        "text": "坚持以人为本"
+      },
+      {
+        "label": "C",
+        "text": "树立全面、协调、可持续的发展观"
+      },
+      {
+        "label": "D",
+        "text": "促进经济社会和人的全面发展"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 37,
+    "type": "multiple",
+    "text": "邓小平强调，中国实现四个现代化有两个重要特点必须看到，这两个特点是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "底子薄"
+      },
+      {
+        "label": "B",
+        "text": "底子厚"
+      },
+      {
+        "label": "C",
+        "text": "人口多、耕地少"
+      },
+      {
+        "label": "D",
+        "text": "人口少、耕地多"
+      }
+    ],
+    "answer": "A,C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 38,
+    "type": "multiple",
+    "text": "随着对外开放逐步展开，我国同（）等国公司共同开展海上石油勘探开发。",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本"
+      },
+      {
+        "label": "B",
+        "text": "美国"
+      },
+      {
+        "label": "C",
+        "text": "英国"
+      },
+      {
+        "label": "D",
+        "text": "法国"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 39,
+    "type": "multiple",
+    "text": "1985年2月，中央决定在（）开辟沿海经济开放区。",
+    "options": [
+      {
+        "label": "A",
+        "text": "长江三角洲"
+      },
+      {
+        "label": "B",
+        "text": "珠江三角洲"
+      },
+      {
+        "label": "C",
+        "text": "闽南厦漳泉三角地区"
+      },
+      {
+        "label": "D",
+        "text": "海南岛"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "9.第九章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 40,
+    "type": "single",
+    "text": "解放思想就是敢于怀疑一切、超越一切、不受任何思想和理论的约束和指导。（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 41,
+    "type": "single",
+    "text": "邓小平曾反复强调，要保持稳定和坚持改革开放，关键是要搞好国际关系。（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 42,
+    "type": "single",
+    "text": "1982年9月，党的十二大把实现干部的“四化”写入党章。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "A",
+    "source": "9.第九章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第九章",
+    "number": 43,
+    "type": "single",
+    "text": "到2012年，我国已成为世界第一大电影生产国和第一大电视剧生产国。（      ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "对"
+      },
+      {
+        "label": "B",
+        "text": "错"
+      }
+    ],
+    "answer": "B",
+    "source": "9.第九章客观题.doc",
+    "subtopic": "判断题"
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 1,
+    "type": "single",
+    "text": "结束以王明为代表的“左”倾教条主义在党中央的统治，确立毛泽东在党和红军中实际领导地位的会议是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "八七会议"
+      },
+      {
+        "label": "B",
+        "text": "瓦窑堡会议"
+      },
+      {
+        "label": "C",
+        "text": "中共七大"
+      },
+      {
+        "label": "D",
+        "text": "遵义会议"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 2,
+    "type": "single",
+    "text": "1927年到1937年是中国革命的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "大革命时期"
+      },
+      {
+        "label": "B",
+        "text": "北伐战争时期"
+      },
+      {
+        "label": "C",
+        "text": "土地革命时期"
+      },
+      {
+        "label": "D",
+        "text": "旧民主主义革命时期"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 3,
+    "type": "single",
+    "text": "土地革命时期，第三次“左”倾错误的代表是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "王明"
+      },
+      {
+        "label": "B",
+        "text": "博古"
+      },
+      {
+        "label": "C",
+        "text": "李立三"
+      },
+      {
+        "label": "D",
+        "text": "瞿秋白"
+      }
+    ],
+    "answer": "A",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 4,
+    "type": "single",
+    "text": "1929年12月下旬，红四军党的第九次代表大会在福建上杭县古田村召开，会议总结了红军创立以来的经验，通过了著名的古田会议决定，决议的中心思想是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党必须服从共产国际的领导"
+      },
+      {
+        "label": "B",
+        "text": "武装斗争是中国革命的主要形式"
+      },
+      {
+        "label": "C",
+        "text": "在农村根据地广泛开展土地革命"
+      },
+      {
+        "label": "D",
+        "text": "用无产阶级思想进行军队和党的建设"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 5,
+    "type": "single",
+    "text": "中国革命的新道路指的是(      )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义道路"
+      },
+      {
+        "label": "B",
+        "text": "农村包围城市的道路"
+      },
+      {
+        "label": "C",
+        "text": "城市包围农村的道路"
+      },
+      {
+        "label": "D",
+        "text": "新民主主义道路"
+      }
+    ],
+    "answer": "B",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 6,
+    "type": "single",
+    "text": "中国革命的主要形式是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "议会斗争"
+      },
+      {
+        "label": "B",
+        "text": "群众斗争"
+      },
+      {
+        "label": "C",
+        "text": "地下斗争"
+      },
+      {
+        "label": "D",
+        "text": "武装斗争"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 7,
+    "type": "single",
+    "text": "南京国民政府改组的时间（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1926年2月"
+      },
+      {
+        "label": "B",
+        "text": "1927年2月"
+      },
+      {
+        "label": "C",
+        "text": "1928年2月"
+      },
+      {
+        "label": "D",
+        "text": "1929年2月"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 8,
+    "type": "single",
+    "text": "大革命失败以后，全国笼罩在白色恐怖之下。共产党员不怕牺牲，坚持理想信念，作出了挽救党挽救革命的努力。1927年8月7日，中共中央在汉口秘密召开紧急会议(八七会议)，这次会议（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "批评了大革命时期的“左”倾错误"
+      },
+      {
+        "label": "B",
+        "text": "阐明了党的工作重心从城市转移到农村的重要性"
+      },
+      {
+        "label": "C",
+        "text": "提出了组织湘、鄂、赣、粤四省的农民发动起义暴动"
+      },
+      {
+        "label": "D",
+        "text": "确定了土地革命和武装起义的方针"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 9,
+    "type": "single",
+    "text": "遵义会议后，中共中央政治局成立了新的三人团负责红军的军事行动，其成员是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东、朱德、周恩来"
+      },
+      {
+        "label": "B",
+        "text": "毛泽东、朱德、王稼祥"
+      },
+      {
+        "label": "C",
+        "text": "毛泽东、周恩来、王稼祥"
+      },
+      {
+        "label": "D",
+        "text": "毛泽东、张闻天、周恩来"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 10,
+    "type": "single",
+    "text": "第五次反“围剿”的失败充分证明了（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "良好的群众基础是红色政权存在的重要条件"
+      },
+      {
+        "label": "B",
+        "text": "全国的革命形势，对红色政权的影响巨大"
+      },
+      {
+        "label": "C",
+        "text": "相当力量的红军存在，是造成工农武装割据的重要条件"
+      },
+      {
+        "label": "D",
+        "text": "中国共产党的正确领导是红色政权存在的重要条件"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 11,
+    "type": "single",
+    "text": "1927年大革命失败后，中国社会的性质仍旧是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "封建社会"
+      },
+      {
+        "label": "B",
+        "text": "半殖民地半封建社会"
+      },
+      {
+        "label": "C",
+        "text": "资本主义社会"
+      },
+      {
+        "label": "D",
+        "text": "新民主主义社会"
+      }
+    ],
+    "answer": "B",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 12,
+    "type": "single",
+    "text": "1931年2月，毛泽东和邓子恢等一起制定了土地革命中的阶级路线和土地分配方法，其中对富农的政策是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "消灭富农"
+      },
+      {
+        "label": "B",
+        "text": "联合富农"
+      },
+      {
+        "label": "C",
+        "text": "限制富农"
+      },
+      {
+        "label": "D",
+        "text": "保护富农"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 13,
+    "type": "single",
+    "text": "1927年9月底，中国工农革命军抵达江西永新县，进行了著名的（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "文家市改编"
+      },
+      {
+        "label": "B",
+        "text": "茅坪改编"
+      },
+      {
+        "label": "C",
+        "text": "砻市改编"
+      },
+      {
+        "label": "D",
+        "text": "三湾改编"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 14,
+    "type": "single",
+    "text": "1928年12月29日发出通告，宣布“遵守三民主义，服从国民政府，改易旗帜” 的人是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "冯玉祥"
+      },
+      {
+        "label": "B",
+        "text": "李宗仁"
+      },
+      {
+        "label": "C",
+        "text": "阎锡山"
+      },
+      {
+        "label": "D",
+        "text": "张学良"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 15,
+    "type": "single",
+    "text": "1928年蒋介石在南京建立的国民党政府的统治依然是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族资产阶级统治"
+      },
+      {
+        "label": "B",
+        "text": "官僚资产阶级统治"
+      },
+      {
+        "label": "C",
+        "text": "地主阶级统治"
+      },
+      {
+        "label": "D",
+        "text": "地主阶级和买办性的大资产阶级的统治"
+      }
+    ],
+    "answer": "D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 16,
+    "type": "single",
+    "text": "中国共产党开始从大革命失败到土地革命战争兴起的转折是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "南昌起义"
+      },
+      {
+        "label": "B",
+        "text": "井冈山革命根据地的创立"
+      },
+      {
+        "label": "C",
+        "text": "八七会议的召开"
+      },
+      {
+        "label": "D",
+        "text": "工农武装割据思想的提出"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 17,
+    "type": "single",
+    "text": "大革命失败后，以毛泽东为代表的中国共产党人开始逐步将革命的中心（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "由乡村转向城市"
+      },
+      {
+        "label": "B",
+        "text": "由城市转向农村"
+      },
+      {
+        "label": "C",
+        "text": "由主要城市转向一般城市"
+      },
+      {
+        "label": "D",
+        "text": "由乡镇转向中心城市"
+      }
+    ],
+    "answer": "B",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 18,
+    "type": "single",
+    "text": "1935年10月19日，中国工农红军陕甘支队到达陕北（      ），与红十五军团会合，中国共产党所领导的革命力量有了新的落脚点和战略基地。",
+    "options": [
+      {
+        "label": "A",
+        "text": "吴起镇"
+      },
+      {
+        "label": "B",
+        "text": "会宁"
+      },
+      {
+        "label": "C",
+        "text": "懋功"
+      },
+      {
+        "label": "D",
+        "text": "延安"
+      }
+    ],
+    "answer": "A",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 19,
+    "type": "single",
+    "text": "1935年12月，毛泽东作了（      ）的报告，阐明党的抗日民族统一战线的新政策。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《中国革命战争的战略问题》"
+      },
+      {
+        "label": "B",
+        "text": "《实践论》"
+      },
+      {
+        "label": "C",
+        "text": "《论反对日本帝国主义的策略》"
+      },
+      {
+        "label": "D",
+        "text": "《矛盾论》"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 20,
+    "type": "single",
+    "text": "毛泽东提出“没有调查，没有发言权”的重要思想的文章是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《实践论》"
+      },
+      {
+        "label": "B",
+        "text": "《井冈山的斗争》"
+      },
+      {
+        "label": "C",
+        "text": "《反对本本主义》"
+      },
+      {
+        "label": "D",
+        "text": "《新民主主义论》"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 21,
+    "type": "single",
+    "text": "1931年11月，中华苏维埃第一次全国代表大会在江西瑞金举行，成立了中华苏维埃共和国临时中央政府，当选主席的是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "周恩来"
+      },
+      {
+        "label": "C",
+        "text": "朱德"
+      },
+      {
+        "label": "D",
+        "text": "贺龙"
+      }
+    ],
+    "answer": "A",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 22,
+    "type": "single",
+    "text": "中华苏维埃共和国实行的制度是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民代表大会制度"
+      },
+      {
+        "label": "B",
+        "text": "工农兵代表大会制度"
+      },
+      {
+        "label": "C",
+        "text": "农民代表大会制度"
+      },
+      {
+        "label": "D",
+        "text": "工人代表大会制度"
+      }
+    ],
+    "answer": "B",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 23,
+    "type": "single",
+    "text": "中共广东省委书记张太雷等领导的广州起义的时间是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1926年5月8日"
+      },
+      {
+        "label": "B",
+        "text": "1927年12月11日"
+      },
+      {
+        "label": "C",
+        "text": "1927年10月7日"
+      },
+      {
+        "label": "D",
+        "text": "1927年9月9日"
+      }
+    ],
+    "answer": "B",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 24,
+    "type": "single",
+    "text": "把毛泽东排除在中央根据地红军领导地位之外的会议是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中共六大"
+      },
+      {
+        "label": "B",
+        "text": "中共六届三中全会"
+      },
+      {
+        "label": "C",
+        "text": "中央苏区第一次党代表大会"
+      },
+      {
+        "label": "D",
+        "text": "中共六届四中全会"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 25,
+    "type": "single",
+    "text": "中国工农红军长征的直接原因是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中共失去了广大人民的支持"
+      },
+      {
+        "label": "B",
+        "text": "中共认识到北上抗日的重要性"
+      },
+      {
+        "label": "C",
+        "text": "第五次反“围剿”的失利"
+      },
+      {
+        "label": "D",
+        "text": "中共仍未找到夺取革命胜利的道路"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 26,
+    "type": "single",
+    "text": "1927年8月1日,中共在南昌举行起义,其前敌委员会的书记是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "周恩来"
+      },
+      {
+        "label": "C",
+        "text": "朱德"
+      },
+      {
+        "label": "D",
+        "text": "贺龙"
+      }
+    ],
+    "answer": "B",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 27,
+    "type": "single",
+    "text": "结束陈独秀右倾机会主义错误的会议是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "八七会议"
+      },
+      {
+        "label": "B",
+        "text": "中共六大"
+      },
+      {
+        "label": "C",
+        "text": "文家市会议"
+      },
+      {
+        "label": "D",
+        "text": "古田会议"
+      }
+    ],
+    "answer": "A",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 28,
+    "type": "single",
+    "text": "1935年6月中央红军同红四方面军会师的地址是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "吴起镇"
+      },
+      {
+        "label": "B",
+        "text": "会宁"
+      },
+      {
+        "label": "C",
+        "text": "懋功"
+      },
+      {
+        "label": "D",
+        "text": "甘孜"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 29,
+    "type": "single",
+    "text": "在红军长征途中，中共中央同分裂中央、分裂红军的严重错误进行了坚决斗争的红四方面军领导人是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "王明"
+      },
+      {
+        "label": "B",
+        "text": "李德"
+      },
+      {
+        "label": "C",
+        "text": "张国焘"
+      },
+      {
+        "label": "D",
+        "text": "博古"
+      }
+    ],
+    "answer": "C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 30,
+    "type": "multiple",
+    "text": "1927年8月1日，发动南昌起义的领导人有（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "周恩来"
+      },
+      {
+        "label": "B",
+        "text": "贺龙"
+      },
+      {
+        "label": "C",
+        "text": "叶挺"
+      },
+      {
+        "label": "D",
+        "text": "朱德"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 31,
+    "type": "multiple",
+    "text": "在革命的危急关头，1927年7月中旬，中共中央政治局临时常委会决定的三件大事是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "将党所掌握和影响的部队向南昌集中，准备起义"
+      },
+      {
+        "label": "B",
+        "text": "组织湘、鄂、赣、粤四省的农民，在秋收季节举行暴动"
+      },
+      {
+        "label": "C",
+        "text": "召集中央紧急会议，讨论和决定大革命失败后的新方针"
+      },
+      {
+        "label": "D",
+        "text": "继续同国民党合作"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 32,
+    "type": "multiple",
+    "text": "王明等人的“左”倾教条主义错误，对中国革命造成了极其严重的危害。这些危害有(      )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使红军在第五次反“围剿”作战中遭受失败，不得不实行战略转移"
+      },
+      {
+        "label": "B",
+        "text": "使红军和根据地损失90%"
+      },
+      {
+        "label": "C",
+        "text": "使国民党统治区党的力量几乎损失了100%"
+      },
+      {
+        "label": "D",
+        "text": "实行进攻中的冒险主义"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 33,
+    "type": "multiple",
+    "text": "大革命失败后的艰难环境是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国社会的半殖民地半封建性质没有改变"
+      },
+      {
+        "label": "B",
+        "text": "反革命力量大大超过了有组织的革命力量"
+      },
+      {
+        "label": "C",
+        "text": "白色恐怖笼罩着全国城乡"
+      },
+      {
+        "label": "D",
+        "text": "中国革命转入低潮"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 34,
+    "type": "multiple",
+    "text": "从1930年10月到1931年7月，红一方面军连续粉碎国民党军队三次“围剿”而贯彻的积极防御方针是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "诱敌深入"
+      },
+      {
+        "label": "B",
+        "text": "避敌主力"
+      },
+      {
+        "label": "C",
+        "text": "打其虚弱"
+      },
+      {
+        "label": "D",
+        "text": "积极冒进"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 35,
+    "type": "multiple",
+    "text": "面对极端的白色恐怖，一些追求进步、向往真理的人士，在革命危机时刻加入了中国共产党。他们是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "徐特立"
+      },
+      {
+        "label": "B",
+        "text": "贺龙"
+      },
+      {
+        "label": "C",
+        "text": "叶剑英"
+      },
+      {
+        "label": "D",
+        "text": "彭德怀"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 36,
+    "type": "multiple",
+    "text": "在根据地军民进行军事上反“围剿”作战同时，国民党统治区的共产党人和进步文化界人士还在文化战线上开展了反“围剿”斗争，形成了声势浩大的左翼文化运动。主要作品是（      ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "鲁迅的杂文"
+      },
+      {
+        "label": "B",
+        "text": "瞿秋白的评论"
+      },
+      {
+        "label": "C",
+        "text": "茅盾的小说《子夜》"
+      },
+      {
+        "label": "D",
+        "text": "《义勇军进行曲》"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 37,
+    "type": "multiple",
+    "text": "1936年10月，长征胜利会师的红军三大主力是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "红一方面军"
+      },
+      {
+        "label": "B",
+        "text": "红二方面军"
+      },
+      {
+        "label": "C",
+        "text": "红三方面军"
+      },
+      {
+        "label": "D",
+        "text": "红四方面军"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 38,
+    "type": "multiple",
+    "text": "1927年领导广州起义的主要领导者是（   ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "张太雷"
+      },
+      {
+        "label": "B",
+        "text": "叶挺"
+      },
+      {
+        "label": "C",
+        "text": "叶剑英"
+      },
+      {
+        "label": "D",
+        "text": "刘伯承"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "历史",
+    "topic": "第五章",
+    "number": 39,
+    "type": "single",
+    "text": "从1930年10月起,蒋介石集中重兵,向北方各根据地的红军发动大规模的“围剿”。 (   )",
+    "options": [
+      {
+        "label": "A",
+        "text": "答案:错"
+      },
+      {
+        "label": "B",
+        "text": "\u0003"
+      },
+      {
+        "label": "C",
+        "text": "\u0004"
+      },
+      {
+        "label": "D",
+        "text": "\u0003"
+      },
+      {
+        "label": "E",
+        "text": "\u0004"
+      }
+    ],
+    "answer": "",
+    "source": "5.第五章客观题.doc",
+    "subtopic": ""
+  }
+]);
+
+window.QUESTION_BANK = window.QUESTION_BANK.concat([
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 1,
+    "type": "single",
+    "text": "( )是我们理解当前所处历史方位的关键词。",
+    "options": [
+      {
+        "label": "A",
+        "text": "乡村振兴"
+      },
+      {
+        "label": "B",
+        "text": "建设小康社会"
+      },
+      {
+        "label": "C",
+        "text": "新时代"
+      },
+      {
+        "label": "D",
+        "text": "民族复兴"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 2,
+    "type": "single",
+    "text": "( )是我们理解当前所处历史方位的关键词。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新思想"
+      },
+      {
+        "label": "B",
+        "text": "新举措"
+      },
+      {
+        "label": "C",
+        "text": "新格局"
+      },
+      {
+        "label": "D",
+        "text": "新时代"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 3,
+    "type": "single",
+    "text": "青年的( )是决定人生价值的最大砝码。",
+    "options": [
+      {
+        "label": "A",
+        "text": "能力"
+      },
+      {
+        "label": "B",
+        "text": "担当"
+      },
+      {
+        "label": "C",
+        "text": "思想"
+      },
+      {
+        "label": "D",
+        "text": "爱国"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 4,
+    "type": "single",
+    "text": "不断增强的( )，是青春焕发光彩的重要源泉。",
+    "options": [
+      {
+        "label": "A",
+        "text": "理想信念"
+      },
+      {
+        "label": "B",
+        "text": "本领才干"
+      },
+      {
+        "label": "C",
+        "text": "担当精神"
+      },
+      {
+        "label": "D",
+        "text": "爱国主义思想"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 5,
+    "type": "single",
+    "text": "反映人们通过学习法律知识、理解法律本质、运用法治思维、依法维护权利与依法履行义务的品质和能力的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "思想素质"
+      },
+      {
+        "label": "B",
+        "text": "道德素质"
+      },
+      {
+        "label": "C",
+        "text": "法治素养"
+      },
+      {
+        "label": "D",
+        "text": "法制思想"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 6,
+    "type": "single",
+    "text": "思想道德和法律的关系，正确的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律为思想道德提供思想指引和价值基础"
+      },
+      {
+        "label": "B",
+        "text": "思想道德为法律提供制度保障"
+      },
+      {
+        "label": "C",
+        "text": "二者都是调节人们思想行为、协调人际关系、维护社会秩序的重要手段"
+      },
+      {
+        "label": "D",
+        "text": "二者在调节领域、调节方式、调节目标等方面是相同的"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 7,
+    "type": "single",
+    "text": "“学如弓弩，才如箭镞，识以领之，方能中鹄。”这句话告诉我们要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "有本领"
+      },
+      {
+        "label": "B",
+        "text": "有担当"
+      },
+      {
+        "label": "C",
+        "text": "有责任"
+      },
+      {
+        "label": "D",
+        "text": "有理想"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 8,
+    "type": "single",
+    "text": "法律是成文的道德，道德是内心的法律。这句话是要强调( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律和道德两种规范调节的领域相同"
+      },
+      {
+        "label": "B",
+        "text": "法律和道德两种规范的实现方式相同"
+      },
+      {
+        "label": "C",
+        "text": "法律和道德两种规范的实施载体相同"
+      },
+      {
+        "label": "D",
+        "text": "法律和道德都具有规范社会行为、维护社会秩序的作用"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 9,
+    "type": "single",
+    "text": "党的十八大以来，在奋进新时代的伟大实践中，以习近平同志为核心的党中央团结带领全国各族人民，实现了第一个百年奋斗目标，在中华大地上( )，历史性地解决了绝对贫困问题。",
+    "options": [
+      {
+        "label": "A",
+        "text": "全面建成小康社会"
+      },
+      {
+        "label": "B",
+        "text": "全面建成现代化国家"
+      },
+      {
+        "label": "C",
+        "text": "全面实现共同富裕"
+      },
+      {
+        "label": "D",
+        "text": "全面完成脱贫攻坚"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 10,
+    "type": "single",
+    "text": "爱因斯坦说:“人是社会的人，社会是人的社会。”下列关于个人与社会关系表述正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "个人与社会的关系，最根本的是个人利益与社会利益的关系"
+      },
+      {
+        "label": "B",
+        "text": "个人需要是社会需要的集中体现"
+      },
+      {
+        "label": "C",
+        "text": "个人需要是社会全体成员带有根本性、全局性、长远性需要的反映"
+      },
+      {
+        "label": "D",
+        "text": "社会利益的满足只能是在一定的社会条件下、通过一定的社会方式来实现"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 11,
+    "type": "single",
+    "text": "马克思中学毕业时即表示要“为人类福利而劳动”，毛泽东青年时期便立志“以天下为己任”，周恩来在南开读书时就决心“为中华之崛起而读书”。这充分表现了革命领袖志存高远，在年轻时就( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "形成了正确的人生目的"
+      },
+      {
+        "label": "B",
+        "text": "完成了人生修养的过程"
+      },
+      {
+        "label": "C",
+        "text": "实现了自己的人生价值"
+      },
+      {
+        "label": "D",
+        "text": "达到了人生奋斗的目标"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 12,
+    "type": "single",
+    "text": "关于人生观与世界观的关系，以下说法错误的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生观是世界观在对待人生问题上的具体体现。"
+      },
+      {
+        "label": "B",
+        "text": "正确的人生观是正确世界观的基础。"
+      },
+      {
+        "label": "C",
+        "text": "人生观对世界观的巩固、发展和变化起着重要的作用。"
+      },
+      {
+        "label": "D",
+        "text": "有什么样的世界观，就有什么样的人生观。"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 13,
+    "type": "single",
+    "text": "爱因斯坦说:“人只有献身社会，才能找出那短暂而有风险的生命的意义。”这句话表明( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生价值的实现必须有良好的社会环境"
+      },
+      {
+        "label": "B",
+        "text": "人生价值的实现需要发挥主观能动性"
+      },
+      {
+        "label": "C",
+        "text": "要实现社会价值必须实现自我价值"
+      },
+      {
+        "label": "D",
+        "text": "人的自我价值和社会价值是统一的"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 14,
+    "type": "single",
+    "text": "人生态度与人生目的、人生价值的关系是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生态度与人生目的、人生价值无关"
+      },
+      {
+        "label": "B",
+        "text": "人生态度既受人生目的、人生价值的决定，又影响人生目的、人生价值的实现"
+      },
+      {
+        "label": "C",
+        "text": "人生态度决定人生价值"
+      },
+      {
+        "label": "D",
+        "text": "人生态度决定人生目的"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 15,
+    "type": "single",
+    "text": "马克思说过,真正现实人的存在,就是他为别人的存在和别人为他的存在。这说明( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人的价值就是人自身的存在"
+      },
+      {
+        "label": "B",
+        "text": "人可以有受限制地创造出自己的价值"
+      },
+      {
+        "label": "C",
+        "text": "人生价值的本质是社会对个人的尊重和满足"
+      },
+      {
+        "label": "D",
+        "text": "人与自身的任何关系，只有通过人同其他人的关系才能得到实现和表现"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 16,
+    "type": "single",
+    "text": "“个人的抱负不可能孤立地实现，只有把它同时代和人民的要求紧密结合起来，用自己的知识和本领为祖国、为人民服务，才能使自身价值得到充分实现。如果脱离时代、脱离人民，必将一事无成。”这段话的意思是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不实现个人抱负,就不会创造社会价值"
+      },
+      {
+        "label": "B",
+        "text": "实现自我价值是因,创造社会价值是果"
+      },
+      {
+        "label": "C",
+        "text": "社会价值的创造过程与自我价值的实现过程是不相关的"
+      },
+      {
+        "label": "D",
+        "text": "人生的自我价值必须与社会价值相结合，并通过社会价值表现出来"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 17,
+    "type": "single",
+    "text": "( )是生产资料私有制的产物，是资产阶级人生观的核心。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实用主义"
+      },
+      {
+        "label": "B",
+        "text": "功利主义"
+      },
+      {
+        "label": "C",
+        "text": "拜金主义"
+      },
+      {
+        "label": "D",
+        "text": "个人主义"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 18,
+    "type": "single",
+    "text": "俗话说:“三百六十行，行行出状元”。这句话主要说明( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生的价值终究要通过自己所从事的事业展现出来"
+      },
+      {
+        "label": "B",
+        "text": "人的创造力的形成和培养需要好的社会条件"
+      },
+      {
+        "label": "C",
+        "text": "要正确对待学习和工作中的成功和失败"
+      },
+      {
+        "label": "D",
+        "text": "要正确处理个人活动和社会发展的关系"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 19,
+    "type": "single",
+    "text": "美国兰德公司曾跟踪500家世界大公司，发现它们有一个共同的特点，即始终坚持四种价值观:人的价值高于物的价值，共同价值高于个人价值，社会价值高于利润价值，用户价值高于生产价值。这四种价值观都属于正确的价值观。判断一种价值观是否正确的标准，是看它是否( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "反映了社会存在"
+      },
+      {
+        "label": "B",
+        "text": "反映了事物发展的客观联系"
+      },
+      {
+        "label": "C",
+        "text": "能促进经济的发展"
+      },
+      {
+        "label": "D",
+        "text": "符合事物发展规律和人类根本利益"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 20,
+    "type": "single",
+    "text": "进入21世纪，科技问题将越来越突出。核心问题是科学技术进步应服务于全人类、服务于世界和平、发展与进步的崇高事业，而不能危害人类自身。这就要求广大科技工作者( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "要从实际出发，最大限度追求创新"
+      },
+      {
+        "label": "B",
+        "text": "要注意培养科学思维方法"
+      },
+      {
+        "label": "C",
+        "text": "要树立和坚持符合人类根本利益的价值观"
+      },
+      {
+        "label": "D",
+        "text": "要坚持理论与实践的有机统一"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 21,
+    "type": "single",
+    "text": "大学生要学会对自己负责，对亲人负责,对周围的人和更多的人负责，进而对民族、国家、社会负责，做一个有价值、负责任的人。这里说的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生当务实"
+      },
+      {
+        "label": "B",
+        "text": "人生须认真"
+      },
+      {
+        "label": "C",
+        "text": "人生应乐观"
+      },
+      {
+        "label": "D",
+        "text": "人生要进取"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 22,
+    "type": "single",
+    "text": "( )作为我们立党立国的根本指导思想，是近代以来中国历史发展的必然结果，是中国人民长期探索的历史选择。",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义"
+      },
+      {
+        "label": "B",
+        "text": "建设社会主义"
+      },
+      {
+        "label": "C",
+        "text": "发展民主主义"
+      },
+      {
+        "label": "D",
+        "text": "摆脱贫穷落后"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 23,
+    "type": "single",
+    "text": "在追求理想的过程中，要处理好“应然”和“实然”的关系，我们需要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确认识理想与现实的关系"
+      },
+      {
+        "label": "B",
+        "text": "确立正确的理想和信念"
+      },
+      {
+        "label": "C",
+        "text": "正确对待实现理想过程中的顺境与逆境"
+      },
+      {
+        "label": "D",
+        "text": "认清实现理想的长期性和复杂性"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 24,
+    "type": "single",
+    "text": "“樱桃好吃树难栽，不下功夫花不开。”理想是美好的，但美好的理想不会自动实现。把理想转化为现实的根本途径是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "积极投身社会实践"
+      },
+      {
+        "label": "B",
+        "text": "认真学习科学理论"
+      },
+      {
+        "label": "C",
+        "text": "大胆畅想美好未来"
+      },
+      {
+        "label": "D",
+        "text": "逐步确立坚定信念"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 25,
+    "type": "single",
+    "text": "在科技十分落后的古代，人们梦想过许多东西，如千里眼、顺风耳、飞毯、神枪之类，但像现代生活中普及的电话、电视、电脑等，是那时的人们连想都想不到的。这说明，理想具有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "共同性"
+      },
+      {
+        "label": "B",
+        "text": "时代性"
+      },
+      {
+        "label": "C",
+        "text": "阶级性"
+      },
+      {
+        "label": "D",
+        "text": "思想性"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 26,
+    "type": "single",
+    "text": "马克思主义只有同中国具体实际相结合、同( )相结合，才能焕发出强大的生命力、创造力和感召力。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国历史发展"
+      },
+      {
+        "label": "B",
+        "text": "人类历史发展"
+      },
+      {
+        "label": "C",
+        "text": "世界先进文化"
+      },
+      {
+        "label": "D",
+        "text": "中华优秀传统文化"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 27,
+    "type": "single",
+    "text": "在当代中国，坚持( )，就是真正坚持科学社会主义。",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义"
+      },
+      {
+        "label": "B",
+        "text": "列宁主义"
+      },
+      {
+        "label": "C",
+        "text": "共产主义"
+      },
+      {
+        "label": "D",
+        "text": "中国特色社会主义"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 28,
+    "type": "single",
+    "text": "( )是崇高的社会理想，是关于无产阶级解放的学说，同时也是一种现实运动。",
+    "options": [
+      {
+        "label": "A",
+        "text": "共产主义"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义"
+      },
+      {
+        "label": "C",
+        "text": "中国特色社会主义"
+      },
+      {
+        "label": "D",
+        "text": "科学社会主义"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 29,
+    "type": "single",
+    "text": "现阶段，我国各族人民的共同理想是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现小康社会"
+      },
+      {
+        "label": "B",
+        "text": "反对霸权主义，维护世界和平"
+      },
+      {
+        "label": "C",
+        "text": "民族独立，当家作主求解放"
+      },
+      {
+        "label": "D",
+        "text": "坚持和发展中国特色社会主义，实现中华民族伟大复兴"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 30,
+    "type": "single",
+    "text": "在人的生命历程中，理想和信念是如影随形，相互依存，表现在( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "理想是实现信念的重要保障"
+      },
+      {
+        "label": "B",
+        "text": "信念是理想的根据和前提"
+      },
+      {
+        "label": "C",
+        "text": "理想是信念的根据和前提，信念是实现理想的重要保障"
+      },
+      {
+        "label": "D",
+        "text": "有时理想和信念可以独立存在"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 31,
+    "type": "single",
+    "text": "在人生的道路上，只有理想信念坚定的人，才能看到未来的希望和曙光，永不迷失前进的方向。这体现了理想信念在人生中( )的作用。",
+    "options": [
+      {
+        "label": "A",
+        "text": "昭示奋斗目标"
+      },
+      {
+        "label": "B",
+        "text": "思想武器"
+      },
+      {
+        "label": "C",
+        "text": "提供前进动力"
+      },
+      {
+        "label": "D",
+        "text": "提高精神境界"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 32,
+    "type": "single",
+    "text": "信念是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "认知、情感和意志的有机统一体"
+      },
+      {
+        "label": "B",
+        "text": "一种单纯的知识或想法"
+      },
+      {
+        "label": "C",
+        "text": "强调的是认识的正确性"
+      },
+      {
+        "label": "D",
+        "text": "惟一的，不是多种多样的"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 33,
+    "type": "single",
+    "text": "信仰是信念最集中、最高的表现形式，信仰有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学的与人文的"
+      },
+      {
+        "label": "B",
+        "text": "理性的与情感的"
+      },
+      {
+        "label": "C",
+        "text": "科学的与非科学的"
+      },
+      {
+        "label": "D",
+        "text": "宗教的与哲学的"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 34,
+    "type": "single",
+    "text": "调节个人与祖国之间关系的道德要求、政治原则和法律规范是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "爱国主义"
+      },
+      {
+        "label": "B",
+        "text": "社会主义核心价值观"
+      },
+      {
+        "label": "C",
+        "text": "锤炼个人品德"
+      },
+      {
+        "label": "D",
+        "text": "正确的人生观"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 35,
+    "type": "single",
+    "text": "对( )反映的是对整个民族利益共同体的自觉认同。",
+    "options": [
+      {
+        "label": "A",
+        "text": "祖国的忠诚与热爱"
+      },
+      {
+        "label": "B",
+        "text": "自己国家的热爱"
+      },
+      {
+        "label": "C",
+        "text": "骨肉同胞的爱"
+      },
+      {
+        "label": "D",
+        "text": "大好河山的爱"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 36,
+    "type": "single",
+    "text": "在经济全球化的背景下，( )仍然是民族存在的最高组织形式，是国际社会活动中的独立主体。",
+    "options": [
+      {
+        "label": "A",
+        "text": "政党"
+      },
+      {
+        "label": "B",
+        "text": "人民团体"
+      },
+      {
+        "label": "C",
+        "text": "国家"
+      },
+      {
+        "label": "D",
+        "text": "政府"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 37,
+    "type": "single",
+    "text": "必须把创新作为引领发展的第一动力，把( )作为支撑发展的第一资源，把创新摆在国家发展全局的核心位置。",
+    "options": [
+      {
+        "label": "A",
+        "text": "改革"
+      },
+      {
+        "label": "B",
+        "text": "经济发展"
+      },
+      {
+        "label": "C",
+        "text": "人才"
+      },
+      {
+        "label": "D",
+        "text": "制度建设"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 38,
+    "type": "single",
+    "text": "中国特色社会主义进入新时代，( )是当代中国爱国主义的鲜明主题。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现中华民族伟大复兴的中国梦"
+      },
+      {
+        "label": "B",
+        "text": "爱祖国的大好河山"
+      },
+      {
+        "label": "C",
+        "text": "爱自己的骨肉同胞"
+      },
+      {
+        "label": "D",
+        "text": "爱祖国的灿烂文化"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 39,
+    "type": "single",
+    "text": "如果把科技创新比作我国发展的新引擎，那么( )就是点燃这个新引擎必不可少的点火器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "发展"
+      },
+      {
+        "label": "B",
+        "text": "开放"
+      },
+      {
+        "label": "C",
+        "text": "共享"
+      },
+      {
+        "label": "D",
+        "text": "改革"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 40,
+    "type": "single",
+    "text": "当代中国最突出、最鲜明的特点是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族精神"
+      },
+      {
+        "label": "B",
+        "text": "共同繁荣"
+      },
+      {
+        "label": "C",
+        "text": "改革创新"
+      },
+      {
+        "label": "D",
+        "text": "时代精神"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 41,
+    "type": "single",
+    "text": "民族生生不息的丰厚滋养是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史文化"
+      },
+      {
+        "label": "B",
+        "text": "团结奋斗"
+      },
+      {
+        "label": "C",
+        "text": "改革创新"
+      },
+      {
+        "label": "D",
+        "text": "时代精神"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 42,
+    "type": "single",
+    "text": "人类社会发展的必然趋势是( )，但不等于全球政治、文化一体化。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一体化"
+      },
+      {
+        "label": "B",
+        "text": "共存理念"
+      },
+      {
+        "label": "C",
+        "text": "面向世界"
+      },
+      {
+        "label": "D",
+        "text": "经济全球化"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 43,
+    "type": "single",
+    "text": "( )是指一个国家不受内部和外部的威胁、破坏而保持稳定有序的状态。",
+    "options": [
+      {
+        "label": "A",
+        "text": "繁荣富强"
+      },
+      {
+        "label": "B",
+        "text": "改革开放"
+      },
+      {
+        "label": "C",
+        "text": "国家安全"
+      },
+      {
+        "label": "D",
+        "text": "民族团结"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 44,
+    "type": "single",
+    "text": "( )是一个国家和民族在新的历史条件下形成和发展的，体现民族特质并顺应时代潮流的思想观念、价值取向、精神风貌和社会风尚的总和。",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济发展"
+      },
+      {
+        "label": "B",
+        "text": "国家安全"
+      },
+      {
+        "label": "C",
+        "text": "民族精神"
+      },
+      {
+        "label": "D",
+        "text": "时代精神"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 45,
+    "type": "single",
+    "text": "在参与经济全球化的过程中，必须坚定地捍卫自己国家的利益，这就更需要( )的支撑。",
+    "options": [
+      {
+        "label": "A",
+        "text": "爱国主义"
+      },
+      {
+        "label": "B",
+        "text": "时代精神"
+      },
+      {
+        "label": "C",
+        "text": "历史文化"
+      },
+      {
+        "label": "D",
+        "text": "正确的人生观"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 46,
+    "type": "single",
+    "text": "国际竞争的新优势越来越集中体现在( )能力上。",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济发展"
+      },
+      {
+        "label": "B",
+        "text": "创新"
+      },
+      {
+        "label": "C",
+        "text": "资源开发"
+      },
+      {
+        "label": "D",
+        "text": "生态保护"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 47,
+    "type": "single",
+    "text": "盘古开天、女娲补天、伏羲画卦、神农尝草、夸父追日、精卫填海、愚公移山等我国古代神话深刻反映了中国精神内涵中的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "伟大创造精神"
+      },
+      {
+        "label": "B",
+        "text": "伟大奋斗精神"
+      },
+      {
+        "label": "C",
+        "text": "伟大团结精神"
+      },
+      {
+        "label": "D",
+        "text": "伟大梦想精神"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 48,
+    "type": "single",
+    "text": "主权、财富、民族发展和进步的基本载体是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "祖国的大好河山"
+      },
+      {
+        "label": "B",
+        "text": "自己的骨肉同袍"
+      },
+      {
+        "label": "C",
+        "text": "祖国的灿烂文化"
+      },
+      {
+        "label": "D",
+        "text": "国家"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 49,
+    "type": "single",
+    "text": "坚定不移贯彻( )方针，要把维护中央对香港、澳门特别行政区全面管制权和保障特别行政区高度自治权有机结合起来。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个中国"
+      },
+      {
+        "label": "B",
+        "text": "共同繁荣"
+      },
+      {
+        "label": "C",
+        "text": "一国两制"
+      },
+      {
+        "label": "D",
+        "text": "和平统一"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 50,
+    "type": "single",
+    "text": "强大的( )是国家生存与发展的安全保障。",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化"
+      },
+      {
+        "label": "B",
+        "text": "国防"
+      },
+      {
+        "label": "C",
+        "text": "经济基础"
+      },
+      {
+        "label": "D",
+        "text": "社会保障"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 51,
+    "type": "single",
+    "text": "( )承载着一个民族、一个国家的精神追求，体现着一个社会评判是非曲直的价值标准。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生观"
+      },
+      {
+        "label": "B",
+        "text": "法治素质"
+      },
+      {
+        "label": "C",
+        "text": "核心价值观"
+      },
+      {
+        "label": "D",
+        "text": "思想道德素质"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 52,
+    "type": "single",
+    "text": "党的( )提出，要倡导富强、民主、文明、和谐，倡导自由、平等、公正、法治，倡导爱国、敬业、诚信、友善，积极培育和践行社会主义核心价值观。",
+    "options": [
+      {
+        "label": "A",
+        "text": "十七大"
+      },
+      {
+        "label": "B",
+        "text": "十八大"
+      },
+      {
+        "label": "C",
+        "text": "十九大"
+      },
+      {
+        "label": "D",
+        "text": "二十大"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 53,
+    "type": "single",
+    "text": "( )十三届全国人大一次会议通过宪法修正案，把国家倡导社会主义核心价值观正式写入宪法。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2018年3月"
+      },
+      {
+        "label": "B",
+        "text": "2016年12月"
+      },
+      {
+        "label": "C",
+        "text": "2018年5月"
+      },
+      {
+        "label": "D",
+        "text": "2016年3月"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 54,
+    "type": "single",
+    "text": "( )是社会主义核心价值体系的精神内核。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义核心价值观"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义指导思想"
+      },
+      {
+        "label": "C",
+        "text": "中国特色社会主义共同理想"
+      },
+      {
+        "label": "D",
+        "text": "社会主义荣辱观"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 55,
+    "type": "single",
+    "text": "( )是人类社会进步的标尺，是社会主义制度的本质要求。",
+    "options": [
+      {
+        "label": "A",
+        "text": "自由"
+      },
+      {
+        "label": "B",
+        "text": "公正"
+      },
+      {
+        "label": "C",
+        "text": "平等"
+      },
+      {
+        "label": "D",
+        "text": "敬业"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 56,
+    "type": "single",
+    "text": "( )是人类政治文明的重要成果，是现代社会的主要特征。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法治"
+      },
+      {
+        "label": "B",
+        "text": "平等"
+      },
+      {
+        "label": "C",
+        "text": "和谐"
+      },
+      {
+        "label": "D",
+        "text": "诚信"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 57,
+    "type": "single",
+    "text": "( )是坚持和发展中国特色社会主义的价值遵循。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中华优秀传统文化"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义"
+      },
+      {
+        "label": "C",
+        "text": "中国特色社会主义理论体系"
+      },
+      {
+        "label": "D",
+        "text": "社会主义核心价值观"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 58,
+    "type": "single",
+    "text": "习近平指出:“一个民族、一个国家的核心价值观必须同这个民族、这个国家的历史文化相契合，同这个民族、这个国家的人民正在进行的奋斗相结合，同这个民族、这个国家需要解决的时代问题相适应。”社会主义核心价值观的实践根据是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国特色社会主义建设"
+      },
+      {
+        "label": "B",
+        "text": "新民主主义革命"
+      },
+      {
+        "label": "C",
+        "text": "社会主义革命和建设"
+      },
+      {
+        "label": "D",
+        "text": "改革创新"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 59,
+    "type": "single",
+    "text": "《共产党宣言》庄严指出:“过去的一切运动都是少数人的，或者为少数人谋利益的运动。无产阶级的运动是绝大多数人的，为绝大多数人谋利益的独立的运动。”这句话体现社会主义核心价值观的( )。(新增)",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民性"
+      },
+      {
+        "label": "B",
+        "text": "先进性"
+      },
+      {
+        "label": "C",
+        "text": "真实性"
+      },
+      {
+        "label": "D",
+        "text": "整体性"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 60,
+    "type": "single",
+    "text": "文化软实力的竞争，本质上是不同文化所代表的( )的竞争。",
+    "options": [
+      {
+        "label": "A",
+        "text": "核心价值观"
+      },
+      {
+        "label": "B",
+        "text": "优秀人才"
+      },
+      {
+        "label": "C",
+        "text": "综合国力"
+      },
+      {
+        "label": "D",
+        "text": "先进技术"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 61,
+    "type": "single",
+    "text": "( )是涵养社会主义核心价值观的重要源泉，是中华民族的精神命脉。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中华民族的凝聚力"
+      },
+      {
+        "label": "B",
+        "text": "人类社会历史发展"
+      },
+      {
+        "label": "C",
+        "text": "改革开放的伟大实践"
+      },
+      {
+        "label": "D",
+        "text": "中华优秀传统文化"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 62,
+    "type": "single",
+    "text": "( )是中华文明的核心价值理念。",
+    "options": [
+      {
+        "label": "A",
+        "text": "和谐"
+      },
+      {
+        "label": "B",
+        "text": "自由"
+      },
+      {
+        "label": "C",
+        "text": "民主"
+      },
+      {
+        "label": "D",
+        "text": "友善"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 63,
+    "type": "single",
+    "text": "道德起源的首要前提是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "劳动"
+      },
+      {
+        "label": "B",
+        "text": "实践"
+      },
+      {
+        "label": "C",
+        "text": "自我意识"
+      },
+      {
+        "label": "D",
+        "text": "社会关系"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 64,
+    "type": "single",
+    "text": "道德能反映社会关系特别是反映社会经济关系，这说明道德具有( )功能。",
+    "options": [
+      {
+        "label": "A",
+        "text": "规范功能"
+      },
+      {
+        "label": "B",
+        "text": "认识功能"
+      },
+      {
+        "label": "C",
+        "text": "调节功能"
+      },
+      {
+        "label": "D",
+        "text": "激励功能"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 65,
+    "type": "single",
+    "text": "道德的产生、发展和变化，归根结底根源于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会政治关系"
+      },
+      {
+        "label": "B",
+        "text": "社会文化关系"
+      },
+      {
+        "label": "C",
+        "text": "社会经济关系"
+      },
+      {
+        "label": "D",
+        "text": "社会道德关系"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 66,
+    "type": "single",
+    "text": "道德产生的主观条件是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人的意识信念"
+      },
+      {
+        "label": "B",
+        "text": "人的自我意识"
+      },
+      {
+        "label": "C",
+        "text": "人的认知水平"
+      },
+      {
+        "label": "D",
+        "text": "社会关系"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 67,
+    "type": "single",
+    "text": "中国革命道德萌芽于( )前后，发端于中国共产党成立以后蓬勃发展的伟大工人运动和农民运动，经过土地革命战争、抗日战争、解放战争以及社会主义革命、建设、改革的长期发展，逐渐形成并不断发扬光大。",
+    "options": [
+      {
+        "label": "A",
+        "text": "义和团运动"
+      },
+      {
+        "label": "B",
+        "text": "太平天国运动"
+      },
+      {
+        "label": "C",
+        "text": "五四运动"
+      },
+      {
+        "label": "D",
+        "text": "一二九运动"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 68,
+    "type": "single",
+    "text": "人类道德发展的历史过程与( )的发展进程大体一致，这是道德发展的基本规律。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会生产力"
+      },
+      {
+        "label": "B",
+        "text": "社会基本形态"
+      },
+      {
+        "label": "C",
+        "text": "社会生产关系"
+      },
+      {
+        "label": "D",
+        "text": "社会生产方式"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 69,
+    "type": "single",
+    "text": "夏明翰写下“砍头不要紧，只要主义真。杀了夏明翰，还有后来人”的豪言壮语，方志敏发出“敌人只能砍下我们的头颅，决不能动摇我们的信仰”的坚定誓言，体现了中国革命道德( )的主要内容。",
+    "options": [
+      {
+        "label": "A",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "B",
+        "text": "始终把革命利益放在首位"
+      },
+      {
+        "label": "C",
+        "text": "为实现社会主义和共产主义的理想信念而奋斗"
+      },
+      {
+        "label": "D",
+        "text": "树立社会新风，建立新型人际关系"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 70,
+    "type": "single",
+    "text": "( )是社会主义道德建设的源头活水。",
+    "options": [
+      {
+        "label": "A",
+        "text": "传统文化"
+      },
+      {
+        "label": "B",
+        "text": "传统道德"
+      },
+      {
+        "label": "C",
+        "text": "中华传统美德"
+      },
+      {
+        "label": "D",
+        "text": "传统习俗"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 71,
+    "type": "single",
+    "text": "道德赖以产生的客观条件是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人际交往"
+      },
+      {
+        "label": "B",
+        "text": "利益关系"
+      },
+      {
+        "label": "C",
+        "text": "社会实践"
+      },
+      {
+        "label": "D",
+        "text": "社会关系"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 72,
+    "type": "single",
+    "text": "坚持( )，是革命道德的灵魂。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义和共产主义理想信念"
+      },
+      {
+        "label": "B",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "C",
+        "text": "树立社会新风，建立新型人际关系"
+      },
+      {
+        "label": "D",
+        "text": "修身自律，保持节操"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 73,
+    "type": "single",
+    "text": "贯穿中国革命道德始终的一根红线是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "B",
+        "text": "修身自律，保持节操"
+      },
+      {
+        "label": "C",
+        "text": "始终把革命利益放在首位"
+      },
+      {
+        "label": "D",
+        "text": "树立社会新风、建立新型人际关系"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 74,
+    "type": "single",
+    "text": "积善之家，必有余庆;积不善之家，必有余殃。主要指( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "家风"
+      },
+      {
+        "label": "B",
+        "text": "家教"
+      },
+      {
+        "label": "C",
+        "text": "家庭"
+      },
+      {
+        "label": "D",
+        "text": "邻里关系"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 75,
+    "type": "single",
+    "text": "道德的( )是指通过道德通过评价等方式指导和纠正人们的行为和实践活动，协调社会关系和人际关系的功效与能力。",
+    "options": [
+      {
+        "label": "A",
+        "text": "认识功能"
+      },
+      {
+        "label": "B",
+        "text": "规范功能"
+      },
+      {
+        "label": "C",
+        "text": "调节功能"
+      },
+      {
+        "label": "D",
+        "text": "激励功能"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 76,
+    "type": "single",
+    "text": "中华传统美德主张在物质生活基本满足的情况下应追求崇高的精神境界，把( )的实现看作是人生诸种需要中最高层次的需要。",
+    "options": [
+      {
+        "label": "A",
+        "text": "道德理想"
+      },
+      {
+        "label": "B",
+        "text": "生活理想"
+      },
+      {
+        "label": "C",
+        "text": "职业理想"
+      },
+      {
+        "label": "D",
+        "text": "个人理想"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 77,
+    "type": "single",
+    "text": "由一定规范维系的人们公共生活的一种有序化状态属于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "网络秩序"
+      },
+      {
+        "label": "B",
+        "text": "公共秩序"
+      },
+      {
+        "label": "C",
+        "text": "工作秩序"
+      },
+      {
+        "label": "D",
+        "text": "交通秩序"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 78,
+    "type": "single",
+    "text": "下列内容不属于网络生活中的道德要求的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确使用网络工具"
+      },
+      {
+        "label": "B",
+        "text": "营造良好网络道德环境"
+      },
+      {
+        "label": "C",
+        "text": "实名制登记上网"
+      },
+      {
+        "label": "D",
+        "text": "加强网络文明自律"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 79,
+    "type": "single",
+    "text": "道德属于上层建筑的范畴，是一种( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "心理现象"
+      },
+      {
+        "label": "B",
+        "text": "特殊的社会意识形态"
+      },
+      {
+        "label": "C",
+        "text": "经济现象"
+      },
+      {
+        "label": "D",
+        "text": "政治现象"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 80,
+    "type": "single",
+    "text": "“国而忘家，公而忘私”反映了中华传统美德中的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "重视整体利益，强调责任奉献"
+      },
+      {
+        "label": "B",
+        "text": "推崇仁爱原则，注重以和为贵"
+      },
+      {
+        "label": "C",
+        "text": "注重人伦关系，重视道德义务"
+      },
+      {
+        "label": "D",
+        "text": "追求精神境界，向往理想人格"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 81,
+    "type": "single",
+    "text": "人类道德的发展是一个( )的历史过程。",
+    "options": [
+      {
+        "label": "A",
+        "text": "快速上升"
+      },
+      {
+        "label": "B",
+        "text": "停滞不前"
+      },
+      {
+        "label": "C",
+        "text": "直线上升"
+      },
+      {
+        "label": "D",
+        "text": "曲折上升"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 82,
+    "type": "single",
+    "text": "社会主义道德的核心是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "集体主义"
+      },
+      {
+        "label": "B",
+        "text": "为人民服务"
+      },
+      {
+        "label": "C",
+        "text": "共产主义"
+      },
+      {
+        "label": "D",
+        "text": "爱国主义"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 83,
+    "type": "single",
+    "text": "孔子强调“己欲立而立人，己欲达而达人”，墨子则提出“兼相爱，交相利”，体现的是中华传统美德中( )的基本精神。",
+    "options": [
+      {
+        "label": "A",
+        "text": "重视整体利益，强调责任奉献"
+      },
+      {
+        "label": "B",
+        "text": "推崇仁爱原则，注重以和为贵"
+      },
+      {
+        "label": "C",
+        "text": "注重人伦关系，重视道德义务"
+      },
+      {
+        "label": "D",
+        "text": "追求精神境界，向往理想人格"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 84,
+    "type": "single",
+    "text": "( )是指道德的认识、规范、调节、激励、导向、教育等功能的发挥和实现所产生的社会影响及实际效果。",
+    "options": [
+      {
+        "label": "A",
+        "text": "道德的作用"
+      },
+      {
+        "label": "B",
+        "text": "道德的功能"
+      },
+      {
+        "label": "C",
+        "text": "道德的本质"
+      },
+      {
+        "label": "D",
+        "text": "道德的起源"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 85,
+    "type": "single",
+    "text": "( )是历史上不同时代人们的行为方式、风俗习惯、价值观念和文化心理的集中体现，是对道德实践经验的提炼总结。",
+    "options": [
+      {
+        "label": "A",
+        "text": "传统文化"
+      },
+      {
+        "label": "B",
+        "text": "传统道德"
+      },
+      {
+        "label": "C",
+        "text": "原始社会道德"
+      },
+      {
+        "label": "D",
+        "text": "封建社会道德"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 86,
+    "type": "single",
+    "text": "《尚书》中有“五教”的思想，战国时期，孟子提出了影响深远的“五伦”说，这说明中华传统美德( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "追求精神境界，向往理想人格"
+      },
+      {
+        "label": "B",
+        "text": "推崇仁爱，崇尚和谐"
+      },
+      {
+        "label": "C",
+        "text": "注重人伦关系，重视道德义务"
+      },
+      {
+        "label": "D",
+        "text": "强调道德修养，注重道德践履"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 87,
+    "type": "single",
+    "text": "( )是一个从创制、实施到实现的过程。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律的制定"
+      },
+      {
+        "label": "B",
+        "text": "法律的遵守"
+      },
+      {
+        "label": "C",
+        "text": "法律的运行"
+      },
+      {
+        "label": "D",
+        "text": "法律的适用"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 88,
+    "type": "single",
+    "text": "( )是指国家司法机关及其公职人员依照法定职权和程序适用法律处理案件的专门活动。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律适用"
+      },
+      {
+        "label": "B",
+        "text": "法律执行"
+      },
+      {
+        "label": "C",
+        "text": "法律遵守"
+      },
+      {
+        "label": "D",
+        "text": "法律制定"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 89,
+    "type": "single",
+    "text": "( )是法律运行的起始性和关键性环节。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律适用"
+      },
+      {
+        "label": "B",
+        "text": "法律执行"
+      },
+      {
+        "label": "C",
+        "text": "法律遵守"
+      },
+      {
+        "label": "D",
+        "text": "法律制定"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 90,
+    "type": "single",
+    "text": "( )是指国家机关、社会组织和公民个人依照法律规定行使权力和权利以及履行职责和义务的活动。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律适用"
+      },
+      {
+        "label": "B",
+        "text": "法律执行"
+      },
+      {
+        "label": "C",
+        "text": "法律遵守"
+      },
+      {
+        "label": "D",
+        "text": "法律制定"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 91,
+    "type": "single",
+    "text": "( )是指国家机关及其公职人员，在国家和公共事务管理中依照法定职权和程序，贯彻和实施法律的活动。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律适用"
+      },
+      {
+        "label": "B",
+        "text": "法律执行"
+      },
+      {
+        "label": "C",
+        "text": "法律遵守"
+      },
+      {
+        "label": "D",
+        "text": "法律制定"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 92,
+    "type": "single",
+    "text": "( )是城乡基层群众在党的领导下，依法直接行使民主权利，管理基层公共事务和公益事业，实行自我管理、自我服务、自我教育、自我监督的一项基本政治制度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民代表大会制度"
+      },
+      {
+        "label": "B",
+        "text": "中国共产党领导的多党合作和政治协商制度"
+      },
+      {
+        "label": "C",
+        "text": "民族区域自治制度"
+      },
+      {
+        "label": "D",
+        "text": "基层群众自治制度"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 93,
+    "type": "single",
+    "text": "中华法系形成于()，到( )时期逐步成熟。",
+    "options": [
+      {
+        "label": "A",
+        "text": "秦朝 隋唐"
+      },
+      {
+        "label": "B",
+        "text": "隋唐 宋朝"
+      },
+      {
+        "label": "C",
+        "text": "宋朝 元朝"
+      },
+      {
+        "label": "D",
+        "text": "元朝 明朝"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 94,
+    "type": "single",
+    "text": "( )是公民参加国家政治、经济与社会生活的基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "财产权利"
+      },
+      {
+        "label": "B",
+        "text": "人身权利"
+      },
+      {
+        "label": "C",
+        "text": "文化教育权利"
+      },
+      {
+        "label": "D",
+        "text": "政治权利"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 95,
+    "type": "single",
+    "text": "法律是治国之重器，( )是法治的龙头环节。",
+    "options": [
+      {
+        "label": "A",
+        "text": "执法"
+      },
+      {
+        "label": "B",
+        "text": "立法"
+      },
+      {
+        "label": "C",
+        "text": "司法"
+      },
+      {
+        "label": "D",
+        "text": "守法"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 96,
+    "type": "single",
+    "text": "( )是法治的生命线，是司法活动最高的价值追求。",
+    "options": [
+      {
+        "label": "A",
+        "text": "诚信"
+      },
+      {
+        "label": "B",
+        "text": "公平"
+      },
+      {
+        "label": "C",
+        "text": "公正"
+      },
+      {
+        "label": "D",
+        "text": "科学"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 97,
+    "type": "single",
+    "text": "以下说法不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法治思维的内涵丰富"
+      },
+      {
+        "label": "B",
+        "text": "价值取向问题不属于法治思维内容"
+      },
+      {
+        "label": "C",
+        "text": "法治思维要求以法律作为判断是非的准绳"
+      },
+      {
+        "label": "D",
+        "text": "依法行使权利也是提高法治素养的途径"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 98,
+    "type": "single",
+    "text": "中国特色社会主义法治道路( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "要坚持从中国实际出发"
+      },
+      {
+        "label": "B",
+        "text": "要坚持德治作为治国理政的基本方式"
+      },
+      {
+        "label": "C",
+        "text": "要强化德治的国家强制力"
+      },
+      {
+        "label": "D",
+        "text": "只要违反法律就要追究刑事责任"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 99,
+    "type": "single",
+    "text": "以下观点错误的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国特色社会主义法治道路坚持人民主体地位"
+      },
+      {
+        "label": "B",
+        "text": "要坚持从中国实际出发搞法治，拒绝西方法治思想"
+      },
+      {
+        "label": "C",
+        "text": "道德对法治有支撑作用"
+      },
+      {
+        "label": "D",
+        "text": "违法必究符合法治观点"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 100,
+    "type": "single",
+    "text": "关于法律权利与法律义务平等表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律面前人人平等被确立为基本原则"
+      },
+      {
+        "label": "B",
+        "text": "法律权利与与法律义务的基本设定上平等"
+      },
+      {
+        "label": "C",
+        "text": "为维护自己的合法权利，“得理不饶人”属于权利保护的鼓励方向"
+      },
+      {
+        "label": "D",
+        "text": "权利与义务的实现要平等"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 101,
+    "type": "single",
+    "text": "关于法治与德治表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法治是治国理政的基本方式，德治是治国理政的重要方式"
+      },
+      {
+        "label": "B",
+        "text": "一定意义上，道德是内心的法律，法律是外在的道德，德治与法治相互促进"
+      },
+      {
+        "label": "C",
+        "text": "道德对法治具有一定的支撑作用"
+      },
+      {
+        "label": "D",
+        "text": "法律是底线的道德，要运用法治手段解决所有道德问题"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 102,
+    "type": "single",
+    "text": "法律是由一定社会的物质生活条件所决定，其中决定法律本质、内容和发展方向的根本因素是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人口的素质和密度"
+      },
+      {
+        "label": "B",
+        "text": "生产关系"
+      },
+      {
+        "label": "C",
+        "text": "物质资料的生产方式"
+      },
+      {
+        "label": "D",
+        "text": "地理环境"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 103,
+    "type": "single",
+    "text": "以下不属于封建制法律的基本特征是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "确立农民对封建地主的人身依附关系"
+      },
+      {
+        "label": "B",
+        "text": "实行封建等级制度"
+      },
+      {
+        "label": "C",
+        "text": "维护专制皇权"
+      },
+      {
+        "label": "D",
+        "text": "确认自由民之间的等级划分"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 104,
+    "type": "single",
+    "text": "我国社会主义法律体现了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的意志"
+      },
+      {
+        "label": "B",
+        "text": "党的主张和人民意志的统一"
+      },
+      {
+        "label": "C",
+        "text": "人民的意志"
+      },
+      {
+        "label": "D",
+        "text": "中央及地方各级立法机关的意志"
+      }
+    ],
+    "answer": "B",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 105,
+    "type": "single",
+    "text": "省、自治区、直辖市的人民代表大会及其常委会根据本行政区域的具体情况和实际需要，在不与宪法、法律和行政法规相抵触的前提下，可以制定( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "行政法规"
+      },
+      {
+        "label": "B",
+        "text": "部门法规"
+      },
+      {
+        "label": "C",
+        "text": "地方性法规"
+      },
+      {
+        "label": "D",
+        "text": "地方政府规章"
+      }
+    ],
+    "answer": "C",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 106,
+    "type": "single",
+    "text": "( )确认了党领导人民长期奋斗取得的辉煌成果，规定了人民民主专政国家政权的性质和根本制度，明确了国家未来建设发展的根本任务和总的目标。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会法"
+      },
+      {
+        "label": "B",
+        "text": "行政法"
+      },
+      {
+        "label": "C",
+        "text": "诉讼法"
+      },
+      {
+        "label": "D",
+        "text": "宪法"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 107,
+    "type": "single",
+    "text": "( )是我国的国体。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民民主专政"
+      },
+      {
+        "label": "B",
+        "text": "人民代表大会制度"
+      },
+      {
+        "label": "C",
+        "text": "生产资料的社会公有制"
+      },
+      {
+        "label": "D",
+        "text": "多党合作制"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 108,
+    "type": "single",
+    "text": "下列不属于我国宪法确立的基本政治制度是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一国两制"
+      },
+      {
+        "label": "B",
+        "text": "中国共产党领导的多党合作和政治协商制度"
+      },
+      {
+        "label": "C",
+        "text": "民族区域自治制度"
+      },
+      {
+        "label": "D",
+        "text": "基层群众自治制度"
+      }
+    ],
+    "answer": "A",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治单选",
+    "number": 109,
+    "type": "single",
+    "text": "我国现行宪法迄今为止最后一次修正案是在( )年，是十三届全国人大一次会议审议通过的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1993"
+      },
+      {
+        "label": "B",
+        "text": "1999"
+      },
+      {
+        "label": "C",
+        "text": "2000"
+      },
+      {
+        "label": "D",
+        "text": "2018"
+      }
+    ],
+    "answer": "D",
+    "source": "单选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 1,
+    "type": "multiple",
+    "text": "党的十九大提出了“培养担当民族复兴大任的时代新人”的战略要求。大学生应该( )，努力成为堪当民族复兴重任的时代新人，让青春在为祖国、为民族、为人民、为人类的不懈奋斗中绽放绚丽之花。",
+    "options": [
+      {
+        "label": "A",
+        "text": "立大志"
+      },
+      {
+        "label": "B",
+        "text": "明大德"
+      },
+      {
+        "label": "C",
+        "text": "成大才"
+      },
+      {
+        "label": "D",
+        "text": "担大任"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 2,
+    "type": "multiple",
+    "text": "( )是人应该具有的基本素质。",
+    "options": [
+      {
+        "label": "A",
+        "text": "身体素质"
+      },
+      {
+        "label": "B",
+        "text": "思想素质"
+      },
+      {
+        "label": "C",
+        "text": "思想道德素质"
+      },
+      {
+        "label": "D",
+        "text": "法治素养"
+      }
+    ],
+    "answer": "C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 3,
+    "type": "multiple",
+    "text": "新时代属于每一个人，每一个人都是新时代的( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "见证者"
+      },
+      {
+        "label": "B",
+        "text": "开创者"
+      },
+      {
+        "label": "C",
+        "text": "建设者"
+      },
+      {
+        "label": "D",
+        "text": "既得利益者"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 4,
+    "type": "multiple",
+    "text": "大学生需要对新时代有深入的了解和真切的感悟，这个新时代具体是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是承前启后、继往开来、在新的历史条件下继续夺取中国特色社会主义伟大胜利的时代"
+      },
+      {
+        "label": "B",
+        "text": "是决胜全面建成小康社会、进而全面建设社会主义现代化强国的时代"
+      },
+      {
+        "label": "C",
+        "text": "是全国各族人民团结奋斗、不断创造美好生活、逐步实现全体人民共同富裕的时代"
+      },
+      {
+        "label": "D",
+        "text": "是全体中华儿女勠力同心、奋力实现中华民族伟大复兴中国梦的时代"
+      },
+      {
+        "label": "E",
+        "text": "是我国日益走近世界舞台中央、不断为人类做出更大贡献的时代"
+      }
+    ],
+    "answer": "A,B,C,D,E",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 5,
+    "type": "multiple",
+    "text": "“思想道德与法治”课程的主要特点是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "思想性"
+      },
+      {
+        "label": "B",
+        "text": "政治性"
+      },
+      {
+        "label": "C",
+        "text": "科学性"
+      },
+      {
+        "label": "D",
+        "text": "理论性"
+      },
+      {
+        "label": "E",
+        "text": "实践性"
+      }
+    ],
+    "answer": "A,B,C,D,E",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 6,
+    "type": "multiple",
+    "text": "新时代意味着中国特色社会主义( )不断发展，拓展了发展中国家走向现代化的途径。",
+    "options": [
+      {
+        "label": "A",
+        "text": "道路"
+      },
+      {
+        "label": "B",
+        "text": "理论"
+      },
+      {
+        "label": "C",
+        "text": "制度"
+      },
+      {
+        "label": "D",
+        "text": "文化"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 7,
+    "type": "multiple",
+    "text": "以下关于思想道德和法律的关系表述正确的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律为思想道德提供制度保障"
+      },
+      {
+        "label": "B",
+        "text": "思想道德为法律提供思想指引和价值基础"
+      },
+      {
+        "label": "C",
+        "text": "思想道德和法律都是调节人们思想行为、协调人际关系、维护社会秩序的重要手段"
+      },
+      {
+        "label": "D",
+        "text": "坚持和发展中国特色社会主义，既要发挥思想道德的引领和教化作用，又要发挥法律的规范和强制作用"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 8,
+    "type": "multiple",
+    "text": "下列关于社会价值正确的说法是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会价值是社会和他人对于个体的意义"
+      },
+      {
+        "label": "B",
+        "text": "社会价值主要通过劳动、创造和贡献表现出来"
+      },
+      {
+        "label": "C",
+        "text": "社会价值是个体的人生对于社会和他人的意义"
+      },
+      {
+        "label": "D",
+        "text": "对社会贡献得越多,其人生价值就越大"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 9,
+    "type": "multiple",
+    "text": "大学生要科学认识实际生活中的各种问题，勇敢面对和正确处理各种人生矛盾，应做到( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "树立正确的得失观"
+      },
+      {
+        "label": "B",
+        "text": "树立正确的生死观"
+      },
+      {
+        "label": "C",
+        "text": "树立正确的荣辱观"
+      },
+      {
+        "label": "D",
+        "text": "树立正确的苦乐观"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 10,
+    "type": "multiple",
+    "text": "人生价值的评价方法是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持能力有大小与贡献须尽力相统一"
+      },
+      {
+        "label": "B",
+        "text": "坚持物质贡献与精神贡献相统一"
+      },
+      {
+        "label": "C",
+        "text": "坚持完善自身与贡献社会相统一"
+      },
+      {
+        "label": "D",
+        "text": "坚持理论学习和认真实践相统一"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 11,
+    "type": "multiple",
+    "text": "深圳青年歌手丛飞在8年时间内捐资上百万元资助很多贫困山区的失学儿童，而自己却身患癌症，负债17万元。有人这样评价他:“丛飞能够从帮助别人的过程中得到快乐。”丛飞的行为表明( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人的价值不包含个人的价值选择和目标设计等主观方面"
+      },
+      {
+        "label": "B",
+        "text": "人的价值的大小取决于对社会的贡献"
+      },
+      {
+        "label": "C",
+        "text": "人的价值不仅表现在物质方面，更表现在精神方面"
+      },
+      {
+        "label": "D",
+        "text": "社会价值的实现总是以个人价值的牺牲为代价"
+      }
+    ],
+    "answer": "B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 12,
+    "type": "multiple",
+    "text": "人们的实践活动从来不是随心所欲的，正确把握人生价值实现的条件至关重要。实现人生价值要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "从社会客观条件出发"
+      },
+      {
+        "label": "B",
+        "text": "从个体自身条件出发"
+      },
+      {
+        "label": "C",
+        "text": "不断增强实现人生价值的信心"
+      },
+      {
+        "label": "D",
+        "text": "不断增强实现人生价值的能力和本领"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 13,
+    "type": "multiple",
+    "text": "人生态度大致可分为积极进取的人生态度和消极无为的人生态度。大学生应当树立积极进取的人生态度。这是因为，积极进取的人生态度( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "容易使人好高骛远"
+      },
+      {
+        "label": "B",
+        "text": "有助于实现人生价值"
+      },
+      {
+        "label": "C",
+        "text": "有助于达到人生目的"
+      },
+      {
+        "label": "D",
+        "text": "能够调整人生道路的方向"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 14,
+    "type": "multiple",
+    "text": "由于受国内外各种错误思潮、腐朽观念等因素的影响，现实中还存在( )等种种错误观念和看法。这些错误人生观容易侵蚀大学生的心灵，不利于大学生健康成长。",
+    "options": [
+      {
+        "label": "A",
+        "text": "拜金主义"
+      },
+      {
+        "label": "B",
+        "text": "享乐主义"
+      },
+      {
+        "label": "C",
+        "text": "个人主义"
+      },
+      {
+        "label": "D",
+        "text": "极端个人主义"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 15,
+    "type": "multiple",
+    "text": "“苟利国家生死以，岂因祸福避趋之”。民族英雄林则徐的这句诗体现的人生价值观是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生的价值在于对社会的贡献"
+      },
+      {
+        "label": "B",
+        "text": "有价值的人生不应考虑个人利益"
+      },
+      {
+        "label": "C",
+        "text": "对社会的贡献大小决定了人生价值的高低"
+      },
+      {
+        "label": "D",
+        "text": "个人对社会的贡献以社会对个人的尊重为基础"
+      }
+    ],
+    "answer": "A,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 16,
+    "type": "multiple",
+    "text": "时代楷模廖俊波同志生前系福建省南平市委常委、副市长、武夷新区党工委书记。任职期间，他牢记党的嘱托，尽心尽责，带领当地干部群众扑下身子、苦干实干，对党忠诚、心系群众、忘我工作、无私奉献。在廖俊波因公去世出殡的当天，他家楼下，送别的人群将周围数十里的街道挤得水泄不通。人民群众对廖俊波的怀念告诉我们( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会价值是人生价值的最基本内容"
+      },
+      {
+        "label": "B",
+        "text": "社会价值的实现总是以个人价值的牺牲为代价"
+      },
+      {
+        "label": "C",
+        "text": "社会对于个人的价值评判主要是以个人对社会所做的贡献为标准"
+      },
+      {
+        "label": "D",
+        "text": "一个人对社会和他人所做的贡献越大，其在社会中获得的人生价值就越高"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 17,
+    "type": "multiple",
+    "text": "以下与“在艰苦中锻炼，是成才的必要条件”意义相一致的格言警句有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "宝剑锋从磨砺出，梅花香自苦寒来"
+      },
+      {
+        "label": "B",
+        "text": "人人都可成才，人才就在群众中"
+      },
+      {
+        "label": "C",
+        "text": "不经历风雨，怎能见彩虹"
+      },
+      {
+        "label": "D",
+        "text": "千淘万漉虽辛苦，吹尽狂沙始到金"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 18,
+    "type": "multiple",
+    "text": "《钢铁是怎样炼成的》中的主人公保尔的人生追求让人动容和尊敬，它反映了主人公“服务人民、奉献社会”的思想及其高尚的品质，代表了人类社会迄今最先进的人生追求。确立科学高尚的人生追求( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "能清楚地把握人的生命历程和奋斗目标，深刻理解人为了什么而活、应走什么样的人生之路等道理"
+      },
+      {
+        "label": "B",
+        "text": "能以正确的人生态度对待人生、解决实际生活中的各种问题"
+      },
+      {
+        "label": "C",
+        "text": "能以人民利益为重，始终对祖国和人民具有高度的责任感"
+      },
+      {
+        "label": "D",
+        "text": "能掌握正确的人生价值标准，能懂得人生的价值首先在于奉献"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 19,
+    "type": "multiple",
+    "text": "在理想与信念的关系上，下列哪些说法是正确的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "理想是信念的根据和前提"
+      },
+      {
+        "label": "B",
+        "text": "理想是信念，信念是理想"
+      },
+      {
+        "label": "C",
+        "text": "信念是理想实现的重要保障"
+      },
+      {
+        "label": "D",
+        "text": "理想与信念总是相互依存的"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 20,
+    "type": "multiple",
+    "text": "理想从内容上划分，包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "道德理想"
+      },
+      {
+        "label": "B",
+        "text": "职业理想"
+      },
+      {
+        "label": "C",
+        "text": "生活理想"
+      },
+      {
+        "label": "D",
+        "text": "政治理想"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 21,
+    "type": "multiple",
+    "text": "建设中国特色社会主义、实现中华民族伟大复兴，是现阶段我国各族人民的共同理想。这个共同理想( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "集中代表了我国工人、农民、知识分子和其他劳动者、建设者、爱国者的利益和愿望"
+      },
+      {
+        "label": "B",
+        "text": "把国家、民族和个人紧紧的联系在一起"
+      },
+      {
+        "label": "C",
+        "text": "把各个阶层、各个群体的共同愿望有机结合在一起，有着广泛的社会共识"
+      },
+      {
+        "label": "D",
+        "text": "具有令人信服的必然性、广泛性和包容性"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 22,
+    "type": "multiple",
+    "text": "现阶段我们之所以要坚定马克思主义信念，是因为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义是万能的精神良药"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义体现了科学性和革命性的统一"
+      },
+      {
+        "label": "C",
+        "text": "马克思主义具有鲜明的实践品格"
+      },
+      {
+        "label": "D",
+        "text": "马克思主义具有持久的生命力"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 23,
+    "type": "multiple",
+    "text": "现阶段，我国人民要实现有中国特色的社会主义共同理想，就要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚定对中国共产党的信任"
+      },
+      {
+        "label": "B",
+        "text": "坚定中国特色社会主义信念"
+      },
+      {
+        "label": "C",
+        "text": "坚定实现中华民族伟大复兴的信心"
+      },
+      {
+        "label": "D",
+        "text": "坚持走社会主义道路"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 24,
+    "type": "multiple",
+    "text": "关于个人理想与社会理想的关系，下列说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "个人理想以社会理想为指引"
+      },
+      {
+        "label": "B",
+        "text": "个人理想与社会理想相互联系、相互制约、相互影响"
+      },
+      {
+        "label": "C",
+        "text": "强调社会理想就要排斥和抹杀个人理想"
+      },
+      {
+        "label": "D",
+        "text": "社会理想是对个人理想的凝练与升华"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 25,
+    "type": "multiple",
+    "text": "邓小平说:“美好的前景如果没有切实的措施和工作去实现它，就有成为空话的危险。”这说明( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会实践是科学知识产生的源泉"
+      },
+      {
+        "label": "B",
+        "text": "社会实践是联系理想和现实的桥梁"
+      },
+      {
+        "label": "C",
+        "text": "有了理想并不意味着成功，更不意味着已经成功"
+      },
+      {
+        "label": "D",
+        "text": "把理想转变为现实要付出辛勤的劳动，要靠实实在在的实践"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 26,
+    "type": "multiple",
+    "text": "马克思主义是我们立党立国的根本指导思想，也是社会主义核心价值体系的灵魂。马克思主义作为一种信仰，其具体内涵包括以下哪些内容?( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯物主义的世界图景"
+      },
+      {
+        "label": "B",
+        "text": "共产主义的远大理想"
+      },
+      {
+        "label": "C",
+        "text": "自由而全面发展的人生追求"
+      },
+      {
+        "label": "D",
+        "text": "为人民服务的根本宗旨"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 27,
+    "type": "multiple",
+    "text": "个人理想是指处于一定历史条件和社会关系中的个体对于自己未来的物质生活、精神生活所产生的种种向往和追求，以下关于个人理想的表述正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "个人理想包括个人具体的社会政治理想、道德理想、职业理想和生活理想等"
+      },
+      {
+        "label": "B",
+        "text": "个人理想与社会理想有一定的区别，二者没有联系"
+      },
+      {
+        "label": "C",
+        "text": "个人理想的实现具有长期性、艰巨性和曲折性"
+      },
+      {
+        "label": "D",
+        "text": "个人理想的追求需要有执着的信念"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 28,
+    "type": "multiple",
+    "text": "理想是否合理、进步与科学的判断标准为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是否有益于社会发展"
+      },
+      {
+        "label": "B",
+        "text": "是否为多数人所认同"
+      },
+      {
+        "label": "C",
+        "text": "是否具有现实可能性"
+      },
+      {
+        "label": "D",
+        "text": "是否合乎历史发展规律"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 29,
+    "type": "multiple",
+    "text": "中国特色社会主义制度是当代中国发展进步的根本制度保障，是具有( )的先进制度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "强大自我完善能力"
+      },
+      {
+        "label": "B",
+        "text": "鲜明中国特色"
+      },
+      {
+        "label": "C",
+        "text": "明显制度优势"
+      },
+      {
+        "label": "D",
+        "text": "充满生机活力"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 30,
+    "type": "multiple",
+    "text": "墨子说“志不强者智不达”，诸葛亮说“志当存高远”。这里的“志”具有双重含义:( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对未来目标的向往"
+      },
+      {
+        "label": "B",
+        "text": "对社会的不懈追求"
+      },
+      {
+        "label": "C",
+        "text": "对真理的不断探索"
+      },
+      {
+        "label": "D",
+        "text": "实现奋斗目标的顽强意志"
+      }
+    ],
+    "answer": "A,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 31,
+    "type": "multiple",
+    "text": "改革开放以来我们取得一切成绩和进步的根本原因，归结起来就是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "开辟了中国特色社会主义道路"
+      },
+      {
+        "label": "B",
+        "text": "形成了中国特色社会主义理论体系"
+      },
+      {
+        "label": "C",
+        "text": "发展了中国特色社会主义文化"
+      },
+      {
+        "label": "D",
+        "text": "确立了中国特色社会主义制度"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 32,
+    "type": "multiple",
+    "text": "中国特色社会主义，是科学社会主义理论逻辑和中国社会发展历史逻辑的辩证统一，是( )的社会主义。",
+    "options": [
+      {
+        "label": "A",
+        "text": "根植于中国大地"
+      },
+      {
+        "label": "B",
+        "text": "反映中国人民意愿"
+      },
+      {
+        "label": "C",
+        "text": "适应中国和时代发展进步要求"
+      },
+      {
+        "label": "D",
+        "text": "符合世界历史发展规律"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 33,
+    "type": "multiple",
+    "text": "在现阶段，爱国主义主要表现为在中国共产党领导下，献身于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "建设新时代中国特色社会主义伟大事业"
+      },
+      {
+        "label": "B",
+        "text": "实现中华民族伟大复兴的中国梦的实践。"
+      },
+      {
+        "label": "C",
+        "text": "实现自己的人生目的"
+      },
+      {
+        "label": "D",
+        "text": "促进祖国统一大业"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 34,
+    "type": "multiple",
+    "text": "处理好民族问题、促进民族团结，是关系( )的大事。",
+    "options": [
+      {
+        "label": "A",
+        "text": "祖国统一和边疆巩固"
+      },
+      {
+        "label": "B",
+        "text": "民族团结和社会稳定"
+      },
+      {
+        "label": "C",
+        "text": "国家长治久安和中华民族繁荣昌盛"
+      },
+      {
+        "label": "D",
+        "text": "社会理想和个人理想"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 35,
+    "type": "multiple",
+    "text": "在经济全球化的条件下，爱国主义并没有也不会过时，因为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家仍然是民族存在的最高组织形式"
+      },
+      {
+        "label": "B",
+        "text": "国家是经济发展的实体"
+      },
+      {
+        "label": "C",
+        "text": "国家是国际社会活动中的独立主体"
+      },
+      {
+        "label": "D",
+        "text": "国家是联合国的成员"
+      }
+    ],
+    "answer": "A,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 36,
+    "type": "multiple",
+    "text": "爱国主义不是狭隘的民族主义，也不是大国沙文主义，要正确处理( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "热爱祖国与关爱世界的关系"
+      },
+      {
+        "label": "B",
+        "text": "爱社会主义与大胆吸收资本主义先进经验的关系"
+      },
+      {
+        "label": "C",
+        "text": "为祖国服务与尽国际义务的关系"
+      },
+      {
+        "label": "D",
+        "text": "维护世界和平与促进共同发展的关系"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 37,
+    "type": "multiple",
+    "text": "当代大学生，在把握经济全球化与爱国主义相互关系上，需要着重树立的观念是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济全球化过程中要始终抵制西方国家的文化"
+      },
+      {
+        "label": "B",
+        "text": "经济全球化过程中要始终维护国家的主权和尊严"
+      },
+      {
+        "label": "C",
+        "text": "人有地域和信仰的不同,但报效祖国之心不应有差别"
+      },
+      {
+        "label": "D",
+        "text": "科学没有国界,但科学家有祖国"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 38,
+    "type": "multiple",
+    "text": "民族精神是一个民族在长期共同生活和社会实践中形成的，为本民族大多数成员所认同的价值取向、思维方式、道德规范、精神气质的总和。它( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "集中体现了一个民族在一定的自然环境和社会历史条件下生存和发展的独特方式"
+      },
+      {
+        "label": "B",
+        "text": "反映了一个民族的心理特征、文化传统、精神风貌"
+      },
+      {
+        "label": "C",
+        "text": "是一个民族赖以生存和发展的精神支柱"
+      },
+      {
+        "label": "D",
+        "text": "具有差异性和阶级性"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 39,
+    "type": "multiple",
+    "text": "制度创新是其他一切创新的重要保障，制度建设具有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "根本性"
+      },
+      {
+        "label": "B",
+        "text": "全局性"
+      },
+      {
+        "label": "C",
+        "text": "长期性"
+      },
+      {
+        "label": "D",
+        "text": "稳定性"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 40,
+    "type": "multiple",
+    "text": "鲁迅曾说:“唯有民魂是值得宝贵的，唯有他发扬起来，中国才有真进步。”实现中国梦必须弘扬中国精神，中国精神是兴国强国之魂是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "激发创新创造的精神动力"
+      },
+      {
+        "label": "B",
+        "text": "凝聚中国力量的精神纽带"
+      },
+      {
+        "label": "C",
+        "text": "推进复兴伟业的精神支柱"
+      },
+      {
+        "label": "D",
+        "text": "政治文明建设的重要内容"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 41,
+    "type": "multiple",
+    "text": "确立总体安全观，必须( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "既重视外部安全，又重视内部安全"
+      },
+      {
+        "label": "B",
+        "text": "既重视国土安全，又重视国民安全"
+      },
+      {
+        "label": "C",
+        "text": "既重视传统安全，又重视非传统安全"
+      },
+      {
+        "label": "D",
+        "text": "既重视发展问题，又重视安全问题"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 42,
+    "type": "multiple",
+    "text": "面向世界，推动构建人类命运共同体，要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "有更加宽广的世界胸怀和全球视野"
+      },
+      {
+        "label": "B",
+        "text": "为维护人类共同利益、推动人类文明发展进步提供中国智慧"
+      },
+      {
+        "label": "C",
+        "text": "始终做世界和平的建设者"
+      },
+      {
+        "label": "D",
+        "text": "做全球发展的贡献者、国际秩序的维护者"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 43,
+    "type": "multiple",
+    "text": "中国精神是( )的统一。",
+    "options": [
+      {
+        "label": "A",
+        "text": "爱国主义精神"
+      },
+      {
+        "label": "B",
+        "text": "创造精神"
+      },
+      {
+        "label": "C",
+        "text": "民族精神"
+      },
+      {
+        "label": "D",
+        "text": "时代精神"
+      }
+    ],
+    "answer": "C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 44,
+    "type": "multiple",
+    "text": "中国共产党在领导中国人民进行革命的实践中形成了许多优良的革命传统和精神，以下属于这些革命传统和精神的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "井冈山精神"
+      },
+      {
+        "label": "B",
+        "text": "长征精神"
+      },
+      {
+        "label": "C",
+        "text": "延安精神"
+      },
+      {
+        "label": "D",
+        "text": "抗美援朝精神"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 45,
+    "type": "multiple",
+    "text": "新时代大学生要树立大历史观和正确党史观，准确把握党的历史发展的主题主线、主流本质，深刻领悟中国共产党为什么能、马克思主义为什么行、中国特色社会主义为什么好的历史逻辑、理论逻辑、实践逻辑，真正( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "理解历史"
+      },
+      {
+        "label": "B",
+        "text": "把握历史"
+      },
+      {
+        "label": "C",
+        "text": "增强历史自觉"
+      },
+      {
+        "label": "D",
+        "text": "增强历史自信"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 46,
+    "type": "multiple",
+    "text": "改革创新是新时代的迫切要求，表现在( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "创新决定未来,改革关乎国运"
+      },
+      {
+        "label": "B",
+        "text": "创新是推动人类社会发展的第一动力"
+      },
+      {
+        "label": "C",
+        "text": "创新能力是当今国际竞争新优势的集中体现"
+      },
+      {
+        "label": "D",
+        "text": "创新是赢得未来的必然要求"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 47,
+    "type": "multiple",
+    "text": "弘扬新时代爱国主义要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持以维护祖国统一和民族团结为着力点，维护全国各族人民大团结的政治局面，巩固和发展最广泛的爱国统一战线"
+      },
+      {
+        "label": "B",
+        "text": "筑牢国家统一、民族团结、社会稳定的铜墙铁壁"
+      },
+      {
+        "label": "C",
+        "text": "不断增强对伟大祖国、中华民族、中华文化、中国共产党、中国特色社会主义的认同"
+      },
+      {
+        "label": "D",
+        "text": "坚决维护国家主权、安全、发展利益，旗帜鲜明反对分裂国家的图谋、破坏民族团结的言行"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 48,
+    "type": "multiple",
+    "text": "作为民族精神的核心，爱国主义( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "体现了人们对自己祖国的深厚感情"
+      },
+      {
+        "label": "B",
+        "text": "揭示了个人对祖国的依存关系"
+      },
+      {
+        "label": "C",
+        "text": "是人们对自己家园以及民族和文化的归属感、认同感、尊严感与荣誉感的统一"
+      },
+      {
+        "label": "D",
+        "text": "是调节个人与祖国之间关系的道德要求、政治原则和法律规范"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 49,
+    "type": "multiple",
+    "text": "文化是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个国家、一个民族的灵魂"
+      },
+      {
+        "label": "B",
+        "text": "一个国家民族得以延续的精神基因"
+      },
+      {
+        "label": "C",
+        "text": "涵养民族心理、民族个性、民族精神的摇篮"
+      },
+      {
+        "label": "D",
+        "text": "民族凝聚力的重要基础"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 50,
+    "type": "multiple",
+    "text": "基于对精神生活重要性的认识，中国古人在义利观上主张( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "见利思义"
+      },
+      {
+        "label": "B",
+        "text": "以义制利"
+      },
+      {
+        "label": "C",
+        "text": "先义后利"
+      },
+      {
+        "label": "D",
+        "text": "见利忘义"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 51,
+    "type": "multiple",
+    "text": "价值观在人们的观念体系中并不是孤立的，它与世界观、人生观相辅相成、相互作用、相互促进，是辩证统一的关系，价值观的特性有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "反映特定的时代精神"
+      },
+      {
+        "label": "B",
+        "text": "体现鲜明的民族特色"
+      },
+      {
+        "label": "C",
+        "text": "蕴含特定的阶级立场"
+      },
+      {
+        "label": "D",
+        "text": "体现鲜明的国家特征"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 52,
+    "type": "multiple",
+    "text": "社会主义核心价值观具有超越以往一切社会核心价值观的先进性，是因为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "它集中体现了社会主义的本质属性"
+      },
+      {
+        "label": "B",
+        "text": "它扎根于中华优秀传统文化的土壤"
+      },
+      {
+        "label": "C",
+        "text": "它吸收借鉴了一切人类优秀文化的先进价值"
+      },
+      {
+        "label": "D",
+        "text": "是反映人类社会发展进步的价值理念"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 53,
+    "type": "multiple",
+    "text": "青年要做社会主义核心价值观的积极践行者。对于大学生而言，就是要切实做到( )，使社会主义核心价值观成为一言一行的基本遵循。",
+    "options": [
+      {
+        "label": "A",
+        "text": "勤学"
+      },
+      {
+        "label": "B",
+        "text": "修德"
+      },
+      {
+        "label": "C",
+        "text": "明辨"
+      },
+      {
+        "label": "D",
+        "text": "笃实"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 54,
+    "type": "multiple",
+    "text": "社会主义核心价值观以其( )站在人类道义制高点上，彰显出独特而强大的价值观优势。",
+    "options": [
+      {
+        "label": "A",
+        "text": "先进性"
+      },
+      {
+        "label": "B",
+        "text": "人民性"
+      },
+      {
+        "label": "C",
+        "text": "真实性"
+      },
+      {
+        "label": "D",
+        "text": "阶级性"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 55,
+    "type": "multiple",
+    "text": "在培育和弘扬社会主义核心价值观的过程中，要做到将其( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "落细"
+      },
+      {
+        "label": "B",
+        "text": "落小"
+      },
+      {
+        "label": "C",
+        "text": "落实"
+      },
+      {
+        "label": "D",
+        "text": "落准"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 56,
+    "type": "multiple",
+    "text": "中国真诚呼吁世界各国弘扬( )的全人类共同价值。",
+    "options": [
+      {
+        "label": "A",
+        "text": "和平、发展"
+      },
+      {
+        "label": "B",
+        "text": "公平、正义"
+      },
+      {
+        "label": "C",
+        "text": "民主、自由"
+      },
+      {
+        "label": "D",
+        "text": "合作、共赢"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 57,
+    "type": "multiple",
+    "text": "世界上各种文化之争，本质上是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "价值观念之争"
+      },
+      {
+        "label": "B",
+        "text": "人心之争"
+      },
+      {
+        "label": "C",
+        "text": "意识形态之争"
+      },
+      {
+        "label": "D",
+        "text": "理论之争"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 58,
+    "type": "multiple",
+    "text": "“普世价值”是一种极具迷惑性、欺骗性并且带有鲜明政治倾向的价值观，关于其实质和危害的认识，正确的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“普世价值”在理论上是虚伪的"
+      },
+      {
+        "label": "B",
+        "text": "“普世价值”在实践上是虚伪的"
+      },
+      {
+        "label": "C",
+        "text": "西方国家所谓的“普世价值”特指资本主义价值观"
+      },
+      {
+        "label": "D",
+        "text": "东欧剧变、苏联解体、“阿拉伯之春”等都是美西方兜售“普世价值”，推行“和平演变”的结果"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 59,
+    "type": "multiple",
+    "text": "核心价值观是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一定社会形态、社会性质的集中体现"
+      },
+      {
+        "label": "B",
+        "text": "在一个社会的思想观念体系中处于主导地位"
+      },
+      {
+        "label": "C",
+        "text": "体现着社会制度的阶级属性"
+      },
+      {
+        "label": "D",
+        "text": "体现社会运行的基本原则和社会发展的基本方向"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 60,
+    "type": "multiple",
+    "text": "全过程人民民主，实现了( )，是全链条、全方位、全覆盖的民主，是最广泛、最真实、最管用的社会主义民主。",
+    "options": [
+      {
+        "label": "A",
+        "text": "过程民主和成果民主相统一"
+      },
+      {
+        "label": "B",
+        "text": "程序民主和实质民主相统一"
+      },
+      {
+        "label": "C",
+        "text": "直接民主和间接民主相统一"
+      },
+      {
+        "label": "D",
+        "text": "人民民主和国家意志相统一"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 61,
+    "type": "multiple",
+    "text": "社会主义核心价值观倡导的文明包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质文明"
+      },
+      {
+        "label": "B",
+        "text": "政治文明"
+      },
+      {
+        "label": "C",
+        "text": "精神文明"
+      },
+      {
+        "label": "D",
+        "text": "社会文明"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 62,
+    "type": "multiple",
+    "text": "中国共产党始终坚持人民是历史创造者的观点，践行全心全意为人民服务的根本宗旨，坚持( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民当家做主"
+      },
+      {
+        "label": "B",
+        "text": "以人民为中心"
+      },
+      {
+        "label": "C",
+        "text": "把人民对美好生活的向往作为奋斗目标"
+      },
+      {
+        "label": "D",
+        "text": "人民立场"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 63,
+    "type": "multiple",
+    "text": "在道德的功能系统中，( )是最基本的功能。",
+    "options": [
+      {
+        "label": "A",
+        "text": "认识功能"
+      },
+      {
+        "label": "B",
+        "text": "规范功能"
+      },
+      {
+        "label": "C",
+        "text": "调节功能"
+      },
+      {
+        "label": "D",
+        "text": "激励功能"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 64,
+    "type": "multiple",
+    "text": "与以往社会的道德形态相比，社会主义道德具有显著的先进性，这种先进性主要体现在( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义道德是社会主义经济基础的反映"
+      },
+      {
+        "label": "B",
+        "text": "社会主义道德是对人类优秀道德资源的批判继承和创新发展"
+      },
+      {
+        "label": "C",
+        "text": "社会主义道德克服了以往阶级社会道德的片面性和局限性"
+      },
+      {
+        "label": "D",
+        "text": "社会主义道德坚持以为人民服务为核心，坚持以集体主义为原则，展示出真实而强大的道义力量"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 65,
+    "type": "multiple",
+    "text": "对道德的本质理解正确的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "道德是反映社会经济关系的特殊意识形态"
+      },
+      {
+        "label": "B",
+        "text": "道德是社会利益关系的特殊调节方式"
+      },
+      {
+        "label": "C",
+        "text": "道德是人与生俱来的善性"
+      },
+      {
+        "label": "D",
+        "text": "道德是一种实践精神"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 66,
+    "type": "multiple",
+    "text": "中国革命道德的主要内容有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "为实现社会主义和共产主义的理想而奋斗"
+      },
+      {
+        "label": "B",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "C",
+        "text": "始终把革命利益放在首位"
+      },
+      {
+        "label": "D",
+        "text": "注重人伦关系，重视道德义务"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 67,
+    "type": "multiple",
+    "text": "以下对“为人民服务”理解正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是社会主义道德的核心"
+      },
+      {
+        "label": "B",
+        "text": "是社会主义经济基础和人际关系的客观要求"
+      },
+      {
+        "label": "C",
+        "text": "是社会主义市场经济健康发展的要求"
+      },
+      {
+        "label": "D",
+        "text": "是中国共产党践行的根本宗旨"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 68,
+    "type": "multiple",
+    "text": "对待中华传统美德的正确态度是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "要去粗取精、去伪存真"
+      },
+      {
+        "label": "B",
+        "text": "坚持古为今用、推陈出新"
+      },
+      {
+        "label": "C",
+        "text": "加强对中华传统美德的挖掘和阐发"
+      },
+      {
+        "label": "D",
+        "text": "努力推动中华传统美德的创造性转化和创新性发展"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 69,
+    "type": "multiple",
+    "text": "集体与个人是( )的辩证统一关系。",
+    "options": [
+      {
+        "label": "A",
+        "text": "相互作用"
+      },
+      {
+        "label": "B",
+        "text": "相互依赖"
+      },
+      {
+        "label": "C",
+        "text": "互为前提"
+      },
+      {
+        "label": "D",
+        "text": "相互矛盾"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 70,
+    "type": "multiple",
+    "text": "根据我国现阶段经济社会生活和人们思想道德的实际，集体主义可分为以下哪三个层次的道德要求( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无私奉献、一心为公"
+      },
+      {
+        "label": "B",
+        "text": "先公后私、先人后己"
+      },
+      {
+        "label": "C",
+        "text": "尊老爱幼、夫妻和睦、邻里互助"
+      },
+      {
+        "label": "D",
+        "text": "顾全大局、遵纪守法、热爱祖国、诚实劳动，以正当合法的手段保障个人利益"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 71,
+    "type": "multiple",
+    "text": "对道德的起源理解正确的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "劳动是道德起源的首要前提"
+      },
+      {
+        "label": "B",
+        "text": "道德产生于人与生俱来的善性"
+      },
+      {
+        "label": "C",
+        "text": "社会关系是道德赖以产生的客观条件"
+      },
+      {
+        "label": "D",
+        "text": "人的自我意识是道德产生的主观条件"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 72,
+    "type": "multiple",
+    "text": "树立正确的恋爱观，大学生还要处理好以下哪几种关系( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "恋爱与学习的关系"
+      },
+      {
+        "label": "B",
+        "text": "恋爱与关心集体的关系"
+      },
+      {
+        "label": "C",
+        "text": "恋爱与关爱他人和社会的关系"
+      },
+      {
+        "label": "D",
+        "text": "恋爱与金钱的关系"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 73,
+    "type": "multiple",
+    "text": "涵养高尚道德品格，就是要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "形成正确的道德认知和道德判断"
+      },
+      {
+        "label": "B",
+        "text": "激发正向的道德认同和道德情感"
+      },
+      {
+        "label": "C",
+        "text": "积极向道德高尚的人学习"
+      },
+      {
+        "label": "D",
+        "text": "强化坚定的道德意识和道德信念"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 74,
+    "type": "multiple",
+    "text": "中国革命道德的当代价值是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "有利于加强和巩固社会主义和共产主义的理想信念"
+      },
+      {
+        "label": "B",
+        "text": "有利于培育和践行社会主义核心价值观"
+      },
+      {
+        "label": "C",
+        "text": "有利于引导人们树立正确的道德观"
+      },
+      {
+        "label": "D",
+        "text": "有利于培育良好的社会道德风尚"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 75,
+    "type": "multiple",
+    "text": "属于非马克思主义道德起源观的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“天意神启论”"
+      },
+      {
+        "label": "B",
+        "text": "“先天人性论”"
+      },
+      {
+        "label": "C",
+        "text": "“情感欲望论”"
+      },
+      {
+        "label": "D",
+        "text": "“动物本能论”"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 76,
+    "type": "multiple",
+    "text": "人类是劳动创造的，社会是劳动创造的。在职业生活中，必须牢固树立( )观念。",
+    "options": [
+      {
+        "label": "A",
+        "text": "劳动最光荣"
+      },
+      {
+        "label": "B",
+        "text": "劳动最崇高"
+      },
+      {
+        "label": "C",
+        "text": "劳动最伟大"
+      },
+      {
+        "label": "D",
+        "text": "劳动最美丽"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 77,
+    "type": "multiple",
+    "text": "社会主义道德建设与社会主义市场经济的关系是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义道德建设要与社会主义市场经济相适应"
+      },
+      {
+        "label": "B",
+        "text": "社会主义道德建设是独立的一个系统,与社会主义市场经济没有必然的联系"
+      },
+      {
+        "label": "C",
+        "text": "社会主义道德建设为社会主义市场经济体制的建立和完善提供道德价值导向"
+      },
+      {
+        "label": "D",
+        "text": "社会主义道德建设会束缚社会主义市场经济的发展"
+      }
+    ],
+    "answer": "A,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 78,
+    "type": "multiple",
+    "text": "道德属于上层建筑的范畴，是一种特殊的社会意识形态。社会主义道德建设要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "与西方主流文明相一致"
+      },
+      {
+        "label": "B",
+        "text": "与社会主义法律规范相协调"
+      },
+      {
+        "label": "C",
+        "text": "与社会主义市场经济相适应"
+      },
+      {
+        "label": "D",
+        "text": "与中华民族传统美德相承接"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 79,
+    "type": "multiple",
+    "text": "道德主要依靠( )来发挥作用。",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会舆论"
+      },
+      {
+        "label": "B",
+        "text": "传统习俗"
+      },
+      {
+        "label": "C",
+        "text": "内心信念"
+      },
+      {
+        "label": "D",
+        "text": "自我意识"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 80,
+    "type": "multiple",
+    "text": "中华传统美德的基本精神包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "重视整体利益，强调责任奉献"
+      },
+      {
+        "label": "B",
+        "text": "推崇仁爱原则，注重以和为贵"
+      },
+      {
+        "label": "C",
+        "text": "注重人伦关系，重视道德义务"
+      },
+      {
+        "label": "D",
+        "text": "追求精神境界，向往理想人格"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 81,
+    "type": "multiple",
+    "text": "在对待传统道德的问题上，要反对( )两种错误思潮。",
+    "options": [
+      {
+        "label": "A",
+        "text": "复古论"
+      },
+      {
+        "label": "B",
+        "text": "万能论"
+      },
+      {
+        "label": "C",
+        "text": "虚无论"
+      },
+      {
+        "label": "D",
+        "text": "无用论"
+      }
+    ],
+    "answer": "A,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 82,
+    "type": "multiple",
+    "text": "道德是一种调整( )之间关系的特殊的行为规范。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人与人"
+      },
+      {
+        "label": "B",
+        "text": "人与社会"
+      },
+      {
+        "label": "C",
+        "text": "人与自然"
+      },
+      {
+        "label": "D",
+        "text": "人与自身"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 83,
+    "type": "multiple",
+    "text": "集体主义( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是社会主义道德的原则"
+      },
+      {
+        "label": "B",
+        "text": "强调国家利益、社会整体利益和个人利益的辩证统一"
+      },
+      {
+        "label": "C",
+        "text": "强调国家利益、社会整体利益高于个人利益"
+      },
+      {
+        "label": "D",
+        "text": "重视和保障个人的正当利益"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 84,
+    "type": "multiple",
+    "text": "公共生活的特点是具有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "开放性"
+      },
+      {
+        "label": "B",
+        "text": "透明性"
+      },
+      {
+        "label": "C",
+        "text": "封闭性"
+      },
+      {
+        "label": "D",
+        "text": "合法性"
+      }
+    ],
+    "answer": "A,B",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 85,
+    "type": "multiple",
+    "text": "公共秩序包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "工作秩序"
+      },
+      {
+        "label": "B",
+        "text": "教学秩序"
+      },
+      {
+        "label": "C",
+        "text": "交通秩序"
+      },
+      {
+        "label": "D",
+        "text": "网络秩序"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 86,
+    "type": "multiple",
+    "text": "做好充分的择业准备，要有真才实学就要勤于学习，不断提高综合素质，练就过硬本领，做到( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "向书本学习"
+      },
+      {
+        "label": "B",
+        "text": "向群众学习"
+      },
+      {
+        "label": "C",
+        "text": "向实践学习"
+      },
+      {
+        "label": "D",
+        "text": "向个人学习"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 87,
+    "type": "multiple",
+    "text": "以下选项中属于宪法的基本原则有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的领导原则"
+      },
+      {
+        "label": "B",
+        "text": "人民当家作主原则"
+      },
+      {
+        "label": "C",
+        "text": "尊重和保障人权原则"
+      },
+      {
+        "label": "D",
+        "text": "社会主义法治原则"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 88,
+    "type": "multiple",
+    "text": "全面依法治国的基本格局包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学立法"
+      },
+      {
+        "label": "B",
+        "text": "严格执法"
+      },
+      {
+        "label": "C",
+        "text": "公正司法"
+      },
+      {
+        "label": "D",
+        "text": "全民守法"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 89,
+    "type": "multiple",
+    "text": "走中国特色社会主义法治道路( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "是历史的必然结论"
+      },
+      {
+        "label": "B",
+        "text": "是由我国社会主义国家性质所决定的"
+      },
+      {
+        "label": "C",
+        "text": "是资本市场的需要"
+      },
+      {
+        "label": "D",
+        "text": "是立足我国基本国情的必然选择"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 90,
+    "type": "multiple",
+    "text": "为什么说我国社会主义法律具有科学性和先进性( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "我国社会主义法律反映的是全体人民的共同利益"
+      },
+      {
+        "label": "B",
+        "text": "它与历史发展的基本方向和规律是一致的"
+      },
+      {
+        "label": "C",
+        "text": "它坚持马克思主义的世界观和方法论，适应时代发展要求"
+      },
+      {
+        "label": "D",
+        "text": "它与资本主义法律有较大区别"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 91,
+    "type": "multiple",
+    "text": "下面关于法与道德的关系，哪些是正确的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "由于法律与道德之间的相辅相成，互相促进，因此，违反道德的行为也是违反法律的行为"
+      },
+      {
+        "label": "B",
+        "text": "我国法律的基本原则和内容在不同程度上体现了道德的要求"
+      },
+      {
+        "label": "C",
+        "text": "法律仅调整人民的外部行为或相互关系;道德仅调整人们的内心活动"
+      },
+      {
+        "label": "D",
+        "text": "法律规定人们的权利和义务，而道德一般仅指义务而言"
+      }
+    ],
+    "answer": "B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 92,
+    "type": "multiple",
+    "text": "在我国，依法治国是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党领导人民治理国家的基本方略"
+      },
+      {
+        "label": "B",
+        "text": "治理国家的唯一方略"
+      },
+      {
+        "label": "C",
+        "text": "发展社会主义市场经济的需要"
+      },
+      {
+        "label": "D",
+        "text": "民主文明进步的重要标志"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 93,
+    "type": "multiple",
+    "text": "有利于大学生培养法治思维的法律实践有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "参与立法讨论"
+      },
+      {
+        "label": "B",
+        "text": "依法行使监督权"
+      },
+      {
+        "label": "C",
+        "text": "旁听司法审判"
+      },
+      {
+        "label": "D",
+        "text": "参与法律诊所、法律辩论等校园法治文化"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 94,
+    "type": "multiple",
+    "text": "法律至上具体表现为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律的普遍适用性"
+      },
+      {
+        "label": "B",
+        "text": "法律的优先适用性"
+      },
+      {
+        "label": "C",
+        "text": "法律的不可违抗性"
+      },
+      {
+        "label": "D",
+        "text": "法律的程序正当性"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 95,
+    "type": "multiple",
+    "text": "权力制约包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "权力由法定"
+      },
+      {
+        "label": "B",
+        "text": "有权必有责"
+      },
+      {
+        "label": "C",
+        "text": "用权受监督"
+      },
+      {
+        "label": "D",
+        "text": "违法受追究"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 96,
+    "type": "multiple",
+    "text": "宪法宣誓词的内容包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "忠于中华人民共和国宪法"
+      },
+      {
+        "label": "B",
+        "text": "维护宪法权威，履行法定职责"
+      },
+      {
+        "label": "C",
+        "text": "忠于祖国、忠于人民，恪尽职守、廉洁奉公"
+      },
+      {
+        "label": "D",
+        "text": "接受人民监督"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 97,
+    "type": "multiple",
+    "text": "完善宪法监督需要( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "健全人大工作机制"
+      },
+      {
+        "label": "B",
+        "text": "健全宪法解释机制"
+      },
+      {
+        "label": "C",
+        "text": "健全备案审查机制"
+      },
+      {
+        "label": "D",
+        "text": "健全合宪性审查机制"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 98,
+    "type": "multiple",
+    "text": "以下说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "宪法序言是我国宪法的重要组成部分"
+      },
+      {
+        "label": "B",
+        "text": "宪法序言不构成宪法的组成内容"
+      },
+      {
+        "label": "C",
+        "text": "法治思维是以法治价值和法治精神为导向的"
+      },
+      {
+        "label": "D",
+        "text": "法治就要做到依法治国、依法治省、依法治校与治家"
+      }
+    ],
+    "answer": "A,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 99,
+    "type": "multiple",
+    "text": "以下说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "没有无义务的权利，也没有无权利的义务"
+      },
+      {
+        "label": "B",
+        "text": "“人肉搜索”不是违法和侵权行为"
+      },
+      {
+        "label": "C",
+        "text": "尊重法律权威就要信仰法律，对法律常怀敬畏之心"
+      },
+      {
+        "label": "D",
+        "text": "违反法律就一定构成了犯罪"
+      }
+    ],
+    "answer": "A,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 100,
+    "type": "multiple",
+    "text": "从个人角度来说，自觉维护法律权威的表现有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "树立法律信仰"
+      },
+      {
+        "label": "B",
+        "text": "引导他人尊重法律权威"
+      },
+      {
+        "label": "C",
+        "text": "从事法律职业"
+      },
+      {
+        "label": "D",
+        "text": "敢于同违法犯罪行为作斗争"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 101,
+    "type": "multiple",
+    "text": "按照宪法的规定，下列情况既是公民权利又是公民义务的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "遵守宪法和法律"
+      },
+      {
+        "label": "B",
+        "text": "劳动"
+      },
+      {
+        "label": "C",
+        "text": "获得物质帮助"
+      },
+      {
+        "label": "D",
+        "text": "接受义务教育"
+      }
+    ],
+    "answer": "B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 102,
+    "type": "multiple",
+    "text": "资本主义法律的根本任务是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "维护资产阶级的政治秩序"
+      },
+      {
+        "label": "B",
+        "text": "维护资产阶级的经济秩序"
+      },
+      {
+        "label": "C",
+        "text": "维护资产阶级的生活秩序"
+      },
+      {
+        "label": "D",
+        "text": "维护资产阶级的社会秩序"
+      }
+    ],
+    "answer": "A,B,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 103,
+    "type": "multiple",
+    "text": "关于党的领导与社会主义法治的关系的正确表述是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党的领导和社会主义法治在根本上是一致的"
+      },
+      {
+        "label": "B",
+        "text": "党的领导是社会主义法治的根本保证"
+      },
+      {
+        "label": "C",
+        "text": "只有坚持党的领导,才能确保民主法治建设沿着正确的方向前进"
+      },
+      {
+        "label": "D",
+        "text": "只有坚持党的领导,才能将法律所确定的人民群众的根本利益落到实处"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 104,
+    "type": "multiple",
+    "text": "以下各项中，关于法律的含义说法正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法律是最高统治者意志的体现"
+      },
+      {
+        "label": "B",
+        "text": "法律是统治阶级意志的体现"
+      },
+      {
+        "label": "C",
+        "text": "法律由一定的社会物质生活条件所决定"
+      },
+      {
+        "label": "D",
+        "text": "法律是由国家创制和实施的行为规范"
+      }
+    ],
+    "answer": "B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 105,
+    "type": "multiple",
+    "text": "我国宪法确立的基本政治制度包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党领导的多党合作和政治协商制度"
+      },
+      {
+        "label": "B",
+        "text": "民族区域自治制度"
+      },
+      {
+        "label": "C",
+        "text": "基层群众自治制度"
+      },
+      {
+        "label": "D",
+        "text": "劳动群众集体所有制"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 106,
+    "type": "multiple",
+    "text": "以下选项中属于部门法律的有( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "民法商法"
+      },
+      {
+        "label": "B",
+        "text": "经济法"
+      },
+      {
+        "label": "C",
+        "text": "行政法"
+      },
+      {
+        "label": "D",
+        "text": "宪法"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 107,
+    "type": "multiple",
+    "text": "在我国，司法机关是指( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "公安机关"
+      },
+      {
+        "label": "B",
+        "text": "检察机关"
+      },
+      {
+        "label": "C",
+        "text": "审判机关"
+      },
+      {
+        "label": "D",
+        "text": "政府机关"
+      }
+    ],
+    "answer": "B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 108,
+    "type": "multiple",
+    "text": "以下描述正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "法治是现代文明的制度基石"
+      },
+      {
+        "label": "B",
+        "text": "法治兴则国家兴，法治强则国家强"
+      },
+      {
+        "label": "C",
+        "text": "调整人们行为的社会规范包括法律规范、道德规范、纪律规范等"
+      },
+      {
+        "label": "D",
+        "text": "法治是法制的另一种说法"
+      }
+    ],
+    "answer": "A,B,C",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 109,
+    "type": "multiple",
+    "text": "宪法具有最高的法律效力,主要包括以下哪些方面的含义( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "宪法是制定普通法律的依据,任何普通法律,法规都不得与宪法相抵触"
+      },
+      {
+        "label": "B",
+        "text": "宪法只是一切国家机关的最高行为准则"
+      },
+      {
+        "label": "C",
+        "text": "在制定和修改程序上,宪法比其他法律的要求更加严格"
+      },
+      {
+        "label": "D",
+        "text": "在内容上,宪法规定国家最根本、最重要的问题"
+      }
+    ],
+    "answer": "A,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "政治",
+    "topic": "政治多选",
+    "number": 110,
+    "type": "multiple",
+    "text": "公平正义包括( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "权利公平"
+      },
+      {
+        "label": "B",
+        "text": "机会公平"
+      },
+      {
+        "label": "C",
+        "text": "规则公平"
+      },
+      {
+        "label": "D",
+        "text": "救济公平"
+      }
+    ],
+    "answer": "A,B,C,D",
+    "source": "多选.docx",
+    "subtopic": ""
+  }
+]);
+
+window.QUESTION_BANK = window.QUESTION_BANK.concat([
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 1,
+    "type": "single",
+    "text": "( )是国家生存与发展的重要的、基本的保障。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军队"
+      },
+      {
+        "label": "B",
+        "text": "国防"
+      },
+      {
+        "label": "C",
+        "text": "武装力量"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 2,
+    "type": "single",
+    "text": "( )是国家生存与发展的安全保障，关系国家的安危和民族的兴衰。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军队"
+      },
+      {
+        "label": "B",
+        "text": "国防"
+      },
+      {
+        "label": "C",
+        "text": "武装力量"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 3,
+    "type": "single",
+    "text": "国防的主体是( )，是国防活动的实施者。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军队"
+      },
+      {
+        "label": "B",
+        "text": "人民"
+      },
+      {
+        "label": "C",
+        "text": "国家"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 4,
+    "type": "single",
+    "text": "国防的对象是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "侵略和颠覆"
+      },
+      {
+        "label": "B",
+        "text": "侵略、武装颠覆和分裂"
+      },
+      {
+        "label": "C",
+        "text": "捍卫国家的主权、统一、领土完整和安全"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 5,
+    "type": "single",
+    "text": "中国最初的国防是从( )建立的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏朝"
+      },
+      {
+        "label": "B",
+        "text": "春秋战国"
+      },
+      {
+        "label": "C",
+        "text": "汉朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 6,
+    "type": "single",
+    "text": "中国在( )建立了“兵出于农，计田赋以出兵车”的民军制兵役制度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏朝"
+      },
+      {
+        "label": "B",
+        "text": "春秋战国"
+      },
+      {
+        "label": "C",
+        "text": "汉朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 7,
+    "type": "single",
+    "text": "( )各国的军队发展成为拥有车兵、步兵、骑兵、舟师的多兵种军队。",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏朝"
+      },
+      {
+        "label": "B",
+        "text": "战国时期"
+      },
+      {
+        "label": "C",
+        "text": "秦汉时期"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 8,
+    "type": "single",
+    "text": "( )时期，学校教育中十分重视军事训练，有六德、六行、六艺等课程，成为国君选拔人才的标准。",
+    "options": [
+      {
+        "label": "A",
+        "text": "春秋战国"
+      },
+      {
+        "label": "B",
+        "text": "秦汉"
+      },
+      {
+        "label": "C",
+        "text": "隋唐"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 9,
+    "type": "single",
+    "text": "( )被称为驰名古今中外的兵学圣典。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《孙膑兵法》"
+      },
+      {
+        "label": "B",
+        "text": "《孙子兵法》"
+      },
+      {
+        "label": "C",
+        "text": "《三十六计》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 10,
+    "type": "single",
+    "text": "我国在( )时期，建立与中央集权的政治制度相适应的军事制度，统帅全国军队。",
+    "options": [
+      {
+        "label": "A",
+        "text": "秦朝"
+      },
+      {
+        "label": "B",
+        "text": "汉朝"
+      },
+      {
+        "label": "C",
+        "text": "唐朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 11,
+    "type": "single",
+    "text": "我国在( )时期，筑路通邮，建立了全国性交通、通信网络。",
+    "options": [
+      {
+        "label": "A",
+        "text": "秦朝"
+      },
+      {
+        "label": "B",
+        "text": "汉朝"
+      },
+      {
+        "label": "C",
+        "text": "唐朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 12,
+    "type": "single",
+    "text": "我国在( )时期，大规模修筑长城，创造了世界军事工程史上的奇迹。",
+    "options": [
+      {
+        "label": "A",
+        "text": "秦朝"
+      },
+      {
+        "label": "B",
+        "text": "汉朝"
+      },
+      {
+        "label": "C",
+        "text": "唐朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 13,
+    "type": "single",
+    "text": "( )成功地实现了“中国既安，四夷向服”的战略了防御构想。",
+    "options": [
+      {
+        "label": "A",
+        "text": "隋文帝"
+      },
+      {
+        "label": "B",
+        "text": "唐太宗"
+      },
+      {
+        "label": "C",
+        "text": "宋太祖"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 14,
+    "type": "single",
+    "text": "( )采取了一系列“强干弱枝，守内虚外”、以文制武的措施。",
+    "options": [
+      {
+        "label": "A",
+        "text": "隋文帝"
+      },
+      {
+        "label": "B",
+        "text": "唐太宗"
+      },
+      {
+        "label": "C",
+        "text": "宋太祖"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 15,
+    "type": "single",
+    "text": "( )在中央设立枢密院掌管全国军务，在地方设行省。",
+    "options": [
+      {
+        "label": "A",
+        "text": "宋朝"
+      },
+      {
+        "label": "B",
+        "text": "元朝"
+      },
+      {
+        "label": "C",
+        "text": "明朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 16,
+    "type": "single",
+    "text": "( )用了近200年时间修筑东起鸭绿江、西到嘉峪关的北部长城。",
+    "options": [
+      {
+        "label": "A",
+        "text": "元朝"
+      },
+      {
+        "label": "B",
+        "text": "明朝"
+      },
+      {
+        "label": "C",
+        "text": "清朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 17,
+    "type": "single",
+    "text": "( )在沿海主要地段，陆续修建了防御工程体系，有了中国最早的海防建设。",
+    "options": [
+      {
+        "label": "A",
+        "text": "元朝"
+      },
+      {
+        "label": "B",
+        "text": "明朝"
+      },
+      {
+        "label": "C",
+        "text": "清朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 18,
+    "type": "single",
+    "text": "早在春秋战国时期，( )就提出了“富国强兵”的思想。",
+    "options": [
+      {
+        "label": "A",
+        "text": "吕尚"
+      },
+      {
+        "label": "B",
+        "text": "田雨直"
+      },
+      {
+        "label": "C",
+        "text": "管仲"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 19,
+    "type": "single",
+    "text": "由全国人民代表大会制定颁布的国防法规是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《兵役法》"
+      },
+      {
+        "label": "B",
+        "text": "《退伍义务兵安置条例》"
+      },
+      {
+        "label": "C",
+        "text": "《战斗条令》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 20,
+    "type": "single",
+    "text": "由全国人民代表大会常务委员会制定颁布的国防法规是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《国防教育法》"
+      },
+      {
+        "label": "B",
+        "text": "《征兵工作条例》"
+      },
+      {
+        "label": "C",
+        "text": "《应征公民体格条例》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 21,
+    "type": "single",
+    "text": "由国务院制定颁布的国防法规是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《国防法》"
+      },
+      {
+        "label": "B",
+        "text": "《军人抚恤优抚条例》"
+      },
+      {
+        "label": "C",
+        "text": "《应征公民体格条例》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 22,
+    "type": "single",
+    "text": "由中央军委制定颁布的国防法规是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《军官服役条例》"
+      },
+      {
+        "label": "B",
+        "text": "《征兵工作条例》"
+      },
+      {
+        "label": "C",
+        "text": "《应征公民体格条例》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 23,
+    "type": "single",
+    "text": "以下不属于《兵役法》的适用范围的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "公民履行兵役义务"
+      },
+      {
+        "label": "B",
+        "text": "在公民中普及和加强国防教育"
+      },
+      {
+        "label": "C",
+        "text": "公民在军队外接受军事训练"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 24,
+    "type": "single",
+    "text": "我国确定每年( )为全民国防教育日。",
+    "options": [
+      {
+        "label": "A",
+        "text": "9月第1个星期六"
+      },
+      {
+        "label": "B",
+        "text": "9月第3个星期六"
+      },
+      {
+        "label": "C",
+        "text": "9月第3个星期日"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 25,
+    "type": "single",
+    "text": "中华人民共和国的武装力量受( )领导。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中央军委"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "国家主席"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 26,
+    "type": "single",
+    "text": "中国人民解放军必须置于( )的绝对领导之下。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国共产党"
+      },
+      {
+        "label": "B",
+        "text": "中央军委"
+      },
+      {
+        "label": "C",
+        "text": "国家主席"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 27,
+    "type": "single",
+    "text": "（  ）根据全国人民代表大会的决定宣布战争状态。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 28,
+    "type": "single",
+    "text": "编制国防建设发展规划和计划是( )的国防领导职权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 29,
+    "type": "single",
+    "text": "制定国防建设方面的方针、政策和行政法规是( )的国防领导职权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 30,
+    "type": "single",
+    "text": "领导和管理国防科研生产是( )的国防领导职权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 31,
+    "type": "single",
+    "text": "管理国防经费和国防资产是( )的国防领导职权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 32,
+    "type": "single",
+    "text": "领导和管理国民经济动员和人民武装动员、人民防空、国防交通等方面的工作是( )的国防领导职权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 33,
+    "type": "single",
+    "text": "领导和管理拥军优属工作和退出现役军人的安置工作是( )的国防领导职权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "国务院"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 34,
+    "type": "single",
+    "text": "( )的国防职权是统一指挥全国的武装力量。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "军委主席"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 35,
+    "type": "single",
+    "text": "( )的国防职权是决定军事战略和武装力量的作战方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "军委主席"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 36,
+    "type": "single",
+    "text": "( )的国防职权是领导和管理中国人民解放军的建设，制定规划、计划并组织实施。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家主席"
+      },
+      {
+        "label": "B",
+        "text": "军委主席"
+      },
+      {
+        "label": "C",
+        "text": "中央军事委员会"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 37,
+    "type": "single",
+    "text": "以下表述不准确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家安全委员会是维护外部安全的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "国家安全委员会仅行使对外职能"
+      },
+      {
+        "label": "C",
+        "text": "国家安全委员会与国家的外部安全休戚相关。"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 38,
+    "type": "single",
+    "text": "1993年中央军委实行战略思想的重大转变，把军事斗争准备基点转到打赢现代技术特别是( )条件下的局部战争上。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新技术"
+      },
+      {
+        "label": "B",
+        "text": "高技术"
+      },
+      {
+        "label": "C",
+        "text": "信息化"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 39,
+    "type": "single",
+    "text": "中国的国防政策是坚持( )地建设和巩固国防。",
+    "options": [
+      {
+        "label": "A",
+        "text": "独立自主"
+      },
+      {
+        "label": "B",
+        "text": "自力更生"
+      },
+      {
+        "label": "C",
+        "text": "开放引进"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 40,
+    "type": "single",
+    "text": "以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国在任何情况下都不首先使用核武器"
+      },
+      {
+        "label": "B",
+        "text": "中国不对无核国家使用核武器"
+      },
+      {
+        "label": "C",
+        "text": "中国核武器的数量一直维持在较高水平"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 41,
+    "type": "single",
+    "text": "中国的核力量由( )直接指挥。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军委主席"
+      },
+      {
+        "label": "B",
+        "text": "中央军委 B 国家主席"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 42,
+    "type": "single",
+    "text": "在纪念建军90周年阅兵式上，( )战机首次参加检阅。",
+    "options": [
+      {
+        "label": "A",
+        "text": "歼-10"
+      },
+      {
+        "label": "B",
+        "text": "歼-20"
+      },
+      {
+        "label": "C",
+        "text": "歼-31"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 43,
+    "type": "single",
+    "text": "( )是中国现代空中力量的代表作，进入了世界最先进的第五代战机的行列。",
+    "options": [
+      {
+        "label": "A",
+        "text": "歼击-10"
+      },
+      {
+        "label": "B",
+        "text": "歼-20"
+      },
+      {
+        "label": "C",
+        "text": "运-20"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 44,
+    "type": "single",
+    "text": "第一次提出了“军民两用”问题，强调国防工业生产要有两套设备。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "邓小平"
+      },
+      {
+        "label": "C",
+        "text": "江泽民"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 45,
+    "type": "single",
+    "text": "( )提出国防工业要贯彻“军民结合、平战结合、军品优先、以民养军”的方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "邓小平"
+      },
+      {
+        "label": "C",
+        "text": "江泽民"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 46,
+    "type": "single",
+    "text": "( )提出了“寓军于民”的思想，并把寓军于民作为创建国防科技工业新体制的核心内容。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "邓小平"
+      },
+      {
+        "label": "C",
+        "text": "江泽民"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 47,
+    "type": "single",
+    "text": "( )提出“走一条中国特色军民融合式发展路子”的重大战略思想。",
+    "options": [
+      {
+        "label": "A",
+        "text": "江泽民"
+      },
+      {
+        "label": "B",
+        "text": "胡锦涛"
+      },
+      {
+        "label": "C",
+        "text": "习近平"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 48,
+    "type": "single",
+    "text": "( )是中国大国地位的战略支撑，是维护国家安全的重要基石。",
+    "options": [
+      {
+        "label": "A",
+        "text": "潜艇部队"
+      },
+      {
+        "label": "B",
+        "text": "火箭军"
+      },
+      {
+        "label": "C",
+        "text": "战略支援部队"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 49,
+    "type": "single",
+    "text": "做好国防动员工作是夺取战争主动权的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "重要保障"
+      },
+      {
+        "label": "B",
+        "text": "重要措施"
+      },
+      {
+        "label": "C",
+        "text": "有效手段"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 50,
+    "type": "single",
+    "text": "做好国防动员工作是增强国防威慑力的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "重要保障"
+      },
+      {
+        "label": "B",
+        "text": "重要措施"
+      },
+      {
+        "label": "C",
+        "text": "有效手段"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 51,
+    "type": "single",
+    "text": "国家安全工作应当坚持总体国家安全观，以( )为宗旨。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民安全"
+      },
+      {
+        "label": "B",
+        "text": "政治安全"
+      },
+      {
+        "label": "C",
+        "text": "军事安全"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 52,
+    "type": "single",
+    "text": "国家安全工作应当坚持总体国家安全观，以( )为根本。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民安全"
+      },
+      {
+        "label": "B",
+        "text": "政治安全"
+      },
+      {
+        "label": "C",
+        "text": "军事安全"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 53,
+    "type": "single",
+    "text": "国家安全工作应当坚持总体国家安全观，以( )为基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军事安全"
+      },
+      {
+        "label": "B",
+        "text": "政治安全"
+      },
+      {
+        "label": "C",
+        "text": "经济安全"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 54,
+    "type": "single",
+    "text": "国家安全工作应当坚持总体国家安全观，以军事、社会、文化安全为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "根本"
+      },
+      {
+        "label": "B",
+        "text": "基础"
+      },
+      {
+        "label": "C",
+        "text": "保障"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 55,
+    "type": "single",
+    "text": "( )是国家安全工作的根本政治原则。",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持党的绝对领导"
+      },
+      {
+        "label": "B",
+        "text": "国家安全法治原则"
+      },
+      {
+        "label": "C",
+        "text": "保障人权原则"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 56,
+    "type": "single",
+    "text": "从20世纪90年代到2012年，我国的国家安全观是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "以军事安全为核心"
+      },
+      {
+        "label": "B",
+        "text": "以综合安全为核心"
+      },
+      {
+        "label": "C",
+        "text": "新的国家安全观"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 57,
+    "type": "single",
+    "text": "我国拥有( )多万平方公里的海洋国土。",
+    "options": [
+      {
+        "label": "A",
+        "text": "200"
+      },
+      {
+        "label": "B",
+        "text": "300"
+      },
+      {
+        "label": "C",
+        "text": "400"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 58,
+    "type": "single",
+    "text": "( )问题是东北亚地区最大的冷战遗产。",
+    "options": [
+      {
+        "label": "A",
+        "text": "北方四岛"
+      },
+      {
+        "label": "B",
+        "text": "朝鲜半岛"
+      },
+      {
+        "label": "C",
+        "text": "钓鱼岛"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 59,
+    "type": "single",
+    "text": "日美安全同盟冷战后适用范围已经扩大到( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本国土周围数百公里"
+      },
+      {
+        "label": "B",
+        "text": "日本国土及周围1000公里"
+      },
+      {
+        "label": "C",
+        "text": "整个亚太地区"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 60,
+    "type": "single",
+    "text": "日美安全同盟冷战后的合作内容已经扩展到( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“日本受到武力攻击”"
+      },
+      {
+        "label": "B",
+        "text": "“日本周边地区发生事态时”"
+      },
+      {
+        "label": "C",
+        "text": "“日本受到威胁时”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 61,
+    "type": "single",
+    "text": "日本的主要防范对象已经转变为( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "俄罗斯和中国"
+      },
+      {
+        "label": "B",
+        "text": "朝鲜和中国"
+      },
+      {
+        "label": "C",
+        "text": "俄罗斯"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 62,
+    "type": "single",
+    "text": "( )是直接破坏中国周边安全的重要隐患。",
+    "options": [
+      {
+        "label": "A",
+        "text": "朝韩对立"
+      },
+      {
+        "label": "B",
+        "text": "日美安保"
+      },
+      {
+        "label": "C",
+        "text": "印巴冲突"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 63,
+    "type": "single",
+    "text": "( )是最有实力对中国安全构成威胁的国家。",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "日本"
+      },
+      {
+        "label": "C",
+        "text": "印度"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 64,
+    "type": "single",
+    "text": "美国将( )视为有能力挑战其全球利益的地区性大国和潜在对手。",
+    "options": [
+      {
+        "label": "A",
+        "text": "俄罗斯"
+      },
+      {
+        "label": "B",
+        "text": "中国"
+      },
+      {
+        "label": "C",
+        "text": "中国和俄罗斯"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 65,
+    "type": "single",
+    "text": "( )积极谋求“亚洲核心”和世界大国地位，争取成为联合国常任理事国。",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本"
+      },
+      {
+        "label": "B",
+        "text": "印度"
+      },
+      {
+        "label": "C",
+        "text": "越南"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 66,
+    "type": "single",
+    "text": "南海位于中国大地南方，其中中国领海总面积( )万平方公里。",
+    "options": [
+      {
+        "label": "A",
+        "text": "210"
+      },
+      {
+        "label": "B",
+        "text": "300"
+      },
+      {
+        "label": "C",
+        "text": "350"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 67,
+    "type": "single",
+    "text": "中国从( )起，宣布对南海行使管辖权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "汉朝"
+      },
+      {
+        "label": "B",
+        "text": "唐朝"
+      },
+      {
+        "label": "C",
+        "text": "宋朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 68,
+    "type": "single",
+    "text": "中国在( )时代就发现了南海诸岛。",
+    "options": [
+      {
+        "label": "A",
+        "text": "汉朝"
+      },
+      {
+        "label": "B",
+        "text": "唐朝"
+      },
+      {
+        "label": "C",
+        "text": "宋朝"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 69,
+    "type": "single",
+    "text": "( )美国擅自将钓鱼岛纳入其托管范围。",
+    "options": [
+      {
+        "label": "A",
+        "text": "20世纪40年代"
+      },
+      {
+        "label": "B",
+        "text": "20世纪50年代"
+      },
+      {
+        "label": "C",
+        "text": "20世纪60年代"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 70,
+    "type": "single",
+    "text": "( )美国将钓鱼岛“施政权”“归还”日本，私相授受，严重侵犯中国的领土主权。",
+    "options": [
+      {
+        "label": "A",
+        "text": "20世纪50年代"
+      },
+      {
+        "label": "B",
+        "text": "20世纪60年代"
+      },
+      {
+        "label": "C",
+        "text": "20世纪70年代"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 71,
+    "type": "single",
+    "text": "( )是中国政府提出的解决台湾问题的基本模式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“一个中国”原则"
+      },
+      {
+        "label": "B",
+        "text": "“和平统一，一国两制”"
+      },
+      {
+        "label": "C",
+        "text": "“九二共识”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 72,
+    "type": "single",
+    "text": "( )，主要是实现民族解放，维护国家独立和新生政权安全。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“站起来”时代"
+      },
+      {
+        "label": "B",
+        "text": "“富起来”时代"
+      },
+      {
+        "label": "C",
+        "text": "“强起来”时代"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 73,
+    "type": "single",
+    "text": "( )，主要是维护日益拓展的国家利益，捍卫改革发展取得的重要成果。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“站起来”时代"
+      },
+      {
+        "label": "B",
+        "text": "“富起来”时代"
+      },
+      {
+        "label": "C",
+        "text": "“强起来”时代"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 74,
+    "type": "single",
+    "text": "( )，要应付全方位安全、新疆域安全、“走出去”后安全、地区性安全乃至全球性安全等问题。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“站起来”时代"
+      },
+      {
+        "label": "B",
+        "text": "“富起来”时代"
+      },
+      {
+        "label": "C",
+        "text": "“强起来”时代"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 75,
+    "type": "single",
+    "text": "( )始终是维护国家利益和战略底线的保底手段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治手段"
+      },
+      {
+        "label": "B",
+        "text": "经济手段"
+      },
+      {
+        "label": "C",
+        "text": "军事手段"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 76,
+    "type": "single",
+    "text": "( )作为赢得未来战争优势的战略基点，成为各国明争暗斗的新焦点。",
+    "options": [
+      {
+        "label": "A",
+        "text": "深海开发"
+      },
+      {
+        "label": "B",
+        "text": "太空"
+      },
+      {
+        "label": "C",
+        "text": "网络空间"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 77,
+    "type": "single",
+    "text": "( )作为赢得未来战争优势的战略高点，成为大国激烈博弈的新舞台。",
+    "options": [
+      {
+        "label": "A",
+        "text": "深海开发"
+      },
+      {
+        "label": "B",
+        "text": "太空"
+      },
+      {
+        "label": "C",
+        "text": "网络空间"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 78,
+    "type": "single",
+    "text": "( )作为赢得未来战争优势的战略极点，成为多国争相占据的新疆域。",
+    "options": [
+      {
+        "label": "A",
+        "text": "网络空间"
+      },
+      {
+        "label": "B",
+        "text": "极地领域"
+      },
+      {
+        "label": "C",
+        "text": "人工智能"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 79,
+    "type": "single",
+    "text": "( )成为各国争夺全球优势的战略高点。",
+    "options": [
+      {
+        "label": "A",
+        "text": "海洋"
+      },
+      {
+        "label": "B",
+        "text": "太空领域"
+      },
+      {
+        "label": "C",
+        "text": "网络空间"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 80,
+    "type": "single",
+    "text": "( )潜在的可采石油储量有1000-2000亿桶，煤炭占世界总量9%",
+    "options": [
+      {
+        "label": "A",
+        "text": "南海地区"
+      },
+      {
+        "label": "B",
+        "text": "北极地区"
+      },
+      {
+        "label": "C",
+        "text": "南极地区"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 81,
+    "type": "single",
+    "text": "( )由一个经济体转为政治、经济、货币联盟体。",
+    "options": [
+      {
+        "label": "A",
+        "text": "北约"
+      },
+      {
+        "label": "B",
+        "text": "欧盟"
+      },
+      {
+        "label": "C",
+        "text": "东盟"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 82,
+    "type": "single",
+    "text": "( )成为亚太地区第一个政府间的多边安全对话机制。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“东盟地区论坛”"
+      },
+      {
+        "label": "B",
+        "text": "“亚太经合组织”"
+      },
+      {
+        "label": "C",
+        "text": "“亚太安全理事会”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 83,
+    "type": "single",
+    "text": "目前，( )凭借自己强大的经济实力谋求政治大国、军事大国地位。",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本"
+      },
+      {
+        "label": "B",
+        "text": "印度"
+      },
+      {
+        "label": "C",
+        "text": "日本和德国"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 84,
+    "type": "single",
+    "text": "以下关于国际战略形势的现状与特点，表述正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新的各种安全结构正在建立和完善"
+      },
+      {
+        "label": "B",
+        "text": "政治因素在国际事务中的作用在上升"
+      },
+      {
+        "label": "C",
+        "text": "军备竞赛更加激烈"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 85,
+    "type": "single",
+    "text": "以下关于国际战略形势的现状与特点，表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新的各种安全结构正在建立和完善"
+      },
+      {
+        "label": "B",
+        "text": "政治因素在国际事务中的作用在上升"
+      },
+      {
+        "label": "C",
+        "text": "军备竞赛有所趋缓，但质量竞赛更加激烈"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 86,
+    "type": "single",
+    "text": "以下关于国际战略形势的现状与特点，表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新的各种安全结构正在建立和完善"
+      },
+      {
+        "label": "B",
+        "text": "经济因素在国际事务中的作用在上升"
+      },
+      {
+        "label": "C",
+        "text": "军备竞赛更加激烈"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 87,
+    "type": "single",
+    "text": "未来国际战略格局中各方关系将日趋( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“多元化”"
+      },
+      {
+        "label": "B",
+        "text": "“复杂化”"
+      },
+      {
+        "label": "C",
+        "text": "“多极化”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 88,
+    "type": "single",
+    "text": "维护国家利益的( )将对国际战略格局产生重要影响。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“经济战”"
+      },
+      {
+        "label": "B",
+        "text": "“金融战”"
+      },
+      {
+        "label": "C",
+        "text": "“软战争”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 89,
+    "type": "single",
+    "text": "美国拥有世界最大的军事储备，封存的海军舰艇超过( )艘。",
+    "options": [
+      {
+        "label": "A",
+        "text": "600"
+      },
+      {
+        "label": "B",
+        "text": "800"
+      },
+      {
+        "label": "C",
+        "text": "1000"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 90,
+    "type": "single",
+    "text": "冷战时期，美国的战略中心在( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "欧洲"
+      },
+      {
+        "label": "B",
+        "text": "大中东地区"
+      },
+      {
+        "label": "C",
+        "text": "亚太地区"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 91,
+    "type": "single",
+    "text": "进入21世纪，美国的战略中心转向( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "欧洲"
+      },
+      {
+        "label": "B",
+        "text": "大中东地区"
+      },
+      {
+        "label": "C",
+        "text": "亚太地区"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 92,
+    "type": "single",
+    "text": "( )已经不满足于经济大国地位，提出了以经济力量来后盾，以自主外交为手段，逐步发展成为世界性政治军事大国的战略目标。",
+    "options": [
+      {
+        "label": "A",
+        "text": "印度"
+      },
+      {
+        "label": "B",
+        "text": "日本"
+      },
+      {
+        "label": "C",
+        "text": "德国"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 93,
+    "type": "single",
+    "text": "随着经济和科技实力的增强，日本已经不满足于经济大国地位，提出了以经济力量来后盾，以自主外交为手段，逐步发展成为世界性( )大国的战略目标。",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治军事"
+      },
+      {
+        "label": "B",
+        "text": "经济科技"
+      },
+      {
+        "label": "C",
+        "text": "政治经济"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 94,
+    "type": "single",
+    "text": "( )，为了摆脱战后体制束缚，实现“普通国家化”的国家战略目标，对日本国家安全战略进行了战后最大幅度的调整。",
+    "options": [
+      {
+        "label": "A",
+        "text": "小泉内阁"
+      },
+      {
+        "label": "B",
+        "text": "安倍内阁"
+      },
+      {
+        "label": "C",
+        "text": "岸田内阁"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 95,
+    "type": "single",
+    "text": "以下表述正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军事思想是关于战争、军队和国防基本问题的理性认识。"
+      },
+      {
+        "label": "B",
+        "text": "有关战争指导的基本方针和原则是属于军事哲学范畴的问题。"
+      },
+      {
+        "label": "C",
+        "text": "军事思想作为一种独立的意识形态是从封建社会开始的。"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 96,
+    "type": "single",
+    "text": "以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军事思想是关于战争、军队和国防基本问题的理性认识。"
+      },
+      {
+        "label": "B",
+        "text": "有关战争指导的基本方针和原则是属于军事哲学范畴的问题。"
+      },
+      {
+        "label": "C",
+        "text": "军事思想作为一种独立的意识形态是从奴隶社会开始的。"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 98,
+    "type": "single",
+    "text": "古代军事思想的产生和发展主要集中在两个相对独立的区域，即( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国和欧洲"
+      },
+      {
+        "label": "B",
+        "text": "中国和地中海地区"
+      },
+      {
+        "label": "C",
+        "text": "亚洲和欧洲"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 99,
+    "type": "single",
+    "text": "( )是中国古代军事思想空前发展时期，涌现出许多杰出的军事家和军事著作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "公元前21世纪至公元前8世纪"
+      },
+      {
+        "label": "B",
+        "text": "公元前8世纪至公元前3世纪"
+      },
+      {
+        "label": "C",
+        "text": "公元前3世纪至1840年"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 100,
+    "type": "single",
+    "text": "( )是中国古代军事思想的丰富发展时期。",
+    "options": [
+      {
+        "label": "A",
+        "text": "公元前21世纪至公元前8世纪"
+      },
+      {
+        "label": "B",
+        "text": "公元前8世纪至公元前3世纪"
+      },
+      {
+        "label": "C",
+        "text": "公元前3世纪至1840年"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 101,
+    "type": "single",
+    "text": "外国古代军事思想起步较晚，在( )产生了丰富的古希腊和古罗马的军事思想。",
+    "options": [
+      {
+        "label": "A",
+        "text": "公元前21世纪至公元前8世纪"
+      },
+      {
+        "label": "B",
+        "text": "公元前8世纪至公元前5世纪"
+      },
+      {
+        "label": "C",
+        "text": "公元5世纪至1640年"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 102,
+    "type": "single",
+    "text": "( )提出了“社会达尔文主义”、“社会有机论”，把适者生存进化论应用于阶级斗争。",
+    "options": [
+      {
+        "label": "A",
+        "text": "斯宾塞"
+      },
+      {
+        "label": "B",
+        "text": "拉采尔"
+      },
+      {
+        "label": "C",
+        "text": "马汉"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 103,
+    "type": "single",
+    "text": "( )提出了“地理环境决定论”、“强存弱汰”的国际生活自然法则，认为一个“健全的国家机体”有权通过战争扩展自己的“生存空间”。",
+    "options": [
+      {
+        "label": "A",
+        "text": "斯宾塞"
+      },
+      {
+        "label": "B",
+        "text": "拉采尔"
+      },
+      {
+        "label": "C",
+        "text": "马汉"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 104,
+    "type": "single",
+    "text": "( )提出了“海权论”，认为谁控制了海洋方谁就能控制世界。",
+    "options": [
+      {
+        "label": "A",
+        "text": "斯宾塞"
+      },
+      {
+        "label": "B",
+        "text": "拉采尔"
+      },
+      {
+        "label": "C",
+        "text": "马汉"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 105,
+    "type": "single",
+    "text": "( )提出“大陆心脏论”，认为谁控制了东欧和中亚，谁就能控制世界。",
+    "options": [
+      {
+        "label": "A",
+        "text": "麦金德"
+      },
+      {
+        "label": "B",
+        "text": "鲁登道夫"
+      },
+      {
+        "label": "C",
+        "text": "杜黑"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 106,
+    "type": "single",
+    "text": "( )提出了“制空战”理论，认为空中力量在现代战争中有决定性作用，主张建立并优先发展独立的空军。",
+    "options": [
+      {
+        "label": "A",
+        "text": "鲁登道夫"
+      },
+      {
+        "label": "B",
+        "text": "杜黑"
+      },
+      {
+        "label": "C",
+        "text": "古德里安"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 107,
+    "type": "single",
+    "text": "( )提出“闪击战”理论，为希特勒发动第二次世界大战提供了理论基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "鲁登道夫"
+      },
+      {
+        "label": "B",
+        "text": "杜黑"
+      },
+      {
+        "label": "C",
+        "text": "古德里安"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 108,
+    "type": "single",
+    "text": "第二次世界大战结束到“冷战”结束前，美国的军事思想主要表现在:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“总体战争”思想"
+      },
+      {
+        "label": "B",
+        "text": "“地区战略威慑”思想"
+      },
+      {
+        "label": "C",
+        "text": "“核威慑条件下的常规战争”思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 109,
+    "type": "single",
+    "text": "第二次世界大战结束到“冷战”结束前，美国的军事思想主要表现在:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“多层次威慑”思想"
+      },
+      {
+        "label": "B",
+        "text": "“大战略”思想"
+      },
+      {
+        "label": "C",
+        "text": "“核威慑条件下的常规战争”思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 110,
+    "type": "single",
+    "text": "冷战结束以来，美国提出一些军事理论主要有:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“多层次威慑”思想"
+      },
+      {
+        "label": "B",
+        "text": "“总体战争”思想"
+      },
+      {
+        "label": "C",
+        "text": "“全球威慑”思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 111,
+    "type": "single",
+    "text": "冷战结束以来，美国提出一些军事理论主要有:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“多层次威慑”思想"
+      },
+      {
+        "label": "B",
+        "text": "“全球威慑”思想"
+      },
+      {
+        "label": "C",
+        "text": "“大战略”思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 112,
+    "type": "single",
+    "text": "冷战结束以来，美国提出一些军事理论主要有:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“全球威慑”思想"
+      },
+      {
+        "label": "B",
+        "text": "火箭核战略思想"
+      },
+      {
+        "label": "C",
+        "text": "“地区战略威慑”思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 113,
+    "type": "single",
+    "text": "20世纪80年代以来，美国的军事思想主要表现在:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "强调常规威慑"
+      },
+      {
+        "label": "B",
+        "text": "重视部队的精减和质量建军"
+      },
+      {
+        "label": "C",
+        "text": "提倡多国联盟的作战行动"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 114,
+    "type": "single",
+    "text": "20世纪80年代以来，美国的军事思想主要表现在:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "强调核威慑"
+      },
+      {
+        "label": "B",
+        "text": "重视部队的精减和质量建军"
+      },
+      {
+        "label": "C",
+        "text": "强调应急反应和快速部署"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 115,
+    "type": "single",
+    "text": "20世纪80年代以来，美国的军事思想主要表现在:以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "强调常规威慑"
+      },
+      {
+        "label": "B",
+        "text": "重视部队的精减和质量建军"
+      },
+      {
+        "label": "C",
+        "text": "强调应急反应和快速部署"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 116,
+    "type": "single",
+    "text": "( )提出了“战争无非是政治通过另一种手段的继续”的著名论断。",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思"
+      },
+      {
+        "label": "B",
+        "text": "克劳塞维茨"
+      },
+      {
+        "label": "C",
+        "text": "若米尼"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 117,
+    "type": "single",
+    "text": "( )是19世纪杰出的资产阶级军事理论家和军事历史学家，是举世公认的资产阶级军事理论的奠基人。",
+    "options": [
+      {
+        "label": "A",
+        "text": "马基雅弗利"
+      },
+      {
+        "label": "B",
+        "text": "克劳塞维茨"
+      },
+      {
+        "label": "C",
+        "text": "若米尼"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 118,
+    "type": "single",
+    "text": "克劳塞维茨最著名的代表作是( )，对世界军事学术的发展具有重大影响。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《战争论》"
+      },
+      {
+        "label": "B",
+        "text": "《论军事艺术》"
+      },
+      {
+        "label": "C",
+        "text": "《战争艺术概论》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 119,
+    "type": "single",
+    "text": "若米尼最著名的代表作是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《战争论》"
+      },
+      {
+        "label": "B",
+        "text": "《论军事艺术》"
+      },
+      {
+        "label": "C",
+        "text": "《战争艺术概论》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 120,
+    "type": "single",
+    "text": "( )这两部著作都是在总结拿破仑战争经验的基础上产生的，标志着欧洲和世界近代资产阶级军事思想体系的基本确立。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《战争论》和《论军事艺术》"
+      },
+      {
+        "label": "B",
+        "text": "《战争艺术概论》和《论军事艺术》"
+      },
+      {
+        "label": "C",
+        "text": "《战争论》和《战争艺术概论》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 121,
+    "type": "single",
+    "text": "( )指出:安国之道，先戒为宝。反映了中国古代兵家十分重视思想上的备战工作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《孙子兵法》"
+      },
+      {
+        "label": "B",
+        "text": "《孙膑兵法》"
+      },
+      {
+        "label": "C",
+        "text": "《吴子兵法》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 122,
+    "type": "single",
+    "text": "我国古代最早的兵书是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《军志》"
+      },
+      {
+        "label": "B",
+        "text": "《孙子兵法》"
+      },
+      {
+        "label": "C",
+        "text": "《孙膑兵法》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 123,
+    "type": "single",
+    "text": "我国古代最早的兵书是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《军政》"
+      },
+      {
+        "label": "B",
+        "text": "《孙子兵法》"
+      },
+      {
+        "label": "C",
+        "text": "《孙膑兵法》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 124,
+    "type": "single",
+    "text": "目前，( )是世界上现在最早的一部兵书。",
+    "options": [
+      {
+        "label": "A",
+        "text": "《军政》"
+      },
+      {
+        "label": "B",
+        "text": "《孙子兵法》"
+      },
+      {
+        "label": "C",
+        "text": "《孙膑兵法》"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 125,
+    "type": "single",
+    "text": "毛泽东在( )撰写了《关于纠正党内的错误思想》。",
+    "options": [
+      {
+        "label": "A",
+        "text": "土地革命战争时期"
+      },
+      {
+        "label": "B",
+        "text": "抗日战争时期"
+      },
+      {
+        "label": "C",
+        "text": "解放战争时期"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 126,
+    "type": "single",
+    "text": "毛泽东军事思想科学体系在( )建立。",
+    "options": [
+      {
+        "label": "A",
+        "text": "土地革命战争时期"
+      },
+      {
+        "label": "B",
+        "text": "抗日战争时期"
+      },
+      {
+        "label": "C",
+        "text": "解放战争时期"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 127,
+    "type": "single",
+    "text": "毛泽东在( )撰写了《中国革命战争的战略问题》。",
+    "options": [
+      {
+        "label": "A",
+        "text": "土地革命战争时期"
+      },
+      {
+        "label": "B",
+        "text": "抗日战争时期"
+      },
+      {
+        "label": "C",
+        "text": "解放战争时期"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 128,
+    "type": "single",
+    "text": "毛泽东在( )撰写了《论持久战》。",
+    "options": [
+      {
+        "label": "A",
+        "text": "土地革命战争时期"
+      },
+      {
+        "label": "B",
+        "text": "抗日战争时期"
+      },
+      {
+        "label": "C",
+        "text": "解放战争时期"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 129,
+    "type": "single",
+    "text": "（）是毛泽东研究和指导战争的基本立场、观点和方法。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无产阶级的战争观和方法论"
+      },
+      {
+        "label": "B",
+        "text": "人民军队思想"
+      },
+      {
+        "label": "C",
+        "text": "人民战争思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 130,
+    "type": "single",
+    "text": "（）揭示了中国革命战争的指导规律，是毛泽东军事思想的理论基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无产阶级的战争观和方法论"
+      },
+      {
+        "label": "B",
+        "text": "人民军队建设理论"
+      },
+      {
+        "label": "C",
+        "text": "人民战争思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 131,
+    "type": "single",
+    "text": "( )是共产党从事革命战争的根本指导思想，是毛泽东军事思想的核心。",
+    "options": [
+      {
+        "label": "A",
+        "text": "无产阶级的战争观和方法论"
+      },
+      {
+        "label": "B",
+        "text": "人民军队建设理论"
+      },
+      {
+        "label": "C",
+        "text": "人民战争思想"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 132,
+    "type": "single",
+    "text": "( )是适应人民战争需要的战略原则和作战方法，是人民战争取得胜利的保证。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民军队建设理论"
+      },
+      {
+        "label": "B",
+        "text": "人民战争思想"
+      },
+      {
+        "label": "C",
+        "text": "人民战争的战略战术"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 133,
+    "type": "single",
+    "text": "毛泽东把( )作为进行武装斗争的首要问题和实现革命理想的最主要手段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "创建武装部队"
+      },
+      {
+        "label": "B",
+        "text": "创建人民军队"
+      },
+      {
+        "label": "C",
+        "text": "人民战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 134,
+    "type": "single",
+    "text": "( )强调:“没有一个人民的军队，便没有人民的一切”。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "邓小平"
+      },
+      {
+        "label": "C",
+        "text": "江泽民"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 135,
+    "type": "single",
+    "text": "毛泽东的人民军队思想明确了人民军队的宗旨是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党对军队的绝对领导"
+      },
+      {
+        "label": "B",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "C",
+        "text": "密切联系群众"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 136,
+    "type": "single",
+    "text": "毛泽东的人民军队思想明确了( )是人民军队的生命线。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党对军队的绝对领导"
+      },
+      {
+        "label": "B",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "C",
+        "text": "政治工作"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 137,
+    "type": "single",
+    "text": "( )提出了“和平与发展”是当代世界两大主题的科学论断。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "习近平"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 138,
+    "type": "single",
+    "text": "( )做出了霸权主义是当代战争的主要根源的论断。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "邓小平"
+      },
+      {
+        "label": "C",
+        "text": "江泽民"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 139,
+    "type": "single",
+    "text": "( )是邓小平思考军队建设的出发点和落脚点，是他的基本思想。",
+    "options": [
+      {
+        "label": "A",
+        "text": "建设一支现代化、正规化的革命军队"
+      },
+      {
+        "label": "B",
+        "text": "注重质量建设，走精兵之路"
+      },
+      {
+        "label": "C",
+        "text": "加强和改进新时期政治工作"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 140,
+    "type": "single",
+    "text": "注重质量建设，走精兵之路，是( )思考军队建设的出发点和落脚点，是他的基本思想。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "胡锦涛"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 141,
+    "type": "single",
+    "text": "( )提出了“冷静观察，稳住阵脚，沉着应付，韬光养晦，善于藏拙，决不当头，有所为有所不为”的战略方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "胡锦涛"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 142,
+    "type": "single",
+    "text": "( )提出了国防建设必须服从国家经济建设在大局的方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "胡锦涛"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 143,
+    "type": "single",
+    "text": "( )提出了引进技术与自力更生相结合，发展国防科技的方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "胡锦涛"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 144,
+    "type": "single",
+    "text": "( )提出了军民兼容、平战结合，发展国防科技的方针。",
+    "options": [
+      {
+        "label": "A",
+        "text": "毛泽东"
+      },
+      {
+        "label": "B",
+        "text": "邓小平"
+      },
+      {
+        "label": "C",
+        "text": "江泽民"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 145,
+    "type": "single",
+    "text": "( )，成为江泽民国防与军队建设思想的两条主线。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“打得赢”“不变质”"
+      },
+      {
+        "label": "B",
+        "text": "“能打仗”“打胜仗”"
+      },
+      {
+        "label": "C",
+        "text": "“本领强”“作风优”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 146,
+    "type": "single",
+    "text": "( )高瞻远瞩地作出了积极推进中国特色军事变革的重大战略决策。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "胡锦涛"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 147,
+    "type": "single",
+    "text": "( )强调国防建设和经济建设要相互促进、协调发展，不能顾此失彼。",
+    "options": [
+      {
+        "label": "A",
+        "text": "邓小平"
+      },
+      {
+        "label": "B",
+        "text": "江泽民"
+      },
+      {
+        "label": "C",
+        "text": "胡锦涛"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 148,
+    "type": "single",
+    "text": "江泽民把( )确定为我军永远不变的军魂。",
+    "options": [
+      {
+        "label": "A",
+        "text": "党对军队的绝对领导"
+      },
+      {
+        "label": "B",
+        "text": "全心全意为人民服务"
+      },
+      {
+        "label": "C",
+        "text": "政治思想工作"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 149,
+    "type": "single",
+    "text": "( )提出以信息化带动机械化，以机械化促进信息化的跨越式发展道路，实现军队建设的整体转型。",
+    "options": [
+      {
+        "label": "A",
+        "text": "江泽民"
+      },
+      {
+        "label": "B",
+        "text": "胡锦涛"
+      },
+      {
+        "label": "C",
+        "text": "习近平"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 150,
+    "type": "single",
+    "text": "江泽民要求要在新时期军事战略方针指导下，立足打赢一场现代技术特别是( )条件下的局部战争。",
+    "options": [
+      {
+        "label": "A",
+        "text": "新技术"
+      },
+      {
+        "label": "B",
+        "text": "高技术"
+      },
+      {
+        "label": "C",
+        "text": "信息技术"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 151,
+    "type": "single",
+    "text": "江泽民指出:推进军队质量建设，必须实施( )战略。",
+    "options": [
+      {
+        "label": "A",
+        "text": "质量建军"
+      },
+      {
+        "label": "B",
+        "text": "精兵之路"
+      },
+      {
+        "label": "C",
+        "text": "科技强军"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 152,
+    "type": "single",
+    "text": "胡锦涛提出:军队要为维护国家利益提供有力的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "力量保证"
+      },
+      {
+        "label": "B",
+        "text": "安全保障"
+      },
+      {
+        "label": "C",
+        "text": "战略支撑"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 153,
+    "type": "single",
+    "text": "胡锦涛要求军队要以社会主义核心价值体系为引领，构建当代革命军人的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确的世界观"
+      },
+      {
+        "label": "B",
+        "text": "正确的价值观"
+      },
+      {
+        "label": "C",
+        "text": "核心价值观"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 154,
+    "type": "single",
+    "text": "胡锦涛提出，要加快推进( )，依靠科技进步实现战斗力生成模式的转变。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军事变革"
+      },
+      {
+        "label": "B",
+        "text": "新军事变革"
+      },
+      {
+        "label": "C",
+        "text": "中国特色军事变革"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 155,
+    "type": "single",
+    "text": "( )提出:要统筹经济建设和国防建设，在全面建设小康社会的进程中实现富国和强军的统一。",
+    "options": [
+      {
+        "label": "A",
+        "text": "江泽民"
+      },
+      {
+        "label": "B",
+        "text": "胡锦涛"
+      },
+      {
+        "label": "C",
+        "text": "习近平"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 156,
+    "type": "single",
+    "text": "习近平明确强国必须强军，( )实现伟大梦想的保底手段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治手段"
+      },
+      {
+        "label": "B",
+        "text": "经济手段"
+      },
+      {
+        "label": "C",
+        "text": "军事手段"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 157,
+    "type": "single",
+    "text": "( )明确党在新时代的强军目标是建设一支听党指挥、能打胜仗、作风优良的人民军队。",
+    "options": [
+      {
+        "label": "A",
+        "text": "江泽民"
+      },
+      {
+        "label": "B",
+        "text": "胡锦涛"
+      },
+      {
+        "label": "C",
+        "text": "习近平"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 158,
+    "type": "single",
+    "text": "习近平强军目标是力争到( )基本实现国防和军队现代化。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2025年"
+      },
+      {
+        "label": "B",
+        "text": "2035年"
+      },
+      {
+        "label": "C",
+        "text": "本世纪中叶"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 159,
+    "type": "single",
+    "text": "习近平强军目标是到( )把人民军队全面建成世界一流军队。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2025年"
+      },
+      {
+        "label": "B",
+        "text": "2035年"
+      },
+      {
+        "label": "C",
+        "text": "本世纪中叶"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 160,
+    "type": "single",
+    "text": "( )明确军队是要准备打仗的，必须聚焦能打仗、打胜仗。",
+    "options": [
+      {
+        "label": "A",
+        "text": "江泽民"
+      },
+      {
+        "label": "B",
+        "text": "胡锦涛"
+      },
+      {
+        "label": "C",
+        "text": "习近平"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 161,
+    "type": "single",
+    "text": "现代战争的特点是( )对战争的约束力增强，战争的目的、规模受到严格限制。",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治"
+      },
+      {
+        "label": "B",
+        "text": "经济"
+      },
+      {
+        "label": "C",
+        "text": "科技"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 162,
+    "type": "single",
+    "text": "现代战争的特点是战争力量及其运用的整体性增强，战争更多地表现为( )的对抗，从而使系统化、一体化成为军队战斗力的倍增器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "平台与平台"
+      },
+      {
+        "label": "B",
+        "text": "系统与系统"
+      },
+      {
+        "label": "C",
+        "text": "武器与体系"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 163,
+    "type": "single",
+    "text": "以下现代战争的特点表述不准确的是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "战争对抗中心转移，作战样式明显减少"
+      },
+      {
+        "label": "B",
+        "text": "战争消耗剧增，更加依赖于经济实力"
+      },
+      {
+        "label": "C",
+        "text": "战争牵动面大，容易导致“国际化”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 164,
+    "type": "single",
+    "text": "( )引发了战争形态的变化，这个时期的战争被称为机械化战争。",
+    "options": [
+      {
+        "label": "A",
+        "text": "第一次工业革命"
+      },
+      {
+        "label": "B",
+        "text": "第二次工业革命"
+      },
+      {
+        "label": "C",
+        "text": "第三次工业革命"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 165,
+    "type": "single",
+    "text": "二战后期，( )发明并使用了导弹，为人类向外层空间发展奠定了基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "前苏联"
+      },
+      {
+        "label": "C",
+        "text": "德国"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 166,
+    "type": "single",
+    "text": "世界主要军事大国受( )的启发，纷纷加入新军事革命行列。",
+    "options": [
+      {
+        "label": "A",
+        "text": "英阿马岛战争"
+      },
+      {
+        "label": "B",
+        "text": "海湾战争"
+      },
+      {
+        "label": "C",
+        "text": "伊拉克战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 167,
+    "type": "single",
+    "text": "新军事革命的发展趋势是军事技术形态正在向( )的方向发展。",
+    "options": [
+      {
+        "label": "A",
+        "text": "智能化、网络化、微型化、高超声速化"
+      },
+      {
+        "label": "B",
+        "text": "智能化、网络化、微型化、太空化"
+      },
+      {
+        "label": "C",
+        "text": "智能化、网络化、微型化、无人化"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 168,
+    "type": "single",
+    "text": "美军计划到( )左右全面完成C 4KISR系统建设。",
+    "options": [
+      {
+        "label": "A",
+        "text": "2025年"
+      },
+      {
+        "label": "B",
+        "text": "2030年"
+      },
+      {
+        "label": "C",
+        "text": "2035年"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 169,
+    "type": "single",
+    "text": "目前，全球有( )多个国家具有开发网络武器的能力。",
+    "options": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "50"
+      },
+      {
+        "label": "C",
+        "text": "100"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 170,
+    "type": "single",
+    "text": "( )已成功进行50多次导弹拦截试验和数次电磁轨道炮试射。",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "俄罗斯"
+      },
+      {
+        "label": "C",
+        "text": "中国"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 171,
+    "type": "single",
+    "text": "新军事革命发展的趋势是军事组织形态正在向( )的方向发展。",
+    "options": [
+      {
+        "label": "A",
+        "text": "优化结构、减员增效、模块组合、一体化"
+      },
+      {
+        "label": "B",
+        "text": "优化结构、减员增效、模块组合、“去重型化”"
+      },
+      {
+        "label": "C",
+        "text": "优化结构、减员增效、合成高效、“去重型化”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 172,
+    "type": "single",
+    "text": "2008年12月我国试射了094型晋级潜艇( )洲际反卫星弹道导弹，展示了我军在未来信息化战争中较强的战略核反击能力。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“巨浪-1”型"
+      },
+      {
+        "label": "B",
+        "text": "“巨浪-2”型"
+      },
+      {
+        "label": "C",
+        "text": "“巨浪-3”型"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 173,
+    "type": "single",
+    "text": "( )时期，机械化战争已经发展至成熟阶段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "第一次世界大战"
+      },
+      {
+        "label": "B",
+        "text": "第二次世界大战"
+      },
+      {
+        "label": "C",
+        "text": "朝鲜战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 174,
+    "type": "single",
+    "text": "( )是工业时代社会生产力和军队战斗力水平的主要标志。",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械化"
+      },
+      {
+        "label": "B",
+        "text": "摩托化"
+      },
+      {
+        "label": "C",
+        "text": "自动化"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 175,
+    "type": "single",
+    "text": "第一次世界大战削弱了( )的力量，从根本上动摇了它的优势地位。",
+    "options": [
+      {
+        "label": "A",
+        "text": "英国"
+      },
+      {
+        "label": "B",
+        "text": "欧洲"
+      },
+      {
+        "label": "C",
+        "text": "俄罗斯"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 176,
+    "type": "single",
+    "text": "第一次世界大战共有( )个国家卷入战争，战火遍及欧洲、非洲和亚洲。",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "23"
+      },
+      {
+        "label": "C",
+        "text": "33"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 177,
+    "type": "single",
+    "text": "第一次世界大战中，航空兵在战争初期主要用于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "侦察"
+      },
+      {
+        "label": "B",
+        "text": "空战"
+      },
+      {
+        "label": "C",
+        "text": "攻击对方地面部队"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 178,
+    "type": "single",
+    "text": "第一次世界大战中，航空兵在战争中期主要用于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "侦察"
+      },
+      {
+        "label": "B",
+        "text": "空战"
+      },
+      {
+        "label": "C",
+        "text": "攻击对方地面部队"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 179,
+    "type": "single",
+    "text": "第一次世界大战中，航空兵在战争后期主要用于( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "侦察"
+      },
+      {
+        "label": "B",
+        "text": "空战"
+      },
+      {
+        "label": "C",
+        "text": "攻击对方地面部队"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 180,
+    "type": "single",
+    "text": "第二次世界大战的胜利，彻底粉碎了( )通过战争称霸世界的野心。",
+    "options": [
+      {
+        "label": "A",
+        "text": "殖民主义和军国主义"
+      },
+      {
+        "label": "B",
+        "text": "法西斯主义和军国主义"
+      },
+      {
+        "label": "C",
+        "text": "殖民主义和法西斯主义"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 181,
+    "type": "single",
+    "text": "在机械化战争中，( )是起决定作用的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质"
+      },
+      {
+        "label": "B",
+        "text": "物质和能量"
+      },
+      {
+        "label": "C",
+        "text": "信息"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 182,
+    "type": "single",
+    "text": "在信息化战争中( )是起决定作用的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质"
+      },
+      {
+        "label": "B",
+        "text": "能量"
+      },
+      {
+        "label": "C",
+        "text": "信息"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 183,
+    "type": "single",
+    "text": "信息化战争的鲜明标志是以( )为主导。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息技术"
+      },
+      {
+        "label": "B",
+        "text": "信息资源"
+      },
+      {
+        "label": "C",
+        "text": "信息网络"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 184,
+    "type": "single",
+    "text": "信息化战争的鲜明标志是以( )为基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息技术"
+      },
+      {
+        "label": "B",
+        "text": "信息资源"
+      },
+      {
+        "label": "C",
+        "text": "信息网络"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 185,
+    "type": "single",
+    "text": "信息化战争的鲜明标志是以( )为支撑。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息化武器"
+      },
+      {
+        "label": "B",
+        "text": "信息人才"
+      },
+      {
+        "label": "C",
+        "text": "信息化作战理论"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 186,
+    "type": "single",
+    "text": "信息化战争的性质是( )",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息对抗"
+      },
+      {
+        "label": "B",
+        "text": "体系对抗"
+      },
+      {
+        "label": "C",
+        "text": "政治的继续"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 187,
+    "type": "single",
+    "text": "信息化战争中，及时掌握( )成为作战行动的前提，是战斗力的倍增器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "制信息权"
+      },
+      {
+        "label": "B",
+        "text": "制电磁权"
+      },
+      {
+        "label": "C",
+        "text": "制网络权"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 188,
+    "type": "single",
+    "text": "信息化战争的基本特征是武器装备系统的高度( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "智能化"
+      },
+      {
+        "label": "B",
+        "text": "信息化"
+      },
+      {
+        "label": "C",
+        "text": "数字化"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 189,
+    "type": "single",
+    "text": "伊拉克战争中，美国为了夺取信息资源，在2万米高空部署了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "U-2侦察机"
+      },
+      {
+        "label": "B",
+        "text": "E-3预警机"
+      },
+      {
+        "label": "C",
+        "text": "“捕食者”无人机"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 190,
+    "type": "single",
+    "text": "伊拉克战争中，美国为了夺取信息资源，在2万米高空部署了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“全球鹰”无人机"
+      },
+      {
+        "label": "B",
+        "text": "E-8预警机"
+      },
+      {
+        "label": "C",
+        "text": "“捕食者”无人机"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 191,
+    "type": "single",
+    "text": "伊拉克战争中，美国为了夺取信息资源，在1万米高空部署了( )。（0.4）",
+    "options": [
+      {
+        "label": "A",
+        "text": "U-2侦察机"
+      },
+      {
+        "label": "B",
+        "text": "E-8预警机"
+      },
+      {
+        "label": "C",
+        "text": "“捕食者”无人机"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 192,
+    "type": "single",
+    "text": "伊拉克战争中，美国为了夺取信息资源，在1万米高空部署了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“全球鹰”无人机"
+      },
+      {
+        "label": "B",
+        "text": "E-8预警机"
+      },
+      {
+        "label": "C",
+        "text": "“捕食者”无人机"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 193,
+    "type": "single",
+    "text": "伊拉克战争中，美国为了夺取信息资源，在6000米空中部署了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "U-2侦察机"
+      },
+      {
+        "label": "B",
+        "text": "E-8预警机"
+      },
+      {
+        "label": "C",
+        "text": "“捕食者”无人机"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 194,
+    "type": "single",
+    "text": "伊拉克战争中，美国为了夺取信息资源，在6000米空中部署了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“全球鹰”无人机"
+      },
+      {
+        "label": "B",
+        "text": "E-8预警机"
+      },
+      {
+        "label": "C",
+        "text": "“捕食者”无人机"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 195,
+    "type": "single",
+    "text": "以下信息化战争基本特征表述不准确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息化战争的作战节奏和作战速度大大提高"
+      },
+      {
+        "label": "B",
+        "text": "信息化战争持续时间明显缩短"
+      },
+      {
+        "label": "C",
+        "text": "非对称作战成为信息化战争的主要样式"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 196,
+    "type": "single",
+    "text": "( )是一场典型的非接触作战。",
+    "options": [
+      {
+        "label": "A",
+        "text": "科索沃战争"
+      },
+      {
+        "label": "B",
+        "text": "阿富汗战争"
+      },
+      {
+        "label": "C",
+        "text": "伊拉克战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 197,
+    "type": "single",
+    "text": "海湾战争中，智能化的( )，成为战场火力摧毁的主要手段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电子战武器"
+      },
+      {
+        "label": "B",
+        "text": "精确制导武器"
+      },
+      {
+        "label": "C",
+        "text": "信息化武器"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 198,
+    "type": "single",
+    "text": "海湾战争中，多国部队以( )为主要形式的战场信息对抗优势，是夺取战场主动权的关键。",
+    "options": [
+      {
+        "label": "A",
+        "text": "情报战"
+      },
+      {
+        "label": "B",
+        "text": "电子战"
+      },
+      {
+        "label": "C",
+        "text": "信息战"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 199,
+    "type": "single",
+    "text": "( )表现出了较强的信息化战争特征，被称作是“信息化战争的雏形”。",
+    "options": [
+      {
+        "label": "A",
+        "text": "海湾战争"
+      },
+      {
+        "label": "B",
+        "text": "科索沃战争"
+      },
+      {
+        "label": "C",
+        "text": "伊拉克战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 200,
+    "type": "single",
+    "text": "( )是在战区外指挥的规模较大的局部战争，以远距离非接触精确作战为主要作战方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "阿富汗战争"
+      },
+      {
+        "label": "B",
+        "text": "科索沃战争"
+      },
+      {
+        "label": "C",
+        "text": "伊拉克战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 201,
+    "type": "single",
+    "text": "( )是人类历史上第一次仅以空军进行轰炸而没有使用地面部队的战争。",
+    "options": [
+      {
+        "label": "A",
+        "text": "阿富汗战争"
+      },
+      {
+        "label": "B",
+        "text": "科索沃战争"
+      },
+      {
+        "label": "C",
+        "text": "伊拉克战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 202,
+    "type": "single",
+    "text": "科索沃战争期间，北约频繁使用精确制导武器对南联盟轰炸，使用的精确制导弹药占总弹药量的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "35%"
+      },
+      {
+        "label": "B",
+        "text": "65%"
+      },
+      {
+        "label": "C",
+        "text": "98%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 203,
+    "type": "single",
+    "text": "科索沃战争初期，北约频繁使用精确制导武器对南联盟轰炸，使用的精确制导弹药占总弹药量的( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "35%"
+      },
+      {
+        "label": "B",
+        "text": "65%"
+      },
+      {
+        "label": "C",
+        "text": "98%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 204,
+    "type": "single",
+    "text": "科索沃战争中，南联盟取得了击落一架( )隐形战斗机的重大成果。",
+    "options": [
+      {
+        "label": "A",
+        "text": "F-22"
+      },
+      {
+        "label": "B",
+        "text": "F-117A"
+      },
+      {
+        "label": "C",
+        "text": "F-35"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 205,
+    "type": "single",
+    "text": "科索沃战争中，北约军队电子战飞机出动的架次占飞机出动总量的( )以上。",
+    "options": [
+      {
+        "label": "A",
+        "text": "40%"
+      },
+      {
+        "label": "B",
+        "text": "50%"
+      },
+      {
+        "label": "C",
+        "text": "60%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 206,
+    "type": "single",
+    "text": "计算机网络战在( )中有了广泛运用。",
+    "options": [
+      {
+        "label": "A",
+        "text": "海湾战争"
+      },
+      {
+        "label": "B",
+        "text": "科索沃战争"
+      },
+      {
+        "label": "C",
+        "text": "伊拉克战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 207,
+    "type": "single",
+    "text": "伊拉克战争中，美国陆军武器装备的信息化程度达到了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "50%"
+      },
+      {
+        "label": "B",
+        "text": "60%"
+      },
+      {
+        "label": "C",
+        "text": "70%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 208,
+    "type": "single",
+    "text": "伊拉克战争中，美国海军武器装备的信息化程度达到了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "50%"
+      },
+      {
+        "label": "B",
+        "text": "60%"
+      },
+      {
+        "label": "C",
+        "text": "70%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 209,
+    "type": "single",
+    "text": "伊拉克战争中，美国空间系统的信息化程度达到了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "70%"
+      },
+      {
+        "label": "B",
+        "text": "80%"
+      },
+      {
+        "label": "C",
+        "text": "90%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 210,
+    "type": "single",
+    "text": "伊拉克战争中，美国空间系统的信息化程度达到了( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "70%"
+      },
+      {
+        "label": "B",
+        "text": "80%"
+      },
+      {
+        "label": "C",
+        "text": "90%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 211,
+    "type": "single",
+    "text": "伊拉克战争中，总共有( )多颗卫星参与其中，担负了大部分的信息侦察、传输和导航等任务。",
+    "options": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "200"
+      },
+      {
+        "label": "C",
+        "text": "300"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 212,
+    "type": "single",
+    "text": "伊拉克战争期间，美军( )以上的通信是靠卫星来完成的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "70%"
+      },
+      {
+        "label": "B",
+        "text": "80%"
+      },
+      {
+        "label": "C",
+        "text": "90%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 213,
+    "type": "single",
+    "text": "伊拉克战争期间，美军( )以上的精确制导武器都是靠GPS制导的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "70%"
+      },
+      {
+        "label": "B",
+        "text": "80%"
+      },
+      {
+        "label": "C",
+        "text": "90%"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 214,
+    "type": "single",
+    "text": "伊拉克战争表明，( )等超视距的远距离多维力量联合攻击已成为基本的行动方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "电子战、导弹战"
+      },
+      {
+        "label": "B",
+        "text": "网络战、信息战"
+      },
+      {
+        "label": "C",
+        "text": "电子战、信息战"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 215,
+    "type": "single",
+    "text": "信息化战争的发展趋势是( )成为战斗力的关键物质基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息化武器装备"
+      },
+      {
+        "label": "B",
+        "text": "信息系统"
+      },
+      {
+        "label": "C",
+        "text": "信息能力"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 216,
+    "type": "single",
+    "text": "信息化战争的发展趋势是基于( )的体系作战能力成为战斗力的基本形态。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息化武器装备"
+      },
+      {
+        "label": "B",
+        "text": "信息系统"
+      },
+      {
+        "label": "C",
+        "text": "信息能力"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 217,
+    "type": "single",
+    "text": "以下信息化战争发展趋势表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "战争主体向多元化方向发展"
+      },
+      {
+        "label": "B",
+        "text": "非接触现象越来越突出"
+      },
+      {
+        "label": "C",
+        "text": "战争整体时间将拉长"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 218,
+    "type": "single",
+    "text": "( )是实施一体化联合作战的物质基础。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息化作战平台"
+      },
+      {
+        "label": "B",
+        "text": "信息化弹药"
+      },
+      {
+        "label": "C",
+        "text": "信息化装备"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 219,
+    "type": "single",
+    "text": "现代局部战争表明，( )已经成为衡量武器装备性能高低的重要指标。",
+    "options": [
+      {
+        "label": "A",
+        "text": "武器装备的信息化程度"
+      },
+      {
+        "label": "B",
+        "text": "武器装备的自动化程度"
+      },
+      {
+        "label": "C",
+        "text": "武器装备的智能化程度"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 220,
+    "type": "single",
+    "text": "信息化装备对作战指挥的影响，以下表述不准确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "为指挥人员带来了全新的指挥手段"
+      },
+      {
+        "label": "B",
+        "text": "信息战将成为保障军队指挥畅通的基本手段"
+      },
+      {
+        "label": "C",
+        "text": "对指挥人员的综合素质提出了更高的要求。"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 221,
+    "type": "single",
+    "text": "( )是20世纪60年代发展起来的一项重要军事高技术，是一个国家军队现代化建设水平高低的主要标志。",
+    "options": [
+      {
+        "label": "A",
+        "text": "精确制导技术"
+      },
+      {
+        "label": "B",
+        "text": "指挥控制技术"
+      },
+      {
+        "label": "C",
+        "text": "信息技术"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 222,
+    "type": "single",
+    "text": "在现代战场上，( )既是维系军队整体作战的神经中枢又是“战斗力的倍增器”。",
+    "options": [
+      {
+        "label": "A",
+        "text": "军队指挥自动化系统"
+      },
+      {
+        "label": "B",
+        "text": "单兵数字化系统"
+      },
+      {
+        "label": "C",
+        "text": "综合电子信息系统"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 223,
+    "type": "single",
+    "text": "( )的发展，为提高军队指挥自动化系统的可靠性提供了技术保障。",
+    "options": [
+      {
+        "label": "A",
+        "text": "计算机技术"
+      },
+      {
+        "label": "B",
+        "text": "光电子技术"
+      },
+      {
+        "label": "C",
+        "text": "微电子技术"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 224,
+    "type": "single",
+    "text": "在军队指挥自动化系统发展方面，美国正在大力开发( )系统。",
+    "options": [
+      {
+        "label": "A",
+        "text": "C 3I"
+      },
+      {
+        "label": "B",
+        "text": "C 4I"
+      },
+      {
+        "label": "C",
+        "text": "C 4ISR"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 225,
+    "type": "single",
+    "text": "信息化装备的发展趋势是远程精确打击兵器新型号层出不穷，精确制导弹药正向( )方向发展。",
+    "options": [
+      {
+        "label": "A",
+        "text": "智能化、多功能化"
+      },
+      {
+        "label": "B",
+        "text": "隐形化、信息化"
+      },
+      {
+        "label": "C",
+        "text": "智能化、一体化"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 226,
+    "type": "single",
+    "text": "( )已成为现代战争中实施精确作战的基本毁伤手段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "精确制导弹药"
+      },
+      {
+        "label": "B",
+        "text": "导弹"
+      },
+      {
+        "label": "C",
+        "text": "制导炸弹"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 227,
+    "type": "single",
+    "text": "信息化装备的发展趋势是作战平台正在向( )方向发展。",
+    "options": [
+      {
+        "label": "A",
+        "text": "智能化、多功能化"
+      },
+      {
+        "label": "B",
+        "text": "信息化、隐形化和多功能化"
+      },
+      {
+        "label": "C",
+        "text": "一体化"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 228,
+    "type": "single",
+    "text": "信息化装备的发展趋势是防空和反导武器正在向( )方向发展。",
+    "options": [
+      {
+        "label": "A",
+        "text": "智能化、多功能化"
+      },
+      {
+        "label": "B",
+        "text": "信息化、隐形化和多功能化"
+      },
+      {
+        "label": "C",
+        "text": "一体化"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 229,
+    "type": "single",
+    "text": "( )是世界上第一种进入服役的第五代战斗机。",
+    "options": [
+      {
+        "label": "A",
+        "text": "F-22"
+      },
+      {
+        "label": "B",
+        "text": "苏-57"
+      },
+      {
+        "label": "C",
+        "text": "歼-20"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 230,
+    "type": "single",
+    "text": "( )是最先进的数字化坦克。",
+    "options": [
+      {
+        "label": "A",
+        "text": "M1A2坦克"
+      },
+      {
+        "label": "B",
+        "text": "豹2型主战坦克"
+      },
+      {
+        "label": "C",
+        "text": "99式主战坦克"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 231,
+    "type": "single",
+    "text": "( )战略导弹核潜艇是目前美国海军最先进的战略核潜艇。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“俄亥俄”级"
+      },
+      {
+        "label": "B",
+        "text": "“洛杉矶”级"
+      },
+      {
+        "label": "C",
+        "text": "“弗吉尼亚”级"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 232,
+    "type": "single",
+    "text": "( )被称为“兵力倍增器”“现代战争的效率之神”。",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息化武器装备"
+      },
+      {
+        "label": "B",
+        "text": "信息化作战平台"
+      },
+      {
+        "label": "C",
+        "text": "军队指挥自动化系统"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 233,
+    "type": "single",
+    "text": "( )是军事指挥员不可或缺的“千里眼”“顺风耳”，是获取对方信息的主要技术手段。",
+    "options": [
+      {
+        "label": "A",
+        "text": "预警系统"
+      },
+      {
+        "label": "B",
+        "text": "侦察系统"
+      },
+      {
+        "label": "C",
+        "text": "监视系统"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 234,
+    "type": "single",
+    "text": "以下表述不正确的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "定向能武器对卫星和导弹只可进行软杀伤"
+      },
+      {
+        "label": "B",
+        "text": "定向能武器没有后座力"
+      },
+      {
+        "label": "C",
+        "text": "定向能武器一般只对目标本身或其中某一部位造成破坏"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 235,
+    "type": "single",
+    "text": "以下属于定向能武器的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高功率微波武器"
+      },
+      {
+        "label": "B",
+        "text": "动能拦截弹"
+      },
+      {
+        "label": "C",
+        "text": "电磁炮"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 236,
+    "type": "single",
+    "text": "以下属于定向能武器的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "激光武器"
+      },
+      {
+        "label": "B",
+        "text": "动能拦截弹"
+      },
+      {
+        "label": "C",
+        "text": "电磁炮"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 237,
+    "type": "single",
+    "text": "以下属于动能武器的是( )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "激光武器"
+      },
+      {
+        "label": "B",
+        "text": "群射火箭"
+      },
+      {
+        "label": "C",
+        "text": "粒子束武器"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 238,
+    "type": "single",
+    "text": "( )开创了世界上首次用地空导弹击落飞机的精彩战例。",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "前苏联"
+      },
+      {
+        "label": "C",
+        "text": "中国"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 239,
+    "type": "single",
+    "text": "( )，开创了以导弹打导弹的先河。",
+    "options": [
+      {
+        "label": "A",
+        "text": "海湾战争"
+      },
+      {
+        "label": "B",
+        "text": "科索沃战争"
+      },
+      {
+        "label": "C",
+        "text": "伊拉克战争"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  },
+  {
+    "course": "军事理论",
+    "topic": "军事理论作业",
+    "number": 240,
+    "type": "single",
+    "text": "在越南战争中，美军大量使用了( )反辐射导弹。",
+    "options": [
+      {
+        "label": "A",
+        "text": "“响尾蛇”"
+      },
+      {
+        "label": "B",
+        "text": "“百舌鸟”"
+      },
+      {
+        "label": "C",
+        "text": "“麻雀”"
+      }
+    ],
+    "answer": "",
+    "source": "军事理论作业（习题25.03）.doc",
+    "subtopic": ""
+  }
+]);
+
+window.QUESTION_BANK = window.QUESTION_BANK.concat([
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 1,
+    "type": "single",
+    "text": "在下列四句话中，最能准确反映计算机主要功能的是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "计算机可以存储大量信息"
+      },
+      {
+        "label": "B",
+        "text": "计算机能代替人的脑力劳动"
+      },
+      {
+        "label": "C",
+        "text": "计算机是一种信息处理机"
+      },
+      {
+        "label": "D",
+        "text": "计算机可实现高速运算"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 2,
+    "type": "single",
+    "text": "计算机硬件能直接执行的只能是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "符号语言"
+      },
+      {
+        "label": "B",
+        "text": "汇编语言"
+      },
+      {
+        "label": "C",
+        "text": "机器语言"
+      },
+      {
+        "label": "D",
+        "text": "机器语言和汇编语言"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 3,
+    "type": "single",
+    "text": "运算器的核心部件是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据总线"
+      },
+      {
+        "label": "B",
+        "text": "数据选择器"
+      },
+      {
+        "label": "C",
+        "text": "算术逻辑运算部件"
+      },
+      {
+        "label": "D",
+        "text": "累加寄存器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 4,
+    "type": "single",
+    "text": "对于存储器主要作用，下面哪项说法正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放程序"
+      },
+      {
+        "label": "B",
+        "text": "存放数据"
+      },
+      {
+        "label": "C",
+        "text": "存放程序和数据"
+      },
+      {
+        "label": "D",
+        "text": "存放微程序"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 5,
+    "type": "single",
+    "text": "至今为止，计算机中所含所有信息仍以二进制方式表示，其原因是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "节约元件"
+      },
+      {
+        "label": "B",
+        "text": "运算速度快"
+      },
+      {
+        "label": "C",
+        "text": "物理器件性能决定"
+      },
+      {
+        "label": "D",
+        "text": "信息处理方便"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 6,
+    "type": "single",
+    "text": "CPU中有若干寄存器，其中存放存储器中数据的寄存器是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址寄存器"
+      },
+      {
+        "label": "B",
+        "text": "程序计数器"
+      },
+      {
+        "label": "C",
+        "text": "数据寄存器"
+      },
+      {
+        "label": "D",
+        "text": "指令寄存器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 7,
+    "type": "single",
+    "text": "CPU中有若干寄存器，其中存放机器指令的寄存器是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址寄存器"
+      },
+      {
+        "label": "B",
+        "text": "程序计数器"
+      },
+      {
+        "label": "C",
+        "text": "指令寄存器"
+      },
+      {
+        "label": "D",
+        "text": "数据寄存器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 8,
+    "type": "single",
+    "text": "CPU中有若干寄存器，存放CPU将要执行的下一条指令地址的寄存器是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址寄存器"
+      },
+      {
+        "label": "B",
+        "text": "数据寄存器"
+      },
+      {
+        "label": "C",
+        "text": "程序计数器"
+      },
+      {
+        "label": "D",
+        "text": "指令寄存器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 9,
+    "type": "single",
+    "text": "CPU中程序状态寄存器中的各个状态标志位是依据下面哪项来置位的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU已执行的指令"
+      },
+      {
+        "label": "B",
+        "text": "CPU将要执行的指令"
+      },
+      {
+        "label": "C",
+        "text": "算术逻辑部件上次的运算结果"
+      },
+      {
+        "label": "D",
+        "text": "累加器中的数据"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 10,
+    "type": "single",
+    "text": "为协调计算机各部件的工作，需要下面哪项来提供统一的时钟。",
+    "options": [
+      {
+        "label": "A",
+        "text": "总线缓冲器"
+      },
+      {
+        "label": "B",
+        "text": "时钟发生器"
+      },
+      {
+        "label": "C",
+        "text": "总线控制器"
+      },
+      {
+        "label": "D",
+        "text": "操作命令发生器"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 11,
+    "type": "single",
+    "text": "下列各种数制的数中最小的数是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（101001）₂"
+      },
+      {
+        "label": "B",
+        "text": "（52）₈"
+      },
+      {
+        "label": "C",
+        "text": "（101001）BCD"
+      },
+      {
+        "label": "D",
+        "text": "（233）H"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 12,
+    "type": "single",
+    "text": "下列各种数制的数中最大的数是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（1001011）₂"
+      },
+      {
+        "label": "B",
+        "text": "75"
+      },
+      {
+        "label": "C",
+        "text": "（112）₈"
+      },
+      {
+        "label": "D",
+        "text": "（4F）H"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 13,
+    "type": "single",
+    "text": "将十进制数15/2表示成二进制浮点规格化数（阶符1位，阶码2位，数符1位，尾数4位）是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "01101110"
+      },
+      {
+        "label": "B",
+        "text": "01101111"
+      },
+      {
+        "label": "C",
+        "text": "01111111"
+      },
+      {
+        "label": "D",
+        "text": "11111111"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 14,
+    "type": "single",
+    "text": "能发现两位错误并能纠正一位错的编码是下面哪种编码。",
+    "options": [
+      {
+        "label": "A",
+        "text": "海明码"
+      },
+      {
+        "label": "B",
+        "text": "CRC码"
+      },
+      {
+        "label": "C",
+        "text": "偶校验码"
+      },
+      {
+        "label": "D",
+        "text": "奇校验码"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 15,
+    "type": "single",
+    "text": "假定下列字符码中有奇偶校验位，但没有数据错误，采用偶校验的字符码是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "11001011"
+      },
+      {
+        "label": "B",
+        "text": "11010110"
+      },
+      {
+        "label": "C",
+        "text": "11000001"
+      },
+      {
+        "label": "D",
+        "text": "11001001"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 16,
+    "type": "single",
+    "text": "下列存储器中，速度最慢的是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "半导体存储器"
+      },
+      {
+        "label": "B",
+        "text": "光盘存储器"
+      },
+      {
+        "label": "C",
+        "text": "磁带存储器"
+      },
+      {
+        "label": "D",
+        "text": "硬盘存储器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 17,
+    "type": "single",
+    "text": "某一SRAM芯片，容量为16K×1位，则其地址线条数下面哪项正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "18根"
+      },
+      {
+        "label": "B",
+        "text": "16K根"
+      },
+      {
+        "label": "C",
+        "text": "14根"
+      },
+      {
+        "label": "D",
+        "text": "22根"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 18,
+    "type": "single",
+    "text": "下列部件（设备）中，存取速度最快的是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "光盘存储器"
+      },
+      {
+        "label": "B",
+        "text": "CPU的寄存器"
+      },
+      {
+        "label": "C",
+        "text": "软盘存储器"
+      },
+      {
+        "label": "D",
+        "text": "硬盘存储器"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 19,
+    "type": "single",
+    "text": "在主存和CPU之间增加Cache的目的是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "解决CPU和主存之间的速度匹配"
+      },
+      {
+        "label": "B",
+        "text": "增加CPU中通用寄存器的数量"
+      },
+      {
+        "label": "C",
+        "text": "代替CPU中的寄存器工作"
+      },
+      {
+        "label": "D",
+        "text": "扩大主存的容量"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 20,
+    "type": "single",
+    "text": "计算机的存储器采用分级存储体系的目的是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "便于读写数据"
+      },
+      {
+        "label": "B",
+        "text": "减小机箱的体积"
+      },
+      {
+        "label": "C",
+        "text": "便于系统升级"
+      },
+      {
+        "label": "D",
+        "text": "解决存储容量、价格与存取速度间的矛盾"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 21,
+    "type": "single",
+    "text": "某SRAM芯片，其容量为1K×8位，加上电源端和接地端后，该芯片的引出线的最少数目下面哪项正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "24"
+      },
+      {
+        "label": "C",
+        "text": "50"
+      },
+      {
+        "label": "D",
+        "text": "30"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 22,
+    "type": "single",
+    "text": "常用的虚拟存储器由两级存储器组成，下面哪项说法正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "主存-辅存"
+      },
+      {
+        "label": "B",
+        "text": "快存-主存"
+      },
+      {
+        "label": "C",
+        "text": "快存-辅存"
+      },
+      {
+        "label": "D",
+        "text": "通用寄存器-主存"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 23,
+    "type": "single",
+    "text": "在Cache的地址映射中，若主存中的任意一块均可映射到Cache内的任意一块的位置上，下面哪项符合这种特点。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接映射"
+      },
+      {
+        "label": "B",
+        "text": "全相联映射"
+      },
+      {
+        "label": "C",
+        "text": "组相联映射"
+      },
+      {
+        "label": "D",
+        "text": "混合映射"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 24,
+    "type": "single",
+    "text": "指令系统中采用不同寻址方式的目的主要是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现程序控制和快速查找存储器地址"
+      },
+      {
+        "label": "B",
+        "text": "缩短指令长度，扩大寻址空间，提高编程灵活性"
+      },
+      {
+        "label": "C",
+        "text": "可以直接访问主存和外存"
+      },
+      {
+        "label": "D",
+        "text": "降低指令译码难度"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 25,
+    "type": "single",
+    "text": "CPU组成中不包括下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "指令寄存器"
+      },
+      {
+        "label": "B",
+        "text": "地址寄存器"
+      },
+      {
+        "label": "C",
+        "text": "指令译码器"
+      },
+      {
+        "label": "D",
+        "text": "地址译码器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 26,
+    "type": "single",
+    "text": "程序计数器PC在下面哪项部件中。",
+    "options": [
+      {
+        "label": "A",
+        "text": "运算器"
+      },
+      {
+        "label": "B",
+        "text": "存储器"
+      },
+      {
+        "label": "C",
+        "text": "控制器"
+      },
+      {
+        "label": "D",
+        "text": "I/O接口"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 27,
+    "type": "single",
+    "text": "CPU内通用寄存器的位数取决于下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储器容量"
+      },
+      {
+        "label": "B",
+        "text": "机器字长"
+      },
+      {
+        "label": "C",
+        "text": "指令的长度"
+      },
+      {
+        "label": "D",
+        "text": "CPU的管脚数"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 28,
+    "type": "single",
+    "text": "以硬件逻辑电路方式构成的控制器又称为下面哪个名称。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储逻辑型控制器"
+      },
+      {
+        "label": "B",
+        "text": "组合逻辑型控制器"
+      },
+      {
+        "label": "C",
+        "text": "微程序控制器"
+      },
+      {
+        "label": "D",
+        "text": "运算器"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 29,
+    "type": "single",
+    "text": "直接转移指令的功能是将指令中的地址代码送入下面哪个部件中。",
+    "options": [
+      {
+        "label": "A",
+        "text": "累加器"
+      },
+      {
+        "label": "B",
+        "text": "地址寄存器"
+      },
+      {
+        "label": "C",
+        "text": "PC寄存器"
+      },
+      {
+        "label": "D",
+        "text": "存储器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 30,
+    "type": "single",
+    "text": "状态寄存器用来存放下面哪些内容。",
+    "options": [
+      {
+        "label": "A",
+        "text": "算术运算结果"
+      },
+      {
+        "label": "B",
+        "text": "算术、逻辑运算及测试指令的结果状态"
+      },
+      {
+        "label": "C",
+        "text": "运算类型"
+      },
+      {
+        "label": "D",
+        "text": "逻辑运算结果"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 31,
+    "type": "single",
+    "text": "微程序放在下面哪个部件中。",
+    "options": [
+      {
+        "label": "A",
+        "text": "指令寄存器"
+      },
+      {
+        "label": "B",
+        "text": "RAM"
+      },
+      {
+        "label": "C",
+        "text": "内存"
+      },
+      {
+        "label": "D",
+        "text": "控制存储器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 32,
+    "type": "single",
+    "text": "微程序控制器中，机器指令与微指令的关系下面哪项说法正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "每一条机器指令由一条微指令执行"
+      },
+      {
+        "label": "B",
+        "text": "一段机器指令组成的程序可由一条微指令来执行"
+      },
+      {
+        "label": "C",
+        "text": "每一条机器指令由一段用微指令编成的微程序来解释执行"
+      },
+      {
+        "label": "D",
+        "text": "一条微指令由若干条机器指令组成"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 33,
+    "type": "single",
+    "text": "异步控制常作为下面哪项的主要控制方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "微型机的CPU控制中"
+      },
+      {
+        "label": "B",
+        "text": "单总线计算机结构计算机中访问主存和外部设备时"
+      },
+      {
+        "label": "C",
+        "text": "组合逻辑的CPU控制中"
+      },
+      {
+        "label": "D",
+        "text": "微程序控制器中"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 34,
+    "type": "single",
+    "text": "在显示器的技术指标中，数据640×480、1024×768等表示下面哪项特征。",
+    "options": [
+      {
+        "label": "A",
+        "text": "显示器屏幕的大小"
+      },
+      {
+        "label": "B",
+        "text": "显示器显示字符的最大行数和列数"
+      },
+      {
+        "label": "C",
+        "text": "显示器的颜色指标"
+      },
+      {
+        "label": "D",
+        "text": "显示器的分辨率"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 35,
+    "type": "single",
+    "text": "主机、外设不能并行工作的方式是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中断方式"
+      },
+      {
+        "label": "B",
+        "text": "程序查询方式"
+      },
+      {
+        "label": "C",
+        "text": "通道方式"
+      },
+      {
+        "label": "D",
+        "text": "DMA方式"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 36,
+    "type": "single",
+    "text": "在I/O单独（独立）编址下，下面的说法哪项正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个具体地址只能对应输入输出设备"
+      },
+      {
+        "label": "B",
+        "text": "一个具体地址既可对应输入输出设备，也可对应内存单元"
+      },
+      {
+        "label": "C",
+        "text": "一个具体地址只能对应内存单元"
+      },
+      {
+        "label": "D",
+        "text": "只对应内存单元或只对应I/O设备"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 37,
+    "type": "single",
+    "text": "禁止中断的功能可由下面哪项来完成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中断触发器"
+      },
+      {
+        "label": "B",
+        "text": "中断禁止触发器"
+      },
+      {
+        "label": "C",
+        "text": "中断屏蔽触发器"
+      },
+      {
+        "label": "D",
+        "text": "中断允许触发器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 38,
+    "type": "single",
+    "text": "在微机系统中，主机与高速硬盘进行数据交换一般用下面哪种方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序中断控制"
+      },
+      {
+        "label": "B",
+        "text": "程序直接控制"
+      },
+      {
+        "label": "C",
+        "text": "DMA方式"
+      },
+      {
+        "label": "D",
+        "text": "通道方式"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 39,
+    "type": "single",
+    "text": "常用于大型计算机的控制方式是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序中断控制"
+      },
+      {
+        "label": "B",
+        "text": "程序直接控制"
+      },
+      {
+        "label": "C",
+        "text": "通道方式"
+      },
+      {
+        "label": "D",
+        "text": "DMA方式"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 40,
+    "type": "single",
+    "text": "有关中断的论述不正确的是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "可实现多道程序、分时操作、实时操作"
+      },
+      {
+        "label": "B",
+        "text": "对硬盘采用中断可能引起数据丢失"
+      },
+      {
+        "label": "C",
+        "text": "CPU和I/O设备可并行工作，但设备间不可并行工作"
+      },
+      {
+        "label": "D",
+        "text": "计算机的中断源可来自主机，也可来自外设"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 41,
+    "type": "single",
+    "text": "DMA方式数据的传送是以下面哪项为单位进行的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "字节"
+      },
+      {
+        "label": "B",
+        "text": "字"
+      },
+      {
+        "label": "C",
+        "text": "数据块"
+      },
+      {
+        "label": "D",
+        "text": "位"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 42,
+    "type": "single",
+    "text": "DMA方式在哪两个设备之间建立的直接数据通路。",
+    "options": [
+      {
+        "label": "A",
+        "text": "主存与外设"
+      },
+      {
+        "label": "B",
+        "text": "CPU与外设"
+      },
+      {
+        "label": "C",
+        "text": "外设与外设"
+      },
+      {
+        "label": "D",
+        "text": "CPU与主存"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 43,
+    "type": "single",
+    "text": "信息只用一条传输线，且采用脉冲传输的方式是下面哪种传输方式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "并行传输"
+      },
+      {
+        "label": "B",
+        "text": "串行传输"
+      },
+      {
+        "label": "C",
+        "text": "并串行传输"
+      },
+      {
+        "label": "D",
+        "text": "分时传输"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 44,
+    "type": "single",
+    "text": "在哪种总线结构的计算机系统中，外设地址可以主存储器单元统一编址。",
+    "options": [
+      {
+        "label": "A",
+        "text": "三总线"
+      },
+      {
+        "label": "B",
+        "text": "单总线"
+      },
+      {
+        "label": "C",
+        "text": "双总线"
+      },
+      {
+        "label": "D",
+        "text": "以上三种都可以"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 45,
+    "type": "single",
+    "text": "系统总线中地址线的功能，下面哪项说法正确。",
+    "options": [
+      {
+        "label": "A",
+        "text": "用于选择主存单元地址"
+      },
+      {
+        "label": "B",
+        "text": "用于选择进行信息传输的设备"
+      },
+      {
+        "label": "C",
+        "text": "用于选择外存地址"
+      },
+      {
+        "label": "D",
+        "text": "用于指定主存和I/O设备接口电路的地址"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 46,
+    "type": "single",
+    "text": "有一个CRT的分辨率是1024×768像素，颜色数为256色，则刷新存储器的容量是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "768KB"
+      },
+      {
+        "label": "B",
+        "text": "512KB"
+      },
+      {
+        "label": "C",
+        "text": "256KB"
+      },
+      {
+        "label": "D",
+        "text": "2MB"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 47,
+    "type": "single",
+    "text": "十进制数5的单精度浮点数IEEE754代码是下面哪项。",
+    "options": [
+      {
+        "label": "A",
+        "text": "01000000101000000000000000000000"
+      },
+      {
+        "label": "B",
+        "text": "11000000101000000000000000000000"
+      },
+      {
+        "label": "C",
+        "text": "01100000101000000000000000000000"
+      },
+      {
+        "label": "D",
+        "text": "11000000101000000000000000000000"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 48,
+    "type": "single",
+    "text": "在微机系统中，外设通过下面哪项与主板的系统总线相连接。",
+    "options": [
+      {
+        "label": "A",
+        "text": "适配器"
+      },
+      {
+        "label": "B",
+        "text": "设备控制器"
+      },
+      {
+        "label": "C",
+        "text": "计数器"
+      },
+      {
+        "label": "D",
+        "text": "寄存器"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 49,
+    "type": "single",
+    "text": "DMA是在哪两个设备之间建立的直接数据通路。",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU与外设"
+      },
+      {
+        "label": "B",
+        "text": "主存与外设"
+      },
+      {
+        "label": "C",
+        "text": "外设与外设"
+      },
+      {
+        "label": "D",
+        "text": "CPU与主存"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第1组：计算机组成原理复习题（一、选择题）",
+    "number": 50,
+    "type": "single",
+    "text": "DMA数据的传送是以下面哪项为单位进行的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "字节"
+      },
+      {
+        "label": "B",
+        "text": "字"
+      },
+      {
+        "label": "C",
+        "text": "数据块"
+      },
+      {
+        "label": "D",
+        "text": "位"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 1,
+    "type": "single",
+    "text": "计算机系统中的存储器系统是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RAM存储器"
+      },
+      {
+        "label": "B",
+        "text": "ROM存储器"
+      },
+      {
+        "label": "C",
+        "text": "主存储器"
+      },
+      {
+        "label": "D",
+        "text": "cache、主存储器和外存储器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 2,
+    "type": "single",
+    "text": "某机字长32位，其中1位符号位，31位表示尾数。若用定点小数表示，则最大正小数为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "+（1-2⁻³²）"
+      },
+      {
+        "label": "B",
+        "text": "+（1-2⁻³¹）"
+      },
+      {
+        "label": "C",
+        "text": "2⁻³²"
+      },
+      {
+        "label": "D",
+        "text": "2⁻³¹"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 3,
+    "type": "single",
+    "text": "算术/逻辑运算单元74181ALU可完成____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "16种算术运算功能"
+      },
+      {
+        "label": "B",
+        "text": "16种逻辑运算功能"
+      },
+      {
+        "label": "C",
+        "text": "16种算术运算功能和16种逻辑运算功能"
+      },
+      {
+        "label": "D",
+        "text": "4位乘法运算和除法运算功能"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 4,
+    "type": "single",
+    "text": "存储单元是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放一个二进制信息位的存储元"
+      },
+      {
+        "label": "B",
+        "text": "存放一个机器字的所有存储元集合"
+      },
+      {
+        "label": "C",
+        "text": "存放一个字节的所有存储元集合"
+      },
+      {
+        "label": "D",
+        "text": "存放两个字节的所有存储元集合"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 5,
+    "type": "single",
+    "text": "目前我们所说的个人台式商用机属于____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "巨型机"
+      },
+      {
+        "label": "B",
+        "text": "中型机"
+      },
+      {
+        "label": "C",
+        "text": "小型机"
+      },
+      {
+        "label": "D",
+        "text": "微型机"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 6,
+    "type": "single",
+    "text": "（2000）₁₀化成十六进制数是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（7CD）₁₆"
+      },
+      {
+        "label": "B",
+        "text": "（7D0）₁₆"
+      },
+      {
+        "label": "C",
+        "text": "（7E0）₁₆"
+      },
+      {
+        "label": "D",
+        "text": "（7F0）₁₆"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 7,
+    "type": "single",
+    "text": "下列数中最大的数是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（10011001）₂"
+      },
+      {
+        "label": "B",
+        "text": "（227）₈"
+      },
+      {
+        "label": "C",
+        "text": "（98）₁₆"
+      },
+      {
+        "label": "D",
+        "text": "（152）₁₀"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 8,
+    "type": "single",
+    "text": "____表示法主要用于表示浮点数中的阶码。",
+    "options": [
+      {
+        "label": "A",
+        "text": "原码"
+      },
+      {
+        "label": "B",
+        "text": "补码"
+      },
+      {
+        "label": "C",
+        "text": "反码"
+      },
+      {
+        "label": "D",
+        "text": "移码"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 9,
+    "type": "single",
+    "text": "冯·诺依曼机工作的基本方式的特点是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "多指令流单数据流"
+      },
+      {
+        "label": "B",
+        "text": "按地址访问并顺序执行指令"
+      },
+      {
+        "label": "C",
+        "text": "堆栈操作"
+      },
+      {
+        "label": "D",
+        "text": "存储器按内容选择地址"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 10,
+    "type": "single",
+    "text": "下列有关运算器的描述中，____是正确的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "只做算术运算，不做逻辑运算"
+      },
+      {
+        "label": "B",
+        "text": "只做加法"
+      },
+      {
+        "label": "C",
+        "text": "能暂时存放运算结果"
+      },
+      {
+        "label": "D",
+        "text": "既做算术运算，又做逻辑运算"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 11,
+    "type": "single",
+    "text": "目前的计算机，从原理上讲____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "指令以二进制形式存放，数据以十进制形式存放"
+      },
+      {
+        "label": "B",
+        "text": "指令以十进制形式存放，数据以二进制形式存放"
+      },
+      {
+        "label": "C",
+        "text": "指令和数据都以二进制形式存放"
+      },
+      {
+        "label": "D",
+        "text": "指令和数据都以十进制形式存放"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 12,
+    "type": "single",
+    "text": "根据国标规定，每个汉字在计算机内占用____存储。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个字节"
+      },
+      {
+        "label": "B",
+        "text": "二个字节"
+      },
+      {
+        "label": "C",
+        "text": "三个字节"
+      },
+      {
+        "label": "D",
+        "text": "四个字节"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 13,
+    "type": "single",
+    "text": "下列数中最小的数为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（101001）₂"
+      },
+      {
+        "label": "B",
+        "text": "（52）₈"
+      },
+      {
+        "label": "C",
+        "text": "（2B）₁₆"
+      },
+      {
+        "label": "D",
+        "text": "（44）₁₀"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 14,
+    "type": "single",
+    "text": "存储器是计算机系统的记忆设备，主要用于____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放程序"
+      },
+      {
+        "label": "B",
+        "text": "存放软件"
+      },
+      {
+        "label": "C",
+        "text": "存放微程序"
+      },
+      {
+        "label": "D",
+        "text": "存放程序和数据"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 15,
+    "type": "single",
+    "text": "设X=-0.1011，则[X]补为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.1011"
+      },
+      {
+        "label": "B",
+        "text": "1.0100"
+      },
+      {
+        "label": "C",
+        "text": "1.0101"
+      },
+      {
+        "label": "D",
+        "text": "1.1001"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 16,
+    "type": "single",
+    "text": "下列数中最大的数是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（10010101）₂"
+      },
+      {
+        "label": "B",
+        "text": "（227）₈"
+      },
+      {
+        "label": "C",
+        "text": "（96）₁₆"
+      },
+      {
+        "label": "D",
+        "text": "（143）₁₀"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 17,
+    "type": "single",
+    "text": "计算机问世至今，新型机器不断推陈出新，不管怎样更新，依然保有“存储程序”的概念，最早提出这种概念的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "巴贝奇"
+      },
+      {
+        "label": "B",
+        "text": "冯·诺依曼"
+      },
+      {
+        "label": "C",
+        "text": "帕斯卡"
+      },
+      {
+        "label": "D",
+        "text": "贝尔"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 18,
+    "type": "single",
+    "text": "我国在____年研制成功了第一台电子数字计算机，第一台晶体管数字计算机于____年完成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1946，1958"
+      },
+      {
+        "label": "B",
+        "text": "1950，1968"
+      },
+      {
+        "label": "C",
+        "text": "1958，1961"
+      },
+      {
+        "label": "D",
+        "text": "1959，1965"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 19,
+    "type": "single",
+    "text": "从下面浮点运算器的描述中选出两个描述正确的句子。",
+    "options": [
+      {
+        "label": "A",
+        "text": "浮点运算器可用两个松散连接的定点运算部件——阶码部件和尾数部件。"
+      },
+      {
+        "label": "B",
+        "text": "阶码部件可实现加、减、乘、除四种运算。"
+      },
+      {
+        "label": "C",
+        "text": "阶码部件只进行阶码相加、相减和比较操作。"
+      },
+      {
+        "label": "D",
+        "text": "尾数部件只进行乘法和除法运算。"
+      }
+    ],
+    "answer": "A、C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 20,
+    "type": "single",
+    "text": "在定点二进制运算器中，减法运算一般通过____来实现。",
+    "options": [
+      {
+        "label": "A",
+        "text": "原码运算的二进制减法器"
+      },
+      {
+        "label": "B",
+        "text": "补码运算的二进制减法器"
+      },
+      {
+        "label": "C",
+        "text": "原码运算的十进制加法器"
+      },
+      {
+        "label": "D",
+        "text": "补码运算的二进制加法器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 21,
+    "type": "single",
+    "text": "某计算机字长32位，其存储容量为4MB，若按半字编址，它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4MB"
+      },
+      {
+        "label": "B",
+        "text": "2MB"
+      },
+      {
+        "label": "C",
+        "text": "2M"
+      },
+      {
+        "label": "D",
+        "text": "1M"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 22,
+    "type": "single",
+    "text": "在计算机中，普遍采用的字符编码是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "BCD码"
+      },
+      {
+        "label": "B",
+        "text": "16进制"
+      },
+      {
+        "label": "C",
+        "text": "格雷码"
+      },
+      {
+        "label": "D",
+        "text": "ASCII码"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 23,
+    "type": "single",
+    "text": "用32位字长（其中1位符号位）表示定点小数时，所能表示的数值范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0≤|N|≤1-2⁻³²"
+      },
+      {
+        "label": "B",
+        "text": "0≤|N|≤1-2⁻³¹"
+      },
+      {
+        "label": "C",
+        "text": "0≤|N|≤1-2⁻³⁰"
+      },
+      {
+        "label": "D",
+        "text": "0≤|N|≤1-2⁻²⁹"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 24,
+    "type": "single",
+    "text": "1946年研制成功的第一台电子数字计算机称为____，1949年研制成功的第一台程序内存的计算机称为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "EDVAC，MARKI"
+      },
+      {
+        "label": "B",
+        "text": "ENIAC，EDSAC"
+      },
+      {
+        "label": "C",
+        "text": "ENIAC，MARKI"
+      },
+      {
+        "label": "D",
+        "text": "ENIAC，UNIVACI"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 25,
+    "type": "single",
+    "text": "至今为止，计算机中的所有信息仍以二进制方式表示的理由是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "节约元件"
+      },
+      {
+        "label": "B",
+        "text": "运算速度快"
+      },
+      {
+        "label": "C",
+        "text": "物理器件性能决定"
+      },
+      {
+        "label": "D",
+        "text": "信息处理方便"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 26,
+    "type": "single",
+    "text": "（2000）₁₀化成十六进制数是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（7CD）₁₆"
+      },
+      {
+        "label": "B",
+        "text": "（7D0）₁₆"
+      },
+      {
+        "label": "C",
+        "text": "（7E0）₁₆"
+      },
+      {
+        "label": "D",
+        "text": "（7F0）₁₆"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 27,
+    "type": "single",
+    "text": "现代计算机内部一般采用二进制形式，我国历史上的____即反映了二值逻辑的思想，它最早记载在____上，距今已有约____千年。",
+    "options": [
+      {
+        "label": "A",
+        "text": "八卦图、论衡、二"
+      },
+      {
+        "label": "B",
+        "text": "算筹、周髀算经、二"
+      },
+      {
+        "label": "C",
+        "text": "算筹、九章算术、一"
+      },
+      {
+        "label": "D",
+        "text": "八卦图、周易、三"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 28,
+    "type": "single",
+    "text": "8位定点字长的字，采用2的补码表示时，一个字所能表示的整数范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "-128～+127"
+      },
+      {
+        "label": "B",
+        "text": "-127～+127"
+      },
+      {
+        "label": "C",
+        "text": "-129～+128"
+      },
+      {
+        "label": "D",
+        "text": "-128～+128"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 30,
+    "type": "single",
+    "text": "对计算机的产生有重要影响的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "牛顿、维纳、图灵"
+      },
+      {
+        "label": "B",
+        "text": "莱布尼兹、布尔、图灵"
+      },
+      {
+        "label": "C",
+        "text": "巴贝奇、维纳、麦克斯韦"
+      },
+      {
+        "label": "D",
+        "text": "莱布尼兹、布尔、克雷"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 31,
+    "type": "single",
+    "text": "定点16位字长的字，采用2的补码形式表示时，一个字所能表示的整数范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "-2¹⁵～2¹⁵-1"
+      },
+      {
+        "label": "B",
+        "text": "-2¹⁵-1～2¹⁵-1"
+      },
+      {
+        "label": "C",
+        "text": "-2¹⁶+1～2¹⁵"
+      },
+      {
+        "label": "D",
+        "text": "-2¹⁶～2¹⁵"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 32,
+    "type": "single",
+    "text": "已知X<0且[X]原=X₀.X₁X₂…Xₙ，则[X]补可通过____求得。",
+    "options": [
+      {
+        "label": "A",
+        "text": "各位求反，末位加1"
+      },
+      {
+        "label": "B",
+        "text": "求补"
+      },
+      {
+        "label": "C",
+        "text": "除X₀外各位求反末位加1"
+      },
+      {
+        "label": "D",
+        "text": "[X]反-1"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 33,
+    "type": "single",
+    "text": "用64位字长（其中1位符号位）表示定点整数时，所能表示的数值范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "[0，2⁶⁴-1]"
+      },
+      {
+        "label": "B",
+        "text": "[0，2⁶³-1]"
+      },
+      {
+        "label": "C",
+        "text": "[0，2⁶²-1]"
+      },
+      {
+        "label": "D",
+        "text": "[0，2⁶³]"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 34,
+    "type": "single",
+    "text": "设寄存器位数为8位，机器数采用补码形式（一位符号位），对应于十进制数-27，寄存器内为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（27）₁₆"
+      },
+      {
+        "label": "B",
+        "text": "（9B）₁₆"
+      },
+      {
+        "label": "C",
+        "text": "（E5）₁₆"
+      },
+      {
+        "label": "D",
+        "text": "（5A）₁₆"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 35,
+    "type": "single",
+    "text": "已知X为整数，且[X]补=10011011，则X的十进制数值是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "+155"
+      },
+      {
+        "label": "B",
+        "text": "-101"
+      },
+      {
+        "label": "C",
+        "text": "-155"
+      },
+      {
+        "label": "D",
+        "text": "+101"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 36,
+    "type": "single",
+    "text": "下列有关运算器的描述中____是正确的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "只作算术运算，不作逻辑运算"
+      },
+      {
+        "label": "B",
+        "text": "只作加法"
+      },
+      {
+        "label": "C",
+        "text": "能暂时存放运算结果"
+      },
+      {
+        "label": "D",
+        "text": "以上答案都不对"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 37,
+    "type": "single",
+    "text": "六七十年代，在美国的____州，出现了一个地名叫硅谷。该地主工业是____，它也是____的发源地。",
+    "options": [
+      {
+        "label": "A",
+        "text": "马萨诸塞，硅矿产地，通用计算机"
+      },
+      {
+        "label": "B",
+        "text": "加利福尼亚，微电子工业，通用计算机"
+      },
+      {
+        "label": "C",
+        "text": "加利福尼亚，硅生产基地，小型计算机和微处理机"
+      },
+      {
+        "label": "D",
+        "text": "加利福尼亚，微电子工业，微处理机"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 38,
+    "type": "single",
+    "text": "下面浮点运算器的描述中正确的句子是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "浮点运算器可用阶码部件和尾数部件实现"
+      },
+      {
+        "label": "B",
+        "text": "阶码部件可实现加、减、乘、除四种运算"
+      },
+      {
+        "label": "C",
+        "text": "阶码部件只进行阶码相加、相减和比较操作"
+      },
+      {
+        "label": "D",
+        "text": "尾数部件只进行乘法和减法运算"
+      }
+    ],
+    "answer": "A、C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 39,
+    "type": "single",
+    "text": "一个8位的二进制整数，采用补码表示，且由3个“1”和5个“0”组成，则最小值为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "-127"
+      },
+      {
+        "label": "B",
+        "text": "-32"
+      },
+      {
+        "label": "C",
+        "text": "-125"
+      },
+      {
+        "label": "D",
+        "text": "-3"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 40,
+    "type": "single",
+    "text": "按其数据流的传送过程和控制节拍来看，阵列乘法器可以认为是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "全串行运算的乘法器"
+      },
+      {
+        "label": "B",
+        "text": "全并行运算的乘法器"
+      },
+      {
+        "label": "C",
+        "text": "串一并行运算的乘法器"
+      },
+      {
+        "label": "D",
+        "text": "并一串行运算的乘法器"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 41,
+    "type": "single",
+    "text": "以下描述中正确的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "浮点运算器可用阶码部件和尾数部件来实现。"
+      },
+      {
+        "label": "B",
+        "text": "阶码部件可实现加、减、乘、除四种运算。"
+      },
+      {
+        "label": "C",
+        "text": "阶码部件只进行阶码相加、相减和比较操作。"
+      },
+      {
+        "label": "D",
+        "text": "尾数部件只进行乘法和除法运算。"
+      }
+    ],
+    "answer": "A、C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 42,
+    "type": "single",
+    "text": "设[x]补=1.x₁x₂x₃x₄，当满足____时，x>-1/2成立。",
+    "options": [
+      {
+        "label": "A",
+        "text": "x₁必须为1，x₂～x₄至少有一个为1"
+      },
+      {
+        "label": "B",
+        "text": "x₁必须为1，x₂～x₄任意"
+      },
+      {
+        "label": "C",
+        "text": "x₁必须为0，x₂～x₄至少有一个为1"
+      },
+      {
+        "label": "D",
+        "text": "x₁必须为0，x₂～x₄任意"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 43,
+    "type": "single",
+    "text": "有关运算器的描述，____是正确的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "只做加法"
+      },
+      {
+        "label": "B",
+        "text": "只做算术运算"
+      },
+      {
+        "label": "C",
+        "text": "既做算术运算又做逻辑运算"
+      },
+      {
+        "label": "D",
+        "text": "只做逻辑运算"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 44,
+    "type": "single",
+    "text": "设字长32位，使用IEEE格式，则阶码采用____表示。",
+    "options": [
+      {
+        "label": "A",
+        "text": "补码"
+      },
+      {
+        "label": "B",
+        "text": "原码"
+      },
+      {
+        "label": "C",
+        "text": "移码"
+      },
+      {
+        "label": "D",
+        "text": "反码"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 45,
+    "type": "single",
+    "text": "下列表达式中正确的运算结果为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（10101）₂×（2）₁₀=（20202）₂"
+      },
+      {
+        "label": "B",
+        "text": "（10101）₃×（2）₁₀=（20202）₃"
+      },
+      {
+        "label": "C",
+        "text": "（10101）₃×（3）₁₀=（30303）₃"
+      },
+      {
+        "label": "D",
+        "text": "（101010）₃-（20202）₃=（11011）₃"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 46,
+    "type": "single",
+    "text": "若浮点数的阶码和尾数都用补码表示，则判断运算结果是否为规格化数的方法是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "阶符与数符相同为规格化数"
+      },
+      {
+        "label": "B",
+        "text": "阶符与数符相异为规格化数"
+      },
+      {
+        "label": "C",
+        "text": "数符与尾数小数点后第一位数字相异为规格化数"
+      },
+      {
+        "label": "D",
+        "text": "数符与尾数小数点后第一位数字相同为规格化数"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 47,
+    "type": "single",
+    "text": "x=+0.1011，y=+0.0110，则用补码运算[x-y]补=____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.0101"
+      },
+      {
+        "label": "B",
+        "text": "0.0001"
+      },
+      {
+        "label": "C",
+        "text": "1.1011"
+      },
+      {
+        "label": "D",
+        "text": "1.1111"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 48,
+    "type": "single",
+    "text": "如果浮点数尾数用补码表示，则判断下列哪一项的运算结果是规格化数。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.11000"
+      },
+      {
+        "label": "B",
+        "text": "0.01110"
+      },
+      {
+        "label": "C",
+        "text": "1.00010"
+      },
+      {
+        "label": "D",
+        "text": "0.01010"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 49,
+    "type": "single",
+    "text": "计算机硬件能直接执行的只有____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "符号语言"
+      },
+      {
+        "label": "B",
+        "text": "机器语言"
+      },
+      {
+        "label": "C",
+        "text": "汇编语言"
+      },
+      {
+        "label": "D",
+        "text": "机器语言和汇编语言"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第2组：综合与运算选择题",
+    "number": 50,
+    "type": "single",
+    "text": "浮点运算器的描述中，正确的句子是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "阶码部件可实现加、减、乘、除四种运算"
+      },
+      {
+        "label": "B",
+        "text": "阶码部件只进行阶码相加、相减和比较操作"
+      },
+      {
+        "label": "C",
+        "text": "阶码部件只进行阶码相加、相减操作"
+      },
+      {
+        "label": "D",
+        "text": "尾数部件只进行乘法和除法运算"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 1,
+    "type": "single",
+    "text": "EPROM是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "读写存储器"
+      },
+      {
+        "label": "B",
+        "text": "只读存储器"
+      },
+      {
+        "label": "C",
+        "text": "可编程的只读存储器"
+      },
+      {
+        "label": "D",
+        "text": "光擦除可编程的只读存储器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 2,
+    "type": "single",
+    "text": "计算机系统中的存储器系统是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RAM存储器"
+      },
+      {
+        "label": "B",
+        "text": "ROM存储器"
+      },
+      {
+        "label": "C",
+        "text": "主存储器"
+      },
+      {
+        "label": "D",
+        "text": "cache、主存储器和外存储器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 3,
+    "type": "single",
+    "text": "存储单元是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放一个二进制信息位的存储元"
+      },
+      {
+        "label": "B",
+        "text": "存放一个机器字的所有存储元集合"
+      },
+      {
+        "label": "C",
+        "text": "存放一个字节的所有存储元集合"
+      },
+      {
+        "label": "D",
+        "text": "存放两个字节的所有存储元集合"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 4,
+    "type": "single",
+    "text": "相联存储器是按____进行寻址的存储器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址方式"
+      },
+      {
+        "label": "B",
+        "text": "堆栈方式"
+      },
+      {
+        "label": "C",
+        "text": "内容指定方式"
+      },
+      {
+        "label": "D",
+        "text": "地址方式与堆栈方式"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 5,
+    "type": "single",
+    "text": "存储器是计算机系统的记忆设备，主要用于____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放程序"
+      },
+      {
+        "label": "B",
+        "text": "存放软件"
+      },
+      {
+        "label": "C",
+        "text": "存放微程序"
+      },
+      {
+        "label": "D",
+        "text": "存放程序和数据"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 6,
+    "type": "single",
+    "text": "外存储器与内存储器相比，外存储器____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "速度快，容量大，成本高"
+      },
+      {
+        "label": "B",
+        "text": "速度慢，容量大，成本低"
+      },
+      {
+        "label": "C",
+        "text": "速度快，容量小，成本高"
+      },
+      {
+        "label": "D",
+        "text": "速度慢，容量大，成本高"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 7,
+    "type": "single",
+    "text": "一个256K×8的存储器，其地址线和数据线总和为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "26"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 8,
+    "type": "single",
+    "text": "某SRAM芯片，存储容量为64K×16位，该芯片的地址线和数据线数目为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "64，16"
+      },
+      {
+        "label": "B",
+        "text": "16，64"
+      },
+      {
+        "label": "C",
+        "text": "64，8"
+      },
+      {
+        "label": "D",
+        "text": "16，16"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 9,
+    "type": "single",
+    "text": "交叉存储器实质上是一种____存储器，它能____执行____独立的读写操作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "模块式，并行，多个"
+      },
+      {
+        "label": "B",
+        "text": "模块式，串行，多个"
+      },
+      {
+        "label": "C",
+        "text": "整体式，并行，一个"
+      },
+      {
+        "label": "D",
+        "text": "整体式，串行，多个"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 10,
+    "type": "single",
+    "text": "存储器是计算机系统中的记忆设备，它主要用来____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放数据"
+      },
+      {
+        "label": "B",
+        "text": "存放程序"
+      },
+      {
+        "label": "C",
+        "text": "存放数据和程序"
+      },
+      {
+        "label": "D",
+        "text": "存放微程序"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 11,
+    "type": "single",
+    "text": "某计算机的字长16位，它的存储容量是64KB，若按字编址，那么它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "64K"
+      },
+      {
+        "label": "B",
+        "text": "32K"
+      },
+      {
+        "label": "C",
+        "text": "64KB"
+      },
+      {
+        "label": "D",
+        "text": "32KB"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 12,
+    "type": "single",
+    "text": "存储单元是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放一个机器字的所有存储元"
+      },
+      {
+        "label": "B",
+        "text": "存放一个二进制信息位的存储元"
+      },
+      {
+        "label": "C",
+        "text": "存放一个字节的所有存储元的集合"
+      },
+      {
+        "label": "D",
+        "text": "存放两个字节的所有存储元的集合"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 13,
+    "type": "single",
+    "text": "机器字长32位，其存储容量为4MB，若按字编址，它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1M"
+      },
+      {
+        "label": "B",
+        "text": "1MB"
+      },
+      {
+        "label": "C",
+        "text": "4M"
+      },
+      {
+        "label": "D",
+        "text": "4MB"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 14,
+    "type": "single",
+    "text": "多总线结构的计算机系统，采用____方法，对提高系统的吞吐率最有效。",
+    "options": [
+      {
+        "label": "A",
+        "text": "多端口存储器"
+      },
+      {
+        "label": "B",
+        "text": "提高主存速度"
+      },
+      {
+        "label": "C",
+        "text": "交叉编址多模块存储器"
+      },
+      {
+        "label": "D",
+        "text": "cache"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 15,
+    "type": "single",
+    "text": "双端口存储器在____情况下会发生读/写冲突。",
+    "options": [
+      {
+        "label": "A",
+        "text": "左端口与右端口的地址码不同"
+      },
+      {
+        "label": "B",
+        "text": "左端口与右端口的地址码相同"
+      },
+      {
+        "label": "C",
+        "text": "左端口与右端口的数据码不同"
+      },
+      {
+        "label": "D",
+        "text": "左端口与右端口的数据码相同"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 16,
+    "type": "single",
+    "text": "一张3.5寸软盘的存储容量为____MB，每个扇区存储的固定数据是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.44MB，512B"
+      },
+      {
+        "label": "B",
+        "text": "1MB，1024B"
+      },
+      {
+        "label": "C",
+        "text": "2MB，256B"
+      },
+      {
+        "label": "D",
+        "text": "1.44MB，512KB"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 17,
+    "type": "single",
+    "text": "双端口存储器所以能高速进行读/写，是因为采用____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高速芯片"
+      },
+      {
+        "label": "B",
+        "text": "两套相互独立的读写电路"
+      },
+      {
+        "label": "C",
+        "text": "流水技术"
+      },
+      {
+        "label": "D",
+        "text": "新型器件"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 18,
+    "type": "single",
+    "text": "闪速存储器称为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "光盘"
+      },
+      {
+        "label": "B",
+        "text": "固态盘"
+      },
+      {
+        "label": "C",
+        "text": "硬盘"
+      },
+      {
+        "label": "D",
+        "text": "软盘"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 19,
+    "type": "single",
+    "text": "常用的虚拟存储系统由____两级存储器组成。",
+    "options": [
+      {
+        "label": "A",
+        "text": "主存-辅存"
+      },
+      {
+        "label": "B",
+        "text": "快存-主存"
+      },
+      {
+        "label": "C",
+        "text": "快存-辅存"
+      },
+      {
+        "label": "D",
+        "text": "通用寄存器-主存"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 20,
+    "type": "single",
+    "text": "假设某计算机的存储系统由cache和主存组成，某程序执行过程中访存1000次，其中访问cache缺失（未命中）50次，则cache的命中率是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "5%"
+      },
+      {
+        "label": "B",
+        "text": "95%"
+      },
+      {
+        "label": "C",
+        "text": "50%"
+      },
+      {
+        "label": "D",
+        "text": "95%"
+      }
+    ],
+    "answer": "B或D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 21,
+    "type": "single",
+    "text": "微型计算机系统中，操作系统保存在硬盘上，其主存储器应该采用____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RAM"
+      },
+      {
+        "label": "B",
+        "text": "ROM"
+      },
+      {
+        "label": "C",
+        "text": "RAM和ROM"
+      },
+      {
+        "label": "D",
+        "text": "CCP"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 22,
+    "type": "single",
+    "text": "某SRAM芯片，其容量为512×8位，包括电源端和接地端，该芯片引出线的最少数目应为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "23"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "50"
+      },
+      {
+        "label": "D",
+        "text": "19"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 23,
+    "type": "single",
+    "text": "以下四种类型的半导体存储器中，以传输同样多的字为比较条件，则读出数据传输率最高的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "DRAM"
+      },
+      {
+        "label": "B",
+        "text": "SRAM"
+      },
+      {
+        "label": "C",
+        "text": "闪速存储器"
+      },
+      {
+        "label": "D",
+        "text": "EPROM"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 24,
+    "type": "single",
+    "text": "采用虚拟存储器的主要目的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高主存储器的存取速度"
+      },
+      {
+        "label": "B",
+        "text": "扩大存储器空间，并能进行自动管理"
+      },
+      {
+        "label": "C",
+        "text": "提高外存储器的存取速度"
+      },
+      {
+        "label": "D",
+        "text": "扩大外存储器的存储空间"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 25,
+    "type": "single",
+    "text": "某DRAM芯片，其存储容量为512K×8位，该芯片的地址线和数据线数目为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "8，512"
+      },
+      {
+        "label": "B",
+        "text": "512，8"
+      },
+      {
+        "label": "C",
+        "text": "18，8"
+      },
+      {
+        "label": "D",
+        "text": "19，8"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 26,
+    "type": "single",
+    "text": "存储单元是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存放一个二进制信息位的存储元"
+      },
+      {
+        "label": "B",
+        "text": "存放一个机器字的所有存储元集合"
+      },
+      {
+        "label": "C",
+        "text": "存放一个字节的所有存储元集合"
+      },
+      {
+        "label": "D",
+        "text": "存放两个字节的所有存储元集合"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 27,
+    "type": "single",
+    "text": "某存储器芯片的存储容量为8K×8位，则它的地址线和数据线引脚相加的和为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "22"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 28,
+    "type": "single",
+    "text": "用于笔记本电脑的大容量存储器是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "软磁盘"
+      },
+      {
+        "label": "B",
+        "text": "硬磁盘"
+      },
+      {
+        "label": "C",
+        "text": "固态盘"
+      },
+      {
+        "label": "D",
+        "text": "寄存器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 29,
+    "type": "single",
+    "text": "没有外存储器的计算机监控程序可以存放在____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RAM"
+      },
+      {
+        "label": "B",
+        "text": "ROM"
+      },
+      {
+        "label": "C",
+        "text": "RAM和ROM"
+      },
+      {
+        "label": "D",
+        "text": "CPU"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 30,
+    "type": "single",
+    "text": "用于笔记本电脑的外存储器一般是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "软磁盘"
+      },
+      {
+        "label": "B",
+        "text": "硬磁盘"
+      },
+      {
+        "label": "C",
+        "text": "固态盘"
+      },
+      {
+        "label": "D",
+        "text": "光盘"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 31,
+    "type": "single",
+    "text": "存储周期是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "存储器的读出时间"
+      },
+      {
+        "label": "B",
+        "text": "存储器的写入时间"
+      },
+      {
+        "label": "C",
+        "text": "存储器进行连续读和写操作所允许的最短时间间隔"
+      },
+      {
+        "label": "D",
+        "text": "存储器进行连续写操作所允许的最短时间间隔"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 32,
+    "type": "single",
+    "text": "在虚拟存储器中，当程序正在执行时，由____完成地址映射。",
+    "options": [
+      {
+        "label": "A",
+        "text": "程序员"
+      },
+      {
+        "label": "B",
+        "text": "编译器"
+      },
+      {
+        "label": "C",
+        "text": "装入程序"
+      },
+      {
+        "label": "D",
+        "text": "操作系统"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 33,
+    "type": "single",
+    "text": "主存储器和CPU之间增加cache的目的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "解决CPU和主存之间的速度匹配问题"
+      },
+      {
+        "label": "B",
+        "text": "扩大主存储器的容量"
+      },
+      {
+        "label": "C",
+        "text": "扩大CPU中通用寄存器的数量"
+      },
+      {
+        "label": "D",
+        "text": "扩大外存的容量"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 34,
+    "type": "single",
+    "text": "常用的虚拟存储系统由____两级存储器组成，其中____是大容量的磁表面存储器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "快存-辅存，辅存"
+      },
+      {
+        "label": "B",
+        "text": "主存-辅存，辅存"
+      },
+      {
+        "label": "C",
+        "text": "快存-主存，辅存"
+      },
+      {
+        "label": "D",
+        "text": "通用寄存器-主存，主存"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 35,
+    "type": "single",
+    "text": "某一SRAM芯片，其容量为1024×8位，包括电源端和接地端，该芯片引出线的最少数目应为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "13"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 36,
+    "type": "single",
+    "text": "一个512KB的存储器，地址线和数据线的总和是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "17"
+      },
+      {
+        "label": "B",
+        "text": "19"
+      },
+      {
+        "label": "C",
+        "text": "27"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 37,
+    "type": "single",
+    "text": "以下四种类型的半导体存储器中，以传输同样多的字为比较条件，则读出数据传输率最高的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "DRAM"
+      },
+      {
+        "label": "B",
+        "text": "SRAM"
+      },
+      {
+        "label": "C",
+        "text": "闪速存储器"
+      },
+      {
+        "label": "D",
+        "text": "EPROM"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 38,
+    "type": "single",
+    "text": "计算机内存储器可以采用____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RAM和ROM"
+      },
+      {
+        "label": "B",
+        "text": "只有ROM"
+      },
+      {
+        "label": "C",
+        "text": "只有RAM"
+      },
+      {
+        "label": "D",
+        "text": "RAM和SAM"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 39,
+    "type": "single",
+    "text": "磁盘存储器的等待时间通常是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁盘旋转半周所需的时间"
+      },
+      {
+        "label": "B",
+        "text": "磁盘转2/3周所需时间"
+      },
+      {
+        "label": "C",
+        "text": "磁盘转1/3周所需时间"
+      },
+      {
+        "label": "D",
+        "text": "磁盘转一周所需时间"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 40,
+    "type": "single",
+    "text": "下列有关存储器的描述中，不正确的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "多体交叉存储器主要解决扩充容量问题"
+      },
+      {
+        "label": "B",
+        "text": "访问存储器的请求是由CPU发出的"
+      },
+      {
+        "label": "C",
+        "text": "cache与主存统一编址，即主存空间的某一部分属于cache"
+      },
+      {
+        "label": "D",
+        "text": "cache的功能全由硬件实现"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 41,
+    "type": "single",
+    "text": "交叉存储器实质上是一种____存储器，它能____执行____独立的读写操作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "模块式，并行，多个"
+      },
+      {
+        "label": "B",
+        "text": "模块式，串行，多个"
+      },
+      {
+        "label": "C",
+        "text": "整体式，并行，一个"
+      },
+      {
+        "label": "D",
+        "text": "整体式，串行，多个"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 42,
+    "type": "single",
+    "text": "磁盘存储器的等待时间通常是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁盘旋转半周所需的时间"
+      },
+      {
+        "label": "B",
+        "text": "磁盘转2/3周所需时间"
+      },
+      {
+        "label": "C",
+        "text": "磁盘转1/3周所需时间"
+      },
+      {
+        "label": "D",
+        "text": "磁盘转一周所需时间"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 43,
+    "type": "single",
+    "text": "下列有关存储器的描述中，不正确的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "多体交叉存储器主要解决扩充容量问题"
+      },
+      {
+        "label": "B",
+        "text": "访问存储器的请求是由CPU发出的"
+      },
+      {
+        "label": "C",
+        "text": "cache与主存统一编址，即主存空间的某一部分属于cache"
+      },
+      {
+        "label": "D",
+        "text": "cache的功能全由硬件实现"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 44,
+    "type": "single",
+    "text": "交叉存储器实质上是一种____存储器，它能____执行____独立的读写操作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "模块式，并行，多个"
+      },
+      {
+        "label": "B",
+        "text": "模块式，串行，多个"
+      },
+      {
+        "label": "C",
+        "text": "整体式，并行，一个"
+      },
+      {
+        "label": "D",
+        "text": "整体式，串行，多个"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 45,
+    "type": "single",
+    "text": "模4交叉存储器有4个存储模块，它们有各自的____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "地址寄存器"
+      },
+      {
+        "label": "B",
+        "text": "地址寄存器和指令寄存器"
+      },
+      {
+        "label": "C",
+        "text": "地址寄存器和数据缓冲寄存器"
+      },
+      {
+        "label": "D",
+        "text": "地址寄存器、数据缓冲寄存器和指令寄存器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 46,
+    "type": "single",
+    "text": "软磁盘、硬磁盘、磁带机、光盘属于____设备。",
+    "options": [
+      {
+        "label": "A",
+        "text": "远程通信"
+      },
+      {
+        "label": "B",
+        "text": "外存储器"
+      },
+      {
+        "label": "C",
+        "text": "内存储器"
+      },
+      {
+        "label": "D",
+        "text": "人机界面的I/O"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 47,
+    "type": "single",
+    "text": "磁盘存储器的记录方式采用____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "归零制"
+      },
+      {
+        "label": "B",
+        "text": "不归零制"
+      },
+      {
+        "label": "C",
+        "text": "改进调频制"
+      },
+      {
+        "label": "D",
+        "text": "调相制"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 48,
+    "type": "single",
+    "text": "和外存储器相比，内存储器的特点是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "容量大、速度快、成本低"
+      },
+      {
+        "label": "B",
+        "text": "容量大、速度慢、成本高"
+      },
+      {
+        "label": "C",
+        "text": "容量小、速度快、成本高"
+      },
+      {
+        "label": "D",
+        "text": "容量小、速度快、成本低"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 49,
+    "type": "single",
+    "text": "CD-ROM是____型光盘。",
+    "options": [
+      {
+        "label": "A",
+        "text": "一次"
+      },
+      {
+        "label": "B",
+        "text": "重写"
+      },
+      {
+        "label": "C",
+        "text": "只读"
+      },
+      {
+        "label": "D",
+        "text": "可擦写"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第3组：存储系统选择题",
+    "number": 50,
+    "type": "single",
+    "text": "在多级存储体系中，“cache-主存”结构的作用是解决____的问题。",
+    "options": [
+      {
+        "label": "A",
+        "text": "主存容量不足"
+      },
+      {
+        "label": "B",
+        "text": "主存与辅存速度不匹配"
+      },
+      {
+        "label": "C",
+        "text": "辅存与CPU速度不匹配"
+      },
+      {
+        "label": "D",
+        "text": "主存与CPU速度不匹配"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 1,
+    "type": "single",
+    "text": "以下四种类型指令中，执行时间最长的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RR型"
+      },
+      {
+        "label": "B",
+        "text": "RS型"
+      },
+      {
+        "label": "C",
+        "text": "SS型"
+      },
+      {
+        "label": "D",
+        "text": "程序控制指令"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 2,
+    "type": "single",
+    "text": "Intel80486是32位微处理器，Pentium是____位微处理器。",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "32"
+      },
+      {
+        "label": "C",
+        "text": "48"
+      },
+      {
+        "label": "D",
+        "text": "64"
+      }
+    ],
+    "answer": "D/需按教师口径",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 3,
+    "type": "single",
+    "text": "设变址寄存器为X，形式地址为D，(X)表示寄存器X的内容，这种寻址方式的有效地址为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "EA=(X)+D"
+      },
+      {
+        "label": "B",
+        "text": "EA=(X)+(D)"
+      },
+      {
+        "label": "C",
+        "text": "EA=((X)+D)"
+      },
+      {
+        "label": "D",
+        "text": "EA=((X)+(D))"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 4,
+    "type": "single",
+    "text": "在指令的地址字段中，直接指出操作数本身的寻址方式，称为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "隐含寻址"
+      },
+      {
+        "label": "B",
+        "text": "立即寻址"
+      },
+      {
+        "label": "C",
+        "text": "寄存器寻址"
+      },
+      {
+        "label": "D",
+        "text": "直接寻址"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 5,
+    "type": "single",
+    "text": "变址寻址方式中，操作数的有效地址等于____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "基值寄存器内容加上形式地址（位移量）"
+      },
+      {
+        "label": "B",
+        "text": "堆栈指示器内容加上形式地址（位移量）"
+      },
+      {
+        "label": "C",
+        "text": "变址寄存器内容加上形式地址（位移量）"
+      },
+      {
+        "label": "D",
+        "text": "程序计数器内容加上形式地址（位移量）"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 6,
+    "type": "single",
+    "text": "Pentium-3是一种____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "64位处理器"
+      },
+      {
+        "label": "B",
+        "text": "16位处理器"
+      },
+      {
+        "label": "C",
+        "text": "准16位处理器"
+      },
+      {
+        "label": "D",
+        "text": "32位处理器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 7,
+    "type": "single",
+    "text": "用某个寄存器中操作数的寻址方式称为____寻址。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接"
+      },
+      {
+        "label": "B",
+        "text": "间接"
+      },
+      {
+        "label": "C",
+        "text": "寄存器直接"
+      },
+      {
+        "label": "D",
+        "text": "寄存器间接"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 8,
+    "type": "single",
+    "text": "某计算机的字长16位，它的存储容量是64KB，若按字编址，那么它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "64K"
+      },
+      {
+        "label": "B",
+        "text": "32K"
+      },
+      {
+        "label": "C",
+        "text": "64KB"
+      },
+      {
+        "label": "D",
+        "text": "32KB"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 9,
+    "type": "single",
+    "text": "某计算机字长32位，其存储容量为4MB，若按半字编址，它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4MB"
+      },
+      {
+        "label": "B",
+        "text": "2MB"
+      },
+      {
+        "label": "C",
+        "text": "2M"
+      },
+      {
+        "label": "D",
+        "text": "1M"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 10,
+    "type": "single",
+    "text": "单地址指令中为了完成两个数的算术运算，除地址码指明的一个操作数外，另一个常需采用____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "堆栈寻址方式"
+      },
+      {
+        "label": "B",
+        "text": "立即寻址方式"
+      },
+      {
+        "label": "C",
+        "text": "隐含寻址方式"
+      },
+      {
+        "label": "D",
+        "text": "间接寻址方式"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 11,
+    "type": "single",
+    "text": "寄存器间接寻址方式中，操作数处在____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "通用寄存器"
+      },
+      {
+        "label": "B",
+        "text": "程序计数器"
+      },
+      {
+        "label": "C",
+        "text": "堆栈"
+      },
+      {
+        "label": "D",
+        "text": "主存单元"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 12,
+    "type": "single",
+    "text": "描述汇编语言特性的概念中，有错误的句子是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对程序员的训练要求来说，需要硬件知识"
+      },
+      {
+        "label": "B",
+        "text": "汇编语言对机器的依赖性高"
+      },
+      {
+        "label": "C",
+        "text": "用汇编语言编制程序的难度比高级语言小"
+      },
+      {
+        "label": "D",
+        "text": "汇编语言编写的程序执行速度比高级语言快"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 13,
+    "type": "single",
+    "text": "下面描述RISC机器基本概念中，正确的表述是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RISC机器不一定是流水CPU"
+      },
+      {
+        "label": "B",
+        "text": "RISC机器一定是流水CPU"
+      },
+      {
+        "label": "C",
+        "text": "RISC机器有复杂的指令系统"
+      },
+      {
+        "label": "D",
+        "text": "其CPU配备很少的通用寄存器"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 14,
+    "type": "single",
+    "text": "微程序控制器中，机器指令与微指令的关系是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "每一条机器指令由一条微指令来执行"
+      },
+      {
+        "label": "B",
+        "text": "每一条机器指令由一段微指令编写的微程序来解释执行"
+      },
+      {
+        "label": "C",
+        "text": "每一条机器指令组成的程序可由一条微指令来执行"
+      },
+      {
+        "label": "D",
+        "text": "一条微指令由若干条机器指令组成"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 15,
+    "type": "single",
+    "text": "指令周期是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU从主存取出一条指令的时间"
+      },
+      {
+        "label": "B",
+        "text": "CPU执行一条指令的时间"
+      },
+      {
+        "label": "C",
+        "text": "CPU从主存取出一条指令加上执行这条指令的时间"
+      },
+      {
+        "label": "D",
+        "text": "时钟周期时间"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 16,
+    "type": "single",
+    "text": "某计算机字长32位，其存储容量为16MB，若按双字编址，它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "16MB"
+      },
+      {
+        "label": "B",
+        "text": "2M"
+      },
+      {
+        "label": "C",
+        "text": "8MB"
+      },
+      {
+        "label": "D",
+        "text": "16M"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 17,
+    "type": "single",
+    "text": "程序控制类指令的功能是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "进行算术运算和逻辑运算"
+      },
+      {
+        "label": "B",
+        "text": "进行主存与CPU之间的数据传送"
+      },
+      {
+        "label": "C",
+        "text": "进行CPU和I/O设备之间的数据传送"
+      },
+      {
+        "label": "D",
+        "text": "改变程序执行顺序"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 18,
+    "type": "single",
+    "text": "由于CPU内部的操作速度较快，而CPU访问一次主存所花的时间较长，因此机器周期通常用____来规定。",
+    "options": [
+      {
+        "label": "A",
+        "text": "主存中读取一个指令字的最短时间"
+      },
+      {
+        "label": "B",
+        "text": "主存中读取一个数据字的最长时间"
+      },
+      {
+        "label": "C",
+        "text": "主存中写入一个数据字的平均时间"
+      },
+      {
+        "label": "D",
+        "text": "主存中读取一个数据字的平均时间"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 19,
+    "type": "single",
+    "text": "二地址指令中，操作数的物理位置不可能安排在____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "栈顶和次栈顶"
+      },
+      {
+        "label": "B",
+        "text": "两个主存单元"
+      },
+      {
+        "label": "C",
+        "text": "一个主存和一个寄存器"
+      },
+      {
+        "label": "D",
+        "text": "两个寄存器"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 20,
+    "type": "single",
+    "text": "堆栈寻址方式中，设A为累加寄存器，SP为堆栈指示器，Msp为SP指示器的栈顶单元，如果操作的动作是：(A)→Msp，(SP)-1→SP，那么出栈操作的动作为____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "(Msp)→A，(SP)+1→SP"
+      },
+      {
+        "label": "B",
+        "text": "(SP)+1→SP，(Msp)→A"
+      },
+      {
+        "label": "C",
+        "text": "(SP)-1→SP，(Msp)→A"
+      },
+      {
+        "label": "D",
+        "text": "(Msp)→A，(SP)-1→SP"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 21,
+    "type": "single",
+    "text": "指令寄存器的作用是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "保存当前指令的地址"
+      },
+      {
+        "label": "B",
+        "text": "保存当前正在执行的指令"
+      },
+      {
+        "label": "C",
+        "text": "保存下一条指令"
+      },
+      {
+        "label": "D",
+        "text": "保存上一条指令"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 22,
+    "type": "single",
+    "text": "在下述指令中，____指令包含的周期数最多。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RR型"
+      },
+      {
+        "label": "B",
+        "text": "RS型"
+      },
+      {
+        "label": "C",
+        "text": "SS型"
+      },
+      {
+        "label": "D",
+        "text": "零地址指令"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 23,
+    "type": "single",
+    "text": "某机字长32位，存储容量为1MB，若按字编址，它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1M"
+      },
+      {
+        "label": "B",
+        "text": "512KB"
+      },
+      {
+        "label": "C",
+        "text": "256K"
+      },
+      {
+        "label": "D",
+        "text": "256KB"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 24,
+    "type": "single",
+    "text": "变址寻址方式中，操作数的有效地址等于____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "基值寄存器内容加上形式地址"
+      },
+      {
+        "label": "B",
+        "text": "堆栈指示器内容加上形式地址"
+      },
+      {
+        "label": "C",
+        "text": "变址寄存器内容加上形式地址"
+      },
+      {
+        "label": "D",
+        "text": "程序计数器内容加上形式地址"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 25,
+    "type": "single",
+    "text": "指令系统采用不同寻址方式的目的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现存储程序和程序控制"
+      },
+      {
+        "label": "B",
+        "text": "缩短指令长度，扩大寻址空间，提高编程灵活性"
+      },
+      {
+        "label": "C",
+        "text": "可直接访问外存"
+      },
+      {
+        "label": "D",
+        "text": "提供扩展操作码的可能并降低指令译码的难度"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 26,
+    "type": "single",
+    "text": "指令的寻址方式有顺序和跳跃两种方式，采用跳跃寻址方式，可以实现____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "堆栈寻址"
+      },
+      {
+        "label": "B",
+        "text": "程序的条件转移"
+      },
+      {
+        "label": "C",
+        "text": "程序的无条件转移"
+      },
+      {
+        "label": "D",
+        "text": "程序的条件转移或无条件转移"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 27,
+    "type": "single",
+    "text": "某计算机字长16位，它的存储容量是64MB，若按双字编址，那么它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4M"
+      },
+      {
+        "label": "B",
+        "text": "2M"
+      },
+      {
+        "label": "C",
+        "text": "64M"
+      },
+      {
+        "label": "D",
+        "text": "32M"
+      }
+    ],
+    "answer": "无正确选项/需确认",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 28,
+    "type": "single",
+    "text": "二地址指令中，操作数的物理位置可安排在____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "栈顶和次栈顶"
+      },
+      {
+        "label": "B",
+        "text": "两个主存单元"
+      },
+      {
+        "label": "C",
+        "text": "一个主存单元和一个存储器"
+      },
+      {
+        "label": "D",
+        "text": "两个寄存器"
+      }
+    ],
+    "answer": "B、C、D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 29,
+    "type": "single",
+    "text": "微程序控制器中，机器指令与微指令的关系是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "每一条机器指令由一条微指令来执行"
+      },
+      {
+        "label": "B",
+        "text": "每一条机器指令由一段用微指令编成的微程序来解释执行"
+      },
+      {
+        "label": "C",
+        "text": "一段机器指令组成的程序可由一条微指令来执行"
+      },
+      {
+        "label": "D",
+        "text": "一条微指令由若干条机器指令组成"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 30,
+    "type": "single",
+    "text": "单地址指令中为了完成两个数的算术运算，除地址码指明的一个操作数外，另一个数常需采用____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "堆栈寻址方式"
+      },
+      {
+        "label": "B",
+        "text": "立即寻址方式"
+      },
+      {
+        "label": "C",
+        "text": "隐含寻址方式"
+      },
+      {
+        "label": "D",
+        "text": "间接寻址方式"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 31,
+    "type": "single",
+    "text": "二地址指令中，操作数的物理位置不可能采取的结构是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "寄存器-寄存器"
+      },
+      {
+        "label": "B",
+        "text": "寄存器-存储器"
+      },
+      {
+        "label": "C",
+        "text": "存储器-存储器"
+      },
+      {
+        "label": "D",
+        "text": "寄存器-锁存器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 32,
+    "type": "single",
+    "text": "零地址运算指令在指令格式中不给出操作数地址，因此它的操作数可以来自____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "立即数和栈顶"
+      },
+      {
+        "label": "B",
+        "text": "栈顶和次栈顶"
+      },
+      {
+        "label": "C",
+        "text": "暂存器和栈顶"
+      },
+      {
+        "label": "D",
+        "text": "寄存器和内存单元"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 33,
+    "type": "single",
+    "text": "寄存器间接寻址方式中，操作数处在____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "通用寄存器"
+      },
+      {
+        "label": "B",
+        "text": "主存单元"
+      },
+      {
+        "label": "C",
+        "text": "程序计数器"
+      },
+      {
+        "label": "D",
+        "text": "堆栈"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 34,
+    "type": "single",
+    "text": "____用于保存当前正在执行的一条指令。",
+    "options": [
+      {
+        "label": "A",
+        "text": "缓冲寄存器"
+      },
+      {
+        "label": "B",
+        "text": "地址寄存器"
+      },
+      {
+        "label": "C",
+        "text": "程序计数器"
+      },
+      {
+        "label": "D",
+        "text": "指令寄存器"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 35,
+    "type": "single",
+    "text": "某计算机字长16位，它的存储容量是64K，若按字编址，那么它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "64K"
+      },
+      {
+        "label": "B",
+        "text": "32K"
+      },
+      {
+        "label": "C",
+        "text": "64KB"
+      },
+      {
+        "label": "D",
+        "text": "32KB"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 36,
+    "type": "single",
+    "text": "用于对某个寄存器中操作数的寻址方式称为____寻址。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接"
+      },
+      {
+        "label": "B",
+        "text": "间接"
+      },
+      {
+        "label": "C",
+        "text": "寄存器直接"
+      },
+      {
+        "label": "D",
+        "text": "寄存器间接"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 37,
+    "type": "single",
+    "text": "某计算机字长32位，其存储容量为32MB，若按字编址，那么它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "8MB"
+      },
+      {
+        "label": "B",
+        "text": "16M"
+      },
+      {
+        "label": "C",
+        "text": "8M"
+      },
+      {
+        "label": "D",
+        "text": "32M"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 38,
+    "type": "single",
+    "text": "二地址指令中，操作数的物理位置不会安排在____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "两个主存单元"
+      },
+      {
+        "label": "B",
+        "text": "一个主存单元和一个寄存器"
+      },
+      {
+        "label": "C",
+        "text": "相联存储器"
+      },
+      {
+        "label": "D",
+        "text": "两个寄存器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 39,
+    "type": "single",
+    "text": "某计算机字长32位，其存储容量为8MB，若按字编址，它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1M"
+      },
+      {
+        "label": "B",
+        "text": "4MB"
+      },
+      {
+        "label": "C",
+        "text": "4M"
+      },
+      {
+        "label": "D",
+        "text": "2MB"
+      }
+    ],
+    "answer": "2M",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 40,
+    "type": "single",
+    "text": "寄存器直接寻址方式中，寄存器中所存的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "操作数"
+      },
+      {
+        "label": "B",
+        "text": "存放操作数的主存单元的地址"
+      },
+      {
+        "label": "C",
+        "text": "存放操作数的寄存器的编号"
+      },
+      {
+        "label": "D",
+        "text": "存放操作数的主存单元地址的地址"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 41,
+    "type": "single",
+    "text": "指令的寻址方式采用跳跃寻址方式时，可实现____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "堆栈寻址"
+      },
+      {
+        "label": "B",
+        "text": "程序的条件转移"
+      },
+      {
+        "label": "C",
+        "text": "程序的无条件转移"
+      },
+      {
+        "label": "D",
+        "text": "程序的条件转移或无条件转移"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 42,
+    "type": "single",
+    "text": "下面描述RISC指令系统中基本概念不正确的句子是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "选取使用频率高的一些简单指令，指令条数少"
+      },
+      {
+        "label": "B",
+        "text": "指令长度固定"
+      },
+      {
+        "label": "C",
+        "text": "指令格式种类多，寻址方式种类多"
+      },
+      {
+        "label": "D",
+        "text": "只有取数/存数指令访问存储器"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 43,
+    "type": "single",
+    "text": "指令系统中采用不同寻址方式的目的主要是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "可直接访问外存"
+      },
+      {
+        "label": "B",
+        "text": "提供扩展操作码并降低指令译码难度"
+      },
+      {
+        "label": "C",
+        "text": "实现存储程序和程序控制"
+      },
+      {
+        "label": "D",
+        "text": "缩短指令长度，扩大寻址空间，提高编程灵活性"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 44,
+    "type": "single",
+    "text": "指令周期是指____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "CPU执行一条指令的时间"
+      },
+      {
+        "label": "B",
+        "text": "从主存取出一条指令加上执行这条指令的时间"
+      },
+      {
+        "label": "C",
+        "text": "时钟周期时间"
+      },
+      {
+        "label": "D",
+        "text": "CPU从主存取出一条指令的时间"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 45,
+    "type": "single",
+    "text": "某计算机字长32位，存储容量是8MB，若按双字编址，那么它的寻址范围是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "256K"
+      },
+      {
+        "label": "B",
+        "text": "512K"
+      },
+      {
+        "label": "C",
+        "text": "1M"
+      },
+      {
+        "label": "D",
+        "text": "2M"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 46,
+    "type": "single",
+    "text": "以下四种类型指令中，执行时间最长的是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "RR型指令"
+      },
+      {
+        "label": "B",
+        "text": "RS型指令"
+      },
+      {
+        "label": "C",
+        "text": "SS型指令"
+      },
+      {
+        "label": "D",
+        "text": "程序控制指令"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 47,
+    "type": "single",
+    "text": "为了缩短指令中某个地址段的位数，有效的方法是采取____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "立即寻址"
+      },
+      {
+        "label": "B",
+        "text": "变址寻址"
+      },
+      {
+        "label": "C",
+        "text": "间接寻址"
+      },
+      {
+        "label": "D",
+        "text": "寄存器寻址"
+      }
+    ],
+    "answer": "D",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 48,
+    "type": "single",
+    "text": "基址寻址方式中，操作数的有效地址是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "基址寄存器内容加上形式地址（位移量）"
+      },
+      {
+        "label": "B",
+        "text": "程序计数器内容加上形式地址"
+      },
+      {
+        "label": "C",
+        "text": "变址寄存器内容加上形式地址"
+      },
+      {
+        "label": "D",
+        "text": "寄存器内容加上形式地址"
+      }
+    ],
+    "answer": "A",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 49,
+    "type": "single",
+    "text": "直接、间接、立即三种寻址方式指令的执行速度，由快至慢的排序是____。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接、立即、间接"
+      },
+      {
+        "label": "B",
+        "text": "直接、间接、立即"
+      },
+      {
+        "label": "C",
+        "text": "立即、直接、间接"
+      },
+      {
+        "label": "D",
+        "text": "立即、间接、直接"
+      }
+    ],
+    "answer": "C",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第4组：指令系统选择题",
+    "number": 50,
+    "type": "single",
+    "text": "____寻址便于处理数组问题。",
+    "options": [
+      {
+        "label": "A",
+        "text": "间接寻址"
+      },
+      {
+        "label": "B",
+        "text": "变址寻址"
+      },
+      {
+        "label": "C",
+        "text": "相对寻址"
+      }
+    ],
+    "answer": "B",
+    "source": "计算机组成原理复习题_人工逐字校对版.docx",
+    "subtopic": ""
+  }
+]);
+
+window.QUESTION_BANK = window.QUESTION_BANK.concat([
+  {
+    "course": "计算机组成原理",
+    "topic": "第一章",
+    "number": 1,
+    "type": "short",
+    "text": "用一台50MHz处理器执行标准测试程序，它包含的混合指令数和相应所需的平均时钟周期数如表所示: 指令类型   \t\t指令数目\t\t平均时钟周期 整数运算\t\t45000\t\t\t\t1 数据传送\t\t32000\t\t\t\t2 浮点运算\t\t15000\t\t\t\t2 控制传送\t\t8000\t\t\t\t2 求有效 CPI、MIPS 速率",
+    "options": [],
+    "answer": "CPI=1.55  MIPS=50/1.55",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第一章",
+    "number": 2,
+    "type": "short",
+    "text": "用一台50MHz处理器执行标准测试程序，它包含的混合指令数和相应所需的平均时钟周期数如表所示: 指令类型   \t\t指令数目占比\t\t平均时钟周期 整数运算\t\t45%\t\t\t\t1 数据传送\t\t32%\t\t\t\t2 浮点运算\t\t15%\t\t\t\t2 控制传送\t\t8%\t\t\t\t2 求有效CPI",
+    "options": [],
+    "answer": "CPI=1.55",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第三章",
+    "number": 3,
+    "type": "short",
+    "text": "设有存储器总容量32字，单字字长64位，分为4个存储模块。存储模块的存储周期T = 200nS，系统总线单次数据传送周期= 50ns。分别计算顺序组织方式、交叉组织方式下，连续读出4个字的存储器带宽。",
+    "options": [],
+    "answer": "32乘10的7次方   73乘10的7次方",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第三章",
+    "number": 4,
+    "type": "short",
+    "text": "已知CPU-Cache-主存存储系统，Cache单次访问时间为tc，主存单次访问时间为tm;Nc为Cache命中的访问次数，Nm为访问主存的缺失次数。",
+    "options": [],
+    "answer": "",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第三章",
+    "number": 1,
+    "type": "short",
+    "text": "写出命中率h的计算公式;",
+    "options": [],
+    "answer": "",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第三章",
+    "number": 2,
+    "type": "short",
+    "text": "推导系统平均访问时间ta;",
+    "options": [],
+    "answer": "",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第三章",
+    "number": 3,
+    "type": "short",
+    "text": "推导Cache的访问效率e。 第四章： 指令系统结构如下所示，试分析指令格式及寻址方式特点",
+    "options": [],
+    "answer": "(1)双字长二地址指令",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第三章",
+    "number": 4,
+    "type": "short",
+    "text": "题目太不清没看懂",
+    "options": [],
+    "answer": "无",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第五章",
+    "number": 1,
+    "type": "short",
+    "text": "例:双总线结构机器的数据通路。IR为指令寄存器，PC:程序计数器(自增功能)，M:主存(受R/W信号控制)，AR:地址寄存器，DR:数据缓冲寄存器。 ALU由加、减控制信号决定完成何种操作，控制信号G控制的是一个门电路。另外，线上注有小圈表示有控制信号，例中yi表示y寄存器的输入控制信号，R10为寄存器R1的输出控制信号，未标字符的线为直通线，不受控制。 \"ADD R2,R0”指令完成 (R0)+ (R2)-> R0功能操作。假设该指令的地址已放入PC中。 “ADD @R0,R1” 指令完成 ((R0))+ (R1) ->R0功能操作。假设该指令的地址已放入PC中。",
+    "options": [],
+    "answer": "",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "计算机组成原理",
+    "topic": "第五章",
+    "number": 2,
+    "type": "short",
+    "text": "控制存储器CM容量1024x64位,控制转移条件6个,编码法,微指令是水平型,后续采用多路转移。 (1)位数 (2)画框图",
+    "options": [],
+    "answer": "",
+    "source": "新建 DOCX 文档.docx",
+    "subtopic": ""
+  }
+]);
+
+window.QUESTION_BANK = window.QUESTION_BANK.concat([
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 1,
+    "type": "single",
+    "text": "可以用（  ）定义一个完整的数据结构。",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据元素"
+      },
+      {
+        "label": "B",
+        "text": "数据对象"
+      },
+      {
+        "label": "C",
+        "text": "数据关系"
+      },
+      {
+        "label": "D",
+        "text": "抽象数据类型"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 2,
+    "type": "single",
+    "text": "以下数据结构中，（  ）是非线性数据结构。",
+    "options": [
+      {
+        "label": "C",
+        "text": "数据关系"
+      },
+      {
+        "label": "D",
+        "text": "抽象数据类型"
+      },
+      {
+        "label": "A",
+        "text": "树"
+      },
+      {
+        "label": "B",
+        "text": "字符串"
+      },
+      {
+        "label": "C",
+        "text": "队列"
+      },
+      {
+        "label": "D",
+        "text": "栈"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 3,
+    "type": "single",
+    "text": "以下关于数据结构的说法，正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "队列"
+      },
+      {
+        "label": "D",
+        "text": "栈"
+      },
+      {
+        "label": "A",
+        "text": "数据的逻辑结构独立于其存储结构"
+      },
+      {
+        "label": "B",
+        "text": "数据的存储结构独立于其逻辑结构"
+      },
+      {
+        "label": "C",
+        "text": "数据的逻辑结构唯一决定了其存储结构"
+      },
+      {
+        "label": "D",
+        "text": "数据结构仅由其逻辑结构和存储结构决定"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 4,
+    "type": "single",
+    "text": "假设有如下遗产继承规则：丈夫和妻子可以相互继承遗产；子女可以继承父亲或母亲的遗产；子女间不能相互继承。则表示该关系的最合适的数据结构是（ ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "数据的逻辑结构唯一决定了其存储结构"
+      },
+      {
+        "label": "D",
+        "text": "数据结构仅由其逻辑结构和存储结构决定"
+      },
+      {
+        "label": "A",
+        "text": "树"
+      },
+      {
+        "label": "B",
+        "text": "图"
+      },
+      {
+        "label": "C",
+        "text": "线性表"
+      },
+      {
+        "label": "D",
+        "text": "集合"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 5,
+    "type": "single",
+    "text": "(  )不是算法的基本特性。",
+    "options": [
+      {
+        "label": "C",
+        "text": "线性表"
+      },
+      {
+        "label": "D",
+        "text": "集合"
+      },
+      {
+        "label": "A",
+        "text": "可行性"
+      },
+      {
+        "label": "B",
+        "text": "长度有限"
+      },
+      {
+        "label": "C",
+        "text": "在规定时间内完成"
+      },
+      {
+        "label": "D",
+        "text": "确定性"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 6,
+    "type": "single",
+    "text": "在相同的规模n下，复杂度O(n)的算法在时间上总 是优于复杂度O(2n)的算法 （3）所谓时间复杂度是指最坏情况下，估算算法执行时间的一个上界 （4）同一个算法，实现语言的级别越高，执行效率就越低 以下属于逻辑结构的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "（1）    B.（1），（2）       C.（1），（4）     D.（3）"
+      },
+      {
+        "label": "A",
+        "text": "顺序表      B.散列表         C.有序表            D.单链表"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 7,
+    "type": "single",
+    "text": "（4）同一个算法，实现语言的级别越高，执行效率就越低 以下属于逻辑结构的是（ ）。 下述（  ）与数据的存储结构无关",
+    "options": [
+      {
+        "label": "A",
+        "text": "（1）    B.（1），（2）       C.（1），（4）     D.（3）"
+      },
+      {
+        "label": "A",
+        "text": "顺序表      B.散列表         C.有序表            D.单链表"
+      },
+      {
+        "label": "A",
+        "text": "栈   B.双向链表   C.散列表  D.线索树   E. 循环队列"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 8,
+    "type": "single",
+    "text": "某算法的时间复杂度为O(n2)，表明该算法的（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "算法的易读性"
+      },
+      {
+        "label": "D",
+        "text": "A和B"
+      },
+      {
+        "label": "A",
+        "text": "问题规模是n2"
+      },
+      {
+        "label": "B",
+        "text": "执行时间等于n2"
+      },
+      {
+        "label": "C",
+        "text": "执行时间与n2成正比"
+      },
+      {
+        "label": "D",
+        "text": "问题规模与n2成正比"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 9,
+    "type": "single",
+    "text": "以下函数中时间复杂度最小的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "执行时间与n2成正比"
+      },
+      {
+        "label": "D",
+        "text": "问题规模与n2成正比"
+      },
+      {
+        "label": "A",
+        "text": "T1(n) = nlog2n + 5000n"
+      },
+      {
+        "label": "B",
+        "text": "T2(n) = n2 - 8000n"
+      },
+      {
+        "label": "C",
+        "text": "T3(n) = nlog2n - 6000n"
+      },
+      {
+        "label": "D",
+        "text": "T4(n) = 20000log2n"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 10,
+    "type": "single",
+    "text": "以下函数中时间复杂度最小的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "T3(n) = nlog2n - 6000n"
+      },
+      {
+        "label": "D",
+        "text": "T4(n) = 20000log2n"
+      },
+      {
+        "label": "A",
+        "text": "T1(n) = 1000log2n"
+      },
+      {
+        "label": "B",
+        "text": "T2(n) = nlog2n - 1000log2n"
+      },
+      {
+        "label": "C",
+        "text": "T3(n) = n2 - 1000log2n"
+      },
+      {
+        "label": "D",
+        "text": "T4(n) = 2nlog2n - 1000log2n"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 11,
+    "type": "single",
+    "text": "假设时间复杂度为O(n2)的算法在有200个元素的数组上运行需要3.1ms，则在有400个元素的数组上运行要（  ）ms。",
+    "options": [
+      {
+        "label": "C",
+        "text": "T3(n) = n2 - 1000log2n"
+      },
+      {
+        "label": "D",
+        "text": "T4(n) = 2nlog2n - 1000log2n"
+      },
+      {
+        "label": "A",
+        "text": "3.1"
+      },
+      {
+        "label": "B",
+        "text": "6.2"
+      },
+      {
+        "label": "C",
+        "text": "12.4"
+      },
+      {
+        "label": "D",
+        "text": "9.61"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 12,
+    "type": "single",
+    "text": "已知两个长度分别为m和n的升序链表，若将它们合并为一个长度为 m+n的降序链表，则最坏情况下的时间复杂度是（  ）。",
+    "options": [
+      {
+        "label": "D",
+        "text": "9.61"
+      },
+      {
+        "label": "A",
+        "text": "O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(m×n)"
+      },
+      {
+        "label": "C",
+        "text": "O(min(m, n))"
+      },
+      {
+        "label": "D",
+        "text": "O(max(m, n))"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 13,
+    "type": "single",
+    "text": "A[j]与A[j+1]互换; 其中n为正整数，则最后一行的语句频度在最坏情况下是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(nlogn)"
+      },
+      {
+        "label": "C",
+        "text": "O(n3)"
+      },
+      {
+        "label": "D",
+        "text": "O(n2)"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 14,
+    "type": "single",
+    "text": "以下（  ）是一个线性表。",
+    "options": [
+      {
+        "label": "A",
+        "text": "由n个实数组成的集合"
+      },
+      {
+        "label": "B",
+        "text": "由100个字符组成的序列"
+      },
+      {
+        "label": "C",
+        "text": "所有整数组成的序列"
+      },
+      {
+        "label": "D",
+        "text": "邻接表"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 15,
+    "type": "single",
+    "text": "在线性表中，除了开始元素外，每个元素（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "所有整数组成的序列"
+      },
+      {
+        "label": "D",
+        "text": "邻接表"
+      },
+      {
+        "label": "A",
+        "text": "只有唯一的前驱元素"
+      },
+      {
+        "label": "B",
+        "text": "只有唯一的后继元素"
+      },
+      {
+        "label": "C",
+        "text": "有多个前驱元素"
+      },
+      {
+        "label": "D",
+        "text": "有多个后继元素"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 16,
+    "type": "single",
+    "text": "在线性表中，除了开始元素外，每个元素（  ）。 线性表是具有n个（  ）的有限序列。",
+    "options": [
+      {
+        "label": "A",
+        "text": "只有唯一的前驱元素"
+      },
+      {
+        "label": "B",
+        "text": "只有唯一的后继元素"
+      },
+      {
+        "label": "C",
+        "text": "有多个前驱元素"
+      },
+      {
+        "label": "D",
+        "text": "有多个后继元素"
+      },
+      {
+        "label": "B",
+        "text": "字符"
+      },
+      {
+        "label": "C",
+        "text": "数据元素"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 17,
+    "type": "single",
+    "text": "线性表是具有n个（  ）的有限序列。 将两个有n个元素的有序表归并成一个有序表，其最少比较次数为（ ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "有多个前驱元素"
+      },
+      {
+        "label": "D",
+        "text": "有多个后继元素"
+      },
+      {
+        "label": "B",
+        "text": "字符"
+      },
+      {
+        "label": "C",
+        "text": "数据元素"
+      },
+      {
+        "label": "D",
+        "text": "数据项"
+      },
+      {
+        "label": "A",
+        "text": "n    B. 2n-1        C. 2n         D. n-1"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 18,
+    "type": "single",
+    "text": "将两个有n个元素的有序表归并成一个有序表，其最少比较次数为（ ）。 下述哪一条是顺序存储结构的优点（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "n    B. 2n-1        C. 2n         D. n-1"
+      },
+      {
+        "label": "A",
+        "text": "存储密度大"
+      },
+      {
+        "label": "B",
+        "text": "插入运算方便"
+      },
+      {
+        "label": "C",
+        "text": "删除运算方便"
+      },
+      {
+        "label": "D",
+        "text": "方便地运用于各种逻辑结构的存储表示"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 19,
+    "type": "single",
+    "text": "线性表的顺序存储结构是一种（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "删除运算方便"
+      },
+      {
+        "label": "D",
+        "text": "方便地运用于各种逻辑结构的存储表示"
+      },
+      {
+        "label": "A",
+        "text": "随机存取的存储结构"
+      },
+      {
+        "label": "B",
+        "text": "顺序存取的存储结构"
+      },
+      {
+        "label": "C",
+        "text": "索引存取的存储结构"
+      },
+      {
+        "label": "D",
+        "text": "散列存取的存储结构"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 20,
+    "type": "single",
+    "text": "一个顺序表所占用的存储空间大小与（  ）无关。",
+    "options": [
+      {
+        "label": "C",
+        "text": "索引存取的存储结构"
+      },
+      {
+        "label": "D",
+        "text": "散列存取的存储结构"
+      },
+      {
+        "label": "A",
+        "text": "表的长度"
+      },
+      {
+        "label": "B",
+        "text": "元素的存放顺序"
+      },
+      {
+        "label": "C",
+        "text": "元素的类型"
+      },
+      {
+        "label": "D",
+        "text": "元素中各字段的类型"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 21,
+    "type": "single",
+    "text": "若线性表最常用的操作是存取第i个元素及其前驱和后继元素的值， 为了提高效率，应采用（  ）的存储方式。",
+    "options": [
+      {
+        "label": "D",
+        "text": "元素中各字段的类型"
+      },
+      {
+        "label": "A",
+        "text": "单链表"
+      },
+      {
+        "label": "B",
+        "text": "双向链表"
+      },
+      {
+        "label": "C",
+        "text": "单循环链表"
+      },
+      {
+        "label": "D",
+        "text": "顺序表"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 22,
+    "type": "single",
+    "text": "在一个长度为n（n>1）的带头结点的单链表h上，另设有尾指针r（指向尾结点），执行（ ）操作与链表的长度有关。 删除单链表中的第一个结点 删除单链表中的最后一个结点 在单链表第一个元素前插入一个新结点 在单链表最后一个元素后插入一个新结点",
+    "options": [
+      {
+        "label": "C",
+        "text": "单循环链表"
+      },
+      {
+        "label": "D",
+        "text": "顺序表"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 23,
+    "type": "single",
+    "text": "在单链表最后一个元素后插入一个新结点 一个线性表最常用的操作是存取任一指定序号的元素和 在最后进行插入删除操作，则利用（  ）存储方式可以节省时间。",
+    "options": [
+      {
+        "label": "A",
+        "text": "顺序表"
+      },
+      {
+        "label": "B",
+        "text": "双链表"
+      },
+      {
+        "label": "C",
+        "text": "带头结点的双循环链表"
+      },
+      {
+        "label": "D",
+        "text": "单循环链表"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 24,
+    "type": "single",
+    "text": "在一个长度为n的顺序表中删除第i个元素（1≤i≤n）时， 需向前移动（  ）个元素。",
+    "options": [
+      {
+        "label": "D",
+        "text": "单循环链表"
+      },
+      {
+        "label": "A",
+        "text": "n"
+      },
+      {
+        "label": "B",
+        "text": "i-1"
+      },
+      {
+        "label": "C",
+        "text": "n-i"
+      },
+      {
+        "label": "D",
+        "text": "n-i+1"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 25,
+    "type": "single",
+    "text": "对于顺序表，访问第i个位置的元素和在第i个位置插入一个新元素的时间复杂度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "n-i"
+      },
+      {
+        "label": "D",
+        "text": "n-i+1"
+      },
+      {
+        "label": "A",
+        "text": "O(n), O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(n), O(1)"
+      },
+      {
+        "label": "C",
+        "text": "O(1), O(n)"
+      },
+      {
+        "label": "D",
+        "text": "O(1), O(1)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 26,
+    "type": "single",
+    "text": "对于一个线性表既要求能够进行较快速地插入和删除， 又要求存储结构能反映数据之间的逻辑关系，则应该用（  ）。",
+    "options": [
+      {
+        "label": "D",
+        "text": "O(1), O(1)"
+      },
+      {
+        "label": "A",
+        "text": "顺序存储方式"
+      },
+      {
+        "label": "B",
+        "text": "链式存储方式"
+      },
+      {
+        "label": "C",
+        "text": "散列存储方式"
+      },
+      {
+        "label": "D",
+        "text": "以上均可以"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 27,
+    "type": "single",
+    "text": "对于顺序存储的线性表，其算法的时间复杂度为O(1)的运算应该是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "散列存储方式"
+      },
+      {
+        "label": "D",
+        "text": "以上均可以"
+      },
+      {
+        "label": "A",
+        "text": "将n 个元素从小到大排序"
+      },
+      {
+        "label": "B",
+        "text": "删除第i个元素（1≤i≤n）"
+      },
+      {
+        "label": "C",
+        "text": "改变第i个元素的值（1≤i≤n）"
+      },
+      {
+        "label": "D",
+        "text": "在第i个元素后插入一个新元素（1≤i≤n）"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 28,
+    "type": "single",
+    "text": "设线性表中有2n个元素，（  ）在单链表上实现要比在顺序表上实现效率更高。",
+    "options": [
+      {
+        "label": "C",
+        "text": "改变第i个元素的值（1≤i≤n）"
+      },
+      {
+        "label": "D",
+        "text": "在第i个元素后插入一个新元素（1≤i≤n）"
+      },
+      {
+        "label": "A",
+        "text": "删除所有值为x的元素"
+      },
+      {
+        "label": "B",
+        "text": "在最后一个元素的后面插入一个新元素"
+      },
+      {
+        "label": "C",
+        "text": "顺序输出前k个元素"
+      },
+      {
+        "label": "D",
+        "text": "交换第i个元素和第2n-i-1个元素的值（i = 0, ..., n-1）"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 29,
+    "type": "single",
+    "text": "线性表的静态链表存储与顺序存储结构相比，其优点是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "删除所有值为x的元素"
+      },
+      {
+        "label": "B",
+        "text": "在最后一个元素的后面插入一个新元素"
+      },
+      {
+        "label": "C",
+        "text": "顺序输出前k个元素"
+      },
+      {
+        "label": "D",
+        "text": "交换第i个元素和第2n-i-1个元素的值（i = 0, ..., n-1）"
+      },
+      {
+        "label": "A",
+        "text": "所有的操作算法实现简单               B.便于随机存储"
+      },
+      {
+        "label": "C",
+        "text": "便于插入和删除                       D. 便于利用零散的存储空间"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 30,
+    "type": "single",
+    "text": "在一个单链表中，已知q所指结点是p所指结点的前驱结点， 若在q和p之间插入结点s，则执行（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "便于插入和删除                       D. 便于利用零散的存储空间"
+      },
+      {
+        "label": "A",
+        "text": "s->next = p->next;  p->next = s;"
+      },
+      {
+        "label": "B",
+        "text": "p->next = s->next;  s->next = p;"
+      },
+      {
+        "label": "C",
+        "text": "q->next = s;  s->next = p;"
+      },
+      {
+        "label": "D",
+        "text": "p->next = s;  s->next = q;"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 31,
+    "type": "single",
+    "text": "将长度为n的单链表接在长度为m的单链表后面，其算法的时间复杂度应该是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "q->next = s;  s->next = p;"
+      },
+      {
+        "label": "D",
+        "text": "p->next = s;  s->next = q;"
+      },
+      {
+        "label": "A",
+        "text": "O(1)"
+      },
+      {
+        "label": "B",
+        "text": "O(n)"
+      },
+      {
+        "label": "C",
+        "text": "O(m)"
+      },
+      {
+        "label": "D",
+        "text": "O(n+m)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 32,
+    "type": "single",
+    "text": "带头结点的单链表中，头结点的目的是为了（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "O(m)"
+      },
+      {
+        "label": "D",
+        "text": "O(n+m)"
+      },
+      {
+        "label": "A",
+        "text": "使单链表至少有一个结点"
+      },
+      {
+        "label": "B",
+        "text": "标识表结点中首结点的位置"
+      },
+      {
+        "label": "C",
+        "text": "方便运算的实现"
+      },
+      {
+        "label": "D",
+        "text": "说明单链表是线性表的链式存储"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 33,
+    "type": "single",
+    "text": "带头结点的单链表中，头结点的目的是为了（  ）。 需要分配较大的连续空间，插入和删除不需要移动元素的线性表，其存储结构为（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "使单链表至少有一个结点"
+      },
+      {
+        "label": "B",
+        "text": "标识表结点中首结点的位置"
+      },
+      {
+        "label": "C",
+        "text": "方便运算的实现"
+      },
+      {
+        "label": "D",
+        "text": "说明单链表是线性表的链式存储"
+      },
+      {
+        "label": "A",
+        "text": "单链表  B.静态链表     C.顺序表     D.双链表"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 34,
+    "type": "single",
+    "text": "需要分配较大的连续空间，插入和删除不需要移动元素的线性表，其存储结构为（  ）。 在一个长度为n的带头结点的单链表h上，设有尾指针r，则执行（  ）操作与链表的表长有关。",
+    "options": [
+      {
+        "label": "A",
+        "text": "单链表  B.静态链表     C.顺序表     D.双链表"
+      },
+      {
+        "label": "A",
+        "text": "删除第一个元素"
+      },
+      {
+        "label": "B",
+        "text": "删除最后一个元素"
+      },
+      {
+        "label": "C",
+        "text": "在第一个元素前插入新元素"
+      },
+      {
+        "label": "D",
+        "text": "在最后一个元素后面插入新元素"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 35,
+    "type": "single",
+    "text": "对于单链表，设表头指针为head，则带头结点和不带头结点的单链表的判空表条件分别是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "在第一个元素前插入新元素"
+      },
+      {
+        "label": "D",
+        "text": "在最后一个元素后面插入新元素"
+      },
+      {
+        "label": "A",
+        "text": "head != NULL和head->next == NULL"
+      },
+      {
+        "label": "B",
+        "text": "head->next == NULL和head->next == head"
+      },
+      {
+        "label": "C",
+        "text": "head == NULL和head != NULL"
+      },
+      {
+        "label": "D",
+        "text": "head->next ==NULL 和head == NULL"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 36,
+    "type": "single",
+    "text": "线性表最常用的操作是在最后一个结点之后插入一个结点或删除第一个结点，则采用（  ）存储结构最节约运算时间。",
+    "options": [
+      {
+        "label": "A",
+        "text": "head != NULL和head->next == NULL"
+      },
+      {
+        "label": "B",
+        "text": "head->next == NULL和head->next == head"
+      },
+      {
+        "label": "C",
+        "text": "head == NULL和head != NULL"
+      },
+      {
+        "label": "D",
+        "text": "head->next ==NULL 和head == NULL"
+      },
+      {
+        "label": "A",
+        "text": "单链表         B.仅有头结点指针的单循环链表"
+      },
+      {
+        "label": "C",
+        "text": "双链表         D.仅有尾结点指针的单循环链表"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 37,
+    "type": "single",
+    "text": "设指针rear指向带头节点的循环单链表的尾节点，若要删除链表的第一个元素结点，正确的操作是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "单链表         B.仅有头结点指针的单循环链表"
+      },
+      {
+        "label": "C",
+        "text": "双链表         D.仅有尾结点指针的单循环链表"
+      },
+      {
+        "label": "A",
+        "text": "s = rear; rear = rear->next;"
+      },
+      {
+        "label": "B",
+        "text": "rear=rear->next"
+      },
+      {
+        "label": "C",
+        "text": "rear=rear->next->next"
+      },
+      {
+        "label": "D",
+        "text": "s=rear->next->next;  rear->next->next=s->next"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 38,
+    "type": "single",
+    "text": "设有两个长度为n的单链表（带头结点），结点类型相同，若以h1为头结点指针的链表是非循环的，以h2为头结点的链表是循环的，则（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "rear=rear->next->next"
+      },
+      {
+        "label": "D",
+        "text": "s=rear->next->next;  rear->next->next=s->next"
+      },
+      {
+        "label": "A",
+        "text": "对于两个链表来说，删除开始结点的操作，其时间复杂度分别为O(1)和O(n)"
+      },
+      {
+        "label": "B",
+        "text": "对于两个链表来说，删除终端结点的操作，其时间复杂度都是O(n)"
+      },
+      {
+        "label": "C",
+        "text": "循环链表要比非循环链表占用更多"
+      },
+      {
+        "label": "D",
+        "text": "h1和h2是不同类型的变量"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 39,
+    "type": "single",
+    "text": "某线性表中最常见的操作是在最后一个元素之后插入一个元素和删除第一个元素，则采用（  ）存储方式最省时间。",
+    "options": [
+      {
+        "label": "C",
+        "text": "循环链表要比非循环链表占用更多"
+      },
+      {
+        "label": "D",
+        "text": "h1和h2是不同类型的变量"
+      },
+      {
+        "label": "A",
+        "text": "单链表"
+      },
+      {
+        "label": "B",
+        "text": "头指针表示的单循环链表"
+      },
+      {
+        "label": "C",
+        "text": "双链表"
+      },
+      {
+        "label": "D",
+        "text": "尾指针表示的单循环链表"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 40,
+    "type": "single",
+    "text": "使用双链表的优点可以是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "单链表"
+      },
+      {
+        "label": "B",
+        "text": "头指针表示的单循环链表"
+      },
+      {
+        "label": "C",
+        "text": "双链表"
+      },
+      {
+        "label": "D",
+        "text": "尾指针表示的单循环链表"
+      },
+      {
+        "label": "A",
+        "text": "提高查找速度                  B. 更方便数据的插入和删除"
+      },
+      {
+        "label": "C",
+        "text": "节约存储空间                  D. 很快的回收存储空间"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 41,
+    "type": "single",
+    "text": "在双链表中指针pa所指结点后面插入pb结点，执行的语句序列是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高查找速度                  B. 更方便数据的插入和删除"
+      },
+      {
+        "label": "C",
+        "text": "节约存储空间                  D. 很快的回收存储空间"
+      },
+      {
+        "label": "A",
+        "text": "1234              B. 4321"
+      },
+      {
+        "label": "C",
+        "text": "3412              D. 1432"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 42,
+    "type": "single",
+    "text": "双向链表中，向p所指结点之前插入一个新结点q的操作为（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1234              B. 4321"
+      },
+      {
+        "label": "C",
+        "text": "3412              D. 1432"
+      },
+      {
+        "label": "A",
+        "text": "p->prior=q; q->next=p; p->prior->next=q; q->prior=p->prior;"
+      },
+      {
+        "label": "B",
+        "text": "q->prior=p->prior; p->prior->next=q; q->next=p; p->prior=q->next;"
+      },
+      {
+        "label": "C",
+        "text": "q->next=p; p->next=q; q->prior->next=q; q->next=p;"
+      },
+      {
+        "label": "D",
+        "text": "p->prior->next=q; q->next=p; q->prior=p->prior; p->prior=q;"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 43,
+    "type": "single",
+    "text": "双向链表中，删除p所指的结点时必须修改指针（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "q->next=p; p->next=q; q->prior->next=q; q->next=p;"
+      },
+      {
+        "label": "D",
+        "text": "p->prior->next=q; q->next=p; q->prior=p->prior; p->prior=q;"
+      },
+      {
+        "label": "A",
+        "text": "p->prior->next=p->next; p->next->prior=p->prior;"
+      },
+      {
+        "label": "B",
+        "text": "p->prior=p->prior->prior; p->prior->next=p;"
+      },
+      {
+        "label": "C",
+        "text": "p->prior->next=p; p->next=p->next->next;"
+      },
+      {
+        "label": "D",
+        "text": "p->next=p->prior->prior; p->prior=p->next->next;"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 44,
+    "type": "single",
+    "text": "在长度为n的有序单链表中插入一个新结点，并仍然保持有序的时间复杂度是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "p->prior->next=p; p->next=p->next->next;"
+      },
+      {
+        "label": "D",
+        "text": "p->next=p->prior->prior; p->prior=p->next->next;"
+      },
+      {
+        "label": "A",
+        "text": "O(1)"
+      },
+      {
+        "label": "B",
+        "text": "O(n)"
+      },
+      {
+        "label": "C",
+        "text": "O(n2)"
+      },
+      {
+        "label": "D",
+        "text": "O(nlog2n)"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 45,
+    "type": "single",
+    "text": "与单链表相比，双链表的优点之一是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "O(n2)"
+      },
+      {
+        "label": "D",
+        "text": "O(nlog2n)"
+      },
+      {
+        "label": "A",
+        "text": "插入、删除操作更方便"
+      },
+      {
+        "label": "B",
+        "text": "可以进行随机访问"
+      },
+      {
+        "label": "C",
+        "text": "可以省略表头指针或表尾指针"
+      },
+      {
+        "label": "D",
+        "text": "访问前后相邻结点更灵活"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 46,
+    "type": "single",
+    "text": "带头结点的双循环链表L为空的条件是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "可以省略表头指针或表尾指针"
+      },
+      {
+        "label": "D",
+        "text": "访问前后相邻结点更灵活"
+      },
+      {
+        "label": "A",
+        "text": "L->prior==L && L->next==NULL"
+      },
+      {
+        "label": "B",
+        "text": "L->prior==NULL && L->next==NULL"
+      },
+      {
+        "label": "C",
+        "text": "L->prior==NULL && L->next==L"
+      },
+      {
+        "label": "D",
+        "text": "L->prior==L && L->next==L"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 47,
+    "type": "single",
+    "text": "一个链表最常用的操作是在末尾插入结点和删除结点，则选用（  ）最节约时间。",
+    "options": [
+      {
+        "label": "C",
+        "text": "L->prior==NULL && L->next==L"
+      },
+      {
+        "label": "D",
+        "text": "L->prior==L && L->next==L"
+      },
+      {
+        "label": "A",
+        "text": "带头结点的双循环链表"
+      },
+      {
+        "label": "B",
+        "text": "带头指针的单循环链表"
+      },
+      {
+        "label": "C",
+        "text": "带尾指针的单循环链表"
+      },
+      {
+        "label": "D",
+        "text": "单链表"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 48,
+    "type": "single",
+    "text": "设对n（n>1）个元素的线性表的运算只有4种：删除第一个元素；删除最后一个元素；在第一个元素之前插入新元素；在最后一个元素之后插入新元素，则最好使用（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "带尾指针的单循环链表"
+      },
+      {
+        "label": "D",
+        "text": "单链表"
+      },
+      {
+        "label": "A",
+        "text": "带尾指针的循环单链表"
+      },
+      {
+        "label": "B",
+        "text": "带尾指针的非循环双向链表"
+      },
+      {
+        "label": "C",
+        "text": "带头指针的循环双向链表"
+      },
+      {
+        "label": "D",
+        "text": "带头指针的循环单链表"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 49,
+    "type": "single",
+    "text": "一个链表最常用的操作是在最后一个元素之后插入一个元素和删除第一个元素，则采用（  ）最节约时间。",
+    "options": [
+      {
+        "label": "C",
+        "text": "带头指针的循环双向链表"
+      },
+      {
+        "label": "D",
+        "text": "带头指针的循环单链表"
+      },
+      {
+        "label": "A",
+        "text": "带头指针的单循环链表"
+      },
+      {
+        "label": "B",
+        "text": "非循环双链表"
+      },
+      {
+        "label": "C",
+        "text": "带尾指针的单循环链表"
+      },
+      {
+        "label": "D",
+        "text": "单链表"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 50,
+    "type": "single",
+    "text": "静态链表中指针指示的是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "线性表的顺序存储结构优于其链式存储结构"
+      },
+      {
+        "label": "B",
+        "text": "链式存储结构比顺序存储结构能更方便地表示各种逻辑结构"
+      },
+      {
+        "label": "C",
+        "text": "如频繁使用插入和删除结点操作，顺序存储结构更优于链式存储结构"
+      },
+      {
+        "label": "D",
+        "text": "顺序存储结构和链式存储结构都可以进行顺序存取"
+      },
+      {
+        "label": "A",
+        "text": "内存地址                                 B. 数组下标"
+      },
+      {
+        "label": "C",
+        "text": "链表中下一元素在数组中的地址              D. 左右孩子地址"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 51,
+    "type": "single",
+    "text": "栈和队列的主要区别在于（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "它们的逻辑结构不一样"
+      },
+      {
+        "label": "B",
+        "text": "它们的存储结构不一样"
+      },
+      {
+        "label": "C",
+        "text": "所包含的元素不一样"
+      },
+      {
+        "label": "D",
+        "text": "插入、删除操作的限定不一样"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 52,
+    "type": "single",
+    "text": "栈是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "它们的逻辑结构不一样"
+      },
+      {
+        "label": "B",
+        "text": "它们的存储结构不一样"
+      },
+      {
+        "label": "C",
+        "text": "所包含的元素不一样"
+      },
+      {
+        "label": "D",
+        "text": "插入、删除操作的限定不一样"
+      },
+      {
+        "label": "A",
+        "text": "顺序存储的线性结构                  B. 链式存储的非线性结构"
+      },
+      {
+        "label": "C",
+        "text": "限制存储点的线性结构                D. 限制存储点的非线性结构"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 53,
+    "type": "single",
+    "text": "栈是（  ）。 （  ）不是栈的基本操作。",
+    "options": [
+      {
+        "label": "A",
+        "text": "顺序存储的线性结构                  B. 链式存储的非线性结构"
+      },
+      {
+        "label": "C",
+        "text": "限制存储点的线性结构                D. 限制存储点的非线性结构"
+      },
+      {
+        "label": "A",
+        "text": "删除栈顶元素                      B. 删除栈底元素"
+      },
+      {
+        "label": "C",
+        "text": "判断栈是否为空                    D. 将栈置空"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 54,
+    "type": "single",
+    "text": "（  ）不是栈的基本操作。 假定利用数组a[n]存储存储一个栈，用top表示栈顶指针，top == -1表示栈空， 当元素x进栈时执行的操作是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "删除栈顶元素                      B. 删除栈底元素"
+      },
+      {
+        "label": "C",
+        "text": "判断栈是否为空                    D. 将栈置空"
+      },
+      {
+        "label": "A",
+        "text": "a[--top] = x     B. a[top--] = x     C. a[++top] = x    D. a[top++] = x"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 55,
+    "type": "single",
+    "text": "假定利用数组a[n]存储存储一个栈，用top表示栈顶指针，top == -1表示栈空， 当元素x进栈时执行的操作是（  ）。 若一个栈以向量V[1, ..., n]存储，初始栈顶指针top为n+1，则x进栈的正确操作是(  )，",
+    "options": [
+      {
+        "label": "A",
+        "text": "a[--top] = x     B. a[top--] = x     C. a[++top] = x    D. a[top++] = x"
+      },
+      {
+        "label": "A",
+        "text": "top = top+1;  V[top]=x;              B.V[top]=x; top=top+1;"
+      },
+      {
+        "label": "C",
+        "text": "top = top-1;  V[top]=x;                D.V[top]=x; top=top-1;"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 56,
+    "type": "single",
+    "text": "若一个栈以向量V[1, ..., n]存储，初始栈顶指针top为n+1，则x进栈的正确操作是(  )， 经过下列栈的操作后，变量x的值为（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "top = top+1;  V[top]=x;              B.V[top]=x; top=top+1;"
+      },
+      {
+        "label": "C",
+        "text": "top = top-1;  V[top]=x;                D.V[top]=x; top=top-1;"
+      },
+      {
+        "label": "A",
+        "text": "a      B. b      C. NULL      D. FALSE"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 57,
+    "type": "single",
+    "text": "经过下列栈的操作后，变量x的值为（  ）。 设a, b, c, d, e, f以所给的次序进栈，若在进栈操作时，允许出栈操作，则下面得不到的序列是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "top = top-1;  V[top]=x;                D.V[top]=x; top=top-1;"
+      },
+      {
+        "label": "A",
+        "text": "a      B. b      C. NULL      D. FALSE"
+      },
+      {
+        "label": "A",
+        "text": "fedcba     B. bcafed      C.dcefba      D. cabdef"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 58,
+    "type": "single",
+    "text": "设a, b, c, d, e, f以所给的次序进栈，若在进栈操作时，允许出栈操作，则下面得不到的序列是（  ）。 若一个栈的输入序列是1, 2, 3, ..., n，输出序列的一个元素是n，则第i个输出元素是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "a      B. b      C. NULL      D. FALSE"
+      },
+      {
+        "label": "A",
+        "text": "fedcba     B. bcafed      C.dcefba      D. cabdef"
+      },
+      {
+        "label": "A",
+        "text": "不确定      B. n-i      C. n-i-1      D. n-i+1"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 59,
+    "type": "single",
+    "text": "设a, b, c, d, e, f以所给的次序进栈，若在进栈操作时，允许出栈操作，则下面得不到的序列是（  ）。 若一个栈的输入序列是1, 2, 3, ..., n，输出序列的一个元素是n，则第i个输出元素是（  ）。 元素abcdefg依次进入栈S，规定在进栈时，允许出栈操作，若出栈输出序列为bdcfeag，则栈S的容量至少是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "fedcba     B. bcafed      C.dcefba      D. cabdef"
+      },
+      {
+        "label": "A",
+        "text": "不确定      B. n-i      C. n-i-1      D. n-i+1"
+      },
+      {
+        "label": "A",
+        "text": "1      B. 2      C. 3      D. 4"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 60,
+    "type": "single",
+    "text": "若一个栈的输入序列是1, 2, 3, ..., n，输出序列的一个元素是n，则第i个输出元素是（  ）。 元素abcdefg依次进入栈S，规定在进栈时，允许出栈操作，若出栈输出序列为bdcfeag，则栈S的容量至少是（  ）。 若一个栈的输入序列是1, 2, 3, ..., n，输出序列的一个元素是i，则第j个输出元素是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不确定      B. n-i      C. n-i-1      D. n-i+1"
+      },
+      {
+        "label": "A",
+        "text": "1      B. 2      C. 3      D. 4"
+      },
+      {
+        "label": "A",
+        "text": "不确定      B. i-j-1      C. n-i-1      D. i-j"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 61,
+    "type": "single",
+    "text": "元素abcdefg依次进入栈S，规定在进栈时，允许出栈操作，若出栈输出序列为bdcfeag，则栈S的容量至少是（  ）。 若一个栈的输入序列是1, 2, 3, ..., n，输出序列的一个元素是i，则第j个输出元素是（  ）。 若已知一个栈的入栈序列是1, 2, 3, 4。其出栈序列是P1, P2, P3, P4，则P2, P4不可能使（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "1      B. 2      C. 3      D. 4"
+      },
+      {
+        "label": "A",
+        "text": "不确定      B. i-j-1      C. n-i-1      D. i-j"
+      },
+      {
+        "label": "A",
+        "text": "2, 4      B. 2, 1      C. 4, 3 (p1, 4, p3, 3)     D. 3, 4  (p1, 3, p3, 4)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 62,
+    "type": "single",
+    "text": "若已知一个栈的入栈序列是1, 2, 3, 4。其出栈序列是P1, P2, P3, P4，则P2, P4不可能使（  ）。 向一个栈顶指针为h的带头结点的链栈中插入指针s所指的结点时，应执行（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "不确定      B. i-j-1      C. n-i-1      D. i-j"
+      },
+      {
+        "label": "A",
+        "text": "2, 4      B. 2, 1      C. 4, 3 (p1, 4, p3, 3)     D. 3, 4  (p1, 3, p3, 4)"
+      },
+      {
+        "label": "A",
+        "text": "h->next=s;            B. s->next=h;"
+      },
+      {
+        "label": "C",
+        "text": "s->next=h; h->next=s;   D. s->next=h->next; h->next=s;"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 63,
+    "type": "single",
+    "text": "向一个栈顶指针为h的带头结点的链栈中插入指针s所指的结点时，应执行（ ）。 从栈顶指针为top的链栈中删除一个结点（假设不带头结点），用变量x保存被删除结点值，则执行（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "h->next=s;            B. s->next=h;"
+      },
+      {
+        "label": "C",
+        "text": "s->next=h; h->next=s;   D. s->next=h->next; h->next=s;"
+      },
+      {
+        "label": "A",
+        "text": "x=top; top=top->next;          B. x=top->data;"
+      },
+      {
+        "label": "C",
+        "text": "top=top->next; x=top->data;     D. x=top->data; top=top->next;"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 64,
+    "type": "single",
+    "text": "从栈顶指针为top的链栈中删除一个结点（假设不带头结点），用变量x保存被删除结点值，则执行（  ）。 设n个元素进栈序列是1,2,3,...,n，其输出序列是p1, p2, p3, ..., pn。若p1 = 3，则p2的值(   )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "x=top; top=top->next;          B. x=top->data;"
+      },
+      {
+        "label": "C",
+        "text": "top=top->next; x=top->data;     D. x=top->data; top=top->next;"
+      },
+      {
+        "label": "A",
+        "text": "一定是2              B.一定是1"
+      },
+      {
+        "label": "C",
+        "text": "不可能是1            D.以上都不是"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 65,
+    "type": "single",
+    "text": "最适合用作链队的链表（链表有头结点，有队首指针则指向头结点， 有队尾指针则指向终端结点）是(  )。",
+    "options": [
+      {
+        "label": "A",
+        "text": "只带队首指针的循环单链表           B.只带队尾指针的循环单链表"
+      },
+      {
+        "label": "C",
+        "text": "只带队首指针的非循环单链表         D.只带队尾指针的非循环单链表"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 66,
+    "type": "single",
+    "text": "最适合用作链队的链表（链表有头结点，有队首指针则指向头结点， 有队尾指针则指向终端结点）是(  )。 最不适合用作队列的链表是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "只带队首指针的循环单链表           B.只带队尾指针的循环单链表"
+      },
+      {
+        "label": "C",
+        "text": "只带队首指针的非循环单链表         D.只带队尾指针的非循环单链表"
+      },
+      {
+        "label": "A",
+        "text": "只带队首指针的非循环双链表              B.只带队首指针的循环双链表"
+      },
+      {
+        "label": "C",
+        "text": "只带队尾指针的循环双链表                D.只带队尾指针的循环单链表"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 67,
+    "type": "single",
+    "text": "允许对队列进行的操作有（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "只带队首指针的非循环双链表              B.只带队首指针的循环双链表"
+      },
+      {
+        "label": "C",
+        "text": "只带队尾指针的循环双链表                D.只带队尾指针的循环单链表"
+      },
+      {
+        "label": "A",
+        "text": "对队列中的元素排序"
+      },
+      {
+        "label": "B",
+        "text": "取出最近队列的元素"
+      },
+      {
+        "label": "C",
+        "text": "在队列元素之间插入元素"
+      },
+      {
+        "label": "D",
+        "text": "删除队头元素"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 68,
+    "type": "single",
+    "text": "对于链队，在进行出队操作时（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对队列中的元素排序"
+      },
+      {
+        "label": "B",
+        "text": "取出最近队列的元素"
+      },
+      {
+        "label": "C",
+        "text": "在队列元素之间插入元素"
+      },
+      {
+        "label": "D",
+        "text": "删除队头元素"
+      },
+      {
+        "label": "A",
+        "text": "仅修改头指针                  B.仅修改尾指针"
+      },
+      {
+        "label": "C",
+        "text": "头、尾指针都要修改            D.头、尾指针可能要修改"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 69,
+    "type": "single",
+    "text": "一个队列的入队顺序是1、2、3、4。则出队的输出顺序是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅修改头指针                  B.仅修改尾指针"
+      },
+      {
+        "label": "C",
+        "text": "头、尾指针都要修改            D.头、尾指针可能要修改"
+      },
+      {
+        "label": "A",
+        "text": "4、3、2、1"
+      },
+      {
+        "label": "B",
+        "text": "1、2、3、4"
+      },
+      {
+        "label": "C",
+        "text": "1、4、3、2"
+      },
+      {
+        "label": "D",
+        "text": "3、2、4、1"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 70,
+    "type": "single",
+    "text": "循环队列存储在数组A[0...n]中，则入队时的操作是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "1、4、3、2"
+      },
+      {
+        "label": "D",
+        "text": "3、2、4、1"
+      },
+      {
+        "label": "A",
+        "text": "rear = rear + 1"
+      },
+      {
+        "label": "B",
+        "text": "rear = (rear+1) mod (n-1)"
+      },
+      {
+        "label": "C",
+        "text": "rear = (rear+1) mod n"
+      },
+      {
+        "label": "D",
+        "text": "rear = (rear+1) mod (n+1)"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 71,
+    "type": "single",
+    "text": "循环队列存储在数组A[0...n]中，则入队时的操作是（  ）。 设循环队列的下标范围是0~n-1,其头、尾指针分别是f和r，则其元素个数为（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "rear = rear + 1"
+      },
+      {
+        "label": "B",
+        "text": "rear = (rear+1) mod (n-1)"
+      },
+      {
+        "label": "C",
+        "text": "rear = (rear+1) mod n"
+      },
+      {
+        "label": "D",
+        "text": "rear = (rear+1) mod (n+1)"
+      },
+      {
+        "label": "A",
+        "text": "r-f       B.r-f-1         C.(r-f)%n+1        D.(r-f+n)%n"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 72,
+    "type": "single",
+    "text": "已知循环队列的存储空间为数组A[0...20]，front指向队头元素的前一个位置， rear指向队尾元素，假设当前front和rear的值分别是8和3，则该队列的长度为（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "r-f       B.r-f-1         C.(r-f)%n+1        D.(r-f+n)%n"
+      },
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 73,
+    "type": "single",
+    "text": "若用数组A[0...5]来实现循环队列，且当前rear和front的值分别为1和5， 当从队列中删除一个元素，再加入两个元素后，rear和front的值分别为（  ）。",
+    "options": [
+      {
+        "label": "D",
+        "text": "17"
+      },
+      {
+        "label": "A",
+        "text": "3和4"
+      },
+      {
+        "label": "B",
+        "text": "3和0"
+      },
+      {
+        "label": "C",
+        "text": "5和0  (front:0  rear:3)"
+      },
+      {
+        "label": "D",
+        "text": "5和1"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 74,
+    "type": "single",
+    "text": "C(必须空一个元素) 栈的应用不包括（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "Q.front == (Q.rear+1) % MaxSize"
+      },
+      {
+        "label": "D",
+        "text": "Q.rear == (Q.front+1) % MaxSize"
+      },
+      {
+        "label": "A",
+        "text": "递归"
+      },
+      {
+        "label": "B",
+        "text": "进制转换"
+      },
+      {
+        "label": "C",
+        "text": "迷宫求解"
+      },
+      {
+        "label": "D",
+        "text": "缓冲区"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 75,
+    "type": "single",
+    "text": "表达式a*(b+c)-d的后缀表达式是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "迷宫求解"
+      },
+      {
+        "label": "D",
+        "text": "缓冲区"
+      },
+      {
+        "label": "A",
+        "text": "abcd*+-"
+      },
+      {
+        "label": "B",
+        "text": "abc+*d-"
+      },
+      {
+        "label": "C",
+        "text": "abc*+d-"
+      },
+      {
+        "label": "D",
+        "text": "-+*abcd"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 76,
+    "type": "single",
+    "text": "为解决计算机主机与打印机之间速度不匹配的问题，通常设置一个打印数据缓冲区，主机将要输出的数据一次写入该缓冲区，而打印机则依次从该缓冲区中取出数据。该缓冲区的逻辑结构应该是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "abc*+d-"
+      },
+      {
+        "label": "D",
+        "text": "-+*abcd"
+      },
+      {
+        "label": "A",
+        "text": "栈"
+      },
+      {
+        "label": "B",
+        "text": "队列"
+      },
+      {
+        "label": "C",
+        "text": "树"
+      },
+      {
+        "label": "D",
+        "text": "图"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 77,
+    "type": "single",
+    "text": "一个问题的递归算法求解和其相对应的非递归算法求解，（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "树"
+      },
+      {
+        "label": "D",
+        "text": "图"
+      },
+      {
+        "label": "A",
+        "text": "递归算法通常效率高一些"
+      },
+      {
+        "label": "B",
+        "text": "非递归算法通常效率高一些"
+      },
+      {
+        "label": "C",
+        "text": "两者相同"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 78,
+    "type": "single",
+    "text": "当执行函数时，其局部变量的存储一般采用（  ）结构进行存储。",
+    "options": [
+      {
+        "label": "C",
+        "text": "两者相同"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      },
+      {
+        "label": "A",
+        "text": "树"
+      },
+      {
+        "label": "B",
+        "text": "链表"
+      },
+      {
+        "label": "C",
+        "text": "栈"
+      },
+      {
+        "label": "D",
+        "text": "队列"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 79,
+    "type": "single",
+    "text": "执行（  ）操作时，需要使用队列作为辅助存储空间。",
+    "options": [
+      {
+        "label": "C",
+        "text": "栈"
+      },
+      {
+        "label": "D",
+        "text": "队列"
+      },
+      {
+        "label": "A",
+        "text": "查找散列（哈希）表"
+      },
+      {
+        "label": "B",
+        "text": "广度优先搜索图"
+      },
+      {
+        "label": "C",
+        "text": "先序遍历二叉树"
+      },
+      {
+        "label": "D",
+        "text": "深度优先搜索图"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 80,
+    "type": "single",
+    "text": "下列说法正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "先序遍历二叉树"
+      },
+      {
+        "label": "D",
+        "text": "深度优先搜索图"
+      },
+      {
+        "label": "A",
+        "text": "消除递归不一定使用栈"
+      },
+      {
+        "label": "B",
+        "text": "对同一输入序列进行两组不同的合法入栈和出栈组合操作，所得的输出序列也一定相同"
+      },
+      {
+        "label": "C",
+        "text": "通常使用队列来处理函数或过程调用"
+      },
+      {
+        "label": "D",
+        "text": "队列和栈都是运算受限的线性表，只允许在表的两端进行运算"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 81,
+    "type": "single",
+    "text": "数组部分： 对于数组的操作，最常见的两种是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "建立和删除          B.索引和修改"
+      },
+      {
+        "label": "C",
+        "text": "查找和修改          D.查找和索引"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 82,
+    "type": "single",
+    "text": "一棵有n个结点的树的所有结点的度数之和为（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "n-1"
+      },
+      {
+        "label": "B",
+        "text": "n"
+      },
+      {
+        "label": "C",
+        "text": "n+1"
+      },
+      {
+        "label": "D",
+        "text": "2n"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 83,
+    "type": "single",
+    "text": "对于一棵具有n个结点、度为4的树来说，（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "n+1"
+      },
+      {
+        "label": "D",
+        "text": "2n"
+      },
+      {
+        "label": "A",
+        "text": "树的高度至多是n-3"
+      },
+      {
+        "label": "B",
+        "text": "树的高度至多是n-4"
+      },
+      {
+        "label": "C",
+        "text": "第i层至多有4(i-1)个结点"
+      },
+      {
+        "label": "D",
+        "text": "至少在某一层上正好有4个结点"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 84,
+    "type": "single",
+    "text": "度为4、高度为h的树，则（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "第i层至多有4(i-1)个结点"
+      },
+      {
+        "label": "D",
+        "text": "至少在某一层上正好有4个结点"
+      },
+      {
+        "label": "A",
+        "text": "至少有h+3个结点"
+      },
+      {
+        "label": "B",
+        "text": "至多有4h-1个结点"
+      },
+      {
+        "label": "C",
+        "text": "至多有4h个结点"
+      },
+      {
+        "label": "D",
+        "text": "至少有h+4个结点"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 85,
+    "type": "single",
+    "text": "C（logm(n(m-1)+1)上限) 在一棵度为4的树T中，若有20个度为4的结点，10个度为3的结点，1个度为2的结点，10个度为1的结点，则树T的叶结点个数是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      },
+      {
+        "label": "A",
+        "text": "41"
+      },
+      {
+        "label": "B",
+        "text": "82"
+      },
+      {
+        "label": "C",
+        "text": "113"
+      },
+      {
+        "label": "D",
+        "text": "122"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 86,
+    "type": "single",
+    "text": "在二叉树中某一结点的深度为3，高度为4，该树的高度至少为（  ）。 B(深度是指该结点相对于根节点的深度，高度是指以该结点为根结点的子树的高度) 在一颗满二叉树中，某结点的深度为4，高度为4，则可推知该满二叉树的高度为（  ）。",
+    "options": [
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 87,
+    "type": "single",
+    "text": "在二叉树中某一结点的深度为3，高度为4，该树的高度至少为（  ）。 B(深度是指该结点相对于根节点的深度，高度是指以该结点为根结点的子树的高度) 在一颗满二叉树中，某结点的深度为4，高度为4，则可推知该满二叉树的高度为（  ）。 假设一棵二叉树的结点个数为50，则它的最小高度是（  ）。",
+    "options": [
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 88,
+    "type": "single",
+    "text": "一个具有1025个结点的二叉树的高h为（  ）。 设二叉树只有度为0和2的结点，其结点个数为15，则该二叉树的最大深度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 89,
+    "type": "single",
+    "text": "高度为h的完全二叉树最少有（  ）个结点。",
+    "options": [
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 90,
+    "type": "single",
+    "text": "已知一棵有2011个结点的树，其叶结点个数是116，该树对应的二叉树中无右孩子的结点个数是（  ）。",
+    "options": [
+      {
+        "label": "D",
+        "text": "树转化为二叉树后，无右孩子的结点有两种情况：1根结点没有；2度大于等于1的节点的最右侧孩子 或 举例法"
+      },
+      {
+        "label": "A",
+        "text": "对于一棵满二叉树，共有n个结点和m个叶子结点，高度为h，则（  ）。"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 91,
+    "type": "single",
+    "text": "若有一个叶子结点是二叉树中某个子树的中序遍历结果序列的最后一个结点，则它一定是该子树的前序遍历结果序列的最后一个结点 若有一个叶子结点是二叉树中某个子树的前序遍历结果序列的最后一个结点，则它一定是该子树的中序遍历结果序列的最后一个结点",
+    "options": [
+      {
+        "label": "C",
+        "text": "（A. LN - NL   B.RN - NR  C.--  D.NL - LN"
+      },
+      {
+        "label": "A",
+        "text": "在任何一棵二叉树中，如果结点a有左孩子b、右孩子c，则在结点的先序序列、中序序列、后序序列中，（  ）。"
+      },
+      {
+        "label": "B",
+        "text": "结点b一定在结点a的前面"
+      },
+      {
+        "label": "C",
+        "text": "结点a一定在结点c的前面"
+      },
+      {
+        "label": "D",
+        "text": "结点b一定在结点c的前面"
+      },
+      {
+        "label": "E",
+        "text": "结点a一定在结点b的前面"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 92,
+    "type": "single",
+    "text": "后序序列与层次序列相同的非空二叉树是（  ）。 D（排除法） 设n、m为一棵二叉树上的两个结点，在后序遍历时，n在m前的条件是（  ）。 n在m右方 n是m祖先 n在m左方 n是m子孙",
+    "options": [
+      {
+        "label": "B",
+        "text": "完全二叉树"
+      },
+      {
+        "label": "C",
+        "text": "单支树"
+      },
+      {
+        "label": "D",
+        "text": "只有根结点的树"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 93,
+    "type": "single",
+    "text": "只有一个叶子结点 是任意一棵二叉树",
+    "options": [
+      {
+        "label": "C",
+        "text": "（树型：所有结点度数小于等于1，n个结点高度为n，NLR LRN -> NL LN或NR RN）"
+      },
+      {
+        "label": "A",
+        "text": "设结点X和Y是二叉树中任意的两个结点。在该二叉树的先序遍历序列中X在Y之前，而在其后序遍历序列中X在Y之后，则X和Y的关系是（  ）。"
+      },
+      {
+        "label": "B",
+        "text": "X是Y的左兄弟"
+      },
+      {
+        "label": "C",
+        "text": "X是Y的右兄弟"
+      },
+      {
+        "label": "D",
+        "text": "X是Y的祖先"
+      },
+      {
+        "label": "E",
+        "text": "X是Y的后裔"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 94,
+    "type": "single",
+    "text": "有e和c 无法确定",
+    "options": [
+      {
+        "label": "A",
+        "text": "(NLR   LRN，将根a分别去掉后，先序剩下ebdc，后序剩下bcde，）"
+      },
+      {
+        "label": "A",
+        "text": "下列序列中，不能唯一地确定一棵二叉树的是（  ）。"
+      },
+      {
+        "label": "B",
+        "text": "层次序列和中序序列"
+      },
+      {
+        "label": "C",
+        "text": "先序序列和中序序列"
+      },
+      {
+        "label": "D",
+        "text": "后序序列和中序序列"
+      },
+      {
+        "label": "E",
+        "text": "先序序列和后序序列"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 95,
+    "type": "single",
+    "text": "线索二叉树是一种（  ）结构。 引入线索二叉树的目的是（  ）。 加快查找结点的前驱和后继的速度 为了能方便找到双亲 为了能在二叉树中方便插入和删除 是二叉树的遍历结果唯一",
+    "options": [
+      {
+        "label": "A",
+        "text": "逻辑      B.逻辑和存储      C.存储         D.线性"
+      },
+      {
+        "label": "C",
+        "text": "(在二叉链式存储结构基础上构造出来的新的存储结构)"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 96,
+    "type": "single",
+    "text": "下列关于树的说法中，正确的是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "对于有n个结点的二叉树，其高度为log2n"
+      },
+      {
+        "label": "B",
+        "text": "完全二叉树中，若一个结点没有左孩子，则它必是叶结点"
+      },
+      {
+        "label": "C",
+        "text": "高度为h (h>0)的完全二叉树对应的森林所含的树的个数一定是h"
+      },
+      {
+        "label": "D",
+        "text": "一棵树中的叶子数一定等于与其对应的二叉树的叶子数"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 97,
+    "type": "single",
+    "text": "利用二叉链表存储森林，则根节点的右指针是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "高度为h (h>0)的完全二叉树对应的森林所含的树的个数一定是h"
+      },
+      {
+        "label": "D",
+        "text": "一棵树中的叶子数一定等于与其对应的二叉树的叶子数"
+      },
+      {
+        "label": "A",
+        "text": "指向最左兄弟"
+      },
+      {
+        "label": "B",
+        "text": "指向最右兄弟"
+      },
+      {
+        "label": "C",
+        "text": "一定为空"
+      },
+      {
+        "label": "D",
+        "text": "不一定为空"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 98,
+    "type": "single",
+    "text": "将森林转换为对应的二叉树，若在二叉树中，结点u是结点v的父结点的父结点，则在原来的森林中，u和v可能具有的关系是（  ）。 I. 父子关系 II. 兄弟关系 III. u的父结点和v的父结点是兄弟关系",
+    "options": [
+      {
+        "label": "A",
+        "text": "只有II"
+      },
+      {
+        "label": "B",
+        "text": "I和II"
+      },
+      {
+        "label": "C",
+        "text": "I和III"
+      },
+      {
+        "label": "D",
+        "text": "I、II和III"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 99,
+    "type": "single",
+    "text": "设森林F中有3棵树，第1、2、3棵树的结点个数分别为M1、M2和M3。与森林F对应的二叉树根结点的右子树上的结点个数是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "I和III"
+      },
+      {
+        "label": "D",
+        "text": "I、II和III"
+      },
+      {
+        "label": "A",
+        "text": "M1"
+      },
+      {
+        "label": "B",
+        "text": "M1+M2"
+      },
+      {
+        "label": "C",
+        "text": "M3"
+      },
+      {
+        "label": "D",
+        "text": "M2+M3"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 100,
+    "type": "single",
+    "text": "设森林F对应的二叉树为B，它有m个结点，B的根为p，p的右子树结点个数为n，森林F中第一棵树的结点个数是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "M3"
+      },
+      {
+        "label": "D",
+        "text": "M2+M3"
+      },
+      {
+        "label": "A",
+        "text": "m-n"
+      },
+      {
+        "label": "B",
+        "text": "m-n-1"
+      },
+      {
+        "label": "C",
+        "text": "n+1"
+      },
+      {
+        "label": "D",
+        "text": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 101,
+    "type": "single",
+    "text": "如果T1是由有序树T转换而来的二叉树，那么T中结点的后序遍历序列就是T1中结点的（  ）序列。",
+    "options": [
+      {
+        "label": "C",
+        "text": "n+1"
+      },
+      {
+        "label": "D",
+        "text": "n+2"
+      },
+      {
+        "label": "C",
+        "text": "（右指针为空表示没有右兄弟，每个非终端结点的最右孩子都是没有右兄弟的，再加上变换为二叉树后根结点也没有右子树，因此为n+1）"
+      },
+      {
+        "label": "A",
+        "text": "先序"
+      },
+      {
+        "label": "B",
+        "text": "中序"
+      },
+      {
+        "label": "C",
+        "text": "后序"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 102,
+    "type": "single",
+    "text": "某二叉树结点的中序序列为BDAECF，后序序列为DBEFCA，则该二叉树对应的森林包括（  ）棵树。",
+    "options": [
+      {
+        "label": "C",
+        "text": "后序"
+      },
+      {
+        "label": "D",
+        "text": "层序"
+      },
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 103,
+    "type": "single",
+    "text": "对于二叉排序树，下面的说法（  ）是正确的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "二叉排序树是动态树表，查找失败时和插入新结点时，会引起树的重新分裂和组合。"
+      },
+      {
+        "label": "B",
+        "text": "对二叉排序树进行层序遍历可得到有序序列"
+      },
+      {
+        "label": "C",
+        "text": "用逐点插入法构造二叉排序树，若先后插入的关键字有序，二叉排序树的深度最大"
+      },
+      {
+        "label": "D",
+        "text": "在二叉排序树中进行查找，关键字的比较次数不超过结点数的1/2"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 104,
+    "type": "single",
+    "text": "按（  ）遍历二叉排序树得到的序列是一个有序的序列。",
+    "options": [
+      {
+        "label": "C",
+        "text": "用逐点插入法构造二叉排序树，若先后插入的关键字有序，二叉排序树的深度最大"
+      },
+      {
+        "label": "D",
+        "text": "在二叉排序树中进行查找，关键字的比较次数不超过结点数的1/2"
+      },
+      {
+        "label": "A",
+        "text": "先序"
+      },
+      {
+        "label": "B",
+        "text": "中序"
+      },
+      {
+        "label": "C",
+        "text": "后序"
+      },
+      {
+        "label": "D",
+        "text": "层次"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 105,
+    "type": "single",
+    "text": "在二叉排序树中进行查找的效率与（  ）有关。",
+    "options": [
+      {
+        "label": "C",
+        "text": "后序"
+      },
+      {
+        "label": "D",
+        "text": "层次"
+      },
+      {
+        "label": "A",
+        "text": "二叉排序树的深度"
+      },
+      {
+        "label": "B",
+        "text": "二叉排序树的结点的个数"
+      },
+      {
+        "label": "C",
+        "text": "被查找结点的度"
+      },
+      {
+        "label": "D",
+        "text": "二叉排序树的存储结构"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 106,
+    "type": "single",
+    "text": "在二叉排序树中，关键字最大的结点（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "被查找结点的度"
+      },
+      {
+        "label": "D",
+        "text": "二叉排序树的存储结构"
+      },
+      {
+        "label": "A",
+        "text": "左指针一定为空"
+      },
+      {
+        "label": "B",
+        "text": "右指针一定为空"
+      },
+      {
+        "label": "C",
+        "text": "左右指针均为空"
+      },
+      {
+        "label": "D",
+        "text": "左右指针均不为空"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 107,
+    "type": "single",
+    "text": "已知二叉排序树如图所示，关键字最大的结点（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "左右指针均为空"
+      },
+      {
+        "label": "D",
+        "text": "左右指针均不为空"
+      },
+      {
+        "label": "A",
+        "text": "x1<x2<x5"
+      },
+      {
+        "label": "B",
+        "text": "x1<x4<x5"
+      },
+      {
+        "label": "C",
+        "text": "x3<x5<x4"
+      },
+      {
+        "label": "D",
+        "text": "x4<x3<x5"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 108,
+    "type": "single",
+    "text": "设二叉排序树中关键字由1到1000的整数组成，现要查找关键字为363的结点，下述关键字序列中，不可能是在二叉排序树上查找的序列是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "x3<x5<x4"
+      },
+      {
+        "label": "D",
+        "text": "x4<x3<x5"
+      },
+      {
+        "label": "A",
+        "text": "2, 252, 401, 398, 330, 344, 397, 363"
+      },
+      {
+        "label": "B",
+        "text": "924, 220, 911, 244, 898, 258, 362, 363"
+      },
+      {
+        "label": "C",
+        "text": "925, 202, 911, 240, 912, 245, 363"
+      },
+      {
+        "label": "D",
+        "text": "2, 399, 387, 219, 266, 382, 381, 278, 363"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 109,
+    "type": "single",
+    "text": "对于下列关键字序列，不可能构成某二叉排序树中一条查找路径的序列是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "925, 202, 911, 240, 912, 245, 363"
+      },
+      {
+        "label": "D",
+        "text": "2, 399, 387, 219, 266, 382, 381, 278, 363"
+      },
+      {
+        "label": "A",
+        "text": "95, 22, 91, 24, 94, 71"
+      },
+      {
+        "label": "B",
+        "text": "92, 20, 91, 34, 88, 35"
+      },
+      {
+        "label": "C",
+        "text": "21, 89, 77, 29, 36, 38"
+      },
+      {
+        "label": "D",
+        "text": "12, 25, 71, 68, 33, 34"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 110,
+    "type": "single",
+    "text": "分别以下列序列构造二叉排序树，与用其他3个序列所构造的结果不同的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "21, 89, 77, 29, 36, 38"
+      },
+      {
+        "label": "D",
+        "text": "12, 25, 71, 68, 33, 34"
+      },
+      {
+        "label": "A",
+        "text": "(100, 80, 90, 60, 120, 110, 130)"
+      },
+      {
+        "label": "B",
+        "text": "(100, 120, 110, 130, 80, 60, 90)"
+      },
+      {
+        "label": "C",
+        "text": "(100, 60, 80, 90, 120, 110, 130)"
+      },
+      {
+        "label": "D",
+        "text": "(100, 80, 60, 90, 120, 130, 110)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 111,
+    "type": "single",
+    "text": "在含有n个结点的二叉排序树中查找某个关键字的结点时，最多进行（  ）次比较。",
+    "options": [
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      },
+      {
+        "label": "A",
+        "text": "（与52比较大于：后面跟71比较小于：再跟60比较）"
+      },
+      {
+        "label": "A",
+        "text": "n/2"
+      },
+      {
+        "label": "B",
+        "text": "log2n"
+      },
+      {
+        "label": "C",
+        "text": "log2n+1"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 112,
+    "type": "single",
+    "text": "构造一棵具有n个结点的二叉排序树，在最理想的情况下的深度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "log2n+1"
+      },
+      {
+        "label": "D",
+        "text": "n"
+      },
+      {
+        "label": "A",
+        "text": "n/2"
+      },
+      {
+        "label": "B",
+        "text": "n"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 113,
+    "type": "single",
+    "text": "不可能产生如下图的二叉排序树的关键字序列是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 2 1 3 5"
+      },
+      {
+        "label": "B",
+        "text": "4 2 5 3 1"
+      },
+      {
+        "label": "C",
+        "text": "4 5 2 1 3"
+      },
+      {
+        "label": "D",
+        "text": "4 5 1 2 3"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 114,
+    "type": "single",
+    "text": "下列二叉排序树中，满足平衡二叉树定义的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      },
+      {
+        "label": "B",
+        "text": "（所有结点的平衡因子都不为0，特例，都为1）(N1 = 1,  N2 = 2,  Nh = Nh-1 + Nh-2 + 1)"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 115,
+    "type": "single",
+    "text": "在如下平衡二叉树中插入关键字48后得到一棵新的平衡二叉树，在新的平衡二叉树中，关键字37所在的结点的左、右子结点中保存的关键字分别是（  ）。 若平衡二叉树的高度为6，且所有非叶子结点的平衡因子均为1，则该平衡二叉树的结点总数是（  ）。",
+    "options": [
+      {
+        "label": "B",
+        "text": "(N1 = 1,  N2 = 2,  Nh = Nh-1 + Nh-2 + 1)"
+      },
+      {
+        "label": "A",
+        "text": "若将关键字1 2 3 4 5 6 7依次插入到初始为空的平衡二叉树T中，则T中平衡因子为0的分支结点的个数是（  ）。"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 116,
+    "type": "single",
+    "text": "在含有15个节点的平衡二叉树上，查找关键字为28的节点，则依次比较的关键字有可能是（  ）。 在有n个叶子结点的哈夫曼树中，非叶子结点的总数是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "30,28        B.38,48,28          C.48,18,38,28        D.60,30,50,40,38,36,,28"
+      },
+      {
+        "label": "C",
+        "text": "(N1 = 1,  N2 = 2,  Nh = Nh-1 + Nh-2 + 1  ->  N4=7  N5 = 12  N6=20 该树最大高度为5最小叶节点层数3) 1  2-3  4-7  7-15  12-31  20-64"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 117,
+    "type": "single",
+    "text": "给定整数集合{3, 5, 6, 9, 12}，与之对应的哈夫曼树是（  ）。 下列编码中，（  ）不是前缀码。 设哈夫曼编码的长度不超过4，若已对两个字符编码为1和01，则最多可对（  ）个字符编码。",
+    "options": [
+      {
+        "label": "C",
+        "text": "（0000 0001 0010 0011 ）"
+      },
+      {
+        "label": "A",
+        "text": "一棵哈夫曼树共有215个结点，对其进行哈夫曼编码，共能得到（  ）个不同的码字。"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 118,
+    "type": "single",
+    "text": "设哈夫曼编码的长度不超过4，若已对两个字符编码为1和01，则最多可对（  ）个字符编码。 一棵哈夫曼树共有215个结点，对其进行哈夫曼编码，共能得到（  ）个不同的码字。 根据使用频率为5个字符设计的哈夫曼编码，不可能的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "（0000 0001 0010 0011 ）"
+      },
+      {
+        "label": "A",
+        "text": "111, 110, 10, 01, 00              B.000, 001, 010, 011, 1"
+      },
+      {
+        "label": "C",
+        "text": "100, 11, 10, 1, 0                 D.001, 000, 01, 11, 10"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 119,
+    "type": "single",
+    "text": "由不同边所形成的序列 以上都不对 下列有关图的说法中正确的是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "在图的结构中，顶点不可以没有任何前驱和后继"
+      },
+      {
+        "label": "B",
+        "text": "具有n个顶点的无向图最多有n(n-1)条边，最少有n-1条边"
+      },
+      {
+        "label": "C",
+        "text": "在无向图中，边的条数是结点度数之和"
+      },
+      {
+        "label": "D",
+        "text": "在有向图中，各顶点的入度之和等于各顶点的出度之和"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 120,
+    "type": "single",
+    "text": "一个有n个顶点和n条边的无向图一定是（  ）。 连通的 不连通的 无环的 有环的",
+    "options": [
+      {
+        "label": "C",
+        "text": "在无向图中，边的条数是结点度数之和"
+      },
+      {
+        "label": "D",
+        "text": "在有向图中，各顶点的入度之和等于各顶点的出度之和"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 121,
+    "type": "single",
+    "text": "带权有向图G用邻接矩阵存储，则vi的入度等于邻接矩阵中（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "第i行非∞的元素个数"
+      },
+      {
+        "label": "B",
+        "text": "第i列非∞的元素个数"
+      },
+      {
+        "label": "C",
+        "text": "第i行非∞且非0的元素个数"
+      },
+      {
+        "label": "D",
+        "text": "第i列非∞且非0的元素个数"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 122,
+    "type": "single",
+    "text": "下列哪一种图的邻接矩阵是对称矩阵（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "第i行非∞且非0的元素个数"
+      },
+      {
+        "label": "D",
+        "text": "第i列非∞且非0的元素个数"
+      },
+      {
+        "label": "A",
+        "text": "有向网"
+      },
+      {
+        "label": "B",
+        "text": "无向网"
+      },
+      {
+        "label": "C",
+        "text": "AOV网"
+      },
+      {
+        "label": "D",
+        "text": "AOE网"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 123,
+    "type": "single",
+    "text": "以下关于图的存储结构的叙述中正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "AOV网"
+      },
+      {
+        "label": "D",
+        "text": "AOE网"
+      },
+      {
+        "label": "A",
+        "text": "一个图的邻接矩阵表示不唯一，邻接表表示不唯一"
+      },
+      {
+        "label": "B",
+        "text": "一个图的邻接矩阵表示唯一，邻接表表示唯一"
+      },
+      {
+        "label": "C",
+        "text": "一个图的邻接矩阵表示唯一，邻接表表示不唯一"
+      },
+      {
+        "label": "D",
+        "text": "一个图的邻接矩阵表示不唯一，邻接表表示唯一"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 124,
+    "type": "single",
+    "text": "用邻接表存储图所用的空间大小（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "一个图的邻接矩阵表示唯一，邻接表表示不唯一"
+      },
+      {
+        "label": "D",
+        "text": "一个图的邻接矩阵表示不唯一，邻接表表示唯一"
+      },
+      {
+        "label": "A",
+        "text": "与图的顶点数和边数有关"
+      },
+      {
+        "label": "B",
+        "text": "只与图的边数有关"
+      },
+      {
+        "label": "C",
+        "text": "只与图的顶点数有关"
+      },
+      {
+        "label": "D",
+        "text": "与边数的平方有关"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 125,
+    "type": "single",
+    "text": "在有向图的邻接表存储结构中，顶点v在边表中出现的次数是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "只与图的顶点数有关"
+      },
+      {
+        "label": "D",
+        "text": "与边数的平方有关"
+      },
+      {
+        "label": "A",
+        "text": "顶点v的度"
+      },
+      {
+        "label": "B",
+        "text": "顶点v的出度"
+      },
+      {
+        "label": "C",
+        "text": "顶点v的入度"
+      },
+      {
+        "label": "D",
+        "text": "依附于顶点v的边数"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 126,
+    "type": "single",
+    "text": "n个顶点的无向图的邻接表最多有（  ）个边表结点。",
+    "options": [
+      {
+        "label": "C",
+        "text": "顶点v的入度"
+      },
+      {
+        "label": "D",
+        "text": "依附于顶点v的边数"
+      },
+      {
+        "label": "A",
+        "text": "n2"
+      },
+      {
+        "label": "B",
+        "text": "n(n-1)"
+      },
+      {
+        "label": "C",
+        "text": "n(n+1)"
+      },
+      {
+        "label": "D",
+        "text": "n(n-1)/2"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 127,
+    "type": "single",
+    "text": "假设有n个顶点e条边的有向图用邻接表表示，则删除与某个顶点v相关的所有边的时间复杂度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "n(n+1)"
+      },
+      {
+        "label": "D",
+        "text": "n(n-1)/2"
+      },
+      {
+        "label": "A",
+        "text": "O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(e)"
+      },
+      {
+        "label": "C",
+        "text": "O(n+e)"
+      },
+      {
+        "label": "D",
+        "text": "O(ne)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 128,
+    "type": "single",
+    "text": "对邻接表的叙述中，（  ）是正确的。",
+    "options": [
+      {
+        "label": "C",
+        "text": "O(n+e)"
+      },
+      {
+        "label": "D",
+        "text": "O(ne)"
+      },
+      {
+        "label": "A",
+        "text": "无向图的邻接表中，第i个顶点的度为第i个链表中结点数的两倍"
+      },
+      {
+        "label": "B",
+        "text": "邻接表比邻接矩阵的操作更简便"
+      },
+      {
+        "label": "C",
+        "text": "邻接矩阵比邻接表的操作更简便"
+      },
+      {
+        "label": "D",
+        "text": "求有向图结点的度，必须遍历整个邻接表"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 129,
+    "type": "single",
+    "text": "无向图G=(V, E)，其中：V={a, b, c, d, e, f}，E={(a, b), (a, e), (a, c), (b, e), (c, f), (f, d), (e, d)}，对该图从a开始进行深度优先遍历，得到的顶点序列正确的是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "a, b, e, c, d, f"
+      },
+      {
+        "label": "B",
+        "text": "a, c, f, e, b, d"
+      },
+      {
+        "label": "C",
+        "text": "a, e, b, c, f, d"
+      },
+      {
+        "label": "D",
+        "text": "a, e, d, f, c, b"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 130,
+    "type": "single",
+    "text": "无向图G=(V, E)，其中V={a, b, c, d, e, f}，E={(a, b), (a, e), (a, c), (b, e), (c, f), (f, d), (e, d)}。对该图进行深度优先遍历，下面不能得到的序列是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      },
+      {
+        "label": "A",
+        "text": "acfdeb"
+      },
+      {
+        "label": "B",
+        "text": "aebdfc"
+      },
+      {
+        "label": "C",
+        "text": "aedfcb"
+      },
+      {
+        "label": "D",
+        "text": "abecdf"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 131,
+    "type": "single",
+    "text": "判断有向图中是否存在回路，除了可以利用拓扑排序外，还可以利用（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "d b c a h e f g"
+      },
+      {
+        "label": "D",
+        "text": "a b c d h e f g"
+      },
+      {
+        "label": "A",
+        "text": "求关键路径的方法"
+      },
+      {
+        "label": "B",
+        "text": "求最短路径的Dijkstra算法"
+      },
+      {
+        "label": "C",
+        "text": "深度优先遍历算法"
+      },
+      {
+        "label": "D",
+        "text": "广度优先遍历算法"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 132,
+    "type": "single",
+    "text": "使用DFS算法递归遍历一个无环有向图，并在退出递归时输出相应顶点，这样得到的顶点序列是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "深度优先遍历算法"
+      },
+      {
+        "label": "D",
+        "text": "广度优先遍历算法"
+      },
+      {
+        "label": "A",
+        "text": "逆拓扑有序"
+      },
+      {
+        "label": "B",
+        "text": "拓扑有序"
+      },
+      {
+        "label": "C",
+        "text": "无序的"
+      },
+      {
+        "label": "D",
+        "text": "都不是"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 133,
+    "type": "single",
+    "text": "设无向图G=(V, E)和G'=(V', E')，如果G'是G的生成树，则下面说法中错误的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "无序的"
+      },
+      {
+        "label": "D",
+        "text": "都不是"
+      },
+      {
+        "label": "A",
+        "text": "G'为G的子图"
+      },
+      {
+        "label": "B",
+        "text": "G'为G的连通分量"
+      },
+      {
+        "label": "C",
+        "text": "G'为G的极小连通子图且V=V'"
+      },
+      {
+        "label": "D",
+        "text": "G'是G的一个无环子图"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 134,
+    "type": "single",
+    "text": "图的广度优先生成树的树高比深度优先生成树的树高（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "G'为G的极小连通子图且V=V'"
+      },
+      {
+        "label": "D",
+        "text": "G'是G的一个无环子图"
+      },
+      {
+        "label": "A",
+        "text": "小或相等"
+      },
+      {
+        "label": "B",
+        "text": "小"
+      },
+      {
+        "label": "C",
+        "text": "大或相等"
+      },
+      {
+        "label": "D",
+        "text": "大"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 135,
+    "type": "single",
+    "text": "对有n个顶点、e条边且使用邻接表存储的有向图进行广度优先遍历，其算法的时间复杂度是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "大或相等"
+      },
+      {
+        "label": "D",
+        "text": "大"
+      },
+      {
+        "label": "A",
+        "text": "O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(e)"
+      },
+      {
+        "label": "C",
+        "text": "O(n+e)"
+      },
+      {
+        "label": "D",
+        "text": "(ne)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 136,
+    "type": "single",
+    "text": "任何一个无向连通图的最小生成树（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      },
+      {
+        "label": "A",
+        "text": "有一棵或多棵"
+      },
+      {
+        "label": "B",
+        "text": "只有一棵"
+      },
+      {
+        "label": "C",
+        "text": "一定有多棵"
+      },
+      {
+        "label": "D",
+        "text": "可能不存在"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 137,
+    "type": "single",
+    "text": "用Prim算法和Kruskal算法构造图的最小生成树，所得到的最小生成树（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "一定有多棵"
+      },
+      {
+        "label": "D",
+        "text": "可能不存在"
+      },
+      {
+        "label": "A",
+        "text": "相同"
+      },
+      {
+        "label": "B",
+        "text": "不相同"
+      },
+      {
+        "label": "C",
+        "text": "可能相同，可能不同"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 138,
+    "type": "single",
+    "text": "以下叙述正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "可能相同，可能不同"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      },
+      {
+        "label": "A",
+        "text": "只要无向连通图中没有权值相同的边，则其最小生成树唯一"
+      },
+      {
+        "label": "B",
+        "text": "只要无向图中有权值相同的边，则其最小生成树一定不唯一"
+      },
+      {
+        "label": "C",
+        "text": "从 n个顶点的连通图中选取n-1条权值最小的边，即可构成最小生成树"
+      },
+      {
+        "label": "D",
+        "text": "设连通图G含有n个顶点，则含有n个顶点n-1条边的子图一定是G的生成树"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 139,
+    "type": "single",
+    "text": "I. 最小生成树的代价唯一 II. 所有权值最小的边一定会出现在所有的最小生成树中 III. 使用Prim算法从不同顶点开始得到的最小生成树一定相同 IV. 使用Prim算法和Kruskal算法得到的最小生成树总不相同",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅I"
+      },
+      {
+        "label": "B",
+        "text": "仅II"
+      },
+      {
+        "label": "C",
+        "text": "I、III"
+      },
+      {
+        "label": "D",
+        "text": "II、IV"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 140,
+    "type": "single",
+    "text": "以下叙述正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "I、III"
+      },
+      {
+        "label": "D",
+        "text": "II、IV"
+      },
+      {
+        "label": "A",
+        "text": "最短路径一定是简单路径"
+      },
+      {
+        "label": "B",
+        "text": "Dijkstra算法不适合求有回路的带权图的最短路径"
+      },
+      {
+        "label": "C",
+        "text": "Dijkstra算法不适合求任意两个顶点的最短路径"
+      },
+      {
+        "label": "D",
+        "text": "Floyd算法求两个顶点的最短路径时，Pathk-1一定是Pathk的子集"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 141,
+    "type": "single",
+    "text": "已知带权连通无向图G=(V, E)，其中V={v1, v2, v3, v4, v5, v6, v7}，E={(v1, v2)10, (v1, v3)2, (v3, v4)2, (v3, v6)11, (v2, v5)1, (v4, v5)4, (v4, v6)6, (v5, v7)7, (v6, v7)3}，从原点v1到顶点v7的最短路径上经过的顶点序列是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "Dijkstra算法不适合求任意两个顶点的最短路径"
+      },
+      {
+        "label": "D",
+        "text": "Floyd算法求两个顶点的最短路径时，Pathk-1一定是Pathk的子集"
+      },
+      {
+        "label": "A",
+        "text": "v1, v2, v5, v7"
+      },
+      {
+        "label": "B",
+        "text": "v1, v3, v4, v6, v7"
+      },
+      {
+        "label": "C",
+        "text": "v1, v3, v4, v5, v7"
+      },
+      {
+        "label": "D",
+        "text": "v1, v2, v5, v4, v6, v7"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 142,
+    "type": "single",
+    "text": "设某个有向无环图中有n个顶点，e条边，采用邻接表存储，进行拓扑排序时的时间复杂度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "f, d, e"
+      },
+      {
+        "label": "D",
+        "text": "f, e, d"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 143,
+    "type": "single",
+    "text": "缩短所有关键路径上共有的任意一个关键活动的持续时间可缩短关键路径长度 缩短多条关键路径上共有的任意一个关键活动的持续时间可缩短关键路径长度 B, D（C：缩短后可能不再是关键路径） 下列有关关键路径的说法中错误的是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "在AOE网中可能存在多条关键路径"
+      },
+      {
+        "label": "B",
+        "text": "关键活动不按期完成就会影响整个工程的完成时间"
+      },
+      {
+        "label": "C",
+        "text": "任何一个关键活动提前完成，整个工程将会提前完成"
+      },
+      {
+        "label": "D",
+        "text": "所有的关键活动都提前完成，整个工程将会提前完成"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 144,
+    "type": "single",
+    "text": "顺序查找适合于存储结构为（  ）的线性表。",
+    "options": [
+      {
+        "label": "A",
+        "text": "顺序存储结构或链式存储结构"
+      },
+      {
+        "label": "B",
+        "text": "散列存储结构"
+      },
+      {
+        "label": "C",
+        "text": "索引存储结构"
+      },
+      {
+        "label": "D",
+        "text": "压缩存储结构"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 145,
+    "type": "single",
+    "text": "由n个数据元素组成的两个表：一个递增有序，一个无序。采用顺序查找算法，对有序表从头开始查找，发现当前元素已不小于待查元素时，停止查找，确定查找不成功，已知查找任一元素的概率是相同的，则在两种表中成功查找（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "索引存储结构"
+      },
+      {
+        "label": "D",
+        "text": "压缩存储结构"
+      },
+      {
+        "label": "A",
+        "text": "平均时间后者小"
+      },
+      {
+        "label": "B",
+        "text": "平均时间两者相同"
+      },
+      {
+        "label": "C",
+        "text": "平均时间前者小"
+      },
+      {
+        "label": "D",
+        "text": "无法确定"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 146,
+    "type": "single",
+    "text": "对长度为n的有序单链表，若查找每个元素的概率相同，则顺序查找中任一元素的查找成功的平均查找长度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "平均时间前者小"
+      },
+      {
+        "label": "D",
+        "text": "无法确定"
+      },
+      {
+        "label": "A",
+        "text": "n/2"
+      },
+      {
+        "label": "B",
+        "text": "(n+1)/2"
+      },
+      {
+        "label": "C",
+        "text": "(n-1)/2"
+      },
+      {
+        "label": "D",
+        "text": "n/4"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 147,
+    "type": "single",
+    "text": "下列有关二分查找的叙述中，正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "7/3"
+      },
+      {
+        "label": "D",
+        "text": "4/3"
+      },
+      {
+        "label": "A",
+        "text": "表必须有序，表可以顺序方式存储，也可以链表方式存储"
+      },
+      {
+        "label": "B",
+        "text": "表必须有序且表中数据必须是整型，实型或字符型"
+      },
+      {
+        "label": "C",
+        "text": "表必须有序，而且只能从小到大排列"
+      },
+      {
+        "label": "D",
+        "text": "表必须有序，且表只能以顺序方式存储"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 148,
+    "type": "single",
+    "text": "折半查找过程所对应的判定树是一棵（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "表必须有序，而且只能从小到大排列"
+      },
+      {
+        "label": "D",
+        "text": "表必须有序，且表只能以顺序方式存储"
+      },
+      {
+        "label": "A",
+        "text": "最小生成树"
+      },
+      {
+        "label": "B",
+        "text": "平衡二叉树"
+      },
+      {
+        "label": "C",
+        "text": "完全二叉树"
+      },
+      {
+        "label": "D",
+        "text": "满二叉树"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 149,
+    "type": "single",
+    "text": "B（log2(n+1)的上限） 在有11个元素的有序表A[1, 2, ..., 11]中进行折半查找（），查找元素A[11]时，被比较的元素下标依次是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      },
+      {
+        "label": "A",
+        "text": "6, 8, 10, 11"
+      },
+      {
+        "label": "B",
+        "text": "6, 9, 10, 11"
+      },
+      {
+        "label": "C",
+        "text": "6, 7, 9, 11"
+      },
+      {
+        "label": "D",
+        "text": "6, 8, 9, 11"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 150,
+    "type": "single",
+    "text": "已知一个有序表(13, 18, 24, 35, 47, 50, 62, 83, 90, 115, 134)，当二分查找值为90的元素时，查找成功的比较次数是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "6, 7, 9, 11"
+      },
+      {
+        "label": "D",
+        "text": "6, 8, 9, 11"
+      },
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 151,
+    "type": "single",
+    "text": "对表长为n的有序表进行折半查找，其判定树的高度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 152,
+    "type": "single",
+    "text": "8.2散列表 只能在顺序存储结构上进行的查找方法是（  ）。",
+    "options": [
+      {
+        "label": "D",
+        "text": "49/13"
+      },
+      {
+        "label": "A",
+        "text": "顺序查找"
+      },
+      {
+        "label": "B",
+        "text": "折半查找"
+      },
+      {
+        "label": "C",
+        "text": "树型查找"
+      },
+      {
+        "label": "D",
+        "text": "散列查找"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 153,
+    "type": "single",
+    "text": "散列查找一般适用于（  ）情况下的查找。",
+    "options": [
+      {
+        "label": "C",
+        "text": "树型查找"
+      },
+      {
+        "label": "D",
+        "text": "散列查找"
+      },
+      {
+        "label": "A",
+        "text": "查找表为链表"
+      },
+      {
+        "label": "B",
+        "text": "查找表为有序表"
+      },
+      {
+        "label": "C",
+        "text": "关键字集合比地址集合大得多"
+      },
+      {
+        "label": "D",
+        "text": "关键字集合与地址集合之间存在对应关系"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 154,
+    "type": "single",
+    "text": "下列关于散列表的说法中，正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "关键字集合比地址集合大得多"
+      },
+      {
+        "label": "D",
+        "text": "关键字集合与地址集合之间存在对应关系"
+      },
+      {
+        "label": "A",
+        "text": "若散列表的装填因子小于1，则可避免碰撞的产生"
+      },
+      {
+        "label": "B",
+        "text": "散列查找中不需要任何关键字的比较"
+      },
+      {
+        "label": "C",
+        "text": "散列表在查找成功是平均查找长度与表长有关"
+      },
+      {
+        "label": "D",
+        "text": "若在散列表中删除一个元素，不能简单地将该元素删除"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 155,
+    "type": "single",
+    "text": "在开放定址法中散列到同一个地址而引起的“堆积”问题是由于（  ）引起的。",
+    "options": [
+      {
+        "label": "C",
+        "text": "散列表在查找成功是平均查找长度与表长有关"
+      },
+      {
+        "label": "D",
+        "text": "若在散列表中删除一个元素，不能简单地将该元素删除"
+      },
+      {
+        "label": "A",
+        "text": "同义词之间发生冲突"
+      },
+      {
+        "label": "B",
+        "text": "非同义词之间发生冲突"
+      },
+      {
+        "label": "C",
+        "text": "同义词之间或非同义词之间发生冲突"
+      },
+      {
+        "label": "D",
+        "text": "散列表“溢出”"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 156,
+    "type": "single",
+    "text": "设有一个含有200个表项的散列表，用线性探测法解决冲突，按关键字查询时找到一个表项的平均探测次数不超过1.5，则散列表项应能够容纳（  ）个表项。（设查找成功的平均查找长度为ASL=[1+1/(1-α)]/2，其中α为装填因子）",
+    "options": [
+      {
+        "label": "C",
+        "text": "同义词之间或非同义词之间发生冲突"
+      },
+      {
+        "label": "D",
+        "text": "散列表“溢出”"
+      },
+      {
+        "label": "A",
+        "text": "400"
+      },
+      {
+        "label": "B",
+        "text": "526"
+      },
+      {
+        "label": "C",
+        "text": "624"
+      },
+      {
+        "label": "D",
+        "text": "676"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 157,
+    "type": "single",
+    "text": "假设有K个关键字互为同义词，若用线性探测法把这K个关键字填入散列表中，至少要进行（  ）次探测。",
+    "options": [
+      {
+        "label": "C",
+        "text": "624"
+      },
+      {
+        "label": "D",
+        "text": "676"
+      },
+      {
+        "label": "A",
+        "text": "K-1"
+      },
+      {
+        "label": "B",
+        "text": "K"
+      },
+      {
+        "label": "C",
+        "text": "K+1"
+      },
+      {
+        "label": "D",
+        "text": "K(K+1)/2"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 158,
+    "type": "single",
+    "text": "对包含n个元素的散列表进行查找，平均查找长度（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "K+1"
+      },
+      {
+        "label": "D",
+        "text": "K(K+1)/2"
+      },
+      {
+        "label": "A",
+        "text": "为O(log2n)"
+      },
+      {
+        "label": "B",
+        "text": "为O(1)"
+      },
+      {
+        "label": "C",
+        "text": "不直接依赖于n"
+      },
+      {
+        "label": "D",
+        "text": "为O(n)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 159,
+    "type": "single",
+    "text": "为提高散列表的查找效率，可以采取的正确措施是（  ）。 I. 增大装填因子 II. 设计冲突（碰撞）少的散列函数 III. 处理冲突（碰撞）时避免产生聚集（堆积）现象",
+    "options": [
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "II"
+      },
+      {
+        "label": "C",
+        "text": "I和II"
+      },
+      {
+        "label": "D",
+        "text": "II和III"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 160,
+    "type": "single",
+    "text": "一组记录的关键字为{19, 14, 23, 1, 68, 20, 84, 27, 55, 11, 10, 79}，用链地址法构造散列表，散列函数为H(key) = key MOD 13，散列地址为1的链中有（  ）个记录。",
+    "options": [
+      {
+        "label": "C",
+        "text": "I和II"
+      },
+      {
+        "label": "D",
+        "text": "II和III"
+      },
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 161,
+    "type": "single",
+    "text": "设散列表长m=14，散列函数为H(key) = key%11，表中仅有4个结点H(15)=4，H(38)=5，H(61)=6，H(84)=7，若采用线性探测法处理冲突，则关键字为49的结点地址是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      },
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 162,
+    "type": "single",
+    "text": "将10个元素散列到100000个单元的散列表中，则（  ）产生冲突。",
+    "options": [
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      },
+      {
+        "label": "A",
+        "text": "一定会"
+      },
+      {
+        "label": "B",
+        "text": "一定不会"
+      },
+      {
+        "label": "C",
+        "text": "仍可能会"
+      },
+      {
+        "label": "D",
+        "text": "不确定"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 163,
+    "type": "single",
+    "text": "下述排序算法中，不属于内部排序方法的是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "插入排序"
+      },
+      {
+        "label": "B",
+        "text": "选择排序"
+      },
+      {
+        "label": "C",
+        "text": "拓扑排序"
+      },
+      {
+        "label": "D",
+        "text": "冒泡排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 164,
+    "type": "single",
+    "text": "排序算法的稳定性是指（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "拓扑排序"
+      },
+      {
+        "label": "D",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "A",
+        "text": "经过排序后，能使关键字相同的元素保持原顺序中的相对位置不变"
+      },
+      {
+        "label": "B",
+        "text": "经过排序后，能使关键字相同的元素保持原顺序中的绝对位置不变"
+      },
+      {
+        "label": "C",
+        "text": "排序算法的性能与被排序元素个数关系不大"
+      },
+      {
+        "label": "D",
+        "text": "排序算法的性能与被排序元素的个数关系密切"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 165,
+    "type": "single",
+    "text": "下列关于排序的叙述中，正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "排序算法的性能与被排序元素个数关系不大"
+      },
+      {
+        "label": "D",
+        "text": "排序算法的性能与被排序元素的个数关系密切"
+      },
+      {
+        "label": "A",
+        "text": "稳定的排序方法优于不稳定的排序算法"
+      },
+      {
+        "label": "B",
+        "text": "对同一线性表使用不同的排序方法进行排序，得到的排序结果可能不同"
+      },
+      {
+        "label": "C",
+        "text": "排序方法都是在顺序表上实现的，在链表上无法实现排序方法"
+      },
+      {
+        "label": "D",
+        "text": "在顺序表上实现的排序方法在链表上也可以实现"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 166,
+    "type": "single",
+    "text": "在待排序的元素序列基本有序的前提下，效率最高的排序方法是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "25"
+      },
+      {
+        "label": "B",
+        "text": "(1+2+3+4)"
+      },
+      {
+        "label": "A",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "B",
+        "text": "简单选择排序"
+      },
+      {
+        "label": "C",
+        "text": "快速排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 167,
+    "type": "single",
+    "text": "对同一待排序序列分别进行折半插入排序和直接插入排序，两者之间可能的不同之处是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "快速排序"
+      },
+      {
+        "label": "D",
+        "text": "归并排序"
+      },
+      {
+        "label": "A",
+        "text": "排序的总趟数"
+      },
+      {
+        "label": "B",
+        "text": "元素的移动次数"
+      },
+      {
+        "label": "C",
+        "text": "使用辅助空间的数量"
+      },
+      {
+        "label": "D",
+        "text": "元素之间的比较次数"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 168,
+    "type": "single",
+    "text": "数据序列{8, 10, 13, 4, 6, 7, 22, 2, 3}只能是（  ）的两趟排序后的结果。",
+    "options": [
+      {
+        "label": "C",
+        "text": "使用辅助空间的数量"
+      },
+      {
+        "label": "D",
+        "text": "元素之间的比较次数"
+      },
+      {
+        "label": "A",
+        "text": "简单选择排序"
+      },
+      {
+        "label": "B",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 169,
+    "type": "single",
+    "text": "用直接插入排序算法对下列4个表进行（从小到大）排序，比较次数最少的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      },
+      {
+        "label": "A",
+        "text": "94, 32, 40, 90, 80, 46, 21, 69"
+      },
+      {
+        "label": "B",
+        "text": "21, 32, 46, 40, 80, 69, 90, 94"
+      },
+      {
+        "label": "C",
+        "text": "32, 40, 21, 46, 69, 94, 90, 80"
+      },
+      {
+        "label": "D",
+        "text": "90, 69, 80, 46, 21, 32, 94, 40"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 170,
+    "type": "single",
+    "text": "在下列算法中，（  ）算法可能出现下列情况：在最后一趟开始之前，所有元素都不在最终位置上。",
+    "options": [
+      {
+        "label": "C",
+        "text": "32, 40, 21, 46, 69, 94, 90, 80"
+      },
+      {
+        "label": "D",
+        "text": "90, 69, 80, 46, 21, 32, 94, 40"
+      },
+      {
+        "label": "A",
+        "text": "堆排序"
+      },
+      {
+        "label": "B",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 171,
+    "type": "single",
+    "text": "希尔排序属于（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      },
+      {
+        "label": "A",
+        "text": "插入排序"
+      },
+      {
+        "label": "B",
+        "text": "交换排序"
+      },
+      {
+        "label": "C",
+        "text": "选择排序"
+      },
+      {
+        "label": "D",
+        "text": "归并排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 172,
+    "type": "single",
+    "text": "对序列{15, 9, 7, 8, 20, -1, 4}用希尔排序方法排序，经一趟后排序变为{15, -1, 4, 8, 20, 9, 7}则该次采用的增量是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "选择排序"
+      },
+      {
+        "label": "D",
+        "text": "归并排序"
+      },
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 173,
+    "type": "single",
+    "text": "对序列{15, 9, 7, 8, 20, -1, 4}用（  ）排序方法排序，经一趟后排序变为{9, 15, 7, 8, 20, -1, 4 }。",
+    "options": [
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      },
+      {
+        "label": "A",
+        "text": "选择排序"
+      },
+      {
+        "label": "B",
+        "text": "快速排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "D",
+        "text": "冒泡排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 174,
+    "type": "single",
+    "text": "若数据元素序列{11, 12, 13, 7, 8, 9, 23, 4, 5}是采用下列排序方法之一得到的第二趟排序后的结果，则该排序算法只能是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "D",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "A",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "B",
+        "text": "插入排序"
+      },
+      {
+        "label": "C",
+        "text": "选择排序"
+      },
+      {
+        "label": "D",
+        "text": "归并排序"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 175,
+    "type": "single",
+    "text": "对序列{98, 36, -9, 0, 47, 23, 1, 8, 10, 7}采用希尔排序，下列序列（  ）是增量为4的一趟排序结果。",
+    "options": [
+      {
+        "label": "C",
+        "text": "选择排序"
+      },
+      {
+        "label": "D",
+        "text": "归并排序"
+      },
+      {
+        "label": "A",
+        "text": "{10, 7, -9, 0, 47, 23, 1, 8, 98, 36}"
+      },
+      {
+        "label": "B",
+        "text": "{-9, 0, 36, 98, 1, 8, 23, 47, 7, 10}"
+      },
+      {
+        "label": "C",
+        "text": "{36, 98, -9, 0, 23, 47, 1, 8, 7, 10}"
+      },
+      {
+        "label": "D",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 176,
+    "type": "single",
+    "text": "折半插入排序算法时间复杂度为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "{36, 98, -9, 0, 23, 47, 1, 8, 7, 10}"
+      },
+      {
+        "label": "D",
+        "text": "以上都不对"
+      },
+      {
+        "label": "A",
+        "text": "O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(nlog2n)"
+      },
+      {
+        "label": "C",
+        "text": "O(n2)"
+      },
+      {
+        "label": "D",
+        "text": "O(n3)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 177,
+    "type": "single",
+    "text": "有些排序算法在每趟排序过程中，都会有一个元素被放置到其最终位置上，下列算法不会出现此种情况的是（  ）",
+    "options": [
+      {
+        "label": "C",
+        "text": "O(n2)"
+      },
+      {
+        "label": "D",
+        "text": "O(n3)"
+      },
+      {
+        "label": "A",
+        "text": "希尔排序"
+      },
+      {
+        "label": "B",
+        "text": "堆排序"
+      },
+      {
+        "label": "C",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 178,
+    "type": "single",
+    "text": "以下不稳定的排序算法是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      },
+      {
+        "label": "A",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "B",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "C",
+        "text": "希尔排序"
+      },
+      {
+        "label": "D",
+        "text": "归并排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 179,
+    "type": "single",
+    "text": "以下（  ）算法是稳定的排序算法。",
+    "options": [
+      {
+        "label": "C",
+        "text": "希尔排序"
+      },
+      {
+        "label": "D",
+        "text": "归并排序"
+      },
+      {
+        "label": "A",
+        "text": "快速排序"
+      },
+      {
+        "label": "B",
+        "text": "堆排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "D",
+        "text": "简单选择排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 180,
+    "type": "single",
+    "text": "对n个不同的元素利用冒泡法从小到大排序，在（  ）情况下元素交换的次数最多。",
+    "options": [
+      {
+        "label": "A",
+        "text": "从大到小排列好的"
+      },
+      {
+        "label": "B",
+        "text": "从小到大排列好的"
+      },
+      {
+        "label": "C",
+        "text": "元素无序"
+      },
+      {
+        "label": "D",
+        "text": "元素基本有序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 181,
+    "type": "single",
+    "text": "第一趟排序结果：2, 12, 16, 5, 10, 88 第二趟排序结果：2, 12, 5, 10, 16, 88 第二趟排序结果：2, 5, 10, 12, 16, 88 则采用的排序方法可能是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "B",
+        "text": "希尔排序"
+      },
+      {
+        "label": "C",
+        "text": "归并排序"
+      },
+      {
+        "label": "D",
+        "text": "基数排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 182,
+    "type": "single",
+    "text": "为实现快速排序算法，待排序序列宜采用的存储方式是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "归并排序"
+      },
+      {
+        "label": "D",
+        "text": "基数排序"
+      },
+      {
+        "label": "A",
+        "text": "顺序存储"
+      },
+      {
+        "label": "B",
+        "text": "散列存储"
+      },
+      {
+        "label": "C",
+        "text": "链式存储"
+      },
+      {
+        "label": "D",
+        "text": "索引存储"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 183,
+    "type": "single",
+    "text": "则所采用的排序方法是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "选择排序"
+      },
+      {
+        "label": "B",
+        "text": "插入排序"
+      },
+      {
+        "label": "C",
+        "text": "二路归并"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 184,
+    "type": "single",
+    "text": "一组记录的关键字为（46, 79, 56, 38, 40, 84)，则利用快速排序的方法，以第一个记录为基准，从小到大得到的一次划分结果为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "二路归并"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      },
+      {
+        "label": "A",
+        "text": "(38, 40, 46, 56, 79, 84)"
+      },
+      {
+        "label": "B",
+        "text": "(40, 38, 46, 79, 56, 84)"
+      },
+      {
+        "label": "C",
+        "text": "(40, 38, 46, 56, 79, 84)"
+      },
+      {
+        "label": "D",
+        "text": "(40, 38, 46, 84, 56, 79)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 185,
+    "type": "single",
+    "text": "快速排序算法在（  ）情况下最不利于发挥其长处。",
+    "options": [
+      {
+        "label": "C",
+        "text": "(40, 38, 46, 56, 79, 84)"
+      },
+      {
+        "label": "D",
+        "text": "(40, 38, 46, 84, 56, 79)"
+      },
+      {
+        "label": "A",
+        "text": "要排序的数据量太大"
+      },
+      {
+        "label": "B",
+        "text": "要排序的数据中含有多个相同值"
+      },
+      {
+        "label": "C",
+        "text": "要排序的数据个数为奇数"
+      },
+      {
+        "label": "D",
+        "text": "要排序的数据已基本有序"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 186,
+    "type": "single",
+    "text": "就平均性能而言，目前最好的内排序方法是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "要排序的数据个数为奇数"
+      },
+      {
+        "label": "D",
+        "text": "要排序的数据已基本有序"
+      },
+      {
+        "label": "A",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "B",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "C",
+        "text": "希尔排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 187,
+    "type": "single",
+    "text": "对数据序列{8, 9, 10, 4, 5, 6, 20, 1, 2}采用冒泡排序（从后向前次序进行，要求升序），需要进行的趟数至少是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "希尔排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      },
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 188,
+    "type": "single",
+    "text": "采用递归方式对顺序表进行快速排序。下列关于递归次数的叙述中，正确的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      },
+      {
+        "label": "A",
+        "text": "递归次数与初始数据的排列次序无关"
+      },
+      {
+        "label": "B",
+        "text": "每次划分后，先处理较长的分区可以减少递归次数"
+      },
+      {
+        "label": "C",
+        "text": "每次划分后，先处理较短的分区可以减少递归次数"
+      },
+      {
+        "label": "D",
+        "text": "递归次数与每次划分后得到的分区的处理顺序无关"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 189,
+    "type": "single",
+    "text": "在以下排序算法中，每次从未排序的记录中选取最小关键字的记录，加入到已排序记录的末尾，该排序方法是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单选择排序"
+      },
+      {
+        "label": "B",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "堆排序"
+      },
+      {
+        "label": "D",
+        "text": "直接插入排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 190,
+    "type": "single",
+    "text": "简单选择排序算法的比较次数和移动次数分别为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "堆排序"
+      },
+      {
+        "label": "D",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "A",
+        "text": "O(n), O(log2n)"
+      },
+      {
+        "label": "B",
+        "text": "O(log2n), O(n2)"
+      },
+      {
+        "label": "C",
+        "text": "O(n2), O(n)"
+      },
+      {
+        "label": "D",
+        "text": "O(nlog2n), O(n)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 191,
+    "type": "single",
+    "text": "D（B,C直到最后才能确定次序，A每次移动的个数等于表长，D每次移动的个数等于树高） 下列（  ）是一个堆。",
+    "options": [
+      {
+        "label": "C",
+        "text": "希尔排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      },
+      {
+        "label": "A",
+        "text": "19, 75, 34, 26, 97, 56"
+      },
+      {
+        "label": "B",
+        "text": "97, 26, 34, 75, 19, 56"
+      },
+      {
+        "label": "C",
+        "text": "19, 56, 26, 97, 34, 75"
+      },
+      {
+        "label": "D",
+        "text": "19, 34, 26, 97, 56, 75"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 192,
+    "type": "single",
+    "text": "有一组数据(15, 9, 7, 8, 20, -1, 7, 4)，用堆排序的筛选方法建立的初始小根堆为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "19, 56, 26, 97, 34, 75"
+      },
+      {
+        "label": "D",
+        "text": "19, 34, 26, 97, 56, 75"
+      },
+      {
+        "label": "A",
+        "text": "-1, 4, 8, 9, 20, 7, 15, 7"
+      },
+      {
+        "label": "B",
+        "text": "-1, 7, 15, 7, 4, 8, 20, 9"
+      },
+      {
+        "label": "C",
+        "text": "-1, 4, 7, 8, 20, 15, 7, 9"
+      },
+      {
+        "label": "D",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 193,
+    "type": "single",
+    "text": "已知关键字序列5, 8, 12, 19, 28, 20, 15, 22是小根堆，插入关键字3，调整好后得到的小根堆是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "-1, 4, 7, 8, 20, 15, 7, 9"
+      },
+      {
+        "label": "D",
+        "text": "以上都不对"
+      },
+      {
+        "label": "A",
+        "text": "3, 5, 12, 8, 28, 20, 15, 22, 19"
+      },
+      {
+        "label": "B",
+        "text": "3, 5, 12, 19, 20, 15, 22, 8, 28"
+      },
+      {
+        "label": "C",
+        "text": "3, 8, 12, 5, 20, 15, 22, 28, 19"
+      },
+      {
+        "label": "D",
+        "text": "3, 12, 5, 8, 28, 20, 15, 22, 19"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 194,
+    "type": "single",
+    "text": "已知序列25, 13, 10, 12, 9是大根堆，在序列尾部插入新元素18，将其再调整为大根堆，调整过程中元素之间进行的比较次数是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "3, 8, 12, 5, 20, 15, 22, 28, 19"
+      },
+      {
+        "label": "D",
+        "text": "3, 12, 5, 8, 28, 20, 15, 22, 19"
+      },
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 195,
+    "type": "single",
+    "text": "下列四种排序方法中，排序过程中的比较次数与序列初始状态无关的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      },
+      {
+        "label": "A",
+        "text": "选择排序"
+      },
+      {
+        "label": "B",
+        "text": "插入排序"
+      },
+      {
+        "label": "C",
+        "text": "快速排序"
+      },
+      {
+        "label": "D",
+        "text": "冒泡排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 196,
+    "type": "single",
+    "text": "以下排序方法中，（  ）在一趟结束后不一定能选出一个元素放在其最终位置上。",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单选择排序"
+      },
+      {
+        "label": "B",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "归并排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 197,
+    "type": "single",
+    "text": "以下排序算法中，（  ）不需要进行关键字的比较",
+    "options": [
+      {
+        "label": "C",
+        "text": "归并排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      },
+      {
+        "label": "A",
+        "text": "快速排序"
+      },
+      {
+        "label": "B",
+        "text": "归并排序"
+      },
+      {
+        "label": "C",
+        "text": "基数排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 198,
+    "type": "single",
+    "text": "下列排序方法中，排序过程中比较次数的数量级与序列状态无关的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "基数排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      },
+      {
+        "label": "A",
+        "text": "快速排序"
+      },
+      {
+        "label": "B",
+        "text": "归并排序"
+      },
+      {
+        "label": "C",
+        "text": "基数排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 199,
+    "type": "single",
+    "text": "2路归并排序中，归并趟数的数量级是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "基数排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序"
+      },
+      {
+        "label": "A",
+        "text": "O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(log2n)"
+      },
+      {
+        "label": "C",
+        "text": "O(nlog2n)"
+      },
+      {
+        "label": "D",
+        "text": "O(n2)"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 200,
+    "type": "single",
+    "text": "一组经过第一趟2路归并排序后的记录的关键字为{25, 50, 15, 35, 80, 85, 20, 40, 36, 70}，其中包含5个长度为2的有序表，用2路归并排序方法对该序列进行第二趟归并后的结果为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "O(nlog2n)"
+      },
+      {
+        "label": "D",
+        "text": "O(n2)"
+      },
+      {
+        "label": "A",
+        "text": "15, 25, 35, 50, 80, 20, 85, 40, 70, 36"
+      },
+      {
+        "label": "B",
+        "text": "15, 25, 35, 50, 20, 40, 80, 85, 36, 70"
+      },
+      {
+        "label": "C",
+        "text": "15, 25, 50, 35, 80, 85, 20, 36, 40, 70"
+      },
+      {
+        "label": "D",
+        "text": "15, 25, 35, 50, 80, 20, 36, 40, 70, 85"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 201,
+    "type": "single",
+    "text": "若要求排序是稳定的，且关键字为实数，则在下列排序方法中应选（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "15, 25, 50, 35, 80, 85, 20, 36, 40, 70"
+      },
+      {
+        "label": "D",
+        "text": "15, 25, 35, 50, 80, 20, 36, 40, 70, 85"
+      },
+      {
+        "label": "A",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "B",
+        "text": "选择排序"
+      },
+      {
+        "label": "C",
+        "text": "基数排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 202,
+    "type": "single",
+    "text": "以下排序方法中时间复杂度为O(nlog2n)且稳定的是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "基数排序"
+      },
+      {
+        "label": "D",
+        "text": "快速排序"
+      },
+      {
+        "label": "A",
+        "text": "堆排序"
+      },
+      {
+        "label": "B",
+        "text": "快速排序"
+      },
+      {
+        "label": "C",
+        "text": "归并排序"
+      },
+      {
+        "label": "D",
+        "text": "直接插入排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 203,
+    "type": "single",
+    "text": "设被排序的结点序列共有n个结点，在该序列中的结点已十分接近有序的情况下，用直接插入排序，归并排序和快速排序对其进行排序，这些算法的时间复杂度应为（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "归并排序"
+      },
+      {
+        "label": "D",
+        "text": "直接插入排序"
+      },
+      {
+        "label": "A",
+        "text": "O(n), O(n), O(n)"
+      },
+      {
+        "label": "B",
+        "text": "O(n), O(nlog2n), O(nlog2n)"
+      },
+      {
+        "label": "C",
+        "text": "O(n), O(nlog2n), O(n2)"
+      },
+      {
+        "label": "D",
+        "text": "O(n2), O(nlog2n), O(n2)"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 204,
+    "type": "single",
+    "text": "就排序算法所用的辅助空间而言，堆排序、快速排序和归并排序的关系是（  ）。",
+    "options": [
+      {
+        "label": "C",
+        "text": "O(n), O(nlog2n), O(n2)"
+      },
+      {
+        "label": "D",
+        "text": "O(n2), O(nlog2n), O(n2)"
+      },
+      {
+        "label": "A",
+        "text": "堆排序<快速排序<归并排序"
+      },
+      {
+        "label": "B",
+        "text": "堆排序<归并排序<快速排序"
+      },
+      {
+        "label": "C",
+        "text": "堆排序>归并排序>快速排序"
+      },
+      {
+        "label": "D",
+        "text": "堆排序>快速排序>归并排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 205,
+    "type": "single",
+    "text": "I. 直接插入排序 II. 简单选择排序 III. 冒泡排序 IV. 基数排序",
+    "options": [
+      {
+        "label": "A",
+        "text": "I, III"
+      },
+      {
+        "label": "B",
+        "text": "I, II, IV"
+      },
+      {
+        "label": "C",
+        "text": "I, II, III"
+      },
+      {
+        "label": "D",
+        "text": "I, IV"
+      }
+    ],
+    "answer": "B",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 206,
+    "type": "single",
+    "text": "II. 希尔排序 III. 快速排序 IV. 堆排序 V. 二路归并排序",
+    "options": [
+      {
+        "label": "A",
+        "text": "I, III, IV"
+      },
+      {
+        "label": "B",
+        "text": "I, III, V"
+      },
+      {
+        "label": "C",
+        "text": "II, III, IV"
+      },
+      {
+        "label": "D",
+        "text": "III, IV, V"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 207,
+    "type": "single",
+    "text": "若序列的原始状态为{1, 2, 3, 4, 5, 10, 6, 7, 8, 9}，要想使得排序过程中元素比较次数最少，则应该采用（  ）方法。",
+    "options": [
+      {
+        "label": "C",
+        "text": "II, III, IV"
+      },
+      {
+        "label": "D",
+        "text": "III, IV, V"
+      },
+      {
+        "label": "A",
+        "text": "插入排序"
+      },
+      {
+        "label": "B",
+        "text": "选择排序"
+      },
+      {
+        "label": "C",
+        "text": "希尔排序"
+      },
+      {
+        "label": "D",
+        "text": "冒泡排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 208,
+    "type": "single",
+    "text": "对一个初始状态为递增的序列进行按递增顺序的排序，用（  ）最省时，用（  ）最费时。 如果只想得到1000个关键字组成的序列中第5个最小关键字之前的部分排序的序列，用（  ）最快。",
+    "options": [
+      {
+        "label": "C",
+        "text": "希尔排序"
+      },
+      {
+        "label": "D",
+        "text": "冒泡排序"
+      },
+      {
+        "label": "A",
+        "text": "直接插入排序    B.堆排序         C.快速排序         D.归并排序"
+      },
+      {
+        "label": "A",
+        "text": "冒泡排序      B.快速排序        C.希尔排序    D.堆排序"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 209,
+    "type": "single",
+    "text": "如果只想得到1000个关键字组成的序列中第5个最小关键字之前的部分排序的序列，用（  ）最快。 排序趟数与序列的原始状态有关的排序算法是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接插入排序    B.堆排序         C.快速排序         D.归并排序"
+      },
+      {
+        "label": "A",
+        "text": "冒泡排序      B.快速排序        C.希尔排序    D.堆排序"
+      },
+      {
+        "label": "A",
+        "text": "直接插入排序                        B.简单选择排序"
+      },
+      {
+        "label": "C",
+        "text": "冒泡排序                            D.基数排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 210,
+    "type": "single",
+    "text": "排序趟数与序列的原始状态有关的排序算法是（  ）。 对一组关键字{84, 47, 25, 15, 21}排序，排序过程中的比较次数与初始序列无关的是（  ）。 则采用的排序是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接插入排序                        B.简单选择排序"
+      },
+      {
+        "label": "C",
+        "text": "冒泡排序                            D.基数排序"
+      },
+      {
+        "label": "A",
+        "text": "简单选择排序                B.冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "快速排序                    D.直接插入排序"
+      }
+    ],
+    "answer": "A",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 211,
+    "type": "single",
+    "text": "对一组关键字{84, 47, 25, 15, 21}排序，排序过程中的比较次数与初始序列无关的是（  ）。 则采用的排序是（  ）。 关键字序列{8, 9, 10, 4, 5, 6, 20, 1, 2}只能是（  ）算法中两趟排序后的结果。",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单选择排序                B.冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "快速排序                    D.直接插入排序"
+      },
+      {
+        "label": "A",
+        "text": "简单选择排序              B.冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序              D.堆排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 212,
+    "type": "single",
+    "text": "关键字序列{8, 9, 10, 4, 5, 6, 20, 1, 2}只能是（  ）算法中两趟排序后的结果。 对于关键字序列{15, 9, 7, 8, 20, -1, 4}进行排序，进行一趟后排序关键字序列变为{9, 15, 7, 8, 20, -1, 4}，则采用的是（  ）算法。",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单选择排序              B.冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序              D.堆排序"
+      },
+      {
+        "label": "A",
+        "text": "简单选择排序        B.冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序        D.堆排序"
+      }
+    ],
+    "answer": "C",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  },
+  {
+    "course": "算法与数据结构",
+    "topic": "数据结构题库",
+    "number": 213,
+    "type": "single",
+    "text": "对于关键字序列{15, 9, 7, 8, 20, -1, 4}进行排序，进行一趟后排序关键字序列变为{9, 15, 7, 8, 20, -1, 4}，则采用的是（  ）算法。 以下排序算法中，关键字比较的次数与初始排列次序无关的是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单选择排序        B.冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "直接插入排序        D.堆排序"
+      },
+      {
+        "label": "A",
+        "text": "希尔排序           B.冒泡排序"
+      },
+      {
+        "label": "C",
+        "text": "插入排序           D.简单选择排序"
+      }
+    ],
+    "answer": "D",
+    "source": "数据结构题库杨硕.docx",
+    "subtopic": ""
+  }
+]);
+
+window.QUESTION_BANK = window.QUESTION_BANK.concat([
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 1,
+    "type": "single",
+    "text": "马克思主义从狭义上说是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "无产阶级争取自身解放和整个人类解放的学说体系"
+      },
+      {
+        "label": "B",
+        "text": "关于无产阶级斗争的性质、目的和解放条件的学说"
+      },
+      {
+        "label": "C",
+        "text": "马克思和恩格斯创立的基本理论、基本观点和基本方法构成的科学体系"
+      },
+      {
+        "label": "D",
+        "text": "关于资本主义转化为社会主义以及社会主义和共产主义发展的规律的普遍规律的学说"
+      }
+    ],
+    "answer": "C",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 2,
+    "type": "single",
+    "text": "马克思主义从广义上说是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "不仅指马克思恩格斯创立的基本理论、基本观点和学说的体系，也包括继承者对它的发展"
+      },
+      {
+        "label": "B",
+        "text": "无产阶级争取自身解放和整个人类解放的学说体系"
+      },
+      {
+        "label": "C",
+        "text": "关于无产阶级斗争的性质、目的和解放条件的学说"
+      },
+      {
+        "label": "D",
+        "text": "马克思和恩格斯创立的基本理论、基本观点和基本方法构成的科学体系"
+      }
+    ],
+    "answer": "A",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 3,
+    "type": "single",
+    "text": "马克思主义哲学与具体科学的关系是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "整体和局部的关系"
+      },
+      {
+        "label": "B",
+        "text": "一般与个别的关系"
+      },
+      {
+        "label": "C",
+        "text": "代替与被代替的关系"
+      },
+      {
+        "label": "D",
+        "text": "绝对和相对的关系"
+      }
+    ],
+    "answer": "B",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 4,
+    "type": "single",
+    "text": "人类进入21世纪，英国广播公司（  ）在全球范围内进行“千年思想家”网评，名列榜首的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思"
+      },
+      {
+        "label": "B",
+        "text": "爱因斯坦"
+      },
+      {
+        "label": "C",
+        "text": "达尔文"
+      },
+      {
+        "label": "D",
+        "text": "牛顿"
+      }
+    ],
+    "answer": "BBC",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 5,
+    "type": "single",
+    "text": "马克思主义产生的经济根源是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "工业革命"
+      },
+      {
+        "label": "B",
+        "text": "资本主义经济危机"
+      },
+      {
+        "label": "C",
+        "text": "资本主义社会生产力和生产关系的矛盾运动"
+      },
+      {
+        "label": "D",
+        "text": "阶级斗争"
+      }
+    ],
+    "answer": "C",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 6,
+    "type": "single",
+    "text": "马克思主义产生的阶级基础和实践基础是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本主义的剥削和压迫"
+      },
+      {
+        "label": "B",
+        "text": "无产阶级作为一支独立的政治力量登上了历史舞台"
+      },
+      {
+        "label": "C",
+        "text": "工人罢工和起义"
+      },
+      {
+        "label": "D",
+        "text": "工人运动得到了农民的合唱"
+      }
+    ],
+    "answer": "B",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 7,
+    "type": "single",
+    "text": "马克思恩格斯进一步发展和完善了英国古典经济学理论是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "辩证法"
+      },
+      {
+        "label": "B",
+        "text": "历史观"
+      },
+      {
+        "label": "C",
+        "text": "劳动价值论"
+      },
+      {
+        "label": "D",
+        "text": "剩余价值论"
+      }
+    ],
+    "answer": "C",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 8,
+    "type": "single",
+    "text": "马克思把黑格尔的辩证法称为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "合理内核"
+      },
+      {
+        "label": "B",
+        "text": "基本内核"
+      },
+      {
+        "label": "C",
+        "text": "精髓"
+      },
+      {
+        "label": "D",
+        "text": "核心"
+      }
+    ],
+    "answer": "A",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 29,
+    "type": "single",
+    "text": "“哲学把无产阶级当作自己的物质武器，同样，无产阶级把哲学当作自己的精神武器”，这个论断的",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义是无产阶级的世界观和方法论"
+      },
+      {
+        "label": "B",
+        "text": "哲学的存在方式是物质"
+      },
+      {
+        "label": "C",
+        "text": "无产阶级的存在方式是精神"
+      },
+      {
+        "label": "D",
+        "text": "无产阶级掌握哲学就由自为阶级转变为自在阶级"
+      }
+    ],
+    "answer": "",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 10,
+    "type": "single",
+    "text": "马克思主义生命力的根源在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "以实践为基础的科学性与革命性的统一"
+      },
+      {
+        "label": "B",
+        "text": "与时俱进"
+      },
+      {
+        "label": "C",
+        "text": "科学性与革命性的统一"
+      },
+      {
+        "label": "D",
+        "text": "科学性"
+      }
+    ],
+    "answer": "A",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 11,
+    "type": "single",
+    "text": "马克思主义最重要的理论品质是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "吐故纳新"
+      },
+      {
+        "label": "B",
+        "text": "科学严谨"
+      },
+      {
+        "label": "C",
+        "text": "博大精深"
+      },
+      {
+        "label": "D",
+        "text": "与时俱进"
+      }
+    ],
+    "answer": "D",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 12,
+    "type": "single",
+    "text": "马克思主义最崇高的社会理想是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现共产主义"
+      },
+      {
+        "label": "B",
+        "text": "消灭阶级、消灭国家"
+      },
+      {
+        "label": "C",
+        "text": "实现个人的绝对自由"
+      },
+      {
+        "label": "D",
+        "text": "实现人权"
+      }
+    ],
+    "answer": "A",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 13,
+    "type": "single",
+    "text": "全部马克思主义学说的核心和理论结论是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学社会主义"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义哲学"
+      },
+      {
+        "label": "C",
+        "text": "马克思主义政治经济学"
+      },
+      {
+        "label": "D",
+        "text": "无产阶级革命学说"
+      }
+    ],
+    "answer": "A",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 14,
+    "type": "single",
+    "text": "马克思主义新世界观创立的关键在于马克思确立了（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "剩余价值理论"
+      },
+      {
+        "label": "B",
+        "text": "阶级斗争理论"
+      },
+      {
+        "label": "C",
+        "text": "无产阶级使命学说"
+      },
+      {
+        "label": "D",
+        "text": "科学的实践观"
+      }
+    ],
+    "answer": "D",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 15,
+    "type": "single",
+    "text": "马克思主义是科学，从根本上说在于它（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "以世界的一般规律为研究对象"
+      },
+      {
+        "label": "B",
+        "text": "始终严格地以客观事实为依据"
+      },
+      {
+        "label": "C",
+        "text": "提供了普遍适用的客观真理"
+      },
+      {
+        "label": "D",
+        "text": "形成了完整的理论体系"
+      }
+    ],
+    "answer": "B",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 16,
+    "type": "single",
+    "text": "马克思主义哲学与唯心主义哲学和旧唯物主义哲学的区别在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持人的主体地位"
+      },
+      {
+        "label": "B",
+        "text": "坚持用辩证发展的观点去认识世界"
+      },
+      {
+        "label": "C",
+        "text": "坚持物质第一性、意识第二性"
+      },
+      {
+        "label": "D",
+        "text": "坚持从客观的物质实践活动去理解世界"
+      }
+    ],
+    "answer": "D",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 17,
+    "type": "single",
+    "text": "马克思主义产生的阶级基础和实践基础（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本主义的剥削和压迫"
+      },
+      {
+        "label": "B",
+        "text": "无产阶级作为一支独立的政治力量登上了历史舞台"
+      },
+      {
+        "label": "C",
+        "text": "工人罢工和起义"
+      },
+      {
+        "label": "D",
+        "text": "工人运动得到了“农民的合唱”"
+      }
+    ],
+    "answer": "B",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 18,
+    "type": "single",
+    "text": "马克思主义创新发展的基本路径是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族化和时代化"
+      },
+      {
+        "label": "B",
+        "text": "本土化和时代化"
+      },
+      {
+        "label": "C",
+        "text": "抽象化和具体化"
+      },
+      {
+        "label": "D",
+        "text": "本土化和大众化"
+      }
+    ],
+    "answer": "B",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 19,
+    "type": "single",
+    "text": "马克思主义的鲜明特征不包括下列哪项（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民性"
+      },
+      {
+        "label": "B",
+        "text": "普适性"
+      },
+      {
+        "label": "C",
+        "text": "科学性"
+      },
+      {
+        "label": "D",
+        "text": "实践性"
+      }
+    ],
+    "answer": "B",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 320,
+    "type": "single",
+    "text": "中国共产党坚持马克思主义基本原理，坚持实事求是，从中国实际出发，洞察时代大势，把握历史",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义具有鲜明的政治立场"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义具有自觉的历史担当"
+      },
+      {
+        "label": "C",
+        "text": "马克思主义是科学的世界观和方法论"
+      },
+      {
+        "label": "D",
+        "text": "马克思主义是无产阶级政党自我革命的武器"
+      }
+    ],
+    "answer": "",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 1,
+    "type": "multiple",
+    "text": "马克思主义产生的直接理论来源是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "德国古典哲学"
+      },
+      {
+        "label": "B",
+        "text": "英国古典政治经济学"
+      },
+      {
+        "label": "C",
+        "text": "法国英国的空想社会主义"
+      },
+      {
+        "label": "D",
+        "text": "法国启蒙思想"
+      }
+    ],
+    "answer": "ABC",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 2,
+    "type": "multiple",
+    "text": "作为一个完整的科学体系，马克思主义理论体系的三个主要组成部分是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义政治学"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义政治经济学"
+      },
+      {
+        "label": "C",
+        "text": "科学社会主义"
+      },
+      {
+        "label": "D",
+        "text": "马克思主义哲学"
+      }
+    ],
+    "answer": "BCD",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 3,
+    "type": "multiple",
+    "text": "德国古典哲学的最具代表性人物是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "康德"
+      },
+      {
+        "label": "B",
+        "text": "黑格尔"
+      },
+      {
+        "label": "C",
+        "text": "费尔巴哈"
+      },
+      {
+        "label": "D",
+        "text": "笛卡尔"
+      }
+    ],
+    "answer": "BC",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 4,
+    "type": "multiple",
+    "text": "德国古典政治经济学的代表性人物是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚当•斯密"
+      },
+      {
+        "label": "B",
+        "text": "大卫•李嘉图"
+      },
+      {
+        "label": "C",
+        "text": "马尔萨斯"
+      },
+      {
+        "label": "D",
+        "text": "西斯蒙第"
+      }
+    ],
+    "answer": "AB",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 4,
+    "type": "multiple",
+    "text": "下列对马克思主义的概括正确的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "辩证唯物主义和历史唯物主义是马克思主义最根本的世界观和方法论"
+      },
+      {
+        "label": "B",
+        "text": "致力于实现最广大人民的根本利益是马克思主义最鲜明的政治立场"
+      },
+      {
+        "label": "C",
+        "text": "一切从实际出发，理论联系实际，实事求是，在实践中检验真理和发展真理，与时俱进是马克思主义"
+      },
+      {
+        "label": "D",
+        "text": "实现共产主义是马克思主义最崇高的社会理想"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 5,
+    "type": "multiple",
+    "text": "学习马克思主义理论，必须要分清（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "哪些是必须长期坚持的马克思主义基本原理"
+      },
+      {
+        "label": "B",
+        "text": "哪些是需要新的实际加以丰富发展的理论判断"
+      },
+      {
+        "label": "C",
+        "text": "哪些是必须破除的对马克思主义错误的、教条式的理解"
+      },
+      {
+        "label": "D",
+        "text": "哪些是必须澄清的附加在马克思主义名下的错误观点"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 7,
+    "type": "multiple",
+    "text": "作为马克思主义产生阶级基础的19世纪三大工人起义是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "巴黎公社"
+      },
+      {
+        "label": "B",
+        "text": "1831年和1834法国里昂工人两次起义"
+      },
+      {
+        "label": "C",
+        "text": "1838年在英国爆发的延续十余年的宪章运动"
+      },
+      {
+        "label": "D",
+        "text": "1844年德国西里西亚纺织工人起义"
+      }
+    ],
+    "answer": "BCD",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 8,
+    "type": "multiple",
+    "text": "19世纪空想社会主义的最杰出的代表是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "昂利·圣西门"
+      },
+      {
+        "label": "B",
+        "text": "沙尔·傅立叶"
+      },
+      {
+        "label": "C",
+        "text": "罗伯特·欧文"
+      },
+      {
+        "label": "D",
+        "text": "托马斯·莫尔"
+      }
+    ],
+    "answer": "ABC",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 9,
+    "type": "multiple",
+    "text": "马克思主义诞生于19世纪40年代，在那时，资本主义的发展已经经历过（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "14世纪末至15世纪初，资本主义生产关系在西欧封建社会内部孕育"
+      },
+      {
+        "label": "B",
+        "text": "18世纪60年代至19世纪30年代末，资本主义工业革命推动资本主义社会生产力发展"
+      },
+      {
+        "label": "C",
+        "text": "多次经济危机给资本主义世界造成极大破坏"
+      },
+      {
+        "label": "D",
+        "text": "垄断资本主义"
+      }
+    ],
+    "answer": "ABC",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 10,
+    "type": "multiple",
+    "text": "马克思恩格斯最重要的理论贡献是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "辩证法"
+      },
+      {
+        "label": "B",
+        "text": "劳动价值论"
+      },
+      {
+        "label": "C",
+        "text": "唯物史观"
+      },
+      {
+        "label": "D",
+        "text": "剩余价值学说"
+      }
+    ],
+    "answer": "CD",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 11,
+    "type": "multiple",
+    "text": "马克思主义鲜明的特征是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学性"
+      },
+      {
+        "label": "B",
+        "text": "人民性"
+      },
+      {
+        "label": "C",
+        "text": "实践性"
+      },
+      {
+        "label": "D",
+        "text": "发展性"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 导论",
+    "number": 12,
+    "type": "multiple",
+    "text": "马克思主义的当代价值是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "观察当代世界的认识工具"
+      },
+      {
+        "label": "B",
+        "text": "指引当代中国发展的行动指南"
+      },
+      {
+        "label": "C",
+        "text": "引领人类社会进步的科学真理"
+      },
+      {
+        "label": "D",
+        "text": "对当代世界和中国发展借鉴意义不大"
+      }
+    ],
+    "answer": "ABC",
+    "source": "0导论——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 1,
+    "type": "single",
+    "text": "恩格斯认为，全部哲学、特别是近代哲学的重大的基本问题是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "哲学与人类生存活动之间的内在联系问题"
+      },
+      {
+        "label": "B",
+        "text": "人与周围世界的基本联系问题"
+      },
+      {
+        "label": "C",
+        "text": "思维和存在的关系问题"
+      },
+      {
+        "label": "D",
+        "text": "关于人的本质问题"
+      }
+    ],
+    "answer": "C",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 2,
+    "type": "single",
+    "text": "哲学上的两大阵营是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯物主义和唯心主义"
+      },
+      {
+        "label": "B",
+        "text": "辩证法和形而上学"
+      },
+      {
+        "label": "C",
+        "text": "一元论和二元论"
+      },
+      {
+        "label": "D",
+        "text": "可知论和不可知论"
+      }
+    ],
+    "answer": "A",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 3,
+    "type": "single",
+    "text": "否认思维和存在同一性的观点属于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "主观唯心主义"
+      },
+      {
+        "label": "B",
+        "text": "形而上学"
+      },
+      {
+        "label": "C",
+        "text": "客观唯心主义"
+      },
+      {
+        "label": "D",
+        "text": "不可知论"
+      }
+    ],
+    "answer": "D",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 4,
+    "type": "single",
+    "text": "列宁对辩证唯物主义物质范畴的定义是通过（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质和意识的关系界定的"
+      },
+      {
+        "label": "B",
+        "text": "哲学与具体科学的关系界定的"
+      },
+      {
+        "label": "C",
+        "text": "主体和客体的关系界定的"
+      },
+      {
+        "label": "D",
+        "text": "一般和个别的关系界定的"
+      }
+    ],
+    "answer": "A",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 5,
+    "type": "single",
+    "text": "物质的根本属性是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "客观实在性"
+      },
+      {
+        "label": "B",
+        "text": "运动"
+      },
+      {
+        "label": "C",
+        "text": "可执行"
+      },
+      {
+        "label": "D",
+        "text": "时间和空间"
+      }
+    ],
+    "answer": "B",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 6,
+    "type": "single",
+    "text": "“坐地日行八万里，巡天遥看一千河”，这一著名诗句包含的哲理是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质运动的客观性和时空的主观性的统一"
+      },
+      {
+        "label": "B",
+        "text": "物质运动无限性和有限性的统一"
+      },
+      {
+        "label": "C",
+        "text": "时空的无限性和有限性的统一"
+      },
+      {
+        "label": "D",
+        "text": "运动的绝对性和静止的相对性的统一"
+      }
+    ],
+    "answer": "D",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 27,
+    "type": "single",
+    "text": "“挟泰山以超北海，语人曰吾不能，是诚不能也。为长者折枝，语人曰吾不能，是不为也，",
+    "options": [
+      {
+        "label": "A",
+        "text": "人的主观努力程度"
+      },
+      {
+        "label": "B",
+        "text": "对人是否有利"
+      },
+      {
+        "label": "C",
+        "text": "现实中有无根据和条件"
+      },
+      {
+        "label": "D",
+        "text": "现实中的根据和条件是否充分"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 8,
+    "type": "single",
+    "text": "有一首描述在战争中缺了钉子的马掌会导致国家灭亡的童谣：“钉子缺，蹄铁卸，战马撅；",
+    "options": [
+      {
+        "label": "A",
+        "text": "事物是普遍联系的"
+      },
+      {
+        "label": "B",
+        "text": "事物是变化的"
+      },
+      {
+        "label": "C",
+        "text": "事物的现象是本质的表现"
+      },
+      {
+        "label": "D",
+        "text": "事物的量变引起质变"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 9,
+    "type": "single",
+    "text": "中国古代哲学家公孙龙“白马非马”之说的错误在于割裂了（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "内因和外因的关系"
+      },
+      {
+        "label": "B",
+        "text": "矛盾统一性和斗争性的关系"
+      },
+      {
+        "label": "C",
+        "text": "矛盾主要方面和次要方面的关系"
+      },
+      {
+        "label": "D",
+        "text": "矛盾的普遍性和特殊性的关系"
+      }
+    ],
+    "answer": "D",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 10,
+    "type": "single",
+    "text": "唯物辩证法的否定之否定规律揭示了事物发展的（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "方向和道路"
+      },
+      {
+        "label": "B",
+        "text": "形式和状态"
+      },
+      {
+        "label": "C",
+        "text": "结构和功能"
+      },
+      {
+        "label": "D",
+        "text": "源泉和动力"
+      }
+    ],
+    "answer": "A",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 11,
+    "type": "single",
+    "text": "对于同一事物，不同的人有不同的反映，这说明（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "意识是主体的自由创造"
+      },
+      {
+        "label": "B",
+        "text": "意识不受客体影响"
+      },
+      {
+        "label": "C",
+        "text": "意识受主体状况的影响"
+      },
+      {
+        "label": "D",
+        "text": "意识的内容是主观的"
+      }
+    ],
+    "answer": "C",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 12,
+    "type": "single",
+    "text": "有一则箴言：“在溪水和岩石的斗争中，胜利的总是溪水，不是因为力量，而是因为坚持。”",
+    "options": [
+      {
+        "label": "A",
+        "text": "必然性通过偶然性开辟道路"
+      },
+      {
+        "label": "B",
+        "text": "肯定中包含着否定的因素"
+      },
+      {
+        "label": "C",
+        "text": "量变必然引起质变"
+      },
+      {
+        "label": "D",
+        "text": "有其因必有其果"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 13,
+    "type": "single",
+    "text": "“风定花犹落，鸟鸣山更幽”形象地表达了动和静的辩证关系是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "静不是动，动不是静"
+      },
+      {
+        "label": "B",
+        "text": "静中有动，动中有静"
+      },
+      {
+        "label": "C",
+        "text": "动是必然的，静是偶然的"
+      },
+      {
+        "label": "D",
+        "text": "动是静的原因，静是动的结果"
+      }
+    ],
+    "answer": "B",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 14,
+    "type": "single",
+    "text": "辩证思维方法从抽象上升到具体的过程是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "从实践到认识的过程"
+      },
+      {
+        "label": "B",
+        "text": "从认识到实践的过程"
+      },
+      {
+        "label": "C",
+        "text": "思维生成现实具体的过程"
+      },
+      {
+        "label": "D",
+        "text": "在思维中形成“多种规定的统一”的过程"
+      }
+    ],
+    "answer": "D",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 15,
+    "type": "single",
+    "text": "《百喻经》中有一则寓言，有一个愚人到别人家去做客，他嫌菜没有味道，主人就给他加了",
+    "options": [
+      {
+        "label": "A",
+        "text": "持续的量变会引起事物发生质的变化"
+      },
+      {
+        "label": "B",
+        "text": "在认识和处理问题时要掌握适度的原则"
+      },
+      {
+        "label": "C",
+        "text": "在事物的发展过程中要时时注意事物的自我否定"
+      },
+      {
+        "label": "D",
+        "text": "不可能通过一些现象而去认识某个事物的本质"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 16,
+    "type": "single",
+    "text": "有这样一道数学题：“90%×90%×90%×90%×90%=？其答案是约59%。90分看似一个非常不",
+    "options": [
+      {
+        "label": "A",
+        "text": "肯定中包含否定"
+      },
+      {
+        "label": "B",
+        "text": "量变引起质变"
+      },
+      {
+        "label": "C",
+        "text": "必然性通过偶然性开辟道路"
+      },
+      {
+        "label": "D",
+        "text": "可能和现实是相互转化的"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 17,
+    "type": "single",
+    "text": "我国数学家华罗庚在一次报告中以“一支粉笔多长为好”为例来讲解他所倡导的优选法。对",
+    "options": [
+      {
+        "label": "A",
+        "text": "注重量的积累"
+      },
+      {
+        "label": "B",
+        "text": "保持事物质的稳定性"
+      },
+      {
+        "label": "C",
+        "text": "坚持适度原则"
+      },
+      {
+        "label": "D",
+        "text": "全面考虑事物属性的多样性"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 18,
+    "type": "single",
+    "text": "有一副对联，上联是“桔子洲，洲旁舟，舟行洲不行”，下联是“天心阁，阁中鸽，鸽飞阁",
+    "options": [
+      {
+        "label": "A",
+        "text": "运动的普遍状态"
+      },
+      {
+        "label": "B",
+        "text": "运动的内在原因"
+      },
+      {
+        "label": "C",
+        "text": "运动的衡量尺度"
+      },
+      {
+        "label": "D",
+        "text": "运动的存在方式"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 19,
+    "type": "single",
+    "text": "有人认为，既然人的意识是对客观外部世界的反映，那么人脑里的“鬼”、“神”意识就是",
+    "options": [
+      {
+        "label": "A",
+        "text": "把意识看成是物质的产物"
+      },
+      {
+        "label": "B",
+        "text": "夸大了意识的能动作用"
+      },
+      {
+        "label": "C",
+        "text": "认为意识是对存在的直接反映"
+      },
+      {
+        "label": "D",
+        "text": "混淆了人类意识自然演化的阶段"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 420,
+    "type": "single",
+    "text": "有一种观点认为，“自由不在于幻想中摆脱自然规律而独立，而在于认知这些规律，从而能",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯物辩证法/唯意志论"
+      },
+      {
+        "label": "B",
+        "text": "机械唯物主义/唯心主义"
+      },
+      {
+        "label": "C",
+        "text": "历史唯心主义/历史唯物主义"
+      },
+      {
+        "label": "D",
+        "text": "主观唯心主义/唯物辩证法"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 21,
+    "type": "single",
+    "text": "某地区进入供暖季后常出现雾霾，而一旦出现大风天气或等到春暖花开后雾霾就会散去减少，",
+    "options": [
+      {
+        "label": "A",
+        "text": "人类有意识的思想活动是掌握客观规律的根本前提"
+      },
+      {
+        "label": "B",
+        "text": "尊重事物的客观规律是正确发挥主观能动性的前提"
+      },
+      {
+        "label": "C",
+        "text": "认识活动是客观规律性与主观能动性相统一的基础"
+      },
+      {
+        "label": "D",
+        "text": "尚未认识的外在自然规律对人的实践活动起着至关重要的作用"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 22,
+    "type": "single",
+    "text": "物质和意识的对立只有在非常有限的范围内才有绝对的意义，超过这个范围便是相对的了，",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质和意识何者为第一性"
+      },
+      {
+        "label": "B",
+        "text": "物质和意识是否具有同一性"
+      },
+      {
+        "label": "C",
+        "text": "物质和意识何者更为重要"
+      },
+      {
+        "label": "D",
+        "text": "物质和意识何者与社会生活的关系更密切"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 23,
+    "type": "single",
+    "text": "2021年7月8日，第四届世界人工智能大会在上海世博中心正式启动。会场内，嘉宾与全球",
+    "options": [
+      {
+        "label": "A",
+        "text": "人工智能就是把人的部分智能活动机器化"
+      },
+      {
+        "label": "B",
+        "text": "人工智能是人类智能的物化"
+      },
+      {
+        "label": "C",
+        "text": "人工智能是机器人实践活动的产物"
+      },
+      {
+        "label": "D",
+        "text": "人工智能是人的意识能动性的一种特殊表现"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 24,
+    "type": "single",
+    "text": "下列关于“元宇宙”的说法，错误的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "元宇宙在本质上是用数字信息技术复制现实世界得出的镜像与愿景"
+      },
+      {
+        "label": "B",
+        "text": "元宇宙是现实世界和虚拟世界的集合体"
+      },
+      {
+        "label": "C",
+        "text": "元宇宙是对传统“虚拟现实”的技术升级"
+      },
+      {
+        "label": "D",
+        "text": "元宇宙是人的实践活动的产物"
+      }
+    ],
+    "answer": "B",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 25,
+    "type": "single",
+    "text": "“树立‘一盘棋’思想，把自身发展放到协同发展的大局之中”体现了（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "系统思维"
+      },
+      {
+        "label": "B",
+        "text": "历史思维"
+      },
+      {
+        "label": "C",
+        "text": "战略思维"
+      },
+      {
+        "label": "D",
+        "text": "底线思维"
+      }
+    ],
+    "answer": "A",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 26,
+    "type": "single",
+    "text": "“凡事从坏处准备，努力争取最好的结果，这样才能有备无患、遇事不慌，牢牢把握主动权。”",
+    "options": [
+      {
+        "label": "A",
+        "text": "创新思维"
+      },
+      {
+        "label": "B",
+        "text": "历史思维"
+      },
+      {
+        "label": "C",
+        "text": "辩证思维"
+      },
+      {
+        "label": "D",
+        "text": "底线思维"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 1,
+    "type": "multiple",
+    "text": "“巧妇难为无米之炊”的哲学意义是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "意识是第一性的，物质是第二性的"
+      },
+      {
+        "label": "B",
+        "text": "物质是第一性的，意识是第二性的"
+      },
+      {
+        "label": "C",
+        "text": "主观能动性的发挥，必须尊重客观规律"
+      },
+      {
+        "label": "D",
+        "text": "画饼不能充饥"
+      }
+    ],
+    "answer": "BC",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 2,
+    "type": "multiple",
+    "text": "“光阴一去不复还”表明（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "时间的无限性"
+      },
+      {
+        "label": "B",
+        "text": "时间的一维性"
+      },
+      {
+        "label": "C",
+        "text": "时间的客观性"
+      },
+      {
+        "label": "D",
+        "text": "时间的不可逆性"
+      }
+    ],
+    "answer": "BD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 3,
+    "type": "multiple",
+    "text": "我国古代哲学家王夫之认为：“动静者，乃阴阳之动静也。”“皆本物之固然。”“静者静",
+    "options": [
+      {
+        "label": "A",
+        "text": "运动和静止都是物质的固有属性"
+      },
+      {
+        "label": "B",
+        "text": "静止是运动的特殊状态，是缓慢不显著的运动"
+      },
+      {
+        "label": "C",
+        "text": "静止是相对的，运动是绝对的"
+      },
+      {
+        "label": "D",
+        "text": "运动是静止的总和"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 4,
+    "type": "multiple",
+    "text": "实践是人的生存方式，是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实践是人类生存和发展的基础"
+      },
+      {
+        "label": "B",
+        "text": "在实践中形成人的本质和一切社会关系"
+      },
+      {
+        "label": "C",
+        "text": "实践是人类特有的活动"
+      },
+      {
+        "label": "D",
+        "text": "实践是一切生命的存在形式"
+      }
+    ],
+    "answer": "ABC",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 65,
+    "type": "multiple",
+    "text": "下列选项中，体现发展的实质的有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "因祸得福，祸福相依"
+      },
+      {
+        "label": "B",
+        "text": "无产阶级专政代替资产阶级专政"
+      },
+      {
+        "label": "C",
+        "text": "培育出新优质品种"
+      },
+      {
+        "label": "D",
+        "text": "原始社会的公有制经过私有制到社会主义的公有制"
+      }
+    ],
+    "answer": "BCD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 6,
+    "type": "multiple",
+    "text": "矛盾同一性在事物发展中的作用表现为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "矛盾双方在相互依存中得到发展"
+      },
+      {
+        "label": "B",
+        "text": "矛盾双方相互吸取有利于自身发展的因素"
+      },
+      {
+        "label": "C",
+        "text": "调和矛盾双方的对立"
+      },
+      {
+        "label": "D",
+        "text": "规定事物发展的基本趋势"
+      }
+    ],
+    "answer": "ABD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 7,
+    "type": "multiple",
+    "text": "下列工作方法体现了矛盾的普遍性和特殊性的辩证关系原理的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "“抓典型”"
+      },
+      {
+        "label": "B",
+        "text": "“一般号召和个别指导相结合”"
+      },
+      {
+        "label": "C",
+        "text": "“一切经过实验”"
+      },
+      {
+        "label": "D",
+        "text": "“欲擒故纵”"
+      }
+    ],
+    "answer": "ABC",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 8,
+    "type": "multiple",
+    "text": "下列命题中属于揭示事物本质的有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "水往低处流"
+      },
+      {
+        "label": "B",
+        "text": "日出于东落于西"
+      },
+      {
+        "label": "C",
+        "text": "人的本质是社会关系的总和"
+      },
+      {
+        "label": "D",
+        "text": "意识是人脑对客观世界的反映"
+      }
+    ],
+    "answer": "CD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 9,
+    "type": "multiple",
+    "text": "古语说：“奢靡之始，危亡之渐。”这句话是说，奢靡逐步发展会导致危亡。其中包含的哲",
+    "options": [
+      {
+        "label": "A",
+        "text": "现象是本质的外部表现"
+      },
+      {
+        "label": "B",
+        "text": "特殊性中包含着普遍性"
+      },
+      {
+        "label": "C",
+        "text": "量变是质变的必要准备"
+      },
+      {
+        "label": "D",
+        "text": "质变是量变的必然结果"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 10,
+    "type": "multiple",
+    "text": "割裂量变和质变的辩证关系就会导致（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "庸俗进化论"
+      },
+      {
+        "label": "B",
+        "text": "激变论"
+      },
+      {
+        "label": "C",
+        "text": "折中主义"
+      },
+      {
+        "label": "D",
+        "text": "冒险主义"
+      }
+    ],
+    "answer": "ABD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 11,
+    "type": "multiple",
+    "text": "割裂“前进性”和“曲折性”的统一就会导致（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "庸俗进化论"
+      },
+      {
+        "label": "B",
+        "text": "直线论"
+      },
+      {
+        "label": "C",
+        "text": "激变论"
+      },
+      {
+        "label": "D",
+        "text": "循环论"
+      }
+    ],
+    "answer": "BD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 12,
+    "type": "multiple",
+    "text": "“是就是，否就否，除此之外，都是鬼话”，这一观点的错误在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "它对否定的理解是孤立的、片面的"
+      },
+      {
+        "label": "B",
+        "text": "它对肯定的理解是孤立的、片面的"
+      },
+      {
+        "label": "C",
+        "text": "它否定了肯定与否定的对立统一关系"
+      },
+      {
+        "label": "D",
+        "text": "它否认了事物发展的曲折性"
+      }
+    ],
+    "answer": "ABC",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 13,
+    "type": "multiple",
+    "text": "下列命题蕴涵着中国传统哲学中否定之否定规律的思想是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "“不平不陂，无往不复”"
+      },
+      {
+        "label": "B",
+        "text": "“将欲弱之，必固强之”，“将欲废之，必固兴之”"
+      },
+      {
+        "label": "C",
+        "text": "“荣枯代谢而弥见其新”"
+      },
+      {
+        "label": "D",
+        "text": "“和实生物”"
+      }
+    ],
+    "answer": "ABC",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 14,
+    "type": "multiple",
+    "text": "“脱离了整体的手是名义上的手”说明了（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "整体依赖于部分"
+      },
+      {
+        "label": "B",
+        "text": "部分依赖于整体"
+      },
+      {
+        "label": "C",
+        "text": "整体是部分之和"
+      },
+      {
+        "label": "D",
+        "text": "脱离了整体的部分就丧失了原有的性质和功能"
+      }
+    ],
+    "answer": "BD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 15,
+    "type": "multiple",
+    "text": "社会规律是人们自己的“社会行动的规律”，这是因为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人是社会历史的主体"
+      },
+      {
+        "label": "B",
+        "text": "人们自己创造自己的历史"
+      },
+      {
+        "label": "C",
+        "text": "历史发展方向是由人的思想和行动决定的"
+      },
+      {
+        "label": "D",
+        "text": "社会规律存在和实现于实践活动之中"
+      }
+    ],
+    "answer": "ABD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 16,
+    "type": "multiple",
+    "text": "唐朝诗人张若虚《春江花月夜》中，“人生代代无穷已，江月年年望相似”两句诗蕴含着时",
+    "options": [
+      {
+        "label": "A",
+        "text": "闲云潭影日悠悠，物换星移几度秋"
+      },
+      {
+        "label": "B",
+        "text": "花开堪折直须折，莫待无花空折枝"
+      },
+      {
+        "label": "C",
+        "text": "黑发不知勤学早，白首方悔读书迟"
+      },
+      {
+        "label": "D",
+        "text": "溪云初起日沉阁，山雨欲来风满楼"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 17,
+    "type": "multiple",
+    "text": "“沉舟侧畔千帆过，病树前头万木春。”辩证法认为发展的实质是新事物的产生和旧事物的",
+    "options": [
+      {
+        "label": "A",
+        "text": "新生事物产生于旧事物之后，是新出现的事物"
+      },
+      {
+        "label": "B",
+        "text": "新生事物具有新的结构和功能，能适应已经变化了的环境和条件"
+      },
+      {
+        "label": "C",
+        "text": "新生事物是对旧事物的扬弃，并添加了旧事物所不能容纳的新内容"
+      },
+      {
+        "label": "D",
+        "text": "在社会历史领域内，新生事物符合广大人民群众的根本利益和要求"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 18,
+    "type": "multiple",
+    "text": "物质世界的二重化包括：（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "从自然界中分化出人类社会"
+      },
+      {
+        "label": "B",
+        "text": "从物质世界中分化出生物界"
+      },
+      {
+        "label": "C",
+        "text": "从客观世界中分化出主观世界"
+      },
+      {
+        "label": "D",
+        "text": "从主观世界中分化出动物的主观世界和人的主观世界"
+      }
+    ],
+    "answer": "AC",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 19,
+    "type": "multiple",
+    "text": "意识对物质的反作用主要表现在：（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "意识具有目的性和计划性"
+      },
+      {
+        "label": "B",
+        "text": "意识具有创造性"
+      },
+      {
+        "label": "C",
+        "text": "意识具有指导实践改造客观世界的作用"
+      },
+      {
+        "label": "D",
+        "text": "意识具有调控人的行为和生理活动的作用"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 820,
+    "type": "multiple",
+    "text": "2017年6月，我国科学家利用“墨子号”量子科学实验卫星在国际上率先成功实现了千公里",
+    "options": [
+      {
+        "label": "A",
+        "text": "世界的真正统一性在于它的物质性"
+      },
+      {
+        "label": "B",
+        "text": "事物联系的主观性和偶然性"
+      },
+      {
+        "label": "C",
+        "text": "事物联系的复杂性和多样性"
+      },
+      {
+        "label": "D",
+        "text": "物质世界联系的客观性和普遍性"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 21,
+    "type": "multiple",
+    "text": "在深入推动黄河流域生态保护和高质量发展座谈会上，习近平总书记谈及水资源和发展的关",
+    "options": [
+      {
+        "label": "A",
+        "text": "创造条件，充分发挥意识能动性"
+      },
+      {
+        "label": "B",
+        "text": "一切从实际出发，实事求是"
+      },
+      {
+        "label": "C",
+        "text": "因地制宜，因时制宜"
+      },
+      {
+        "label": "D",
+        "text": "尊重规律，把握适度原则"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 22,
+    "type": "multiple",
+    "text": "时间是万事万物存在的刻度。1秒钟，电影放映24帧画面，猎豹在草原上飞奔28米，蜂鸟",
+    "options": [
+      {
+        "label": "A",
+        "text": "测量事物运动的客观尺度"
+      },
+      {
+        "label": "B",
+        "text": "物质运动的存在形式"
+      },
+      {
+        "label": "C",
+        "text": "事物运动的主观联想"
+      },
+      {
+        "label": "D",
+        "text": "与物质运动不可分割的"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 23,
+    "type": "multiple",
+    "text": "虚拟现实技术是一种运用计算机仿真系统创建多源信息融合的交互式三维动态实景以及动作",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质世界不再具有客观实在性"
+      },
+      {
+        "label": "B",
+        "text": "物质世界的存在形式具有多样性"
+      },
+      {
+        "label": "C",
+        "text": "信息是独立于物质和意识的第三种存在状态"
+      },
+      {
+        "label": "D",
+        "text": "人们可以通过实践创造出自然界原本不存在的现实状态"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第一章",
+    "number": 924,
+    "type": "multiple",
+    "text": "北京时间2019年4月10日21时，全球多国科研人员合作的“事件视界望远镜”项目在全球",
+    "options": [
+      {
+        "label": "A",
+        "text": "空间的性质依赖于物质的分布及其运动状态"
+      },
+      {
+        "label": "B",
+        "text": "世界是物质的统一体"
+      },
+      {
+        "label": "C",
+        "text": "物质世界的客观存在与人的实践和认识水平有关"
+      },
+      {
+        "label": "D",
+        "text": "空间的观念随着人的认识发展而拓展"
+      }
+    ],
+    "answer": "",
+    "source": "1第一章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 1,
+    "type": "single",
+    "text": "马克思主义认识论是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "能动的反映论"
+      },
+      {
+        "label": "B",
+        "text": "经验论"
+      },
+      {
+        "label": "C",
+        "text": "先验论"
+      },
+      {
+        "label": "D",
+        "text": "不可知论"
+      }
+    ],
+    "answer": "A",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 2,
+    "type": "single",
+    "text": "马克思主义认识论首要的和基本的观点是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯物论的观点"
+      },
+      {
+        "label": "B",
+        "text": "实践的观点"
+      },
+      {
+        "label": "C",
+        "text": "辨证法的观点"
+      },
+      {
+        "label": "D",
+        "text": "可知论观点"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 3,
+    "type": "single",
+    "text": "实践的主体是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝对精神"
+      },
+      {
+        "label": "B",
+        "text": "具有思维能力、从事社会实践和认识活动的人"
+      },
+      {
+        "label": "C",
+        "text": "人"
+      },
+      {
+        "label": "D",
+        "text": "人的意识"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 4,
+    "type": "single",
+    "text": "实践的客体是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝对精神的对象化"
+      },
+      {
+        "label": "B",
+        "text": "客观物质世界"
+      },
+      {
+        "label": "C",
+        "text": "人的意识的创造物"
+      },
+      {
+        "label": "D",
+        "text": "进入主体的认识和实践范围的客观事物"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 5,
+    "type": "single",
+    "text": "实践的中介是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "各种形式的工具、手段及其运用的程序和方法"
+      },
+      {
+        "label": "B",
+        "text": "对一切事物存在和发展有联系的各种要素的总和"
+      },
+      {
+        "label": "C",
+        "text": "构成事物一切要素的总和"
+      },
+      {
+        "label": "D",
+        "text": "受命于主观，见之于客观的活动"
+      }
+    ],
+    "answer": "A",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 6,
+    "type": "single",
+    "text": "一切真知最终都来源于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "书的宝库"
+      },
+      {
+        "label": "B",
+        "text": "天资聪明"
+      },
+      {
+        "label": "C",
+        "text": "直接经验"
+      },
+      {
+        "label": "D",
+        "text": "进取精神"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 7,
+    "type": "single",
+    "text": "直接经验和间接经验的关系是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "第一性和第二性的关系"
+      },
+      {
+        "label": "B",
+        "text": "主观和客观的关系"
+      },
+      {
+        "label": "C",
+        "text": "知识的“源”和知识的“流”的关系"
+      },
+      {
+        "label": "D",
+        "text": "绝对和相对的关系"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 8,
+    "type": "single",
+    "text": "“社会上一旦有技术上的需要，则这种需要会比十所大学更能把科学推向前进。”这说明（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实践是认识的来源"
+      },
+      {
+        "label": "B",
+        "text": "技术推动了科学的发展"
+      },
+      {
+        "label": "C",
+        "text": "实践是认识发展的动力"
+      },
+      {
+        "label": "D",
+        "text": "科学进步是实践的目的"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 9,
+    "type": "single",
+    "text": "认识运动是一个无限反复、无限发展过程的观点属于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯心主义认识的论的观点"
+      },
+      {
+        "label": "B",
+        "text": "旧唯物主义认识论的观点"
+      },
+      {
+        "label": "C",
+        "text": "马克思主义认识论的观点"
+      },
+      {
+        "label": "D",
+        "text": "机械唯物主义认识论的观点"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 10,
+    "type": "single",
+    "text": "唯物主义认识论和唯心主义认识论的根本区别在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是否承认认识是主体对客体的反映"
+      },
+      {
+        "label": "B",
+        "text": "是否承认人有认识能力"
+      },
+      {
+        "label": "C",
+        "text": "是否承认世界是可以被认识的"
+      },
+      {
+        "label": "D",
+        "text": "是否承认认识世界是为了改造世界"
+      }
+    ],
+    "answer": "A",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 11,
+    "type": "single",
+    "text": "恩格斯说“人的智力是按人如何学会改造自然界而发展的”，这句话说明（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人具有改造世界的能力"
+      },
+      {
+        "label": "B",
+        "text": "人的认识具有主观能动性"
+      },
+      {
+        "label": "C",
+        "text": "人的认识能力是不受限制的"
+      },
+      {
+        "label": "D",
+        "text": "实践是认识发展的动力"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 12,
+    "type": "single",
+    "text": "实践是认识的基础表明（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "每个人必须事事经过实践才能有认识"
+      },
+      {
+        "label": "B",
+        "text": "只要坚持实践就一定能获得正确认识"
+      },
+      {
+        "label": "C",
+        "text": "直接知识来自于实践，间接知识不来自于实践"
+      },
+      {
+        "label": "D",
+        "text": "一切知识归根到底来自于实践"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 13,
+    "type": "single",
+    "text": "“学而不思则罔”是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "感性认识需要上升到理性认识"
+      },
+      {
+        "label": "B",
+        "text": "理性认识需要上升到感性认识"
+      },
+      {
+        "label": "C",
+        "text": "感性认识是对事物的正确反映"
+      },
+      {
+        "label": "D",
+        "text": "理性认识是对事物的正确反映"
+      }
+    ],
+    "answer": "A",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 14,
+    "type": "single",
+    "text": "一个完整的认识过程需要经过两次飞跃。下列选项中属于第二次飞跃的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "调查研究，了解情况"
+      },
+      {
+        "label": "B",
+        "text": "深入思考，形成理论"
+      },
+      {
+        "label": "C",
+        "text": "精心安排，制定计划"
+      },
+      {
+        "label": "D",
+        "text": "执行计划，付诸实践"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 15,
+    "type": "single",
+    "text": "列宁说：“没有革命的理论，就不会有革命的运动”，这句话应理解为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "革命运动是由革命理论派生的"
+      },
+      {
+        "label": "B",
+        "text": "革命理论是革命运动的基础"
+      },
+      {
+        "label": "C",
+        "text": "革命理论对革命实践具有最终决定作用"
+      },
+      {
+        "label": "D",
+        "text": "革命理论对革命实践具有重要指导作用"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 316,
+    "type": "single",
+    "text": "一个完整的认识过程是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "感觉——知觉——表象"
+      },
+      {
+        "label": "B",
+        "text": "概念——判断——推理"
+      },
+      {
+        "label": "C",
+        "text": "实践——认识——实践"
+      },
+      {
+        "label": "D",
+        "text": "感性认识—理性认识—感性认识"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 17,
+    "type": "single",
+    "text": "马克思主义认为，人类认识发展的动力在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人类的精神活动"
+      },
+      {
+        "label": "B",
+        "text": "人类的社会生活"
+      },
+      {
+        "label": "C",
+        "text": "人类的正确思想路线"
+      },
+      {
+        "label": "D",
+        "text": "人类的社会实践"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 18,
+    "type": "single",
+    "text": "辨别一种认识是不是真理的关键是看它（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是不是被大多数人所接受"
+      },
+      {
+        "label": "B",
+        "text": "是不是反映客观事物的本质和规律"
+      },
+      {
+        "label": "C",
+        "text": "是不是具有绝对性"
+      },
+      {
+        "label": "D",
+        "text": "是不是能够满足人的需要"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 19,
+    "type": "single",
+    "text": "“真理是人造的供人使用的工具”的看法是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "主观唯心主义"
+      },
+      {
+        "label": "B",
+        "text": "客观唯心主义"
+      },
+      {
+        "label": "C",
+        "text": "辨证唯物主义"
+      },
+      {
+        "label": "D",
+        "text": "机械唯物主义"
+      }
+    ],
+    "answer": "A",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 20,
+    "type": "single",
+    "text": "真理的绝对性是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "真理不能继续发展"
+      },
+      {
+        "label": "B",
+        "text": "真理的无条件性"
+      },
+      {
+        "label": "C",
+        "text": "真理的运用不受条件限制"
+      },
+      {
+        "label": "D",
+        "text": "真理不需要检验"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 21,
+    "type": "single",
+    "text": "真理的相对性应理解为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "真理的内容没有确定性"
+      },
+      {
+        "label": "B",
+        "text": "真理和谬误之间没有原则的界限"
+      },
+      {
+        "label": "C",
+        "text": "真理是主观对客观事物近似正确的反映"
+      },
+      {
+        "label": "D",
+        "text": "没有确定的检验真理的标准"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 22,
+    "type": "single",
+    "text": "真理和谬误的根本区别就在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是否被大多数人所接受或同意"
+      },
+      {
+        "label": "B",
+        "text": "主观与客观是否相符合、相一致"
+      },
+      {
+        "label": "C",
+        "text": "是否能够满足人们的需要"
+      },
+      {
+        "label": "D",
+        "text": "是否能够激励人和影响人"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 23,
+    "type": "single",
+    "text": "1663年，伽利略因宣传“日心说”被教廷判处终生监禁。1979年11月10日罗马教皇在公",
+    "options": [
+      {
+        "label": "A",
+        "text": "谬误在一定条件下可以转化为真理"
+      },
+      {
+        "label": "B",
+        "text": "真理在一定条件下可以转化为谬误"
+      },
+      {
+        "label": "C",
+        "text": "真理是不断发展的"
+      },
+      {
+        "label": "D",
+        "text": "真理终将战胜谬误"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 424,
+    "type": "single",
+    "text": "“人的思维是否具有真理性，这并不是一个理论的问题，而是一个实践问题。人应该在实践",
+    "options": [
+      {
+        "label": "A",
+        "text": "实践是认识的来源和动力"
+      },
+      {
+        "label": "B",
+        "text": "实践是检验认识是否具有真理性的唯一标准"
+      },
+      {
+        "label": "C",
+        "text": "实践检验真理不需要理论指导"
+      },
+      {
+        "label": "D",
+        "text": "认识活动与实践活动具有同样的作用和力量。"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 25,
+    "type": "single",
+    "text": "哲学上的“价值”是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人类脑力和体力的耗费"
+      },
+      {
+        "label": "B",
+        "text": "具有特定属性的客体对于主体需要的意义"
+      },
+      {
+        "label": "C",
+        "text": "凝结在商品中的无差别的人类劳动"
+      },
+      {
+        "label": "D",
+        "text": "某种活动的经济效益"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 26,
+    "type": "single",
+    "text": "价值评价是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "一种纯主观的认识活动"
+      },
+      {
+        "label": "B",
+        "text": "没有任何客观标准的评价"
+      },
+      {
+        "label": "C",
+        "text": "没有正确与错误区分的评价"
+      },
+      {
+        "label": "D",
+        "text": "有正确与错误之分的评价"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 27,
+    "type": "single",
+    "text": "毛泽东说：“马克思主义哲学认为十分重要的问题，不在于懂得了客观世界的规律性，因而",
+    "options": [
+      {
+        "label": "A",
+        "text": "认识的任务在于透过事物的现象抓住事物的本质"
+      },
+      {
+        "label": "B",
+        "text": "认识的任务不仅在于解释世界，更重要的是改造世界"
+      },
+      {
+        "label": "C",
+        "text": "认识的任务在于运用客观规律解释世界"
+      },
+      {
+        "label": "D",
+        "text": "只要了解了客观规律就能成功的改造世界"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 28,
+    "type": "single",
+    "text": "实践基础上的理论创新，（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "决定了社会发展趋势"
+      },
+      {
+        "label": "B",
+        "text": "决定着社会变革力度"
+      },
+      {
+        "label": "C",
+        "text": "是社会发展和变革的先导"
+      },
+      {
+        "label": "D",
+        "text": "是一个国家兴旺发达的最终源泉"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 29,
+    "type": "single",
+    "text": "真理客观性的含义是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "真理的内容是客观的"
+      },
+      {
+        "label": "B",
+        "text": "真理是自然规律"
+      },
+      {
+        "label": "C",
+        "text": "真理是社会规律"
+      },
+      {
+        "label": "D",
+        "text": "真理是永恒的"
+      }
+    ],
+    "answer": "A",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 30,
+    "type": "single",
+    "text": "真理和价值在认识和实践中是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "各自独立、毫不相干的"
+      },
+      {
+        "label": "B",
+        "text": "相互冲突、无法统一的"
+      },
+      {
+        "label": "C",
+        "text": "相互制约、相互引导、相互促进的"
+      },
+      {
+        "label": "D",
+        "text": "合二而一、无法区分的"
+      }
+    ],
+    "answer": "C",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 531,
+    "type": "single",
+    "text": "马克思曾形象地比喻道：“蜜蜂建筑蜂房的本领使人间的许多建筑师感到惭愧。但是，最蹩",
+    "options": [
+      {
+        "label": "A",
+        "text": "自觉能动性"
+      },
+      {
+        "label": "B",
+        "text": "社会历史性"
+      },
+      {
+        "label": "C",
+        "text": "客观实在性"
+      },
+      {
+        "label": "D",
+        "text": "主体多样性"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 32,
+    "type": "single",
+    "text": "药物的价值是治疗疾病，它对病人有价值，对健康人则没有价值。这体现了价值的（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "客观性"
+      },
+      {
+        "label": "B",
+        "text": "主体性"
+      },
+      {
+        "label": "C",
+        "text": "多维性"
+      },
+      {
+        "label": "D",
+        "text": "社会历史性"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 33,
+    "type": "single",
+    "text": "钻石对于主体的不同需要来说，可能构成审美价值、经济价值、科研价值等不同类别的价值",
+    "options": [
+      {
+        "label": "A",
+        "text": "客观性"
+      },
+      {
+        "label": "B",
+        "text": "主体性"
+      },
+      {
+        "label": "C",
+        "text": "多维性"
+      },
+      {
+        "label": "D",
+        "text": "社会历史性"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 34,
+    "type": "single",
+    "text": "关于守正创新，下列说法中错误的是：（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "守正创新要坚持守正不动摇"
+      },
+      {
+        "label": "B",
+        "text": "守正创新要坚持创新不停步"
+      },
+      {
+        "label": "C",
+        "text": "守正创新要坚持守正和创新的辩证统一"
+      },
+      {
+        "label": "D",
+        "text": "守正和创新是彼此孤立的"
+      }
+    ],
+    "answer": "D",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 35,
+    "type": "single",
+    "text": "深刻揭示坚持真理与发展真理、坚持马克思主义与发展马克思主义的辩证关系的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实事求是"
+      },
+      {
+        "label": "B",
+        "text": "守正创新"
+      },
+      {
+        "label": "C",
+        "text": "解放思想"
+      },
+      {
+        "label": "D",
+        "text": "与时俱进"
+      }
+    ],
+    "answer": "B",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 1,
+    "type": "multiple",
+    "text": "唯物主义认识论都是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "不可知论"
+      },
+      {
+        "label": "B",
+        "text": "反映论"
+      },
+      {
+        "label": "C",
+        "text": "先验论"
+      },
+      {
+        "label": "D",
+        "text": "可知论"
+      }
+    ],
+    "answer": "BD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 2,
+    "type": "multiple",
+    "text": "下列各项属于实践基本形式的有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "农民嫁接果树"
+      },
+      {
+        "label": "B",
+        "text": "艺术家表演"
+      },
+      {
+        "label": "C",
+        "text": "教师上课"
+      },
+      {
+        "label": "D",
+        "text": "检察机关办案"
+      }
+    ],
+    "answer": "AD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 3,
+    "type": "multiple",
+    "text": "认识主体的属性有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "自然属性"
+      },
+      {
+        "label": "B",
+        "text": "社会属性"
+      },
+      {
+        "label": "C",
+        "text": "主观能动性"
+      },
+      {
+        "label": "D",
+        "text": "实践性"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 4,
+    "type": "multiple",
+    "text": "马克思主义认为，认识的主体与客体之间的关系包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实践关系"
+      },
+      {
+        "label": "B",
+        "text": "认识关系"
+      },
+      {
+        "label": "C",
+        "text": "价值关系"
+      },
+      {
+        "label": "D",
+        "text": "主从关系"
+      }
+    ],
+    "answer": "ABC",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 5,
+    "type": "multiple",
+    "text": "实践的中介系统包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人的肢体的延长、体能放大的工具系统"
+      },
+      {
+        "label": "B",
+        "text": "人的感官和大脑延伸、智力放大的工具系统"
+      },
+      {
+        "label": "C",
+        "text": "进入主体认识和实践范围的各种物质系统"
+      },
+      {
+        "label": "D",
+        "text": "主体运用和操作各种工具的程序和方法"
+      }
+    ],
+    "answer": "ABD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 6,
+    "type": "multiple",
+    "text": "实践在认识中的决定作用表现在（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实践产生了认识的需要"
+      },
+      {
+        "label": "B",
+        "text": "实践为认识提供了可能"
+      },
+      {
+        "label": "C",
+        "text": "实践使认识得以产生和发展"
+      },
+      {
+        "label": "D",
+        "text": "实践是检验认识真理性的唯一标准"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 7,
+    "type": "multiple",
+    "text": "从理性认识到实践的飞跃是一次更重要的飞跃，这是因为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实践是认识的来源"
+      },
+      {
+        "label": "B",
+        "text": "实践是认识的目的"
+      },
+      {
+        "label": "C",
+        "text": "实践需要理论的指导"
+      },
+      {
+        "label": "D",
+        "text": "实践是检验认识真理性的标准"
+      }
+    ],
+    "answer": "BCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 8,
+    "type": "multiple",
+    "text": "“实践、认识、再实践、再认识”的原理，表明了（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人的认识运动的反复性和无限性"
+      },
+      {
+        "label": "B",
+        "text": "人的认识运动是主观和客观的矛盾运动"
+      },
+      {
+        "label": "C",
+        "text": "马克思主义认识论和党的群众路线的一致性"
+      },
+      {
+        "label": "D",
+        "text": "认识论与辩证法的一致性"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 9,
+    "type": "multiple",
+    "text": "科学家对1994年夏发生的彗星撞木星的天文现象进行了准确的预报和大量的观察研究，这一",
+    "options": [
+      {
+        "label": "A",
+        "text": "世界是可以认识的"
+      },
+      {
+        "label": "B",
+        "text": "人类已能预测一切自然现象"
+      },
+      {
+        "label": "C",
+        "text": "人类对宇宙的认识正在不断的深化"
+      },
+      {
+        "label": "D",
+        "text": "人类对宇宙的认识是无止境的"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 10,
+    "type": "multiple",
+    "text": "“批判的武器当然不能代替武器的批判，物质的力量只能用物质的力量来摧毁，理论一经群",
+    "options": [
+      {
+        "label": "A",
+        "text": "理论对实践具有指导作用"
+      },
+      {
+        "label": "B",
+        "text": "理论不能代替实践"
+      },
+      {
+        "label": "C",
+        "text": "理论本身就是物质力量"
+      },
+      {
+        "label": "D",
+        "text": "理论的作用可以通过实践表现出来"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 711,
+    "type": "multiple",
+    "text": "“感觉到了的东西，我们不能立刻理解它，只有理解了的东西，才能更深刻的感觉它”，这",
+    "options": [
+      {
+        "label": "A",
+        "text": "感性认识对于认识事物的本质没有任何帮助"
+      },
+      {
+        "label": "B",
+        "text": "感性认识具有局限性，有待于上升为理性认识"
+      },
+      {
+        "label": "C",
+        "text": "感性认识是认识的初级阶段，理性认识是认识的高级阶段"
+      },
+      {
+        "label": "D",
+        "text": "感性认识和理性认识是互相依存和渗透的"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 12,
+    "type": "multiple",
+    "text": "“单凭观察所得的经验，是决不能充分证明必然性的。这是如此正确，以至于不能从太阳总",
+    "options": [
+      {
+        "label": "A",
+        "text": "感性认识有待于上升为理性认识"
+      },
+      {
+        "label": "B",
+        "text": "感性认识具有局限性"
+      },
+      {
+        "label": "C",
+        "text": "事物的必然性与感性、经验性毫无关系"
+      },
+      {
+        "label": "D",
+        "text": "归纳法不是万能的"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 13,
+    "type": "multiple",
+    "text": "列宁说“没有抽象的真理，真理都是具体的”。这句话的含义是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "真理是具体生动的形象"
+      },
+      {
+        "label": "B",
+        "text": "真理的形成不需要进行抽象的概括"
+      },
+      {
+        "label": "C",
+        "text": "真理不是普遍适用的万灵药方"
+      },
+      {
+        "label": "D",
+        "text": "真理有其适用的范围和条件"
+      }
+    ],
+    "answer": "CD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 14,
+    "type": "multiple",
+    "text": "十六世纪末，伽利略通过比萨斜塔所做的自由落体实验，推翻了亚里士多德关于物体的降落",
+    "options": [
+      {
+        "label": "A",
+        "text": "发展真理必须解放思想"
+      },
+      {
+        "label": "B",
+        "text": "实践是检验认识正确与否的唯一标准"
+      },
+      {
+        "label": "C",
+        "text": "实践是认识发展的动力"
+      },
+      {
+        "label": "D",
+        "text": "真理是在同谬误斗争中发展的"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 15,
+    "type": "multiple",
+    "text": "尽管历史上罗马教廷把哥白尼的“日心说”当作“异端邪说”加以打击，但这既不能改变地",
+    "options": [
+      {
+        "label": "A",
+        "text": "客观规律不以人的意志为转移"
+      },
+      {
+        "label": "B",
+        "text": "人在客观规律面前无能为力"
+      },
+      {
+        "label": "C",
+        "text": "客观规律起作用是无条件的"
+      },
+      {
+        "label": "D",
+        "text": "真理中包含着不依赖于人的客观内容"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 16,
+    "type": "multiple",
+    "text": "爱因斯坦1939年在获悉铀裂变及其链式反应的发现后，曾上书美国总统罗斯福，建议研制",
+    "options": [
+      {
+        "label": "A",
+        "text": "真理和价值总是一致的"
+      },
+      {
+        "label": "B",
+        "text": "真理和价值总是不一致"
+      },
+      {
+        "label": "C",
+        "text": "真理和价值都是人类活动要追求的目标"
+      },
+      {
+        "label": "D",
+        "text": "真理和价值统一于人类的实践之中，最终由实践检验"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 817,
+    "type": "multiple",
+    "text": "马克思主义“是任何坚定不移和始终一贯的革命策略的基本条件；为了找到这种策略，需要",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思主义不是教条，而是行动的指南"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义必须和各国的具体实践相结合"
+      },
+      {
+        "label": "C",
+        "text": "必须从实际出发，理论联系实际"
+      },
+      {
+        "label": "D",
+        "text": "马克思主义的原理是对现存的历史活动的真实关系的一般表述"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 18,
+    "type": "multiple",
+    "text": "全面贯彻辨证唯物主义和历史唯物主义的思想路线，必须（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "把马克思主义作为永恒真理"
+      },
+      {
+        "label": "B",
+        "text": "坚持一切从实际出发"
+      },
+      {
+        "label": "C",
+        "text": "在实践中坚持和发展真理"
+      },
+      {
+        "label": "D",
+        "text": "努力学习掌握马克思主义哲学"
+      }
+    ],
+    "answer": "BCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 19,
+    "type": "multiple",
+    "text": "绝对真理和相对真理是辩证的统一，表现在（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "相对真理中包含着绝对真理的颗粒"
+      },
+      {
+        "label": "B",
+        "text": "无数相对真理的总和构成绝对真理"
+      },
+      {
+        "label": "C",
+        "text": "相对真理是向绝对真理转化的"
+      },
+      {
+        "label": "D",
+        "text": "真理是一个相对真理走向绝对真理的过程"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 20,
+    "type": "multiple",
+    "text": "实践是检验真理的唯一标准原因在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "真理的相对性"
+      },
+      {
+        "label": "B",
+        "text": "真理的本性"
+      },
+      {
+        "label": "C",
+        "text": "实践的特点"
+      },
+      {
+        "label": "D",
+        "text": "实践的有条件性"
+      }
+    ],
+    "answer": "BC",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 21,
+    "type": "multiple",
+    "text": "马克思主义哲学把实践观引入认识论，彻底划清了（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "能动革命的反映论与直观被动的反映论的界限"
+      },
+      {
+        "label": "B",
+        "text": "可知论与不可知论的界限"
+      },
+      {
+        "label": "C",
+        "text": "唯物主义反映论与唯心主义先验论的界限"
+      },
+      {
+        "label": "D",
+        "text": "辩证反映论与形而上学反映论的界限"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 22,
+    "type": "multiple",
+    "text": "马克思主义认识论所讲的主体是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "一般的抽象的人"
+      },
+      {
+        "label": "B",
+        "text": "从事实践和认识活动的人"
+      },
+      {
+        "label": "C",
+        "text": "一定的集团和社会"
+      },
+      {
+        "label": "D",
+        "text": "处于一定社会关系中的现实的人"
+      }
+    ],
+    "answer": "BCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 23,
+    "type": "multiple",
+    "text": "对于同一棵大树，在木匠的眼中是木材，画家看到的是色彩和色调，植物学家看到的是它的",
+    "options": [
+      {
+        "label": "A",
+        "text": "人的感觉受理性指导"
+      },
+      {
+        "label": "B",
+        "text": "人的认识具有能动性"
+      },
+      {
+        "label": "C",
+        "text": "理性认识是感性认识的基础"
+      },
+      {
+        "label": "D",
+        "text": "已有的认识影响感觉活动"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 24,
+    "type": "multiple",
+    "text": "“按图索骥”的错误在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "理论脱离实际"
+      },
+      {
+        "label": "B",
+        "text": "经验论"
+      },
+      {
+        "label": "C",
+        "text": "教条主义"
+      },
+      {
+        "label": "D",
+        "text": "唯理论"
+      }
+    ],
+    "answer": "ACD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 25,
+    "type": "multiple",
+    "text": "当原子论被科学所证实之后，道尔顿断言：“物质是最终的、不可再分的单元。”整个19世",
+    "options": [
+      {
+        "label": "A",
+        "text": "相对真理是绝对真理的具体表现"
+      },
+      {
+        "label": "B",
+        "text": "绝对真理是不存在的"
+      },
+      {
+        "label": "C",
+        "text": "在一定条件下，人们只能达到对客观世界的近似正确的反映"
+      },
+      {
+        "label": "D",
+        "text": "任何科学真理都都是绝对真理和相对真理的辩证统一"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 26,
+    "type": "multiple",
+    "text": "真理和价值的关系是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "追求价值以追求真理为基础"
+      },
+      {
+        "label": "B",
+        "text": "追求真理以追求价值为目标"
+      },
+      {
+        "label": "C",
+        "text": "真理和价值的统一是在社会实践中具体的历史的统一"
+      },
+      {
+        "label": "D",
+        "text": "真理和价值都要通过实践检验"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 27,
+    "type": "multiple",
+    "text": "生物学史，可以说是显微镜的发展史。17世纪中叶，英国科学家使用诞生不久的显微镜观察",
+    "options": [
+      {
+        "label": "A",
+        "text": "实践主体、客体和中介三者的有机统一构成实践的基本结构"
+      },
+      {
+        "label": "B",
+        "text": "实践的主体和客体正是依靠中介系统才能够相互作用"
+      },
+      {
+        "label": "C",
+        "text": "人类认识水平的提高与实践条件的进步有着直接的关系"
+      },
+      {
+        "label": "D",
+        "text": "探索未知世界的科学实验是人类最基本的实践活动"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 28,
+    "type": "multiple",
+    "text": "虚拟实践是伴随信息化和网络化发展而产生的，其实质是主体和客体之间通过数字化中介系",
+    "options": [
+      {
+        "label": "A",
+        "text": "间接性"
+      },
+      {
+        "label": "B",
+        "text": "交互性"
+      },
+      {
+        "label": "C",
+        "text": "系统性"
+      },
+      {
+        "label": "D",
+        "text": "开放性"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 29,
+    "type": "multiple",
+    "text": "19世纪英国作家惠兹里特说：“一个除了书本外一无所知的纯粹学者，必然对书本也是无知",
+    "options": [
+      {
+        "label": "A",
+        "text": "纸上得来终觉浅，绝知此事要躬行"
+      },
+      {
+        "label": "B",
+        "text": "尽信书，则不如无书"
+      },
+      {
+        "label": "C",
+        "text": "感觉到了的东西我们不能立刻理解它，只有理解了的东西才能更深刻地感觉它"
+      },
+      {
+        "label": "D",
+        "text": "饱经风霜的老人与缺乏阅历的少年对同一句格言的理解是不同的"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 30,
+    "type": "multiple",
+    "text": "人类历史上的每一次科技革命都与材料的发展息息相关，而新材料的研制却是颇为不易的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学研究能够任意改变物质的性质和结构"
+      },
+      {
+        "label": "B",
+        "text": "人工智能能够取代人类对物质世界的认识"
+      },
+      {
+        "label": "C",
+        "text": "人类对于物质的认识是一个不断深化的过程"
+      },
+      {
+        "label": "D",
+        "text": "具体的物质结构和性质的变化并不改变世界的物质性"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第二章",
+    "number": 31,
+    "type": "multiple",
+    "text": "苏轼在《题西林壁》中写道“横看成岭侧成峰，远近高低各不同”人们之所以对同一个事物",
+    "options": [
+      {
+        "label": "A",
+        "text": "评价客体没有自身固有的本质与特性"
+      },
+      {
+        "label": "B",
+        "text": "评价过程与评价主体有着直接的关系"
+      },
+      {
+        "label": "C",
+        "text": "评价没有正确与错误、善恶的区别"
+      },
+      {
+        "label": "D",
+        "text": "评价结果随之客体的相互关系而改变"
+      }
+    ],
+    "answer": "",
+    "source": "2第二章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 1,
+    "type": "single",
+    "text": "人类社会历史发展的决定力量是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产方式"
+      },
+      {
+        "label": "B",
+        "text": "地理条件"
+      },
+      {
+        "label": "C",
+        "text": "社会意识"
+      },
+      {
+        "label": "D",
+        "text": "人口因素"
+      }
+    ],
+    "answer": "A",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 2,
+    "type": "single",
+    "text": "在生产关系中起决定作用的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产资料所有制"
+      },
+      {
+        "label": "B",
+        "text": "产品的分配和交换"
+      },
+      {
+        "label": "C",
+        "text": "在生产中人与人的关系"
+      },
+      {
+        "label": "D",
+        "text": "管理者和生产者的不同地位"
+      }
+    ],
+    "answer": "A",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 3,
+    "type": "single",
+    "text": "党的十一届三中全会以来，我党制定的一系列正确的路线、方针、政策促进了我国经济",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济基础发展的道路是由上层建筑决定的"
+      },
+      {
+        "label": "B",
+        "text": "上层建筑的发展决定经济基础的发展方向"
+      },
+      {
+        "label": "C",
+        "text": "上层建筑对经济基础具有积极的能动作用"
+      },
+      {
+        "label": "D",
+        "text": "社会主义社会的发展不受经济基础决定上层建筑规律的制约"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 4,
+    "type": "single",
+    "text": "上层建筑是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会的经济制度"
+      },
+      {
+        "label": "B",
+        "text": "科学技术"
+      },
+      {
+        "label": "C",
+        "text": "社会生产关系"
+      },
+      {
+        "label": "D",
+        "text": "建立在一定社会经济基础之上的意识形态及相应的制度和设施"
+      }
+    ],
+    "answer": "D",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 5,
+    "type": "single",
+    "text": "社会形态是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产力和生产关系的统一"
+      },
+      {
+        "label": "B",
+        "text": "同生产力发展一定阶段相适应的经济基础和上层建筑的统一体"
+      },
+      {
+        "label": "C",
+        "text": "社会存在和社会意识的统一"
+      },
+      {
+        "label": "D",
+        "text": "物质世界和精神世界的统一"
+      }
+    ],
+    "answer": "B",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 6,
+    "type": "single",
+    "text": "阶级斗争对阶级社会发展的推动作用突出表现在（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产力的发展"
+      },
+      {
+        "label": "B",
+        "text": "生产关系的变革"
+      },
+      {
+        "label": "C",
+        "text": "社会形态的更替"
+      },
+      {
+        "label": "D",
+        "text": "科技的进步"
+      }
+    ],
+    "answer": "C",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 27,
+    "type": "single",
+    "text": "衡量生产力水平的客观尺度主要是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "劳动者的技术水平的高低"
+      },
+      {
+        "label": "B",
+        "text": "劳动产品质量的好坏"
+      },
+      {
+        "label": "C",
+        "text": "劳动资料特别是生产工具的发展水平"
+      },
+      {
+        "label": "D",
+        "text": "劳动对象的广度和深度"
+      }
+    ],
+    "answer": "C",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 8,
+    "type": "single",
+    "text": "社会革命根源于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人口太多"
+      },
+      {
+        "label": "B",
+        "text": "少数英雄人物组织暴乱"
+      },
+      {
+        "label": "C",
+        "text": "先进思想和革命理论的传播"
+      },
+      {
+        "label": "D",
+        "text": "社会基本矛盾的尖锐化"
+      }
+    ],
+    "answer": "D",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 9,
+    "type": "single",
+    "text": "人类社会发展的一般规律是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产方式内部的矛盾规律"
+      },
+      {
+        "label": "B",
+        "text": "生产力和生产关系、经济基础和上层建筑之间的矛盾运动规律"
+      },
+      {
+        "label": "C",
+        "text": "社会存在和社会意识的矛盾规律"
+      },
+      {
+        "label": "D",
+        "text": "物质生产和精神生产的矛盾规律"
+      }
+    ],
+    "answer": "B",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 10,
+    "type": "single",
+    "text": "“蒸汽、电力和自动纺织机甚至是比巴尔贝斯、拉斯拜尔和布朗基诸位公民更危险万分",
+    "options": [
+      {
+        "label": "A",
+        "text": "科技革命是对统治阶级的极大威胁"
+      },
+      {
+        "label": "B",
+        "text": "科技革命对变革社会制度具有直接的决定作用"
+      },
+      {
+        "label": "C",
+        "text": "滥用科技革命的成果会对人类造成“危险”"
+      },
+      {
+        "label": "D",
+        "text": "科技革命终将导致社会政治革命"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 11,
+    "type": "single",
+    "text": "制约人民群众创造历史的决定性条件是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济条件"
+      },
+      {
+        "label": "B",
+        "text": "法律制度"
+      },
+      {
+        "label": "C",
+        "text": "传统观念"
+      },
+      {
+        "label": "D",
+        "text": "文化水平"
+      }
+    ],
+    "answer": "A",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 12,
+    "type": "single",
+    "text": "在马克思主义产生以前，唯心主义在哲学的各个领域都曾受到过致命的批判和打击，唯",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会内部矛盾推动社会发展"
+      },
+      {
+        "label": "B",
+        "text": "社会存在决定社会意识"
+      },
+      {
+        "label": "C",
+        "text": "社会历史发展是有规律的"
+      },
+      {
+        "label": "D",
+        "text": "社会历史规律是可知的"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 13,
+    "type": "single",
+    "text": "恩格斯指出：“在历史上出现的一切社会关系和国家关系，一切宗教制度和法律制度，",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会意识及其载体都是社会存在"
+      },
+      {
+        "label": "B",
+        "text": "社会意识决定社会存在"
+      },
+      {
+        "label": "C",
+        "text": "社会意识具有反作用"
+      },
+      {
+        "label": "D",
+        "text": "社会存在决定社会意识"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 14,
+    "type": "single",
+    "text": "法国启蒙思想家孟德斯鸠指出：“不同气候的不同需要产生了不同的生活方式；不同的",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家的社会法律制度、民族精神都根源于地理环境的本性"
+      },
+      {
+        "label": "B",
+        "text": "人所生存的自然环境因素决定着社会法律制度的形成"
+      },
+      {
+        "label": "C",
+        "text": "地理环境影响并作用于人类社会，是人类社会不可缺少的物质条件"
+      },
+      {
+        "label": "D",
+        "text": "地理环境既决定社会制度的性质，也决定社会发展的方向"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 15,
+    "type": "single",
+    "text": "马克思指出：“手推磨产生的是封建主为首的社会，蒸汽机产生的是工业资本家为首的",
+    "options": [
+      {
+        "label": "A",
+        "text": "人们总是依据生产工具以及分工状况来建立一定的经济关系和社会关系"
+      },
+      {
+        "label": "B",
+        "text": "科学技术是推动社会发展的第一生产力"
+      },
+      {
+        "label": "C",
+        "text": "社会形态的更替必然表现在生产工具的变化上"
+      },
+      {
+        "label": "D",
+        "text": "资本主义社会比封建社会优越，其优越性表现在生产工具的进步上"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 16,
+    "type": "single",
+    "text": "马克思指出：意识在任何时候都只能是被意识到了的存在，而人们的存在就是他们的现",
+    "options": [
+      {
+        "label": "A",
+        "text": "物质资料生产方式的反映"
+      },
+      {
+        "label": "B",
+        "text": "思想上层建筑的反映"
+      },
+      {
+        "label": "C",
+        "text": "统治阶级意志的反映"
+      },
+      {
+        "label": "D",
+        "text": "社会发展规律的科学反映"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 17,
+    "type": "single",
+    "text": "认为“上层建筑只要适合自己的经济基础就能对社会发展起推动作用”，这一观点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "违背了历史的辩证法的错误观点"
+      },
+      {
+        "label": "B",
+        "text": "陷入了历史唯心主义的错误观点"
+      },
+      {
+        "label": "C",
+        "text": "符合历史唯物主义的正确观点"
+      },
+      {
+        "label": "D",
+        "text": "曲解历史唯物主义原理的错误观点"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 18,
+    "type": "single",
+    "text": "认为“社会历史是有规律的，所以历史事件可以重复出现”，这一观点（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "否认历史规律的重复性"
+      },
+      {
+        "label": "B",
+        "text": "否认历史事件的不可重复性"
+      },
+      {
+        "label": "C",
+        "text": "否认了历史事件的具体性"
+      },
+      {
+        "label": "D",
+        "text": "否认了历史规律的普遍性"
+      }
+    ],
+    "answer": "C",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 19,
+    "type": "single",
+    "text": "“在历史转折时期，只要充分认识历史的必由之路和自己的历史责任，做出正确的选择，",
+    "options": [
+      {
+        "label": "A",
+        "text": "简化了个人在历史中发挥作用的过程性"
+      },
+      {
+        "label": "B",
+        "text": "否认了个人在历史中发挥作用的条件性"
+      },
+      {
+        "label": "C",
+        "text": "承认社会历史发展过程是客观规律与人的自觉活动的统一"
+      },
+      {
+        "label": "D",
+        "text": "是“英雄创造历史”的观点"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 20,
+    "type": "single",
+    "text": "认为“杰出人物和人民群众共同创造历史”，这一观点是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "承认杰出人物对社会发展作用和人民群众创造历史的正确观点"
+      },
+      {
+        "label": "B",
+        "text": "否认杰出人物对社会发展的贡献从属于并受制于人民群众的作用的错误观点"
+      },
+      {
+        "label": "C",
+        "text": "承认所有的个人都起到一定的作用的历史合力论的正确观点"
+      },
+      {
+        "label": "D",
+        "text": "否认杰出人物在历史发展中的突出地位和贡献的错误观点"
+      }
+    ],
+    "answer": "B",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 21,
+    "type": "single",
+    "text": "“时势造英雄”与“英雄造时势”这两种观点（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "都正确表达了杰出人物、历史人物的历史作用"
+      },
+      {
+        "label": "B",
+        "text": "都否认杰出人物发挥作用从属并受制于人民群众的作用"
+      },
+      {
+        "label": "C",
+        "text": "前者是唯物主义命题，后者是唯心史观"
+      },
+      {
+        "label": "D",
+        "text": "前者是唯心史观，后者是唯物主义命题"
+      }
+    ],
+    "answer": "C",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 22,
+    "type": "single",
+    "text": "“在社会发展过程中，人民群众是历史的‘剧中人’，英雄人物是历史的‘剧作者’”，",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史唯心主义观点"
+      },
+      {
+        "label": "B",
+        "text": "历史辩证法观点"
+      },
+      {
+        "label": "C",
+        "text": "历史唯物主义观点"
+      },
+      {
+        "label": "D",
+        "text": "历史决定论观点"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 23,
+    "type": "single",
+    "text": "鲁迅说：“穷人绝无开交易所折本的懊恼，煤油大王哪会知道北京拣煤渣老婆子身受的",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济基础决定上层建筑"
+      },
+      {
+        "label": "B",
+        "text": "社会意识具有相对独立性"
+      },
+      {
+        "label": "C",
+        "text": "社会意识与社会存在完全一致"
+      },
+      {
+        "label": "D",
+        "text": "社会存在决定社会意识"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 24,
+    "type": "single",
+    "text": "习近平总书记在为《复兴文库》所写的序言中指出：“修史立典，存史启智，以文化人，",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史、现实、未来是相通的"
+      },
+      {
+        "label": "B",
+        "text": "一切历史都是当代史"
+      },
+      {
+        "label": "C",
+        "text": "历史过程不包含任何偶然的因素"
+      },
+      {
+        "label": "D",
+        "text": "历史事件往往可以完整重复和再现"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 25,
+    "type": "single",
+    "text": "党的十八大以来，我国从中西部22个省份有劳动能力的建档立卡贫困人口中选聘了110.2",
+    "options": [
+      {
+        "label": "A",
+        "text": "人与自然是同一的，自然能够自发满足人的要求"
+      },
+      {
+        "label": "B",
+        "text": "生产力包括自然要素，合理开发自然能促进社会发展"
+      },
+      {
+        "label": "C",
+        "text": "人是自然的一部分，人的发展只能适应自然的变化"
+      },
+      {
+        "label": "D",
+        "text": "人能动改造自然，自然能动补偿人的劳动"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 26,
+    "type": "single",
+    "text": "交往可以划分为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "信息交往和文化交往"
+      },
+      {
+        "label": "B",
+        "text": "公共交往和私人交往"
+      },
+      {
+        "label": "C",
+        "text": "物质交往和精神交往"
+      },
+      {
+        "label": "D",
+        "text": "现实交往和虚拟交往"
+      }
+    ],
+    "answer": "C",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 27,
+    "type": "single",
+    "text": "提出“构建人类命运共同体”是习近平总书记的一个原创性贡献，是对马克思主义哪一",
+    "options": [
+      {
+        "label": "A",
+        "text": "世界历史思想"
+      },
+      {
+        "label": "B",
+        "text": "共同体思想"
+      },
+      {
+        "label": "C",
+        "text": "自由人联合体思想"
+      },
+      {
+        "label": "D",
+        "text": "生态环境思想"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 28,
+    "type": "single",
+    "text": "坚持以人民为中心，就必须坚持人民主体地位，坚持立党为公、执政为民，践行全心全",
+    "options": [
+      {
+        "label": "A",
+        "text": "总体的人在总体的历史过程中的主体地位的原理"
+      },
+      {
+        "label": "B",
+        "text": "人的本质是一切社会关系的总和的原理"
+      },
+      {
+        "label": "C",
+        "text": "人民群众的活动受到社会历史条件制约的原理"
+      },
+      {
+        "label": "D",
+        "text": "人民群众是历史的创造者的原理"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 29,
+    "type": "single",
+    "text": "下列关于群众、阶级、政党、领袖关系的说法，错误的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "阶级通常是由政党领导的"
+      },
+      {
+        "label": "B",
+        "text": "政党是由领袖来主持的"
+      },
+      {
+        "label": "C",
+        "text": "群众是划分为阶级的"
+      },
+      {
+        "label": "D",
+        "text": "群众是由阶级领导的"
+      }
+    ],
+    "answer": "D",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 1,
+    "type": "multiple",
+    "text": "社会存在包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会生活的各种物质条件"
+      },
+      {
+        "label": "B",
+        "text": "社会生活的物质生产活动"
+      },
+      {
+        "label": "C",
+        "text": "经济关系"
+      },
+      {
+        "label": "D",
+        "text": "全部社会关系"
+      }
+    ],
+    "answer": "ABC",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 2,
+    "type": "multiple",
+    "text": "18世纪，经济上落后的国家法国在哲学上和政治思想领域方面取得的成就，超过了当时经",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会意识的发展不依赖社会经济"
+      },
+      {
+        "label": "B",
+        "text": "社会意识并不决定社会存在"
+      },
+      {
+        "label": "C",
+        "text": "社会意识具有相对独立性"
+      },
+      {
+        "label": "D",
+        "text": "社会意识的发展和经济的发展并不是完全对应的"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 3,
+    "type": "multiple",
+    "text": "生产关系的客观性是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人们不能自由选择生产关系"
+      },
+      {
+        "label": "B",
+        "text": "人们不能随意创造或消灭某种生产关系"
+      },
+      {
+        "label": "C",
+        "text": "生产关系是社会有机体中客观实在的组成部分"
+      },
+      {
+        "label": "D",
+        "text": "生产关系是社会上层建筑的物质基础"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 4,
+    "type": "multiple",
+    "text": "在生产力和生产关系的相互关系中（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产力决定生产关系"
+      },
+      {
+        "label": "B",
+        "text": "生产关系决定生产力"
+      },
+      {
+        "label": "C",
+        "text": "生产力决定生产关系，生产关系也决定生产力"
+      },
+      {
+        "label": "D",
+        "text": "适合生产力状况的生产关系推动生产力的发展"
+      }
+    ],
+    "answer": "AD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 5,
+    "type": "multiple",
+    "text": "上层建筑对经济基础的能动作用在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "它为自己的经济基础服务"
+      },
+      {
+        "label": "B",
+        "text": "它要促进自己经济基础的形成、巩固和发展"
+      },
+      {
+        "label": "C",
+        "text": "它要排除自己经济基础的对立物"
+      },
+      {
+        "label": "D",
+        "text": "它决定自己所服务的经济基础的性质"
+      }
+    ],
+    "answer": "ABC",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 6,
+    "type": "multiple",
+    "text": "科学技术在高度发展的同时，也带来了全球性问题，这一观点说明（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "全球性问题是科学技术的直接结果"
+      },
+      {
+        "label": "B",
+        "text": "全球性问题不是科学技术的直接结果"
+      },
+      {
+        "label": "C",
+        "text": "科学技术的进步是主要的"
+      },
+      {
+        "label": "D",
+        "text": "科学技术是当代人的“非人化”的根源"
+      }
+    ],
+    "answer": "BC",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 7,
+    "type": "multiple",
+    "text": "“一言可以兴邦，一言可以丧邦”，英雄人物的意志可以改变历史发展方向，这种观点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "否认历史必然性的唯意志论"
+      },
+      {
+        "label": "B",
+        "text": "否认历史偶然性的机械论"
+      },
+      {
+        "label": "C",
+        "text": "唯心主义非决定论在历史观上的表现"
+      },
+      {
+        "label": "D",
+        "text": "夸大个人作用的唯心史观"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 8,
+    "type": "multiple",
+    "text": "历史发展是“合力”作用的结果，这就是说（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史发展无规律可循"
+      },
+      {
+        "label": "B",
+        "text": "历史发展是无法认识的"
+      },
+      {
+        "label": "C",
+        "text": "历史发展的因素是复杂的"
+      },
+      {
+        "label": "D",
+        "text": "社会中的每个人都是“合力”的一部分"
+      }
+    ],
+    "answer": "CD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 9,
+    "type": "multiple",
+    "text": "马克思曾指出：“如果说，在中世纪的黑夜之后，科学以意想不到的力量一下子重新兴起，",
+    "options": [
+      {
+        "label": "A",
+        "text": "从一定意义上说，生产的需要决定了科学的产生和发展"
+      },
+      {
+        "label": "B",
+        "text": "科学是一种生产力"
+      },
+      {
+        "label": "C",
+        "text": "科学不是生产力的独立的、直接的要素"
+      },
+      {
+        "label": "D",
+        "text": "科学越来越不具有独立性"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 10,
+    "type": "multiple",
+    "text": "上层建筑是指建立在一定的经济基础上的社会意识形态以及与其相适应的政治法律制度",
+    "options": [
+      {
+        "label": "A",
+        "text": "上层建筑由政治上层建筑和思想或观念上层建筑组成"
+      },
+      {
+        "label": "B",
+        "text": "政治上层建筑是意识、思想的“物质的附属物”"
+      },
+      {
+        "label": "C",
+        "text": "政治上层建筑和思想上层建筑相互联系和相互制约"
+      },
+      {
+        "label": "D",
+        "text": "政治上层建筑是观念上层建筑的前提和基础"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 11,
+    "type": "multiple",
+    "text": "同自然规律相比，社会规律的特点表现为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会规律形成于人的实践活动之中"
+      },
+      {
+        "label": "B",
+        "text": "社会规律是人的自觉活动的规律"
+      },
+      {
+        "label": "C",
+        "text": "社会规律只有通过人的自觉活动才能实现"
+      },
+      {
+        "label": "D",
+        "text": "人们对社会未来发展方向可以做出科学上的预见，但不能预见具体事件的发展"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 812,
+    "type": "multiple",
+    "text": "作家史铁生在《奶奶的星星》中讲道，奶奶告诉他的故事与通常的说法不同：一般人说，",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史是无数个人相互作用的合力的结果"
+      },
+      {
+        "label": "B",
+        "text": "杰出个人决定历史发展的走向"
+      },
+      {
+        "label": "C",
+        "text": "人人都是历史的创造者"
+      },
+      {
+        "label": "D",
+        "text": "每个人对社会发展都有或大或小的作用"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 13,
+    "type": "multiple",
+    "text": "唯物史观第一次科学地解决了历史创造者的问题，认为人民群众是历史的创造者。人民",
+    "options": [
+      {
+        "label": "A",
+        "text": "从量上说是指社会人的绝大多数"
+      },
+      {
+        "label": "B",
+        "text": "从质上说是对社会历史发展起推动作用的人们"
+      },
+      {
+        "label": "C",
+        "text": "在任何历史时期都不包括剥削阶级"
+      },
+      {
+        "label": "D",
+        "text": "最稳定的主体部分始终是从事物质资料生产的劳动群众及其知识分子"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 14,
+    "type": "multiple",
+    "text": "2019年10月24日，中共中央政治局就区块链技术发展现状和趋势进行集体学习。习近平",
+    "options": [
+      {
+        "label": "A",
+        "text": "是一种单纯的经济和商业关系"
+      },
+      {
+        "label": "B",
+        "text": "具有多样性和复杂性的特征"
+      },
+      {
+        "label": "C",
+        "text": "归根到底受生产关系的制约"
+      },
+      {
+        "label": "D",
+        "text": "是由信息技术构造的虚拟关系"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 15,
+    "type": "multiple",
+    "text": "交往对社会生活的影响作用体现在（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "促进生产力的发展"
+      },
+      {
+        "label": "B",
+        "text": "促进社会关系的进步"
+      },
+      {
+        "label": "C",
+        "text": "促进文化的发展与传播"
+      },
+      {
+        "label": "D",
+        "text": "促进人的全面发展"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 16,
+    "type": "multiple",
+    "text": "一方水土孕育一方文化。很早以前，人们就在平原、高原、山地、河谷、海域等广阔的",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会经济状况决定文化发展形态"
+      },
+      {
+        "label": "B",
+        "text": "自然地理空间影响文化的外在特征"
+      },
+      {
+        "label": "C",
+        "text": "文化是人类社会发展的决定力量"
+      },
+      {
+        "label": "D",
+        "text": "不同形态文化的发展具有相对独立性"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 17,
+    "type": "multiple",
+    "text": "人民群众是历史的创造者，这是因为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民群众可以创造社会规律"
+      },
+      {
+        "label": "B",
+        "text": "人民群众是社会物质财富的创造者"
+      },
+      {
+        "label": "C",
+        "text": "人民群众是社会精神财富的创造者"
+      },
+      {
+        "label": "D",
+        "text": "人民群众是社会变革的决定力量"
+      }
+    ],
+    "answer": "BCD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 18,
+    "type": "multiple",
+    "text": "下列关于文明的说法，正确的有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是人类创造的所有物质成果、精神成果和制度成果的总和"
+      },
+      {
+        "label": "B",
+        "text": "其发展程度体现了一个民族、国家、社会发展的水平。"
+      },
+      {
+        "label": "C",
+        "text": "反映了人类社会实践活动的积极成果"
+      },
+      {
+        "label": "D",
+        "text": "是标志社会进步程度的范畴"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 19,
+    "type": "multiple",
+    "text": "文化在社会发展中的至关重要作用表现在（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "为社会发展提供思想指引"
+      },
+      {
+        "label": "B",
+        "text": "为社会发展提供凝聚力量"
+      },
+      {
+        "label": "C",
+        "text": "决定社会发展的基本方向"
+      },
+      {
+        "label": "D",
+        "text": "为社会发展提供精神动力"
+      }
+    ],
+    "answer": "ABD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 20,
+    "type": "multiple",
+    "text": "如今，“逆袭”“超燃”“躺平”“凡尔赛”“YYDS”等网络热词令人目不暇接，了解",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会心态是社会生产和生活的反映"
+      },
+      {
+        "label": "B",
+        "text": "社会意识随着社会存在的发展而变化"
+      },
+      {
+        "label": "C",
+        "text": "社会意识是主体对社会生活的自发反映"
+      },
+      {
+        "label": "D",
+        "text": "社会心态的差异性决定社会生活的多样性"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 21,
+    "type": "multiple",
+    "text": "人生价值的实现（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "主要是通过个人“自我设计”和“自由选择”的途径"
+      },
+      {
+        "label": "B",
+        "text": "主要通过努力把握社会发展规律性的途径"
+      },
+      {
+        "label": "C",
+        "text": "唯一可行的途径就是积极参加社会生活实践"
+      },
+      {
+        "label": "D",
+        "text": "最终取决于社会文明的进步和发达程度"
+      }
+    ],
+    "answer": "BCD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 22,
+    "type": "multiple",
+    "text": "马克思主义认为，人的全面发展（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是社会进步的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "是社会发展的最终目标"
+      },
+      {
+        "label": "C",
+        "text": "既是社会发展的结果，又是社会发展的原因"
+      },
+      {
+        "label": "D",
+        "text": "是只有在共产主义社会里才能够真正实现的理想"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第三章",
+    "number": 23,
+    "type": "multiple",
+    "text": "2011年4月，耶鲁大学出版了《马克思为什么是对的》一书，书中列举了当前西方社会10",
+    "options": [
+      {
+        "label": "A",
+        "text": "把社会历史发展多重因素的综合作用歪曲为单一因素决定论"
+      },
+      {
+        "label": "B",
+        "text": "把上层建筑与经济基础的相互作用歪曲为机械的单向作用"
+      },
+      {
+        "label": "C",
+        "text": "把经济作为社会的“基础”所具有的归根到底的决定作用歪曲为唯一决定作用"
+      },
+      {
+        "label": "D",
+        "text": "把意识形态对社会历史始终具有的积极能动作用歪曲为消极被动作用"
+      }
+    ],
+    "answer": "",
+    "source": "3第三章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 1,
+    "type": "single",
+    "text": "商品的两因素是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "使用价值和价值"
+      },
+      {
+        "label": "B",
+        "text": "价值和价格"
+      },
+      {
+        "label": "C",
+        "text": "抽象劳动和具体劳动"
+      },
+      {
+        "label": "D",
+        "text": "价值和交换价值"
+      }
+    ],
+    "answer": "A",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 2,
+    "type": "single",
+    "text": "具体劳动和抽象劳动的关系（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产商品的两种劳动"
+      },
+      {
+        "label": "B",
+        "text": "生产过程中先后出现的两次劳动"
+      },
+      {
+        "label": "C",
+        "text": "同一劳动过程中的两个方面"
+      },
+      {
+        "label": "D",
+        "text": "不同劳动过程中的两个方面"
+      }
+    ],
+    "answer": "C",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 3,
+    "type": "single",
+    "text": "马克思主义政治经济学的枢纽（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "劳动价值论"
+      },
+      {
+        "label": "B",
+        "text": "劳动二重性理论"
+      },
+      {
+        "label": "C",
+        "text": "剩余价值论"
+      },
+      {
+        "label": "D",
+        "text": "资本积累理论"
+      }
+    ],
+    "answer": "B",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 4,
+    "type": "single",
+    "text": "商品价值的大小是由（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "使用价值决定的"
+      },
+      {
+        "label": "B",
+        "text": "生产商品的个别劳动生产率决定的"
+      },
+      {
+        "label": "C",
+        "text": "商品生产者的个别劳动时间决定的"
+      },
+      {
+        "label": "D",
+        "text": "生产商品的社会必要劳动时间决定的"
+      }
+    ],
+    "answer": "D",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 5,
+    "type": "single",
+    "text": "某资本家投资100万元创办企业从事生产，60万元用于固定资本，以购买机器设备等，",
+    "options": [
+      {
+        "label": "A",
+        "text": "200%"
+      },
+      {
+        "label": "B",
+        "text": "50%"
+      },
+      {
+        "label": "C",
+        "text": "100%"
+      },
+      {
+        "label": "D",
+        "text": "20%"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 6,
+    "type": "single",
+    "text": "第二次世界大战以后，资本主义国家经历了第三次科技革命，机器大工业发展到自动化",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本技术构成的提高"
+      },
+      {
+        "label": "B",
+        "text": "剩余价值来源的改变"
+      },
+      {
+        "label": "C",
+        "text": "所生产商品价值的提高"
+      },
+      {
+        "label": "D",
+        "text": "获得更多的社会平均利润"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 27,
+    "type": "single",
+    "text": "《资本论》（德文版）第一卷于1867年9月在汉堡出版，其影响力历经150年风雨而不",
+    "options": [
+      {
+        "label": "A",
+        "text": "剩余价值理论"
+      },
+      {
+        "label": "B",
+        "text": "价值规律理论"
+      },
+      {
+        "label": "C",
+        "text": "劳动二重性理论"
+      },
+      {
+        "label": "D",
+        "text": "商品二因素理论"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 8,
+    "type": "single",
+    "text": "《资本论》中有这样的表述：“对上衣来说，无论是裁缝自己穿还是他的顾客穿,都是一",
+    "options": [
+      {
+        "label": "A",
+        "text": "上衣都是抽象劳动的结果"
+      },
+      {
+        "label": "B",
+        "text": "上衣都起着价值的作用"
+      },
+      {
+        "label": "C",
+        "text": "上衣都起着使用价值的作用"
+      },
+      {
+        "label": "D",
+        "text": "上衣都是社会劳动的结果"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 9,
+    "type": "single",
+    "text": "某资本家投资100万元，每次投资所获得的利润为25万元，假定其资本有机构成为4:1，",
+    "options": [
+      {
+        "label": "A",
+        "text": "100%"
+      },
+      {
+        "label": "B",
+        "text": "75%"
+      },
+      {
+        "label": "C",
+        "text": "50%"
+      },
+      {
+        "label": "D",
+        "text": "125%"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 10,
+    "type": "single",
+    "text": "资本主义社会里，资本家雇佣工人进行劳动并支付相应的工资。资本主义工资本质是",
+    "options": [
+      {
+        "label": "A",
+        "text": "工人所获得的资本家的预付资本"
+      },
+      {
+        "label": "B",
+        "text": "工人劳动力的价值或价格"
+      },
+      {
+        "label": "C",
+        "text": "工人所创造的剩余价值的一部分"
+      },
+      {
+        "label": "D",
+        "text": "工人全部劳动的报酬"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 11,
+    "type": "single",
+    "text": "2011年9月以来美国爆发的“占领华尔街”抗议活动中，示威者打出“我们是99%”的",
+    "options": [
+      {
+        "label": "A",
+        "text": "劳资冲突的集中体现"
+      },
+      {
+        "label": "B",
+        "text": "生产社会化的必然产物"
+      },
+      {
+        "label": "C",
+        "text": "资本积累的必然结果"
+      },
+      {
+        "label": "D",
+        "text": "虚拟资本泡沫化的恶果"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 12,
+    "type": "single",
+    "text": "马克思把商品转换成货币称为“商品的惊险的跳跃”，这个跳跃如果不成功，摔坏的不",
+    "options": [
+      {
+        "label": "A",
+        "text": "货币才能转化为资本"
+      },
+      {
+        "label": "B",
+        "text": "价值才能转化为使用价值"
+      },
+      {
+        "label": "C",
+        "text": "抽象劳动才能转化为具体劳动"
+      },
+      {
+        "label": "D",
+        "text": "私人劳动才能转化为社会劳动"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 313,
+    "type": "single",
+    "text": "劳动力成为商品是货币转化为资本的前提条件，这是因为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本家购买的是劳动力的价值"
+      },
+      {
+        "label": "B",
+        "text": "劳动力商品具有价值和使用价值"
+      },
+      {
+        "label": "C",
+        "text": "货币所有者购买的劳动力能够带来剩余价值"
+      },
+      {
+        "label": "D",
+        "text": "劳动力自身的价值能够在消费过程中转移到新的商品中去"
+      }
+    ],
+    "answer": "C",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 14,
+    "type": "single",
+    "text": "近来马克思的《资本论》在西方一些国家销量大增。列宁曾说，马克思的《资本论》的",
+    "options": [
+      {
+        "label": "A",
+        "text": "地理环境、人口因素和生产方式等社会物质生活条件"
+      },
+      {
+        "label": "B",
+        "text": "与一定的生产力相适应的生产关系"
+      },
+      {
+        "label": "C",
+        "text": "建立在一定经济基础之上的政治法律制度及设施"
+      },
+      {
+        "label": "D",
+        "text": "由政治法律思想、道德、宗教、哲学等构成的社会意识形态"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 15,
+    "type": "single",
+    "text": "卢梭在《论人类不平等的起源和基础》中说道：“我认为，在人类的一切知识中，最有",
+    "options": [
+      {
+        "label": "A",
+        "text": "自然属性和社会属性的内在统一"
+      },
+      {
+        "label": "B",
+        "text": "所有人共同属性的概括"
+      },
+      {
+        "label": "C",
+        "text": "一切社会关系的总和"
+      },
+      {
+        "label": "D",
+        "text": "自由理性的外化"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 16,
+    "type": "single",
+    "text": "流通中的货币需要量是考察经济生活运行的重要指标，假设某国去年的商品价格总额为",
+    "options": [
+      {
+        "label": "A",
+        "text": "4.2万亿元"
+      },
+      {
+        "label": "B",
+        "text": "3.5万亿元"
+      },
+      {
+        "label": "C",
+        "text": "3.3万亿元"
+      },
+      {
+        "label": "D",
+        "text": "2.4万亿元"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 17,
+    "type": "single",
+    "text": "国家垄断资本主义条件下，政府对经济生活进行干预和调节的实质是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "维护垄断资产阶级的整体利益和长远利益"
+      },
+      {
+        "label": "B",
+        "text": "维持资本主义经济稳定增长"
+      },
+      {
+        "label": "C",
+        "text": "消除或防止经济危机的爆发"
+      },
+      {
+        "label": "D",
+        "text": "提高资本主义社会的整体福利水平"
+      }
+    ],
+    "answer": "A",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 18,
+    "type": "single",
+    "text": "某钢铁厂因铁矿石价格上涨，增加了该厂的预付资本数量，这使得该厂的资本构成发生",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本技术构成"
+      },
+      {
+        "label": "B",
+        "text": "资本价值构成"
+      },
+      {
+        "label": "C",
+        "text": "资本物质构成"
+      },
+      {
+        "label": "D",
+        "text": "资本有机构成"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 19,
+    "type": "single",
+    "text": "马克思通过对资本主义生产中价值增殖过程的分析，把雇佣工人的劳动时间分为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产使用价值的时间和生产价值的时间"
+      },
+      {
+        "label": "B",
+        "text": "转移旧价值的时间和创造新价值的时间"
+      },
+      {
+        "label": "C",
+        "text": "生产生产资料价值的时间和生产剩余价值的时间"
+      },
+      {
+        "label": "D",
+        "text": "再生产劳动力价值的时间和生产剩余价值的时间"
+      }
+    ],
+    "answer": "D",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 20,
+    "type": "single",
+    "text": "在下列经济行为中，属于货币执行流通手段职能的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "顾客用10元钱可购买5斤苹果"
+      },
+      {
+        "label": "B",
+        "text": "顾客购买5斤苹果，一周后付款10元"
+      },
+      {
+        "label": "C",
+        "text": "顾客用10元钱购买了5斤苹果"
+      },
+      {
+        "label": "D",
+        "text": "顾客向水果店以每斤2元的价格预定5斤苹果"
+      }
+    ],
+    "answer": "C",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 21,
+    "type": "single",
+    "text": "货币的本质是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "商品交换的媒介物"
+      },
+      {
+        "label": "B",
+        "text": "商品价值的一般等价物"
+      },
+      {
+        "label": "C",
+        "text": "商品的等价物"
+      },
+      {
+        "label": "D",
+        "text": "商品相对价值形式"
+      }
+    ],
+    "answer": "B",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 22,
+    "type": "single",
+    "text": "某企业投资汽车生产，生产一辆汽车所耗费的生产资料价值为15万元，支付给工人的工",
+    "options": [
+      {
+        "label": "A",
+        "text": "20万元"
+      },
+      {
+        "label": "B",
+        "text": "20.5万元"
+      },
+      {
+        "label": "C",
+        "text": "21.5万元"
+      },
+      {
+        "label": "D",
+        "text": "22万元"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 23,
+    "type": "single",
+    "text": "作为商品的资本是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "商业资本"
+      },
+      {
+        "label": "B",
+        "text": "借贷资本"
+      },
+      {
+        "label": "C",
+        "text": "产业资本"
+      },
+      {
+        "label": "D",
+        "text": "流通资本"
+      }
+    ],
+    "answer": "B",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 24,
+    "type": "single",
+    "text": "某资本家投资100万元，资本有机构成4：1，m′＝100%，一年周转4次，其年剩余价",
+    "options": [
+      {
+        "label": "A",
+        "text": "80万，100%"
+      },
+      {
+        "label": "B",
+        "text": "40万，400%"
+      },
+      {
+        "label": "C",
+        "text": "40万，100%"
+      },
+      {
+        "label": "D",
+        "text": "80万，400%"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 25,
+    "type": "single",
+    "text": "商业资本作为一种独立的职能资本，也获得平均利润，其直接原因是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "商业部门和产业部门之间的竞争和资本转移"
+      },
+      {
+        "label": "B",
+        "text": "产业资本家为销售商品将部分利润让渡给商业资本家"
+      },
+      {
+        "label": "C",
+        "text": "商业资本家加强对商业雇员的剥削"
+      },
+      {
+        "label": "D",
+        "text": "产业部门将工人创造的一部分剩余价值分割给商业部门"
+      }
+    ],
+    "answer": "A",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 26,
+    "type": "single",
+    "text": "在市场上，一台笔记本电脑的标价是12000元，此时执行价值尺度职能的货币是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实在的货币"
+      },
+      {
+        "label": "B",
+        "text": "信用货币"
+      },
+      {
+        "label": "C",
+        "text": "观念上的货币"
+      },
+      {
+        "label": "D",
+        "text": "现金"
+      }
+    ],
+    "answer": "C",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 27,
+    "type": "single",
+    "text": "某企业有一台高精度磨床，价值为20000元，使用年限为10年，目前已使用2年。这时",
+    "options": [
+      {
+        "label": "A",
+        "text": "1000元"
+      },
+      {
+        "label": "B",
+        "text": "2000元"
+      },
+      {
+        "label": "C",
+        "text": "3000元"
+      },
+      {
+        "label": "D",
+        "text": "4000元"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 28,
+    "type": "single",
+    "text": "“我们从小麦的滋味中尝不出种植小麦的人是俄国的农奴、法国的小农、还是英国的资",
+    "options": [
+      {
+        "label": "A",
+        "text": "使用价值是社会财富的物质内容"
+      },
+      {
+        "label": "B",
+        "text": "使用价值是商品的自然属性"
+      },
+      {
+        "label": "C",
+        "text": "使用价值是商品的社会属性"
+      },
+      {
+        "label": "D",
+        "text": "使用价值是价值的物质承担者"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 29,
+    "type": "single",
+    "text": "商品的价值构成可以用公式表示为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "W=c+v"
+      },
+      {
+        "label": "B",
+        "text": "W=c+v+m"
+      },
+      {
+        "label": "C",
+        "text": "W=v+m"
+      },
+      {
+        "label": "D",
+        "text": "W=c+m"
+      }
+    ],
+    "answer": "B",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 30,
+    "type": "single",
+    "text": "在工作日长度不变的条件下，通过缩短必要劳动时间而相对延长剩余劳动时间来生产剩",
+    "options": [
+      {
+        "label": "A",
+        "text": "绝对剩余价值生产"
+      },
+      {
+        "label": "B",
+        "text": "相对剩余价值生产"
+      },
+      {
+        "label": "C",
+        "text": "商品价值的生产"
+      },
+      {
+        "label": "D",
+        "text": "商品价值增殖的生产"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 31,
+    "type": "single",
+    "text": "超额剩余价值的生产是相对剩余价值生产的前提条件。资本家普遍获得相对剩余价值是",
+    "options": [
+      {
+        "label": "A",
+        "text": "个别企业靠延长工作日和增加劳动时间的结果"
+      },
+      {
+        "label": "B",
+        "text": "个别企业提高劳动生产率的结果"
+      },
+      {
+        "label": "C",
+        "text": "个别企业劳动生产率高于社会劳动生产率的结果"
+      },
+      {
+        "label": "D",
+        "text": "整个社会劳动生产率提高的结果"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 1,
+    "type": "multiple",
+    "text": "马克思说：“一切现实的危机的最终原因始终是：群众贫穷和群众的消费受到限制，而与",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济危机的发生与群众的贫穷及其消费能力受到限制有关"
+      },
+      {
+        "label": "B",
+        "text": "经济危机的发生根本上在于资本主义的基本矛盾"
+      },
+      {
+        "label": "C",
+        "text": "资本积累与无限扩大生产也是经济危机发生的原因"
+      },
+      {
+        "label": "D",
+        "text": "社会的绝对的消费能力导致了经济危机的发生"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 2,
+    "type": "multiple",
+    "text": "马克思指出：“资本主义积累不断地并且同它的能力和规模化成比例地生产出相对的，即",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本主义生产周期性特征需要有相对过剩的人口规律与之相适应"
+      },
+      {
+        "label": "B",
+        "text": "资本主义社会过剩人口之所以是相对的，是因为它不为资本价值增殖所需要"
+      },
+      {
+        "label": "C",
+        "text": "资本主义积累必然导致工人人口的供给相对于资本的需要而过剩"
+      },
+      {
+        "label": "D",
+        "text": "资本主义积累使得资本主义社会的人口失业规模呈现越来越大的趋势。"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 3,
+    "type": "multiple",
+    "text": "1918年，马寅初在一次演讲时，有一位老农问他：“马教授，请问什么是经济学?”马寅",
+    "options": [
+      {
+        "label": "A",
+        "text": "支付手段"
+      },
+      {
+        "label": "B",
+        "text": "流通手段"
+      },
+      {
+        "label": "C",
+        "text": "价值尺度"
+      },
+      {
+        "label": "D",
+        "text": "贮藏手段"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 74,
+    "type": "multiple",
+    "text": "美国导演迈克尔·穆尔在他的最新记录片《资本主义：一个爱情故事》问世以来，一直颇",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本就是人格化的资本"
+      },
+      {
+        "label": "B",
+        "text": "赚钱体现了人的天然本性"
+      },
+      {
+        "label": "C",
+        "text": "资本的生命在于不断运动和不断增殖"
+      },
+      {
+        "label": "D",
+        "text": "追逐剩余价值是资本主义生产方式的绝对规律"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 5,
+    "type": "multiple",
+    "text": "人们往往将汉语中的“价”、“值”二字与金银财宝等联系起来，而这两字的偏旁却都是",
+    "options": [
+      {
+        "label": "A",
+        "text": "劳动是社会财富的唯一源泉"
+      },
+      {
+        "label": "B",
+        "text": "具体劳动是商品价值的实体"
+      },
+      {
+        "label": "C",
+        "text": "价值是凝结在商品中的一般人类劳动"
+      },
+      {
+        "label": "D",
+        "text": "价值在本质上体现了生产者之间的社会关系"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 6,
+    "type": "multiple",
+    "text": "2008年由美国次贷危机引发了全球性的经济危机，很多西方人感叹这一次经济危机从根",
+    "options": [
+      {
+        "label": "A",
+        "text": "指明经济危机的实质是生产过剩"
+      },
+      {
+        "label": "B",
+        "text": "揭示造成相对过剩的制度原因是生产资料的资本主义私有制"
+      },
+      {
+        "label": "C",
+        "text": "指出经济危机的深层根源是人性的贪婪"
+      },
+      {
+        "label": "D",
+        "text": "强调政府对经济的干预是摆脱经济危机的根本出路"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 7,
+    "type": "multiple",
+    "text": "马克思指出，所谓资本原始积累“只不过是生产者和生产资料分离的历史过程。这个过程",
+    "options": [
+      {
+        "label": "A",
+        "text": "用资本手段获取市场暴利"
+      },
+      {
+        "label": "B",
+        "text": "用剥削手段榨取剩余价值"
+      },
+      {
+        "label": "C",
+        "text": "用野蛮手段进行殖民掠夺"
+      },
+      {
+        "label": "D",
+        "text": "用暴力手段剥夺农民土地"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 88,
+    "type": "multiple",
+    "text": "“随着新生产力的获得……人们也就会改变自己的一切社会关系。手推磨产生的是封建",
+    "options": [
+      {
+        "label": "A",
+        "text": "历史上起推动作用的革命力量"
+      },
+      {
+        "label": "B",
+        "text": "历史变革中的唯一决定性力量"
+      },
+      {
+        "label": "C",
+        "text": "推动生产方式变革的重要力量"
+      },
+      {
+        "label": "D",
+        "text": "一切社会变革中的自主性力量"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 9,
+    "type": "multiple",
+    "text": "当今世界正处在新科技革命和产业革命的交汇点以机器人技术为代表的科技产业发展十",
+    "options": [
+      {
+        "label": "A",
+        "text": "一个社会增长财富和消除贫困的根本途径"
+      },
+      {
+        "label": "B",
+        "text": "不以人的意志为转移的一般趋势"
+      },
+      {
+        "label": "C",
+        "text": "社会产生相对过剩人口的一个重要原因"
+      },
+      {
+        "label": "D",
+        "text": "由资本的本性决定的"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 10,
+    "type": "multiple",
+    "text": "“信用制度加速了生产力的物质上的发展和世界市场的形成；使这二者作为新生产形式",
+    "options": [
+      {
+        "label": "A",
+        "text": "已成为资本主义经济危机爆发的深层原因"
+      },
+      {
+        "label": "B",
+        "text": "促进了建立社会主义生产方式的物质基础的形成"
+      },
+      {
+        "label": "C",
+        "text": "加速了资本主义生产方式内部矛盾发展和解体要素的形成"
+      },
+      {
+        "label": "D",
+        "text": "既推动商品经济的发展，又加深了商品经济运行中的矛盾"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 11,
+    "type": "multiple",
+    "text": "劳动力是任何社会生产的基本要素，在特定的社会发展阶段和特定的历史条件下，劳动",
+    "options": [
+      {
+        "label": "A",
+        "text": "维持劳动者自身生命所必需的生活资料的价值"
+      },
+      {
+        "label": "B",
+        "text": "劳动者在必要时间内创造的价值"
+      },
+      {
+        "label": "C",
+        "text": "劳动者繁育后代所必须的生活资料的价值"
+      },
+      {
+        "label": "D",
+        "text": "培养和训练劳动者所需要的费用"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 12,
+    "type": "multiple",
+    "text": "同一劳动在同一时间内，当部门劳动生产率提高时会使（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "单位商品的价值量降低"
+      },
+      {
+        "label": "B",
+        "text": "商品的使用价值量增加"
+      },
+      {
+        "label": "C",
+        "text": "单位商品的价值量不变"
+      },
+      {
+        "label": "D",
+        "text": "单位商品的价值量提高"
+      }
+    ],
+    "answer": "AB",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 913,
+    "type": "multiple",
+    "text": "为了追逐最大化的利润，资本家总是想方设法地进行资本积累。而资本积累的源泉是剩",
+    "options": [
+      {
+        "label": "A",
+        "text": "所有资本与所费资本之间的差额"
+      },
+      {
+        "label": "B",
+        "text": "劳动生产率的高低"
+      },
+      {
+        "label": "C",
+        "text": "资本家垫付资本的大小"
+      },
+      {
+        "label": "D",
+        "text": "资本家对工人的剥削程度"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 14,
+    "type": "multiple",
+    "text": "商品的市场价格发生变化（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "与货币的价值量变化无关"
+      },
+      {
+        "label": "B",
+        "text": "与商品的价值量变化有关"
+      },
+      {
+        "label": "C",
+        "text": "与商品的生产价格无关"
+      },
+      {
+        "label": "D",
+        "text": "与商品的供求变化有关"
+      }
+    ],
+    "answer": "BD",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 15,
+    "type": "multiple",
+    "text": "价值规律的内容和要求是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "商品的价值量由生产商品的社会必要劳动时间决定"
+      },
+      {
+        "label": "B",
+        "text": "商品交换以商品的价值量为基础"
+      },
+      {
+        "label": "C",
+        "text": "商品交换必须实行等价交换"
+      },
+      {
+        "label": "D",
+        "text": "价格围绕价值上下波动"
+      }
+    ],
+    "answer": "ABC",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 16,
+    "type": "multiple",
+    "text": "劳动力商品的价值包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "维持劳动者生存所需要的生活资料价值"
+      },
+      {
+        "label": "B",
+        "text": "劳动者维持生产所必须的生产资料价值"
+      },
+      {
+        "label": "C",
+        "text": "养育子女所需要的生活资料价值"
+      },
+      {
+        "label": "D",
+        "text": "劳动者教育和培训费用"
+      }
+    ],
+    "answer": "ACD",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 17,
+    "type": "multiple",
+    "text": "利润率表示全部预付资本的增殖程度，提高利润率的途径有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "提高剩余价值率"
+      },
+      {
+        "label": "B",
+        "text": "提高资本有机构成"
+      },
+      {
+        "label": "C",
+        "text": "加快资本周转速度"
+      },
+      {
+        "label": "D",
+        "text": "节省不变资本"
+      }
+    ],
+    "answer": "AD",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 18,
+    "type": "multiple",
+    "text": "生产要素市场包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "土地市场"
+      },
+      {
+        "label": "B",
+        "text": "商品市场"
+      },
+      {
+        "label": "C",
+        "text": "资本市场"
+      },
+      {
+        "label": "D",
+        "text": "劳动力市场"
+      }
+    ],
+    "answer": "ACD",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 19,
+    "type": "multiple",
+    "text": "G-W-G′是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "货币资本的循环公式"
+      },
+      {
+        "label": "B",
+        "text": "生产资本的循环公式"
+      },
+      {
+        "label": "C",
+        "text": "商品资本的循环公式"
+      },
+      {
+        "label": "D",
+        "text": "资本总公式"
+      }
+    ],
+    "answer": "AD",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 1020,
+    "type": "multiple",
+    "text": "在资本积累过程中，实现个别资本增大的形式是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本循环"
+      },
+      {
+        "label": "B",
+        "text": "资本积聚"
+      },
+      {
+        "label": "C",
+        "text": "资本周转"
+      },
+      {
+        "label": "D",
+        "text": "资本集中"
+      }
+    ],
+    "answer": "BD",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 21,
+    "type": "multiple",
+    "text": "有一幅广告幽默画，画的是几个行人在看一家饭店外贴的告示，上写：“快进来吃饭吧，",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产者和消费者是相互依存的"
+      },
+      {
+        "label": "B",
+        "text": "生产和消费具有直接的同一性"
+      },
+      {
+        "label": "C",
+        "text": "商品交换活动背后隐藏着人与人的关系"
+      },
+      {
+        "label": "D",
+        "text": "生产关系本质上是人与人之间的物质利益关系"
+      }
+    ],
+    "answer": "",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第四章",
+    "number": 22,
+    "type": "multiple",
+    "text": "利润转化为平均利润的过程，同时也是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本有机构成提高的过程"
+      },
+      {
+        "label": "B",
+        "text": "价值转化为生产价格的过程"
+      },
+      {
+        "label": "C",
+        "text": "资本在不同部门之间发生转移的过程"
+      },
+      {
+        "label": "D",
+        "text": "资本家集团重新瓜分剩余价值的过程"
+      }
+    ],
+    "answer": "BCD",
+    "source": "4第四章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 1,
+    "type": "single",
+    "text": "现代资本主义的经济实质和重要经济基础是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "垄断"
+      },
+      {
+        "label": "B",
+        "text": "剥削"
+      },
+      {
+        "label": "C",
+        "text": "国家调节"
+      },
+      {
+        "label": "D",
+        "text": "对外掠夺"
+      }
+    ],
+    "answer": "A",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 2,
+    "type": "single",
+    "text": "垄断资本主义国家事实上的主宰者是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "产业资本家"
+      },
+      {
+        "label": "B",
+        "text": "商业资本家"
+      },
+      {
+        "label": "C",
+        "text": "大土地所有者"
+      },
+      {
+        "label": "D",
+        "text": "金融寡头"
+      }
+    ],
+    "answer": "D",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 3,
+    "type": "single",
+    "text": "当代资本主义国际垄断组织的主要形式是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "国际科特尔"
+      },
+      {
+        "label": "B",
+        "text": "混合联合企业级"
+      },
+      {
+        "label": "C",
+        "text": "跨国公司"
+      },
+      {
+        "label": "D",
+        "text": "国际康采恩"
+      }
+    ],
+    "answer": "C",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 4,
+    "type": "single",
+    "text": "第二次世界大战后，发达资本主义国家和私人垄断统治的发展表现在（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "托拉斯和康采恩的出现"
+      },
+      {
+        "label": "B",
+        "text": "金融寡头的统治"
+      },
+      {
+        "label": "C",
+        "text": "国际垄断同盟的兴起"
+      },
+      {
+        "label": "D",
+        "text": "形成跨行业跨部门的混合联合企业"
+      }
+    ],
+    "answer": "D",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 5,
+    "type": "single",
+    "text": "金融资本是由（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "产业资本和商业资本融合或混合生长而成的"
+      },
+      {
+        "label": "B",
+        "text": "银行资本和工业资本融合或混合生长而成的"
+      },
+      {
+        "label": "C",
+        "text": "垄断的银行资本和垄断的工业资本融合或混合生长而成的"
+      },
+      {
+        "label": "D",
+        "text": "垄断银行资本和银行资本融合或混合生长而成的"
+      }
+    ],
+    "answer": "C",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 6,
+    "type": "single",
+    "text": "资本主义由自由竞争阶段进入垄断阶段，最根本的标志在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "垄断代替自由竞争在经济生活中占统治地位"
+      },
+      {
+        "label": "B",
+        "text": "资本输出代替商品输出在经济生活中占统治地位"
+      },
+      {
+        "label": "C",
+        "text": "银行资本代替工业资本在经济生活中占统治地位"
+      },
+      {
+        "label": "D",
+        "text": "国家垄断代替私人垄断在经济生活中占统治地位"
+      }
+    ],
+    "answer": "A",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 7,
+    "type": "single",
+    "text": "各国垄断组织从经济上瓜分世界产生了（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家垄断资本主义"
+      },
+      {
+        "label": "B",
+        "text": "国际垄断同盟"
+      },
+      {
+        "label": "C",
+        "text": "金融资本和金融寡头"
+      },
+      {
+        "label": "D",
+        "text": "殖民地和宗主国"
+      }
+    ],
+    "answer": "B",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 8,
+    "type": "single",
+    "text": "经济全球化发展趋势的现实基础是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "新科技革命"
+      },
+      {
+        "label": "B",
+        "text": "生产国际化"
+      },
+      {
+        "label": "C",
+        "text": "国际贸易的高度发展"
+      },
+      {
+        "label": "D",
+        "text": "国际金融的迅速发展"
+      }
+    ],
+    "answer": "C",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 9,
+    "type": "single",
+    "text": "正确认识资本主义的历史过渡性要（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "否定资本主义生产关系的一切改良"
+      },
+      {
+        "label": "B",
+        "text": "对资本主义采取全面否定的态度"
+      },
+      {
+        "label": "C",
+        "text": "借鉴资本主义社会中反应人类文明进步的改良"
+      },
+      {
+        "label": "D",
+        "text": "借鉴并发展资本主义的经济制度"
+      }
+    ],
+    "answer": "C",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 10,
+    "type": "single",
+    "text": "资本社会化的最高形式是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "垄断资本主义"
+      },
+      {
+        "label": "B",
+        "text": "国家垄断资本主义"
+      },
+      {
+        "label": "C",
+        "text": "生产社会化"
+      },
+      {
+        "label": "D",
+        "text": "经营管理社会化"
+      }
+    ],
+    "answer": "B",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 11,
+    "type": "single",
+    "text": "金融寡头实现经济上统治的“参与制”是指金融寡头（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接参与工业企业的生产经营和管理"
+      },
+      {
+        "label": "B",
+        "text": "直接参与银行的经营和管理"
+      },
+      {
+        "label": "C",
+        "text": "通过购买一定数量的股票层层控制许多大企业和大银行的经济统治方式"
+      },
+      {
+        "label": "D",
+        "text": "通过购买所属公司全部股票直接掌握许多大企业和大银行的经济统治方式"
+      }
+    ],
+    "answer": "C",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 12,
+    "type": "single",
+    "text": "国家垄断资本主义条件下，政府对经济生活进行干预和调节的实质是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "维护垄断资产阶级的整体利益和长远利益"
+      },
+      {
+        "label": "B",
+        "text": "维持资本主义经济稳定增长"
+      },
+      {
+        "label": "C",
+        "text": "消除或防止经济危机的爆发"
+      },
+      {
+        "label": "D",
+        "text": "提高资本主义社会的整体福利水平"
+      }
+    ],
+    "answer": "A",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 13,
+    "type": "single",
+    "text": "国家垄断资本主义的产生和发展，从根本上说是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "国内市场竞争的结果"
+      },
+      {
+        "label": "B",
+        "text": "国际竞争激烈化的结果"
+      },
+      {
+        "label": "C",
+        "text": "垄断统治加强的结果"
+      },
+      {
+        "label": "D",
+        "text": "生产社会化和资本主义私人占有制之间矛盾发展的结果"
+      }
+    ],
+    "answer": "D",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 14,
+    "type": "single",
+    "text": "在垄断资本主义阶段占统治地位的资本是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "工业资本"
+      },
+      {
+        "label": "B",
+        "text": "农业资本"
+      },
+      {
+        "label": "C",
+        "text": "银行资本"
+      },
+      {
+        "label": "D",
+        "text": "金融资本"
+      }
+    ],
+    "answer": "D",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 315,
+    "type": "single",
+    "text": "在垄断资本主义的各个基本经济特征中最根本的特征是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家垄断同盟的形成"
+      },
+      {
+        "label": "B",
+        "text": "资本输出具有重要的意义"
+      },
+      {
+        "label": "C",
+        "text": "垄断在经济生活中占统治地位"
+      },
+      {
+        "label": "D",
+        "text": "瓜分世界领土，形成殖民体系"
+      }
+    ],
+    "answer": "C",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 16,
+    "type": "single",
+    "text": "国家垄断资本主义对经济的干预（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "从根本上解决了垄断资本主义国家的阶级矛盾"
+      },
+      {
+        "label": "B",
+        "text": "没有改变劳动者受剥削的地位"
+      },
+      {
+        "label": "C",
+        "text": "使资产阶级和工人阶级形成了利益一致"
+      },
+      {
+        "label": "D",
+        "text": "改变了资本主义私有制的性质"
+      }
+    ],
+    "answer": "B",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 17,
+    "type": "single",
+    "text": "资本主义的历史地位是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "寄生的资本主义"
+      },
+      {
+        "label": "B",
+        "text": "过渡的资本主义"
+      },
+      {
+        "label": "C",
+        "text": "不断发展的资本主义"
+      },
+      {
+        "label": "D",
+        "text": "腐朽的资本主义"
+      }
+    ],
+    "answer": "B",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 18,
+    "type": "single",
+    "text": "资本主义发展的趋势是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "计划经济取代市场经济"
+      },
+      {
+        "label": "B",
+        "text": "市场经济取代计划经济"
+      },
+      {
+        "label": "C",
+        "text": "计划经济取代商品经济"
+      },
+      {
+        "label": "D",
+        "text": "社会主义公有制取代资本主义私有制"
+      }
+    ],
+    "answer": "D",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 19,
+    "type": "single",
+    "text": "经济全球化带给发达国家的好处很多，但不包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "从世界各地获取大量的利润"
+      },
+      {
+        "label": "B",
+        "text": "降低其生产成本"
+      },
+      {
+        "label": "C",
+        "text": "扩大了贸易逆差"
+      },
+      {
+        "label": "D",
+        "text": "加强对国际金融市场的控制"
+      }
+    ],
+    "answer": "C",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 20,
+    "type": "single",
+    "text": "经济全球化带给发展中国家的消极影响有许多，但不包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济发展机会大大减少"
+      },
+      {
+        "label": "B",
+        "text": "在国际贸易关系中剩余价值大量流失"
+      },
+      {
+        "label": "C",
+        "text": "金融风险加大"
+      },
+      {
+        "label": "D",
+        "text": "经济发展受到一定程度的损失"
+      }
+    ],
+    "answer": "A",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 21,
+    "type": "single",
+    "text": "下列不属于经济全球化发展趋势的选项是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "市场经济成为全球经济体制"
+      },
+      {
+        "label": "B",
+        "text": "区域经济集团日益发展"
+      },
+      {
+        "label": "C",
+        "text": "跨国公司的主导作用增强"
+      },
+      {
+        "label": "D",
+        "text": "国际经济新秩序的建立"
+      }
+    ],
+    "answer": "D",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 1,
+    "type": "multiple",
+    "text": "垄断资本主义的基本特征包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "垄断组织在经济生活中起决定作用"
+      },
+      {
+        "label": "B",
+        "text": "资本输出有了特别重要的意义"
+      },
+      {
+        "label": "C",
+        "text": "在金融资本的基础上形成金融寡头的统治"
+      },
+      {
+        "label": "D",
+        "text": "垄断使竞争趋于缓和​​​"
+      }
+    ],
+    "answer": "ABC",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 2,
+    "type": "multiple",
+    "text": "第二次世界大战后，垄断资本主义的特征获得了新内容和表现形式，主要有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "混合联合公司成为垄断组织的主要形式"
+      },
+      {
+        "label": "B",
+        "text": "跨国公司成为生产和资本国际化的主要组织形式"
+      },
+      {
+        "label": "C",
+        "text": "私有垄断资本普遍采用股份公司的企业组织形式"
+      },
+      {
+        "label": "D",
+        "text": "由国家出面组建的国际垄断组织的出现"
+      }
+    ],
+    "answer": "ABD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 3,
+    "type": "multiple",
+    "text": "垄断价格（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "完全是人为定价"
+      },
+      {
+        "label": "B",
+        "text": "受替代品竞争的制约"
+      },
+      {
+        "label": "C",
+        "text": "受市场需求量的制约"
+      },
+      {
+        "label": "D",
+        "text": "违背了价值规律"
+      }
+    ],
+    "answer": "BC",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 4,
+    "type": "multiple",
+    "text": "垄断利润是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "凭借垄断地位获得的利润"
+      },
+      {
+        "label": "B",
+        "text": "超过平均利润的高额利润"
+      },
+      {
+        "label": "C",
+        "text": "通过资本自由转移而形成的一种利润"
+      },
+      {
+        "label": "D",
+        "text": "垄断资本所有权在经济上的实现形式"
+      }
+    ],
+    "answer": "ABD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 5,
+    "type": "multiple",
+    "text": "垄断竞争的特点（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "垄断竞争与非垄断竞争并存"
+      },
+      {
+        "label": "B",
+        "text": "价格竞争与非价格竞争并存"
+      },
+      {
+        "label": "C",
+        "text": "国内竞争与国际竞争并存"
+      },
+      {
+        "label": "D",
+        "text": "垄断企业与非垄断企业的控制与反控制的竞争"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 6,
+    "type": "multiple",
+    "text": "资本主义的发展为向社会主义过渡准备了物质条件，主要表现在（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产全面社会化"
+      },
+      {
+        "label": "B",
+        "text": "生产管理日益社会化"
+      },
+      {
+        "label": "C",
+        "text": "工会组织日益社会化"
+      },
+      {
+        "label": "D",
+        "text": "资本日益社会化"
+      }
+    ],
+    "answer": "ABD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 7,
+    "type": "multiple",
+    "text": "经济全球化已成为当今世界经济发展的重要趋势，其明显表现有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "国际直接投资迅速增长，投资格局多元化"
+      },
+      {
+        "label": "B",
+        "text": "跨国公司越来越成为世界经济的主导力量"
+      },
+      {
+        "label": "C",
+        "text": "国际贸易成为各国经济不可缺少的组织部分"
+      },
+      {
+        "label": "D",
+        "text": "国际金融交易总额大大超过国际贸易总量"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 8,
+    "type": "multiple",
+    "text": "资本输出的必要性在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "为大量过剩资本寻找高额利润的投资场所"
+      },
+      {
+        "label": "B",
+        "text": "为商品输出开路"
+      },
+      {
+        "label": "C",
+        "text": "为控制国外原料产地和其他重要资源"
+      },
+      {
+        "label": "D",
+        "text": "有利于争夺霸权地位"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 9,
+    "type": "multiple",
+    "text": "战后发达资本主义国家实行的重大体制改革和政策调整包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "建立社会保障制度"
+      },
+      {
+        "label": "B",
+        "text": "实行部分国有化"
+      },
+      {
+        "label": "C",
+        "text": "实行职工持股"
+      },
+      {
+        "label": "D",
+        "text": "推行企业民主，实现劳资合作"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 10,
+    "type": "multiple",
+    "text": "社会主义代替资本主义是一个（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "长期的历史过程"
+      },
+      {
+        "label": "B",
+        "text": "隐蔽的历史过程"
+      },
+      {
+        "label": "C",
+        "text": "曲折的历史过程"
+      },
+      {
+        "label": "D",
+        "text": "复杂的历史过程"
+      }
+    ],
+    "answer": "ACD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 11,
+    "type": "multiple",
+    "text": "发达资本主义国家主导之下的国际经济协调机制包括（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "国际货币基金组织"
+      },
+      {
+        "label": "B",
+        "text": "世界银行"
+      },
+      {
+        "label": "C",
+        "text": "七十七国集团"
+      },
+      {
+        "label": "D",
+        "text": "世界贸易组织"
+      }
+    ],
+    "answer": "ABD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 12,
+    "type": "multiple",
+    "text": "资本输出的基本形式是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "借贷资本输出"
+      },
+      {
+        "label": "B",
+        "text": "生产资本输出"
+      },
+      {
+        "label": "C",
+        "text": "商品资本输出"
+      },
+      {
+        "label": "D",
+        "text": "货币资本输出"
+      }
+    ],
+    "answer": "ABC",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 13,
+    "type": "multiple",
+    "text": "在资本主义社会里，银行垄断资本和工业垄断资本密切地融合在一起，产生了一种新型",
+    "options": [
+      {
+        "label": "A",
+        "text": "通过“参与制”实现其在经济领域中的统治"
+      },
+      {
+        "label": "B",
+        "text": "通过同政府的“个人联合”实现其对国家机器的控制"
+      },
+      {
+        "label": "C",
+        "text": "通过政策咨询机构影响和左右内外政策"
+      },
+      {
+        "label": "D",
+        "text": "通过新闻媒体实现国民思想意识的一元性"
+      }
+    ],
+    "answer": "",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 14,
+    "type": "multiple",
+    "text": "私人垄断资本主义向国家垄断资本主义过渡（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是资本主义生产社会化的客观要求"
+      },
+      {
+        "label": "B",
+        "text": "是资本主义基本矛盾发展的必然结果"
+      },
+      {
+        "label": "C",
+        "text": "在一定程度上促进了资本主义生产的发展"
+      },
+      {
+        "label": "D",
+        "text": "能够从根本上解决资本主义的基本矛盾"
+      }
+    ],
+    "answer": "ABC",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 15,
+    "type": "multiple",
+    "text": "垄断资本主义要求国家干预经济生活的原因是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会化大生产要求国民经济协调发展，需要国家参与经济调节"
+      },
+      {
+        "label": "B",
+        "text": "国内垄断资本需要国家支持以加强竞争的能力"
+      },
+      {
+        "label": "C",
+        "text": "社会化大生产需要巨额投资，要求国家直接经营或资助"
+      },
+      {
+        "label": "D",
+        "text": "生产过剩问题日趋严重，需要借助国家力量以扩大国内外市场"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 16,
+    "type": "multiple",
+    "text": "国家垄断资本主义的基本形式有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "国营企业"
+      },
+      {
+        "label": "B",
+        "text": "国私合营企业"
+      },
+      {
+        "label": "C",
+        "text": "国家与私人垄断资本在国际范围内的结合"
+      },
+      {
+        "label": "D",
+        "text": "国家调节经济"
+      }
+    ],
+    "answer": "ABD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第五章",
+    "number": 17,
+    "type": "multiple",
+    "text": "垄断与竞争并存的原因是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "垄断不能消除商品经济的竞争基础"
+      },
+      {
+        "label": "B",
+        "text": "科技进步和创新不断激发新的竞争"
+      },
+      {
+        "label": "C",
+        "text": "中小企业仍然大量存在"
+      },
+      {
+        "label": "D",
+        "text": "垄断组织不能囊括一切商品生产"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "5第五章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 1,
+    "type": "single",
+    "text": "科学社会主义的直接理论来源是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "空想社会主义的学说"
+      },
+      {
+        "label": "B",
+        "text": "19世纪初期以圣西门、傅立叶、欧文为代表的空想社会主义"
+      },
+      {
+        "label": "C",
+        "text": "空想平均共产主义"
+      },
+      {
+        "label": "D",
+        "text": "唯物史观和剩余价值学"
+      }
+    ],
+    "answer": "B",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 2,
+    "type": "single",
+    "text": "科学社会主义创立的两大“理论基石”是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯物辩证法和剩余价值理论"
+      },
+      {
+        "label": "B",
+        "text": "唯物辩证法和价值规律"
+      },
+      {
+        "label": "C",
+        "text": "唯物史观和剩余价值学说"
+      },
+      {
+        "label": "D",
+        "text": "唯物主义历史观和价值规律"
+      }
+    ],
+    "answer": "C",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 3,
+    "type": "single",
+    "text": "社会主义实现由空想到科学发展的标志是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "《共产党宣言》的发表"
+      },
+      {
+        "label": "B",
+        "text": "“共产主义者同盟”的建立"
+      },
+      {
+        "label": "C",
+        "text": "空想社会主义理想的破灭"
+      },
+      {
+        "label": "D",
+        "text": "无产阶级革命的胜利"
+      }
+    ],
+    "answer": "A",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 4,
+    "type": "single",
+    "text": "社会主义从理论到实践的飞跃，具体途径是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "通过改革和革命实现的"
+      },
+      {
+        "label": "B",
+        "text": "通过对人民群众的教育和灌输实现的"
+      },
+      {
+        "label": "C",
+        "text": "通过理论宣传实现的"
+      },
+      {
+        "label": "D",
+        "text": "通过无产阶级革命实现的"
+      }
+    ],
+    "answer": "D",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 5,
+    "type": "single",
+    "text": "马克思说：“暴力是每一个孕育着新社会的旧社会的助产婆”，这说明（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "暴力革命是无产阶级革命的唯一形式"
+      },
+      {
+        "label": "B",
+        "text": "暴力革命是无产阶级革命的主要的基本形式"
+      },
+      {
+        "label": "C",
+        "text": "暴力革命与和平发展互相排斥"
+      },
+      {
+        "label": "D",
+        "text": "暴力革命与和平发展可以相互取代"
+      }
+    ],
+    "answer": "B",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 6,
+    "type": "single",
+    "text": "世界上第一个无产阶级政党是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "俄国共产党"
+      },
+      {
+        "label": "B",
+        "text": "中国共产党"
+      },
+      {
+        "label": "C",
+        "text": "共产主义者同盟"
+      },
+      {
+        "label": "D",
+        "text": "法国共产党"
+      }
+    ],
+    "answer": "C",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 7,
+    "type": "single",
+    "text": "无产阶级革命的基本形式是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治斗争"
+      },
+      {
+        "label": "B",
+        "text": "思想斗争"
+      },
+      {
+        "label": "C",
+        "text": "经济斗争"
+      },
+      {
+        "label": "D",
+        "text": "暴力革命"
+      }
+    ],
+    "answer": "D",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 8,
+    "type": "single",
+    "text": "无产阶级政党的组织原则（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "集体领导"
+      },
+      {
+        "label": "B",
+        "text": "理论联系实际"
+      },
+      {
+        "label": "C",
+        "text": "实事求是"
+      },
+      {
+        "label": "D",
+        "text": "民主集中制"
+      }
+    ],
+    "answer": "D",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 9,
+    "type": "single",
+    "text": "列宁对关于无产阶级社会主义革命学说的重大贡献是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "提出了战时共产主义政策"
+      },
+      {
+        "label": "B",
+        "text": "提出了新经济政策"
+      },
+      {
+        "label": "C",
+        "text": "提出了社会主义革命将首先在一国或数国取得胜利的理论"
+      },
+      {
+        "label": "D",
+        "text": "提出了利用国家资本主义过渡社会主义的理论"
+      }
+    ],
+    "answer": "C",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 10,
+    "type": "single",
+    "text": "民主的根本性质最终取决于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "由谁来进行统治"
+      },
+      {
+        "label": "B",
+        "text": "其经济基础的性质"
+      },
+      {
+        "label": "C",
+        "text": "统治阶级如何来进行统治"
+      },
+      {
+        "label": "D",
+        "text": "是不是全民的民主"
+      }
+    ],
+    "answer": "A",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 11,
+    "type": "single",
+    "text": "在理论上第一次将共产主义社会第一阶段称为社会主义的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "马克思"
+      },
+      {
+        "label": "B",
+        "text": "恩格斯"
+      },
+      {
+        "label": "C",
+        "text": "列宁"
+      },
+      {
+        "label": "D",
+        "text": "斯大林"
+      }
+    ],
+    "answer": "A",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 12,
+    "type": "single",
+    "text": "科学社会主义的核心内容是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "无产阶级专政和社会主义民主"
+      },
+      {
+        "label": "B",
+        "text": "唯物史观"
+      },
+      {
+        "label": "C",
+        "text": "无产阶级专政"
+      },
+      {
+        "label": "D",
+        "text": "国家政权"
+      }
+    ],
+    "answer": "A",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 13,
+    "type": "single",
+    "text": "经济文化相对落后的国家可以先于资本主义国家进入社会主义，其根本原因是由于",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济文化相对落后的国家具有较高的精神文明"
+      },
+      {
+        "label": "B",
+        "text": "革命的客观形势和条件所决定的"
+      },
+      {
+        "label": "C",
+        "text": "它是以高度社会化的资本主义大生产作为社会主义革命的物质前提的"
+      },
+      {
+        "label": "D",
+        "text": "社会主义生产关系可以在旧社会的内部孕育生长起来"
+      }
+    ],
+    "answer": "",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 14,
+    "type": "single",
+    "text": "列宁得出社会主义可能在一国或数国首先取得胜利的结论依据是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本主义必然灭亡、社会主义和共产主义必然胜利的规律"
+      },
+      {
+        "label": "B",
+        "text": "帝国主义时代资本主义政治经济发展不平衡的规律"
+      },
+      {
+        "label": "C",
+        "text": "资本主义国家无产阶级与资产阶级斗争的规律"
+      },
+      {
+        "label": "D",
+        "text": "无产阶级是最先进、最革命的阶级的原理"
+      }
+    ],
+    "answer": "B",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 15,
+    "type": "single",
+    "text": "社会主义的根本任务是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "进行阶级斗争"
+      },
+      {
+        "label": "B",
+        "text": "改革生产资料所有制"
+      },
+      {
+        "label": "C",
+        "text": "进行政治体制改革、经济体制改革"
+      },
+      {
+        "label": "D",
+        "text": "解放生产力、发展生产力"
+      }
+    ],
+    "answer": "D",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 16,
+    "type": "single",
+    "text": "无产阶级专政的目标是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "不断巩固、发展无产阶级政权和社会主义制度"
+      },
+      {
+        "label": "B",
+        "text": "建设社会主义民主"
+      },
+      {
+        "label": "C",
+        "text": "要消灭剥削、消灭阶级，进到无阶级社会"
+      },
+      {
+        "label": "D",
+        "text": "防止国外敌人的侵略和颠覆，支持世界人民的革命斗争"
+      }
+    ],
+    "answer": "C",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 17,
+    "type": "single",
+    "text": "1824年，欧文在美国购买了3万英亩土地，建立了很多公社，实行人人劳动，按需分",
+    "options": [
+      {
+        "label": "A",
+        "text": "社员们思想觉悟太低"
+      },
+      {
+        "label": "B",
+        "text": "人们不理解他的主张"
+      },
+      {
+        "label": "C",
+        "text": "超越了历史发展阶段"
+      },
+      {
+        "label": "D",
+        "text": "缺乏大量的后续资金"
+      }
+    ],
+    "answer": "",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 18,
+    "type": "single",
+    "text": "社会主义民主政治的本质（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民当家作主"
+      },
+      {
+        "label": "B",
+        "text": "人民民主专政"
+      },
+      {
+        "label": "C",
+        "text": "人民代表大会制度"
+      },
+      {
+        "label": "D",
+        "text": "人民参与国家管理"
+      }
+    ],
+    "answer": "A",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 19,
+    "type": "single",
+    "text": "我国社会主义改革是一场新的革命，其性质是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "解放生产力、发展生产力"
+      },
+      {
+        "label": "B",
+        "text": "社会主义基本制度的根本变革"
+      },
+      {
+        "label": "C",
+        "text": "社会主义制度的自我完善和发展"
+      },
+      {
+        "label": "D",
+        "text": "建立和完善社会主义市场经济体制"
+      }
+    ],
+    "answer": "C",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 1,
+    "type": "multiple",
+    "text": "社会主义实现模式多样化的原因在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治经济文化水平的发展不同"
+      },
+      {
+        "label": "B",
+        "text": "历史传统不同"
+      },
+      {
+        "label": "C",
+        "text": "指导思想不同"
+      },
+      {
+        "label": "D",
+        "text": "地域环境不同"
+      }
+    ],
+    "answer": "ABD",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 2,
+    "type": "multiple",
+    "text": "之所以说无产阶级革命是迄今为止人类历史上最广泛、最彻底、最深刻的革命（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是因为无产阶级革命是彻底消灭一切私有制的革命"
+      },
+      {
+        "label": "B",
+        "text": "是因为无产阶级革命是彻底消灭一切阶级和阶级统治的革命"
+      },
+      {
+        "label": "C",
+        "text": "是因为无产阶级革命是一个阶级推翻另一个阶级的革命"
+      },
+      {
+        "label": "D",
+        "text": "是因为无产阶级革命是不断前进的历史过程"
+      }
+    ],
+    "answer": "ABD",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 3,
+    "type": "multiple",
+    "text": "无产阶级政党选择革命形式和道路应该遵循的基本原则是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "暴力革命是无产阶级革命的唯一形式原则"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义普遍真理与本国具体实践相结合的原则"
+      },
+      {
+        "label": "C",
+        "text": "由各国共产党自己决定，反对国际组织发号施令的原则"
+      },
+      {
+        "label": "D",
+        "text": "在任何情况下都要争取和平发展原则"
+      }
+    ],
+    "answer": "BC",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 4,
+    "type": "multiple",
+    "text": "马克思主义政党是工人阶级的先锋队，这是对马克思主义政党的性质所作的最简要最明",
+    "options": [
+      {
+        "label": "A",
+        "text": "工人阶级是现代大工业的产物，与先进的生产方式相联系"
+      },
+      {
+        "label": "B",
+        "text": "工人阶级是在斗争中不断成长成熟，从自在的阶级走向自为的阶级"
+      },
+      {
+        "label": "C",
+        "text": "工人阶级是唯一同资产阶级直接对立和完全对立的因而也是唯一能够革命到底的阶级"
+      },
+      {
+        "label": "D",
+        "text": "工人阶级最有政治远见，最有组织纪律性的阶级"
+      }
+    ],
+    "answer": "",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 5,
+    "type": "multiple",
+    "text": "社会主义民主是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "本质上是人民当家做主"
+      },
+      {
+        "label": "B",
+        "text": "人类社会最高类型的民主"
+      },
+      {
+        "label": "C",
+        "text": "绝大多数人的民主"
+      },
+      {
+        "label": "D",
+        "text": "同其他社会的民主没有本质区别"
+      }
+    ],
+    "answer": "ABC",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 6,
+    "type": "multiple",
+    "text": "党在社会主义初级阶段的基本路线是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "坚持以经济建设为中心"
+      },
+      {
+        "label": "B",
+        "text": "坚持四项基本原则"
+      },
+      {
+        "label": "C",
+        "text": "坚持以生产资料公有制为主体"
+      },
+      {
+        "label": "D",
+        "text": "坚持改革开放"
+      }
+    ],
+    "answer": "ABD",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 57,
+    "type": "multiple",
+    "text": "社会主义发展史的两次飞跃（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义由空想到科学的发展"
+      },
+      {
+        "label": "B",
+        "text": "早期空想社会主义到空想平均共产主义的发展"
+      },
+      {
+        "label": "C",
+        "text": "空想平均共产主义到批判的空想社会主义的发展"
+      },
+      {
+        "label": "D",
+        "text": "社会主义由理论到实践"
+      }
+    ],
+    "answer": "AD",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 8,
+    "type": "multiple",
+    "text": "经济文化相对落后的国家建设社会主义之所以是长期的和艰巨的，是因为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "商品经济不发达，生产力落后"
+      },
+      {
+        "label": "B",
+        "text": "封建主义传统长，缺乏近代民主的传统"
+      },
+      {
+        "label": "C",
+        "text": "社会主义国家从诞生之日起，就处在资本主义世界的包围之中，受到资本主义列强的遏"
+      },
+      {
+        "label": "D",
+        "text": "马克思主义执政党对社会主义发展道路和建设规律的探索是一个过程"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 9,
+    "type": "multiple",
+    "text": "与空想社会主义相比，科学社会主义理论的科学性主要是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "解释了阶级斗争在社会历史发展中的作用"
+      },
+      {
+        "label": "B",
+        "text": "揭示了资本主义的私人生产的无政府状态"
+      },
+      {
+        "label": "C",
+        "text": "揭示了人类历史发展的客观规律"
+      },
+      {
+        "label": "D",
+        "text": "揭示了资本主义制度的根本矛盾"
+      }
+    ],
+    "answer": "ACD",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 10,
+    "type": "multiple",
+    "text": "空想社会主义的发展经历了哪些阶段（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "16、17世纪早期空想社会主义"
+      },
+      {
+        "label": "B",
+        "text": "18世纪空想平均共产主义"
+      },
+      {
+        "label": "C",
+        "text": "19世纪批判的空想社会主义"
+      },
+      {
+        "label": "D",
+        "text": "不成熟、不科学的空想社会主义"
+      }
+    ],
+    "answer": "ABC",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第六章",
+    "number": 11,
+    "type": "multiple",
+    "text": "马克思认为，共产主义社会初级阶段所具有的特征有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产资料归全社会所有"
+      },
+      {
+        "label": "B",
+        "text": "个人消费品实行按劳分配"
+      },
+      {
+        "label": "C",
+        "text": "国家开始消亡"
+      },
+      {
+        "label": "D",
+        "text": "解放和发展生产力"
+      }
+    ],
+    "answer": "ABC",
+    "source": "6第六章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 1,
+    "type": "single",
+    "text": "（  ）是人类历史发展的必然趋势，是马克思主义崇高的社会理想",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现共产主义"
+      },
+      {
+        "label": "B",
+        "text": "共同富裕"
+      },
+      {
+        "label": "C",
+        "text": "和谐"
+      },
+      {
+        "label": "D",
+        "text": "物质极大丰富"
+      }
+    ],
+    "answer": "A",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 2,
+    "type": "single",
+    "text": "共产主义一定能够实现，这是由（  ）所决定的。",
+    "options": [
+      {
+        "label": "A",
+        "text": "领袖意志"
+      },
+      {
+        "label": "B",
+        "text": "人类社会的发展规律"
+      },
+      {
+        "label": "C",
+        "text": "所有人的愿望"
+      },
+      {
+        "label": "D",
+        "text": "人民群众的意志"
+      }
+    ],
+    "answer": "B",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 3,
+    "type": "single",
+    "text": "下列提法正确的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "只有空想社会主义思想家预见了未来社会"
+      },
+      {
+        "label": "B",
+        "text": "只有马克思主义经典作家预见了未来社会"
+      },
+      {
+        "label": "C",
+        "text": "只有唯心主义思想家预见了未来社会"
+      },
+      {
+        "label": "D",
+        "text": "许多思想家都预见了未来社会"
+      }
+    ],
+    "answer": "D",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 4,
+    "type": "single",
+    "text": "“通过批判旧世界来发现新世界”是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "空想社会主义预见未来社会的方法"
+      },
+      {
+        "label": "B",
+        "text": "马克思主义预见未来社会的方法"
+      },
+      {
+        "label": "C",
+        "text": "唯物主义预见未来社会的方法"
+      },
+      {
+        "label": "D",
+        "text": "唯心主义预见未来社会的方法"
+      }
+    ],
+    "answer": "B",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 5,
+    "type": "single",
+    "text": "“代替那存在着阶级和阶级对立的资产阶级旧社会的，将是这样一个联合体，在那里，",
+    "options": [
+      {
+        "label": "A",
+        "text": "《共产党宣言》中的一段话"
+      },
+      {
+        "label": "B",
+        "text": "《共产主义原理》中的一段话"
+      },
+      {
+        "label": "C",
+        "text": "《哥达纲领批判》中的一段话"
+      },
+      {
+        "label": "D",
+        "text": "《资本论》中的一段话"
+      }
+    ],
+    "answer": "",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 6,
+    "type": "single",
+    "text": "“人的依赖性关系”是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本主义社会以前的人与人之间的关系"
+      },
+      {
+        "label": "B",
+        "text": "资本主义社会之中的人与人之间的关系"
+      },
+      {
+        "label": "C",
+        "text": "社会主义社会之中的人与人之间的关系"
+      },
+      {
+        "label": "D",
+        "text": "共产主义社会之中的人与人之间的关系"
+      }
+    ],
+    "answer": "A",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 7,
+    "type": "single",
+    "text": "“物的依赖性关系”是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本主义社会以前的人与人之间的关系"
+      },
+      {
+        "label": "B",
+        "text": "资本主义社会之中的人与人之间的关系"
+      },
+      {
+        "label": "C",
+        "text": "社会主义社会之中的人与人之间的关系"
+      },
+      {
+        "label": "D",
+        "text": "共产主义社会之中的人与人之间的关系"
+      }
+    ],
+    "answer": "B",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 8,
+    "type": "single",
+    "text": "实现了人的“自由个性”的发展，是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资本主义社会以前的人的生存状态"
+      },
+      {
+        "label": "B",
+        "text": "资本主义社会之中的人的生存状态"
+      },
+      {
+        "label": "C",
+        "text": "社会主义社会之中的人的生存状态"
+      },
+      {
+        "label": "D",
+        "text": "共产主义社会之中的人的生存状态"
+      }
+    ],
+    "answer": "D",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 9,
+    "type": "single",
+    "text": "“两个必然”和“两个决不会”（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是矛盾的"
+      },
+      {
+        "label": "B",
+        "text": "是两回事"
+      },
+      {
+        "label": "C",
+        "text": "是有着内在联系的"
+      },
+      {
+        "label": "D",
+        "text": "是内容和形式的关系"
+      }
+    ],
+    "answer": "C",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 10,
+    "type": "single",
+    "text": "“必然王国”和“自由王国”是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "时间性概念"
+      },
+      {
+        "label": "B",
+        "text": "空间性概念"
+      },
+      {
+        "label": "C",
+        "text": "历史性概念"
+      },
+      {
+        "label": "D",
+        "text": "物质性概念"
+      }
+    ],
+    "answer": "C",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 11,
+    "type": "single",
+    "text": "马克思主义认为，消灭“三大差别”的关键在于（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "消灭工业与农业的差别"
+      },
+      {
+        "label": "B",
+        "text": "消灭城市和乡村的差别"
+      },
+      {
+        "label": "C",
+        "text": "消灭脑力劳动和体力劳动的差别"
+      },
+      {
+        "label": "D",
+        "text": "消灭利益差别"
+      }
+    ],
+    "answer": "D",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 12,
+    "type": "single",
+    "text": "各尽所能，按需分配是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "原始社会的分配方式"
+      },
+      {
+        "label": "B",
+        "text": "阶级社会的分配方式"
+      },
+      {
+        "label": "C",
+        "text": "社会主义社会的分配方式"
+      },
+      {
+        "label": "D",
+        "text": "共产主义社会的分配方式"
+      }
+    ],
+    "answer": "D",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 13,
+    "type": "single",
+    "text": "在人的发展和社会发展的关系问题上，马克思主义认为（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "前者是个人的理想，后者是社会的目标"
+      },
+      {
+        "label": "B",
+        "text": "前者体现了个人价值，后者体现了社会价值"
+      },
+      {
+        "label": "C",
+        "text": "前者和后者是彼此独立的历史发展过程"
+      },
+      {
+        "label": "D",
+        "text": "前者和后者互为前提和基础"
+      }
+    ],
+    "answer": "D",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 14,
+    "type": "single",
+    "text": "习近平指出：“革命理想高于天。没有远大理想，不是合格的共产党员；离开现实工作",
+    "options": [
+      {
+        "label": "A",
+        "text": "共产主义远大理想"
+      },
+      {
+        "label": "B",
+        "text": "建设中国特色社会主义共同理想"
+      },
+      {
+        "label": "C",
+        "text": "个人对美好生活的向往与追求"
+      },
+      {
+        "label": "D",
+        "text": "个人对将来职业的向往与追求"
+      }
+    ],
+    "answer": "",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 15,
+    "type": "single",
+    "text": "下列属于自由王国社会状态的是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "奴隶社会"
+      },
+      {
+        "label": "B",
+        "text": "封建社会"
+      },
+      {
+        "label": "C",
+        "text": "资本主义社会"
+      },
+      {
+        "label": "D",
+        "text": "共产主义社会"
+      }
+    ],
+    "answer": "D",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 16,
+    "type": "single",
+    "text": "必然王国和自由王国是社会发展的（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "两种不同的状态"
+      },
+      {
+        "label": "B",
+        "text": "两种不同的选择"
+      },
+      {
+        "label": "C",
+        "text": "两条不同的道路"
+      },
+      {
+        "label": "D",
+        "text": "两种不同的理想"
+      }
+    ],
+    "answer": "A",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 17,
+    "type": "single",
+    "text": "自由王国是指人们（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "处于绝对自由的原始社会状态"
+      },
+      {
+        "label": "B",
+        "text": "不再受自然规律和社会规律支配的状态"
+      },
+      {
+        "label": "C",
+        "text": "允许自由竞争的资本主义状态"
+      },
+      {
+        "label": "D",
+        "text": "摆脱了自然和社会关系的奴役，成为自己社会关系主人的状态"
+      }
+    ],
+    "answer": "D",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 18,
+    "type": "single",
+    "text": "1884年1月3日，意大利人卡内帕给恩格斯写信，请求他为即将在日内瓦出版的《新",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现人的自由而全面的发展"
+      },
+      {
+        "label": "B",
+        "text": "实现人类永恒不变的普世价值"
+      },
+      {
+        "label": "C",
+        "text": "建立一个四海之内皆兄弟的大同世界"
+      },
+      {
+        "label": "D",
+        "text": "建立一个自由，平等、博爱的理性王国"
+      }
+    ],
+    "answer": "",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 1,
+    "type": "multiple",
+    "text": "下列选项中属于共产主义含义的有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "共产主义是一种科学理论"
+      },
+      {
+        "label": "B",
+        "text": "共产主义是一种现实运动"
+      },
+      {
+        "label": "C",
+        "text": "共产主义是一种社会制度"
+      },
+      {
+        "label": "D",
+        "text": "共产主义是一种社会理想"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 2,
+    "type": "multiple",
+    "text": "下属现象中属于共产主义社会特征的有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会财富极大丰富，消费品按需分配"
+      },
+      {
+        "label": "B",
+        "text": "社会财富极大丰富，消费品按劳分配"
+      },
+      {
+        "label": "C",
+        "text": "社会关系高度和谐，人们的精神境界极大提高"
+      },
+      {
+        "label": "D",
+        "text": "每个人自由而全面的发展"
+      }
+    ],
+    "answer": "ACD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 3,
+    "type": "multiple",
+    "text": "马克思和恩格斯认为在共产主义社会将要消失的“三大差别”有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "资产阶级和无产阶级的差别"
+      },
+      {
+        "label": "B",
+        "text": "工业和农业的差别"
+      },
+      {
+        "label": "C",
+        "text": "城市与乡村的差别"
+      },
+      {
+        "label": "D",
+        "text": "脑力劳动和体力劳动的差别"
+      }
+    ],
+    "answer": "BCD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 4,
+    "type": "multiple",
+    "text": "共产主义是能够实现的社会理想的根据是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "以人类社会发展规律为依据的"
+      },
+      {
+        "label": "B",
+        "text": "以资本主义社会基本矛盾的发展为依据的"
+      },
+      {
+        "label": "C",
+        "text": "可以用社会主义运动的实践来证明的"
+      },
+      {
+        "label": "D",
+        "text": "要靠社会主义的不断完善和发展来实现的"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 5,
+    "type": "multiple",
+    "text": "人的全面发展是指（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "德、智、体、美、劳各方面都得到发展"
+      },
+      {
+        "label": "B",
+        "text": "人的需要的全面丰富和充分满足"
+      },
+      {
+        "label": "C",
+        "text": "个人潜力和智能得到最大限度的发挥"
+      },
+      {
+        "label": "D",
+        "text": "人的各种要求都能得到满足"
+      }
+    ],
+    "answer": "ABC",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 6,
+    "type": "multiple",
+    "text": "马克思主义认为，人的自由而全面的发展（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "是一个逐步提高、永无止境的历史过程，是社会发展的根本目标"
+      },
+      {
+        "label": "B",
+        "text": "是社会进步的重要内容"
+      },
+      {
+        "label": "C",
+        "text": "既是社会发展的结果，又是社会发展的原因"
+      },
+      {
+        "label": "D",
+        "text": "同推进经济、文化的发展和改善人民物质文化生活是互为前提和基础的"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 7,
+    "type": "multiple",
+    "text": "社会主义按劳分配的原则（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现了在分配上的真正平等"
+      },
+      {
+        "label": "B",
+        "text": "默认劳动者不同的个人天赋"
+      },
+      {
+        "label": "C",
+        "text": "体现着等价交换原则"
+      },
+      {
+        "label": "D",
+        "text": "有其历史局限性"
+      }
+    ],
+    "answer": "BCD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 58,
+    "type": "multiple",
+    "text": "建设中国特色社会主义是（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "现阶段我党的最低纲领"
+      },
+      {
+        "label": "B",
+        "text": "中华民族的共同理想"
+      },
+      {
+        "label": "C",
+        "text": "世界社会主义运动的重要组成部分"
+      },
+      {
+        "label": "D",
+        "text": "通向共产主义的康庄大道"
+      }
+    ],
+    "answer": "ABCD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  },
+  {
+    "course": "马克思",
+    "topic": "马克思 第七章",
+    "number": 9,
+    "type": "multiple",
+    "text": "关于共产主义理想，下列提法正确的有（  ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "共产主义渺茫论"
+      },
+      {
+        "label": "B",
+        "text": "共产主义是能够实现的理想"
+      },
+      {
+        "label": "C",
+        "text": "在社会主义历史阶段不应树立共产主义理想"
+      },
+      {
+        "label": "D",
+        "text": "共产主义理想的实现是一个漫长的历史过程"
+      }
+    ],
+    "answer": "BD",
+    "source": "7第七章——马克思主义基本原理2025-2026-1学期期末复习题.pdf",
+    "subtopic": ""
+  }
+]);
 }
