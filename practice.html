@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>��ʼˢ�� - ��ʱ�ջ�ҹ��</title>
+  <title>开始刷题 - 超时空辉夜姬</title>
 
   <!-- PWA -->
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#2563eb" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="��ҹ��" />
+  <meta name="apple-mobile-web-app-title" content="辉夜姬" />
   <link rel="apple-touch-icon" href="3.png" />
 
   <link rel="stylesheet" href="style.css" />
@@ -19,25 +19,25 @@
 <body data-page="practice">
   <div class="app-shell quiz-shell">
     <header class="practice-topbar">
-      <button id="backHomeBtn" class="back-btn" type="button">�� ������ҳ</button>
+      <button id="backHomeBtn" class="back-btn" type="button">← 返回首页</button>
       <div class="practice-title">
-        <h1>��ʼˢ��</h1>
-        <p id="practiceSub">���ڼ�����Ŀ...</p>
+        <h1>开始刷题</h1>
+        <p id="practiceSub">正在加载题目...</p>
       </div>
-      <div class="topbar-actions"><button id="manageQuestionsBtn" class="ghost small-btn" type="button">������</button><button id="localAiBtn" class="ghost small-btn" type="button">�� AI</button><button id="restartBtn" class="ghost small-btn" type="button">�ؿ�����</button></div>
+      <div class="topbar-actions"><button id="manageQuestionsBtn" class="ghost small-btn" type="button">题库管理</button><button id="localAiBtn" class="ghost small-btn" type="button">问 AI</button><button id="restartBtn" class="ghost small-btn" type="button">重开本轮</button></div>
     </header>
 
     <main class="panel quiz-panel single-page-quiz">
       <div class="toolbar">
         <div>
-          <span class="pill" id="modePill">δ��ʼ</span>
-          <span class="pill soft" id="topicPill">����׼��</span>
-          <button id="historyBtn" class="history-btn" type="button">����б���0��</button>
+          <span class="pill" id="modePill">未开始</span>
+          <span class="pill soft" id="topicPill">正在准备</span>
+          <button id="historyBtn" class="history-btn" type="button">题号列表（0）</button>
         </div>
         <div class="score">
-          <span>��ȷ <b id="rightNum">0</b></span>
-          <span>���� <b id="wrongNum">0</b></span>
-          <span>��ȷ�� <b id="rateNum">0%</b></span>
+          <span>正确 <b id="rightNum">0</b></span>
+          <span>错误 <b id="wrongNum">0</b></span>
+          <span>正确率 <b id="rateNum">0%</b></span>
         </div>
       </div>
 
@@ -45,11 +45,11 @@
         <div id="progressBar" class="progress-bar"></div>
       </div>
 
-      <div class="keyboard-help">���԰��ݼ���1=A��2=B��3=C��4=D��5=ֱ�ӿ��𰸣��ո�=�ύ��/��һ��/ֱ�ӿ��𰸣���Ժ���Զ�������һ�⡣</div>
+      <div class="keyboard-help">电脑版快捷键：1=A，2=B，3=C，4=D，5=直接看答案，空格=提交答案/下一题/直接看答案；答对后会自动进入下一题。</div>
 
       <div id="emptyState" class="empty-state">
-        <h2>����������Ŀ</h2>
-        <p>���û����Ŀ���뷵����ҳ��һ��ר������͡�</p>
+        <h2>正在生成题目</h2>
+        <p>如果没有题目，请返回首页换一个专题或题型。</p>
       </div>
 
       <article id="questionCard" class="question-card hidden">
@@ -58,36 +58,36 @@
         <div id="optionsBox" class="options"></div>
         <div id="textAnswerBox" class="text-answer-box hidden">
           <div id="fillBlanksArea" class="fill-blanks-area hidden"></div>
-          <input id="fillAnswerInput" type="text" placeholder="��������մ�" />
-          <textarea id="shortAnswerInput" rows="5" placeholder="����������������"></textarea>
+          <input id="fillAnswerInput" type="text" placeholder="请输入填空答案" />
+          <textarea id="shortAnswerInput" rows="5" placeholder="请输入简答作答内容"></textarea>
         </div>
         <div id="answerBox" class="answer-box hidden"></div>
         <div class="actions">
-          <button id="submitBtn" class="primary" type="button">�ύ��</button>
-          <button id="localAiJudgeBtn" class="ghost" type="button" title="AI �жϱ����" style="display:none;">AI �жϴ�</button>
-          <button id="showBtn" class="ghost" type="button">ֱ�ӿ���</button>
-          <button id="retryWrongBtn" class="ghost hidden" type="button">��������</button>
-          <button id="nextBtn" class="primary hidden" type="button">��һ��</button>
-          <button id="editCurrentQuestionBtn" class="ghost" type="button">�༭����</button>
+          <button id="submitBtn" class="primary" type="button">提交答案</button>
+          <button id="localAiJudgeBtn" class="ghost" type="button" title="AI 判断本题答案" style="display:none;">AI 判断答案</button>
+          <button id="showBtn" class="ghost" type="button">直接看答案</button>
+          <button id="retryWrongBtn" class="ghost hidden" type="button">重新作答</button>
+          <button id="nextBtn" class="primary hidden" type="button">下一题</button>
+          <button id="editCurrentQuestionBtn" class="ghost" type="button">编辑本题</button>
         </div>
 
         <section id="notePanel" class="note-panel hidden">
           <div class="note-head">
             <div>
-              <h3>������� / ����</h3>
-              <p id="noteQuestionTitle">��ǰ��</p>
+              <h3>本题题解 / 评论</h3>
+              <p id="noteQuestionTitle">当前题</p>
             </div>
-            <span id="noteSaveTip" class="note-save-tip">�����Զ����浽����</span>
+            <span id="noteSaveTip" class="note-save-tip">题解会自动保存到本机</span>
           </div>
 
-          <label class="note-label" for="explanationInput">��⣨�ɱ༭��</label>
-          <textarea id="explanationInput" class="note-textarea" rows="4" placeholder="����д����ԭ�򡢼��䷽����֧�� Markdown������**D����ʱ�����** ��Ҫ�����й���ɫ�������������ϵ�еı�����"></textarea>
+          <label class="note-label" for="explanationInput">题解（可编辑）</label>
+          <textarea id="explanationInput" class="note-textarea" rows="4" placeholder="可以写错项原因、记忆方法，支持 Markdown。例：**D（与时俱进）** 主要属于中国特色社会主义理论体系中的表述。"></textarea>
           <div id="explanationPreview" class="explanation-preview markdown-body"></div>
 
-          <label class="note-label" for="commentInput">����</label>
+          <label class="note-label" for="commentInput">评论</label>
           <div class="comment-editor">
-            <textarea id="commentInput" class="comment-input" rows="2" placeholder="дһ�����ۣ����磺�������װ�ʵ�����Ǻ���ʱ���������"></textarea>
-            <button id="addCommentBtn" class="ghost comment-add" type="button">��������</button>
+            <textarea id="commentInput" class="comment-input" rows="2" placeholder="写一条评论，例如：这题容易把实事求是和与时俱进混淆。"></textarea>
+            <button id="addCommentBtn" class="ghost comment-add" type="button">发表评论</button>
           </div>
           <div id="commentList" class="comment-list"></div>
         </section>
@@ -95,35 +95,35 @@
 
       <section id="reviewList" class="review-list hidden"></section>
 
-      <section id="historyPanel" class="history-panel hidden" aria-label="������ˢ��Ŀ">
+      <section id="historyPanel" class="history-panel hidden" aria-label="本轮已刷题目">
         <div class="history-drawer">
           <div class="history-head">
             <div>
-              <h2>����б�</h2>
-              <p>ֻ��ʾ��ţ�����ʾ��Ŀȫ�ġ���ɫδ������ɫ��ȷ����ɫ���󣬵���ſ�������һ�⡣</p>
+              <h2>题号列表</h2>
+              <p>只显示题号，不显示题目全文。灰色未做，绿色正确，红色错误，点题号可跳回那一题。</p>
             </div>
-            <button id="closeHistoryBtn" class="history-close" type="button">�ر�</button>
+            <button id="closeHistoryBtn" class="history-close" type="button">关闭</button>
           </div>
           <div id="historyList" class="history-list"></div>
         </div>
       </section>
 
-        <section id="localAiPanel" class="local-ai-panel hidden" aria-label="���� AI �ʴ�">
+        <section id="localAiPanel" class="local-ai-panel hidden" aria-label="本机 AI 问答">
           <div class="local-ai-panel-head">
             <div>
-              <h2>���� AI �ʴ�</h2>
-              <p>��Ե�ǰ��Ŀ���ʣ����� AI ��æ����</p>
+              <h2>本机 AI 问答</h2>
+              <p>针对当前题目提问，或让 AI 帮忙分析</p>
             </div>
             <div class="local-ai-panel-actions">
-              <button id="localAiSettingsBtn" class="ghost small-btn" type="button" title="AI ����">?</button>
-              <button id="localAiThinkBtn" class="ghost small-btn" type="button">���˼������</button>
-              <button id="localAiClearBtn" class="ghost small-btn" type="button">���������</button>
+              <button id="localAiSettingsBtn" class="ghost small-btn" type="button" title="AI 设置">?</button>
+              <button id="localAiThinkBtn" class="ghost small-btn" type="button">深度思考：关</button>
+              <button id="localAiClearBtn" class="ghost small-btn" type="button">清空上下文</button>
             </div>
           </div>
           <div id="localAiOutput" class="local-ai-output markdown-body"></div>
           <div class="local-ai-chat">
-            <textarea id="localAiQuestionInput" rows="2" placeholder="��Ե�ǰ��Ŀ���ʣ����磺Ϊʲô B ���ԣ�"></textarea>
-            <button id="localAiAskBtn" class="ghost" type="button">����</button>
+            <textarea id="localAiQuestionInput" rows="2" placeholder="针对当前题目提问，例如：为什么 B 不对？"></textarea>
+            <button id="localAiAskBtn" class="ghost" type="button">发送</button>
           </div>
         </section>
     </main>
@@ -132,12 +132,12 @@
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
-  <script src="questions_computer_org_choice.js"></script>
-  <script src="questions_computer_org_fill.js"></script>
+  <script src="questions_computer_org_choice.js?v=56"></script>
+  <script src="questions_computer_org_fill.js?v=56"></script>
   <script src="questions.js?v=56"></script>
   <script src="config.js?v=56"></script>
   <script src="utils.js?v=56"></script>
-  <script src="manual.js"></script>
+  <script src="manual.js?v=56"></script>
   <script src="data.js?v=56"></script>
   <script src="sync.js?v=56"></script>
   <script src="state.js?v=56"></script>
