@@ -60,12 +60,14 @@ function loadProgress() {
 function clearSavedProgress() {
   const existing = getLocalProgressState();
   localStorage.removeItem(PROGRESS_KEY);
-  deleteProgressFromCloud(existing);
+  return deleteProgressFromCloud(existing);
 }
 
-function saveProgress() {
+function saveProgress(options = {}) {
   if (!document.body || document.body.dataset.page !== 'practice') return;
   if (!state.settings || !state.pool.length) return;
+  const previous = loadProgress();
+  const preserveTimestamp = options.touch === false && previous?.savedAt;
   const selected = [...state.selected].sort().join('');
   const payload = {
     bankSize: questions.length,
@@ -80,7 +82,9 @@ function saveProgress() {
     wrongReplayCount: state.wrongReplayCount,
     roundId: state.roundId,
     restoredHistoryLen: state.restoredHistoryLen,
-    savedAt: Date.now(),
+    savedAt: preserveTimestamp ? Number(previous.savedAt) : Date.now(),
+    _cloudUpdatedAt: Number(previous?._cloudUpdatedAt || 0),
+    _cloudSavedAt: Number(previous?._cloudSavedAt || 0),
   };
   localStorage.setItem(PROGRESS_KEY, JSON.stringify(payload));
   saveProgressToCloud(payload);

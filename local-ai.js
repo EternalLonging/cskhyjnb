@@ -808,6 +808,16 @@ function executeAiEditsFromResponse(questionId, text) {
     : (typeof questionById === 'function' ? questionById(questionId) : null);
   if (!q) return 0;
 
+  const adminReady = sessionStorage.getItem(ADMIN_AUTH_KEY) === 'ok'
+    && typeof getAdminCredential === 'function'
+    && Boolean(getAdminCredential());
+  if (!adminReady) {
+    if (typeof ensureAdminUnlocked === 'function') {
+      ensureAdminUnlocked(() => executeAiEditsFromResponse(questionId, text));
+    }
+    return 0;
+  }
+
   const descriptions = commands.map(c => {
     const f = c.field.toLowerCase();
     if (/^option_?\d+$/.test(f)) {

@@ -4,9 +4,8 @@
 // =============================================================================
 
 const adminPasswordState = {
-  loaded: false,
-  loading: null,
-  password: ADMIN_PASSWORD,
+  loaded: true,
+  password: '',
   updatedAt: 0,
 };
 
@@ -43,100 +42,128 @@ function writeLocalAdminPasswordRecord(password, updatedAt = Date.now()) {
   return true;
 }
 
-function getAdminPassword() {
-  const local = readLocalAdminPasswordRecord();
-  if (local.password) return local.password;
-  return adminPasswordState.password || ADMIN_PASSWORD;
+function clearLegacyAdminPasswordRecord() {
+  localStorage.removeItem(ADMIN_PASSWORD_STORAGE);
+  localStorage.removeItem(ADMIN_PASSWORD_TS_STORAGE);
+  adminPasswordState.password = '';
+  adminPasswordState.updatedAt = 0;
 }
 
-function saveAdminPasswordToCloud(password, updatedAt = Date.now()) {
+function getAdminCredential() {
+  return String(sessionStorage.getItem(ADMIN_CREDENTIAL_STORAGE) || adminPasswordState.password || '').trim();
+}
+
+function rememberAdminCredential(password) {
   const cleaned = String(password || '').trim();
-  if (!cleaned) return;
-  const client = initSupabaseClient();
-  if (!client) return;
-  const state = { password: cleaned, updatedAt: Number(updatedAt || Date.now()) };
-  client.from('study_progress').upsert({
+  if (!cleaned) return false;
+  adminPasswordState.password = cleaned;
+  sessionStorage.setItem(ADMIN_CREDENTIAL_STORAGE, cleaned);
+  sessionStorage.setItem(ADMIN_AUTH_KEY, 'ok');
+  return true;
+}
+
+function getAdminPassword() {
+  const credential = getAdminCredential();
+  if (credential) return credential;
+  const local = readLocalAdminPasswordRecord();
+  if (local.password) return local.password;
+  return ADMIN_PASSWORD;
+}
+
+function isMissingRpcError(error) {
+  const code = String(error?.code || '');
+  const message = String(error?.message || error || '');
+  return code === 'PGRST202' || /function .* could not be found|schema cache/i.test(message);
+}
+
+async function loadLegacyAdminPassword(client) {
+  const { data, error } = await client
+    .from('study_progress')
+    .select('state,updated_at')
+    .eq('sync_key', ADMIN_PASSWORD_SYNC_KEY)
+    .eq('deck_key', ADMIN_PASSWORD_DECK_KEY)
+    .maybeSingle();
+  if (error) throw error;
+  const password = String(data?.state?.password || '').trim();
+  if (password) writeLocalAdminPasswordRecord(password, new Date(data?.updated_at || 0).getTime() || Date.now());
+  return password || getAdminPassword();
+}
+
+async function saveLegacyAdminPassword(client, password) {
+  const updatedAt = Date.now();
+  const { error } = await client.from('study_progress').upsert({
     sync_key: ADMIN_PASSWORD_SYNC_KEY,
     deck_key: ADMIN_PASSWORD_DECK_KEY,
-    state,
-    updated_at: new Date(state.updatedAt).toISOString(),
-  }).then(({ error }) => {
-    if (error) console.warn('保存管理密码到云端失败：', error);
+    state: { password, updatedAt },
+    updated_at: new Date(updatedAt).toISOString(),
   });
+  if (error) throw error;
+}
+
+async function verifyAdminPassword(password) {
+  const cleaned = String(password || '').trim();
+  if (!cleaned) return false;
+  const client = initSupabaseClient();
+  if (client) {
+    const { data, error } = await client.rpc('verify_quiz_admin_password', { p_password: cleaned });
+    if (!error) {
+      const verified = data === true || data?.success === true;
+      if (verified) clearLegacyAdminPasswordRecord();
+      return verified;
+    }
+    if (!isMissingRpcError(error)) {
+      console.warn('验证管理密码失败：', error);
+      return false;
+    }
+    try {
+      return cleaned === await loadLegacyAdminPassword(client);
+    } catch (legacyError) {
+      console.warn('兼容模式验证管理密码失败：', legacyError);
+    }
+  }
+  return cleaned === getAdminPassword();
+}
+
+async function changeAdminPassword(oldPassword, newPassword) {
+  const oldCleaned = String(oldPassword || '').trim();
+  const cleaned = String(newPassword || '').trim();
+  if (!oldCleaned || cleaned.length < 8) return false;
+  const client = initSupabaseClient();
+  if (client) {
+    const { data, error } = await client.rpc('change_quiz_admin_password', {
+      p_old_password: oldCleaned,
+      p_new_password: cleaned,
+    });
+    if (error && !isMissingRpcError(error)) throw error;
+    if (!error && (data === true || data?.success === true)) {
+      clearLegacyAdminPasswordRecord();
+      rememberAdminCredential(cleaned);
+      return true;
+    }
+    if (isMissingRpcError(error)) {
+      const legacyPassword = await loadLegacyAdminPassword(client);
+      if (oldCleaned !== legacyPassword) return false;
+      await saveLegacyAdminPassword(client, cleaned);
+      writeLocalAdminPasswordRecord(cleaned, Date.now());
+      rememberAdminCredential(cleaned);
+      return true;
+    }
+    return false;
+  }
+  if (oldCleaned !== getAdminPassword()) return false;
+  writeLocalAdminPasswordRecord(cleaned, Date.now());
+  rememberAdminCredential(cleaned);
+  return true;
 }
 
 async function loadAdminPasswordFromCloud() {
-  if (adminPasswordState.loading) return adminPasswordState.loading;
-  adminPasswordState.loading = (async () => {
-    const local = readLocalAdminPasswordRecord();
-    if (local.password) {
-      adminPasswordState.password = local.password;
-      adminPasswordState.updatedAt = Number(local.updatedAt || 0);
-    }
-    const client = initSupabaseClient();
-    if (!client) {
-      adminPasswordState.loaded = true;
-      return getAdminPassword();
-    }
-    try {
-      const localTs = Number(local.updatedAt || 0);
-      if (local.password && shouldSkipCloudCheck(ADMIN_PASSWORD_CLOUD_CHECK_KEY)) {
-        adminPasswordState.loaded = true;
-        return getAdminPassword();
-      }
-      const { data: metaRow, error: metaError } = await client
-        .from('study_progress')
-        .select('updated_at')
-        .eq('sync_key', ADMIN_PASSWORD_SYNC_KEY)
-        .eq('deck_key', ADMIN_PASSWORD_DECK_KEY)
-        .maybeSingle();
-      if (metaError) throw metaError;
-      markCloudChecked(ADMIN_PASSWORD_CLOUD_CHECK_KEY);
-      const remoteTsHint = Number(new Date(metaRow?.updated_at || 0).getTime() || 0);
-      if (local.password && remoteTsHint && remoteTsHint <= localTs) {
-        adminPasswordState.loaded = true;
-        return getAdminPassword();
-      }
-      const { data, error } = await client
-        .from('study_progress')
-        .select('state,updated_at')
-        .eq('sync_key', ADMIN_PASSWORD_SYNC_KEY)
-        .eq('deck_key', ADMIN_PASSWORD_DECK_KEY)
-        .maybeSingle();
-      if (error) throw error;
-      const remoteState = data?.state || null;
-      const remotePassword = String(remoteState?.password || '').trim();
-      const remoteTs = Number(remoteState?.updatedAt || new Date(data?.updated_at || 0).getTime() || 0);
-      const localNow = readLocalAdminPasswordRecord();
-      if (remotePassword && remoteTs >= Number(localNow.updatedAt || 0)) {
-        writeLocalAdminPasswordRecord(remotePassword, remoteTs || Date.now());
-      } else if (localNow.password && Number(localNow.updatedAt || 0) > remoteTs) {
-        saveAdminPasswordToCloud(localNow.password, Number(localNow.updatedAt || Date.now()));
-      } else if (!remotePassword && localNow.password) {
-        saveAdminPasswordToCloud(localNow.password, Number(localNow.updatedAt || Date.now()));
-      }
-    } catch (err) {
-      console.warn('加载云端管理密码失败：', err);
-    }
-    adminPasswordState.loaded = true;
-    return getAdminPassword();
-  })().finally(() => {
-    adminPasswordState.loading = null;
-  });
-  return adminPasswordState.loading;
-}
-
-function setAdminPassword(newPassword) {
-  const cleaned = String(newPassword || '').trim();
-  if (!cleaned) return false;
-  const ts = Date.now();
-  writeLocalAdminPasswordRecord(cleaned, ts);
-  saveAdminPasswordToCloud(cleaned, ts);
-  return true;
+  adminPasswordState.loaded = true;
+  return false;
 }
 
 const syncState = {
   client: null,
+  clientSyncKey: '',
   key: '',
   enabled: false,
   accessMode: '',
@@ -150,6 +177,7 @@ const noteFetchState = {
 
 let pendingProgressCloudPayload = null;
 let progressCloudTimer = null;
+let progressCloudWriteQueue = Promise.resolve();
 
 function refreshHomeAfterCloudUpdate() {
   if (!isHomePage()) return;
@@ -202,19 +230,32 @@ async function loadQuestionEditsFromCloud(options = {}) {
   return false;
 }
 
-function saveQuestionEditsToCloud(edits) {
+async function saveQuestionEditsToCloud(edits) {
   const client = initSupabaseClient();
-  if (!client) return;
+  if (!client) return false;
   const payload = normalizeQuestionEdits(edits);
   payload.updatedAt = Number(payload.updatedAt || Date.now());
-  client.from('study_progress').upsert({
-    sync_key: QUESTION_EDIT_SYNC_KEY,
-    deck_key: QUESTION_EDIT_DECK_KEY,
-    state: payload,
-    updated_at: new Date(payload.updatedAt).toISOString(),
-  }).then(({ error }) => {
-    if (error) console.warn('保存题库修改失败：', error);
-  });
+  const credential = getAdminPassword();
+  try {
+    const { data, error } = await client.rpc('admin_save_question_edits', {
+      p_admin_password: credential,
+      p_state: payload,
+    });
+    if (!error) return data === true || data?.success === true;
+    if (!isMissingRpcError(error)) throw error;
+
+    const { error: legacyError } = await client.from('study_progress').upsert({
+      sync_key: QUESTION_EDIT_SYNC_KEY,
+      deck_key: QUESTION_EDIT_DECK_KEY,
+      state: payload,
+      updated_at: new Date(payload.updatedAt).toISOString(),
+    });
+    if (legacyError) throw legacyError;
+    return true;
+  } catch (error) {
+    console.warn('保存题库修改失败：', error);
+    return false;
+  }
 }
 
 function saveQuestionEdits(edits) {
@@ -222,7 +263,9 @@ function saveQuestionEdits(edits) {
   normalized.updatedAt = Date.now();
   const saved = saveQuestionEditsLocal(normalized);
   saveQuestionEditsToCloud(saved);
+  const existingProgress = getLocalProgressState();
   localStorage.removeItem(PROGRESS_KEY);
+  deleteProgressFromCloud(existingProgress);
   localStorage.removeItem(FORCE_RESTART_KEY);
   return saved;
 }
@@ -505,17 +548,31 @@ async function loadCourseTagsFromCloud(options = {}) {
   } catch (err) { console.warn('加载课程标签失败：', err); }
   return false;
 }
-function saveCourseTagsToCloud(tags) {
+async function saveCourseTagsToCloud(tags) {
   const client = initSupabaseClient();
-  if (!client) return;
+  if (!client) return false;
   const state = { tags: tags || {}, updatedAt: Date.now() };
   saveCourseTagsLocal(state.tags, state.updatedAt);
-  client.from('study_progress').upsert({
-    sync_key: COURSE_TAGS_SYNC_KEY,
-    deck_key: COURSE_TAGS_DECK_KEY,
-    state,
-    updated_at: new Date(state.updatedAt).toISOString(),
-  }).then(({ error }) => { if (error) console.warn('保存课程标签失败：', error); });
+  try {
+    const { data, error } = await client.rpc('admin_save_course_tags', {
+      p_admin_password: getAdminPassword(),
+      p_state: state,
+    });
+    if (!error) return data === true || data?.success === true;
+    if (!isMissingRpcError(error)) throw error;
+
+    const { error: legacyError } = await client.from('study_progress').upsert({
+      sync_key: COURSE_TAGS_SYNC_KEY,
+      deck_key: COURSE_TAGS_DECK_KEY,
+      state,
+      updated_at: new Date(state.updatedAt).toISOString(),
+    });
+    if (legacyError) throw legacyError;
+    return true;
+  } catch (error) {
+    console.warn('保存课程标签失败：', error);
+    return false;
+  }
 }
 function addTagToCourse(course, tag) {
   const c = String(course || '').trim();
@@ -825,10 +882,15 @@ function initSupabaseClient() {
     renderSyncBadge();
     return null;
   }
-  if (!syncState.client) {
+  const requestSyncKey = String(syncState.key || localStorage.getItem(SYNC_KEY_STORAGE) || '').trim();
+  if (!syncState.client || syncState.clientSyncKey !== requestSyncKey) {
     syncState.client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
       auth: { persistSession: false, autoRefreshToken: false },
+      global: {
+        headers: requestSyncKey ? { [SYNC_KEY_HEADER]: encodeBase64Utf8(requestSyncKey) } : {},
+      },
     });
+    syncState.clientSyncKey = requestSyncKey;
   }
   return syncState.client;
 }
@@ -842,6 +904,9 @@ async function initSync(key) {
   syncState.status = '正在同步...';
   renderSyncBadge();
   try {
+    // 上次真正卸载时若完整历史记录超过 keepalive 上限，会留在本地；
+    // 下次连上同一个同步码后先用普通请求补传，避免永久漏掉这轮记录。
+    retryPendingHistoryArchive().catch(() => {});
     // 全站题库修改、管理密码、专题标签采用本地优先 + 后台检查，减少首页等待时间。
     loadGlobalCloudAssetsInBackground();
     if (isPracticePage()) {
@@ -881,7 +946,11 @@ function loadUserMetaInBackground() {
   Promise.allSettled([
     loadMetaFromCloud(),
     !localStorage.getItem(FORCE_RESTART_KEY) ? loadCurrentProgressFromCloud() : Promise.resolve(),
-  ]).then(() => {
+  ]).then(results => {
+    const progressResult = results[1]?.status === 'fulfilled' ? results[1].value : null;
+    if (progressResult?.applied && isPracticePage() && typeof applyCloudProgressToActiveQuiz === 'function') {
+      applyCloudProgressToActiveQuiz(progressResult);
+    }
     syncState.status = '已同步';
     renderSyncBadge();
   });
@@ -933,26 +1002,40 @@ async function loadCurrentProgressFromCloud() {
   // 查找该 sync_key 下所有进度，取最新一条（跨设备无需签名完全匹配）
   const { data, error } = await syncState.client
     .from('study_progress')
-    .select('state,updated_at')
+    .select('deck_key,state,updated_at')
     .eq('sync_key', syncState.key)
     .like('deck_key', 'progress:%')
     .order('updated_at', { ascending: false })
     .limit(1)
     .maybeSingle();
   if (error) throw error;
-  if (!data || !data.state) return;
+  if (!data || !data.state) return { applied: false };
   const local = getLocalProgressState();
   const remote = data.state;
-  // 优先用服务器时间（updated_at），避免设备时钟偏差
   const remoteServerTs = new Date(data.updated_at || 0).getTime() || 0;
   const remoteClientTs = Number(remote.savedAt || 0);
-  const remoteTs = remoteServerTs || remoteClientTs;
-  const localTs = Number(local?.savedAt || 0);
-  if (!local || remoteTs >= localTs) {
-    // 标记为云端恢复的进度，放宽匹配条件
-    remote._fromCloud = true;
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(remote));
+  const localCloudTs = Number(local?._cloudUpdatedAt || 0);
+  const localSavedAt = Number(local?.savedAt || 0);
+  const localCloudSavedAt = Number(local?._cloudSavedAt || 0);
+  const localHasUnsyncedChanges = Boolean(local && localCloudSavedAt && localSavedAt !== localCloudSavedAt);
+  const shouldApplyRemote = !local
+    || (localCloudTs
+      ? (!localHasUnsyncedChanges && remoteServerTs > localCloudTs)
+      : remoteClientTs >= localSavedAt);
+
+  if (!shouldApplyRemote) return { applied: false };
+  if (remote._progressDeleted || data.deck_key === PROGRESS_TOMBSTONE_DECK) {
+    localStorage.removeItem(PROGRESS_KEY);
+    return { applied: true, deleted: true };
   }
+  if (Array.isArray(remote.pool) && remote.pool.length) {
+    remote._fromCloud = true;
+    remote._cloudUpdatedAt = remoteServerTs;
+    remote._cloudSavedAt = remoteClientTs;
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(remote));
+    return { applied: true, deleted: false };
+  }
+  return { applied: false };
 }
 
 function saveProgressToCloud(payload) {
@@ -963,8 +1046,22 @@ function saveProgressToCloud(payload) {
   progressCloudTimer = setTimeout(flushProgressToCloud, isDesktopHistoryLayout() ? 3000 : 5000);
 }
 
+function enqueueProgressCloudWrite(operation) {
+  const result = progressCloudWriteQueue.then(operation, operation);
+  progressCloudWriteQueue = result.catch(() => false);
+  return result;
+}
+
+function markProgressPayloadSynced(savedAt, serverUpdatedAt) {
+  const current = getLocalProgressState();
+  if (!current || Number(current.savedAt || 0) !== Number(savedAt || 0)) return;
+  current._cloudUpdatedAt = Number(serverUpdatedAt || Date.now());
+  current._cloudSavedAt = Number(savedAt || 0);
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(current));
+}
+
 function flushProgressToCloud() {
-  if (!syncState.enabled || !syncState.client || !syncState.key || !pendingProgressCloudPayload) return;
+  if (!syncState.enabled || !syncState.client || !syncState.key || !pendingProgressCloudPayload) return progressCloudWriteQueue;
   const payload = pendingProgressCloudPayload;
   pendingProgressCloudPayload = null;
   if (progressCloudTimer) {
@@ -974,28 +1071,52 @@ function flushProgressToCloud() {
   const deckKey = syncDeckKey(payload.signature || settingsSignature(payload.settings || readSettings()));
   const now = Date.now();
   const remotePayload = { ...payload, savedAt: payload.savedAt || now };
-  syncState.client.from('study_progress').upsert({
-    sync_key: syncState.key,
-    deck_key: deckKey,
-    state: remotePayload,
-    updated_at: new Date(remotePayload.savedAt).toISOString(),
-  }).then(({ error }) => {
-    if (error) console.warn('保存进度失败：', error);
+  return enqueueProgressCloudWrite(async () => {
+    const { data, error } = await syncState.client.from('study_progress').upsert({
+      sync_key: syncState.key,
+      deck_key: deckKey,
+      state: remotePayload,
+      updated_at: new Date(now).toISOString(),
+    }).select('updated_at').maybeSingle();
+    if (error) {
+      console.warn('保存进度失败：', error);
+      return false;
+    }
+    const serverUpdatedAt = new Date(data?.updated_at || 0).getTime() || now;
+    markProgressPayloadSynced(remotePayload.savedAt, serverUpdatedAt);
+    return true;
   });
 }
 
 function deleteProgressFromCloud(payload) {
   pendingProgressCloudPayload = null;
   if (progressCloudTimer) { clearTimeout(progressCloudTimer); progressCloudTimer = null; }
-  if (!syncState.enabled || !syncState.client || !syncState.key) return;
-  const settings = payload?.settings || state.settings || readSettings();
-  const signature = payload?.signature || settingsSignature(settings);
-  const deckKey = syncDeckKey(signature);
-  syncState.client.from('study_progress')
-    .delete()
-    .eq('sync_key', syncState.key)
-    .eq('deck_key', deckKey)
-    .then(({ error }) => { if (error) console.warn('删除云端进度失败：', error); });
+  if (!syncState.enabled || !syncState.client || !syncState.key) return Promise.resolve(false);
+  const deletedAt = Date.now();
+  const tombstone = {
+    _progressDeleted: true,
+    deletedAt,
+    savedAt: deletedAt,
+    roundId: Number(payload?.roundId || 0),
+  };
+  return enqueueProgressCloudWrite(async () => {
+    try {
+      const { error } = await syncState.client.from('study_progress').upsert({
+        sync_key: syncState.key,
+        deck_key: PROGRESS_TOMBSTONE_DECK,
+        state: tombstone,
+        updated_at: new Date(deletedAt).toISOString(),
+      });
+      if (error) {
+        console.warn('清除云端进度失败：', error);
+        return false;
+      }
+      return true;
+    } catch (error) {
+      console.warn('清除云端进度失败：', error);
+      return false;
+    }
+  });
 }
 
 // ——— 题解/评论云端同步 ———
@@ -1200,29 +1321,41 @@ async function recordQuestionAttemptToCloud(questionId, isCorrect) {
   const client = initSupabaseClient();
   if (!client) return null;
   try {
-    // 读取当前云端统计
-    const { data, error: readErr } = await client
-      .from('study_progress')
-      .select('state,updated_at')
-      .eq('sync_key', QUESTION_STATS_SYNC_KEY)
-      .eq('deck_key', QUESTION_STATS_PREFIX + questionId)
-      .maybeSingle();
-    if (readErr) throw readErr;
-    const current = data?.state || { total: 0, correct: 0 };
-    const stats = {
-      total: Number(current.total || 0) + 1,
-      correct: Number(current.correct || 0) + (isCorrect ? 1 : 0),
-      updatedAt: nowTs(),
-    };
-    // 写回云端
-    const { error: writeErr } = await client.from('study_progress').upsert({
-      sync_key: QUESTION_STATS_SYNC_KEY,
-      deck_key: QUESTION_STATS_PREFIX + questionId,
-      state: stats,
-      updated_at: new Date(stats.updatedAt).toISOString(),
+    const { data: rpcData, error: rpcError } = await client.rpc('record_question_attempt', {
+      p_question_id: String(questionId),
+      p_is_correct: Boolean(isCorrect),
     });
-    if (writeErr) throw writeErr;
-    // 更新本地缓存
+    let stats = rpcData?.state || rpcData;
+    if (rpcError) {
+      if (!isMissingRpcError(rpcError)) throw rpcError;
+      const { data, error: readError } = await client
+        .from('study_progress')
+        .select('state,updated_at')
+        .eq('sync_key', QUESTION_STATS_SYNC_KEY)
+        .eq('deck_key', QUESTION_STATS_PREFIX + questionId)
+        .maybeSingle();
+      if (readError) throw readError;
+      const current = data?.state || { total: 0, correct: 0 };
+      stats = {
+        total: Number(current.total || 0) + 1,
+        correct: Number(current.correct || 0) + (isCorrect ? 1 : 0),
+        updatedAt: nowTs(),
+      };
+      const { error: writeError } = await client.from('study_progress').upsert({
+        sync_key: QUESTION_STATS_SYNC_KEY,
+        deck_key: QUESTION_STATS_PREFIX + questionId,
+        state: stats,
+        updated_at: new Date(stats.updatedAt).toISOString(),
+      });
+      if (writeError) throw writeError;
+    }
+    stats = {
+      total: Number(stats?.total || 0),
+      correct: Number(stats?.correct || 0),
+      updatedAt: Number(stats?.updatedAt || Date.now()),
+    };
+    const cached = questionStatsCache[questionId];
+    if (cached && Number(cached.total || 0) > stats.total) return cached;
     questionStatsCache[questionId] = {
       total: stats.total,
       correct: stats.correct,
@@ -1307,10 +1440,135 @@ function archiveRoundLocal(record) {
 }
 
 // ——— 云端历史（同步模式） ———
-// 用原生 fetch + keepalive 写入：即使紧接着 location.href 跳转，请求也不会被中断，
-// 因此调用方无需 await，点「开始刷题」可立即跳转、不卡顿。
-function archiveRoundCloudBeacon(record) {
-  if (!syncState.enabled || !syncState.key) return;
+const HISTORY_ARCHIVE_KEEPALIVE_MAX_BYTES = 60 * 1024;
+const HISTORY_ARCHIVE_RETRY_STORAGE = 'quiz_pending_history_archive_v1';
+let lastSuccessfulHistoryArchiveToken = '';
+
+function historyArchiveToken(record) {
+  if (!record) return '';
+  return [
+    String(record.id || ''),
+    Number(record.savedAt || 0),
+    Array.isArray(record.history) ? record.history.length : 0,
+    record._historyMeta?.finished ? 1 : 0,
+  ].join('|');
+}
+
+function readPendingHistoryArchives() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(HISTORY_ARCHIVE_RETRY_STORAGE) || 'null');
+    if (!parsed || typeof parsed !== 'object') return [];
+    const entries = Array.isArray(parsed.entries) ? parsed.entries : [parsed];
+    return entries.filter(entry => entry && typeof entry === 'object' && entry.syncKey && entry.recordId);
+  } catch (err) {
+    localStorage.removeItem(HISTORY_ARCHIVE_RETRY_STORAGE);
+    return [];
+  }
+}
+
+function writePendingHistoryArchives(entries) {
+  const list = Array.isArray(entries) ? entries.filter(Boolean) : [];
+  if (!list.length) {
+    localStorage.removeItem(HISTORY_ARCHIVE_RETRY_STORAGE);
+    return true;
+  }
+  localStorage.setItem(HISTORY_ARCHIVE_RETRY_STORAGE, JSON.stringify({ version: 2, entries: list }));
+  return true;
+}
+
+function replacePendingHistoryEntry(entries, nextEntry) {
+  const otherKeys = entries.filter(entry => entry.syncKey !== nextEntry.syncKey);
+  const sameKey = entries
+    .filter(entry => entry.syncKey === nextEntry.syncKey && entry.recordId !== nextEntry.recordId)
+    .concat(nextEntry)
+    .sort((a, b) => Number(b.savedAt || 0) - Number(a.savedAt || 0))
+    .slice(0, HISTORY_MAX);
+  return otherKeys.concat(sameKey);
+}
+
+function queueHistoryArchiveRetry(record) {
+  const token = historyArchiveToken(record);
+  const base = {
+    syncKey: syncState.key,
+    token,
+    recordId: String(record?.id || ''),
+    roundId: Number(record?.roundId || 0),
+    savedAt: Number(record?.savedAt || 0),
+    finished: Boolean(record?._historyMeta?.finished),
+  };
+  const current = readPendingHistoryArchives();
+  try {
+    writePendingHistoryArchives(replacePendingHistoryEntry(current, { ...base, record }));
+    return true;
+  } catch (err) {
+    // If the full record cannot be duplicated, retain a marker. Destructive
+    // navigation checks for a full retry record before clearing progress.
+    try {
+      writePendingHistoryArchives(replacePendingHistoryEntry(current, base));
+    } catch (markerError) {
+      console.warn('保存历史补传标记失败：', markerError);
+    }
+    return false;
+  }
+}
+
+function isHistoryArchiveRetryDurable(record) {
+  const token = historyArchiveToken(record);
+  return readPendingHistoryArchives().some(entry => (
+    entry.syncKey === syncState.key
+    && entry.token === token
+    && entry.record
+    && entry.record.id
+  ));
+}
+
+function clearPendingHistoryArchive(record) {
+  const token = historyArchiveToken(record);
+  const pending = readPendingHistoryArchives();
+  const remaining = pending.filter(entry => !(entry.syncKey === syncState.key && entry.token === token));
+  if (remaining.length === pending.length) return;
+  try { writePendingHistoryArchives(remaining); }
+  catch (err) { console.warn('清理历史补传记录失败：', err); }
+}
+
+function pendingHistoryArchiveRecord(pending) {
+  if (pending?.record && pending.record.id) return pending.record;
+  const progress = getLocalProgressState();
+  const rebuilt = buildHistoryRecord(progress, Boolean(pending?.finished));
+  if (!rebuilt || String(rebuilt.id) !== String(pending?.recordId || '')) return null;
+  return rebuilt;
+}
+
+async function retryPendingHistoryArchive() {
+  if (!syncState.enabled || !syncState.key) return false;
+  // Resolve marker-only entries before the first network await because cloud
+  // progress loading may replace PROGRESS_KEY while this loop is running.
+  const pending = readPendingHistoryArchives()
+    .filter(entry => entry.syncKey === syncState.key)
+    .map(entry => ({ entry, record: pendingHistoryArchiveRecord(entry) }));
+  if (!pending.length) return false;
+  let allUploaded = true;
+  for (const item of pending) {
+    if (!item.record) {
+      console.warn('历史补传记录已不存在，暂时保留补传标记。');
+      allUploaded = false;
+      continue;
+    }
+    if (!await archiveRoundCloudBeacon(item.record)) allUploaded = false;
+  }
+  return allUploaded;
+}
+
+// 普通交互使用可等待的标准 fetch；只有 pagehide/beforeunload 才允许 keepalive。
+async function archiveRoundCloudBeacon(record, options = {}) {
+  if (!syncState.key || !record) return false;
+  const unload = options.unload === true;
+  const token = historyArchiveToken(record);
+  if (unload && token && token === lastSuccessfulHistoryArchiveToken) return true;
+  if (!syncState.enabled) {
+    queueHistoryArchiveRetry(record);
+    return false;
+  }
   const ts = Number(record.savedAt || nowTs());
   const body = JSON.stringify({
     sync_key: syncState.key,
@@ -1318,20 +1576,44 @@ function archiveRoundCloudBeacon(record) {
     state: record,
     updated_at: new Date(ts).toISOString(),
   });
-  return fetch(`${SUPABASE_URL}/rest/v1/study_progress`, {
+  if (unload) {
+    queueHistoryArchiveRetry(record);
+    if (utf8ByteLength(body) > HISTORY_ARCHIVE_KEEPALIVE_MAX_BYTES) {
+      console.warn('历史记录超过卸载补传上限，已留待下次启动时补传。');
+      return false;
+    }
+  }
+
+  const requestOptions = {
     method: 'POST',
-    keepalive: true,
     headers: {
       'apikey': SUPABASE_KEY,
       'Authorization': `Bearer ${SUPABASE_KEY}`,
       'Content-Type': 'application/json',
       'Prefer': 'resolution=merge-duplicates',
+      [SYNC_KEY_HEADER]: encodeBase64Utf8(syncState.key),
     },
     body,
-  }).then(() => {
-    // 修剪旧记录放在写入成功后后台进行，不阻塞跳转。
+  };
+  if (unload) requestOptions.keepalive = true;
+
+  try {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/study_progress`, requestOptions);
+    if (!response?.ok) {
+      if (!unload) queueHistoryArchiveRetry(record);
+      console.warn(`存档历史失败：HTTP ${Number(response?.status || 0) || '未知'}`);
+      return false;
+    }
+    lastSuccessfulHistoryArchiveToken = token;
+    clearPendingHistoryArchive(record);
+    // 仅确认写入成功后才修剪；修剪本身不阻塞正常跳转。
     trimHistoryCloud().catch(() => {});
-  }).catch(err => console.warn('后台存档历史失败：', err));
+    return true;
+  } catch (err) {
+    if (!unload) queueHistoryArchiveRetry(record);
+    console.warn('存档历史失败：', err);
+    return false;
+  }
 }
 async function trimHistoryCloud() {
   if (!syncState.enabled || !syncState.client || !syncState.key) return;
@@ -1389,8 +1671,8 @@ async function removeHistoryCloud(id) {
 // ——— 对外统一接口（UI 调用，按模式分流） ———
 
 // 把一份进度存档成历史记录。progress 默认取本地当前进度。
-// 同步返回（不阻塞）：本地立即写入；云端用 keepalive 后台发送，调用方无需 await。
-function archiveRound(finished, progress) {
+// 云端返回 Promise；正常交互必须 await，卸载路径传 { unload: true }。
+function archiveRound(finished, progress, options = {}) {
   const src = progress || getLocalProgressState();
   const record = buildHistoryRecord(src, finished);
   if (!record) return false;
@@ -1398,8 +1680,8 @@ function archiveRound(finished, progress) {
     archiveRoundLocal(record);
     return true;
   }
-  // 返回 beacon 的 Promise，退出路径可 await 以确保写入完成再跳转。
-  return archiveRoundCloudBeacon(record) || true;
+  return Promise.resolve(archiveRoundCloudBeacon(record, options))
+    .then(uploaded => uploaded || isHistoryArchiveRetryDurable(record));
 }
 
 // 本轮是否至少答过一题（有 right/wrong 记录）。看答案/未做不算。
@@ -1408,19 +1690,19 @@ function progressHasAttempts(progress) {
   return h.some(item => item && (item.result === 'right' || item.result === 'wrong'));
 }
 
-// 退出路径专用：仅当本轮有题池且做过题才归档。返回 Promise（云端）以便调用方 await 再跳转。
-function archiveRoundIfAttempted(progress) {
+// 退出路径专用：仅当本轮有题池且做过题才归档。
+function archiveRoundIfAttempted(progress, options = {}) {
   if (progress && Array.isArray(progress.pool) && progress.pool.length && progressHasAttempts(progress)) {
     // 从历史记录恢复后没有新增答题 → 跳过归档，避免用 finished=false 覆盖原已完成记录
     const restoredLen = Number(progress.restoredHistoryLen || 0);
     const curLen = Array.isArray(progress.history) ? progress.history.length : 0;
     if (restoredLen > 0 && curLen <= restoredLen) {
-      return Promise.resolve(false);
+      return Promise.resolve(true);
     }
-    try { return Promise.resolve(archiveRound(false, progress)); }
+    try { return Promise.resolve(archiveRound(false, progress, options)); }
     catch (err) { console.warn('存档历史失败：', err); }
   }
-  return Promise.resolve(false);
+  return Promise.resolve(true);
 }
 
 async function listHistoryRecords() {

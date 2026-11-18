@@ -29,6 +29,12 @@
     </header>
 
     <main class="panel quiz-panel single-page-quiz">
+      <section id="materialPanel" class="study-material hidden" aria-label="当前试卷材料">
+        <div class="material-topline"><span id="materialPaper"></span><span id="materialTitle"></span></div>
+        <div id="materialAudioArea" class="material-audio hidden"><div class="material-audio-label"><b>听力音轨</b><select id="materialRate" aria-label="播放速度"><option value="0.75">0.75×</option><option value="0.9">0.9×</option><option value="1">1×</option><option value="1.1">1.1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></div><audio id="materialAudio" controls preload="none"></audio><span id="materialAudioStatus" role="status"></span></div>
+        <div class="material-passage" id="materialPassage"></div><div id="materialChoices" class="material-choices"></div>
+        <div id="materialLinks" class="material-links"></div>
+      </section>
       <div class="toolbar">
         <div>
           <span class="pill" id="modePill">未开始</span>
@@ -133,23 +139,27 @@
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
-  <script src="questions_computer_org_choice.js?v=59"></script>
-  <script src="questions_computer_org_fill.js?v=59"></script>
-  <script src="questions.js?v=59"></script>
-  <script src="config.js?v=59"></script>
-  <script src="utils.js?v=59"></script>
-  <script src="manual.js?v=59"></script>
-  <script src="data.js?v=59"></script>
-  <script src="sync.js?v=59"></script>
-  <script src="state.js?v=59"></script>
-  <script src="ui.js?v=59"></script>
-  <script src="local-ai.js?v=59"></script>
-  <script src="app.js?v=59"></script>
+  <script src="questions_computer_org_choice.js?v=60"></script>
+  <script src="questions_computer_org_fill.js?v=60"></script>
+  <script src="questions.js?v=60"></script>
+  <script src="questions_xi_jinping.js"></script>
+  <script src="cet6-data.js?v=20"></script>
+  <script src="cet6-transcripts.js?v=2"></script>
+  <script src="config.js?v=60"></script>
+  <script src="utils.js?v=60"></script>
+  <script src="manual.js?v=60"></script>
+  <script src="data.js?v=61"></script>
+  <script src="sync.js?v=60"></script>
+  <script src="state.js?v=60"></script>
+  <script src="ui.js?v=61"></script>
+  <script src="local-ai.js?v=60"></script>
+  <script src="cet6.js?v=20"></script>
+  <script src="app.js?v=61"></script>
 
   <!-- PWA: register service worker -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=17');
+      navigator.serviceWorker.register('sw.js?v=23');
     }
   </script>
 </body>

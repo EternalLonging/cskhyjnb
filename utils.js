@@ -51,6 +51,17 @@ function escapeHtml(str) {
   return String(str ?? '').replace(/[&<>"]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[s]));
 }
 
+function encodeBase64Utf8(value) {
+  const bytes = new TextEncoder().encode(String(value || ''));
+  let binary = '';
+  bytes.forEach(byte => { binary += String.fromCharCode(byte); });
+  return btoa(binary);
+}
+
+function utf8ByteLength(value) {
+  return new TextEncoder().encode(String(value || '')).byteLength;
+}
+
 function sanitizeMarkdownImageUrl(url) {
   const raw = String(url || '').trim();
   if (!raw) return '';

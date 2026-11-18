@@ -10,11 +10,11 @@ GitHub Pages: `https://eternallonging.github.io/cskhyjnb/`
 
 ## How to Run
 
-**Local development** (recommended): Start an HTTP server serving from the project directory.
+**Local development** (recommended): Start the built-in localhost-only HTTP server from the project directory.
 ```bash
-node -e "const h=require('http'),fs=require('fs'),p=require('path'),m={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.json':'application/json'};h.createServer((q,r)=>{let u=q.url.split('?')[0];if(u=='/')u='/index.html';const fp=p.join('D:/shuatiwangzhan/1',u);try{const c=fs.readFileSync(fp);r.writeHead(200,{'Content-Type':m[p.extname(u)]||'text/plain','Cache-Control':'no-cache, no-store, must-revalidate'});r.end(c)}catch(e){r.writeHead(404);r.end('Not found: '+u)}}).listen(3000,()=>console.log('http://localhost:3000/'))"
+node server.js    # http://127.0.0.1:3000/
 ```
-Always use an absolute path for the server root (`D:/shuatiwangzhan/1`) — `process.cwd()` varies between bash/PowerShell/cmd. The `Cache-Control: no-cache` header prevents browser caching during development (SW still caches independently — bump `CACHE_NAME` in sw.js if stale).
+`server.js` resolves its root from `__dirname`, binds only to `127.0.0.1`, and uses `static-path.js` to reject malformed URLs and directory traversal. The `Cache-Control: no-cache` header prevents browser caching during development (SW still caches independently — bump `CACHE_NAME` in sw.js if stale).
 
 **Syntax check**: `node --check <file>.js`
 
@@ -54,7 +54,7 @@ No module system — all functions are global. The two computer-org files define
 | File | Purpose |
 |------|---------|
 | `manifest.json` | PWA config (name: 超时空辉夜姬, icon: 3.png) |
-| `sw.js` | Service Worker — pre-caches app shell. Cache name `quiz-v11`. Registration uses `sw.js?v=11` to bust HTTP cache. Bump cache name in sw.js AND the `?v=N` in both index.html/practice.html when updating SW. |
+| `sw.js` | Service Worker — pre-caches app shell. Cache name `quiz-v18`. Registration uses `sw.js?v=18` to bust HTTP cache. Bump cache name in sw.js AND the `?v=N` in both index.html/practice.html when updating SW. |
 | `package.json` / `electron-main.js` / `electron-builder.yml` | Electron desktop packaging |
 | `style.css` | All styles. Key sections: `:root` vars (line 1), auth overlays (~345), admin manager (~600), topic manager (~1130), topic tree cards (~1440), practice UI scattered throughout. Admin panel uses its own `--admin-*` CSS custom properties (defined in `:root`) for a cohesive light-luxury theme. |
 
@@ -67,7 +67,7 @@ No module system — all functions are global. The two computer-org files define
 ## Auth Model
 
 1. **Invite code** (sync/single mode gate) — Supabase RPC one-code-per-person system
-2. **Admin password** (question bank & topic management) — localStorage + cloud, session-level bypass (`sessionStorage.quiz_admin_unlocked_v1`)
+2. **Admin password** (question bank & topic management) — verified by Supabase RPC; the entered credential is retained only for the current browser session (`sessionStorage.quiz_admin_credential_v2`)
 
 Use `ensureAdminUnlocked(callback)` to gate admin features.
 
@@ -151,7 +151,8 @@ For automated testing, bypass auth gates by setting localStorage before page loa
 ```js
 localStorage.setItem('quiz_access_mode_v1', 'single');
 localStorage.setItem('quiz_sync_invite_authorized_v1', '{"__single_mode__":true}');
-sessionStorage.setItem('quiz_admin_unlocked_v1', 'ok');
+sessionStorage.setItem('quiz_admin_unlocked_v2', 'ok');
+sessionStorage.setItem('quiz_admin_credential_v2', 'test-only');
 ```
 
 ## Question Format & Normalization
@@ -207,7 +208,7 @@ The home page has two start-area buttons: **「开始刷题」** (`#restartHomeB
   - **Stable `roundId`**: each round gets a `roundId` (set in `startQuiz` for new rounds, recovered in `restoreProgressIfMatched` for resumed ones, stored in the progress payload by `saveProgress`). History records key off it (`history:<roundId>`), so the SAME round re-archived (exit → resume → exit) updates ONE record instead of spawning duplicates. `archiveRoundLocal` dedupes by `record.id`; cloud relies on `merge-duplicates` upsert.
   - **Archive only when attempted**: every NON-finish archive path (`backHomeBtn`, `pagehide`, `restartBtn`, `goPractice(restart)`, `resumeFromHistory`) goes through `archiveRoundIfAttempted(progress)`, which writes only if the round has ≥1 right/wrong answer (`progressHasAttempts`). This stops "entered practice, built pool, never answered, then restarted" from polluting history with `done:0` records. Only `finishQuiz` calls raw `archiveRound(true, ...)` directly. **When adding a new archive trigger, use `archiveRoundIfAttempted`, not `archiveRound`.**
   - Storage abstraction: UI/exit paths call `archiveRoundIfAttempted` / `archiveRound(finished, progress)` / `listHistoryRecords()` / `loadHistoryRecord(id)` / `removeHistoryRecord(id)`; these dispatch to cloud (`study_progress` rows keyed `history:<roundId>`) or local (`localStorage[HISTORY_KEY]` array) by mode.
-  - **Navigation timing**: cloud archive uses a raw `fetch(..., {keepalive:true})` POST to PostgREST and returns the Promise. On a button-click exit (`backHomeBtn`) the handler is `async` and **awaits** the archive before `location.href` — Chrome cancels a keepalive fetch fired in the same synchronous task as a navigation, so awaiting is required or the write is lost. On true unload (`pagehide`) you cannot await; keepalive is best-effort there.
+  - **Navigation timing**: normal button-click exits use a standard PostgREST `fetch` and **await** its result before navigation. Only true unload (`pagehide`/`beforeunload`) uses `keepalive`, and only when the UTF-8 body is at most 60 KiB. Larger or failed archives enter a per-sync-code, round-deduplicated retry queue in `quiz_pending_history_archive_v1` (up to `HISTORY_MAX` complete records) and are retried with normal requests on the next sync initialization. A destructive navigation clears progress only after the archive was uploaded or a complete retry copy was stored.
   - **List vs full record (cloud perf)**: `listHistoryCloud` selects only `state->_historyMeta` (alias `meta`), NOT the whole `state` (which embeds the full question pool). It returns lite records (`_lite:true`, no `pool`). "查看详情"/"继续刷" then call `loadHistoryRecord(id)` to fetch the full record on demand. This kept the list payload KB-sized on mobile/weak networks instead of downloading every round's pool.
   - "继续刷" (`resumeFromHistory`) writes the record's payload back to `PROGRESS_KEY` (with `_fromCloud`), saves its settings, and navigates to practice.html so the existing `restoreProgressIfMatched()` recovers it. Do NOT set `quiz_pending_topics` here — that would force a pool rebuild and discard the saved pool.
 
@@ -219,13 +220,20 @@ The home page has two start-area buttons: **「开始刷题」** (`#restartHomeB
 
 ## Progress & Settings Sync (Supabase)
 
-- **Progress** (`quiz_progress_v4`): Saved locally, synced to cloud on a 3-5s debounce. Cloud loaded only when local is empty (new device). Timestamp-based: server `updated_at` wins.
+- **Progress** (`quiz_progress_v4`): Saved locally, synced to cloud on a 3-5s debounce. PostgreSQL assigns `updated_at`; client clocks are never used for cloud ordering. Clearing progress writes a `progress:__deleted__` tombstone through a serialized write queue so an older row cannot reappear.
 - **Settings** (`quiz_settings_v2`): **Not synced to cloud**. Each device keeps its own topic selection.
 - **Wrong IDs** (`quiz_wrong_ids_v1`): Synced across devices via meta sync.
 
 ## Supabase RLS (security)
 
-The public anon key is shipped in `config.js` (client-only app), so RLS is the only real data protection. Current policy on `study_progress` and `question_notes`: **SELECT / INSERT / UPDATE allowed; DELETE denied by default**, EXCEPT a dedicated policy allowing DELETE of rows where `deck_key like 'history:%'` (so history records can be deleted but progress/bank/password rows cannot). When adding features that delete cloud rows, account for this — either use a `history:`-prefixed key, soft-delete via UPDATE, or add a narrowly-scoped DELETE policy.
+The public anon key is shipped in `config.js` (client-only app), so RLS is the real data boundary. Run `supabase_security_hardening.sql` in Supabase SQL Editor whenever setting up or upgrading the database.
+
+- Personal meta/progress/history/AI-ban rows require a Base64 UTF-8 `x-quiz-sync-key` request header matching the row's non-reserved `sync_key`.
+- Shared question edits, course tags, and aggregate question stats are public read-only. Admin writes use password-checking RPCs; question stats use the atomic `record_question_attempt` RPC.
+- The admin-password row and all other reserved rows are hidden from direct Data API access.
+- History DELETE is allowed only when both the request header and row `sync_key` match. Progress uses tombstones rather than DELETE.
+- Shared question notes/comments intentionally remain collaboratively writable under the one fixed shared namespace; this preserves the current product behavior.
+- All `study_progress.updated_at` and `question_notes.updated_at` values are overwritten by a server-time trigger.
 
 
 ## 开发经验：Pointer Events 自定义拖拽 + 图片元素

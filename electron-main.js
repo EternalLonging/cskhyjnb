@@ -3,6 +3,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { spawn, execSync } = require('child_process');
+const { resolveStaticPath } = require('./static-path');
 
 const PORT = 3000;
 const MIME = {
@@ -12,6 +13,10 @@ const MIME = {
   '.svg': 'image/svg+xml',
   '.png': 'image/png',
   '.webp': 'image/webp',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.mp3': 'audio/mpeg',
+  '.pdf': 'application/pdf',
   '.json': 'application/json',
 };
 
@@ -213,19 +218,33 @@ function createServer(rootDir) {
       return;
     }
 
-    let url = req.url.split('?')[0];
-    if (url === '/') url = '/index.html';
-    const filePath = path.join(rootDir, url);
-    if (!filePath.startsWith(rootDir)) {
-      res.writeHead(403);
-      res.end('Forbidden');
+    const resolved = resolveStaticPath(rootDir, req.url);
+    if (!resolved.ok) {
+      res.writeHead(resolved.statusCode);
+      res.end(resolved.message);
       return;
     }
+    const filePath = resolved.filePath;
     try {
-      const data = fs.readFileSync(filePath);
-      const ext = path.extname(filePath);
-      res.writeHead(200, { 'Content-Type': MIME[ext] || 'text/plain' });
-      res.end(data);
+      const stat = fs.statSync(filePath);
+      const ext = path.extname(filePath).toLowerCase();
+      const range = req.headers.range && /^bytes=(\d*)-(\d*)$/.exec(req.headers.range);
+      if (range && stat.isFile()) {
+        const start = range[1] ? Number(range[1]) : Math.max(0, stat.size - Number(range[2] || 0));
+        const end = range[2] ? Math.min(Number(range[2]), stat.size - 1) : stat.size - 1;
+        if (start >= stat.size || start > end) {
+          res.writeHead(416, { 'Content-Range': `bytes */${stat.size}`, 'Accept-Ranges': 'bytes' });
+          res.end();
+          return;
+        }
+        res.writeHead(206, { 'Content-Type': MIME[ext] || 'application/octet-stream',
+          'Content-Length': end - start + 1, 'Content-Range': `bytes ${start}-${end}/${stat.size}`, 'Accept-Ranges': 'bytes' });
+        fs.createReadStream(filePath, { start, end }).pipe(res);
+        return;
+      }
+      res.writeHead(200, { 'Content-Type': MIME[ext] || 'application/octet-stream',
+        'Content-Length': stat.size, 'Accept-Ranges': 'bytes' });
+      fs.createReadStream(filePath).pipe(res);
     } catch (e) {
       res.writeHead(404);
       res.end('Not Found');

@@ -1,7 +1,7 @@
-const CACHE_NAME = 'quiz-v17';
+const CACHE_NAME = 'quiz-v23';
 const SHELL_ASSETS = [
   '.','index.html','practice.html','style.css','manifest.json','3.png',
-  'questions_computer_org_choice.js','questions_computer_org_fill.js','questions.js','config.js','utils.js','data.js','sync.js','state.js','ui.js','topic-manager.js','local-ai.js','manual.js','app.js',
+  'questions_computer_org_choice.js','questions_computer_org_fill.js','questions.js','questions_xi_jinping.js','cet6-data.js','cet6-transcripts.js','cet6.js','config.js','utils.js','data.js','sync.js','state.js','ui.js','topic-manager.js','local-ai.js','manual.js','app.js',
 ];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(SHELL_ASSETS)).then(() => self.skipWaiting()));
@@ -14,6 +14,7 @@ self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   if (url.hostname === 'cdn.jsdelivr.net') { e.respondWith(networkFirst(e.request)); return; }
   if (url.hostname.includes('supabase.co')) return;
+  if (/\/assets\/cet6\/.*\.mp3$/i.test(url.pathname)) { e.respondWith(fetch(e.request)); return; }
   if (url.pathname.includes('/assets/')) { e.respondWith(staleWhileRevalidate(e.request)); return; }
   e.respondWith(cacheFirst(e.request));
 });

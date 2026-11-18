@@ -104,7 +104,7 @@ function renderQuestionNotes(q, options = {}) {
     if ($('addCommentBtn')) $('addCommentBtn').disabled = true;
     if ($('noteSaveTip')) $('noteSaveTip').textContent = '单机模式不支持题解/评论';
     if ($('commentList')) $('commentList').innerHTML = '<div class="comment-empty">当前是单机模式：会读取云端题库修改，但不能发布、编辑或查看云端题解和评论。</div>';
-    if ($('explanationPreview')) $('explanationPreview').innerHTML = ''; 
+    if ($('explanationPreview')) $('explanationPreview').innerHTML = renderCet6Transcript(q);
     return;
   }
 
@@ -120,7 +120,8 @@ function renderQuestionNotes(q, options = {}) {
 
   const note = getQuestionNote(q.id);
   if ($('explanationInput') && document.activeElement !== $('explanationInput')) $('explanationInput').value = note.explanation;
-  if ($('explanationPreview')) $('explanationPreview').innerHTML = note.explanation ? renderMarkdown(note.explanation) : '<span class="comment-empty">题解预览为空，支持 Markdown。</span>';
+  if ($('explanationPreview')) $('explanationPreview').innerHTML =
+    (note.explanation ? renderMarkdown(note.explanation) : '<span class="comment-empty">题解预览为空，支持 Markdown。</span>') + renderCet6Transcript(q);
   if ($('commentInput') && document.activeElement !== $('commentInput')) $('commentInput').value = '';
   if ($('noteSaveTip')) $('noteSaveTip').textContent = note.explanation ? '已加载本题保存的题解/评论' : '题解/评论会自动保存';
   renderCommentList(note);
@@ -134,7 +135,8 @@ function saveCurrentExplanation() {
   const note = getQuestionNote(q.id);
   note.explanation = $('explanationInput').value;
   saveQuestionNote(q.id, note);
-  if ($('explanationPreview')) $('explanationPreview').innerHTML = note.explanation ? renderMarkdown(note.explanation) : '<span class="comment-empty">题解预览为空，支持 Markdown。</span>';
+  if ($('explanationPreview')) $('explanationPreview').innerHTML =
+    (note.explanation ? renderMarkdown(note.explanation) : '<span class="comment-empty">题解预览为空，支持 Markdown。</span>') + renderCet6Transcript(q);
   if ($('noteSaveTip')) $('noteSaveTip').textContent = '已自动保存';
 }
 
@@ -528,7 +530,7 @@ function buildPool(settings) {
 }
 
 
-function goPractice(options = {}) {
+async function goPractice(options = {}) {
   const settings = collectHomeSettings();
   if (!settings.topics.length) {
     alert('至少选择一个专题再开始。');
@@ -538,10 +540,15 @@ function goPractice(options = {}) {
   if (options.restart) {
     // 重新开始：若本地有未刷完且做过题的进度，先存档历史，再强制重建题池。
     // 一题没做的空轮不归档（archiveRoundIfAttempted 内部判断）。
-    archiveRoundIfAttempted(getLocalProgressState());
+    let archiveSafe = false;
+    try { archiveSafe = await archiveRoundIfAttempted(getLocalProgressState()); } catch (err) {}
+    if (!archiveSafe) {
+      alert('历史记录暂存失败，当前进度已保留。请释放浏览器存储空间后重试。');
+      return;
+    }
     sessionStorage.setItem('quiz_pending_topics', JSON.stringify(settings.topics));
     localStorage.setItem(FORCE_RESTART_KEY, '1');
-    clearSavedProgress();
+    await clearSavedProgress();
   }
   window.location.href = 'practice.html';
 }
@@ -595,6 +602,11 @@ function applyPracticeHeader(settings, pool) {
 
 function startQuiz(settings, options = {}) {
   clearAutoTimer();
+  let cetLaunch = null;
+  try {
+    cetLaunch = JSON.parse(sessionStorage.getItem('quiz_pending_cet6_launch') || 'null');
+    if (cetLaunch) sessionStorage.removeItem('quiz_pending_cet6_launch');
+  } catch (_) {}
   // 如果从首页带了新选题，用 sessionStorage 中的选题覆盖
   // 重新开始：从 sessionStorage 获取选题并重建题池
   const pending = sessionStorage.getItem('quiz_pending_topics');
@@ -605,12 +617,28 @@ function startQuiz(settings, options = {}) {
       options.resume = false;
     } catch(e) {}
   }
+  if (cetLaunch) {
+    const launchPaper = window.CET6_DATA?.papers?.find(p => p.id === cetLaunch.paperId);
+    const launchQuestions = questions.filter(q => q.paperId === cetLaunch.paperId &&
+      (cetLaunch.section === 'all' || (cetLaunch.section === 'listening' ? q.number <= 25 : q.number >= 26)));
+    if (launchPaper && launchQuestions.length) {
+      settings.mode = 'practice'; settings.type = 'all'; settings.order = 'sequential';
+      settings.count = launchQuestions.length; settings.singleFirst = false;
+      settings.shuffleOptions = false; settings.autoSubmit = false; settings.autoNextCorrect = false;
+      settings.topics = [...new Set(launchQuestions.map(questionPathKey))];
+      settings._cet6 = { paperId: launchPaper.id, section: cetLaunch.section };
+    }
+  }
   const shouldResume = options.resume !== false;
   let restored = false;
   if (shouldResume) restored = restoreProgressIfMatched(settings);
 
   if (!restored) {
-    const pool = buildPool(settings);
+    const pool = cetLaunch
+      ? questions.filter(q => q.paperId === cetLaunch.paperId &&
+          (cetLaunch.section === 'all' || (cetLaunch.section === 'listening' ? q.number <= 25 : q.number >= 26)))
+        .map(q => prepareQuestion(q, settings))
+      : buildPool(settings);
     state.settings = settings;
     state.pool = pool;
     state.currentIndex = 0;
@@ -639,12 +667,27 @@ function startQuiz(settings, options = {}) {
     if ($('emptyState')) $('emptyState').innerHTML = '<h2>没有找到符合条件的题目</h2><p>可以返回首页换个专题/题型，或先积累错题后再进入错题重做。</p>';
     return;
   }
-  saveProgress();
+  saveProgress({ touch: !restored });
   if (settings.mode === 'review') renderReview(state.pool);
   else renderQuestion();
 }
 
+function applyCloudProgressToActiveQuiz(result) {
+  if (!isPracticePage()) return;
+  if (result?.deleted) {
+    startQuiz(readSettings(), { resume: false });
+    return;
+  }
+  const restored = restoreProgressIfMatched(readSettings());
+  if (!restored) return;
+  updateStats();
+  applyPracticeHeader(state.settings || readSettings(), state.pool);
+  if (state.settings?.mode === 'review') renderReview(state.pool);
+  else renderQuestion();
+}
+
 function renderReview(pool) {
+  renderQuestionMaterial(null);
   const box = $('reviewList');
   if (!box) return;
   box.classList.remove('hidden');
@@ -652,6 +695,7 @@ function renderReview(pool) {
     <article class="review-item">
       <div class="question-meta">${i + 1}. ${escapeHtml(q.topic)} · ${renderTypeName(q.type)} · 原题号 ${q.number}</div>
       <h3>${renderMarkdown(q.text)}</h3>
+      ${questionMaterial(q) ? `<details class="review-material"><summary>阅读材料 / 听力与原卷</summary>${materialReviewHtml(q)}</details>` : ''}
       ${isChoiceType(q.type) ? `<ol type="A">${q.options.map(o => `<li>${renderMarkdown(o.text)}</li>`).join('')}</ol>` : ''}
       <div class="review-answer">${isChoiceType(q.type) ? `答案：${escapeHtml(q.answer)}　` : '参考答案：'}${renderMarkdown(answerText(q))}</div>
     </article>
@@ -765,6 +809,7 @@ function renderQuestion() {
   state.checked = false;
   const q = state.current;
   applyPracticeHeader(state.settings || readSettings(), state.pool);
+  renderQuestionMaterial(q);
   $('questionCard')?.classList.remove('hidden');
   $('emptyState')?.classList.add('hidden');
   $('answerBox')?.classList.add('hidden');
@@ -825,6 +870,7 @@ function renderQuestion() {
   renderQuestionNotes(q);
   renderHistory();
   updateStats();
+  syncMaterialSelection?.();
   saveProgress();
 }
 
@@ -1181,7 +1227,7 @@ function appendWrongReplayIfNeeded() {
   return true;
 }
 
-function finishQuiz() {
+async function finishQuiz() {
   clearAutoTimer();
   if (appendWrongReplayIfNeeded()) {
     renderQuestion();
@@ -1197,7 +1243,13 @@ function finishQuiz() {
   const done = state.right + state.wrong;
   const rate = done ? Math.round(state.right / done * 100) : 0;
   // 刷完一轮：先存档历史记录（finished=true），再清当前进度。
-  try { archiveRound(true, getLocalProgressState()); } catch (err) { console.warn('存档历史失败：', err); }
+  let archiveSafe = false;
+  try { archiveSafe = await archiveRound(true, getLocalProgressState()); }
+  catch (err) { console.warn('存档历史失败：', err); }
+  if (!archiveSafe) {
+    alert('历史记录暂存失败，当前进度已保留。请释放浏览器存储空间后重试。');
+    return;
+  }
   clearSavedProgress();
   if ($('emptyState')) $('emptyState').innerHTML = `<h2>本轮完成</h2><p>做题 ${done} 道，正确 ${state.right} 道，错误 ${state.wrong} 道，正确率 ${rate}%。</p><p>错题已经全部重刷到正确，错题本也会随答对自动减少。</p><div class="actions finish-actions"><button class="primary" type="button" onclick="clearSavedProgress(); startQuiz(readSettings(), {resume:false})">再来一轮</button><button class="ghost" type="button" onclick="window.location.href='index.html'">返回首页</button></div>`;
   if ($('progressBar')) $('progressBar').style.width = '100%';
@@ -1210,7 +1262,7 @@ function adminTopicOptions() {
 
 async function ensureAdminUnlocked(action) {
   await loadAdminPasswordFromCloud();
-  if (sessionStorage.getItem(ADMIN_AUTH_KEY) === 'ok') {
+  if (sessionStorage.getItem(ADMIN_AUTH_KEY) === 'ok' && getAdminCredential()) {
     action();
     return;
   }
@@ -1224,21 +1276,27 @@ async function ensureAdminUnlocked(action) {
       <button id="adminPasswordSubmit" class="primary" type="button">进入题库管理</button>
       <button id="adminPasswordCancel" class="ghost" type="button">取消</button>
       <div id="adminPasswordError" class="auth-error"></div>
-      <span class="auth-hint">管理密码会优先从云端读取，修改后不会因清缓存恢复默认。</span>
+      <span class="auth-hint">管理密码由云端验证，不会下载到浏览器。</span>
     </div>
   `;
   document.body.appendChild(overlay);
   const input = overlay.querySelector('#adminPasswordInput');
   const error = overlay.querySelector('#adminPasswordError');
-  const submit = () => {
-    if ((input.value || '').trim() === getAdminPassword()) {
-      sessionStorage.setItem(ADMIN_AUTH_KEY, 'ok');
+  const submit = async () => {
+    const password = String(input.value || '').trim();
+    if (!password) return;
+    const button = overlay.querySelector('#adminPasswordSubmit');
+    button.disabled = true;
+    error.textContent = '正在验证...';
+    if (await verifyAdminPassword(password)) {
+      rememberAdminCredential(password);
       overlay.remove();
       action();
     } else {
       error.textContent = '管理密码错误。';
       input.value = '';
       input.focus();
+      button.disabled = false;
     }
   };
   overlay.querySelector('#adminPasswordSubmit')?.addEventListener('click', submit);
@@ -1253,7 +1311,6 @@ async function ensureAdminUnlocked(action) {
 
 async function openInviteManageDialog() {
   document.getElementById('inviteManageOverlay')?.remove();
-  await saveAdminPasswordToCloud(getAdminPassword());
   const adminPassword = getAdminPassword();
 
   const overlay = document.createElement('div');
@@ -1402,7 +1459,7 @@ function openAdminPasswordChangeDialog() {
       <button id="adminChangePasswordSubmit" class="primary" type="button">保存新密码</button>
       <button id="adminChangePasswordCancel" class="ghost" type="button">取消</button>
       <div id="adminChangePasswordError" class="auth-error"></div>
-      <span class="auth-hint">新密码会保存到云端和本地；清理浏览器数据后会从云端恢复，不会自动回到默认密码。</span>
+      <span class="auth-hint">新密码至少 8 位，保存后由云端统一验证。</span>
     </div>
   `;
   document.body.appendChild(overlay);
@@ -1410,18 +1467,12 @@ function openAdminPasswordChangeDialog() {
   const newInput = overlay.querySelector('#adminNewPasswordInput');
   const confirmInput = overlay.querySelector('#adminConfirmPasswordInput');
   const error = overlay.querySelector('#adminChangePasswordError');
-  const submit = () => {
+  const submit = async () => {
     const oldPass = String(oldInput?.value || '').trim();
     const newPass = String(newInput?.value || '').trim();
     const confirmPass = String(confirmInput?.value || '').trim();
-    if (oldPass !== getAdminPassword()) {
-      error.textContent = '当前管理密码错误。';
-      oldInput.value = '';
-      oldInput.focus();
-      return;
-    }
-    if (newPass.length < 4) {
-      error.textContent = '新密码至少 4 位。';
+    if (newPass.length < 8) {
+      error.textContent = '新密码至少 8 位。';
       newInput.focus();
       return;
     }
@@ -1431,11 +1482,25 @@ function openAdminPasswordChangeDialog() {
       confirmInput.focus();
       return;
     }
-    setAdminPassword(newPass);
-    sessionStorage.setItem(ADMIN_AUTH_KEY, 'ok');
-    error.style.color = '#16a34a';
-    error.textContent = '管理密码已修改，并已保存到云端。';
-    setTimeout(() => overlay.remove(), 700);
+    const button = overlay.querySelector('#adminChangePasswordSubmit');
+    button.disabled = true;
+    error.textContent = '正在保存...';
+    try {
+      const changed = await changeAdminPassword(oldPass, newPass);
+      if (!changed) {
+        error.textContent = '当前管理密码错误。';
+        oldInput.value = '';
+        oldInput.focus();
+        button.disabled = false;
+        return;
+      }
+      error.style.color = '#16a34a';
+      error.textContent = '管理密码已修改，并已保存到云端。';
+      setTimeout(() => overlay.remove(), 700);
+    } catch (err) {
+      error.textContent = err.message || '保存失败，请稍后重试。';
+      button.disabled = false;
+    }
   };
   overlay.querySelector('#adminChangePasswordSubmit')?.addEventListener('click', submit);
   overlay.querySelector('#adminChangePasswordCancel')?.addEventListener('click', () => overlay.remove());
@@ -2248,6 +2313,10 @@ function simplifyQuestionForExport(q) {
     source: normalized.source,
     source_stem: normalized.source_stem,
     custom: Boolean(normalized.custom),
+    lockOptions: normalized.lockOptions,
+    paperId: normalized.paperId,
+    materialId: normalized.materialId,
+    material: questionMaterial(normalized),
   };
 }
 
@@ -2648,7 +2717,10 @@ async function refreshHistoryRecordsList(overlay) {
   list.querySelectorAll('.history-resume').forEach(btn => btn.addEventListener('click', async () => {
     btn.disabled = true;
     const full = await loadHistoryRecord(btn.dataset.id);
-    if (full) resumeFromHistory(full);
+    if (full) {
+      const resumed = await resumeFromHistory(full);
+      if (resumed === false) btn.disabled = false;
+    }
     else { btn.disabled = false; alert('记录加载失败，请稍后重试。'); }
   }));
   list.querySelectorAll('.history-delete').forEach(btn => btn.addEventListener('click', async () => {
@@ -2690,7 +2762,7 @@ function renderHistoryRecordDetail(record) {
   overlay.querySelector('#historyDetailClose')?.addEventListener('click', () => overlay.remove());
 }
 
-function resumeFromHistory(record) {
+async function resumeFromHistory(record) {
   if (!record || !Array.isArray(record.pool) || !record.pool.length) {
     alert('这条记录没有可继续的题目。');
     return;
@@ -2698,7 +2770,13 @@ function resumeFromHistory(record) {
   // 覆盖当前进度前，若本地另有一份不同的、做过题的未完成进度，先存档，避免顶掉正在进行的那轮。
   const existing = getLocalProgressState();
   if (existing && Number(existing.roundId || existing.savedAt || 0) !== Number(record.roundId || record.savedAt || 0)) {
-    archiveRoundIfAttempted(existing);
+    let archiveSafe = false;
+    try { archiveSafe = await archiveRoundIfAttempted(existing); } catch (err) {}
+    if (!archiveSafe) {
+      alert('历史记录暂存失败，当前进度已保留。请释放浏览器存储空间后重试。');
+      return false;
+    }
+    await clearSavedProgress();
   }
   // 组装回写的进度 payload：剥掉历史专用字段，标记 _fromCloud 放宽恢复匹配。
   const payload = { ...record };
@@ -2713,6 +2791,7 @@ function resumeFromHistory(record) {
     try { saveSettings(payload.settings); } catch (err) {}
   }
   window.location.href = 'practice.html';
+  return true;
 }
 
 

@@ -90,6 +90,9 @@ function normalizeQuestion(raw = {}, fallback = {}) {
     reference,
     id,
     lockOptions: Boolean(raw.lockOptions || fallback.lockOptions),
+    paperId: String(raw.paperId ?? fallback.paperId ?? ''),
+    materialId: String(raw.materialId ?? fallback.materialId ?? ''),
+    ...(raw.material || fallback.material ? { material: raw.material || fallback.material } : {}),
     custom: Boolean(raw.custom || fallback.custom || id.startsWith('custom_')),
   };
 }

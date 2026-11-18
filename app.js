@@ -11,6 +11,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 
 function bindHome() {
+  initCet6Home();
   initTopics();
   updateStats();
   // PWA 安装按钮
@@ -149,9 +150,14 @@ function bindPractice() {
     try { await archiveRoundIfAttempted(getLocalProgressState()); } catch (err) {}
     window.location.href = 'index.html';
   });
-  $('restartBtn')?.addEventListener('click', () => {
+  $('restartBtn')?.addEventListener('click', async () => {
     // 重开本轮：若当前轮做过题，先存档历史，再清空重建。一题没做的空轮不归档。
-    archiveRoundIfAttempted(getLocalProgressState());
+    let archiveSafe = false;
+    try { archiveSafe = await archiveRoundIfAttempted(getLocalProgressState()); } catch (err) {}
+    if (!archiveSafe) {
+      alert('历史记录暂存失败，当前进度已保留。请释放浏览器存储空间后重试。');
+      return;
+    }
     clearSavedProgress();
     startQuiz(readSettings(), { resume: false });
   });
@@ -167,6 +173,7 @@ function bindPractice() {
   $('explanationInput')?.addEventListener('input', saveCurrentExplanation);
   $('addCommentBtn')?.addEventListener('click', addCurrentComment);
   $('fillAnswerInput')?.addEventListener('input', saveTextAnswerDraft);
+  $('fillAnswerInput')?.addEventListener('input', () => syncMaterialSelection?.());
   $('fillAnswerInput')?.addEventListener('keydown', (event) => { if (event.key === 'Enter') submitAnswer(false); });
   $('shortAnswerInput')?.addEventListener('input', saveTextAnswerDraft);
   $('commentInput')?.addEventListener('keydown', (event) => {
@@ -188,14 +195,20 @@ function bindPractice() {
 }
 
 // 页面卸载/切走时：练习页若做过题则存档历史（移动端 pagehide 比 beforeunload 更可靠），
-// 并 flush 未写出的进度/元信息。archiveRoundCloudBeacon 用 fetch keepalive，适配卸载场景。
+// 并 flush 未写出的进度/元信息。两个事件通常会连续触发，只处理一次。
+let pageExitHandled = false;
 function handlePageHide() {
-  if (document.body?.dataset.page === 'practice') archiveRoundIfAttempted(getLocalProgressState());
+  if (pageExitHandled) return;
+  pageExitHandled = true;
+  if (document.body?.dataset.page === 'practice') {
+    archiveRoundIfAttempted(getLocalProgressState(), { unload: true });
+  }
   flushProgressToCloud();
   flushMetaToCloud();
 }
 window.addEventListener('pagehide', handlePageHide);
 window.addEventListener('beforeunload', handlePageHide);
+window.addEventListener('pageshow', () => { pageExitHandled = false; });
 
 const page = document.body.dataset.page;
 if (page === 'home') setupPasswordGate(bindHome);

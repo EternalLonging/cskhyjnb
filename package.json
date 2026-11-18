@@ -5,6 +5,7 @@
   "author": "超时空辉夜姬",
   "main": "electron-main.js",
   "scripts": {
+    "test": "node --test",
     "start": "electron .",
     "build": "electron-builder"
   },
