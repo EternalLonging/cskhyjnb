@@ -110,6 +110,50 @@ class FullPaperParser(HTMLParser):
             self.current.append(data)
 
 
+def format_full_transcript(sentences):
+    """Keep all source words while separating headings, questions and prose."""
+    text = ' '.join(sentences)
+    heading = r'\b(?:Conversation|Passage|Recording)\s+(?:one|two|three|[123])\b[.,]?'
+    section = r'\bSection\s+[ABC]\b[.,]?(?=\s+Directions\b)'
+    question = r'\bQuestions?\s+\d+\b'
+    text = re.sub(f'({heading}|{section})', r'\n\n\1\n\n', text, flags=re.I)
+    text = re.sub(f'(?={question})', '\n\n', text, flags=re.I)
+    paragraphs = []
+    for block in re.split(r'\n\s*\n', text):
+        block = block.strip()
+        if not block:
+            continue
+        # A numbered question ends at its question mark; the next recording
+        # sometimes starts without an explicit heading in the public source.
+        if re.match(question, block, re.I) and '?' in block:
+            prompt, block = block.split('?', 1)
+            paragraphs.append(prompt + '?')
+            block = block.strip()
+        if not block:
+            continue
+        if re.fullmatch(f'(?:{heading}|{section})', block, re.I):
+            paragraphs.append(block)
+            continue
+        # Build short paragraphs from complete sentences, retaining abbreviations.
+        phrases = re.split(r'(?<=[.!?])\s+(?=[A-Z"\u201c])', block)
+        current = []
+        for phrase in phrases:
+            if phrase.endswith('?'):
+                if current:
+                    paragraphs.append(' '.join(current))
+                    current = []
+                paragraphs.append(phrase)
+                continue
+            current.append(phrase)
+            paragraph = ' '.join(current)
+            if (len(current) >= 3 or len(paragraph) >= 320) and not re.search(r'\b(?:Dr|Mr|Mrs|Ms|Prof|St)\.$', paragraph):
+                paragraphs.append(paragraph)
+                current = []
+        if current:
+            paragraphs.append(' '.join(current))
+    return '\n\n'.join(paragraphs)
+
+
 def main():
     output = {}
     for paper_id, segments in PAPERS.items():
@@ -139,7 +183,7 @@ def main():
             html = raw.decode('gb18030')
         parser = FullPaperParser()
         parser.feed(html)
-        english = ' '.join(parser.sentences)
+        english = format_full_transcript(parser.sentences)
         if len(english) < 10000:
             raise RuntimeError(f'Full transcript not found at {url}')
         paper_id = '-'.join(source_id.split('-')[:-1] + [source_id.split('-')[-1].zfill(2)])

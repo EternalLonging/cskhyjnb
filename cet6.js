@@ -12,8 +12,14 @@ function renderCet6Transcript(q) {
     const unavailable = window.CET6_TRANSCRIPTS_UNAVAILABLE?.[q?.paperId];
     return unavailable ? `<p class="cet6-transcript-unavailable">${escapeHtml(unavailable)}</p>` : '';
   }
-  return `<details class="cet6-transcript"><summary>听力原文 · ${escapeHtml(segment.title)}（${segment.start}–${segment.end}）</summary>
-    <p>${escapeHtml(segment.english)}</p>
+  const paragraphs = segment.english.split(/\n\s*\n/).filter(text => text.trim());
+  const body = paragraphs.map(text => {
+    const heading = /^(?:(?:Conversation|Passage|Recording)\s+(?:one|two|three|[123])|Section\s+[ABC])[.,]?$/i.test(text.trim());
+    return heading ? `<h4>${escapeHtml(text)}</h4>` : `<p>${escapeHtml(text)}</p>`;
+  }).join('');
+  const title = segment.title === 'Full paper' ? '整套听力' : segment.title;
+  return `<details class="cet6-transcript"><summary>听力原文 · ${escapeHtml(title)}（${segment.start}–${segment.end}）</summary>
+    <div class="cet6-transcript-body" lang="en">${body}</div>
     <a href="${escapeHtml(segment.source)}" target="_blank" rel="noopener">原文来源 ↗</a></details>`;
 }
 

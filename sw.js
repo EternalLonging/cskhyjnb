@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quiz-v23';
+const CACHE_NAME = 'quiz-v24';
 const SHELL_ASSETS = [
   '.','index.html','practice.html','style.css','manifest.json','3.png',
   'questions_computer_org_choice.js','questions_computer_org_fill.js','questions.js','questions_xi_jinping.js','cet6-data.js','cet6-transcripts.js','cet6.js','config.js','utils.js','data.js','sync.js','state.js','ui.js','topic-manager.js','local-ai.js','manual.js','app.js',
