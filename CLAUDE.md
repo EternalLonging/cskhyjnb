@@ -175,6 +175,8 @@ Fill/short grading is tolerant: it normalizes away case, whitespace, full/half-w
 
 ## Question Bank
 
+`questions_professional_english.js` adds 204 single-choice questions for course `专业外语`: CH1 has 19, CH2–CH9 have 20 each, and `期中随堂测试` has 25. Both HTML pages load it before `config.js`; the service worker caches it. It contains the source stems, four options, and the document's platform answer keys, with option order locked. The source's Chinese glosses and explanatory notes are not imported. Rebuild it with `python tools/import-professional-english.py <review.docx>`; the importer checks chapter counts and matches every answer word against its selected option.
+
 1120 total questions (1047 base + 73 计算机组成原理). Covers 毛概 + 数据库 + 编译原理 + 计算机组成原理. Two additional files loaded before `questions.js`:
 
 | File | Content |

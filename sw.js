@@ -1,7 +1,7 @@
-const CACHE_NAME = 'quiz-v24';
+const CACHE_NAME = 'quiz-v25';
 const SHELL_ASSETS = [
   '.','index.html','practice.html','style.css','manifest.json','3.png',
-  'questions_computer_org_choice.js','questions_computer_org_fill.js','questions.js','questions_xi_jinping.js','cet6-data.js','cet6-transcripts.js','cet6.js','config.js','utils.js','data.js','sync.js','state.js','ui.js','topic-manager.js','local-ai.js','manual.js','app.js',
+  'questions_computer_org_choice.js','questions_computer_org_fill.js','questions.js','questions_xi_jinping.js','questions_professional_english.js','cet6-data.js','cet6-transcripts.js','cet6.js','config.js','utils.js','data.js','sync.js','state.js','ui.js','topic-manager.js','local-ai.js','manual.js','app.js',
 ];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(SHELL_ASSETS)).then(() => self.skipWaiting()));
